@@ -6,7 +6,7 @@ export const environment = {
     production: false,
 
     services:{
-        fishStatCultSpecCountries: "/assets/data/FishStatCultSpecCountries200326.json",
+        fishStatCultSpecCountries: "assets/data/FishStatSpecCountries.json",
     }
 
 };

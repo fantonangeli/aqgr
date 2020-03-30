@@ -23,6 +23,7 @@ export class AppComponent {
         this._fishstatService.getAll().subscribe(
             (data)=>{
                 fishdata=data;
+                console.table(data);
             },
             (error)=>{
                 console.log("Network error: ", error);
