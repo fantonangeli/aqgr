@@ -1,0 +1,29 @@
+<table class="table table-hover table-responsive-md table-sm">
+    <thead>
+        <tr>
+            <th scope="col">FAO Area</th>
+            <th scope="col">Species</th>
+            <th scope="col">FTypes</th>
+            <th scope="col">Strains</th>
+            <th scope="col">Captive</th>
+            <th scope="col">Wild</th>
+            <!-- <th scope="col">Country</th> -->
+            <!-- <th scope="col">Species</th> -->
+            <!-- <th scope="col">FTypes</th> -->
+            <!-- <th scope="col">Strains</th> -->
+            <!-- <th scope="col">Captive</th> -->
+            <!-- <th scope="col">Wild</th> -->
+
+        </tr>
+    </thead>
+    <tbody *ngFor="let element of data">
+        <tr>
+            <td class="font-italic">{{element.FAOarea}}</td>
+            <td class="font-italic">{{element.Species}}</td>
+            <td class="font-italic">{{element.FTypes}}</td>
+            <td class="font-italic">{{element.Strains}}</td>
+            <td class="font-italic">{{element.Captive}}</td>
+            <td class="font-italic">{{element.Wild}}</td>
+        </tr>
+    </tbody>
+</table>

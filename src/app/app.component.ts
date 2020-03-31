@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import  * as jsonata  from 'jsonata';
+import { DynamicHTMLModule, DynamicHTMLComponent } from './core/components/dynamic-html';
 import {FishStatCultSpecCountriesService} from './services/fish-stat-cult-spec-countries.service';
 
 @Component({
@@ -8,6 +8,7 @@ import {FishStatCultSpecCountriesService} from './services/fish-stat-cult-spec-c
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
+    fishdata=[];
     private _fishstatService;
 
     constructor(data: FishStatCultSpecCountriesService){
@@ -18,11 +19,9 @@ export class AppComponent {
 
     
     fetch() {
-        let fishdata;
-
         this._fishstatService.getAll().subscribe(
             (data)=>{
-                fishdata=data;
+                this.fishdata=data;
                 console.table(data);
             },
             (error)=>{
