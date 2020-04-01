@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DynamicHTMLModule, DynamicHTMLComponent } from './core/components/dynamic-html';
 import { FishStatTableComponent } from './components/fish-stat-table/fish-stat-table.component';
+import { RowComponent } from './components/fish-stat-table/row/row.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FishStatTableComponent
+    FishStatTableComponent,
+    RowComponent,
   ],
   imports: [
     BrowserModule,

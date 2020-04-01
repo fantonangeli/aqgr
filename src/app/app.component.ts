@@ -5,7 +5,7 @@ import {FishStatCultSpecCountriesService} from './services/fish-stat-cult-spec-c
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.sass']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
     fishdata=[];
