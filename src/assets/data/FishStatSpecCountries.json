@@ -2145,9 +2145,11 @@
   {
     "FAOarea": "Former USSR area - Inland waters",
     "Species": 6,
-    "Data": {
-      "Country": "Un. Sov. Soc. Rep.",
-      "Species": 6
-    }
+    "Data": [
+      {
+        "Country": "Un. Sov. Soc. Rep.",
+        "Species": 6
+      }
+    ]
   }
 ]
