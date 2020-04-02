@@ -9,6 +9,7 @@ import {FishStatCultSpecCountriesService} from './services/fish-stat-cult-spec-c
 })
 export class AppComponent {
     fishdata=[];
+    fishTableData=[];
     private _fishstatService;
 
     constructor(data: FishStatCultSpecCountriesService){
@@ -17,12 +18,44 @@ export class AppComponent {
         this.fetch();
     }
 
+
+    /**
+     * load data for the table and set it to fishTableData
+     *
+     * @param {Object[]} data the data from the service
+     */
+    loadTableData(data){
+        if(!data) return;
+
+        return data.map((e)=>{
+            return [
+                e.FAOarea,
+                e.Species,
+                e.FTypes,
+                e.Strains,
+                e.Captive,
+                e.Wild,
+                (e.Data || []).map((c)=>{
+                    return [
+                        c.Country,
+                        c.Species,
+                        c.FTypes,
+                        c.Strains,
+                        c.Captive,
+                        c.Wild,
+                    ];
+                })
+
+            ];
+        });
+    }
+
     
     fetch() {
         this._fishstatService.getAll().subscribe(
             (data)=>{
                 this.fishdata=data;
-                console.table(data);
+                this.fishTableData=this.loadTableData(data);
             },
             (error)=>{
                 console.log("Network error: ", error);

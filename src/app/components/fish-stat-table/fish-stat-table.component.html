@@ -1,49 +1,35 @@
-<table class="fao-expandtable table table-hover table-responsive-md table-sm">
-    <thead>
-        <tr>
-            <th scope="col">FAO Area</th>
-            <th scope="col">Species</th>
-            <th scope="col">FTypes</th>
-            <th scope="col">Strains</th>
-            <th scope="col">Captive</th>
-            <th scope="col">Wild</th>
-        </tr>
-    </thead>
-    <tbody>
-        <ng-container *ngFor="let element of data">
-            <tr class="accordion-toggle" (click)="expandElement(element)" [ngClass]="{collapsed:!element.toggle}">
-                <td class="font-italic">{{element.FAOarea}}</td>
-                <td class="font-italic">{{element.Species}}</td>
-                <td class="font-italic">{{element.FTypes}}</td>
-                <td class="font-italic">{{element.Strains}}</td>
-                <td class="font-italic">{{element.Captive}}</td>
-                <td class="font-italic">{{element.Wild}}</td>
+<div class="table-responsive">
+    <table class="fao-expandtable table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th *ngFor="let colname of columns">{{colname}}</th>
             </tr>
-            <tr class="hide-table-padding" *ngIf="element.toggle">
-                <td colspan="6">
-                    <table class="fao-expandtable-child table table-hover table-responsive-md table-sm">
-                        <thead>
-                            <th scope="col">Country</th>
-                            <th scope="col">Species</th>
-                            <th scope="col">FTypes</th>
-                            <th scope="col">Strains</th>
-                            <th scope="col">Captive</th>
-                            <th scope="col">Wild</th>
-                        </thead>
-                        <tbody>
-                            <tr *ngFor="let child of element.Data">
-                                <td class="font-italic">{{child.Country}}</td>
-                                <td class="font-italic">{{child.Species}}</td>
-                                <td class="font-italic">{{child.FTypes}}</td>
-                                <td class="font-italic">{{child.Strains}}</td>
-                                <td class="font-italic">{{child.Captive}}</td>
-                                <td class="font-italic">{{child.Wild}}</td>
-                            </tr>
-                        </tbody>
-                    </table>
+        </thead>
+        <tbody>
+            <ng-container *ngFor="let element of data">
+                <tr class="accordion-toggle" (click)="expandElement(element)" [ngClass]="{collapsed:!element.toggle}">
+                    <ng-container  *ngFor="let field of element; let first = first; let last = last ">
+                        <td *ngIf="!last">{{field}}</td>
+                    </ng-container>
+                </tr>
+                <tr class="hide-table-padding" *ngIf="element.toggle">
+                    <td colspan="6">
+                        <table class="fao-expandtable-child compact dataTable tableComponent">
+                            <thead>
+                                <tr>
+                                    <th scope="col" *ngFor="let colname of childColumns">{{colname}}</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let child of element[element.length-1]">
+                                        <td *ngFor="let cfield of child">{{cfield}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
 
-                </td>
-            </tr>
-        </ng-container>
-    </tbody>
-</table>
+                    </td>
+                </tr>
+            </ng-container>
+        </tbody>
+    </table>
+</div>
