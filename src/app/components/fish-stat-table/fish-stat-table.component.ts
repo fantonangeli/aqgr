@@ -19,11 +19,13 @@ export class FishStatTableComponent implements OnInit {
      * @param {Object} element the element to expand
      */
     expandElement(element){
+        let initialV=element.toggle;
+
         for (var i = 0, len = this.data.length; i < len; i++) {
             this.data[i].toggle=false;
         }
 
-        element.toggle = true;
+        element.toggle = !initialV;
     }
 
   ngOnInit() {

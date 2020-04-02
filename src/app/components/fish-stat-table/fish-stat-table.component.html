@@ -7,22 +7,22 @@
         </thead>
         <tbody>
             <ng-container *ngFor="let element of data">
-                <tr class="accordion-toggle" (click)="expandElement(element)" [ngClass]="{collapsed:!element.toggle}">
+                <tr (click)="expandElement(element)">
                     <ng-container  *ngFor="let field of element; let first = first; let last = last ">
-                        <td *ngIf="!last">{{field}}</td>
+                        <td *ngIf="!last" class="text-truncate">{{field}}</td>
                     </ng-container>
                 </tr>
                 <tr class="hide-table-padding" *ngIf="element.toggle">
                     <td colspan="6">
                         <table class="fao-expandtable-child compact dataTable tableComponent">
-                            <thead>
+                            <thead *ngIf="childColumns.length">
                                 <tr>
                                     <th scope="col" *ngFor="let colname of childColumns">{{colname}}</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr *ngFor="let child of element[element.length-1]">
-                                        <td *ngFor="let cfield of child">{{cfield}}</td>
+                                        <td *ngFor="let cfield of child" class="text-truncate">{{cfield}}</td>
                                 </tr>
                             </tbody>
                         </table>
