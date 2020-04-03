@@ -27,5 +27,6 @@
 <div class="">
    <select multiple="" size="6" class="w-100">
         <option *ngFor="let item of selectedElements">{{item.name}}</option>
+        <option *ngIf="!selectedElements.length">All</option>
 </select> 
 </div>
