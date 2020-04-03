@@ -12,23 +12,13 @@
                         <td *ngIf="!last" class="text-truncate">{{field}}</td>
                     </ng-container>
                 </tr>
-                <tr class="hide-table-padding" *ngIf="element.toggle">
-                    <td colspan="6">
-                        <table class="fao-expandtable-child compact dataTable tableComponent">
-                            <thead *ngIf="childColumns.length">
-                                <tr>
-                                    <th scope="col" *ngFor="let colname of childColumns">{{colname}}</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr *ngFor="let child of element[element.length-1]">
-                                        <td *ngFor="let cfield of child" class="text-truncate">{{cfield}}</td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                    </td>
-                </tr>
+                <ng-container *ngIf="element.toggle">
+                    <tr *ngFor="let child of element[element.length-1]" class="bg-white">
+                        <ng-container  *ngFor="let cfield of child; let first = first; let last = last ">
+                            <td [ngClass]="{'pl-4':first}" class="text-truncate">{{cfield}}</td>
+                        </ng-container>
+                    </tr>
+                </ng-container>
             </ng-container>
         </tbody>
     </table>
