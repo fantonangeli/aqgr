@@ -7,6 +7,7 @@ export const environment = {
 
     services:{
         fishStatCultSpecCountries: "assets/data/FishStatSpecCountries.json",
+        species: "assets/data/FishStatCultSpec.json",
     }
 
 };

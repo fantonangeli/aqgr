@@ -1,0 +1,31 @@
+<div>
+    Species:
+</div>
+<ng-select 
+    [items]="elements" 
+    bindLabel="name" 
+    [multiple]="true" 
+    class="fao-multiselect" 
+    [(ngModel)]="selectedElements" 
+    placeholder="All" 
+    [closeOnSelect]="false">
+
+    <ng-template ng-option-tmp let-item="item" let-item$="item$" let-index="index">
+        <input id="item-{{index}}" type="checkbox" [ngModel]="item$.selected"/> {{item.name}}
+    </ng-template>    
+    
+    <ng-template ng-label-tmp let-item="item">
+    </ng-template>
+
+    <ng-template ng-multi-label-tmp let-items="items" let-clear="clear">
+        <div *ngIf="items.length > 0" class="count">
+            <span class="ng-value-label">{{items.length}}/{{elements.length}}</span>
+        </div>
+    </ng-template>
+</ng-select>
+<br>
+<div class="">
+   <select multiple="" size="6" class="w-100">
+        <option *ngFor="let item of selectedElements">{{item.name}}</option>
+</select> 
+</div>

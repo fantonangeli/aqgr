@@ -10,12 +10,13 @@ import {FishStatCultSpecCountriesService} from './services/fish-stat-cult-spec-c
 export class AppComponent {
     fishdata=[];
     fishTableData=[];
+    species=[];
     private _fishstatService;
 
     constructor(data: FishStatCultSpecCountriesService){
         this._fishstatService=data;
 
-        this.fetch();
+        this.fetchStats();
     }
 
 
@@ -51,7 +52,11 @@ export class AppComponent {
     }
 
     
-    fetch() {
+    /**
+     * fetch the countries and load them in this._fishstatService
+     *
+     */
+    fetchStats() {
         this._fishstatService.getAll().subscribe(
             (data)=>{
                 this.fishdata=data;

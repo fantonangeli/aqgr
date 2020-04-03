@@ -1,0 +1,2438 @@
+[
+  {
+    "name": "Japanese kelp",
+    "value": "LNJ"
+  },
+  {
+    "name": "Eucheuma seaweeds nei",
+    "value": "EMX"
+  },
+  {
+    "name": "Grass carp(=White amur)",
+    "value": "FCG"
+  },
+  {
+    "name": "Cupped oysters nei",
+    "value": "OYC"
+  },
+  {
+    "name": "Japanese carpet shell",
+    "value": "CLJ"
+  },
+  {
+    "name": "Silver carp",
+    "value": "SVC"
+  },
+  {
+    "name": "Bighead carp",
+    "value": "BIC"
+  },
+  {
+    "name": "Gracilaria seaweeds",
+    "value": "GLS"
+  },
+  {
+    "name": "Common carp",
+    "value": "FCP"
+  },
+  {
+    "name": "[Carassius spp]",
+    "value": "WDX"
+  },
+  {
+    "name": "Catla",
+    "value": "CTT"
+  },
+  {
+    "name": "Scallops nei",
+    "value": "SCX"
+  },
+  {
+    "name": "Nori nei",
+    "value": "FYS"
+  },
+  {
+    "name": "Wakame",
+    "value": "UDP"
+  },
+  {
+    "name": "Elkhorn sea moss",
+    "value": "EMA"
+  },
+  {
+    "name": "Pangas catfishes nei",
+    "value": "PGZ"
+  },
+  {
+    "name": "Atlantic salmon",
+    "value": "SAL"
+  },
+  {
+    "name": "Milkfish",
+    "value": "MIL"
+  },
+  {
+    "name": "Nile tilapia",
+    "value": "TLN"
+  },
+  {
+    "name": "Red swamp crawfish",
+    "value": "RCW"
+  },
+  {
+    "name": "Whiteleg shrimp",
+    "value": "PNV"
+  },
+  {
+    "name": "Roho labeo",
+    "value": "LRH"
+  },
+  {
+    "name": "Sea mussels nei",
+    "value": "MSX"
+  },
+  {
+    "name": "Constricted tagelus",
+    "value": "SVT"
+  },
+  {
+    "name": "Torpedo-shaped catfishes nei",
+    "value": "CTO"
+  },
+  {
+    "name": "Freshwaterishes nei",
+    "value": "FRF"
+  },
+  {
+    "name": "Wuchang bream",
+    "value": "WUB"
+  },
+  {
+    "name": "Chinese mitten crab",
+    "value": "ERS"
+  },
+  {
+    "name": "Marine molluscs nei",
+    "value": "MOL"
+  },
+  {
+    "name": "Black carp",
+    "value": "BKC"
+  },
+  {
+    "name": "Seaweeds nei",
+    "value": "SWX"
+  },
+  {
+    "name": "Laver (Nori)",
+    "value": "PRT"
+  },
+  {
+    "name": "Striped catfish",
+    "value": "PGS"
+  },
+  {
+    "name": "Snakehead",
+    "value": "CNA"
+  },
+  {
+    "name": "Yellow catfish",
+    "value": "YCH"
+  },
+  {
+    "name": "Marineishes nei",
+    "value": "MZZ"
+  },
+  {
+    "name": "Largemouth black bass",
+    "value": "MPS"
+  },
+  {
+    "name": "Cyprinids nei",
+    "value": "FCY"
+  },
+  {
+    "name": "Blue-Nile tilapia, hybrid",
+    "value": "OXW"
+  },
+  {
+    "name": "Pond loach",
+    "value": "KUR"
+  },
+  {
+    "name": "Amur catfish",
+    "value": "SRO"
+  },
+  {
+    "name": "Asian swamp eel",
+    "value": "FLT"
+  },
+  {
+    "name": "Blood cockle",
+    "value": "BLC"
+  },
+  {
+    "name": "Chilean mussel",
+    "value": "MYC"
+  },
+  {
+    "name": "Mandarinish",
+    "value": "SIN"
+  },
+  {
+    "name": "Tilapias nei",
+    "value": "TLP"
+  },
+  {
+    "name": "Chinese softshell turtle",
+    "value": "TTS"
+  },
+  {
+    "name": "Pacific cupped oyster",
+    "value": "OYG"
+  },
+  {
+    "name": "Giant tiger prawn",
+    "value": "GIT"
+  },
+  {
+    "name": "Sea snails",
+    "value": "RPN"
+  },
+  {
+    "name": "Oriental river prawn",
+    "value": "MNX"
+  },
+  {
+    "name": "Channel catfish",
+    "value": "ITP"
+  },
+  {
+    "name": "Japanese sea cucumber",
+    "value": "CUJ"
+  },
+  {
+    "name": "Japanese eel",
+    "value": "ELJ"
+  },
+  {
+    "name": "Mrigal carp",
+    "value": "CMG"
+  },
+  {
+    "name": "Fusiform sargassum",
+    "value": "GQB"
+  },
+  {
+    "name": "Mullets nei",
+    "value": "MUL"
+  },
+  {
+    "name": "Large yellow croaker",
+    "value": "LYC"
+  },
+  {
+    "name": "Rainbow trout",
+    "value": "TRR"
+  },
+  {
+    "name": "Coho(=Silver) salmon",
+    "value": "COH"
+  },
+  {
+    "name": "Japanese seabass",
+    "value": "BAJ"
+  },
+  {
+    "name": "North African catfish",
+    "value": "CLZ"
+  },
+  {
+    "name": "Green mud crab",
+    "value": "YAR"
+  },
+  {
+    "name": "Abalones nei",
+    "value": "ABX"
+  },
+  {
+    "name": "Giant gourami",
+    "value": "FGG"
+  },
+  {
+    "name": "Japanese amberjack",
+    "value": "AMJ"
+  },
+  {
+    "name": "Giant river prawn",
+    "value": "PRF"
+  },
+  {
+    "name": "Yesso scallop",
+    "value": "JSC"
+  },
+  {
+    "name": "Groupers nei",
+    "value": "GPX"
+  },
+  {
+    "name": "Snubnose pompano",
+    "value": "POO"
+  },
+  {
+    "name": "Portunus swimcrabs nei",
+    "value": "CRS"
+  },
+  {
+    "name": "American cupped oyster",
+    "value": "OYA"
+  },
+  {
+    "name": "Spiny eucheuma",
+    "value": "EMI"
+  },
+  {
+    "name": "Cachama",
+    "value": "CSM"
+  },
+  {
+    "name": "Africa-bighead catfish, hybrid",
+    "value": "CGM"
+  },
+  {
+    "name": "European seabass",
+    "value": "BSS"
+  },
+  {
+    "name": "New Zealand mussel",
+    "value": "MUZ"
+  },
+  {
+    "name": "Penaeus shrimps nei",
+    "value": "PEN"
+  },
+  {
+    "name": "Chinese mystery snail",
+    "value": "GFZ"
+  },
+  {
+    "name": "Freshwater siluroids nei",
+    "value": "FSI"
+  },
+  {
+    "name": "Frogs",
+    "value": "FRG"
+  },
+  {
+    "name": "Green mussel",
+    "value": "MSV"
+  },
+  {
+    "name": "Sturgeons nei",
+    "value": "STU"
+  },
+  {
+    "name": "Jellyfishes nei",
+    "value": "JEL"
+  },
+  {
+    "name": "Pirapatinga",
+    "value": "CSD"
+  },
+  {
+    "name": "Porgies, seabreams nei",
+    "value": "SBX"
+  },
+  {
+    "name": "Korean mussel",
+    "value": "MUK"
+  },
+  {
+    "name": "Spirulina nei",
+    "value": "SIZ"
+  },
+  {
+    "name": "Metapenaeus shrimps nei",
+    "value": "MET"
+  },
+  {
+    "name": "Swan mussel",
+    "value": "SWT"
+  },
+  {
+    "name": "Red drum",
+    "value": "RDM"
+  },
+  {
+    "name": "Freshwater prawns, shrimps nei",
+    "value": "PPZ"
+  },
+  {
+    "name": "Indo-Pacific swamp crab",
+    "value": "MUD"
+  },
+  {
+    "name": "Mediterranean mussel",
+    "value": "MSM"
+  },
+  {
+    "name": "Silver seabream",
+    "value": "GSU"
+  },
+  {
+    "name": "Clams, etc. nei",
+    "value": "CLX"
+  },
+  {
+    "name": "Gilthead seabream",
+    "value": "SBG"
+  },
+  {
+    "name": "Lefteyelounders nei",
+    "value": "LEF"
+  },
+  {
+    "name": "Blue mussel",
+    "value": "MUS"
+  },
+  {
+    "name": "Kuruma prawn",
+    "value": "KUP"
+  },
+  {
+    "name": "Japanese hard clam",
+    "value": "HCJ"
+  },
+  {
+    "name": "River and lake turtles nei",
+    "value": "TUL"
+  },
+  {
+    "name": "Turbot",
+    "value": "TUR"
+  },
+  {
+    "name": "Aquatic invertebrates nei",
+    "value": "INV"
+  },
+  {
+    "name": "Cobia",
+    "value": "CBA"
+  },
+  {
+    "name": "Striped snakehead",
+    "value": "FSS"
+  },
+  {
+    "name": "Climbing perch",
+    "value": "FPC"
+  },
+  {
+    "name": "Silver barb",
+    "value": "PTG"
+  },
+  {
+    "name": "Bastard halibut",
+    "value": "BAH"
+  },
+  {
+    "name": "Mozambique tilapia",
+    "value": "TLM"
+  },
+  {
+    "name": "Fleshy prawn",
+    "value": "FLP"
+  },
+  {
+    "name": "Tambacu, hybrid",
+    "value": "TXY"
+  },
+  {
+    "name": "Indonesian snakehead",
+    "value": "FIS"
+  },
+  {
+    "name": "Nilem carp",
+    "value": "FCN"
+  },
+  {
+    "name": "Orangefin labeo",
+    "value": "LCB"
+  },
+  {
+    "name": "Amberjacks nei",
+    "value": "AMX"
+  },
+  {
+    "name": "Barramundi(=Giant seaperch)",
+    "value": "GIP"
+  },
+  {
+    "name": "Meagre",
+    "value": "MGR"
+  },
+  {
+    "name": "Freshwater molluscs nei",
+    "value": "MOF"
+  },
+  {
+    "name": "Tiger pufferfish",
+    "value": "TXK"
+  },
+  {
+    "name": "Northern quahog(=Hard clam)",
+    "value": "CLH"
+  },
+  {
+    "name": "Slipper cupped oyster",
+    "value": "CSI"
+  },
+  {
+    "name": "Korean rockfish",
+    "value": "SFL"
+  },
+  {
+    "name": "Asian clam",
+    "value": "CMA"
+  },
+  {
+    "name": "Chinese longsnout catfish",
+    "value": "LLZ"
+  },
+  {
+    "name": "Clearhead icefish",
+    "value": "PRS"
+  },
+  {
+    "name": "Pangas catfish",
+    "value": "PGP"
+  },
+  {
+    "name": "Banana prawn",
+    "value": "PBA"
+  },
+  {
+    "name": "Flathead grey mullet",
+    "value": "MUF"
+  },
+  {
+    "name": "Sea squirts nei",
+    "value": "SSX"
+  },
+  {
+    "name": "Salmonids nei",
+    "value": "SLZ"
+  },
+  {
+    "name": "South American rock mussel",
+    "value": "MSL"
+  },
+  {
+    "name": "Pen shells nei",
+    "value": "TQY"
+  },
+  {
+    "name": "Nile perch",
+    "value": "NIP"
+  },
+  {
+    "name": "Pacific bluefin tuna",
+    "value": "PBF"
+  },
+  {
+    "name": "Orange mud crab",
+    "value": "YLW"
+  },
+  {
+    "name": "Marine crabs nei",
+    "value": "CRA"
+  },
+  {
+    "name": "Righteyelounders nei",
+    "value": "PLZ"
+  },
+  {
+    "name": "Chinook(=Spring=King) salmon",
+    "value": "CHI"
+  },
+  {
+    "name": "Pacu",
+    "value": "CSO"
+  },
+  {
+    "name": "Snakeskin gourami",
+    "value": "FGS"
+  },
+  {
+    "name": "Pond smelt",
+    "value": "PSM"
+  },
+  {
+    "name": "Peruvian calico scallop",
+    "value": "SCQ"
+  },
+  {
+    "name": "Trouts nei",
+    "value": "TRO"
+  },
+  {
+    "name": "Fourfinger threadfin",
+    "value": "FOT"
+  },
+  {
+    "name": "Snakeheads(=Murrels) nei",
+    "value": "FSN"
+  },
+  {
+    "name": "Sea urchins nei",
+    "value": "URC"
+  },
+  {
+    "name": "Stinging catfish",
+    "value": "HTF"
+  },
+  {
+    "name": "Philippine catfish",
+    "value": "CBT"
+  },
+  {
+    "name": "Southern bluefin tuna",
+    "value": "SBF"
+  },
+  {
+    "name": "Reticulate knifefish",
+    "value": "ONP"
+  },
+  {
+    "name": "Mangrove red snapper",
+    "value": "RES"
+  },
+  {
+    "name": "Japanese seabream",
+    "value": "REV"
+  },
+  {
+    "name": "Aba",
+    "value": "OGN"
+  },
+  {
+    "name": "Tambatinga, hybrid",
+    "value": "TXZ"
+  },
+  {
+    "name": "John's snapper",
+    "value": "LJH"
+  },
+  {
+    "name": "Obscure pufferfish",
+    "value": "TZO"
+  },
+  {
+    "name": "[Capsosiphonulvescens]",
+    "value": "UEC"
+  },
+  {
+    "name": "Green laver",
+    "value": "MTN"
+  },
+  {
+    "name": "Kissing gourami",
+    "value": "FGO"
+  },
+  {
+    "name": "Asian barbs nei",
+    "value": "FAB"
+  },
+  {
+    "name": "Small scale mud carp",
+    "value": "RNM"
+  },
+  {
+    "name": "African bonytongue",
+    "value": "HTN"
+  },
+  {
+    "name": "Cortez oyster",
+    "value": "OYR"
+  },
+  {
+    "name": "Asian redtail catfish",
+    "value": "MYN"
+  },
+  {
+    "name": "Olive barb",
+    "value": "PUS"
+  },
+  {
+    "name": "Tilapia shiranus",
+    "value": "OIH"
+  },
+  {
+    "name": "Flat and cupped oysters nei",
+    "value": "OST"
+  },
+  {
+    "name": "Ayu sweetfish",
+    "value": "PCA"
+  },
+  {
+    "name": "Citharinus nei",
+    "value": "CIV"
+  },
+  {
+    "name": "[Brycon spp]",
+    "value": "BXH"
+  },
+  {
+    "name": "Upsidedown catfishes",
+    "value": "CSY"
+  },
+  {
+    "name": "Isok barb",
+    "value": "PRJ"
+  },
+  {
+    "name": "Characins nei",
+    "value": "CHA"
+  },
+  {
+    "name": "Atlantic bluefin tuna",
+    "value": "BFT"
+  },
+  {
+    "name": "Whitefishes nei",
+    "value": "WHF"
+  },
+  {
+    "name": "Striped bass, hybrid",
+    "value": "SBH"
+  },
+  {
+    "name": "Arctic char",
+    "value": "ACH"
+  },
+  {
+    "name": "White trevally",
+    "value": "TRZ"
+  },
+  {
+    "name": "Grass-eaters nei",
+    "value": "DSE"
+  },
+  {
+    "name": "Hoven's carp",
+    "value": "FCH"
+  },
+  {
+    "name": "Arapaima",
+    "value": "ARP"
+  },
+  {
+    "name": "Finfishes nei",
+    "value": "FIN"
+  },
+  {
+    "name": "Inflated ark",
+    "value": "ACB"
+  },
+  {
+    "name": "Three spotted tilapia",
+    "value": "STA"
+  },
+  {
+    "name": "Shi drum",
+    "value": "COB"
+  },
+  {
+    "name": "Indian backwater oyster",
+    "value": "OYI"
+  },
+  {
+    "name": "Manipur osteobrama",
+    "value": "OBL"
+  },
+  {
+    "name": "Mud carp",
+    "value": "MUC"
+  },
+  {
+    "name": "Fragile codium",
+    "value": "KII"
+  },
+  {
+    "name": "Speckled shrimp",
+    "value": "MPN"
+  },
+  {
+    "name": "[Leporinus spp]",
+    "value": "LXZ"
+  },
+  {
+    "name": "Kafue pike",
+    "value": "HED"
+  },
+  {
+    "name": "Australian mussel",
+    "value": "MYA"
+  },
+  {
+    "name": "Bright green nori",
+    "value": "EOW"
+  },
+  {
+    "name": "[Brycon amazonicus]",
+    "value": "BZH"
+  },
+  {
+    "name": "Prochilods nei",
+    "value": "PRL"
+  },
+  {
+    "name": "Salmonoids nei",
+    "value": "SLX"
+  },
+  {
+    "name": "Grooved carpet shell",
+    "value": "CTG"
+  },
+  {
+    "name": "Redbreast tilapia",
+    "value": "TLR"
+  },
+  {
+    "name": "Jacks, crevalles nei",
+    "value": "TRE"
+  },
+  {
+    "name": "Netted prochilod",
+    "value": "PLR"
+  },
+  {
+    "name": "Parachanna snakeheads nei",
+    "value": "QRX"
+  },
+  {
+    "name": "Indian white prawn",
+    "value": "PNI"
+  },
+  {
+    "name": "European eel",
+    "value": "ELE"
+  },
+  {
+    "name": "Roach",
+    "value": "FRO"
+  },
+  {
+    "name": "Common edible cockle",
+    "value": "COC"
+  },
+  {
+    "name": "Chars nei",
+    "value": "CHR"
+  },
+  {
+    "name": "Blackhead seabream",
+    "value": "MLM"
+  },
+  {
+    "name": "American bullrog",
+    "value": "FOK"
+  },
+  {
+    "name": "Aquatic plants nei",
+    "value": "APL"
+  },
+  {
+    "name": "Atlantic halibut",
+    "value": "HAL"
+  },
+  {
+    "name": "Catfishes nei",
+    "value": "CAF"
+  },
+  {
+    "name": "Brown seaweeds",
+    "value": "SWB"
+  },
+  {
+    "name": "Cholga mussel",
+    "value": "MSC"
+  },
+  {
+    "name": "Tropical spiny lobsters nei",
+    "value": "SLV"
+  },
+  {
+    "name": "Blue shrimp",
+    "value": "PNS"
+  },
+  {
+    "name": "Blue tilapia",
+    "value": "OEA"
+  },
+  {
+    "name": "Red porgy",
+    "value": "RPG"
+  },
+  {
+    "name": "Blacklip pearl oyster",
+    "value": "PNM"
+  },
+  {
+    "name": "Perlemoen abalone",
+    "value": "ABP"
+  },
+  {
+    "name": "Mangrove cupped oyster",
+    "value": "OYM"
+  },
+  {
+    "name": "Choro mussel",
+    "value": "CHC"
+  },
+  {
+    "name": "Wallago",
+    "value": "WAA"
+  },
+  {
+    "name": "Red abalone",
+    "value": "ABF"
+  },
+  {
+    "name": "Senegalese sole",
+    "value": "OAL"
+  },
+  {
+    "name": "Sea trout",
+    "value": "TRS"
+  },
+  {
+    "name": "Longfin tilapia",
+    "value": "ORM"
+  },
+  {
+    "name": "Crucian carp",
+    "value": "FCC"
+  },
+  {
+    "name": "Black prochilodus",
+    "value": "QPN"
+  },
+  {
+    "name": "Caulerpa seaweeds",
+    "value": "CAU"
+  },
+  {
+    "name": "Freshwater mussel shells",
+    "value": "FSH"
+  },
+  {
+    "name": "East Asian bullfrog",
+    "value": "ZHB"
+  },
+  {
+    "name": "Spotted snakehead",
+    "value": "CNP"
+  },
+  {
+    "name": "Tench",
+    "value": "FTE"
+  },
+  {
+    "name": "Pacific geoduck",
+    "value": "GEC"
+  },
+  {
+    "name": "[Hoplias spp]",
+    "value": "HVW"
+  },
+  {
+    "name": "Marble goby",
+    "value": "GBM"
+  },
+  {
+    "name": "Japanese jack mackerel",
+    "value": "JJM"
+  },
+  {
+    "name": "[Oplegnathusasciatus]",
+    "value": "OLF"
+  },
+  {
+    "name": "Spotted rose snapper",
+    "value": "LJS"
+  },
+  {
+    "name": "European flat oyster",
+    "value": "OYF"
+  },
+  {
+    "name": "Bronzeeatherback",
+    "value": "ONN"
+  },
+  {
+    "name": "Great snakehead",
+    "value": "KNA"
+  },
+  {
+    "name": "Warty gracilaria",
+    "value": "GJW"
+  },
+  {
+    "name": "Spotted sorubim",
+    "value": "UDC"
+  },
+  {
+    "name": "Northern pike",
+    "value": "FPI"
+  },
+  {
+    "name": "Banded astyanax",
+    "value": "AXF"
+  },
+  {
+    "name": "Brook trout",
+    "value": "SVF"
+  },
+  {
+    "name": "Sand gaper",
+    "value": "CLS"
+  },
+  {
+    "name": "European whitefish",
+    "value": "PLN"
+  },
+  {
+    "name": "Butter clam",
+    "value": "BCL"
+  },
+  {
+    "name": "Freshwater bream",
+    "value": "FBM"
+  },
+  {
+    "name": "Sea cucumbers nei",
+    "value": "CUX"
+  },
+  {
+    "name": "Wels(=Som) catfish",
+    "value": "SOM"
+  },
+  {
+    "name": "Atlantic cod",
+    "value": "COD"
+  },
+  {
+    "name": "Filefishes, leatherjackets nei",
+    "value": "FFX"
+  },
+  {
+    "name": "Convict grouper",
+    "value": "EIF"
+  },
+  {
+    "name": "Goldfish",
+    "value": "CGO"
+  },
+  {
+    "name": "Florida pompano",
+    "value": "POM"
+  },
+  {
+    "name": "Longfin yellowtail",
+    "value": "YTL"
+  },
+  {
+    "name": "Pike-perch",
+    "value": "FPP"
+  },
+  {
+    "name": "Chileanlat oyster",
+    "value": "OCH"
+  },
+  {
+    "name": "Orange-spotted grouper",
+    "value": "ENI"
+  },
+  {
+    "name": "Snappers nei",
+    "value": "SNA"
+  },
+  {
+    "name": "European perch",
+    "value": "FPE"
+  },
+  {
+    "name": "Black bullhead",
+    "value": "ITM"
+  },
+  {
+    "name": "River eels nei",
+    "value": "ELX"
+  },
+  {
+    "name": "[Oreochromis tanganicae]",
+    "value": "OIT"
+  },
+  {
+    "name": "Sabaki tilapia",
+    "value": "TLL"
+  },
+  {
+    "name": "Algerian barb",
+    "value": "BBK"
+  },
+  {
+    "name": "Dotted gizzard shad",
+    "value": "DOD"
+  },
+  {
+    "name": "Groupers, seabasses nei",
+    "value": "BSX"
+  },
+  {
+    "name": "Siberian sturgeon",
+    "value": "APB"
+  },
+  {
+    "name": "Silver perch",
+    "value": "BYB"
+  },
+  {
+    "name": "Pacific chub mackerel",
+    "value": "MAS"
+  },
+  {
+    "name": "[Haematococcus pluvialis]",
+    "value": "HZP"
+  },
+  {
+    "name": "Kelee shad",
+    "value": "HIX"
+  },
+  {
+    "name": "Masu(=Cherry) salmon",
+    "value": "CHE"
+  },
+  {
+    "name": "Scorpionfishes, redfishes nei",
+    "value": "SCO"
+  },
+  {
+    "name": "Gasar cupped oyster",
+    "value": "OGZ"
+  },
+  {
+    "name": "Atlantic ditch shrimp",
+    "value": "PVR"
+  },
+  {
+    "name": "Blackchin tilapia",
+    "value": "SAH"
+  },
+  {
+    "name": "Red claw crayfish",
+    "value": "CRP"
+  },
+  {
+    "name": "Greasyback shrimp",
+    "value": "MPE"
+  },
+  {
+    "name": "Monsoon river prawn",
+    "value": "MBM"
+  },
+  {
+    "name": "Pullet carpet shell",
+    "value": "CTS"
+  },
+  {
+    "name": "Spinefeet(=Rabbitfishes) nei",
+    "value": "SPI"
+  },
+  {
+    "name": "Clown knifefish",
+    "value": "NCC"
+  },
+  {
+    "name": "Blackspot(=red) seabream",
+    "value": "SBR"
+  },
+  {
+    "name": "Sharpsnout seabream",
+    "value": "SHR"
+  },
+  {
+    "name": "Sea belt",
+    "value": "LQX"
+  },
+  {
+    "name": "Malabar grouper",
+    "value": "MAR"
+  },
+  {
+    "name": "Snappers, jobfishes nei",
+    "value": "SNX"
+  },
+  {
+    "name": "Danube sturgeon(=Osetr)",
+    "value": "APG"
+  },
+  {
+    "name": "Barbel",
+    "value": "PTB"
+  },
+  {
+    "name": "Bluespotted seabream",
+    "value": "BSC"
+  },
+  {
+    "name": "Pink dentex",
+    "value": "DEP"
+  },
+  {
+    "name": "Roaches nei",
+    "value": "FRX"
+  },
+  {
+    "name": "Mi-iuy (brown) croaker",
+    "value": "MIH"
+  },
+  {
+    "name": "American yellow perch",
+    "value": "FPY"
+  },
+  {
+    "name": "Sandfish",
+    "value": "HFC"
+  },
+  {
+    "name": "Rainbow abalone",
+    "value": "DZS"
+  },
+  {
+    "name": "Sorubims nei",
+    "value": "UPY"
+  },
+  {
+    "name": "[Hypsibarbus spp]",
+    "value": "YHX"
+  },
+  {
+    "name": "[Brycon cephalus]",
+    "value": "BNC"
+  },
+  {
+    "name": "Slender wart weed",
+    "value": "GZG"
+  },
+  {
+    "name": "[Hatcheria macraei]",
+    "value": "HTM"
+  },
+  {
+    "name": "[Cichla spp]",
+    "value": "IGX"
+  },
+  {
+    "name": "Crimson snapper",
+    "value": "LJT"
+  },
+  {
+    "name": "Greater amberjack",
+    "value": "AMB"
+  },
+  {
+    "name": "Redbanded seabream",
+    "value": "REA"
+  },
+  {
+    "name": "Goldlined seabream",
+    "value": "RSS"
+  },
+  {
+    "name": "Dorado",
+    "value": "SXU"
+  },
+  {
+    "name": "Hairy marron crayfish",
+    "value": "CRT"
+  },
+  {
+    "name": "Diphos sanguin",
+    "value": "OIF"
+  },
+  {
+    "name": "Globose clam",
+    "value": "MTV"
+  },
+  {
+    "name": "Common dentex",
+    "value": "DEC"
+  },
+  {
+    "name": "Bagrid catfish",
+    "value": "CSR"
+  },
+  {
+    "name": "Pacificat sleeper",
+    "value": "DOM"
+  },
+  {
+    "name": "Yellowtail amberjack",
+    "value": "YTC"
+  },
+  {
+    "name": "Mud spiny lobster",
+    "value": "LMS"
+  },
+  {
+    "name": "Babberlocks",
+    "value": "AJC"
+  },
+  {
+    "name": "[Spirulina maxima]",
+    "value": "ULX"
+  },
+  {
+    "name": "Danube crayfish",
+    "value": "CRD"
+  },
+  {
+    "name": "Broad geloina",
+    "value": "YMX"
+  },
+  {
+    "name": "Golden trevally",
+    "value": "GLT"
+  },
+  {
+    "name": "Yabby crayfish",
+    "value": "CDT"
+  },
+  {
+    "name": "Spotted coralgrouper",
+    "value": "PLM"
+  },
+  {
+    "name": "[Labeo dussumieri]",
+    "value": "LBM"
+  },
+  {
+    "name": "Tinfoil barb",
+    "value": "BFS"
+  },
+  {
+    "name": "Great Atlantic scallop",
+    "value": "SCE"
+  },
+  {
+    "name": "Adriatic sturgeon",
+    "value": "AAA"
+  },
+  {
+    "name": "Blue swimming crab",
+    "value": "SCD"
+  },
+  {
+    "name": "Orbicular batfish",
+    "value": "LXR"
+  },
+  {
+    "name": "Marine crustaceans nei",
+    "value": "CRU"
+  },
+  {
+    "name": "Pufferfishes nei",
+    "value": "TXV"
+  },
+  {
+    "name": "Pearl oyster shells nei",
+    "value": "OSH"
+  },
+  {
+    "name": "Soles nei",
+    "value": "SOX"
+  },
+  {
+    "name": "Freshwater crustaceans nei",
+    "value": "FCX"
+  },
+  {
+    "name": "Mozuku",
+    "value": "NYQ"
+  },
+  {
+    "name": "[Prochilodus mariae]",
+    "value": "QMR"
+  },
+  {
+    "name": "Atipa",
+    "value": "HSR"
+  },
+  {
+    "name": "Japanese abalone",
+    "value": "ABJ"
+  },
+  {
+    "name": "Mudfish",
+    "value": "CLN"
+  },
+  {
+    "name": "Huchen",
+    "value": "HUC"
+  },
+  {
+    "name": "Sawtooth caridina",
+    "value": "CID"
+  },
+  {
+    "name": "River prawns nei",
+    "value": "PPF"
+  },
+  {
+    "name": "Sterlet sturgeon",
+    "value": "APR"
+  },
+  {
+    "name": "Beluga",
+    "value": "HUH"
+  },
+  {
+    "name": "Mediterranean shore crab",
+    "value": "CMR"
+  },
+  {
+    "name": "Queen scallop",
+    "value": "QSC"
+  },
+  {
+    "name": "Sobaity seabream",
+    "value": "SZH"
+  },
+  {
+    "name": "[Leporinus obtusidens]",
+    "value": "LPB"
+  },
+  {
+    "name": "Streaked prochilod",
+    "value": "PLL"
+  },
+  {
+    "name": "Rudd",
+    "value": "SRE"
+  },
+  {
+    "name": "[Brycon orbignyanus]",
+    "value": "BNO"
+  },
+  {
+    "name": "Pacific lion's paw",
+    "value": "YKD"
+  },
+  {
+    "name": "Pacific littleneck clam",
+    "value": "PTS"
+  },
+  {
+    "name": "Barcoo grunter",
+    "value": "QOF"
+  },
+  {
+    "name": "Gouramis nei",
+    "value": "GOM"
+  },
+  {
+    "name": "Emperor red snapper",
+    "value": "LUB"
+  },
+  {
+    "name": "Thai mahseer",
+    "value": "TOB"
+  },
+  {
+    "name": "Sixfinger threadfin",
+    "value": "OLX"
+  },
+  {
+    "name": "Brown-marbled grouper",
+    "value": "EWF"
+  },
+  {
+    "name": "Sampa",
+    "value": "HEL"
+  },
+  {
+    "name": "Black ark",
+    "value": "NQT"
+  },
+  {
+    "name": "Tuberculate abalone",
+    "value": "HLT"
+  },
+  {
+    "name": "Flatfishes nei",
+    "value": "FLX"
+  },
+  {
+    "name": "Giant grouper",
+    "value": "EEN"
+  },
+  {
+    "name": "Speckled longfin eel",
+    "value": "AAR"
+  },
+  {
+    "name": "Bleak",
+    "value": "ALR"
+  },
+  {
+    "name": "Caribbean spiny lobster",
+    "value": "SLC"
+  },
+  {
+    "name": "Barred sorubim",
+    "value": "UDF"
+  },
+  {
+    "name": "Giant clams nei",
+    "value": "QQX"
+  },
+  {
+    "name": "Common sole",
+    "value": "SOL"
+  },
+  {
+    "name": "Euro-American crayfishes nei",
+    "value": "AYS"
+  },
+  {
+    "name": "Solen razor clams nei",
+    "value": "RAZ"
+  },
+  {
+    "name": "Sevan trout",
+    "value": "SFI"
+  },
+  {
+    "name": "Mango tilapia",
+    "value": "SAR"
+  },
+  {
+    "name": "Knifefishes",
+    "value": "FKN"
+  },
+  {
+    "name": "Pod razor shell",
+    "value": "EQE"
+  },
+  {
+    "name": "Bear paw clam",
+    "value": "HIP"
+  },
+  {
+    "name": "Unicell. chlorella green alga",
+    "value": "HQW"
+  },
+  {
+    "name": "White seabream",
+    "value": "SWA"
+  },
+  {
+    "name": "Grand ark",
+    "value": "NDN"
+  },
+  {
+    "name": "Burbot",
+    "value": "FBU"
+  },
+  {
+    "name": "African catfish",
+    "value": "HEB"
+  },
+  {
+    "name": "Hooded oyster",
+    "value": "CSC"
+  },
+  {
+    "name": "Striped bass",
+    "value": "STB"
+  },
+  {
+    "name": "River Plata mussel",
+    "value": "MSR"
+  },
+  {
+    "name": "Russell's snapper",
+    "value": "SNU"
+  },
+  {
+    "name": "Rough turban",
+    "value": "UOS"
+  },
+  {
+    "name": "Oriental cyclina",
+    "value": "KNJ"
+  },
+  {
+    "name": "Redbelly tilapia",
+    "value": "TLZ"
+  },
+  {
+    "name": "Octopuses nei",
+    "value": "OCZ"
+  },
+  {
+    "name": "Natantian decapods nei",
+    "value": "DCP"
+  },
+  {
+    "name": "Grayling",
+    "value": "TLV"
+  },
+  {
+    "name": "Giant kelp",
+    "value": "MXY"
+  },
+  {
+    "name": "Crocus giant clam",
+    "value": "DKC"
+  },
+  {
+    "name": "Noble crayfish",
+    "value": "AAS"
+  },
+  {
+    "name": "White-spotted spinefoot",
+    "value": "SCN"
+  },
+  {
+    "name": "Giant trevally",
+    "value": "NXI"
+  },
+  {
+    "name": "Starry sturgeon",
+    "value": "APE"
+  },
+  {
+    "name": "Areolate grouper",
+    "value": "EPR"
+  },
+  {
+    "name": "Jaguar guapote",
+    "value": "CHL"
+  },
+  {
+    "name": "[Dunaliella salina]",
+    "value": "UNI"
+  },
+  {
+    "name": "Pacific asaphis",
+    "value": "FSV"
+  },
+  {
+    "name": "Queen conch",
+    "value": "COO"
+  },
+  {
+    "name": "Potato grouper",
+    "value": "EWL"
+  },
+  {
+    "name": "Banded jewelfish",
+    "value": "HJF"
+  },
+  {
+    "name": "Caramote prawn",
+    "value": "TGS"
+  },
+  {
+    "name": "Green seaweeds",
+    "value": "SWG"
+  },
+  {
+    "name": "Warty venus",
+    "value": "VEV"
+  },
+  {
+    "name": "Olive green cockle",
+    "value": "KTG"
+  },
+  {
+    "name": "Spotted seabass",
+    "value": "SPU"
+  },
+  {
+    "name": "Elongate giant clam",
+    "value": "DKX"
+  },
+  {
+    "name": "Smooth giant clam",
+    "value": "TDD"
+  },
+  {
+    "name": "Green humphead parrotfish",
+    "value": "BMK"
+  },
+  {
+    "name": "Humpback grouper",
+    "value": "MPV"
+  },
+  {
+    "name": "Chub",
+    "value": "LUH"
+  },
+  {
+    "name": "Common nase",
+    "value": "HON"
+  },
+  {
+    "name": "Green crab",
+    "value": "CRG"
+  },
+  {
+    "name": "Great Mediterranean scallop",
+    "value": "SJA"
+  },
+  {
+    "name": "Peacock cichlid",
+    "value": "CLO"
+  },
+  {
+    "name": "Palaemonid shrimps nei",
+    "value": "PAL"
+  },
+  {
+    "name": "South American catfish",
+    "value": "RMQ"
+  },
+  {
+    "name": "Longrayed whiptail",
+    "value": "MCS"
+  },
+  {
+    "name": "Brine shrimp",
+    "value": "AMS"
+  },
+  {
+    "name": "Brown tiger prawn",
+    "value": "PRB"
+  },
+  {
+    "name": "Eastern king prawn",
+    "value": "PNP"
+  },
+  {
+    "name": "Eastern school shrimp",
+    "value": "MPM"
+  },
+  {
+    "name": "Flat oysters nei",
+    "value": "OYX"
+  },
+  {
+    "name": "Golden perch",
+    "value": "MCA"
+  },
+  {
+    "name": "Murray cod",
+    "value": "MCP"
+  },
+  {
+    "name": "Short-finned eel",
+    "value": "ELU"
+  },
+  {
+    "name": "Southern Australia scallop",
+    "value": "SSC"
+  },
+  {
+    "name": "Sydney cupped oyster",
+    "value": "OYS"
+  },
+  {
+    "name": "Kutum",
+    "value": "RFR"
+  },
+  {
+    "name": "Palinurid spiny lobsters nei",
+    "value": "CRW"
+  },
+  {
+    "name": "Black catfishes nei",
+    "value": "CST"
+  },
+  {
+    "name": "Argentinian silverside",
+    "value": "BCB"
+  },
+  {
+    "name": "[Brycon hilarii]",
+    "value": "BXN"
+  },
+  {
+    "name": "[Anostomoides laticeps]",
+    "value": "OIA"
+  },
+  {
+    "name": "Snooks(=Robalos) nei",
+    "value": "ROB"
+  },
+  {
+    "name": "Suckermouth catfish",
+    "value": "HSL"
+  },
+  {
+    "name": "Trahira",
+    "value": "HWU"
+  },
+  {
+    "name": "[Spirulina platensis]",
+    "value": "ULL"
+  },
+  {
+    "name": "Bayad",
+    "value": "BGJ"
+  },
+  {
+    "name": "[Porphyra columbina]",
+    "value": "YKN"
+  },
+  {
+    "name": "[Trochita spp]",
+    "value": "UDX"
+  },
+  {
+    "name": "Japanese isinglass",
+    "value": "GDY"
+  },
+  {
+    "name": "Swimming crabs, etc. nei",
+    "value": "SWM"
+  },
+  {
+    "name": "Greasy grouper",
+    "value": "EPT"
+  },
+  {
+    "name": "Hong Kong catfish",
+    "value": "CFS"
+  },
+  {
+    "name": "Hong Kong grouper",
+    "value": "EPA"
+  },
+  {
+    "name": "[Pimelodus spp]",
+    "value": "MXW"
+  },
+  {
+    "name": "Dorada",
+    "value": "BCM"
+  },
+  {
+    "name": "Duckbill catfish",
+    "value": "SBM"
+  },
+  {
+    "name": "Tarpon",
+    "value": "TAR"
+  },
+  {
+    "name": "Coarse seagrape",
+    "value": "KQR"
+  },
+  {
+    "name": "Gastropods nei",
+    "value": "GAS"
+  },
+  {
+    "name": "Buffalofishes nei",
+    "value": "BUF"
+  },
+  {
+    "name": "Southern white shrimp",
+    "value": "PNT"
+  },
+  {
+    "name": "Common pandora",
+    "value": "PAC"
+  },
+  {
+    "name": "Marbled spinefoot",
+    "value": "SRI"
+  },
+  {
+    "name": "American eel",
+    "value": "ELA"
+  },
+  {
+    "name": "Cichlasoma nei",
+    "value": "CHX"
+  },
+  {
+    "name": "Common snook",
+    "value": "SNO"
+  },
+  {
+    "name": "Gudgeons, sleepers nei",
+    "value": "FGB"
+  },
+  {
+    "name": "[Ichthyoelephas humeralis]",
+    "value": "ICH"
+  },
+  {
+    "name": "Green terror",
+    "value": "AER"
+  },
+  {
+    "name": "Rhinofishes nei",
+    "value": "RHI"
+  },
+  {
+    "name": "Yellow-belly bream",
+    "value": "YBB"
+  },
+  {
+    "name": "Anadara clams nei",
+    "value": "BLS"
+  },
+  {
+    "name": "Blackbelt cichlid",
+    "value": "CHK"
+  },
+  {
+    "name": "Lebranche mullet",
+    "value": "MUB"
+  },
+  {
+    "name": "Whitemouth croaker",
+    "value": "CKM"
+  },
+  {
+    "name": "Rooster venus",
+    "value": "FAG"
+  },
+  {
+    "name": "Akiami paste shrimp",
+    "value": "AKS"
+  },
+  {
+    "name": "Penguin wing oyster",
+    "value": "PTE"
+  },
+  {
+    "name": "Red seaweeds",
+    "value": "SWR"
+  },
+  {
+    "name": "Crimson seabream",
+    "value": "ENJ"
+  },
+  {
+    "name": "Filefishes nei",
+    "value": "FLF"
+  },
+  {
+    "name": "Gazami crab",
+    "value": "GAZ"
+  },
+  {
+    "name": "Octopuses, etc. nei",
+    "value": "OCT"
+  },
+  {
+    "name": "Spiny lobsters nei",
+    "value": "VLO"
+  },
+  {
+    "name": "Asp",
+    "value": "ASU"
+  },
+  {
+    "name": "Gelidium seaweeds",
+    "value": "GEL"
+  },
+  {
+    "name": "Horned turban",
+    "value": "TOS"
+  },
+  {
+    "name": "Jack and horse mackerels nei",
+    "value": "JAX"
+  },
+  {
+    "name": "Okhotsk atka mackerel",
+    "value": "ATK"
+  },
+  {
+    "name": "Goldsilk seabream",
+    "value": "MLB"
+  },
+  {
+    "name": "Malabar blood snapper",
+    "value": "MAL"
+  },
+  {
+    "name": "[Wallago spp]",
+    "value": "WAX"
+  },
+  {
+    "name": "[Sargassum spp]",
+    "value": "QWX"
+  },
+  {
+    "name": "Bastard halibuts nei",
+    "value": "BAX"
+  },
+  {
+    "name": "Bluegill",
+    "value": "LMM"
+  },
+  {
+    "name": "Callinectes swimcrabs nei",
+    "value": "CAL"
+  },
+  {
+    "name": "Crevalle jack",
+    "value": "CVJ"
+  },
+  {
+    "name": "Freshwater drum",
+    "value": "AGR"
+  },
+  {
+    "name": "Mojarras(=Silver-biddies) nei",
+    "value": "MOJ"
+  },
+  {
+    "name": "Pacific calico scallop",
+    "value": "SCH"
+  },
+  {
+    "name": "Silversides(=Sand smelts) nei",
+    "value": "SIL"
+  },
+  {
+    "name": "White crappie",
+    "value": "PXR"
+  },
+  {
+    "name": "Yellowfin tuna",
+    "value": "YFT"
+  },
+  {
+    "name": "Europeanlat oyster",
+    "value": "OYF"
+  },
+  {
+    "name": "Japanese meagre",
+    "value": "RYJ"
+  },
+  {
+    "name": "Vatani rohtee",
+    "value": "ROG"
+  },
+  {
+    "name": "Stromboid conchs nei",
+    "value": "CON"
+  },
+  {
+    "name": "Naked catfishes",
+    "value": "CAN"
+  },
+  {
+    "name": "Danube bleak",
+    "value": "NUC"
+  },
+  {
+    "name": "European greenrog",
+    "value": "FGI"
+  },
+  {
+    "name": "Vimba bream",
+    "value": "VIV"
+  },
+  {
+    "name": "Green tiger prawn",
+    "value": "TIP"
+  },
+  {
+    "name": "Yellowfin seabream",
+    "value": "YWF"
+  },
+  {
+    "name": "Fluted giant clam",
+    "value": "TDS"
+  },
+  {
+    "name": "Giant clam",
+    "value": "TDG"
+  },
+  {
+    "name": "[Chondracanthus chamissoi]",
+    "value": "KDM"
+  },
+  {
+    "name": "Amazon sailfin catfish",
+    "value": "QYP"
+  },
+  {
+    "name": "False abalone",
+    "value": "SNE"
+  },
+  {
+    "name": "Velvety cichlids",
+    "value": "AST"
+  },
+  {
+    "name": "Flathead lobster",
+    "value": "THQ"
+  },
+  {
+    "name": "Percoids nei",
+    "value": "PRC"
+  },
+  {
+    "name": "Scats",
+    "value": "SCT"
+  },
+  {
+    "name": "Pargo breams nei",
+    "value": "SBP"
+  },
+  {
+    "name": "Europeanlounder",
+    "value": "FLE"
+  },
+  {
+    "name": "Golden trout",
+    "value": "ONA"
+  },
+  {
+    "name": "Freshwater gobies nei",
+    "value": "FGX"
+  },
+  {
+    "name": "Harpoon seaweeds",
+    "value": "ASR"
+  },
+  {
+    "name": "Periwinkles nei",
+    "value": "PER"
+  },
+  {
+    "name": "Signal crayfish",
+    "value": "PCL"
+  },
+  {
+    "name": "Wakame nei",
+    "value": "UDS"
+  },
+  {
+    "name": "Sciaenas nei",
+    "value": "DRU"
+  },
+  {
+    "name": "Venus clams nei",
+    "value": "CLV"
+  },
+  {
+    "name": "Atlantic wolffish",
+    "value": "CAA"
+  },
+  {
+    "name": "Haddock",
+    "value": "HAD"
+  },
+  {
+    "name": "Spotted wolffish",
+    "value": "CAS"
+  },
+  {
+    "name": "Dulse",
+    "value": "RHP"
+  },
+  {
+    "name": "Drums nei",
+    "value": "UBS"
+  },
+  {
+    "name": "Green turtle",
+    "value": "TUG"
+  },
+  {
+    "name": "Bluespot mullet",
+    "value": "VMH"
+  },
+  {
+    "name": "Croakers, drums nei",
+    "value": "CDX"
+  },
+  {
+    "name": "Stony sea urchin",
+    "value": "URM"
+  },
+  {
+    "name": "Tangle",
+    "value": "LQD"
+  },
+  {
+    "name": "Common prawn",
+    "value": "CPR"
+  },
+  {
+    "name": "Common two-banded seabream",
+    "value": "CTB"
+  },
+  {
+    "name": "Bigeye trevally",
+    "value": "CXS"
+  },
+  {
+    "name": "Black grouper",
+    "value": "MAB"
+  },
+  {
+    "name": "Papuan black snapper",
+    "value": "LVG"
+  },
+  {
+    "name": "Streaked spinefoot",
+    "value": "IGV"
+  },
+  {
+    "name": "White sturgeon",
+    "value": "APN"
+  },
+  {
+    "name": "Orfe(=Ide)",
+    "value": "FID"
+  },
+  {
+    "name": "Peled",
+    "value": "CIJ"
+  },
+  {
+    "name": "Carpet shells nei",
+    "value": "TPS"
+  },
+  {
+    "name": "Red bait",
+    "value": "SSR"
+  },
+  {
+    "name": "Smooth mactra",
+    "value": "MAG"
+  },
+  {
+    "name": "[Solea spp]",
+    "value": "SOO"
+  },
+  {
+    "name": "Brill",
+    "value": "BLL"
+  },
+  {
+    "name": "Common cuttlefish",
+    "value": "CTC"
+  },
+  {
+    "name": "Golden carpet shell",
+    "value": "VNA"
+  },
+  {
+    "name": "Pepperyurrow",
+    "value": "OBN"
+  },
+  {
+    "name": "Sargo breams nei",
+    "value": "SRG"
+  },
+  {
+    "name": "Seabasses nei",
+    "value": "BSE"
+  },
+  {
+    "name": "Mississippi paddlefish",
+    "value": "PAM"
+  },
+  {
+    "name": "Chum(=Keta=Dog) salmon",
+    "value": "CHU"
+  },
+  {
+    "name": "Three-spined stickleback",
+    "value": "GTA"
+  },
+  {
+    "name": "Banded carpet shell",
+    "value": "VNR"
+  },
+  {
+    "name": "Big-scale sand smelt",
+    "value": "ATB"
+  },
+  {
+    "name": "Brown meagre",
+    "value": "CBM"
+  },
+  {
+    "name": "Donax clams",
+    "value": "DON"
+  },
+  {
+    "name": "Groundfishes nei",
+    "value": "GRO"
+  },
+  {
+    "name": "Mackerels nei",
+    "value": "MAX"
+  },
+  {
+    "name": "Pacific salmons nei",
+    "value": "ORC"
+  },
+  {
+    "name": "Pollack",
+    "value": "POL"
+  },
+  {
+    "name": "Daggertooth pike conger",
+    "value": "DPC"
+  },
+  {
+    "name": "Great blue spotted mudskipper",
+    "value": "BFP"
+  },
+  {
+    "name": "Japanese spiny lobster",
+    "value": "NUJ"
+  },
+  {
+    "name": "Malabar trevally",
+    "value": "NGS"
+  },
+  {
+    "name": "Redtail prawn",
+    "value": "REP"
+  },
+  {
+    "name": "Trumpet emperor",
+    "value": "LHI"
+  },
+  {
+    "name": "Two-spot red snapper",
+    "value": "LJB"
+  },
+  {
+    "name": "Waigieu seaperch",
+    "value": "PWG"
+  },
+  {
+    "name": "Yellowback seabream",
+    "value": "DTT"
+  },
+  {
+    "name": "Horse mussels nei",
+    "value": "MOD"
+  },
+  {
+    "name": "Squaretail mullet",
+    "value": "LZV"
+  },
+  {
+    "name": "Bluefish",
+    "value": "BLU"
+  },
+  {
+    "name": "Thinlip grey mullet",
+    "value": "MGC"
+  },
+  {
+    "name": "Ningu",
+    "value": "LOC"
+  },
+  {
+    "name": "Ripon barbel",
+    "value": "BBU"
+  },
+  {
+    "name": "Spinous spider crab",
+    "value": "SCR"
+  },
+  {
+    "name": "Striped venus",
+    "value": "SVE"
+  },
+  {
+    "name": "Variegated scallop",
+    "value": "VSC"
+  },
+  {
+    "name": "Baltic prawn",
+    "value": "PAA"
+  },
+  {
+    "name": "Freshwater breams nei",
+    "value": "FBR"
+  },
+  {
+    "name": "Gobies nei",
+    "value": "GPA"
+  },
+  {
+    "name": "Sockeye(=Red) salmon",
+    "value": "SOC"
+  },
+  {
+    "name": "Sichel",
+    "value": "FSC"
+  },
+  {
+    "name": "So-iuy mullet",
+    "value": "MYZ"
+  },
+  {
+    "name": "White bream",
+    "value": "ABK"
+  },
+  {
+    "name": "Chubs nei",
+    "value": "LEW"
+  },
+  {
+    "name": "Black seabass",
+    "value": "BSB"
+  },
+  {
+    "name": "Blue crab",
+    "value": "CRB"
+  },
+  {
+    "name": "Cockles nei",
+    "value": "COZ"
+  },
+  {
+    "name": "Northern white shrimp",
+    "value": "PST"
+  },
+  {
+    "name": "Olympia oyster",
+    "value": "OYH"
+  },
+  {
+    "name": "Pacific horse clam",
+    "value": "TQU"
+  },
+  {
+    "name": "Monkey river prawn",
+    "value": "BKR"
+  },
+  {
+    "name": "Atlantic spadefish",
+    "value": "HRF"
+  }
+]
