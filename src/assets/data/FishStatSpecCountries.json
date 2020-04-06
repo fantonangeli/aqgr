@@ -1,2155 +1,2056 @@
-[
-  {
-    "FAOarea": "Pacific, Northwest",
-    "Species": 226,
-    "FTypes": 576,
-    "Strains": 442,
-    "Captive": 69,
-    "Wild": 56,
-    "Data": [
-      {
-        "Country": "China",
-        "Species": 45,
-        "FTypes": 319,
-        "Strains": 238,
-        "Captive": 40,
-        "Wild": 32
-      },
-      {
-        "Country": "Korea, Republic of",
-        "Species": 47,
-        "FTypes": 86,
-        "Strains": 67,
-        "Captive": 7,
-        "Wild": 12
-      },
-      {
-        "Country": "Korea, Dem. People's Rep",
-        "Species": 11,
-        "FTypes": 14,
-        "Strains": 12,
-        "Captive": 2,
-        "Wild": 0
-      },
-      {
-        "Country": "Japan",
-        "Species": 28,
-        "FTypes": 40,
-        "Strains": 31,
-        "Captive": 6,
-        "Wild": 3
-      },
-      {
-        "Country": "Taiwan Province of China",
-        "Species": 69,
-        "FTypes": 63,
-        "Strains": 46,
-        "Captive": 11,
-        "Wild": 6
-      },
-      {
-        "Country": "Russianederation",
-        "Species": 7,
-        "FTypes": 54,
-        "Strains": 48,
-        "Captive": 3,
-        "Wild": 3
-      },
-      {
-        "Country": "China, Hong Kong SAR",
-        "Species": 13
-      },
-      {
-        "Country": "Un. Sov. Soc. Rep.",
-        "Species": 6
-      }
-    ]
-  },
-  {
-    "FAOarea": "Pacific, Western Central",
-    "Species": 258,
-    "FTypes": 487,
-    "Strains": 366,
-    "Captive": 49,
-    "Wild": 72,
-    "Data": [
-      {
-        "Country": "Indonesia",
-        "Species": 31,
-        "FTypes": 106,
-        "Strains": 78,
-        "Captive": 10,
-        "Wild": 18
-      },
-      {
-        "Country": "Philippines",
-        "Species": 33,
-        "FTypes": 114,
-        "Strains": 87,
-        "Captive": 12,
-        "Wild": 15
-      },
-      {
-        "Country": "Viet Nam",
-        "Species": 15,
-        "FTypes": 65,
-        "Strains": 51,
-        "Captive": 6,
-        "Wild": 8
-      },
-      {
-        "Country": "Thailand",
-        "Species": 17,
-        "FTypes": 70,
-        "Strains": 53,
-        "Captive": 5,
-        "Wild": 12
-      },
-      {
-        "Country": "Malaysia",
-        "Species": 26,
-        "FTypes": 48,
-        "Strains": 31,
-        "Captive": 7,
-        "Wild": 10
-      },
-      {
-        "Country": "Solomon Islands",
-        "Species": 2
-      },
-      {
-        "Country": "Cambodia",
-        "Species": 10,
-        "FTypes": 14,
-        "Strains": 10,
-        "Captive": 3,
-        "Wild": 1
-      },
-      {
-        "Country": "Papua New Guinea",
-        "Species": 8
-      },
-      {
-        "Country": "Australia",
-        "Species": 5,
-        "FTypes": 20,
-        "Strains": 19,
-        "Captive": 0,
-        "Wild": 1
-      },
-      {
-        "Country": "Kiribati",
-        "Species": 2
-      },
-      {
-        "Country": "Singapore",
-        "Species": 62
-      },
-      {
-        "Country": "New Caledonia",
-        "Species": 3,
-        "FTypes": 27,
-        "Strains": 20,
-        "Captive": 4,
-        "Wild": 3
-      },
-      {
-        "Country": "Brunei Darussalam",
-        "Species": 12,
-        "FTypes": 23,
-        "Strains": 17,
-        "Captive": 2,
-        "Wild": 4
-      },
-      {
-        "Country": "Fiji",
-        "Species": 9
-      },
-      {
-        "Country": "China",
-        "Species": 1
-      },
-      {
-        "Country": "Guam",
-        "Species": 4
-      },
-      {
-        "Country": "Northern Mariana Is.",
-        "Species": 1
-      },
-      {
-        "Country": "Palau",
-        "Species": 8
-      },
-      {
-        "Country": "Vanuatu",
-        "Species": 3
-      },
-      {
-        "Country": "Marshall Islands",
-        "Species": 1
-      },
-      {
-        "Country": "Tuvalu",
-        "Species": 1
-      },
-      {
-        "Country": "Nauru",
-        "Species": 1
-      },
-      {
-        "Country": "Micronesia,ed.States of",
-        "Species": 3
-      }
-    ]
-  },
-  {
-    "FAOarea": "Asia - Inland waters",
-    "Species": 569,
-    "FTypes": 907,
-    "Strains": 652,
-    "Captive": 100,
-    "Wild": 111,
-    "Data": [
-      {
-        "Country": "China",
-        "Species": 46,
-        "FTypes": 403,
-        "Strains": 308,
-        "Captive": 40,
-        "Wild": 47
-      },
-      {
-        "Country": "India",
-        "Species": 20,
-        "FTypes": 70,
-        "Strains": 46,
-        "Captive": 12,
-        "Wild": 9
-      },
-      {
-        "Country": "Viet Nam",
-        "Species": 12,
-        "FTypes": 74,
-        "Strains": 57,
-        "Captive": 6,
-        "Wild": 11
-      },
-      {
-        "Country": "Indonesia",
-        "Species": 27,
-        "FTypes": 100,
-        "Strains": 75,
-        "Captive": 10,
-        "Wild": 15
-      },
-      {
-        "Country": "Myanmar",
-        "Species": 16,
-        "FTypes": 36,
-        "Strains": 25,
-        "Captive": 7,
-        "Wild": 4
-      },
-      {
-        "Country": "Bangladesh",
-        "Species": 25,
-        "FTypes": 95,
-        "Strains": 46,
-        "Captive": 14,
-        "Wild": 8
-      },
-      {
-        "Country": "Thailand",
-        "Species": 24,
-        "FTypes": 9,
-        "Strains": 3,
-        "Captive": 0
-      },
-      {
-        "Country": "Iran (Islamic Rep. of)",
-        "Species": 8
-      },
-      {
-        "Country": "Philippines",
-        "Species": 10,
-        "FTypes": 13,
-        "Strains": 10,
-        "Captive": 0,
-        "Wild": 3
-      },
-      {
-        "Country": "Turkey",
-        "Species": 9
-      },
-      {
-        "Country": "Cambodia",
-        "Species": 19
-      },
-      {
-        "Country": "Taiwan Province of China",
-        "Species": 43,
-        "FTypes": 44,
-        "Strains": 29,
-        "Captive": 7,
-        "Wild": 8
-      },
-      {
-        "Country": "Pakistan",
-        "Species": 9
-      },
-      {
-        "Country": "Malaysia",
-        "Species": 33,
-        "FTypes": 25,
-        "Strains": 20,
-        "Captive": 3,
-        "Wild": 2
-      },
-      {
-        "Country": "Iraq",
-        "Species": 4
-      },
-      {
-        "Country": "Lao People's Dem. Rep.",
-        "Species": 14
-      },
-      {
-        "Country": "Uzbekistan",
-        "Species": 13
-      },
-      {
-        "Country": "Japan",
-        "Species": 16
-      },
-      {
-        "Country": "Sri Lanka",
-        "Species": 14,
-        "FTypes": 20,
-        "Strains": 16,
-        "Captive": 1,
-        "Wild": 3
-      },
-      {
-        "Country": "Nepal",
-        "Species": 12
-      },
-      {
-        "Country": "Korea, Republic of",
-        "Species": 23
-      },
-      {
-        "Country": "Armenia",
-        "Species": 8
-      },
-      {
-        "Country": "Saudi Arabia",
-        "Species": 4
-      },
-      {
-        "Country": "Israel",
-        "Species": 11,
-        "FTypes": 18,
-        "Strains": 17,
-        "Captive": 0,
-        "Wild": 1
-      },
-      {
-        "Country": "Afghanistan",
-        "Species": 2
-      },
-      {
-        "Country": "Korea, Dem. People's Rep",
-        "Species": 6
-      },
-      {
-        "Country": "Lebanon",
-        "Species": 4
-      },
-      {
-        "Country": "Syrian Arab Republic",
-        "Species": 6
-      },
-      {
-        "Country": "China, Hong Kong SAR",
-        "Species": 12
-      },
-      {
-        "Country": "Kyrgyzstan",
-        "Species": 9
-      },
-      {
-        "Country": "Jordan",
-        "Species": 3
-      },
-      {
-        "Country": "Kazakhstan",
-        "Species": 16
-      },
-      {
-        "Country": "Singapore",
-        "Species": 19
-      },
-      {
-        "Country": "Azerbaijan",
-        "Species": 13
-      },
-      {
-        "Country": "United Arab Emirates",
-        "Species": 5
-      },
-      {
-        "Country": "Tajikistan",
-        "Species": 9
-      },
-      {
-        "Country": "Georgia",
-        "Species": 7
-      },
-      {
-        "Country": "Kuwait",
-        "Species": 1
-      },
-      {
-        "Country": "Oman",
-        "Species": 1
-      },
-      {
-        "Country": "Bhutan",
-        "Species": 8
-      },
-      {
-        "Country": "Cyprus",
-        "Species": 5
-      },
-      {
-        "Country": "Timor-Leste",
-        "Species": 3
-      },
-      {
-        "Country": "Palestine",
-        "Species": 6
-      },
-      {
-        "Country": "Turkmenistan",
-        "Species": 3
-      },
-      {
-        "Country": "Brunei Darussalam",
-        "Species": 10
-      },
-      {
-        "Country": "Qatar",
-        "Species": 1
-      }
-    ]
-  },
-  {
-    "FAOarea": "Atlantic, Northeast",
-    "Species": 263,
-    "FTypes": 441,
-    "Strains": 359,
-    "Captive": 89,
-    "Wild": 42,
-    "Data": [
-      {
-        "Country": "Norway",
-        "Species": 15,
-        "FTypes": 40,
-        "Strains": 50,
-        "Captive": 6,
-        "Wild": 3
-      },
-      {
-        "Country": "Spain",
-        "Species": 68,
-        "FTypes": 42,
-        "Strains": 32,
-        "Captive": 5,
-        "Wild": 5
-      },
-      {
-        "Country": "United Kingdom",
-        "Species": 23,
-        "FTypes": 28,
-        "Strains": 26,
-        "Captive": 13,
-        "Wild": 5
-      },
-      {
-        "Country": "Faroe Islands",
-        "Species": 2,
-        "FTypes": 4,
-        "Strains": 10,
-        "Captive": 9,
-        "Wild": 1
-      },
-      {
-        "Country": "France",
-        "Species": 26,
-        "FTypes": 39,
-        "Strains": 31,
-        "Captive": 3,
-        "Wild": 3
-      },
-      {
-        "Country": "Netherlands",
-        "Species": 8,
-        "FTypes": 32,
-        "Strains": 23,
-        "Captive": 5,
-        "Wild": 4
-      },
-      {
-        "Country": "Ireland",
-        "Species": 16,
-        "FTypes": 25,
-        "Strains": 15,
-        "Captive": 10,
-        "Wild": 0
-      },
-      {
-        "Country": "Germany",
-        "Species": 8,
-        "FTypes": 7,
-        "Strains": 7,
-        "Captive": 0,
-        "Wild": 0
-      },
-      {
-        "Country": "Denmark",
-        "Species": 17,
-        "FTypes": 27,
-        "Strains": 22,
-        "Captive": 3,
-        "Wild": 2
-      },
-      {
-        "Country": "Russianederation",
-        "Species": 5,
-        "FTypes": 28,
-        "Strains": 14,
-        "Captive": 11,
-        "Wild": 3
-      },
-      {
-        "Country": "Finland",
-        "Species": 5,
-        "FTypes": 23,
-        "Strains": 21,
-        "Captive": 1,
-        "Wild": 1
-      },
-      {
-        "Country": "Iceland",
-        "Species": 14,
-        "FTypes": 51,
-        "Strains": 35,
-        "Captive": 11,
-        "Wild": 5
-      },
-      {
-        "Country": "Sweden",
-        "Species": 4,
-        "FTypes": 13,
-        "Strains": 8,
-        "Captive": 4,
-        "Wild": 1
-      },
-      {
-        "Country": "Portugal",
-        "Species": 43,
-        "FTypes": 75,
-        "Strains": 62,
-        "Captive": 6,
-        "Wild": 7
-      },
-      {
-        "Country": "Channel Islands",
-        "Species": 7,
-        "FTypes": 7,
-        "Strains": 3,
-        "Captive": 2,
-        "Wild": 2
-      },
-      {
-        "Country": "Kuwait",
-        "Species": 1
-      },
-      {
-        "Country": "Estonia",
-        "Species": 1
-      }
-    ]
-  },
-  {
-    "FAOarea": "Africa - Inland waters",
-    "Species": 280,
-    "FTypes": 158,
-    "Strains": 110,
-    "Captive": 23,
-    "Wild": 14,
-    "Data": [
-      {
-        "Country": "Egypt",
-        "Species": 25,
-        "FTypes": 36,
-        "Strains": 20,
-        "Captive": 4,
-        "Wild": 1
-      },
-      {
-        "Country": "Nigeria",
-        "Species": 22,
-        "FTypes": 9,
-        "Strains": 6,
-        "Captive": 3,
-        "Wild": 0
-      },
-      {
-        "Country": "Uganda",
-        "Species": 9
-      },
-      {
-        "Country": "Ghana",
-        "Species": 4
-      },
-      {
-        "Country": "Zambia",
-        "Species": 10
-      },
-      {
-        "Country": "Zimbabwe",
-        "Species": 4,
-        "FTypes": 13,
-        "Strains": 6,
-        "Captive": 4,
-        "Wild": 3
-      },
-      {
-        "Country": "Kenya",
-        "Species": 5
-      },
-      {
-        "Country": "Tanzania, United Rep. of",
-        "Species": 3
-      },
-      {
-        "Country": "Malawi",
+{
+  "Continents": [
+    {
+      "Name": "Asia",
+      "Species": 438,
+      "FTypes": 2619,
+      "SFTypes": 2992,
+      "Timeseries": {
+        "2013": 87057013.2,
+        "2014": 90995154.55,
+        "2015": 95281028.39,
+        "2016": 99260934.85,
+        "2017": 102816062.62
+      },
+      "Regions": [
+        {
+          "Name": "Eastern Asia",
+          "Species": 164,
+          "FTypes": 1032,
+          "SFTypes": 1124,
+          "Timeseries": {
+            "2013": 58402576.65,
+            "2014": 60761256.17,
+            "2015": 62969619.4,
+            "2016": 66059715.1,
+            "2017": 68576254.59
+          },
+          "Countries": [
+            {
+              "Name": "China",
+              "Species": 86,
+              "FTypes": 742,
+              "SFTypes": 768,
+              "Timeseries": {
+                "2013": 55028839,
+                "2014": 57320285,
+                "2015": 59368723,
+                "2016": 62318144.82,
+                "2017": 64358248.34
+              }
+            },
+            {
+              "Name": "Korea, Republic of",
+              "Species": 27,
+              "FTypes": 138,
+              "SFTypes": 104,
+              "Timeseries": {
+                "2013": 1509670,
+                "2014": 1540806,
+                "2015": 1639291,
+                "2016": 1814944,
+                "2017": 2301360
+              }
+            },
+            {
+              "Name": "Korea, Dem. People's Rep",
+              "Species": 6,
+              "FTypes": 43,
+              "SFTypes": 71,
+              "Timeseries": {
+                "2013": 511200,
+                "2014": 556000,
+                "2015": 556200,
+                "2016": 619200,
+                "2017": 624400
+              }
+            },
+            {
+              "Name": "Japan",
+              "Species": 21,
+              "FTypes": 78,
+              "SFTypes": 153,
+              "Timeseries": {
+                "2013": 1025945,
+                "2014": 1019930,
+                "2015": 1103816,
+                "2016": 1066197,
+                "2017": 1019908
+              }
+            },
+            {
+              "Name": "Taiwan Province of China",
+              "Species": 23,
+              "FTypes": 31,
+              "SFTypes": 28,
+              "Timeseries": {
+                "2013": 326350.65,
+                "2014": 323594.17,
+                "2015": 301006.4,
+                "2016": 240545.28,
+                "2017": 271713.25
+              }
+            },
+            {
+              "Name": "China, Hong Kong SAR",
+              "Species": 1,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 572,
+                "2014": 641,
+                "2015": 583,
+                "2016": 684,
+                "2017": 625
+              }
+            }
+          ]
+        },
+        {
+          "Name": "South-Eastern Asia",
+          "Species": 172,
+          "FTypes": 1016,
+          "SFTypes": 1214,
+          "Timeseries": {
+            "2013": 21394051.55,
+            "2014": 22498683.58,
+            "2015": 24053816.59,
+            "2016": 24274462.25,
+            "2017": 24624387.93
+          },
+          "Countries": [
+            {
+              "Name": "Indonesia",
+              "Species": 40,
+              "FTypes": 407,
+              "SFTypes": 353,
+              "Timeseries": {
+                "2013": 13269785.01,
+                "2014": 14326840.72,
+                "2015": 15606872,
+                "2016": 15948628.95,
+                "2017": 15893100
+              }
+            },
+            {
+              "Name": "Philippines",
+              "Species": 19,
+              "FTypes": 87,
+              "SFTypes": 93,
+              "Timeseries": {
+                "2013": 2368463,
+                "2014": 2334596,
+                "2015": 2345528,
+                "2016": 2198997,
+                "2017": 2235655.7
+              }
+            },
+            {
+              "Name": "Viet Nam",
+              "Species": 22,
+              "FTypes": 101,
+              "SFTypes": 142,
+              "Timeseries": {
+                "2013": 3126960,
+                "2014": 3266796,
+                "2015": 3455242.41,
+                "2016": 3563677.99,
+                "2017": 3831141.47
+              }
+            },
+            {
+              "Name": "Myanmar",
+              "Species": 16,
+              "FTypes": 73,
+              "SFTypes": 138,
+              "Timeseries": {
+                "2013": 924006,
+                "2014": 944705.83,
+                "2015": 996831.99,
+                "2016": 1017098.07,
+                "2017": 1048024.97
+              }
+            },
+            {
+              "Name": "Thailand",
+              "Species": 20,
+              "FTypes": 75,
+              "SFTypes": 143,
+              "Timeseries": {
+                "2013": 985913,
+                "2014": 888236.62,
+                "2015": 909898,
+                "2016": 875053,
+                "2017": 883925
+              }
+            },
+            {
+              "Name": "Malaysia",
+              "Species": 25,
+              "FTypes": 54,
+              "SFTypes": 88,
+              "Timeseries": {
+                "2013": 518715.13,
+                "2014": 506757.27,
+                "2015": 495613.36,
+                "2016": 396579.03,
+                "2017": 418967.28
+              }
+            },
+            {
+              "Name": "Cambodia",
+              "Species": 14,
+              "FTypes": 110,
+              "SFTypes": 167,
+              "Timeseries": {
+                "2013": 88660,
+                "2014": 118395,
+                "2015": 143270,
+                "2016": 170056,
+                "2017": 204790
+              }
+            },
+            {
+              "Name": "Lao People's Dem. Rep.",
+              "Species": 13,
+              "FTypes": 88,
+              "SFTypes": 69,
+              "Timeseries": {
+                "2013": 107950,
+                "2014": 108310,
+                "2015": 95915,
+                "2016": 99950,
+                "2017": 103950
+              }
+            },
+            {
+              "Name": "Singapore",
+              "Species": 1,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 1648.17,
+                "2014": 1954.9,
+                "2015": 2358.49,
+                "2016": 2210.03,
+                "2017": 2093.51
+              }
+            },
+            {
+              "Name": "Timor-Leste",
+              "Species": 1,
+              "FTypes": 11,
+              "SFTypes": 21,
+              "Timeseries": {
+                "2013": 1500,
+                "2014": 1500,
+                "2015": 1500,
+                "2016": 1500,
+                "2017": 1500
+              }
+            },
+            {
+              "Name": "Brunei Darussalam",
+              "Species": 1,
+              "FTypes": 10,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 451.24,
+                "2014": 591.24,
+                "2015": 787.34,
+                "2016": 712.18,
+                "2017": 1240
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Southern Asia",
+          "Species": 73,
+          "FTypes": 435,
+          "SFTypes": 493,
+          "Timeseries": {
+            "2013": 6949921,
+            "2014": 7392704,
+            "2015": 7897889,
+            "2016": 8537067,
+            "2017": 9168212.1
+          },
+          "Countries": [
+            {
+              "Name": "India",
+              "Species": 19,
+              "FTypes": 182,
+              "SFTypes": 185,
+              "Timeseries": {
+                "2013": 4554373,
+                "2014": 4892220,
+                "2015": 5262120,
+                "2016": 5701000,
+                "2017": 6180950
+              }
+            },
+            {
+              "Name": "Bangladesh",
+              "Species": 26,
+              "FTypes": 153,
+              "SFTypes": 173,
+              "Timeseries": {
+                "2013": 1857599,
+                "2014": 1953990,
+                "2015": 2058353,
+                "2016": 2201453,
+                "2017": 2330256
+              }
+            },
+            {
+              "Name": "Iran (Islamic Rep. of)",
+              "Species": 8,
+              "FTypes": 43,
+              "SFTypes": 109,
+              "Timeseries": {
+                "2013": 325062,
+                "2014": 320104,
+                "2015": 346027,
+                "2016": 398060,
+                "2017": 412835
+              }
+            },
+            {
+              "Name": "Pakistan",
+              "Species": 7,
+              "FTypes": 30,
+              "SFTypes": 8,
+              "Timeseries": {
+                "2013": 147644,
+                "2014": 147895,
+                "2015": 150671,
+                "2016": 155913,
+                "2017": 156936
+              }
+            },
+            {
+              "Name": "Sri Lanka",
+              "Species": 4,
+              "FTypes": 4,
+              "SFTypes": 18,
+              "Timeseries": {
+                "2013": 25908,
+                "2014": 31450,
+                "2015": 28579,
+                "2016": 26983,
+                "2017": 25783
+              }
+            },
+            {
+              "Name": "Nepal",
+              "Species": 8,
+              "FTypes": 18,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 35375,
+                "2014": 42435,
+                "2015": 46839,
+                "2016": 47658,
+                "2017": 54602.1
+              }
+            },
+            {
+              "Name": "Afghanistan",
+              "Species": 1,
+              "FTypes": 5,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 3960,
+                "2014": 4610,
+                "2015": 5300,
+                "2016": 6000,
+                "2017": 6850
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Western Asia",
+          "Species": 24,
+          "FTypes": 97,
+          "SFTypes": 143,
+          "Timeseries": {
+            "2013": 289083.8,
+            "2014": 316355,
+            "2015": 326122,
+            "2016": 354265,
+            "2017": 398278
+          },
+          "Countries": [
+            {
+              "Name": "Turkey",
+              "Species": 6,
+              "FTypes": 31,
+              "SFTypes": 35,
+              "Timeseries": {
+                "2013": 231672.8,
+                "2014": 230119,
+                "2015": 235046,
+                "2016": 246114,
+                "2017": 270718
+              }
+            },
+            {
+              "Name": "Saudi Arabia",
+              "Species": 4,
+              "FTypes": 27,
+              "SFTypes": 74,
+              "Timeseries": {
+                "2013": 7295,
+                "2014": 23111,
+                "2015": 29383,
+                "2016": 39350,
+                "2017": 54430
+              }
+            },
+            {
+              "Name": "Iraq",
+              "Species": 2,
+              "FTypes": 3,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 13060,
+                "2014": 26359,
+                "2015": 23403,
+                "2016": 27835,
+                "2017": 30914
+              }
+            },
+            {
+              "Name": "Armenia",
+              "Species": 3,
+              "FTypes": 24,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 10380,
+                "2014": 12492,
+                "2015": 14095,
+                "2016": 15209,
+                "2017": 15953
+              }
+            },
+            {
+              "Name": "Israel",
+              "Species": 4,
+              "FTypes": 4,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 18079,
+                "2014": 16753,
+                "2015": 16448,
+                "2016": 15396,
+                "2017": 15250
+              }
+            },
+            {
+              "Name": "Cyprus",
+              "Species": 2,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 5217,
+                "2014": 4736,
+                "2015": 5382,
+                "2016": 6556,
+                "2017": 7203
+              }
+            },
+            {
+              "Name": "United Arab Emirates",
+              "Species": 1,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 370,
+                "2014": 290,
+                "2015": 270,
+                "2016": 1710,
+                "2017": 1810
+              }
+            },
+            {
+              "Name": "Syrian Arab Republic",
+              "Species": 1,
+              "FTypes": 5,
+              "SFTypes": 19,
+              "Timeseries": {
+                "2013": 1910,
+                "2014": 1395,
+                "2015": 1095,
+                "2016": 1095,
+                "2017": 1000
+              }
+            },
+            {
+              "Name": "Lebanon",
+              "Species": 1,
+              "FTypes": 3,
+              "SFTypes": 15,
+              "Timeseries": {
+                "2013": 1100,
+                "2014": 1100,
+                "2015": 1000,
+                "2016": 1000,
+                "2017": 1000
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Central Asia",
+          "Species": 5,
+          "FTypes": 39,
+          "SFTypes": 18,
+          "Timeseries": {
+            "2013": 21380.2,
+            "2014": 26155.8,
+            "2015": 33581.4,
+            "2016": 35425.5,
+            "2017": 48930
+          },
+          "Countries": {
+            "Name": "Uzbekistan",
+            "Species": 5,
+            "FTypes": 39,
+            "SFTypes": 18,
+            "Timeseries": {
+              "2013": 21380.2,
+              "2014": 26155.8,
+              "2015": 33581.4,
+              "2016": 35425.5,
+              "2017": 48930
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Europe",
+      "Species": 130,
+      "FTypes": 311,
+      "SFTypes": 428,
+      "Timeseries": {
+        "2013": 2634378.19,
+        "2014": 2819157.31,
+        "2015": 2864971.65,
+        "2016": 2869200.41,
+        "2017": 2942423.52
+      },
+      "Regions": [
+        {
+          "Name": "Northern Europe",
+          "Species": 27,
+          "FTypes": 66,
+          "SFTypes": 54,
+          "Timeseries": {
+            "2013": 1600396.74,
+            "2014": 1710513.32,
+            "2015": 1768483.69,
+            "2016": 1713139.56,
+            "2017": 1748097.36
+          },
+          "Countries": [
+            {
+              "Name": "Norway",
+              "Species": 4,
+              "FTypes": 19,
+              "SFTypes": 21,
+              "Timeseries": {
+                "2013": 1243486.24,
+                "2014": 1330506.4,
+                "2015": 1380241.62,
+                "2016": 1325031,
+                "2017": 1307261.27
+              }
+            },
+            {
+              "Name": "United Kingdom",
+              "Species": 5,
+              "FTypes": 11,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 177239,
+                "2014": 193638.1,
+                "2015": 196795.43,
+                "2016": 183833.26,
+                "2017": 221220.44
+              }
+            },
+            {
+              "Name": "Faroe Islands",
+              "Species": 1,
+              "FTypes": 8,
+              "SFTypes": 8,
+              "Timeseries": {
+                "2013": 75821,
+                "2014": 86454,
+                "2015": 80600,
+                "2016": 83300,
+                "2017": 86800
+              }
+            },
+            {
+              "Name": "Denmark",
+              "Species": 3,
+              "FTypes": 5,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 34650,
+                "2014": 32543,
+                "2015": 33574.7,
+                "2016": 33308,
+                "2017": 35450
+              }
+            },
+            {
+              "Name": "Ireland",
+              "Species": 3,
+              "FTypes": 14,
+              "SFTypes": 12,
+              "Timeseries": {
+                "2013": 32666.3,
+                "2014": 29629.1,
+                "2015": 38204,
+                "2016": 39057.43,
+                "2017": 44503.9
+              }
+            },
+            {
+              "Name": "Finland",
+              "Species": 2,
+              "FTypes": 5,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 12242,
+                "2014": 12357,
+                "2015": 13861,
+                "2016": 13376,
+                "2017": 13579.6
+              }
+            },
+            {
+              "Name": "Iceland",
+              "Species": 3,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 6346,
+                "2014": 7979,
+                "2015": 7925,
+                "2016": 14642,
+                "2017": 20347
+              }
+            },
+            {
+              "Name": "Sweden",
+              "Species": 4,
+              "FTypes": 4,
+              "SFTypes": 13,
+              "Timeseries": {
+                "2013": 13267,
+                "2014": 12826,
+                "2015": 11911,
+                "2016": 15624,
+                "2017": 14685
+              }
+            },
+            {
+              "Name": "Lithuania",
+              "Species": 1,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 3751.1,
+                "2014": 3306.22,
+                "2015": 3667.54,
+                "2016": 3473.87,
+                "2017": 2937.95
+              }
+            },
+            {
+              "Name": "Channel Islands",
+              "Species": 1,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 928.1,
+                "2014": 1274.5,
+                "2015": 1703.4,
+                "2016": 1494,
+                "2017": 1312.2
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Southern Europe",
+          "Species": 44,
+          "FTypes": 115,
+          "SFTypes": 234,
+          "Timeseries": {
+            "2013": 498451,
+            "2014": 561408.21,
+            "2015": 573455.96,
+            "2016": 590529.53,
+            "2017": 622439.56
+          },
+          "Countries": [
+            {
+              "Name": "Spain",
+              "Species": 12,
+              "FTypes": 16,
+              "SFTypes": 29,
+              "Timeseries": {
+                "2013": 218284.17,
+                "2014": 277984.26,
+                "2015": 285148.16,
+                "2016": 276693.4,
+                "2017": 306531.54
+              }
+            },
+            {
+              "Name": "Italy",
+              "Species": 11,
+              "FTypes": 71,
+              "SFTypes": 114,
+              "Timeseries": {
+                "2013": 137873,
+                "2014": 146214.47,
+                "2015": 146230,
+                "2016": 152600,
+                "2017": 152600
+              }
+            },
+            {
+              "Name": "Greece",
+              "Species": 6,
+              "FTypes": 4,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 112067.13,
+                "2014": 102348.6,
+                "2015": 105219.9,
+                "2016": 121953.4,
+                "2017": 124033.8
+              }
+            },
+            {
+              "Name": "Croatia",
+              "Species": 4,
+              "FTypes": 6,
+              "SFTypes": 17,
+              "Timeseries": {
+                "2013": 8819,
+                "2014": 10758.29,
+                "2015": 13264.18,
+                "2016": 13578.58,
+                "2017": 13565.41
+              }
+            },
+            {
+              "Name": "Malta",
+              "Species": 2,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 4862,
+                "2014": 4466,
+                "2015": 5501,
+                "2016": 5930.21,
+                "2017": 6963.2
+              }
+            },
+            {
+              "Name": "Serbia",
+              "Species": 1,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 4435.19,
+                "2014": 5524.98,
+                "2015": 5597.83,
+                "2016": 5648.13,
+                "2017": 3761.41
+              }
+            },
+            {
+              "Name": "Bosnia and Herzegovina",
+              "Species": 1,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 2355,
+                "2014": 2861,
+                "2015": 3102,
+                "2016": 3326.7,
+                "2017": 2961.5
+              }
+            },
+            {
+              "Name": "Albania",
+              "Species": 2,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 2200,
+                "2014": 2300,
+                "2015": 2500,
+                "2016": 2700,
+                "2017": 3400
+              }
+            },
+            {
+              "Name": "Portugal",
+              "Species": 4,
+              "FTypes": 18,
+              "SFTypes": 74,
+              "Timeseries": {
+                "2013": 6489.51,
+                "2014": 7994.61,
+                "2015": 6154.89,
+                "2016": 7330.11,
+                "2017": 7355
+              }
+            },
+            {
+              "Name": "North Macedonia",
+              "Species": 1,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 1066,
+                "2014": 956,
+                "2015": 738,
+                "2016": 769,
+                "2017": 1267.7
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Eastern Europe",
+          "Species": 36,
+          "FTypes": 46,
+          "SFTypes": 23,
+          "Timeseries": {
+            "2013": 273186.85,
+            "2014": 287908.98,
+            "2015": 276265.6,
+            "2016": 305199.32,
+            "2017": 317391.6
+          },
+          "Countries": [
+            {
+              "Name": "Russian Federation",
+              "Species": 13,
+              "FTypes": 18,
+              "SFTypes": 7,
+              "Timeseries": {
+                "2013": 153788,
+                "2014": 161994,
+                "2015": 152910,
+                "2016": 171938,
+                "2017": 183442
+              }
+            },
+            {
+              "Name": "Czechia",
+              "Species": 1,
+              "FTypes": 5,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 16808.5,
+                "2014": 17833,
+                "2015": 17860,
+                "2016": 18354,
+                "2017": 18460
+              }
+            },
+            {
+              "Name": "Poland",
+              "Species": 3,
+              "FTypes": 8,
+              "SFTypes": 16,
+              "Timeseries": {
+                "2013": 32354,
+                "2014": 36936,
+                "2015": 33927,
+                "2016": 35621,
+                "2017": 36077
+              }
+            },
+            {
+              "Name": "Hungary",
+              "Species": 2,
+              "FTypes": 6,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 11682,
+                "2014": 12478,
+                "2015": 13565,
+                "2016": 13074.79,
+                "2017": 15414.4
+              }
+            },
+            {
+              "Name": "Ukraine",
+              "Species": 3,
+              "FTypes": 5,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 20478.1,
+                "2014": 21509,
+                "2015": 19675,
+                "2016": 20870.4,
+                "2017": 19539.8
+              }
+            },
+            {
+              "Name": "Belarus",
+              "Species": 1,
+              "FTypes": 4,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 10157,
+                "2014": 7121,
+                "2015": 6480.2,
+                "2016": 8842,
+                "2017": 8170
+              }
+            },
+            {
+              "Name": "Romania",
+              "Species": 4,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 8608,
+                "2014": 9077.68,
+                "2015": 9376.26,
+                "2016": 10434.33,
+                "2017": 11004.6
+              }
+            },
+            {
+              "Name": "Moldova, Republic of",
+              "Species": 4,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 7880,
+                "2014": 10296,
+                "2015": 10364,
+                "2016": 11311.4,
+                "2017": 11169.3
+              }
+            },
+            {
+              "Name": "Bulgaria",
+              "Species": 4,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 10696.25,
+                "2014": 9777.3,
+                "2015": 11182.14,
+                "2016": 13638.1,
+                "2017": 13095.2
+              }
+            },
+            {
+              "Name": "Slovakia",
+              "Species": 1,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 735,
+                "2014": 887,
+                "2015": 926,
+                "2016": 1115.3,
+                "2017": 1019.3
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Western Europe",
+          "Species": 23,
+          "FTypes": 84,
+          "SFTypes": 117,
+          "Timeseries": {
+            "2013": 262343.6,
+            "2014": 259326.8,
+            "2015": 246766.4,
+            "2016": 260332,
+            "2017": 254495
+          },
+          "Countries": [
+            {
+              "Name": "France",
+              "Species": 11,
+              "FTypes": 48,
+              "SFTypes": 46,
+              "Timeseries": {
+                "2013": 190511.6,
+                "2014": 170447.8,
+                "2015": 154332.4,
+                "2016": 157049,
+                "2017": 157048
+              }
+            },
+            {
+              "Name": "Netherlands",
+              "Species": 4,
+              "FTypes": 27,
+              "SFTypes": 34,
+              "Timeseries": {
+                "2013": 45847,
+                "2014": 62220,
+                "2015": 61900,
+                "2016": 60900,
+                "2017": 60900
+              }
+            },
+            {
+              "Name": "Germany",
+              "Species": 6,
+              "FTypes": 9,
+              "SFTypes": 37,
+              "Timeseries": {
+                "2013": 23363,
+                "2014": 24082,
+                "2015": 28049,
+                "2016": 39863,
+                "2017": 33945
+              }
+            },
+            {
+              "Name": "Austria",
+              "Species": 1,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 1322,
+                "2014": 1277,
+                "2015": 1185,
+                "2016": 1220,
+                "2017": 1302
+              }
+            },
+            {
+              "Name": "Switzerland",
+              "Species": 1,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 1300,
+                "2014": 1300,
+                "2015": 1300,
+                "2016": 1300,
+                "2017": 1300
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Africa",
+      "Species": 69,
+      "FTypes": 279,
+      "SFTypes": 290,
+      "Timeseries": {
+        "2013": 1711473,
+        "2014": 1829392.48,
+        "2015": 1948047.06,
+        "2016": 2105156.2,
+        "2017": 2194843.18
+      },
+      "Regions": [
+        {
+          "Name": "Northern Africa",
+          "Species": 16,
+          "FTypes": 120,
+          "SFTypes": 132,
+          "Timeseries": {
+            "2013": 1103918,
+            "2014": 1141195,
+            "2015": 1192023,
+            "2016": 1393676,
+            "2017": 1480247
+          },
+          "Countries": [
+            {
+              "Name": "Egypt",
+              "Species": 12,
+              "FTypes": 114,
+              "SFTypes": 120,
+              "Timeseries": {
+                "2013": 1090975,
+                "2014": 1129202,
+                "2015": 1174505,
+                "2016": 1369944,
+                "2017": 1450958
+              }
+            },
+            {
+              "Name": "Tunisia",
+              "Species": 2,
+              "FTypes": 5,
+              "SFTypes": 12,
+              "Timeseries": {
+                "2013": 10443,
+                "2014": 9993,
+                "2015": 13018,
+                "2016": 14732,
+                "2017": 20289
+              }
+            },
+            {
+              "Name": "Sudan",
+              "Species": 2,
+              "FTypes": 1,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 2500,
+                "2014": 2000,
+                "2015": 4500,
+                "2016": 9000,
+                "2017": 9000
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Western Africa",
+          "Species": 20,
+          "FTypes": 41,
+          "SFTypes": 74,
+          "Timeseries": {
+            "2013": 313821,
+            "2014": 355341,
+            "2015": 368789.66,
+            "2016": 368985,
+            "2017": 363074.66
+          },
+          "Countries": [
+            {
+              "Name": "Nigeria",
+              "Species": 14,
+              "FTypes": 24,
+              "SFTypes": 53,
+              "Timeseries": {
+                "2013": 278263,
+                "2014": 312742,
+                "2015": 316220,
+                "2016": 306169,
+                "2017": 295321
+              }
+            },
+            {
+              "Name": "Ghana",
+              "Species": 2,
+              "FTypes": 17,
+              "SFTypes": 21,
+              "Timeseries": {
+                "2013": 32100,
+                "2014": 38160,
+                "2015": 44300,
+                "2016": 52100,
+                "2017": 56800
+              }
+            },
+            {
+              "Name": "Mali",
+              "Species": 1,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 1191,
+                "2014": 1414,
+                "2015": 1960,
+                "2016": 3669,
+                "2017": 3424
+              }
+            },
+            {
+              "Name": "C�te d'Ivoire",
+              "Species": 1,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 1600,
+                "2014": 1600,
+                "2015": 1850,
+                "2016": 2840,
+                "2017": 3000
+              }
+            },
+            {
+              "Name": "Benin",
+              "Species": 2,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 667,
+                "2014": 1425,
+                "2015": 4459.66,
+                "2016": 4207,
+                "2017": 4529.66
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Eastern Africa",
+          "Species": 25,
+          "FTypes": 107,
+          "SFTypes": 75,
+          "Timeseries": {
+            "2013": 285090,
+            "2014": 322791.48,
+            "2015": 375789,
+            "2016": 330672.2,
+            "2017": 338987.6
+          },
+          "Countries": [
+            {
+              "Name": "Zanzibar",
+              "Species": 1,
+              "FTypes": 11,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 108430,
+                "2014": 127690,
+                "2015": 166650,
+                "2016": 111130,
+                "2017": 109550
+              }
+            },
+            {
+              "Name": "Uganda",
+              "Species": 2,
+              "FTypes": 6,
+              "SFTypes": 12,
+              "Timeseries": {
+                "2013": 97332,
+                "2014": 110719,
+                "2015": 117243,
+                "2016": 117840.6,
+                "2017": 112118.6
+              }
+            },
+            {
+              "Name": "Zambia",
+              "Species": 4,
+              "FTypes": 24,
+              "SFTypes": 15,
+              "Timeseries": {
+                "2013": 20091,
+                "2014": 19010,
+                "2015": 22315,
+                "2016": 28200,
+                "2017": 29800
+              }
+            },
+            {
+              "Name": "Madagascar",
+              "Species": 4,
+              "FTypes": 15,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 12444,
+                "2014": 15424,
+                "2015": 22644,
+                "2016": 25962,
+                "2017": 28236.2
+              }
+            },
+            {
+              "Name": "Zimbabwe",
+              "Species": 1,
+              "FTypes": 3,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 10000,
+                "2014": 10510,
+                "2015": 10510,
+                "2016": 10000,
+                "2017": 10215
+              }
+            },
+            {
+              "Name": "Kenya",
+              "Species": 2,
+              "FTypes": 6,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 21856,
+                "2014": 22409,
+                "2015": 17349,
+                "2016": 13906,
+                "2017": 11491
+              }
+            },
+            {
+              "Name": "Tanzania, United Rep. of",
+              "Species": 3,
+              "FTypes": 20,
+              "SFTypes": 19,
+              "Timeseries": {
+                "2013": 9674,
+                "2014": 9712,
+                "2015": 10260,
+                "2016": 11800,
+                "2017": 18800
+              }
+            },
+            {
+              "Name": "Malawi",
+              "Species": 4,
+              "FTypes": 14,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 3163,
+                "2014": 4119.48,
+                "2015": 4318,
+                "2016": 7221.6,
+                "2017": 11216.8
+              }
+            },
+            {
+              "Name": "Rwanda",
+              "Species": 1,
+              "FTypes": 2,
+              "SFTypes": 13,
+              "Timeseries": {
+                "2013": 1153,
+                "2014": 1453,
+                "2015": 1533,
+                "2016": 1453,
+                "2017": 3200
+              }
+            },
+            {
+              "Name": "Mozambique",
+              "Species": 1,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 571,
+                "2014": 1019,
+                "2015": 1123,
+                "2016": 1180,
+                "2017": 1835
+              }
+            },
+            {
+              "Name": "Burundi",
+              "Species": 1,
+              "FTypes": 6,
+              "SFTypes": 16,
+              "Timeseries": {
+                "2013": 160,
+                "2014": 160,
+                "2015": 1260,
+                "2016": 1260,
+                "2017": 1325
+              }
+            },
+            {
+              "Name": "Mauritius",
+              "Species": 1,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 216,
+                "2014": 566,
+                "2015": 584,
+                "2016": 719,
+                "2017": 1200
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Middle Africa",
+          "Species": 4,
+          "FTypes": 7,
+          "SFTypes": 9,
+          "Timeseries": {
+            "2013": 4036,
+            "2014": 4676,
+            "2015": 5708,
+            "2016": 6074,
+            "2017": 6759
+          },
+          "Countries": [
+            {
+              "Name": "Congo, Dem. Rep. of the",
+              "Species": 1,
+              "FTypes": 7,
+              "SFTypes": 9,
+              "Timeseries": {
+                "2013": 2859,
+                "2014": 2861,
+                "2015": 2946,
+                "2016": 3146,
+                "2017": 3185
+              }
+            },
+            {
+              "Name": "Angola",
+              "Species": 1,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 47,
+                "2014": 305,
+                "2015": 872,
+                "2016": 653,
+                "2017": 1299
+              }
+            },
+            {
+              "Name": "Cameroon",
+              "Species": 2,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 1130,
+                "2014": 1510,
+                "2015": 1890,
+                "2016": 2275,
+                "2017": 2275
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Southern Africa",
+          "Species": 4,
+          "FTypes": 4,
+          "SFTypes": 0,
+          "Timeseries": {
+            "2013": 4608,
+            "2014": 5389,
+            "2015": 5737.4,
+            "2016": 5749,
+            "2017": 5774.92
+          },
+          "Countries": [
+            {
+              "Name": "South Africa",
+              "Species": 3,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 4108,
+                "2014": 4489,
+                "2015": 4737.4,
+                "2016": 4700,
+                "2017": 4475.92
+              }
+            },
+            {
+              "Name": "Lesotho",
+              "Species": 1,
+              "FTypes": 4,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 500,
+                "2014": 900,
+                "2015": 1000,
+                "2016": 1049,
+                "2017": 1299
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Americas",
+      "Species": 109,
+      "FTypes": 507,
+      "SFTypes": 565,
+      "Timeseries": {
+        "2013": 2881986.95,
+        "2014": 3201097.61,
+        "2015": 3135185.22,
+        "2016": 3220510.61,
+        "2017": 3566646.75
+      },
+      "Regions": [
+        {
+          "Name": "South America",
+          "Species": 53,
+          "FTypes": 324,
+          "SFTypes": 357,
+          "Timeseries": {
+            "2013": 2060964.5,
+            "2014": 2347868.11,
+            "2015": 2271274.83,
+            "2016": 2323626.94,
+            "2017": 2517195.38
+          },
+          "Countries": [
+            {
+              "Name": "Chile",
+              "Species": 10,
+              "FTypes": 47,
+              "SFTypes": 84,
+              "Timeseries": {
+                "2013": 1010747,
+                "2014": 1178798,
+                "2015": 1057073,
+                "2016": 1049319,
+                "2017": 1218500.37
+              }
+            },
+            {
+              "Name": "Ecuador",
+              "Species": 3,
+              "FTypes": 37,
+              "SFTypes": 36,
+              "Timeseries": {
+                "2013": 331120,
+                "2014": 367100,
+                "2015": 424900,
+                "2016": 450671,
+                "2017": 464050
+              }
+            },
+            {
+              "Name": "Brazil",
+              "Species": 18,
+              "FTypes": 152,
+              "SFTypes": 115,
+              "Timeseries": {
+                "2013": 474824,
+                "2014": 561595,
+                "2015": 572645,
+                "2016": 588535,
+                "2017": 593180
+              }
+            },
+            {
+              "Name": "Peru",
+              "Species": 6,
+              "FTypes": 19,
+              "SFTypes": 29,
+              "Timeseries": {
+                "2013": 125383.47,
+                "2014": 115070.72,
+                "2015": 90532.4,
+                "2016": 99864.02,
+                "2017": 100009.46
+              }
+            },
+            {
+              "Name": "Colombia",
+              "Species": 9,
+              "FTypes": 44,
+              "SFTypes": 93,
+              "Timeseries": {
+                "2013": 88668,
+                "2014": 91262,
+                "2015": 95232,
+                "2016": 97365,
+                "2017": 99315
+              }
+            },
+            {
+              "Name": "Venezuela, Boliv Rep of",
+              "Species": 2,
+              "FTypes": 18,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 20950,
+                "2014": 23267.89,
+                "2015": 18417,
+                "2016": 25213,
+                "2017": 28260
+              }
+            },
+            {
+              "Name": "Paraguay",
+              "Species": 2,
+              "FTypes": 2,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 5700,
+                "2014": 6730,
+                "2015": 7672,
+                "2016": 7700,
+                "2017": 8978
+              }
+            },
+            {
+              "Name": "Argentina",
+              "Species": 2,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 3272.03,
+                "2014": 3544.5,
+                "2015": 3259.43,
+                "2016": 3359.92,
+                "2017": 3252.55
+              }
+            },
+            {
+              "Name": "Bolivia (Plurinat.State)",
+              "Species": 1,
+              "FTypes": 5,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 300,
+                "2014": 500,
+                "2015": 1544,
+                "2016": 1600,
+                "2017": 1650
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Northern America",
+          "Species": 25,
+          "FTypes": 77,
+          "SFTypes": 68,
+          "Timeseries": {
+            "2013": 590320,
+            "2014": 553987,
+            "2015": 606108,
+            "2016": 638779,
+            "2017": 625275
+          },
+          "Countries": [
+            {
+              "Name": "United States of America",
+              "Species": 15,
+              "FTypes": 39,
+              "SFTypes": 57,
+              "Timeseries": {
+                "2013": 424644,
+                "2014": 416495,
+                "2015": 421525,
+                "2016": 440010,
+                "2017": 434851
+              }
+            },
+            {
+              "Name": "Canada",
+              "Species": 10,
+              "FTypes": 38,
+              "SFTypes": 11,
+              "Timeseries": {
+                "2013": 165676,
+                "2014": 137492,
+                "2015": 184583,
+                "2016": 198769,
+                "2017": 190424
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Central America",
+          "Species": 24,
+          "FTypes": 95,
+          "SFTypes": 125,
+          "Timeseries": {
+            "2013": 200350.05,
+            "2014": 266951.9,
+            "2015": 224819.39,
+            "2016": 227551.67,
+            "2017": 391344.37
+          },
+          "Countries": [
+            {
+              "Name": "Mexico",
+              "Species": 11,
+              "FTypes": 25,
+              "SFTypes": 47,
+              "Timeseries": {
+                "2013": 53584.15,
+                "2014": 108782.34,
+                "2015": 82217.39,
+                "2016": 93405.67,
+                "2017": 241136.37
+              }
+            },
+            {
+              "Name": "Honduras",
+              "Species": 2,
+              "FTypes": 16,
+              "SFTypes": 26,
+              "Timeseries": {
+                "2013": 53100,
+                "2014": 61750,
+                "2015": 55100,
+                "2016": 53100,
+                "2017": 61500
+              }
+            },
+            {
+              "Name": "Nicaragua",
+              "Species": 1,
+              "FTypes": 6,
+              "SFTypes": 16,
+              "Timeseries": {
+                "2013": 26367.9,
+                "2014": 30528,
+                "2015": 24506,
+                "2016": 21178,
+                "2017": 24888
+              }
+            },
+            {
+              "Name": "Guatemala",
+              "Species": 2,
+              "FTypes": 10,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 19738,
+                "2014": 21391,
+                "2015": 22177,
+                "2016": 23409,
+                "2017": 26228
+              }
+            },
+            {
+              "Name": "Costa Rica",
+              "Species": 3,
+              "FTypes": 17,
+              "SFTypes": 36,
+              "Timeseries": {
+                "2013": 29291,
+                "2014": 25623,
+                "2015": 20885,
+                "2016": 19200,
+                "2017": 19200
+              }
+            },
+            {
+              "Name": "Panama",
+              "Species": 2,
+              "FTypes": 4,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 7934,
+                "2014": 10070,
+                "2015": 9061,
+                "2016": 8224,
+                "2017": 9322
+              }
+            },
+            {
+              "Name": "El Salvador",
+              "Species": 2,
+              "FTypes": 11,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 3255,
+                "2014": 1644,
+                "2015": 6723,
+                "2016": 7935,
+                "2017": 7970
+              }
+            },
+            {
+              "Name": "Belize",
+              "Species": 1,
+              "FTypes": 6,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 7080,
+                "2014": 7163.56,
+                "2015": 4150,
+                "2016": 1100,
+                "2017": 1100
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Caribbean",
+          "Species": 7,
+          "FTypes": 11,
+          "SFTypes": 15,
+          "Timeseries": {
+            "2013": 30352.4,
+            "2014": 32290.6,
+            "2015": 32983,
+            "2016": 30553,
+            "2017": 32832
+          },
+          "Countries": [
+            {
+              "Name": "Cuba",
+              "Species": 5,
+              "FTypes": 5,
+              "SFTypes": 15,
+              "Timeseries": {
+                "2013": 28866.5,
+                "2014": 30526.6,
+                "2015": 31298,
+                "2016": 28466,
+                "2017": 30471
+              }
+            },
+            {
+              "Name": "Haiti",
+              "Species": 1,
+              "FTypes": 6,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 700,
+                "2014": 900,
+                "2015": 1100,
+                "2016": 1160,
+                "2017": 1270
+              }
+            },
+            {
+              "Name": "Jamaica",
+              "Species": 1,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 785.9,
+                "2014": 864,
+                "2015": 585,
+                "2016": 927,
+                "2017": 1091
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "TBD",
+      "Species": 9,
+      "FTypes": 0,
+      "SFTypes": 0,
+      "Timeseries": {
+        "2013": 0,
+        "2014": 0,
+        "2015": 0,
+        "2016": 0,
+        "2017": 0
+      },
+      "Regions": {
+        "Name": "TBD",
         "Species": 9,
-        "FTypes": 18,
-        "Strains": 14,
-        "Captive": 2,
-        "Wild": 2
-      },
-      {
-        "Country": "Sudan",
-        "Species": 2
-      },
-      {
-        "Country": "Madagascar",
-        "Species": 5
-      },
-      {
-        "Country": "Mali",
-        "Species": 4
-      },
-      {
-        "Country": "Rwanda",
-        "Species": 4
-      },
-      {
-        "Country": "Congo, Dem. Rep. of the",
-        "Species": 2,
-        "FTypes": 22,
-        "Strains": 18,
-        "Captive": 2,
-        "Wild": 2
-      },
-      {
-        "Country": "Côte d'Ivoire",
-        "Species": 11
-      },
-      {
-        "Country": "Benin",
-        "Species": 7
-      },
-      {
-        "Country": "Mozambique",
-        "Species": 8,
-        "FTypes": 26,
-        "Strains": 20,
-        "Captive": 2,
-        "Wild": 4
-      },
-      {
-        "Country": "South Africa",
-        "Species": 11
-      },
-      {
-        "Country": "Burundi",
-        "Species": 2
-      },
-      {
-        "Country": "Angola",
-        "Species": 2,
-        "FTypes": 14,
-        "Strains": 10,
-        "Captive": 4,
-        "Wild": 0
-      },
-      {
-        "Country": "Lesotho",
-        "Species": 3
-      },
-      {
-        "Country": "Cameroon",
-        "Species": 8
-      },
-      {
-        "Country": "Algeria",
-        "Species": 12,
-        "FTypes": 20,
-        "Strains": 16,
-        "Captive": 2,
-        "Wild": 2
-      },
-      {
-        "Country": "Tunisia",
-        "Species": 12
-      },
-      {
-        "Country": "Morocco",
-        "Species": 9
-      },
-      {
-        "Country": "Burkinaaso",
-        "Species": 5
-      },
-      {
-        "Country": "Senegal",
-        "Species": 6
-      },
-      {
-        "Country": "Niger",
-        "Species": 2
-      },
-      {
-        "Country": "Congo",
-        "Species": 2
-      },
-      {
-        "Country": "Chad",
-        "Species": 6
-      },
-      {
-        "Country": "Guinea",
-        "Species": 3
-      },
-      {
-        "Country": "Ethiopia",
-        "Species": 5
-      },
-      {
-        "Country": "Togo",
-        "Species": 5
-      },
-      {
-        "Country": "Central African Republic",
-        "Species": 5
-      },
-      {
-        "Country": "Eswatini",
-        "Species": 9
-      },
-      {
-        "Country": "Sierra Leone",
-        "Species": 2
-      },
-      {
-        "Country": "Gabon",
-        "Species": 3
-      },
-      {
-        "Country": "Guinea-Bissau",
-        "Species": 1
-      },
-      {
-        "Country": "Liberia",
-        "Species": 5
-      },
-      {
-        "Country": "Namibia",
-        "Species": 4
-      },
-      {
-        "Country": "South Sudan",
-        "Species": 1
-      },
-      {
-        "Country": "Botswana",
-        "Species": 1
-      },
-      {
-        "Country": "Gambia",
-        "Species": 3
-      },
-      {
-        "Country": "Libya",
-        "Species": 2
-      },
-      {
-        "Country": "Equatorial Guinea",
-        "Species": 4
-      },
-      {
-        "Country": "R�union",
-        "Species": 5
-      },
-      {
-        "Country": "Mauritius",
-        "Species": 4
-      },
-      {
-        "Country": "Sudan (former)",
-        "Species": 3
-      },
-      {
-        "Country": "Spain",
-        "Species": 1
+        "FTypes": 0,
+        "SFTypes": 0,
+        "Timeseries": {
+          "2013": 0,
+          "2014": 0,
+          "2015": 0,
+          "2016": 0,
+          "2017": 0
+        },
+        "Countries": {
+          "Name": "TBD",
+          "Species": 9,
+          "FTypes": 0,
+          "SFTypes": 0,
+          "Timeseries": {
+            "2013": 0,
+            "2014": 0,
+            "2015": 0,
+            "2016": 0,
+            "2017": 0
+          }
+        }
       }
-    ]
-  },
-  {
-    "FAOarea": "Pacific, Southeast",
-    "Species": 41,
-    "FTypes": 67,
-    "Strains": 52,
-    "Captive": 11,
-    "Wild": 4,
-    "Data": [
-      {
-        "Country": "Chile",
-        "Species": 20,
-        "FTypes": 28,
-        "Strains": 22,
-        "Captive": 6,
-        "Wild": 0
-      },
-      {
-        "Country": "Ecuador",
-        "Species": 8,
-        "FTypes": 23,
-        "Strains": 18,
-        "Captive": 2,
-        "Wild": 3
-      },
-      {
-        "Country": "Peru",
-        "Species": 12,
-        "FTypes": 16,
-        "Strains": 12,
-        "Captive": 3,
-        "Wild": 1
-      },
-      {
-        "Country": "Colombia",
-        "Species": 1
-      }
-    ]
-  },
-  {
-    "FAOarea": "Indian Ocean, Western",
-    "Species": 113,
-    "FTypes": 114,
-    "Strains": 89,
-    "Captive": 10,
-    "Wild": 15,
-    "Data": [
-      {
-        "Country": "India",
-        "Species": 7,
-        "FTypes": 56,
-        "Strains": 45,
-        "Captive": 5,
-        "Wild": 6
-      },
-      {
-        "Country": "Zanzibar",
-        "Species": 4
-      },
-      {
-        "Country": "Saudi Arabia",
-        "Species": 15,
-        "FTypes": 10,
-        "Strains": 9,
-        "Captive": 1,
-        "Wild": 0
-      },
-      {
-        "Country": "Iran (Islamic Rep. of)",
-        "Species": 3,
-        "FTypes": 13,
-        "Strains": 10,
-        "Captive": 1,
-        "Wild": 2
-      },
-      {
-        "Country": "Madagascar",
-        "Species": 6,
-        "FTypes": 13,
-        "Strains": 9,
-        "Captive": 3,
-        "Wild": 1
-      },
-      {
-        "Country": "Tanzania, United Rep. of",
-        "Species": 4,
-        "FTypes": 12,
-        "Strains": 10,
-        "Captive": 0,
-        "Wild": 2
-      },
-      {
-        "Country": "United Arab Emirates",
-        "Species": 14,
-        "FTypes": 10,
-        "Strains": 6,
-        "Captive": 0,
-        "Wild": 4
-      },
-      {
-        "Country": "Mauritius",
-        "Species": 9
-      },
-      {
-        "Country": "Kenya",
-        "Species": 3
-      },
-      {
-        "Country": "Kuwait",
-        "Species": 7
-      },
-      {
-        "Country": "Pakistan",
-        "Species": 1
-      },
-      {
-        "Country": "Seychelles",
-        "Species": 2
-      },
-      {
-        "Country": "Bahrain",
-        "Species": 6
-      },
-      {
-        "Country": "Eritrea",
-        "Species": 2
-      },
-      {
-        "Country": "Mayotte",
-        "Species": 6
-      },
-      {
-        "Country": "Mozambique",
-        "Species": 5
-      },
-      {
-        "Country": "Oman",
-        "Species": 8
-      },
-      {
-        "Country": "Qatar",
-        "Species": 2
-      },
-      {
-        "Country": "R�union",
-        "Species": 8
-      },
-      {
-        "Country": "Yemen",
-        "Species": 1
-      }
-    ]
-  },
-  {
-    "FAOarea": "America, South - Inland waters",
-    "Species": 166,
-    "FTypes": 33,
-    "Strains": 25,
-    "Captive": 3,
-    "Wild": 5,
-    "Data": [
-      {
-        "Country": "Ecuador",
-        "Species": 10
-      },
-      {
-        "Country": "Brazil",
-        "Species": 33,
-        "FTypes": 10,
-        "Strains": 6,
-        "Captive": 0,
-        "Wild": 4
-      },
-      {
-        "Country": "Peru",
-        "Species": 19
-      },
-      {
-        "Country": "Colombia",
-        "Species": 18,
-        "FTypes": 23,
-        "Strains": 19,
-        "Captive": 3,
-        "Wild": 1
-      },
-      {
-        "Country": "Paraguay",
-        "Species": 12
-      },
-      {
-        "Country": "Venezuela, Boliv Rep of",
-        "Species": 10
-      },
-      {
-        "Country": "Chile",
-        "Species": 7
-      },
-      {
-        "Country": "Argentina",
-        "Species": 18
-      },
-      {
-        "Country": "Bolivia (Plurinat.State)",
-        "Species": 7
-      },
-      {
-        "Country": "Guyana",
-        "Species": 9
-      },
-      {
-        "Country": "Suriname",
-        "Species": 4
-      },
-      {
-        "Country": "Uruguay",
-        "Species": 13
-      },
-      {
-        "Country": "French Guiana",
-        "Species": 6
-      }
-    ]
-  },
-  {
-    "FAOarea": "America, North - Inland waters",
-    "Species": 169,
-    "FTypes": 71,
-    "Strains": 52,
-    "Captive": 11,
-    "Wild": 8,
-    "Data": [
-      {
-        "Country": "United States of America",
-        "Species": 15,
-        "FTypes": 14,
-        "Strains": 12,
-        "Captive": 2,
-        "Wild": 0
-      },
-      {
-        "Country": "Mexico",
-        "Species": 26,
-        "FTypes": 21,
-        "Strains": 16,
-        "Captive": 4,
-        "Wild": 1
-      },
-      {
-        "Country": "Honduras",
-        "Species": 5
-      },
-      {
-        "Country": "Cuba",
-        "Species": 9
-      },
-      {
-        "Country": "Costa Rica",
-        "Species": 10
-      },
-      {
-        "Country": "Guatemala",
-        "Species": 18,
-        "FTypes": 15,
-        "Strains": 10,
-        "Captive": 2,
-        "Wild": 3
-      },
-      {
-        "Country": "Canada",
-        "Species": 4
-      },
-      {
-        "Country": "El Salvador",
-        "Species": 5
-      },
-      {
-        "Country": "Haiti",
-        "Species": 5
-      },
-      {
-        "Country": "Jamaica",
-        "Species": 5
-      },
-      {
-        "Country": "Dominican Republic",
-        "Species": 15,
-        "FTypes": 21,
-        "Strains": 14,
-        "Captive": 3,
-        "Wild": 4
-      },
-      {
-        "Country": "Belize",
-        "Species": 2
-      },
-      {
-        "Country": "Panama",
-        "Species": 14
-      },
-      {
-        "Country": "Barbados",
-        "Species": 2
-      },
-      {
-        "Country": "Trinidad and Tobago",
-        "Species": 4
-      },
-      {
-        "Country": "Puerto Rico",
-        "Species": 8
-      },
-      {
-        "Country": "Nicaragua",
-        "Species": 4
-      },
-      {
-        "Country": "Antigua and Barbuda",
-        "Species": 1
-      },
-      {
-        "Country": "Saint Lucia",
-        "Species": 2
-      },
-      {
-        "Country": "Martinique",
-        "Species": 3
-      },
-      {
-        "Country": "Dominica",
-        "Species": 3
-      },
-      {
-        "Country": "US Virgin Islands",
-        "Species": 3
-      },
-      {
-        "Country": "Guadeloupe",
-        "Species": 2
-      },
-      {
-        "Country": "Bahamas",
-        "Species": 1
-      },
-      {
-        "Country": "Saint Kitts and Nevis",
-        "Species": 1
-      },
-      {
-        "Country": "Grenada",
-        "Species": 2
-      }
-    ]
-  },
-  {
-    "FAOarea": "Pacific, Eastern Central",
-    "Species": 72,
-    "FTypes": 100,
-    "Strains": 77,
-    "Captive": 13,
-    "Wild": 10,
-    "Data": [
-      {
-        "Country": "Mexico",
-        "Species": 18,
-        "FTypes": 13,
-        "Strains": 10,
-        "Captive": 3,
-        "Wild": 0
-      },
-      {
-        "Country": "Honduras",
-        "Species": 1,
-        "FTypes": 5,
-        "Strains": 5,
-        "Captive": 0,
-        "Wild": 0
-      },
-      {
-        "Country": "Nicaragua",
-        "Species": 2,
-        "FTypes": 24,
-        "Strains": 19,
-        "Captive": 2,
-        "Wild": 3
-      },
-      {
-        "Country": "Guatemala",
-        "Species": 5,
-        "FTypes": 18,
-        "Strains": 14,
-        "Captive": 1,
-        "Wild": 3
-      },
-      {
-        "Country": "Panama",
-        "Species": 2,
-        "FTypes": 17,
-        "Strains": 14,
-        "Captive": 3,
-        "Wild": 0
-      },
-      {
-        "Country": "Costa Rica",
-        "Species": 4,
-        "FTypes": 13,
-        "Strains": 6,
-        "Captive": 3,
-        "Wild": 4
-      },
-      {
-        "Country": "French Polynesia",
-        "Species": 10
-      },
-      {
-        "Country": "El Salvador",
-        "Species": 6,
-        "FTypes": 10,
-        "Strains": 9,
-        "Captive": 1,
-        "Wild": 0
-      },
-      {
-        "Country": "United States of America",
-        "Species": 1
-      },
-      {
-        "Country": "Tonga",
-        "Species": 8
-      },
-      {
-        "Country": "Cook Islands",
-        "Species": 8
-      },
-      {
-        "Country": "Samoa",
-        "Species": 7
-      }
-    ]
-  },
-  {
-    "FAOarea": "Indian Ocean, Eastern",
-    "Species": 69,
-    "FTypes": 161,
-    "Strains": 132,
-    "Captive": 13,
-    "Wild": 16,
-    "Data": [
-      {
-        "Country": "Bangladesh",
-        "Species": 6,
-        "FTypes": 70,
-        "Strains": 57,
-        "Captive": 4,
-        "Wild": 9
-      },
-      {
-        "Country": "India",
-        "Species": 2
-      },
-      {
-        "Country": "Thailand",
-        "Species": 7,
-        "FTypes": 33,
-        "Strains": 26,
-        "Captive": 5,
-        "Wild": 2
-      },
-      {
-        "Country": "Myanmar",
-        "Species": 9,
-        "FTypes": 21,
-        "Strains": 18,
-        "Captive": 0,
-        "Wild": 3
-      },
-      {
-        "Country": "Australia",
-        "Species": 15
-      },
-      {
-        "Country": "Malaysia",
-        "Species": 17,
-        "FTypes": 19,
-        "Strains": 16,
-        "Captive": 2,
-        "Wild": 1
-      },
-      {
-        "Country": "Sri Lanka",
-        "Species": 9,
-        "FTypes": 18,
-        "Strains": 15,
-        "Captive": 2,
-        "Wild": 1
-      },
-      {
-        "Country": "Timor-Leste",
-        "Species": 3
-      },
-      {
-        "Country": "Indonesia",
-        "Species": 1
-      }
-    ]
-  },
-  {
-    "FAOarea": "Atlantic, Western Central",
-    "Species": 81,
-    "FTypes": 162,
-    "Strains": 121,
-    "Captive": 22,
-    "Wild": 19,
-    "Data": [
-      {
-        "Country": "United States of America",
-        "Species": 5,
-        "FTypes": 20,
-        "Strains": 20,
-        "Captive": 0,
-        "Wild": 0
-      },
-      {
-        "Country": "Venezuela, Boliv Rep of",
-        "Species": 6,
-        "FTypes": 14,
-        "Strains": 10,
-        "Captive": 4,
-        "Wild": 0
-      },
-      {
-        "Country": "Cuba",
-        "Species": 4,
-        "FTypes": 21,
-        "Strains": 16,
-        "Captive": 2,
-        "Wild": 3
-      },
-      {
-        "Country": "Mexico",
-        "Species": 14,
-        "FTypes": 13,
-        "Strains": 7,
-        "Captive": 3,
-        "Wild": 3
-      },
-      {
-        "Country": "Colombia",
-        "Species": 5,
-        "FTypes": 24,
-        "Strains": 19,
-        "Captive": 1,
-        "Wild": 4
-      },
-      {
-        "Country": "Panama",
-        "Species": 2
-      },
-      {
-        "Country": "Belize",
-        "Species": 4,
-        "FTypes": 23,
-        "Strains": 15,
-        "Captive": 4,
-        "Wild": 4
-      },
-      {
-        "Country": "Dominican Republic",
-        "Species": 8,
-        "FTypes": 26,
-        "Strains": 18,
-        "Captive": 4,
-        "Wild": 4
-      },
-      {
-        "Country": "Guyana",
-        "Species": 4,
-        "FTypes": 21,
-        "Strains": 16,
-        "Captive": 4,
-        "Wild": 1
-      },
-      {
-        "Country": "Martinique",
-        "Species": 3
-      },
-      {
-        "Country": "Suriname",
-        "Species": 2
-      },
-      {
-        "Country": "Grenada",
-        "Species": 1
-      },
-      {
-        "Country": "Guadeloupe",
-        "Species": 1
-      },
-      {
-        "Country": "Saint Lucia",
-        "Species": 2
-      },
-      {
-        "Country": "Bahamas",
-        "Species": 6
-      },
-      {
-        "Country": "Saint Vincent/Grenadines",
-        "Species": 1
-      },
-      {
-        "Country": "Saint Kitts and Nevis",
-        "Species": 2
-      },
-      {
-        "Country": "Turks and Caicos Is.",
-        "Species": 2
-      },
-      {
-        "Country": "Aruba",
-        "Species": 1
-      },
-      {
-        "Country": "Bonaire/S.Eustatius/Saba",
-        "Species": 1
-      },
-      {
-        "Country": "Jamaica",
-        "Species": 2
-      },
-      {
-        "Country": "Netherlands Antilles",
-        "Species": 1
-      },
-      {
-        "Country": "Puerto Rico",
-        "Species": 4
-      }
-    ]
-  },
-  {
-    "FAOarea": "Mediterranean and Black Sea",
-    "Species": 282,
-    "FTypes": 389,
-    "Strains": 344,
-    "Captive": 36,
-    "Wild": 36,
-    "Data": [
-      {
-        "Country": "Turkey",
-        "Species": 20
-      },
-      {
-        "Country": "Italy",
-        "Species": 40,
-        "FTypes": 83,
-        "Strains": 92,
-        "Captive": 6,
-        "Wild": 4
-      },
-      {
-        "Country": "Greece",
-        "Species": 28,
-        "FTypes": 79,
-        "Strains": 72,
-        "Captive": 3,
-        "Wild": 4
-      },
-      {
-        "Country": "Tunisia",
-        "Species": 21
-      },
-      {
-        "Country": "Spain",
-        "Species": 34,
-        "FTypes": 35,
-        "Strains": 32,
-        "Captive": 5,
-        "Wild": 6
-      },
-      {
-        "Country": "France",
-        "Species": 14,
-        "FTypes": 41,
-        "Strains": 30,
-        "Captive": 6,
-        "Wild": 5
-      },
-      {
-        "Country": "Croatia",
-        "Species": 14,
-        "FTypes": 31,
-        "Strains": 27,
-        "Captive": 2,
-        "Wild": 2
-      },
-      {
-        "Country": "Cyprus",
-        "Species": 11
-      },
-      {
-        "Country": "Malta",
-        "Species": 8,
-        "FTypes": 36,
-        "Strains": 31,
-        "Captive": 2,
-        "Wild": 3
-      },
-      {
-        "Country": "Bulgaria",
-        "Species": 1,
-        "FTypes": 10,
-        "Strains": 8,
-        "Captive": 1,
-        "Wild": 1
-      },
-      {
-        "Country": "Albania",
-        "Species": 4,
-        "FTypes": 22,
-        "Strains": 17,
-        "Captive": 2,
-        "Wild": 3
-      },
-      {
-        "Country": "Israel",
-        "Species": 12
-      },
-      {
-        "Country": "Russianederation",
-        "Species": 8,
-        "FTypes": 8,
-        "Strains": 4,
-        "Captive": 2,
-        "Wild": 2
-      },
-      {
-        "Country": "Slovenia",
-        "Species": 7,
-        "FTypes": 6,
-        "Strains": 5,
-        "Captive": 1,
-        "Wild": 0
-      },
-      {
-        "Country": "Palestine",
-        "Species": 2
-      },
-      {
-        "Country": "Algeria",
-        "Species": 9,
-        "FTypes": 10,
-        "Strains": 8,
-        "Captive": 1,
-        "Wild": 1
-      },
-      {
-        "Country": "Montenegro",
-        "Species": 5,
-        "FTypes": 7,
-        "Strains": 4,
-        "Captive": 1,
-        "Wild": 2
-      },
-      {
-        "Country": "Morocco",
-        "Species": 9
-      },
-      {
-        "Country": "Bosnia and Herzegovina",
-        "Species": 6,
-        "FTypes": 16,
-        "Strains": 11,
-        "Captive": 3,
-        "Wild": 2
-      },
-      {
-        "Country": "Georgia",
-        "Species": 1
-      },
-      {
-        "Country": "Lebanon",
-        "Species": 1
-      },
-      {
-        "Country": "Libya",
-        "Species": 3
-      },
-      {
-        "Country": "Romania",
-        "Species": 4
-      },
-      {
-        "Country": "Serbia and Montenegro",
-        "Species": 2
-      },
-      {
-        "Country": "Ukraine",
-        "Species": 10
-      },
-      {
-        "Country": "Un. Sov. Soc. Rep.",
-        "Species": 3
-      },
-      {
-        "Country": "Yugoslavia SFR",
-        "Species": 5,
-        "FTypes": 5,
-        "Strains": 3,
-        "Captive": 1,
-        "Wild": 1
-      }
-    ]
-  },
-  {
-    "FAOarea": "Pacific, Southwest",
-    "Species": 22,
-    "FTypes": 15,
-    "Strains": 10,
-    "Captive": 4,
-    "Wild": 1,
-    "Data": [
-      {
-        "Country": "New Zealand",
-        "Species": 4
-      },
-      {
-        "Country": "Australia",
-        "Species": 18,
-        "FTypes": 15,
-        "Strains": 10,
-        "Captive": 4,
-        "Wild": 1
-      }
-    ]
-  },
-  {
-    "FAOarea": "Pacific, Northeast",
-    "Species": 28,
-    "Data": [
-      {
-        "Country": "Canada",
-        "Species": 9
-      },
-      {
-        "Country": "United States of America",
-        "Species": 19
-      }
-    ]
-  },
-  {
-    "FAOarea": "Europe - Inland waters",
-    "Species": 596,
-    "FTypes": 842,
-    "Strains": 780,
-    "Captive": 54,
-    "Wild": 50,
-    "Data": [
-      {
-        "Country": "Russianederation",
-        "Species": 26,
-        "FTypes": 111,
-        "Strains": 118,
-        "Captive": 6,
-        "Wild": 6
-      },
-      {
-        "Country": "Italy",
-        "Species": 30,
-        "FTypes": 28,
-        "Strains": 23,
-        "Captive": 2,
-        "Wild": 3
-      },
-      {
-        "Country": "France",
-        "Species": 36,
-        "FTypes": 39,
-        "Strains": 35,
-        "Captive": 3,
-        "Wild": 1
-      },
-      {
-        "Country": "Denmark",
-        "Species": 17,
-        "FTypes": 18,
-        "Strains": 15,
-        "Captive": 1,
-        "Wild": 2
-      },
-      {
-        "Country": "Czechia",
-        "Species": 17,
-        "FTypes": 15,
-        "Strains": 12,
-        "Captive": 1,
-        "Wild": 2
-      },
-      {
-        "Country": "Poland",
-        "Species": 14,
-        "FTypes": 45,
-        "Strains": 42,
-        "Captive": 1,
-        "Wild": 2
-      },
-      {
-        "Country": "Spain",
-        "Species": 30,
-        "FTypes": 17,
-        "Strains": 16,
-        "Captive": 2,
-        "Wild": 2
-      },
-      {
-        "Country": "Hungary",
-        "Species": 13,
-        "FTypes": 28,
-        "Strains": 26,
-        "Captive": 1,
-        "Wild": 1
-      },
-      {
-        "Country": "Ukraine",
-        "Species": 27,
-        "FTypes": 50,
-        "Strains": 44,
-        "Captive": 3,
-        "Wild": 3
-      },
-      {
-        "Country": "United Kingdom",
-        "Species": 27,
-        "FTypes": 23,
-        "Strains": 21,
-        "Captive": 1,
-        "Wild": 1
-      },
-      {
-        "Country": "Sweden",
-        "Species": 7,
-        "FTypes": 32,
-        "Strains": 29,
-        "Captive": 1,
-        "Wild": 2
-      },
-      {
-        "Country": "Germany",
-        "Species": 18,
-        "FTypes": 50,
-        "Strains": 47,
-        "Captive": 1,
-        "Wild": 2
-      },
-      {
-        "Country": "Belarus",
-        "Species": 14,
-        "FTypes": 34,
-        "Strains": 26,
-        "Captive": 4,
-        "Wild": 4
-      },
-      {
-        "Country": "Czechoslovakia",
-        "Species": 8
-      },
-      {
-        "Country": "Iceland",
-        "Species": 6,
-        "FTypes": 23,
-        "Strains": 21,
-        "Captive": 1,
-        "Wild": 1
-      },
-      {
-        "Country": "Romania",
-        "Species": 33,
-        "FTypes": 82,
-        "Strains": 78,
-        "Captive": 2,
-        "Wild": 2
-      },
-      {
-        "Country": "Moldova, Republic of",
-        "Species": 10,
-        "FTypes": 53,
-        "Strains": 52,
-        "Captive": 2,
-        "Wild": 1
-      },
-      {
-        "Country": "Bulgaria",
-        "Species": 46,
-        "FTypes": 61,
-        "Strains": 52,
-        "Captive": 4,
-        "Wild": 5
-      },
-      {
-        "Country": "Serbia",
-        "Species": 6,
-        "FTypes": 9,
-        "Strains": 8,
-        "Captive": 1,
-        "Wild": 0
-      },
-      {
-        "Country": "Bosnia and Herzegovina",
-        "Species": 9,
-        "FTypes": 15,
-        "Strains": 16,
-        "Captive": 1,
-        "Wild": 0
-      },
-      {
-        "Country": "Lithuania",
-        "Species": 16,
-        "FTypes": 5,
-        "Strains": 6,
-        "Captive": 1,
-        "Wild": 0
-      },
-      {
-        "Country": "Netherlands",
-        "Species": 8,
-        "FTypes": 6,
-        "Strains": 5,
-        "Captive": 0,
-        "Wild": 1
-      },
-      {
-        "Country": "Croatia",
-        "Species": 11,
-        "FTypes": 5,
-        "Strains": 4,
-        "Captive": 1,
-        "Wild": 0
-      },
-      {
-        "Country": "Greece",
-        "Species": 11,
-        "FTypes": 5,
-        "Strains": 5,
-        "Captive": 1,
-        "Wild": 1
-      },
-      {
-        "Country": "Finland",
-        "Species": 5,
-        "FTypes": 5,
-        "Strains": 5,
-        "Captive": 0,
-        "Wild": 0
-      },
-      {
-        "Country": "Austria",
-        "Species": 22,
-        "FTypes": 41,
-        "Strains": 35,
-        "Captive": 5,
-        "Wild": 3
-      },
-      {
-        "Country": "Switzerland",
-        "Species": 8,
-        "FTypes": 4,
-        "Strains": 4,
-        "Captive": 0,
-        "Wild": 0
-      },
-      {
-        "Country": "North Macedonia",
-        "Species": 3,
-        "FTypes": 4,
-        "Strains": 2,
-        "Captive": 1,
-        "Wild": 1
-      },
-      {
-        "Country": "Slovakia",
-        "Species": 21,
-        "FTypes": 8,
-        "Strains": 8,
-        "Captive": 2,
-        "Wild": 0
-      },
-      {
-        "Country": "Slovenia",
-        "Species": 21,
-        "FTypes": 9,
-        "Strains": 8,
-        "Captive": 2,
-        "Wild": 1
-      },
-      {
-        "Country": "Estonia",
-        "Species": 14,
-        "FTypes": 2,
-        "Strains": 2,
-        "Captive": 0,
-        "Wild": 0
-      },
-      {
-        "Country": "Montenegro",
-        "Species": 2,
-        "FTypes": 3,
-        "Strains": 3,
-        "Captive": 0,
-        "Wild": 0
-      },
-      {
-        "Country": "Portugal",
-        "Species": 5,
-        "FTypes": 2,
-        "Strains": 2,
-        "Captive": 0,
-        "Wild": 0
-      },
-      {
-        "Country": "Ireland",
-        "Species": 5,
-        "FTypes": 1,
-        "Strains": 1,
-        "Captive": 0,
-        "Wild": 0
-      },
-      {
-        "Country": "Latvia",
-        "Species": 22,
-        "FTypes": 6,
-        "Strains": 6,
-        "Captive": 1,
-        "Wild": 1
-      },
-      {
-        "Country": "Albania",
-        "Species": 10,
-        "FTypes": 3,
-        "Strains": 3,
-        "Captive": 2,
-        "Wild": 2
-      },
-      {
-        "Country": "Norway",
-        "Species": 1,
-        "FTypes": 0
-      },
-      {
-        "Country": "Belgium",
-        "Species": 10,
-        "FTypes": 0
-      },
-      {
-        "Country": "Serbia and Montenegro",
-        "Species": 5
-      },
-      {
-        "Country": "Yugoslavia SFR",
-        "Species": 2
-      }
-    ]
-  },
-  {
-    "FAOarea": "Atlantic, Southwest",
-    "Species": 20,
-    "FTypes": 17,
-    "Strains": 14,
-    "Captive": 3,
-    "Wild": 0,
-    "Data": [
-      {
-        "Country": "Brazil",
-        "Species": 12,
-        "FTypes": 17,
-        "Strains": 14,
-        "Captive": 3,
-        "Wild": 0
-      },
-      {
-        "Country": "Argentina",
-        "Species": 5
-      },
-      {
-        "Country": "Falkland Is.(Malvinas)",
-        "Species": 2
-      },
-      {
-        "Country": "Uruguay",
-        "Species": 1
-      }
-    ]
-  },
-  {
-    "FAOarea": "Atlantic, Northwest",
-    "Species": 16,
-    "Data": [
-      {
-        "Country": "Canada",
-        "Species": 9
-      },
-      {
-        "Country": "United States of America",
-        "Species": 5
-      },
-      {
-        "Country": "St. Pierre and Miquelon",
-        "Species": 2
-      }
-    ]
-  },
-  {
-    "FAOarea": "Atlantic, Eastern Central",
-    "Species": 23,
-    "FTypes": 17,
-    "Strains": 12,
-    "Captive": 4,
-    "Wild": 1,
-    "Data": [
-      {
-        "Country": "Spain",
-        "Species": 8,
-        "FTypes": 17,
-        "Strains": 12,
-        "Captive": 4,
-        "Wild": 1
-      },
-      {
-        "Country": "Morocco",
-        "Species": 3
-      },
-      {
-        "Country": "Senegal",
-        "Species": 6
-      },
-      {
-        "Country": "Nigeria",
-        "Species": 3
-      },
-      {
-        "Country": "Gambia",
-        "Species": 2
-      },
-      {
-        "Country": "Ghana",
-        "Species": 1
-      }
-    ]
-  },
-  {
-    "FAOarea": "Atlantic, Southeast",
-    "Species": 23,
-    "Data": [
-      {
-        "Country": "South Africa",
-        "Species": 17
-      },
-      {
-        "Country": "Namibia",
-        "Species": 6
-      }
-    ]
-  },
-  {
-    "FAOarea": "Oceania - Inland waters",
-    "Species": 50,
-    "Data": [
-      {
-        "Country": "New Zealand",
-        "Species": 1
-      },
-      {
-        "Country": "Papua New Guinea",
-        "Species": 3
-      },
-      {
-        "Country": "Australia",
-        "Species": 14
-      },
-      {
-        "Country": "Fiji",
-        "Species": 6
-      },
-      {
-        "Country": "Guam",
-        "Species": 6
-      },
-      {
-        "Country": "American Samoa",
-        "Species": 1
-      },
-      {
-        "Country": "Northern Mariana Is.",
-        "Species": 2
-      },
-      {
-        "Country": "Vanuatu",
-        "Species": 5
-      },
-      {
-        "Country": "Samoa",
-        "Species": 3
-      },
-      {
-        "Country": "Solomon Islands",
-        "Species": 2
-      },
-      {
-        "Country": "Cook Islands",
-        "Species": 1
-      },
-      {
-        "Country": "French Polynesia",
-        "Species": 2
-      },
-      {
-        "Country": "Kiribati",
-        "Species": 2
-      },
-      {
-        "Country": "New Caledonia",
-        "Species": 2
-      }
-    ]
-  },
-  {
-    "FAOarea": "Former USSR area - Inland waters",
-    "Species": 6,
-    "Data": [
-      {
-        "Country": "Un. Sov. Soc. Rep.",
-        "Species": 6
-      }
-    ]
-  }
-]
+    },
+    {
+      "Name": "Oceania",
+      "Species": 21,
+      "FTypes": 42,
+      "SFTypes": 76,
+      "Timeseries": {
+        "2013": 196281.92,
+        "2014": 204610.94,
+        "2015": 200400.41,
+        "2016": 225138.93,
+        "2017": 229863.2
+      },
+      "Regions": [
+        {
+          "Name": "Australia and New Zealand",
+          "Species": 15,
+          "FTypes": 16,
+          "SFTypes": 27,
+          "Timeseries": {
+            "2013": 174450.72,
+            "2014": 181162.36,
+            "2015": 176362.61,
+            "2016": 202915.05,
+            "2017": 207463.2
+          },
+          "Countries": [
+            {
+              "Name": "New Zealand",
+              "Species": 4,
+              "FTypes": 9,
+              "SFTypes": 12,
+              "Timeseries": {
+                "2013": 97046,
+                "2014": 109787,
+                "2015": 91194,
+                "2016": 108926,
+                "2017": 116440
+              }
+            },
+            {
+              "Name": "Australia",
+              "Species": 11,
+              "FTypes": 7,
+              "SFTypes": 15,
+              "Timeseries": {
+                "2013": 77404.72,
+                "2014": 71375.36,
+                "2015": 85168.61,
+                "2016": 93989.05,
+                "2017": 91023.2
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Melanesia",
+          "Species": 4,
+          "FTypes": 16,
+          "SFTypes": 27,
+          "Timeseries": {
+            "2013": 16985,
+            "2014": 17898.4,
+            "2015": 18652,
+            "2016": 17367,
+            "2017": 17550
+          },
+          "Countries": [
+            {
+              "Name": "Solomon Islands",
+              "Species": 1,
+              "FTypes": 9,
+              "SFTypes": 11,
+              "Timeseries": {
+                "2013": 11812,
+                "2014": 12162.4,
+                "2015": 12200,
+                "2016": 10580,
+                "2017": 10600
+              }
+            },
+            {
+              "Name": "Papua New Guinea",
+              "Species": 2,
+              "FTypes": 7,
+              "SFTypes": 16,
+              "Timeseries": {
+                "2013": 3600,
+                "2014": 4100,
+                "2015": 5200,
+                "2016": 5200,
+                "2017": 5500
+              }
+            },
+            {
+              "Name": "New Caledonia",
+              "Species": 1,
+              "FTypes": 0,
+              "SFTypes": 0,
+              "Timeseries": {
+                "2013": 1573,
+                "2014": 1636,
+                "2015": 1252,
+                "2016": 1587,
+                "2017": 1450
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Micronesia",
+          "Species": 1,
+          "FTypes": 5,
+          "SFTypes": 22,
+          "Timeseries": {
+            "2013": 2250,
+            "2014": 3580,
+            "2015": 3600,
+            "2016": 3650,
+            "2017": 3650
+          },
+          "Countries": {
+            "Name": "Kiribati",
+            "Species": 1,
+            "FTypes": 5,
+            "SFTypes": 22,
+            "Timeseries": {
+              "2013": 2250,
+              "2014": 3580,
+              "2015": 3600,
+              "2016": 3650,
+              "2017": 3650
+            }
+          }
+        },
+        {
+          "Name": "Polynesia",
+          "Species": 1,
+          "FTypes": 5,
+          "SFTypes": 0,
+          "Timeseries": {
+            "2013": 2596.2,
+            "2014": 1970.18,
+            "2015": 1785.8,
+            "2016": 1206.88,
+            "2017": 1200
+          },
+          "Countries": {
+            "Name": "French Polynesia",
+            "Species": 1,
+            "FTypes": 5,
+            "SFTypes": 0,
+            "Timeseries": {
+              "2013": 2596.2,
+              "2014": 1970.18,
+              "2015": 1785.8,
+              "2016": 1206.88,
+              "2017": 1200
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
