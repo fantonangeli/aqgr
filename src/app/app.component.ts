@@ -22,6 +22,17 @@ export class AppComponent {
 
 
     /**
+     * fired when selected species are chenged
+     *
+     * @param {Object[]} e asfi codes
+     */
+    onSelectedSpeciesChange(e:Object[]=[]){
+        if(!e.length) this.fetchStats();
+        else this.fetchStatsBySpecies(e.join(","));
+    }
+
+
+    /**
      * load data for the table and set it to fishTableData
      *
      * @param {Object[]} data the data from the service
@@ -52,6 +63,25 @@ export class AppComponent {
         });
     }
 
+    /**
+     * fetch the countries and load them in this._fishstatService
+     * @param {string} asfisCodes the asfis codes as a list. Eg. "MSM,IPG"
+     *
+     */
+    fetchStatsBySpecies(asfisCodes:string="") {
+        if(!asfisCodes) return;
+
+        this._fishstatService.getBySpecies(asfisCodes).subscribe(
+            (data)=>{
+                this.fishdata=data;
+                this.fishTableData=this.loadTableData(data);
+            },
+            (error)=>{
+                console.log("Network error: ", error);
+            }
+        );
+
+    }
     
     /**
      * fetch the countries and load them in this._fishstatService
@@ -70,5 +100,4 @@ export class AppComponent {
 
     }
 
-  title = 'aqgr-)nformation-system';
 }

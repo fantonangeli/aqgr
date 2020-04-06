@@ -11,8 +11,27 @@ export class FishStatCultSpecCountriesService {
     constructor(private http: HttpClient) { }
 
 
+
+    /**
+     * gets the data by species
+     *
+     * @param {string} asfisCodes the asfis codes as a list. Eg. "MSM,IPG"
+     * @returns {Observable}
+     */
+    private getBySpecies(asfisCodes:string) : Observable<Object> {
+        if(asfisCodes="") throw Error("asfisCodes not defined");
+
+        return this.http.get(environment.services.fishStatCultSpecCountries.bySpecies+asfisCodes);
+    }
+
+
+    /**
+     * get all the data
+     *
+     * @returns {Observable}
+     */
     private getAll() : Observable<Object> {
-        return this.http.get(`${environment.services.fishStatCultSpecCountries}`);
+        return this.http.get(environment.services.fishStatCultSpecCountries.all);
     }
 
 
