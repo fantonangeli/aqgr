@@ -7,6 +7,7 @@
     [multiple]="true" 
     class="fao-multiselect" 
     [(ngModel)]="selectedElements" 
+    (change)="selectedElementsChange.emit($event)"
     placeholder="All" 
     [closeOnSelect]="false">
 

@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import {SpeciesService} from '../../services/species.service';
 
 @Component({
@@ -9,8 +9,10 @@ import {SpeciesService} from '../../services/species.service';
 export class SpecFilterComponent implements OnInit {
     isOpen=false;
     elements: any[] = [];
-    selectedElements=[];
+    @Input() selectedElements :object[]=[];
     private _service;
+
+    @Output() selectedElementsChange = new EventEmitter<object[]>();
 
   constructor(specs:SpeciesService) {
         this._service=specs;

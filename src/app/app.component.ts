@@ -11,6 +11,7 @@ export class AppComponent {
     fishdata=[];
     fishTableData=[];
     species=[];
+    selectedSpecies=[];
     private _fishstatService;
 
     constructor(data: FishStatCultSpecCountriesService){
