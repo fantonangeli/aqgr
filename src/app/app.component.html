@@ -6,10 +6,12 @@
         </div>
         <div class="col-sm-12 col-md-9">
             <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Fishstat data:</h1></div></div>
-            <app-fish-stat-table 
-                [data]="fishTableData" 
-                [columns]="['FAO Area', 'Species', 'FTypes', 'Strains', 'Captive', 'Wild']" 
-                >
+            <!-- TODO:  Continent; nested with Region, nested with Country -->
+            <!-- TODO:  ISSCAAP division nested with scientific name (Titles: Farmed types / Species) -->
+            <!-- TODO:  Production in tonnes - 2016 -->
+            <!-- TODO:  Primary farmed types -->
+            <!-- TODO:  Secondary farmed types -->
+            <app-fish-stat-table [data]="fishTableData" [columns]="['FAO Area', 'Species', 'FTypes', 'Strains', 'Captive', 'Wild']" >
             </app-fish-stat-table>
         </div>
     </div>

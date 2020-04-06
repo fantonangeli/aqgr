@@ -19,7 +19,7 @@ export class FishStatCultSpecCountriesService {
      * @returns {Observable}
      */
     private getBySpecies(asfisCodes:string) : Observable<Object> {
-        if(asfisCodes="") throw Error("asfisCodes not defined");
+        if(asfisCodes==="") throw Error("asfisCodes not defined");
 
         return this.http.get(environment.services.fishStatCultSpecCountries.bySpecies+asfisCodes);
     }

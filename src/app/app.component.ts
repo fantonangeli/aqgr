@@ -26,9 +26,9 @@ export class AppComponent {
      *
      * @param {Object[]} e asfi codes
      */
-    onSelectedSpeciesChange(e:Object[]=[]){
+    onSelectedSpeciesChange(e=[]){
         if(!e.length) this.fetchStats();
-        else this.fetchStatsBySpecies(e.join(","));
+        else this.fetchStatsBySpecies(e.map((item)=>(item.value)).join(","));
     }
 
 
