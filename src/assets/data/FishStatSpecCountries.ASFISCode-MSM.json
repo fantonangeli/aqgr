@@ -1,0 +1,141 @@
+[
+  {
+    "FAOarea": "Mediterranean and Black Sea",
+    "Species": 20,
+    "FTypes": 69,
+    "Strains": 79,
+    "Captive": 5,
+    "Wild": 4,
+    "Data": [
+      {
+        "Country": "Italy",
+        "Species": 2,
+        "FTypes": 4,
+        "Strains": 21,
+        "Captive": 1,
+        "Wild": 1
+      },
+      {
+        "Country": "Greece",
+        "Species": 1,
+        "FTypes": 22,
+        "Strains": 21,
+        "Captive": 1,
+        "Wild": 0
+      },
+      {
+        "Country": "France",
+        "Species": 1,
+        "FTypes": 23,
+        "Strains": 21,
+        "Captive": 1,
+        "Wild": 1
+      },
+      {
+        "Country": "Bulgaria",
+        "Species": 1,
+        "FTypes": 10,
+        "Strains": 8,
+        "Captive": 1,
+        "Wild": 1
+      },
+      {
+        "Country": "Croatia",
+        "Species": 1,
+        "FTypes": 0
+      },
+      {
+        "Country": "Slovenia",
+        "Species": 1,
+        "FTypes": 0
+      },
+      {
+        "Country": "Turkey",
+        "Species": 1
+      },
+      {
+        "Country": "Albania",
+        "Species": 1,
+        "FTypes": 10,
+        "Strains": 8,
+        "Captive": 1,
+        "Wild": 1
+      },
+      {
+        "Country": "Montenegro",
+        "Species": 1,
+        "FTypes": 0
+      },
+      {
+        "Country": "Tunisia",
+        "Species": 1
+      },
+      {
+        "Country": "Algeria",
+        "Species": 1
+      },
+      {
+        "Country": "Morocco",
+        "Species": 1
+      },
+      {
+        "Country": "Bosnia and Herzegovina",
+        "Species": 1
+      },
+      {
+        "Country": "Romania",
+        "Species": 1
+      },
+      {
+        "Country": "Russianederation",
+        "Species": 1
+      },
+      {
+        "Country": "Serbia and Montenegro",
+        "Species": 1
+      },
+      {
+        "Country": "Un. Sov. Soc. Rep.",
+        "Species": 1
+      },
+      {
+        "Country": "Ukraine",
+        "Species": 1
+      },
+      {
+        "Country": "Yugoslavia SFR",
+        "Species": 1
+      }
+    ]
+  },
+  {
+    "FAOarea": "Atlantic, Southeast",
+    "Species": 2,
+    "Data": [
+      {
+        "Country": "South Africa",
+        "Species": 1
+      },
+      {
+        "Country": "Namibia",
+        "Species": 1
+      }
+    ]
+  },
+  {
+    "FAOarea": "Atlantic, Northeast",
+    "Species": 2,
+    "FTypes": 0,
+    "Data": [
+      {
+        "Country": "France",
+        "Species": 1,
+        "FTypes": 0
+      },
+      {
+        "Country": "United Kingdom",
+        "Species": 1
+      }
+    ]
+  }
+]
