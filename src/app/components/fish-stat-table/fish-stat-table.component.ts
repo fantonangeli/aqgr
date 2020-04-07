@@ -11,24 +11,75 @@ export class FishStatTableComponent implements OnInit {
     @Input() columns: any[] = [];
     @Input() childColumns: any[] = [];
 
-  constructor() { }
+    constructor() { }
+
 
     /**
-     * expand an element
+     * close all elements in data recursively
+     *
+     * @param {[]} elements the elements
+     *
+     */
+    closeAll(elements){
+        if(!elements) return;
+
+        for (var i = 0, len = elements.length; i < len; i++) {
+            elements[i].toggle=false;
+            this.closeAll(elements[i].children);
+        }
+    }
+
+    /**
+     * open an element and all the parents recursively
+     *
+     * @param {[]} element the element to open
+     */
+    openElement(element){
+        if(!element) return;
+
+        element.toggle=true;
+        this.openElement(element.parent);
+    }
+
+    /**
+     * on click action
      *
      * @param {Object} element the element to expand
      */
-    expandElement(element){
+    onElementClick(element){
+        let siblings=[];
         let initialV=element.toggle;
 
-        for (var i = 0, len = this.data.length; i < len; i++) {
-            this.data[i].toggle=false;
-        }
+        // TODO: no action for countries
+       
 
-        element.toggle = !initialV;
+        this.closeAll(this.data);
+
+        this.openElement(element);
     }
 
-  ngOnInit() {
-  }
+    /**
+     * intialize the data
+     *
+     * @param {[array]} data the data
+     * @returns {[array]} the data initialized
+     */
+    initData(data=[]){
+        return data.map(e=>{
+            e.children=e.splice(-1, 1)[0].map(c=>{
+                c.parent=e;
+                c.children=c.splice(-1, 1)[0];
+                return c;
+            });
+            return e;
+        });
+    }
+
+    ngOnChanges() {
+        this.data=this.initData(this.data);
+    }
+
+    ngOnInit() {
+    }
 
 }

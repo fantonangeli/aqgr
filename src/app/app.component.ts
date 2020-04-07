@@ -38,29 +38,32 @@ export class AppComponent {
      * @param {Object[]} data the data from the service
      */
     loadTableData(data){
-        if(!data) return;
+        if(!data || !data.Continents) return;
 
-        return data.map((e)=>{
-            return [
-                e.FAOarea,
-                e.Species,
-                e.FTypes,
-                e.Strains,
-                e.Captive,
-                e.Wild,
-                (e.Data || []).map((c)=>{
-                    return [
-                        c.Country,
-                        c.Species,
-                        c.FTypes,
-                        c.Strains,
-                        c.Captive,
-                        c.Wild,
-                    ];
-                })
+        data=data.Continents;
 
-            ];
-        });
+        return data.map(e=>[
+            e.Name+" ("+e.Regions.length+")",
+            e.Timeseries["2017"],
+            e.Species,
+            e.FTypes,
+            e.SFTypes,
+            e.Regions=e.Regions.map(r=>[
+                r.Name+" ("+r.Countries.length+")",
+                r.Timeseries["2017"],
+                r.Species,
+                r.FTypes,
+                r.SFTypes,
+                r.Countries=r.Countries.map(c=>[
+                    c.Name,
+                    c.Timeseries["2017"],
+                    c.Species,
+                    c.FTypes,
+                    c.SFTypes,
+                ])
+
+            ])
+        ]);
     }
 
     /**

@@ -1,24 +1,47 @@
+<ng-template #tplElement let-element let-pleft="pleft">
+    <tr (click)="onElementClick(element)">
+        <ng-container  *ngFor="let field of element; let first = first; let last = last ">
+            <td class="align-top" class="text-truncate"  [ngStyle]="{'padding-left': !first?20:(pleft+20)+'px'}">{{field}}</td>
+        </ng-container>
+    </tr>
+
+
+    <ng-container *ngIf="element.toggle">
+        <ng-container *ngFor="let child of element.children">
+                <ng-template *ngTemplateOutlet="tplElement; context: {$implicit: child, pleft:(pleft+20)}"></ng-template>
+        </ng-container>
+    </ng-container>
+</ng-template>
+
+
 <div class="table-responsive">
     <table class="fao-expandtable table table-striped table-bordered">
         <thead>
             <tr>
-                <th *ngFor="let colname of columns">{{colname}}</th>
+                <th class="align-top" *ngFor="let colname of columns">{{colname}}</th>
             </tr>
         </thead>
         <tbody>
             <ng-container *ngFor="let element of data">
-                <tr (click)="expandElement(element)">
-                    <ng-container  *ngFor="let field of element; let first = first; let last = last ">
-                        <td *ngIf="!last" class="text-truncate">{{field}}</td>
-                    </ng-container>
-                </tr>
-                <ng-container *ngIf="element.toggle">
-                    <tr *ngFor="let child of element[element.length-1]" class="bg-white">
-                        <ng-container  *ngFor="let cfield of child; let first = first; let last = last ">
-                            <td [ngClass]="{'pl-4':first}" class="text-truncate">{{cfield}}</td>
-                        </ng-container>
-                    </tr>
-                </ng-container>
+                <ng-template *ngTemplateOutlet="tplElement; context: {$implicit: element, pleft:0}"></ng-template>
+                <!-- <tr (click)="expandElement(element)"> -->
+                <!--     <ng&#45;container  *ngFor="let field of element"> -->
+                <!--         <td class="align&#45;top" class="text&#45;truncate">{{field}}</td> -->
+                <!--     </ng&#45;container> -->
+                <!-- </tr> -->
+                <!--  -->
+                <!-- <ng&#45;container *ngIf="element.toggle"> -->
+                <!--     <ng&#45;container *ngFor="let child of element.children"> -->
+                <!--         <tr class="bg&#45;white"> -->
+                <!--             <ng&#45;container  *ngFor="let cfield of child; let first = first; let last = last "> -->
+                <!--                 <td class="align&#45;top" [ngClass]="{'pl&#45;4':first}" class="text&#45;truncate">{{cfield}}</td> -->
+                <!--             </ng&#45;container> -->
+                <!--         </tr> -->
+                <!--  -->
+                <!--  -->
+                <!--     </ng&#45;container> -->
+                <!-- </ng&#45;container> -->
+                
             </ng-container>
         </tbody>
     </table>
