@@ -42,25 +42,25 @@ export class AppComponent {
 
         data=data.Continents;
 
-
+        
         return data.map(e=>[
             e.Name,
-            e.Timeseries["2017"],
-            e.Species,
-            e.FTypes,
-            e.SFTypes,
+            Number(e.Timeseries["2017"]).toLocaleString('en-US'),
+            Number(e.Species).toLocaleString('en-US'),
+            Number(e.FTypes).toLocaleString('en-US'),
+            Number(e.SFTypes).toLocaleString('en-US'),
             e.Regions=e.Regions.map(r=>[
                 r.Name,
-                r.Timeseries["2017"],
-                r.Species,
-                r.FTypes,
-                r.SFTypes,
+                Number(r.Timeseries["2017"]).toLocaleString('en-US'),
+                Number(r.Species).toLocaleString('en-US'),
+                Number(r.FTypes).toLocaleString('en-US'),
+                Number(r.SFTypes).toLocaleString('en-US'),
                 r.Countries=r.Countries.map(c=>[
                     c.Name,
-                    c.Timeseries["2017"],
-                    c.Species,
-                    c.FTypes,
-                    c.SFTypes,
+                    Number(c.Timeseries["2017"]).toLocaleString('en-US'),
+                    Number(c.Species).toLocaleString('en-US'),
+                    Number(c.FTypes).toLocaleString('en-US'),
+                    Number(c.SFTypes).toLocaleString('en-US'),
                 ])
 
             ])
