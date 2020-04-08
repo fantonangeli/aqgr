@@ -8,6 +8,8 @@
     class="fao-multiselect" 
     [(ngModel)]="selectedElements" 
     (change)="selectedElementsChange.emit($event)"
+    groupBy="group"
+    [selectableGroup]="true"
     placeholder="All" 
     [closeOnSelect]="false">
 

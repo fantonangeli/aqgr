@@ -1,5 +1,7 @@
 <ng-template #tplElement let-element let-pleft="pleft">
     <tr (click)="onElementClick(element)">
+        <!-- TODO: add plus icon to expand -->
+        <!-- TODO: add icon to show a chart -->
         <ng-container  *ngFor="let field of element; let first = first; let last = last ">
             <td class="align-top" class="text-truncate"  [ngStyle]="{'padding-left': !first?20:(pleft+20)+'px'}">{{field}}</td>
         </ng-container>

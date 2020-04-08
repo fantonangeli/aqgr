@@ -1,7 +1,7 @@
 {
   "Continents": [
     {
-      "Name": "Asia",
+      "Name": "Asia (26)",
       "Species": 478,
       "FTypes": 2647,
       "SFTypes": 3091,
@@ -14,7 +14,7 @@
       },
       "Regions": [
         {
-          "Name": "Eastern Asia",
+          "Name": "Eastern Asia (20)",
           "Species": 174,
           "FTypes": 1032,
           "SFTypes": 1124,
@@ -107,7 +107,7 @@
           ]
         },
         {
-          "Name": "South-Eastern Asia",
+          "Name": "South-Eastern Asia (26)",
           "Species": 184,
           "FTypes": 1026,
           "SFTypes": 1250,
@@ -265,7 +265,7 @@
           ]
         },
         {
-          "Name": "Southern Asia",
+          "Name": "Southern Asia (17)",
           "Species": 81,
           "FTypes": 436,
           "SFTypes": 509,
@@ -371,7 +371,7 @@
           ]
         },
         {
-          "Name": "Western Asia",
+          "Name": "Western Asia (12)",
           "Species": 30,
           "FTypes": 102,
           "SFTypes": 143,
@@ -516,7 +516,7 @@
           ]
         },
         {
-          "Name": "Central Asia",
+          "Name": "Central Asia (26)",
           "Species": 9,
           "FTypes": 51,
           "SFTypes": 65,
@@ -559,7 +559,7 @@
       ]
     },
     {
-      "Name": "Europe",
+      "Name": "Europe (25)",
       "Species": 161,
       "FTypes": 335,
       "SFTypes": 484,
@@ -572,7 +572,7 @@
       },
       "Regions": [
         {
-          "Name": "Northern Europe",
+          "Name": "Northern Europe (4)",
           "Species": 32,
           "FTypes": 66,
           "SFTypes": 54,
@@ -743,7 +743,7 @@
           ]
         },
         {
-          "Name": "Southern Europe",
+          "Name": "Southern Europe (14)",
           "Species": 53,
           "FTypes": 123,
           "SFTypes": 247,
@@ -914,7 +914,7 @@
           ]
         },
         {
-          "Name": "Eastern Europe",
+          "Name": "Eastern Europe (18)",
           "Species": 46,
           "FTypes": 46,
           "SFTypes": 23,
@@ -1059,7 +1059,7 @@
           ]
         },
         {
-          "Name": "Western Europe",
+          "Name": "Western Europe (13)",
           "Species": 30,
           "FTypes": 100,
           "SFTypes": 160,
@@ -1141,7 +1141,7 @@
       ]
     },
     {
-      "Name": "Africa",
+      "Name": "Africa (2)",
       "Species": 75,
       "FTypes": 283,
       "SFTypes": 290,
@@ -1154,7 +1154,7 @@
       },
       "Regions": [
         {
-          "Name": "Northern Africa",
+          "Name": "Northern Africa (5)",
           "Species": 18,
           "FTypes": 124,
           "SFTypes": 132,
@@ -1221,7 +1221,7 @@
           ]
         },
         {
-          "Name": "Western Africa",
+          "Name": "Western Africa (19)",
           "Species": 21,
           "FTypes": 41,
           "SFTypes": 74,
@@ -1301,7 +1301,7 @@
           ]
         },
         {
-          "Name": "Eastern Africa",
+          "Name": "Eastern Africa (14)",
           "Species": 27,
           "FTypes": 107,
           "SFTypes": 75,
@@ -1472,7 +1472,7 @@
           ]
         },
         {
-          "Name": "Middle Africa",
+          "Name": "Middle Africa (14)",
           "Species": 4,
           "FTypes": 7,
           "SFTypes": 9,
@@ -1526,7 +1526,7 @@
           ]
         },
         {
-          "Name": "Southern Africa",
+          "Name": "Southern Africa (17)",
           "Species": 5,
           "FTypes": 4,
           "SFTypes": 0,
@@ -1569,7 +1569,7 @@
       ]
     },
     {
-      "Name": "Americas",
+      "Name": "Americas (29)",
       "Species": 121,
       "FTypes": 532,
       "SFTypes": 631,
@@ -1582,7 +1582,7 @@
       },
       "Regions": [
         {
-          "Name": "South America",
+          "Name": "South America (20)",
           "Species": 59,
           "FTypes": 341,
           "SFTypes": 381,
@@ -1714,7 +1714,7 @@
           ]
         },
         {
-          "Name": "Northern America",
+          "Name": "Northern America (11)",
           "Species": 28,
           "FTypes": 80,
           "SFTypes": 68,
@@ -1755,7 +1755,7 @@
           ]
         },
         {
-          "Name": "Central America",
+          "Name": "Central America (18)",
           "Species": 27,
           "FTypes": 100,
           "SFTypes": 167,
@@ -1874,7 +1874,7 @@
           ]
         },
         {
-          "Name": "Caribbean",
+          "Name": "Caribbean (23)",
           "Species": 7,
           "FTypes": 11,
           "SFTypes": 15,
@@ -1930,7 +1930,7 @@
       ]
     },
     {
-      "Name": "Oceania",
+      "Name": "Oceania (12)",
       "Species": 23,
       "FTypes": 42,
       "SFTypes": 76,
@@ -1943,7 +1943,7 @@
       },
       "Regions": [
         {
-          "Name": "Australia and New Zealand",
+          "Name": "Australia and New Zealand (28)",
           "Species": 17,
           "FTypes": 16,
           "SFTypes": 27,
@@ -1984,7 +1984,7 @@
           ]
         },
         {
-          "Name": "Melanesia",
+          "Name": "Melanesia (6)",
           "Species": 4,
           "FTypes": 16,
           "SFTypes": 27,
@@ -2038,7 +2038,7 @@
           ]
         },
         {
-          "Name": "Micronesia",
+          "Name": "Micronesia (22)",
           "Species": 1,
           "FTypes": 5,
           "SFTypes": 22,
@@ -2066,7 +2066,7 @@
           ]
         },
         {
-          "Name": "Polynesia",
+          "Name": "Polynesia (27)",
           "Species": 1,
           "FTypes": 5,
           "SFTypes": 0,

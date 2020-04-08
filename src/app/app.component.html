@@ -6,15 +6,13 @@
             <app-spec-filter [(selectedElements)]="selectedSpecies" (selectedElementsChange)="onSelectedSpeciesChange($event)"></app-spec-filter>
         </div>
         <div class="col-sm-12 col-md-9">
-            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Fishstat data:</h1></div></div>
-            <!-- TODO:  Continent; nested with Region, nested with Country -->
-            <!-- TODO:  Production in tonnes - 2016 -->
-            <!-- TODO:  Primary farmed types -->
-            <!-- TODO:  Secondary farmed types -->
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">AqGR Farmed types data:</h1></div></div>
             <app-fish-stat-table [data]="fishTableData" [columns]="['Continent', 'Production in tonnes 2017', 'Species', 'Primary farmed types', 'Secondary farmed types']" >
             </app-fish-stat-table>
         </div>
     </div>
 </div>
+
+<!-- TODO: show a pie chart in another route -->
 
 <router-outlet></router-outlet>

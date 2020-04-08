@@ -1,2438 +1,3767 @@
 [
   {
+    "group": "Aquatic plants",
     "name": "Japanese kelp",
     "value": "LNJ"
   },
   {
+    "group": "Aquatic plants",
     "name": "Eucheuma seaweeds nei",
     "value": "EMX"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Grass carp(=White amur)",
     "value": "FCG"
   },
   {
+    "group": "Molluscs",
     "name": "Cupped oysters nei",
     "value": "OYC"
   },
   {
+    "group": "Molluscs",
     "name": "Japanese carpet shell",
     "value": "CLJ"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Silver carp",
     "value": "SVC"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Bighead carp",
     "value": "BIC"
   },
   {
+    "group": "Aquatic plants",
     "name": "Gracilaria seaweeds",
     "value": "GLS"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Common carp",
     "value": "FCP"
   },
   {
+    "group": "Freshwater fishes",
     "name": "[Carassius spp]",
     "value": "WDX"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Catla",
     "value": "CTT"
   },
   {
+    "group": "Molluscs",
     "name": "Scallops nei",
     "value": "SCX"
   },
   {
+    "group": "Aquatic plants",
     "name": "Nori nei",
     "value": "FYS"
   },
   {
+    "group": "Aquatic plants",
     "name": "Wakame",
     "value": "UDP"
   },
   {
+    "group": "Aquatic plants",
     "name": "Elkhorn sea moss",
     "value": "EMA"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Pangas catfishes nei",
     "value": "PGZ"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Atlantic salmon",
     "value": "SAL"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Milkfish",
     "value": "MIL"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Nile tilapia",
     "value": "TLN"
   },
   {
+    "group": "Crustaceans",
     "name": "Red swamp crawfish",
     "value": "RCW"
   },
   {
+    "group": "Crustaceans",
     "name": "Whiteleg shrimp",
     "value": "PNV"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Roho labeo",
     "value": "LRH"
   },
   {
+    "group": "Molluscs",
     "name": "Sea mussels nei",
     "value": "MSX"
   },
   {
+    "group": "Molluscs",
     "name": "Constricted tagelus",
     "value": "SVT"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Torpedo-shaped catfishes nei",
     "value": "CTO"
   },
   {
-    "name": "Freshwaterishes nei",
+    "group": "Freshwater fishes",
+    "name": "Freshwater fishes nei",
     "value": "FRF"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Wuchang bream",
     "value": "WUB"
   },
   {
+    "group": "Crustaceans",
     "name": "Chinese mitten crab",
     "value": "ERS"
   },
   {
+    "group": "Molluscs",
     "name": "Marine molluscs nei",
     "value": "MOL"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Black carp",
     "value": "BKC"
   },
   {
+    "group": "Aquatic plants",
     "name": "Seaweeds nei",
     "value": "SWX"
   },
   {
+    "group": "Aquatic plants",
     "name": "Laver (Nori)",
     "value": "PRT"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Striped catfish",
     "value": "PGS"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Snakehead",
     "value": "CNA"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Yellow catfish",
     "value": "YCH"
   },
   {
-    "name": "Marineishes nei",
+    "group": "Marine fishes",
+    "name": "Marine fishes nei",
     "value": "MZZ"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Largemouth black bass",
     "value": "MPS"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Cyprinids nei",
     "value": "FCY"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Blue-Nile tilapia, hybrid",
     "value": "OXW"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Pond loach",
     "value": "KUR"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Amur catfish",
     "value": "SRO"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Asian swamp eel",
     "value": "FLT"
   },
   {
+    "group": "Molluscs",
     "name": "Blood cockle",
     "value": "BLC"
   },
   {
+    "group": "Molluscs",
     "name": "Chilean mussel",
     "value": "MYC"
   },
   {
-    "name": "Mandarinish",
+    "group": "Freshwater fishes",
+    "name": "Mandarin fish",
     "value": "SIN"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Tilapias nei",
     "value": "TLP"
   },
   {
+    "group": "Miscellaneous aquatic animals",
     "name": "Chinese softshell turtle",
     "value": "TTS"
   },
   {
+    "group": "Molluscs",
     "name": "Pacific cupped oyster",
     "value": "OYG"
   },
   {
+    "group": "Crustaceans",
     "name": "Giant tiger prawn",
     "value": "GIT"
   },
   {
+    "group": "Molluscs",
     "name": "Sea snails",
     "value": "RPN"
   },
   {
+    "group": "Crustaceans",
     "name": "Oriental river prawn",
     "value": "MNX"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Channel catfish",
     "value": "ITP"
   },
   {
+    "group": "Miscellaneous aquatic animals",
     "name": "Japanese sea cucumber",
     "value": "CUJ"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Japanese eel",
     "value": "ELJ"
   },
   {
+    "group": "Freshwater fishes",
+    "name": "Crossocheilus reticulatus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
     "name": "Mrigal carp",
     "value": "CMG"
   },
   {
+    "group": "Aquatic plants",
     "name": "Fusiform sargassum",
     "value": "GQB"
   },
   {
+    "group": "Marine fishes",
     "name": "Mullets nei",
     "value": "MUL"
   },
   {
+    "group": "Marine fishes",
     "name": "Large yellow croaker",
     "value": "LYC"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Rainbow trout",
     "value": "TRR"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Coho(=Silver) salmon",
     "value": "COH"
   },
   {
+    "group": "Marine fishes",
     "name": "Japanese seabass",
     "value": "BAJ"
   },
   {
+    "group": "Freshwater fishes",
     "name": "North African catfish",
     "value": "CLZ"
   },
   {
+    "group": "Crustaceans",
     "name": "Green mud crab",
     "value": "YAR"
   },
   {
+    "group": "Molluscs",
     "name": "Abalones nei",
     "value": "ABX"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Giant gourami",
     "value": "FGG"
   },
   {
+    "group": "Marine fishes",
     "name": "Japanese amberjack",
     "value": "AMJ"
   },
   {
+    "group": "Crustaceans",
     "name": "Giant river prawn",
     "value": "PRF"
   },
   {
+    "group": "Molluscs",
     "name": "Yesso scallop",
     "value": "JSC"
   },
   {
+    "group": "Marine fishes",
     "name": "Groupers nei",
     "value": "GPX"
   },
   {
+    "group": "Aquatic plants",
+    "name": "Cymodocea rotundata",
+    "value": "XYZ"
+  },
+  {
+    "group": "Marine fishes",
     "name": "Snubnose pompano",
     "value": "POO"
   },
   {
+    "group": "Crustaceans",
     "name": "Portunus swimcrabs nei",
     "value": "CRS"
   },
   {
+    "group": "Molluscs",
     "name": "American cupped oyster",
     "value": "OYA"
   },
   {
+    "group": "Aquatic plants",
     "name": "Spiny eucheuma",
     "value": "EMI"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Cachama",
     "value": "CSM"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Africa-bighead catfish, hybrid",
     "value": "CGM"
   },
   {
+    "group": "Marine fishes",
     "name": "European seabass",
     "value": "BSS"
   },
   {
+    "group": "Molluscs",
     "name": "New Zealand mussel",
     "value": "MUZ"
   },
   {
+    "group": "Crustaceans",
     "name": "Penaeus shrimps nei",
     "value": "PEN"
   },
   {
+    "group": "Molluscs",
     "name": "Chinese mystery snail",
     "value": "GFZ"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Freshwater siluroids nei",
     "value": "FSI"
   },
   {
+    "group": "Miscellaneous aquatic animals",
     "name": "Frogs",
     "value": "FRG"
   },
   {
+    "group": "Molluscs",
     "name": "Green mussel",
     "value": "MSV"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Sturgeons nei",
     "value": "STU"
   },
   {
+    "group": "Miscellaneous aquatic animals",
     "name": "Jellyfishes nei",
     "value": "JEL"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Pirapatinga",
     "value": "CSD"
   },
   {
+    "group": "Marine fishes",
     "name": "Porgies, seabreams nei",
     "value": "SBX"
   },
   {
+    "group": "Molluscs",
     "name": "Korean mussel",
     "value": "MUK"
   },
   {
+    "group": "Aquatic plants",
     "name": "Spirulina nei",
     "value": "SIZ"
   },
   {
+    "group": "Crustaceans",
     "name": "Metapenaeus shrimps nei",
     "value": "MET"
   },
   {
+    "group": "Molluscs",
     "name": "Swan mussel",
     "value": "SWT"
   },
   {
+    "group": "Marine fishes",
     "name": "Red drum",
     "value": "RDM"
   },
   {
+    "group": "Crustaceans",
     "name": "Freshwater prawns, shrimps nei",
     "value": "PPZ"
   },
   {
+    "group": "Crustaceans",
     "name": "Indo-Pacific swamp crab",
     "value": "MUD"
   },
   {
+    "group": "Molluscs",
     "name": "Mediterranean mussel",
     "value": "MSM"
   },
   {
+    "group": "Marine fishes",
     "name": "Silver seabream",
     "value": "GSU"
   },
   {
+    "group": "Molluscs",
     "name": "Clams, etc. nei",
     "value": "CLX"
   },
   {
+    "group": "Marine fishes",
     "name": "Gilthead seabream",
     "value": "SBG"
   },
   {
-    "name": "Lefteyelounders nei",
+    "group": "Marine fishes",
+    "name": "Lefteye flounders nei",
     "value": "LEF"
   },
   {
+    "group": "Molluscs",
     "name": "Blue mussel",
     "value": "MUS"
   },
   {
+    "group": "Crustaceans",
     "name": "Kuruma prawn",
     "value": "KUP"
   },
   {
+    "group": "Molluscs",
     "name": "Japanese hard clam",
     "value": "HCJ"
   },
   {
+    "group": "Aquatic plants",
+    "name": "Cymodocea serrulata",
+    "value": "XYZ"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
     "name": "River and lake turtles nei",
     "value": "TUL"
   },
   {
+    "group": "Marine fishes",
     "name": "Turbot",
     "value": "TUR"
   },
   {
+    "group": "Miscellaneous aquatic animals",
     "name": "Aquatic invertebrates nei",
     "value": "INV"
   },
   {
+    "group": "Marine fishes",
     "name": "Cobia",
     "value": "CBA"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Striped snakehead",
     "value": "FSS"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Climbing perch",
     "value": "FPC"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Silver barb",
     "value": "PTG"
   },
   {
+    "group": "Marine fishes",
     "name": "Bastard halibut",
     "value": "BAH"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Mozambique tilapia",
     "value": "TLM"
   },
   {
+    "group": "Crustaceans",
     "name": "Fleshy prawn",
     "value": "FLP"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Tambacu, hybrid",
     "value": "TXY"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Indonesian snakehead",
     "value": "FIS"
   },
   {
+    "group": "Freshwater fishes",
+    "name": "Danio albolineatus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
     "name": "Nilem carp",
     "value": "FCN"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Orangefin labeo",
     "value": "LCB"
   },
   {
+    "group": "Marine fishes",
     "name": "Amberjacks nei",
     "value": "AMX"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Barramundi(=Giant seaperch)",
     "value": "GIP"
   },
   {
+    "group": "Marine fishes",
     "name": "Meagre",
     "value": "MGR"
   },
   {
+    "group": "Molluscs",
     "name": "Freshwater molluscs nei",
     "value": "MOF"
   },
   {
+    "group": "Marine fishes",
     "name": "Tiger pufferfish",
     "value": "TXK"
   },
   {
+    "group": "Molluscs",
     "name": "Northern quahog(=Hard clam)",
     "value": "CLH"
   },
   {
+    "group": "Molluscs",
     "name": "Slipper cupped oyster",
     "value": "CSI"
   },
   {
+    "group": "Marine fishes",
     "name": "Korean rockfish",
     "value": "SFL"
   },
   {
+    "group": "Molluscs",
     "name": "Asian clam",
     "value": "CMA"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Chinese longsnout catfish",
     "value": "LLZ"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Clearhead icefish",
     "value": "PRS"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Pangas catfish",
     "value": "PGP"
   },
   {
+    "group": "Crustaceans",
     "name": "Banana prawn",
     "value": "PBA"
   },
   {
-    "name": "Flathead grey mullet",
-    "value": "MUF"
-  },
-  {
+    "group": "Miscellaneous aquatic animals",
     "name": "Sea squirts nei",
     "value": "SSX"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Salmonids nei",
     "value": "SLZ"
   },
   {
+    "group": "Molluscs",
     "name": "South American rock mussel",
     "value": "MSL"
   },
   {
+    "group": "Molluscs",
     "name": "Pen shells nei",
     "value": "TQY"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Nile perch",
     "value": "NIP"
   },
   {
+    "group": "Marine fishes",
     "name": "Pacific bluefin tuna",
     "value": "PBF"
   },
   {
+    "group": "Crustaceans",
     "name": "Orange mud crab",
     "value": "YLW"
   },
   {
+    "group": "Crustaceans",
     "name": "Marine crabs nei",
     "value": "CRA"
   },
   {
-    "name": "Righteyelounders nei",
+    "group": "Marine fishes",
+    "name": "Righteye flounders nei",
     "value": "PLZ"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Chinook(=Spring=King) salmon",
     "value": "CHI"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Pacu",
     "value": "CSO"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Snakeskin gourami",
     "value": "FGS"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Pond smelt",
     "value": "PSM"
   },
   {
+    "group": "Molluscs",
     "name": "Peruvian calico scallop",
     "value": "SCQ"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Trouts nei",
     "value": "TRO"
   },
   {
+    "group": "Marine fishes",
     "name": "Fourfinger threadfin",
     "value": "FOT"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Snakeheads(=Murrels) nei",
     "value": "FSN"
   },
   {
+    "group": "Miscellaneous aquatic animals",
     "name": "Sea urchins nei",
     "value": "URC"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Stinging catfish",
     "value": "HTF"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Philippine catfish",
     "value": "CBT"
   },
   {
+    "group": "Marine fishes",
     "name": "Southern bluefin tuna",
     "value": "SBF"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Reticulate knifefish",
     "value": "ONP"
   },
   {
+    "group": "Marine fishes",
     "name": "Mangrove red snapper",
     "value": "RES"
   },
   {
+    "group": "Marine fishes",
     "name": "Japanese seabream",
     "value": "REV"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Aba",
     "value": "OGN"
   },
   {
+    "group": "Freshwater fishes",
+    "name": "Devario pathirana",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
     "name": "Tambatinga, hybrid",
     "value": "TXZ"
   },
   {
+    "group": "Marine fishes",
     "name": "John's snapper",
     "value": "LJH"
   },
   {
+    "group": "Marine fishes",
     "name": "Obscure pufferfish",
     "value": "TZO"
   },
   {
-    "name": "[Capsosiphonulvescens]",
+    "group": "Aquatic plants",
+    "name": "[Capsosiphon fulvescens]",
     "value": "UEC"
   },
   {
+    "group": "Aquatic plants",
     "name": "Green laver",
     "value": "MTN"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Kissing gourami",
     "value": "FGO"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Asian barbs nei",
     "value": "FAB"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Small scale mud carp",
     "value": "RNM"
   },
   {
+    "group": "Freshwater fishes",
     "name": "African bonytongue",
     "value": "HTN"
   },
   {
+    "group": "Aquatic plants",
+    "name": "Diacronema lutheri",
+    "value": "XYZ"
+  },
+  {
+    "group": "Molluscs",
     "name": "Cortez oyster",
     "value": "OYR"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Asian redtail catfish",
     "value": "MYN"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Olive barb",
     "value": "PUS"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Tilapia shiranus",
     "value": "OIH"
   },
   {
+    "group": "Molluscs",
     "name": "Flat and cupped oysters nei",
     "value": "OST"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Ayu sweetfish",
     "value": "PCA"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Citharinus nei",
     "value": "CIV"
   },
   {
+    "group": "Freshwater fishes",
     "name": "[Brycon spp]",
     "value": "BXH"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Upsidedown catfishes",
     "value": "CSY"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Isok barb",
     "value": "PRJ"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Characins nei",
     "value": "CHA"
   },
   {
+    "group": "Marine fishes",
     "name": "Atlantic bluefin tuna",
     "value": "BFT"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Whitefishes nei",
     "value": "WHF"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Striped bass, hybrid",
     "value": "SBH"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Arctic char",
     "value": "ACH"
   },
   {
+    "group": "Marine fishes",
     "name": "White trevally",
     "value": "TRZ"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Grass-eaters nei",
     "value": "DSE"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Hoven's carp",
     "value": "FCH"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Arapaima",
     "value": "ARP"
   },
   {
+    "group": "Marine fishes",
     "name": "Finfishes nei",
     "value": "FIN"
   },
   {
+    "group": "Molluscs",
     "name": "Inflated ark",
     "value": "ACB"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Three spotted tilapia",
     "value": "STA"
   },
   {
-    "name": "Shi drum",
-    "value": "COB"
+    "group": "Freshwater fishes",
+    "name": "Dichotomyctere nigroviridis",
+    "value": "XYZ"
   },
   {
+    "group": "Molluscs",
     "name": "Indian backwater oyster",
     "value": "OYI"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Manipur osteobrama",
     "value": "OBL"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Mud carp",
     "value": "MUC"
   },
   {
+    "group": "Aquatic plants",
     "name": "Fragile codium",
     "value": "KII"
   },
   {
+    "group": "Crustaceans",
     "name": "Speckled shrimp",
     "value": "MPN"
   },
   {
+    "group": "Freshwater fishes",
     "name": "[Leporinus spp]",
     "value": "LXZ"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Kafue pike",
     "value": "HED"
   },
   {
+    "group": "Molluscs",
     "name": "Australian mussel",
     "value": "MYA"
   },
   {
+    "group": "Crustaceans",
+    "name": "Diopatra aciculata",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
     "name": "Bright green nori",
     "value": "EOW"
   },
   {
+    "group": "Freshwater fishes",
     "name": "[Brycon amazonicus]",
     "value": "BZH"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Prochilods nei",
     "value": "PRL"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Salmonoids nei",
     "value": "SLX"
   },
   {
+    "group": "Molluscs",
     "name": "Grooved carpet shell",
     "value": "CTG"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Redbreast tilapia",
     "value": "TLR"
   },
   {
+    "group": "Marine fishes",
     "name": "Jacks, crevalles nei",
     "value": "TRE"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Netted prochilod",
     "value": "PLR"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Parachanna snakeheads nei",
     "value": "QRX"
   },
   {
+    "group": "Crustaceans",
     "name": "Indian white prawn",
     "value": "PNI"
   },
   {
+    "group": "Diadromous fishes",
     "name": "European eel",
     "value": "ELE"
   },
   {
+    "group": "Marine fishes",
+    "name": "Flathead grey mullet",
+    "value": "MUF"
+  },
+  {
+    "group": "Freshwater fishes",
     "name": "Roach",
     "value": "FRO"
   },
   {
+    "group": "Molluscs",
     "name": "Common edible cockle",
     "value": "COC"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Chars nei",
     "value": "CHR"
   },
   {
+    "group": "Marine fishes",
     "name": "Blackhead seabream",
     "value": "MLM"
   },
   {
-    "name": "American bullrog",
+    "group": "Freshwater fishes",
+    "name": "Epalzeorhynchos munense",
+    "value": "XYZ"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "American bull frog",
     "value": "FOK"
   },
   {
+    "group": "Aquatic plants",
     "name": "Aquatic plants nei",
     "value": "APL"
   },
   {
+    "group": "Marine fishes",
     "name": "Atlantic halibut",
     "value": "HAL"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Catfishes nei",
     "value": "CAF"
   },
   {
+    "group": "Aquatic plants",
     "name": "Brown seaweeds",
     "value": "SWB"
   },
   {
+    "group": "Molluscs",
     "name": "Cholga mussel",
     "value": "MSC"
   },
   {
+    "group": "Crustaceans",
     "name": "Tropical spiny lobsters nei",
     "value": "SLV"
   },
   {
+    "group": "Crustaceans",
     "name": "Blue shrimp",
     "value": "PNS"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Blue tilapia",
     "value": "OEA"
   },
   {
+    "group": "Marine fishes",
     "name": "Red porgy",
     "value": "RPG"
   },
   {
+    "group": "Miscellaneous aquatic animal products",
     "name": "Blacklip pearl oyster",
     "value": "PNM"
   },
   {
+    "group": "Molluscs",
     "name": "Perlemoen abalone",
     "value": "ABP"
   },
   {
+    "group": "Molluscs",
     "name": "Mangrove cupped oyster",
     "value": "OYM"
   },
   {
+    "group": "Molluscs",
     "name": "Choro mussel",
     "value": "CHC"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Wallago",
     "value": "WAA"
   },
   {
+    "group": "Molluscs",
     "name": "Red abalone",
     "value": "ABF"
   },
   {
+    "group": "Marine fishes",
     "name": "Senegalese sole",
     "value": "OAL"
   },
   {
-    "name": "Sea trout",
-    "value": "TRS"
-  },
-  {
+    "group": "Freshwater fishes",
     "name": "Longfin tilapia",
     "value": "ORM"
   },
   {
+    "group": "Diadromous fishes",
+    "name": "Sea trout",
+    "value": "TRS"
+  },
+  {
+    "group": "Freshwater fishes",
     "name": "Crucian carp",
     "value": "FCC"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Black prochilodus",
     "value": "QPN"
   },
   {
+    "group": "Aquatic plants",
     "name": "Caulerpa seaweeds",
     "value": "CAU"
   },
   {
+    "group": "Miscellaneous aquatic animal products",
     "name": "Freshwater mussel shells",
     "value": "FSH"
   },
   {
+    "group": "Miscellaneous aquatic animals",
     "name": "East Asian bullfrog",
     "value": "ZHB"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Spotted snakehead",
     "value": "CNP"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Tench",
     "value": "FTE"
   },
   {
+    "group": "Molluscs",
     "name": "Pacific geoduck",
     "value": "GEC"
   },
   {
+    "group": "Freshwater fishes",
     "name": "[Hoplias spp]",
     "value": "HVW"
   },
   {
-    "name": "Marble goby",
-    "value": "GBM"
-  },
-  {
+    "group": "Marine fishes",
     "name": "Japanese jack mackerel",
     "value": "JJM"
   },
   {
-    "name": "[Oplegnathusasciatus]",
+    "group": "Freshwater fishes",
+    "name": "Marble goby",
+    "value": "GBM"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "[Oplegnathus fasciatus]",
     "value": "OLF"
   },
   {
-    "name": "Spotted rose snapper",
-    "value": "LJS"
-  },
-  {
+    "group": "Molluscs",
     "name": "European flat oyster",
     "value": "OYF"
   },
   {
-    "name": "Bronzeeatherback",
+    "group": "Marine fishes",
+    "name": "Spotted rose snapper",
+    "value": "LJS"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Bronze featherback",
     "value": "ONN"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Great snakehead",
     "value": "KNA"
   },
   {
+    "group": "Aquatic plants",
     "name": "Warty gracilaria",
     "value": "GJW"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Spotted sorubim",
     "value": "UDC"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Northern pike",
     "value": "FPI"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Banded astyanax",
     "value": "AXF"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Brook trout",
     "value": "SVF"
   },
   {
+    "group": "Molluscs",
     "name": "Sand gaper",
     "value": "CLS"
   },
   {
+    "group": "Diadromous fishes",
     "name": "European whitefish",
     "value": "PLN"
   },
   {
+    "group": "Molluscs",
     "name": "Butter clam",
     "value": "BCL"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Freshwater bream",
     "value": "FBM"
   },
   {
+    "group": "Miscellaneous aquatic animals",
     "name": "Sea cucumbers nei",
     "value": "CUX"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Wels(=Som) catfish",
     "value": "SOM"
   },
   {
+    "group": "Marine fishes",
     "name": "Atlantic cod",
     "value": "COD"
   },
   {
+    "group": "Marine fishes",
     "name": "Filefishes, leatherjackets nei",
     "value": "FFX"
   },
   {
+    "group": "Marine fishes",
     "name": "Convict grouper",
     "value": "EIF"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Goldfish",
     "value": "CGO"
   },
   {
+    "group": "Marine fishes",
     "name": "Florida pompano",
     "value": "POM"
   },
   {
+    "group": "Marine fishes",
     "name": "Longfin yellowtail",
     "value": "YTL"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Pike-perch",
     "value": "FPP"
   },
   {
-    "name": "Chileanlat oyster",
+    "group": "Molluscs",
+    "name": "Chilean flat oyster",
     "value": "OCH"
   },
   {
+    "group": "Aquatic plants",
+    "name": "Eucheuma spinosum",
+    "value": "XYZ"
+  },
+  {
+    "group": "Marine fishes",
     "name": "Orange-spotted grouper",
     "value": "ENI"
   },
   {
+    "group": "Marine fishes",
     "name": "Snappers nei",
     "value": "SNA"
   },
   {
+    "group": "Freshwater fishes",
     "name": "European perch",
     "value": "FPE"
   },
   {
-    "name": "Black bullhead",
-    "value": "ITM"
-  },
-  {
-    "name": "River eels nei",
-    "value": "ELX"
-  },
-  {
+    "group": "Freshwater fishes",
     "name": "[Oreochromis tanganicae]",
     "value": "OIT"
   },
   {
+    "group": "Freshwater fishes",
+    "name": "Black bullhead",
+    "value": "ITM"
+  },
+  {
+    "group": "Diadromous fishes",
+    "name": "River eels nei",
+    "value": "ELX"
+  },
+  {
+    "group": "Freshwater fishes",
     "name": "Sabaki tilapia",
     "value": "TLL"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Algerian barb",
     "value": "BBK"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Dotted gizzard shad",
     "value": "DOD"
   },
   {
+    "group": "Marine fishes",
     "name": "Groupers, seabasses nei",
     "value": "BSX"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Siberian sturgeon",
     "value": "APB"
   },
   {
+    "group": "Aquatic plants",
+    "name": "Gracilariopsis lemaneiformis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
     "name": "Silver perch",
     "value": "BYB"
   },
   {
+    "group": "Marine fishes",
     "name": "Pacific chub mackerel",
     "value": "MAS"
   },
   {
+    "group": "Aquatic plants",
     "name": "[Haematococcus pluvialis]",
     "value": "HZP"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Kelee shad",
     "value": "HIX"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Masu(=Cherry) salmon",
     "value": "CHE"
   },
   {
+    "group": "Marine fishes",
     "name": "Scorpionfishes, redfishes nei",
     "value": "SCO"
   },
   {
+    "group": "Molluscs",
     "name": "Gasar cupped oyster",
     "value": "OGZ"
   },
   {
+    "group": "Crustaceans",
     "name": "Atlantic ditch shrimp",
     "value": "PVR"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Blackchin tilapia",
     "value": "SAH"
   },
   {
+    "group": "Crustaceans",
     "name": "Red claw crayfish",
     "value": "CRP"
   },
   {
+    "group": "Aquatic plants",
+    "name": "Halodule uninervis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
     "name": "Greasyback shrimp",
     "value": "MPE"
   },
   {
+    "group": "Crustaceans",
     "name": "Monsoon river prawn",
     "value": "MBM"
   },
   {
+    "group": "Marine fishes",
+    "name": "Shi drum",
+    "value": "COB"
+  },
+  {
+    "group": "Molluscs",
     "name": "Pullet carpet shell",
     "value": "CTS"
   },
   {
+    "group": "Marine fishes",
     "name": "Spinefeet(=Rabbitfishes) nei",
     "value": "SPI"
   },
   {
+    "group": "Aquatic plants",
+    "name": "Halodule wrightii",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
     "name": "Clown knifefish",
     "value": "NCC"
   },
   {
+    "group": "Marine fishes",
     "name": "Blackspot(=red) seabream",
     "value": "SBR"
   },
   {
+    "group": "Marine fishes",
     "name": "Sharpsnout seabream",
     "value": "SHR"
   },
   {
+    "group": "Aquatic plants",
     "name": "Sea belt",
     "value": "LQX"
   },
   {
+    "group": "Marine fishes",
     "name": "Malabar grouper",
     "value": "MAR"
   },
   {
+    "group": "Marine fishes",
     "name": "Snappers, jobfishes nei",
     "value": "SNX"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Danube sturgeon(=Osetr)",
     "value": "APG"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Barbel",
     "value": "PTB"
   },
   {
+    "group": "Marine fishes",
     "name": "Bluespotted seabream",
     "value": "BSC"
   },
   {
+    "group": "Marine fishes",
     "name": "Pink dentex",
     "value": "DEP"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Roaches nei",
     "value": "FRX"
   },
   {
+    "group": "Marine fishes",
     "name": "Mi-iuy (brown) croaker",
     "value": "MIH"
   },
   {
+    "group": "Freshwater fishes",
     "name": "American yellow perch",
     "value": "FPY"
   },
   {
+    "group": "Miscellaneous aquatic animals",
     "name": "Sandfish",
     "value": "HFC"
   },
   {
+    "group": "Molluscs",
     "name": "Rainbow abalone",
     "value": "DZS"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Sorubims nei",
     "value": "UPY"
   },
   {
+    "group": "Freshwater fishes",
     "name": "[Hypsibarbus spp]",
     "value": "YHX"
   },
   {
+    "group": "Freshwater fishes",
     "name": "[Brycon cephalus]",
     "value": "BNC"
   },
   {
+    "group": "Aquatic plants",
     "name": "Slender wart weed",
     "value": "GZG"
   },
   {
+    "group": "Freshwater fishes",
     "name": "[Hatcheria macraei]",
     "value": "HTM"
   },
   {
+    "group": "Freshwater fishes",
     "name": "[Cichla spp]",
     "value": "IGX"
   },
   {
+    "group": "Marine fishes",
     "name": "Crimson snapper",
     "value": "LJT"
   },
   {
+    "group": "Marine fishes",
     "name": "Greater amberjack",
     "value": "AMB"
   },
   {
+    "group": "Marine fishes",
     "name": "Redbanded seabream",
     "value": "REA"
   },
   {
-    "name": "Goldlined seabream",
-    "value": "RSS"
-  },
-  {
+    "group": "Freshwater fishes",
     "name": "Dorado",
     "value": "SXU"
   },
   {
+    "group": "Crustaceans",
     "name": "Hairy marron crayfish",
     "value": "CRT"
   },
   {
+    "group": "Molluscs",
     "name": "Diphos sanguin",
     "value": "OIF"
   },
   {
+    "group": "Molluscs",
     "name": "Globose clam",
     "value": "MTV"
   },
   {
+    "group": "Marine fishes",
     "name": "Common dentex",
     "value": "DEC"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Bagrid catfish",
     "value": "CSR"
   },
   {
-    "name": "Pacificat sleeper",
+    "group": "Freshwater fishes",
+    "name": "Pacific fat sleeper",
     "value": "DOM"
   },
   {
+    "group": "Marine fishes",
     "name": "Yellowtail amberjack",
     "value": "YTC"
   },
   {
+    "group": "Crustaceans",
     "name": "Mud spiny lobster",
     "value": "LMS"
   },
   {
+    "group": "Aquatic plants",
     "name": "Babberlocks",
     "value": "AJC"
   },
   {
+    "group": "Aquatic plants",
     "name": "[Spirulina maxima]",
     "value": "ULX"
   },
   {
+    "group": "Aquatic plants",
+    "name": "Halophila minor",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
     "name": "Danube crayfish",
     "value": "CRD"
   },
   {
+    "group": "Molluscs",
     "name": "Broad geloina",
     "value": "YMX"
   },
   {
+    "group": "Marine fishes",
     "name": "Golden trevally",
     "value": "GLT"
   },
   {
+    "group": "Crustaceans",
     "name": "Yabby crayfish",
     "value": "CDT"
   },
   {
+    "group": "Marine fishes",
     "name": "Spotted coralgrouper",
     "value": "PLM"
   },
   {
+    "group": "Freshwater fishes",
     "name": "[Labeo dussumieri]",
     "value": "LBM"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Tinfoil barb",
     "value": "BFS"
   },
   {
+    "group": "Molluscs",
     "name": "Great Atlantic scallop",
     "value": "SCE"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Adriatic sturgeon",
     "value": "AAA"
   },
   {
+    "group": "Crustaceans",
     "name": "Blue swimming crab",
     "value": "SCD"
   },
   {
+    "group": "Marine fishes",
     "name": "Orbicular batfish",
     "value": "LXR"
   },
   {
+    "group": "Crustaceans",
     "name": "Marine crustaceans nei",
     "value": "CRU"
   },
   {
+    "group": "Marine fishes",
     "name": "Pufferfishes nei",
     "value": "TXV"
   },
   {
+    "group": "Miscellaneous aquatic animal products",
     "name": "Pearl oyster shells nei",
     "value": "OSH"
   },
   {
-    "name": "Soles nei",
-    "value": "SOX"
-  },
-  {
-    "name": "Freshwater crustaceans nei",
-    "value": "FCX"
-  },
-  {
-    "name": "Mozuku",
-    "value": "NYQ"
-  },
-  {
+    "group": "Freshwater fishes",
     "name": "[Prochilodus mariae]",
     "value": "QMR"
   },
   {
+    "group": "Crustaceans",
+    "name": "Freshwater crustaceans nei",
+    "value": "FCX"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Mozuku",
+    "value": "NYQ"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Soles nei",
+    "value": "SOX"
+  },
+  {
+    "group": "Freshwater fishes",
     "name": "Atipa",
     "value": "HSR"
   },
   {
+    "group": "Molluscs",
     "name": "Japanese abalone",
     "value": "ABJ"
   },
   {
-    "name": "Mudfish",
-    "value": "CLN"
-  },
-  {
+    "group": "Diadromous fishes",
     "name": "Huchen",
     "value": "HUC"
   },
   {
+    "group": "Crustaceans",
     "name": "Sawtooth caridina",
     "value": "CID"
   },
   {
+    "group": "Crustaceans",
     "name": "River prawns nei",
     "value": "PPF"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Sterlet sturgeon",
     "value": "APR"
   },
   {
+    "group": "Aquatic plants",
+    "name": "Halophila ovalis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Diadromous fishes",
     "name": "Beluga",
     "value": "HUH"
   },
   {
+    "group": "Crustaceans",
     "name": "Mediterranean shore crab",
     "value": "CMR"
   },
   {
+    "group": "Molluscs",
     "name": "Queen scallop",
     "value": "QSC"
   },
   {
+    "group": "Marine fishes",
     "name": "Sobaity seabream",
     "value": "SZH"
   },
   {
+    "group": "Freshwater fishes",
     "name": "[Leporinus obtusidens]",
     "value": "LPB"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Streaked prochilod",
     "value": "PLL"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Rudd",
     "value": "SRE"
   },
   {
+    "group": "Freshwater fishes",
     "name": "[Brycon orbignyanus]",
     "value": "BNO"
   },
   {
+    "group": "Molluscs",
     "name": "Pacific lion's paw",
     "value": "YKD"
   },
   {
+    "group": "Molluscs",
     "name": "Pacific littleneck clam",
     "value": "PTS"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Barcoo grunter",
     "value": "QOF"
   },
   {
+    "group": "Marine fishes",
+    "name": "Goldlined seabream",
+    "value": "RSS"
+  },
+  {
+    "group": "Freshwater fishes",
     "name": "Gouramis nei",
     "value": "GOM"
   },
   {
+    "group": "Marine fishes",
     "name": "Emperor red snapper",
     "value": "LUB"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Thai mahseer",
     "value": "TOB"
   },
   {
+    "group": "Marine fishes",
     "name": "Sixfinger threadfin",
     "value": "OLX"
   },
   {
+    "group": "Marine fishes",
     "name": "Brown-marbled grouper",
     "value": "EWF"
   },
   {
-    "name": "Sampa",
-    "value": "HEL"
-  },
-  {
+    "group": "Molluscs",
     "name": "Black ark",
     "value": "NQT"
   },
   {
+    "group": "Freshwater fishes",
+    "name": "Sampa",
+    "value": "HEL"
+  },
+  {
+    "group": "Molluscs",
     "name": "Tuberculate abalone",
     "value": "HLT"
   },
   {
+    "group": "Marine fishes",
     "name": "Flatfishes nei",
     "value": "FLX"
   },
   {
+    "group": "Marine fishes",
     "name": "Giant grouper",
     "value": "EEN"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Speckled longfin eel",
     "value": "AAR"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Bleak",
     "value": "ALR"
   },
   {
-    "name": "Caribbean spiny lobster",
-    "value": "SLC"
-  },
-  {
+    "group": "Freshwater fishes",
     "name": "Barred sorubim",
     "value": "UDF"
   },
   {
-    "name": "Giant clams nei",
-    "value": "QQX"
+    "group": "Crustaceans",
+    "name": "Caribbean spiny lobster",
+    "value": "SLC"
   },
   {
+    "group": "Marine fishes",
     "name": "Common sole",
     "value": "SOL"
   },
   {
+    "group": "Crustaceans",
     "name": "Euro-American crayfishes nei",
     "value": "AYS"
   },
   {
-    "name": "Solen razor clams nei",
-    "value": "RAZ"
+    "group": "Molluscs",
+    "name": "Giant clams nei",
+    "value": "QQX"
   },
   {
-    "name": "Sevan trout",
-    "value": "SFI"
-  },
-  {
-    "name": "Mango tilapia",
-    "value": "SAR"
-  },
-  {
+    "group": "Freshwater fishes",
     "name": "Knifefishes",
     "value": "FKN"
   },
   {
+    "group": "Freshwater fishes",
+    "name": "Mango tilapia",
+    "value": "SAR"
+  },
+  {
+    "group": "Diadromous fishes",
+    "name": "Sevan trout",
+    "value": "SFI"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Solen razor clams nei",
+    "value": "RAZ"
+  },
+  {
+    "group": "Molluscs",
     "name": "Pod razor shell",
     "value": "EQE"
   },
   {
+    "group": "Molluscs",
     "name": "Bear paw clam",
     "value": "HIP"
   },
   {
+    "group": "Aquatic plants",
     "name": "Unicell. chlorella green alga",
     "value": "HQW"
   },
   {
+    "group": "Marine fishes",
     "name": "White seabream",
     "value": "SWA"
   },
   {
-    "name": "Grand ark",
-    "value": "NDN"
+    "group": "Aquatic plants",
+    "name": "Halophila stipulacea",
+    "value": "XYZ"
   },
   {
-    "name": "Burbot",
-    "value": "FBU"
-  },
-  {
+    "group": "Freshwater fishes",
     "name": "African catfish",
     "value": "HEB"
   },
   {
+    "group": "Freshwater fishes",
+    "name": "Burbot",
+    "value": "FBU"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Grand ark",
+    "value": "NDN"
+  },
+  {
+    "group": "Molluscs",
     "name": "Hooded oyster",
     "value": "CSC"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Striped bass",
     "value": "STB"
   },
   {
+    "group": "Molluscs",
     "name": "River Plata mussel",
     "value": "MSR"
   },
   {
-    "name": "Russell's snapper",
-    "value": "SNU"
-  },
-  {
-    "name": "Rough turban",
-    "value": "UOS"
-  },
-  {
+    "group": "Molluscs",
     "name": "Oriental cyclina",
     "value": "KNJ"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Redbelly tilapia",
     "value": "TLZ"
   },
   {
+    "group": "Molluscs",
+    "name": "Rough turban",
+    "value": "UOS"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Russell's snapper",
+    "value": "SNU"
+  },
+  {
+    "group": "Molluscs",
     "name": "Octopuses nei",
     "value": "OCZ"
   },
   {
+    "group": "Crustaceans",
     "name": "Natantian decapods nei",
     "value": "DCP"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Grayling",
     "value": "TLV"
   },
   {
+    "group": "Aquatic plants",
     "name": "Giant kelp",
     "value": "MXY"
   },
   {
+    "group": "Molluscs",
     "name": "Crocus giant clam",
     "value": "DKC"
   },
   {
+    "group": "Crustaceans",
     "name": "Noble crayfish",
     "value": "AAS"
   },
   {
+    "group": "Marine fishes",
     "name": "White-spotted spinefoot",
     "value": "SCN"
   },
   {
+    "group": "Marine fishes",
     "name": "Giant trevally",
     "value": "NXI"
   },
   {
+    "group": "Diadromous fishes",
     "name": "Starry sturgeon",
     "value": "APE"
   },
   {
+    "group": "Marine fishes",
     "name": "Areolate grouper",
     "value": "EPR"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Jaguar guapote",
     "value": "CHL"
   },
   {
+    "group": "Aquatic plants",
     "name": "[Dunaliella salina]",
     "value": "UNI"
   },
   {
+    "group": "Molluscs",
     "name": "Pacific asaphis",
     "value": "FSV"
   },
   {
+    "group": "Molluscs",
     "name": "Queen conch",
     "value": "COO"
   },
   {
+    "group": "Marine fishes",
     "name": "Potato grouper",
     "value": "EWL"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Banded jewelfish",
     "value": "HJF"
   },
   {
+    "group": "Crustaceans",
     "name": "Caramote prawn",
     "value": "TGS"
   },
   {
+    "group": "Aquatic plants",
     "name": "Green seaweeds",
     "value": "SWG"
   },
   {
+    "group": "Molluscs",
     "name": "Warty venus",
     "value": "VEV"
   },
   {
+    "group": "Molluscs",
     "name": "Olive green cockle",
     "value": "KTG"
   },
   {
+    "group": "Marine fishes",
     "name": "Spotted seabass",
     "value": "SPU"
   },
   {
+    "group": "Molluscs",
     "name": "Elongate giant clam",
     "value": "DKX"
   },
   {
+    "group": "Molluscs",
     "name": "Smooth giant clam",
     "value": "TDD"
   },
   {
+    "group": "Marine fishes",
     "name": "Green humphead parrotfish",
     "value": "BMK"
   },
   {
+    "group": "Marine fishes",
     "name": "Humpback grouper",
     "value": "MPV"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Chub",
     "value": "LUH"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Common nase",
     "value": "HON"
   },
   {
+    "group": "Crustaceans",
     "name": "Green crab",
     "value": "CRG"
   },
   {
+    "group": "Crustaceans",
+    "name": "Heliocidaris erythrogramma",
+    "value": "XYZ"
+  },
+  {
+    "group": "Molluscs",
     "name": "Great Mediterranean scallop",
     "value": "SJA"
   },
   {
+    "group": "Freshwater fishes",
     "name": "Peacock cichlid",
     "value": "CLO"
   },
   {
-    "name": "Palaemonid shrimps nei",
-    "value": "PAL"
-  },
-  {
-    "name": "South American catfish",
-    "value": "RMQ"
-  },
-  {
-    "name": "Longrayed whiptail",
-    "value": "MCS"
-  },
-  {
-    "name": "Brine shrimp",
-    "value": "AMS"
-  },
-  {
-    "name": "Brown tiger prawn",
-    "value": "PRB"
-  },
-  {
-    "name": "Eastern king prawn",
-    "value": "PNP"
-  },
-  {
-    "name": "Eastern school shrimp",
-    "value": "MPM"
-  },
-  {
-    "name": "Flat oysters nei",
-    "value": "OYX"
-  },
-  {
-    "name": "Golden perch",
-    "value": "MCA"
-  },
-  {
-    "name": "Murray cod",
-    "value": "MCP"
-  },
-  {
-    "name": "Short-finned eel",
-    "value": "ELU"
-  },
-  {
-    "name": "Southern Australia scallop",
-    "value": "SSC"
-  },
-  {
-    "name": "Sydney cupped oyster",
-    "value": "OYS"
-  },
-  {
-    "name": "Kutum",
-    "value": "RFR"
-  },
-  {
-    "name": "Palinurid spiny lobsters nei",
-    "value": "CRW"
-  },
-  {
-    "name": "Black catfishes nei",
-    "value": "CST"
-  },
-  {
-    "name": "Argentinian silverside",
-    "value": "BCB"
-  },
-  {
-    "name": "[Brycon hilarii]",
-    "value": "BXN"
-  },
-  {
+    "group": "Freshwater fishes",
     "name": "[Anostomoides laticeps]",
     "value": "OIA"
   },
   {
-    "name": "Snooks(=Robalos) nei",
-    "value": "ROB"
+    "group": "Freshwater fishes",
+    "name": "[Brycon hilarii]",
+    "value": "BXN"
   },
   {
-    "name": "Suckermouth catfish",
-    "value": "HSL"
-  },
-  {
-    "name": "Trahira",
-    "value": "HWU"
-  },
-  {
-    "name": "[Spirulina platensis]",
-    "value": "ULL"
-  },
-  {
-    "name": "Bayad",
-    "value": "BGJ"
-  },
-  {
-    "name": "[Porphyra columbina]",
-    "value": "YKN"
-  },
-  {
-    "name": "[Trochita spp]",
-    "value": "UDX"
-  },
-  {
-    "name": "Japanese isinglass",
-    "value": "GDY"
-  },
-  {
-    "name": "Swimming crabs, etc. nei",
-    "value": "SWM"
-  },
-  {
-    "name": "Greasy grouper",
-    "value": "EPT"
-  },
-  {
-    "name": "Hong Kong catfish",
-    "value": "CFS"
-  },
-  {
-    "name": "Hong Kong grouper",
-    "value": "EPA"
-  },
-  {
-    "name": "[Pimelodus spp]",
-    "value": "MXW"
-  },
-  {
-    "name": "Dorada",
-    "value": "BCM"
-  },
-  {
-    "name": "Duckbill catfish",
-    "value": "SBM"
-  },
-  {
-    "name": "Tarpon",
-    "value": "TAR"
-  },
-  {
-    "name": "Coarse seagrape",
-    "value": "KQR"
-  },
-  {
-    "name": "Gastropods nei",
-    "value": "GAS"
-  },
-  {
-    "name": "Buffalofishes nei",
-    "value": "BUF"
-  },
-  {
-    "name": "Southern white shrimp",
-    "value": "PNT"
-  },
-  {
-    "name": "Common pandora",
-    "value": "PAC"
-  },
-  {
-    "name": "Marbled spinefoot",
-    "value": "SRI"
-  },
-  {
-    "name": "American eel",
-    "value": "ELA"
-  },
-  {
-    "name": "Cichlasoma nei",
-    "value": "CHX"
-  },
-  {
-    "name": "Common snook",
-    "value": "SNO"
-  },
-  {
-    "name": "Gudgeons, sleepers nei",
-    "value": "FGB"
-  },
-  {
-    "name": "[Ichthyoelephas humeralis]",
-    "value": "ICH"
-  },
-  {
-    "name": "Green terror",
-    "value": "AER"
-  },
-  {
-    "name": "Rhinofishes nei",
-    "value": "RHI"
-  },
-  {
-    "name": "Yellow-belly bream",
-    "value": "YBB"
-  },
-  {
-    "name": "Anadara clams nei",
-    "value": "BLS"
-  },
-  {
-    "name": "Blackbelt cichlid",
-    "value": "CHK"
-  },
-  {
-    "name": "Lebranche mullet",
-    "value": "MUB"
-  },
-  {
-    "name": "Whitemouth croaker",
-    "value": "CKM"
-  },
-  {
-    "name": "Rooster venus",
-    "value": "FAG"
-  },
-  {
-    "name": "Akiami paste shrimp",
-    "value": "AKS"
-  },
-  {
-    "name": "Penguin wing oyster",
-    "value": "PTE"
-  },
-  {
-    "name": "Red seaweeds",
-    "value": "SWR"
-  },
-  {
-    "name": "Crimson seabream",
-    "value": "ENJ"
-  },
-  {
-    "name": "Filefishes nei",
-    "value": "FLF"
-  },
-  {
-    "name": "Gazami crab",
-    "value": "GAZ"
-  },
-  {
-    "name": "Octopuses, etc. nei",
-    "value": "OCT"
-  },
-  {
-    "name": "Spiny lobsters nei",
-    "value": "VLO"
-  },
-  {
-    "name": "Asp",
-    "value": "ASU"
-  },
-  {
-    "name": "Gelidium seaweeds",
-    "value": "GEL"
-  },
-  {
-    "name": "Horned turban",
-    "value": "TOS"
-  },
-  {
-    "name": "Jack and horse mackerels nei",
-    "value": "JAX"
-  },
-  {
-    "name": "Okhotsk atka mackerel",
-    "value": "ATK"
-  },
-  {
-    "name": "Goldsilk seabream",
-    "value": "MLB"
-  },
-  {
-    "name": "Malabar blood snapper",
-    "value": "MAL"
-  },
-  {
-    "name": "[Wallago spp]",
-    "value": "WAX"
-  },
-  {
-    "name": "[Sargassum spp]",
-    "value": "QWX"
-  },
-  {
-    "name": "Bastard halibuts nei",
-    "value": "BAX"
-  },
-  {
-    "name": "Bluegill",
-    "value": "LMM"
-  },
-  {
-    "name": "Callinectes swimcrabs nei",
-    "value": "CAL"
-  },
-  {
-    "name": "Crevalle jack",
-    "value": "CVJ"
-  },
-  {
-    "name": "Freshwater drum",
-    "value": "AGR"
-  },
-  {
-    "name": "Mojarras(=Silver-biddies) nei",
-    "value": "MOJ"
-  },
-  {
-    "name": "Pacific calico scallop",
-    "value": "SCH"
-  },
-  {
-    "name": "Silversides(=Sand smelts) nei",
-    "value": "SIL"
-  },
-  {
-    "name": "White crappie",
-    "value": "PXR"
-  },
-  {
-    "name": "Yellowfin tuna",
-    "value": "YFT"
-  },
-  {
-    "name": "Europeanlat oyster",
-    "value": "OYF"
-  },
-  {
-    "name": "Japanese meagre",
-    "value": "RYJ"
-  },
-  {
-    "name": "Vatani rohtee",
-    "value": "ROG"
-  },
-  {
-    "name": "Stromboid conchs nei",
-    "value": "CON"
-  },
-  {
-    "name": "Naked catfishes",
-    "value": "CAN"
-  },
-  {
-    "name": "Danube bleak",
-    "value": "NUC"
-  },
-  {
-    "name": "European greenrog",
-    "value": "FGI"
-  },
-  {
-    "name": "Vimba bream",
-    "value": "VIV"
-  },
-  {
-    "name": "Green tiger prawn",
-    "value": "TIP"
-  },
-  {
-    "name": "Yellowfin seabream",
-    "value": "YWF"
-  },
-  {
-    "name": "Fluted giant clam",
-    "value": "TDS"
-  },
-  {
-    "name": "Giant clam",
-    "value": "TDG"
-  },
-  {
+    "group": "Aquatic plants",
     "name": "[Chondracanthus chamissoi]",
     "value": "KDM"
   },
   {
-    "name": "Amazon sailfin catfish",
-    "value": "QYP"
+    "group": "Freshwater fishes",
+    "name": "[Ichthyoelephas humeralis]",
+    "value": "ICH"
   },
   {
-    "name": "False abalone",
-    "value": "SNE"
+    "group": "Freshwater fishes",
+    "name": "[Pimelodus spp]",
+    "value": "MXW"
   },
   {
-    "name": "Velvety cichlids",
-    "value": "AST"
+    "group": "Aquatic plants",
+    "name": "[Porphyra columbina]",
+    "value": "YKN"
   },
   {
-    "name": "Flathead lobster",
-    "value": "THQ"
+    "group": "Aquatic plants",
+    "name": "[Sargassum spp]",
+    "value": "QWX"
   },
   {
-    "name": "Percoids nei",
-    "value": "PRC"
-  },
-  {
-    "name": "Scats",
-    "value": "SCT"
-  },
-  {
-    "name": "Pargo breams nei",
-    "value": "SBP"
-  },
-  {
-    "name": "Europeanlounder",
-    "value": "FLE"
-  },
-  {
-    "name": "Golden trout",
-    "value": "ONA"
-  },
-  {
-    "name": "Freshwater gobies nei",
-    "value": "FGX"
-  },
-  {
-    "name": "Harpoon seaweeds",
-    "value": "ASR"
-  },
-  {
-    "name": "Periwinkles nei",
-    "value": "PER"
-  },
-  {
-    "name": "Signal crayfish",
-    "value": "PCL"
-  },
-  {
-    "name": "Wakame nei",
-    "value": "UDS"
-  },
-  {
-    "name": "Sciaenas nei",
-    "value": "DRU"
-  },
-  {
-    "name": "Venus clams nei",
-    "value": "CLV"
-  },
-  {
-    "name": "Atlantic wolffish",
-    "value": "CAA"
-  },
-  {
-    "name": "Haddock",
-    "value": "HAD"
-  },
-  {
-    "name": "Spotted wolffish",
-    "value": "CAS"
-  },
-  {
-    "name": "Dulse",
-    "value": "RHP"
-  },
-  {
-    "name": "Drums nei",
-    "value": "UBS"
-  },
-  {
-    "name": "Green turtle",
-    "value": "TUG"
-  },
-  {
-    "name": "Bluespot mullet",
-    "value": "VMH"
-  },
-  {
-    "name": "Croakers, drums nei",
-    "value": "CDX"
-  },
-  {
-    "name": "Stony sea urchin",
-    "value": "URM"
-  },
-  {
-    "name": "Tangle",
-    "value": "LQD"
-  },
-  {
-    "name": "Common prawn",
-    "value": "CPR"
-  },
-  {
-    "name": "Common two-banded seabream",
-    "value": "CTB"
-  },
-  {
-    "name": "Bigeye trevally",
-    "value": "CXS"
-  },
-  {
-    "name": "Black grouper",
-    "value": "MAB"
-  },
-  {
-    "name": "Papuan black snapper",
-    "value": "LVG"
-  },
-  {
-    "name": "Streaked spinefoot",
-    "value": "IGV"
-  },
-  {
-    "name": "White sturgeon",
-    "value": "APN"
-  },
-  {
-    "name": "Orfe(=Ide)",
-    "value": "FID"
-  },
-  {
-    "name": "Peled",
-    "value": "CIJ"
-  },
-  {
-    "name": "Carpet shells nei",
-    "value": "TPS"
-  },
-  {
-    "name": "Red bait",
-    "value": "SSR"
-  },
-  {
-    "name": "Smooth mactra",
-    "value": "MAG"
-  },
-  {
+    "group": "Marine fishes",
     "name": "[Solea spp]",
     "value": "SOO"
   },
   {
-    "name": "Brill",
-    "value": "BLL"
+    "group": "Aquatic plants",
+    "name": "[Spirulina platensis]",
+    "value": "ULL"
   },
   {
-    "name": "Common cuttlefish",
-    "value": "CTC"
+    "group": "Molluscs",
+    "name": "[Trochita spp]",
+    "value": "UDX"
   },
   {
-    "name": "Golden carpet shell",
-    "value": "VNA"
+    "group": "Freshwater fishes",
+    "name": "[Wallago spp]",
+    "value": "WAX"
   },
   {
-    "name": "Pepperyurrow",
-    "value": "OBN"
+    "group": "Crustaceans",
+    "name": "Akiami paste shrimp",
+    "value": "AKS"
   },
   {
-    "name": "Sargo breams nei",
-    "value": "SRG"
+    "group": "Freshwater fishes",
+    "name": "Amazon sailfin catfish",
+    "value": "QYP"
   },
   {
-    "name": "Seabasses nei",
-    "value": "BSE"
+    "group": "Diadromous fishes",
+    "name": "American eel",
+    "value": "ELA"
   },
   {
-    "name": "Mississippi paddlefish",
-    "value": "PAM"
+    "group": "Molluscs",
+    "name": "Anadara clams nei",
+    "value": "BLS"
   },
   {
-    "name": "Chum(=Keta=Dog) salmon",
-    "value": "CHU"
+    "group": "Freshwater fishes",
+    "name": "Argentinian silverside",
+    "value": "BCB"
   },
   {
-    "name": "Three-spined stickleback",
-    "value": "GTA"
+    "group": "Freshwater fishes",
+    "name": "Asp",
+    "value": "ASU"
   },
   {
+    "group": "Molluscs",
     "name": "Banded carpet shell",
     "value": "VNR"
   },
   {
-    "name": "Big-scale sand smelt",
-    "value": "ATB"
+    "group": "Marine fishes",
+    "name": "Atlantic spadefish",
+    "value": "HRF"
   },
   {
-    "name": "Brown meagre",
-    "value": "CBM"
+    "group": "Marine fishes",
+    "name": "Atlantic wolffish",
+    "value": "CAA"
   },
   {
-    "name": "Donax clams",
-    "value": "DON"
-  },
-  {
-    "name": "Groundfishes nei",
-    "value": "GRO"
-  },
-  {
-    "name": "Mackerels nei",
-    "value": "MAX"
-  },
-  {
-    "name": "Pacific salmons nei",
-    "value": "ORC"
-  },
-  {
-    "name": "Pollack",
-    "value": "POL"
-  },
-  {
-    "name": "Daggertooth pike conger",
-    "value": "DPC"
-  },
-  {
-    "name": "Great blue spotted mudskipper",
-    "value": "BFP"
-  },
-  {
-    "name": "Japanese spiny lobster",
-    "value": "NUJ"
-  },
-  {
-    "name": "Malabar trevally",
-    "value": "NGS"
-  },
-  {
-    "name": "Redtail prawn",
-    "value": "REP"
-  },
-  {
-    "name": "Trumpet emperor",
-    "value": "LHI"
-  },
-  {
-    "name": "Two-spot red snapper",
-    "value": "LJB"
-  },
-  {
-    "name": "Waigieu seaperch",
-    "value": "PWG"
-  },
-  {
-    "name": "Yellowback seabream",
-    "value": "DTT"
-  },
-  {
-    "name": "Horse mussels nei",
-    "value": "MOD"
-  },
-  {
-    "name": "Squaretail mullet",
-    "value": "LZV"
-  },
-  {
-    "name": "Bluefish",
-    "value": "BLU"
-  },
-  {
-    "name": "Thinlip grey mullet",
-    "value": "MGC"
-  },
-  {
-    "name": "Ningu",
-    "value": "LOC"
-  },
-  {
-    "name": "Ripon barbel",
-    "value": "BBU"
-  },
-  {
-    "name": "Spinous spider crab",
-    "value": "SCR"
-  },
-  {
-    "name": "Striped venus",
-    "value": "SVE"
-  },
-  {
-    "name": "Variegated scallop",
-    "value": "VSC"
-  },
-  {
+    "group": "Crustaceans",
     "name": "Baltic prawn",
     "value": "PAA"
   },
   {
-    "name": "Freshwater breams nei",
-    "value": "FBR"
+    "group": "Marine fishes",
+    "name": "Bastard halibuts nei",
+    "value": "BAX"
   },
   {
-    "name": "Gobies nei",
-    "value": "GPA"
+    "group": "Freshwater fishes",
+    "name": "Bayad",
+    "value": "BGJ"
   },
   {
-    "name": "Sockeye(=Red) salmon",
-    "value": "SOC"
+    "group": "Marine fishes",
+    "name": "Bigeye trevally",
+    "value": "CXS"
   },
   {
-    "name": "Sichel",
-    "value": "FSC"
+    "group": "Marine fishes",
+    "name": "Big-scale sand smelt",
+    "value": "ATB"
   },
   {
-    "name": "So-iuy mullet",
-    "value": "MYZ"
+    "group": "Freshwater fishes",
+    "name": "Black catfishes nei",
+    "value": "CST"
   },
   {
-    "name": "White bream",
-    "value": "ABK"
+    "group": "Marine fishes",
+    "name": "Black grouper",
+    "value": "MAB"
   },
   {
-    "name": "Chubs nei",
-    "value": "LEW"
-  },
-  {
+    "group": "Marine fishes",
     "name": "Black seabass",
     "value": "BSB"
   },
   {
+    "group": "Freshwater fishes",
+    "name": "Blackbelt cichlid",
+    "value": "CHK"
+  },
+  {
+    "group": "Crustaceans",
     "name": "Blue crab",
     "value": "CRB"
   },
   {
+    "group": "Marine fishes",
+    "name": "Bluefish",
+    "value": "BLU"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Bluegill",
+    "value": "LMM"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Bluespot mullet",
+    "value": "VMH"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Brill",
+    "value": "BLL"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Brine shrimp",
+    "value": "AMS"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Brown meagre",
+    "value": "CBM"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Brown tiger prawn",
+    "value": "PRB"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Buffalofishes nei",
+    "value": "BUF"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Callinectes swimcrabs nei",
+    "value": "CAL"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Carpet shells nei",
+    "value": "TPS"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Chubs nei",
+    "value": "LEW"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Hemigrammus rhodostomus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Diadromous fishes",
+    "name": "Chum(=Keta=Dog) salmon",
+    "value": "CHU"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Cichlasoma nei",
+    "value": "CHX"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Coarse seagrape",
+    "value": "KQR"
+  },
+  {
+    "group": "Molluscs",
     "name": "Cockles nei",
     "value": "COZ"
   },
   {
-    "name": "Northern white shrimp",
-    "value": "PST"
+    "group": "Aquatic plants",
+    "name": "Heritiera littoralis",
+    "value": "XYZ"
   },
   {
-    "name": "Olympia oyster",
-    "value": "OYH"
+    "group": "Molluscs",
+    "name": "Common cuttlefish",
+    "value": "CTC"
   },
   {
-    "name": "Pacific horse clam",
-    "value": "TQU"
+    "group": "Marine fishes",
+    "name": "Common pandora",
+    "value": "PAC"
   },
   {
+    "group": "Crustaceans",
+    "name": "Common prawn",
+    "value": "CPR"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Common snook",
+    "value": "SNO"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Common two-banded seabream",
+    "value": "CTB"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Crevalle jack",
+    "value": "CVJ"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Crimson seabream",
+    "value": "ENJ"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Croakers, drums nei",
+    "value": "CDX"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Daggertooth pike conger",
+    "value": "DPC"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Danube bleak",
+    "value": "NUC"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Donax clams",
+    "value": "DON"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Dorada",
+    "value": "BCM"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Drums nei",
+    "value": "UBS"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Duckbill catfish",
+    "value": "SBM"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Dulse",
+    "value": "RHP"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Eastern king prawn",
+    "value": "PNP"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Eastern school shrimp",
+    "value": "MPM"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "European flounder",
+    "value": "FLE"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "European green frog",
+    "value": "FGI"
+  },
+  {
+    "group": "Molluscs",
+    "name": "False abalone",
+    "value": "SNE"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Filefishes nei",
+    "value": "FLF"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Flat oysters nei",
+    "value": "OYX"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Flathead lobster",
+    "value": "THQ"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Fluted giant clam",
+    "value": "TDS"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Freshwater breams nei",
+    "value": "FBR"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Freshwater drum",
+    "value": "AGR"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Freshwater gobies nei",
+    "value": "FGX"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Gastropods nei",
+    "value": "GAS"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Gazami crab",
+    "value": "GAZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Gelidium seaweeds",
+    "value": "GEL"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Giant clam",
+    "value": "TDG"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Gobies nei",
+    "value": "GPA"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Golden carpet shell",
+    "value": "VNA"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Golden perch",
+    "value": "MCA"
+  },
+  {
+    "group": "Diadromous fishes",
+    "name": "Golden trout",
+    "value": "ONA"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Goldsilk seabream",
+    "value": "MLB"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Greasy grouper",
+    "value": "EPT"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Great blue spotted mudskipper",
+    "value": "BFP"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Green terror",
+    "value": "AER"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Green tiger prawn",
+    "value": "TIP"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "Green turtle",
+    "value": "TUG"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Groundfishes nei",
+    "value": "GRO"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Gudgeons, sleepers nei",
+    "value": "FGB"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Haddock",
+    "value": "HAD"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Harpoon seaweeds",
+    "value": "ASR"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Hong Kong catfish",
+    "value": "CFS"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Hong Kong grouper",
+    "value": "EPA"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Horned turban",
+    "value": "TOS"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Horse mussels nei",
+    "value": "MOD"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Jack and horse mackerels nei",
+    "value": "JAX"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Japanese isinglass",
+    "value": "GDY"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Japanese meagre",
+    "value": "RYJ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Japanese spiny lobster",
+    "value": "NUJ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Kutum",
+    "value": "RFR"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Lebranche mullet",
+    "value": "MUB"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Longrayed whiptail",
+    "value": "MCS"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Mackerels nei",
+    "value": "MAX"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Malabar blood snapper",
+    "value": "MAL"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Malabar trevally",
+    "value": "NGS"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Marbled spinefoot",
+    "value": "SRI"
+  },
+  {
+    "group": "Diadromous fishes",
+    "name": "Mississippi paddlefish",
+    "value": "PAM"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Mojarras(=Silver-biddies) nei",
+    "value": "MOJ"
+  },
+  {
+    "group": "Crustaceans",
     "name": "Monkey river prawn",
     "value": "BKR"
   },
   {
-    "name": "Atlantic spadefish",
-    "value": "HRF"
+    "group": "Freshwater fishes",
+    "name": "Mudfish",
+    "value": "CLN"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Murray cod",
+    "value": "MCP"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Naked catfishes",
+    "value": "CAN"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Ningu",
+    "value": "LOC"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Northern white shrimp",
+    "value": "PST"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Octopuses, etc. nei",
+    "value": "OCT"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Okhotsk atka mackerel",
+    "value": "ATK"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Olympia oyster",
+    "value": "OYH"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Orfe(=Ide)",
+    "value": "FID"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Red seaweeds",
+    "value": "SWR"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Pacific calico scallop",
+    "value": "SCH"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Pacific horse clam",
+    "value": "TQU"
+  },
+  {
+    "group": "Diadromous fishes",
+    "name": "Pacific salmons nei",
+    "value": "ORC"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Palaemonid shrimps nei",
+    "value": "PAL"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Palinurid spiny lobsters nei",
+    "value": "CRW"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Papuan black snapper",
+    "value": "LVG"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Pargo breams nei",
+    "value": "SBP"
+  },
+  {
+    "group": "Diadromous fishes",
+    "name": "Peled",
+    "value": "CIJ"
+  },
+  {
+    "group": "Miscellaneous aquatic animal products",
+    "name": "Penguin wing oyster",
+    "value": "PTE"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Peppery furrow",
+    "value": "OBN"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Percoids nei",
+    "value": "PRC"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Periwinkles nei",
+    "value": "PER"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Pollack",
+    "value": "POL"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "Red bait",
+    "value": "SSR"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Redtail prawn",
+    "value": "REP"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Rhinofishes nei",
+    "value": "RHI"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Ripon barbel",
+    "value": "BBU"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Rooster venus",
+    "value": "FAG"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Sargo breams nei",
+    "value": "SRG"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Cichlasoma trimaculatum",
+    "value": "XYZ"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Scats",
+    "value": "SCT"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Sciaenas nei",
+    "value": "DRU"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Seabasses nei",
+    "value": "BSE"
+  },
+  {
+    "group": "Diadromous fishes",
+    "name": "Short-finned eel",
+    "value": "ELU"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Sichel",
+    "value": "FSC"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Signal crayfish",
+    "value": "PCL"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Silversides(=Sand smelts) nei",
+    "value": "SIL"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Smooth mactra",
+    "value": "MAG"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Snooks(=Robalos) nei",
+    "value": "ROB"
+  },
+  {
+    "group": "Diadromous fishes",
+    "name": "Sockeye(=Red) salmon",
+    "value": "SOC"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "So-iuy mullet",
+    "value": "MYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "South American catfish",
+    "value": "RMQ"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Southern Australia scallop",
+    "value": "SSC"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Southern white shrimp",
+    "value": "PNT"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Spinous spider crab",
+    "value": "SCR"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Spiny lobsters nei",
+    "value": "VLO"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Spotted wolffish",
+    "value": "CAS"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Squaretail mullet",
+    "value": "LZV"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "Stony sea urchin",
+    "value": "URM"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Streaked spinefoot",
+    "value": "IGV"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Striped venus",
+    "value": "SVE"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Stromboid conchs nei",
+    "value": "CON"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Suckermouth catfish",
+    "value": "HSL"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Swimming crabs, etc. nei",
+    "value": "SWM"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Sydney cupped oyster",
+    "value": "OYS"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Tangle",
+    "value": "LQD"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Tarpon",
+    "value": "TAR"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Thinlip grey mullet",
+    "value": "MGC"
+  },
+  {
+    "group": "Diadromous fishes",
+    "name": "Three-spined stickleback",
+    "value": "GTA"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Trahira",
+    "value": "HWU"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Trumpet emperor",
+    "value": "LHI"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Two-spot red snapper",
+    "value": "LJB"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Variegated scallop",
+    "value": "VSC"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Vatani rohtee",
+    "value": "ROG"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Velvety cichlids",
+    "value": "AST"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Venus clams nei",
+    "value": "CLV"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Vimba bream",
+    "value": "VIV"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Waigieu seaperch",
+    "value": "PWG"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Wakame nei",
+    "value": "UDS"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Clarias jaensis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "White bream",
+    "value": "ABK"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "White crappie",
+    "value": "PXR"
+  },
+  {
+    "group": "Diadromous fishes",
+    "name": "White sturgeon",
+    "value": "APN"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Whitemouth croaker",
+    "value": "CKM"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Yellowback seabream",
+    "value": "DTT"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Yellow-belly bream",
+    "value": "YBB"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Yellowfin seabream",
+    "value": "YWF"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Yellowfin tuna",
+    "value": "YFT"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "American alligator",
+    "value": "XYZ"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "American crocodile",
+    "value": "XYZ"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "Australian crocodile",
+    "value": "XYZ"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "Black caiman",
+    "value": "XYZ"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "Broad-nosed caiman",
+    "value": "XYZ"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "Cuban crocodile",
+    "value": "XYZ"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "Cuvier's Dwarf caiman",
+    "value": "XYZ"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "Estuarine crocodile",
+    "value": "XYZ"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "Morelet's crocodile",
+    "value": "XYZ"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "New Guinea crocodile",
+    "value": "XYZ"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "Nile crocodile",
+    "value": "XYZ"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "Paraguayan caiman",
+    "value": "XYZ"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "Siamese crocodile",
+    "value": "XYZ"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "Slender-snouted crocodile",
+    "value": "XYZ"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "Smooth-fronted caiman",
+    "value": "XYZ"
+  },
+  {
+    "group": "Miscellaneous aquatic animals",
+    "name": "Spectacled caiman",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Amatitlania�nigrofasciata",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Amphiporus macracanthus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Amphiprion ocellaris",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Amyda cartilaginea",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Anguilla bicolor pacifica",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Apistogramma cacatuoides",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Aplocheilus lineatus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Batrachomoeus trispinosus (Halophryne trispinosus)",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Belontia signata",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Brachionus plicatilis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Brachygobius doriae",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Cerberus microlepis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Ceriops tagal",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Chaetoceros calcitrans",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Chaetoceros gracilis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Chaetoceros muelleri",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Chaetoceros neogracile",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Chaetoceros simplex",
+    "value": "XYZ"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Chamberlainia hainesiana",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Cherax cainii",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Clarias magur",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Heros severus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Hippocampus reidi",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Holothuria floridana",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Hyphessobrycon eques",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Hyriopsis desowitzi",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Isochrysis galbana",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Kappaphycus striatus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Kronoheros umbriferus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Leiopotherapon plumbeus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Liza carinata",
+    "value": "XYZ"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Liza haematocheila",
+    "value": "XYZ"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Liza parsia",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Macropodus opercularis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Melanotaenia boesemani",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Mesopotamichthys sharpeyi",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Mikrogeophagus ramirezi",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Mizuhopecten yessoensis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Monopterus cuchia",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Mystus leucophasis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Nannochloropsis oceanica",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Nannochloropsis oculata",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Nannochloropsis�gaditana",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Navicula jeffreyae",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Neolamprologus brichardi",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Nimbochromis venustus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Nitzschia alba",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Nodipecten nodosus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Pangasius krempfi",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Pangasius kunyit",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Pangio kuhlii",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Panopea abrupta",
+    "value": "XYZ"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Papustyla pulcherrima",
+    "value": "XYZ"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Paralichthys orbignyanus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Parambassis siamensis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Paratheraps guttulatus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Paratya australiensis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Pavlova pinguis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Pelodiscus sinensis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Pelvicachromis pulcher",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Penaeus pulchricaudatus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Pethia cumingii",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Pethia nigrofasciata",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Phragmites australis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Pinctada albina",
+    "value": "XYZ"
+  },
+  {
+    "group": "Molluscs",
+    "name": "Pinctada fucata martensii",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Poecilia sphenops",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Proteomonas sulcata",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Pseudomystus siamensis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Pterophyllum scalare",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Puntius sarana",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Puntius titteya",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Pyropia yezoensis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Rasboroides vaterifloris",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Rebecca salina",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Rhizophora mucronata",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Rhodomonas salina",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Saccharina japonica",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Satanoperca jurupari",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Semilabeo obscurus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Skeletonema pseudocostatum",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Sorubim cuspicaudus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Symphysodon discus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Marine fishes",
+    "name": "Synchiropus splendidus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Syringodium isoetifolium",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Tegillarca granosa",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Tetraselmis chuii",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Tetraselmis suecica",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Tetraselmis tetrathele",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Thalassiosira pseudonana",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Thalassodendron ciliatum",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Thenus australiensis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Thenus unimaculatus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Tisochrysis lutea",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Trichopodus leerii",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Trichopsis schalleri",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Trigonostigma espei",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Ulva ohnoi",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Ulva tepida",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Unio pictorum",
+    "value": "XYZ"
+  },
+  {
+    "group": "Crustaceans",
+    "name": "Velesunio ambiguus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Vieja maculicauda",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Vieja synspila",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Xiphophorus hellerii",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "xiphophorus maculatus",
+    "value": "XYZ"
+  },
+  {
+    "group": "Aquatic plants",
+    "name": "Xylocarpus moluccensis",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Yasuhikotakia morleti",
+    "value": "XYZ"
+  },
+  {
+    "group": "Freshwater fishes",
+    "name": "Yasuhikotakia nigrolineata",
+    "value": "XYZ"
   }
 ]

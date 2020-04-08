@@ -42,14 +42,15 @@ export class AppComponent {
 
         data=data.Continents;
 
+
         return data.map(e=>[
-            e.Name+" ("+e.Regions.length+")",
+            e.Name,
             e.Timeseries["2017"],
             e.Species,
             e.FTypes,
             e.SFTypes,
             e.Regions=e.Regions.map(r=>[
-                r.Name+" ("+r.Countries.length+")",
+                r.Name,
                 r.Timeseries["2017"],
                 r.Species,
                 r.FTypes,
