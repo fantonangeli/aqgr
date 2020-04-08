@@ -13,6 +13,20 @@ export class FishStatTableComponent implements OnInit {
 
     constructor() { }
 
+    /**
+     * get the toggle icon for the template 
+     *
+     * @param {[]} element=[] the element
+     * @returns {string} the icon
+     */
+    getToggleIcon(element:any=[]):string{
+
+        if(!element.children) return "";
+
+        if(!element.toggle) return "+";
+
+        return "-";
+    }
 
     /**
      * close all elements in data recursively
