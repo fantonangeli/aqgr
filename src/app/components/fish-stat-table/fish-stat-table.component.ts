@@ -47,15 +47,16 @@ export class FishStatTableComponent implements OnInit {
      * @param {Object} element the element to expand
      */
     onElementClick(element){
-        let siblings=[];
         let initialV=element.toggle;
-
-        // TODO: no action for countries
-       
+        if(!element || !element.children) return;
 
         this.closeAll(this.data);
 
         this.openElement(element);
+
+        if (initialV) {
+            element.toggle=false;
+        }
     }
 
     /**
