@@ -3,7 +3,7 @@
         <!-- TODO: add plus icon to expand -->
         <!-- TODO: add icon to show a chart -->
         <ng-container  *ngFor="let field of element; let first = first; let last = last ">
-            <td class="align-top" class="text-truncate"  [ngStyle]="{'padding-left': !first?20:(pleft+20)+'px'}">{{field}}</td>
+            <td class="align-top" class="text-truncate" [ngClass]="{'text-right':!first}"  [ngStyle]="{'padding-left': !first?20:(pleft+20)+'px'}">{{field}}</td>
         </ng-container>
     </tr>
 
@@ -26,24 +26,6 @@
         <tbody>
             <ng-container *ngFor="let element of data">
                 <ng-template *ngTemplateOutlet="tplElement; context: {$implicit: element, pleft:0}"></ng-template>
-                <!-- <tr (click)="expandElement(element)"> -->
-                <!--     <ng&#45;container  *ngFor="let field of element"> -->
-                <!--         <td class="align&#45;top" class="text&#45;truncate">{{field}}</td> -->
-                <!--     </ng&#45;container> -->
-                <!-- </tr> -->
-                <!--  -->
-                <!-- <ng&#45;container *ngIf="element.toggle"> -->
-                <!--     <ng&#45;container *ngFor="let child of element.children"> -->
-                <!--         <tr class="bg&#45;white"> -->
-                <!--             <ng&#45;container  *ngFor="let cfield of child; let first = first; let last = last "> -->
-                <!--                 <td class="align&#45;top" [ngClass]="{'pl&#45;4':first}" class="text&#45;truncate">{{cfield}}</td> -->
-                <!--             </ng&#45;container> -->
-                <!--         </tr> -->
-                <!--  -->
-                <!--  -->
-                <!--     </ng&#45;container> -->
-                <!-- </ng&#45;container> -->
-                
             </ng-container>
         </tbody>
     </table>
