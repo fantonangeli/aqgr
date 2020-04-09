@@ -1,0 +1,14 @@
+[{
+    "data": [
+        {"name":  "Japanese kelp", "y":5221},
+        {"name":  "Eucheuma seaweeds nei", "y":23763},
+        {"name":  "Grass carp(=White amur)", "y":13464},
+        {"name":  "Cupped oysters nei", "y":13394},
+        {"name":  "Japanese carpet shell", "y":11411},
+        {"name":  "Silver carp", "y":4687},
+        {"name":  "Bighead carp", "y":25301},
+        {"name":  "Gracilaria seaweeds", "y":1332},
+        {"name":  "Common carp", "y":31215}
+    ],
+    "innerSize": "50%"
+}]

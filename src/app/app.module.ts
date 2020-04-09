@@ -12,6 +12,8 @@ import { FishStatTableComponent } from './components/fish-stat-table/fish-stat-t
 import { SpecFilterComponent } from './components/spec-filter/spec-filter.component';
 import { CountryComponent } from './pages/country/country.component';
 import { HomeComponent } from './pages/home/home.component';
+import { Pie01Component } from './components/charts/pie01/pie01.component';
+import { CountryChart01Component } from './components/charts/country-chart01/country-chart01.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { HomeComponent } from './pages/home/home.component';
     SpecFilterComponent,
     CountryComponent,
     HomeComponent,
+    Pie01Component,
+    CountryChart01Component,
   ],
   imports: [
     BrowserModule,
