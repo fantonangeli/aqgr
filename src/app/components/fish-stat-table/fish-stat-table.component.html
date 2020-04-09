@@ -1,10 +1,11 @@
 <ng-template #tplElement let-element let-pleft="pleft">
     <tr (click)="onElementClick(element)">
-        <!-- TODO: add plus icon to expand -->
         <!-- TODO: add icon to show a chart -->
         <ng-container  *ngFor="let field of element; let first = first; let last = last ">
             <td class="align-top" class="text-truncate" *ngIf="first" [ngStyle]="{'padding-left': (pleft+20)+'px'}">
-                <span class="font-weight-bold h6">{{getToggleIcon(element)}}</span> {{field}}
+                <span class="font-weight-bold h6">{{getToggleIcon(element)}}</span> 
+                &nbsp;{{field}}
+                <a [routerLink]="['/country', 'CHN']" routerLinkActive="router-link-active"><fa-icon *ngIf="!element.children" [icon]="faChartPie"></fa-icon></a>
             </td>
             <td class="align-top" class="text-truncate" *ngIf="!first" class="text-right">
                 {{field}}

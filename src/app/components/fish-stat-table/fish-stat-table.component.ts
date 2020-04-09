@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { faChartPie } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-fish-stat-table',
@@ -10,6 +11,7 @@ export class FishStatTableComponent implements OnInit {
     @Input() data: any[] = [];
     @Input() columns: any[] = [];
     @Input() childColumns: any[] = [];
+    faChartPie = faChartPie;
 
     constructor() { }
 
