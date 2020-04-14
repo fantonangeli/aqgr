@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input, AfterViewInit } from '@angular/core';
 import * as Highcharts from 'highcharts';
 
 declare var require: any;
@@ -13,10 +13,11 @@ noData(Highcharts);
 
 @Component({
   selector: 'app-pie01',
-  templateUrl: './pie01.component.html',
-  styleUrls: ['./pie01.component.scss']
+  template: `<div [attr.id]="wrapperId"></div> `,
+  styleUrls: []
 })
-export class Pie01Component implements OnInit {
+export class Pie01Component implements AfterViewInit  {
+    wrapperId=`pie${Math.floor(Math.random() * 1000)}Container`;
     @Input() series :object[]=[];
 
     /**
@@ -30,7 +31,7 @@ export class Pie01Component implements OnInit {
                 height:"500px",
             },
             title: {
-                text: "Proportion of primary farmed type entered"
+                text: null
             },
             xAxis: {
             },
@@ -79,7 +80,7 @@ export class Pie01Component implements OnInit {
             series: this.series,
         };
 
-        Highcharts.chart('pie01Container', options);
+        Highcharts.chart(this.wrapperId, options);
 }
 
   constructor() {
@@ -87,7 +88,7 @@ export class Pie01Component implements OnInit {
 
 
 
-    ngOnInit(){
+    ngAfterViewInit(){
         this.showChart();
     }
 

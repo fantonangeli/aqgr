@@ -1,6 +1,5 @@
 <ng-template #tplElement let-element let-pleft="pleft">
     <tr (click)="onElementClick(element)">
-        <!-- TODO: add icon to show a chart -->
         <ng-container  *ngFor="let field of element; let first = first; let last = last ">
             <td class="align-top" class="text-truncate" *ngIf="first" [ngStyle]="{'padding-left': (pleft+20)+'px'}">
                 <span class="font-weight-bold h6">{{getToggleIcon(element)}}</span> 

@@ -3,6 +3,7 @@
     <div class="row">
         <div class="col-sm-12 col-md-3">
             <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Filters:</h1></div></div>
+            <!-- TODO: redesign filter with facets -->
             <app-spec-filter [(selectedElements)]="selectedSpecies" (selectedElementsChange)="onSelectedSpeciesChange($event)"></app-spec-filter>
         </div>
         <div class="col-sm-12 col-md-9">
@@ -10,8 +11,8 @@
             <app-fish-stat-table [data]="fishTableData" [columns]="['Continent', 'Production in tonnes 2017', 'Species', 'Primary farmed types', 'Secondary farmed types']" >
             </app-fish-stat-table>
         </div>
+        <!-- TODO: add "Number of primary farmed types entered into the Registry" chart -->
     </div>
 </div>
 
-<!-- TODO: show a pie chart in another route -->
 

@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import * as Highcharts from 'highcharts';
 import { CountryChart01Component } from '../../components/charts/country-chart01/country-chart01.component';
+import { CountryChart02Component } from '../../components/charts/country-chart02/country-chart02.component';
+import { CountryChart03Component } from '../../components/charts/country-chart03/country-chart03.component';
 
 declare var require: any;
 let Boost = require('highcharts/modules/boost');
