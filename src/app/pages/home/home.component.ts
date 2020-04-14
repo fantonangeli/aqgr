@@ -43,20 +43,20 @@ export class HomeComponent implements OnInit {
 
         data=data.Continents;
 
-        
-        return data.map(e=>[
+
+        return data.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(e=>[
             e.Name,
             Number(e.Timeseries["2017"]).toLocaleString('en-US'),
             Number(e.Species).toLocaleString('en-US'),
             Number(e.FTypes).toLocaleString('en-US'),
             Number(e.SFTypes).toLocaleString('en-US'),
-            e.Regions=e.Regions.map(r=>[
+            e.Regions=e.Regions.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(r=>[
                 r.Name,
                 Number(r.Timeseries["2017"]).toLocaleString('en-US'),
                 Number(r.Species).toLocaleString('en-US'),
                 Number(r.FTypes).toLocaleString('en-US'),
                 Number(r.SFTypes).toLocaleString('en-US'),
-                r.Countries=r.Countries.map(c=>[
+                r.Countries=r.Countries.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(c=>[
                     c.Name,
                     Number(c.Timeseries["2017"]).toLocaleString('en-US'),
                     Number(c.Species).toLocaleString('en-US'),
