@@ -14,6 +14,7 @@ export const environment = {
         countryFtype: "assets/data/country-ftype.json?ccode=",
         countrySFtype: "assets/data/country-sftype.json?ccode=",
         countrySpecies: "assets/data/country-species.json?ccode=",
+        countriesFtype: "assets/data/countries-ftype.json?ccode=",
     }
 
 };

@@ -10,8 +10,13 @@
             <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">AqGR Farmed types data:</h1></div></div>
             <app-fish-stat-table [data]="fishTableData" [columns]="['Continent', 'Production in tonnes 2017', 'Species', 'Primary farmed types', 'Secondary farmed types']" >
             </app-fish-stat-table>
-        </div>
+
+                <br>
+
         <!-- TODO: add "Number of primary farmed types entered into the Registry" chart -->
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">AqGR Farmed types data:</h1></div></div>
+            <app-countries-chart01></app-countries-chart01>
+        </div>
     </div>
 </div>
 
