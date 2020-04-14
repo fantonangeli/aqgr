@@ -1,6 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { HttpClientModule } from '@angular/common/http';
 
 import { CountryChart03Component } from './country-chart03.component';
+import {Bars01Component} from '../bars01/bars01.component';
 
 describe('CountryChart03Component', () => {
   let component: CountryChart03Component;
@@ -8,7 +10,8 @@ describe('CountryChart03Component', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CountryChart03Component ]
+        imports:[HttpClientModule],
+      declarations: [ CountryChart03Component, Bars01Component ]
     })
     .compileComponents();
   }));

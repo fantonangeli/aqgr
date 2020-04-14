@@ -1,4 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { FaIconComponent } from "@fortawesome/angular-fontawesome";
+import { RouterTestingModule } from '@angular/router/testing';
 
 import { FishStatTableComponent } from './fish-stat-table.component';
 
@@ -8,7 +10,8 @@ describe('FishStatTableComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FishStatTableComponent ]
+        imports: [RouterTestingModule],
+      declarations: [ FishStatTableComponent, FaIconComponent ]
     })
     .compileComponents();
   }));
