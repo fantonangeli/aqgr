@@ -42,11 +42,21 @@ export class StackedBars01Component implements AfterViewInit  {
                 },
             },
             legend: {
-                enabled: false
+                enabled: true
             },
             tooltip: {
                 headerFormat:null,
-                pointFormat: "{point.name}: {point.y}",
+                pointFormat: "{series.name}: {point.y}",
+            },
+            plotOptions: {
+                series: {
+                    stacking: "normal",
+                    events: {
+                        legendItemClick: function () {
+                            return false;
+                        }
+                    }
+                }
             },
             series: this.series,
         };
