@@ -15,6 +15,8 @@ export const environment = {
         countrySFtype: "assets/data/country-sftype.json?ccode=",
         countrySpecies: "assets/data/country-species.json?ccode=",
         countriesFtype: "assets/data/countries-ftype.json?ccode=",
+        countriesSFtype: "assets/data/countries-sftype.json?ccode=",
+        countriesSpecies: "assets/data/countries-species.json?ccode=",
     }
 
 };
@@ -26,4 +28,4 @@ export const environment = {
  * This import should be commented out in production mode because it will have a negative impact
  * on performance if an error is thrown.
  */
-// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+import 'zone.js/dist/zone-error';  // Included with Angular CLI.

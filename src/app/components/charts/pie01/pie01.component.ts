@@ -19,6 +19,7 @@ noData(Highcharts);
 export class Pie01Component implements AfterViewInit  {
     wrapperId=`pie${Math.floor(Math.random() * 1000)}Container`;
     @Input() series :object[]=[];
+    @Input() enableDataLabels :boolean=true;
 
     /**
      * show the chart
@@ -28,7 +29,6 @@ export class Pie01Component implements AfterViewInit  {
         let options: any = {
             chart: {
                 type: "pie",
-                height:"500px",
             },
             title: {
                 text: null
@@ -71,7 +71,7 @@ export class Pie01Component implements AfterViewInit  {
             plotOptions: {
                 pie: {
                     dataLabels: {
-                        enabled: true,
+                        enabled: this.enableDataLabels,
                         format: "{point.name} {point.y}",
                     },
                     showInLegend: true

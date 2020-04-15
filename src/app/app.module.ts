@@ -19,6 +19,8 @@ import { Bars01Component } from './components/charts/bars01/bars01.component';
 import { CountryChart03Component } from './components/charts/country-chart03/country-chart03.component';
 import { CountriesChart01Component } from './components/charts/countries-chart01/countries-chart01.component';
 import { StackedBars01Component } from './components/charts/stacked-bars01/stacked-bars01.component';
+import { CountriesChart02Component } from './components/charts/countries-chart02/countries-chart02.component';
+import { CountriesChart03Component } from './components/charts/countries-chart03/countries-chart03.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +36,8 @@ import { StackedBars01Component } from './components/charts/stacked-bars01/stack
     CountryChart03Component,
     CountriesChart01Component,
     StackedBars01Component,
+    CountriesChart02Component,
+    CountriesChart03Component,
   ],
   imports: [
     BrowserModule,

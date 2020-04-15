@@ -1,20 +1,20 @@
 import { Component, OnInit } from '@angular/core';
-import {CountriesFtypeService} from '../../../services/countries-ftype.service';
-import {Pie01Component} from '../pie01/pie01.component';
+import {StackedBars01Component} from '../stacked-bars01/stacked-bars01.component';
+import {CountriesSpeciesService} from '../../../services/countries-species.service';
 
 @Component({
-  selector: 'app-countries-chart01',
+  selector: 'app-countries-chart03',
   template: `
-    <app-pie01 [series]="series" [enableDataLabels]="false" *ngIf="series.length"></app-pie01>
+    <app-stacked-bars01 [series]="series" *ngIf="series.length"></app-stacked-bars01>
   `,
   styles: []
 })
-export class CountriesChart01Component implements OnInit {
+export class CountriesChart03Component implements OnInit {
     series=[];
     private _service;
 
 
-  constructor(sv:CountriesFtypeService) {
+  constructor(sv:CountriesSpeciesService) {
         this._service=sv;
 
         this.fetchData();
