@@ -75,6 +75,15 @@ export class Pie01Component implements AfterViewInit  {
                         format: "{point.name} {point.y}",
                     },
                     showInLegend: true
+                },
+                series: {
+                    point: {
+                        events: {
+                            legendItemClick: function () {
+                                return false;
+                            }
+                        }
+                    }
                 }
             },
             series: this.series,
