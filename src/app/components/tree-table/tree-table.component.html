@@ -1,0 +1,37 @@
+ <ng-template #tplElement let-element let-pleft="pleft">
+    <tr (click)="onElementClick(element)">
+        <ng-container  *ngFor="let field of element; let first = first; let last = last ">
+            <td class="align-top" class="text-truncate" *ngIf="first" [ngStyle]="{'padding-left': (pleft+20)+'px'}">
+                <span class="font-weight-bold h6">{{getToggleIcon(element)}}</span> 
+                &nbsp;{{field}}
+                <a [routerLink]="['/country', 'CHN']" routerLinkActive="router-link-active"><fa-icon *ngIf="!element.children" [icon]="faChartPie"></fa-icon></a>
+            </td>
+            <td class="align-top" class="text-truncate" *ngIf="!first" class="text-right">
+                {{field}}
+            </td>
+        </ng-container>
+    </tr>
+
+
+    <ng-container *ngIf="element.toggle">
+        <ng-container *ngFor="let child of element.children">
+                <ng-template *ngTemplateOutlet="tplElement; context: {$implicit: child, pleft:(pleft+20)}"></ng-template>
+        </ng-container>
+    </ng-container>
+</ng-template>
+
+
+<div class="table-responsive">
+    <table class="fao-expandtable table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th class="align-top" *ngFor="let colname of columns">{{colname}}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <ng-container *ngFor="let element of data">
+                <ng-template *ngTemplateOutlet="tplElement; context: {$implicit: element, pleft:0}"></ng-template>
+            </ng-container>
+        </tbody>
+    </table>
+</div>

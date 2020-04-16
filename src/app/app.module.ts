@@ -23,7 +23,7 @@ import { StackedBars01Component } from './components/charts/stacked-bars01/stack
 import { CountriesChart02Component } from './components/charts/countries-chart02/countries-chart02.component';
 import { CountriesChart03Component } from './components/charts/countries-chart03/countries-chart03.component';
 import { FiltersComponent } from './components/home/filters/filters.component';
-import { TreeTableComponent } from './components/TreeTable/tree-table/tree-table.component';
+import { TreeTableComponent } from './components/tree-table/tree-table.component';
 
 @NgModule({
   declarations: [

@@ -83,7 +83,6 @@ export class FiltersComponent implements OnInit {
      */
     searchAggregation(type: string, parameter: string, event: string) {
         this.filterValues=[{ key: type, parameter: parameter, value: event }];
-        debugger;
         this.search.emit({ from: 0, query: parameter, filters: this.filterValues });
     }
   ngOnInit() {

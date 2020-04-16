@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { faChartPie } from '@fortawesome/free-solid-svg-icons';
+import {FishStatCultSpecCountriesService} from '../../services/fish-stat-cult-spec-countries.service';
 
 @Component({
   selector: 'app-fish-stat-table',
@@ -7,93 +7,93 @@ import { faChartPie } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./fish-stat-table.component.scss']
 })
 export class FishStatTableComponent implements OnInit {
+    fishdata=[];
+    fishTableData=[];
+    private _fishstatService;
+    data=[];
 
-    @Input() data: any[] = [];
-    @Input() columns: any[] = [];
-    @Input() childColumns: any[] = [];
-    faChartPie = faChartPie;
 
-    constructor() { }
+    constructor(data: FishStatCultSpecCountriesService){
+        this._fishstatService=data;
 
-    /**
-     * get the toggle icon for the template 
-     *
-     * @param {[]} element=[] the element
-     * @returns {string} the icon
-     */
-    getToggleIcon(element:any=[]):string{
+        this.fetchStats();
 
-        if(!element.children) return "";
-
-        if(!element.toggle) return "+";
-
-        return "-";
     }
 
     /**
-     * close all elements in data recursively
+     * load data for the table and set it to fishTableData
      *
-     * @param {[]} elements the elements
-     *
+     * @param {Object[]} data the data from the service
      */
-    closeAll(elements){
-        if(!elements) return;
+    loadTableData(data){
+        if(!data || !data.Continents) return;
 
-        for (var i = 0, len = elements.length; i < len; i++) {
-            elements[i].toggle=false;
-            this.closeAll(elements[i].children);
-        }
+        data=data.Continents;
+
+
+        return data.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(e=>[
+            e.Name,
+            Number(e.Timeseries["2017"]).toLocaleString('en-US'),
+            Number(e.Species).toLocaleString('en-US'),
+            Number(e.FTypes).toLocaleString('en-US'),
+            Number(e.SFTypes).toLocaleString('en-US'),
+            e.Regions=e.Regions.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(r=>[
+                r.Name,
+                Number(r.Timeseries["2017"]).toLocaleString('en-US'),
+                Number(r.Species).toLocaleString('en-US'),
+                Number(r.FTypes).toLocaleString('en-US'),
+                Number(r.SFTypes).toLocaleString('en-US'),
+                r.Countries=r.Countries.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(c=>[
+                    c.Name,
+                    Number(c.Timeseries["2017"]).toLocaleString('en-US'),
+                    Number(c.Species).toLocaleString('en-US'),
+                    Number(c.FTypes).toLocaleString('en-US'),
+                    Number(c.SFTypes).toLocaleString('en-US'),
+                ])
+
+            ])
+        ]);
     }
 
     /**
-     * open an element and all the parents recursively
+     * fetch the countries and load them in this._fishstatService
+     * @param {string} asfisCodes the asfis codes as a list. Eg. "MSM,IPG"
      *
-     * @param {[]} element the element to open
      */
-    openElement(element){
-        if(!element) return;
+    fetchStatsBySpecies(asfisCodes:string="") {
+        if(!asfisCodes) return;
 
-        element.toggle=true;
-        this.openElement(element.parent);
+        this._fishstatService.getBySpecies(asfisCodes).subscribe(
+            (data)=>{
+                this.fishdata=data;
+                this.fishTableData=this.loadTableData(data);
+            },
+            (error)=>{
+                console.log("Network error: ", error);
+            }
+        );
+
     }
-
+    
     /**
-     * on click action
+     * fetch the countries and load them in this._fishstatService
      *
-     * @param {Object} element the element to expand
      */
-    onElementClick(element){
-        let initialV=element.toggle;
-        if(!element || !element.children) return;
+    fetchStats() {
+        this._fishstatService.getAll().subscribe(
+            (data)=>{
+                this.fishdata=data;
+                this.fishTableData=this.loadTableData(data);
+            },
+            (error)=>{
+                console.log("Network error: ", error);
+            }
+        );
 
-        this.closeAll(this.data);
-
-        this.openElement(element);
-
-        if (initialV) {
-            element.toggle=false;
-        }
     }
 
-    /**
-     * intialize the data
-     *
-     * @param {[array]} data the data
-     * @returns {[array]} the data initialized
-     */
-    initData(data=[]){
-        return data.map(e=>{
-            e.children=e.splice(-1, 1)[0].map(c=>{
-                c.parent=e;
-                c.children=c.splice(-1, 1)[0];
-                return c;
-            });
-            return e;
-        });
-    }
 
     ngOnChanges() {
-        this.data=this.initData(this.data);
     }
 
     ngOnInit() {
