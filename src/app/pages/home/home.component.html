@@ -1,11 +1,14 @@
-<!-- TODO: add tabs navigation -->
 <div class="container mw-100">
                 <!-- TODO: put the text introduction -->
     <div class="row">
         <div class="col-sm-12 col-md-3">
             <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Filters:</h1></div></div>
             <!-- TODO: redesign filter with facets -->
-            <app-spec-filter [(selectedElements)]="selectedSpecies" (selectedElementsChange)="onSelectedSpeciesChange($event)"></app-spec-filter>
+            <!-- <app&#45;spec&#45;filter [(selectedElements)]="selectedSpecies" (selectedElementsChange)="onSelectedSpeciesChange($event)"></app&#45;spec&#45;filter> -->
+            
+            <h5>Refine search</h5>
+            <p></p>
+            <app-filters></app-filters>
         </div>
         <div class="col-sm-12 col-md-9">
             <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">AqGR Farmed types data:</h1></div></div>

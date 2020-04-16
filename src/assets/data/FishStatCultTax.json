@@ -1,34 +1,34 @@
 [
   {
     "key": "Aquatic plants",
-    "value": "Aquatic plants"
+    "value": 175
   },
   {
     "key": "Freshwater fishes",
-    "value": "Freshwater fishes"
+    "value": 1342
   },
   {
     "key": "Molluscs",
-    "value": "Molluscs"
+    "value": 418
   },
   {
     "key": "Diadromous fishes",
-    "value": "Diadromous fishes"
+    "value": 481
   },
   {
     "key": "Crustaceans",
-    "value": "Crustaceans"
+    "value": 403
   },
   {
     "key": "Marine fishes",
-    "value": "Marine fishes"
+    "value": 604
   },
   {
     "key": "Miscellaneous aquatic animals",
-    "value": "Miscellaneous aquatic animals"
+    "value": 82
   },
   {
     "key": "Miscellaneous aquatic animal products",
-    "value": "Miscellaneous aquatic animal products"
+    "value": 13
   }
 ]

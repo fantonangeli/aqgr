@@ -1,0 +1,12 @@
+.filter-item p{
+    margin-left:10px;
+    margin-bottom:4px;
+}
+
+.filter-item p a{
+    color: #5191C8;
+}
+
+.filter-item p a:hover{
+    cursor: pointer !important;
+}

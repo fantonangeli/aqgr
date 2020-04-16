@@ -1,0 +1,6 @@
+<div *ngIf="aggregation" class="filter-item">
+    <h6 class="text-muted">{{title}}</h6>
+    <p *ngFor="let item of aggregation.values">
+        <a (click)="searchYear(item.key)">{{item.key}} <span *ngIf="item.value">({{item.value}})</span></a>
+    </p> 
+</div>

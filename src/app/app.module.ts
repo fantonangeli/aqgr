@@ -5,6 +5,7 @@ import { NgSelectModule } from '@ng-select/ng-select';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
+import {SearchModule} from './components/search/search.module';
 
 import { AppComponent } from './app.component';
 import { DynamicHTMLModule, DynamicHTMLComponent } from './core/components/dynamic-html';
@@ -21,6 +22,8 @@ import { CountriesChart01Component } from './components/charts/countries-chart01
 import { StackedBars01Component } from './components/charts/stacked-bars01/stacked-bars01.component';
 import { CountriesChart02Component } from './components/charts/countries-chart02/countries-chart02.component';
 import { CountriesChart03Component } from './components/charts/countries-chart03/countries-chart03.component';
+import { FiltersComponent } from './components/home/filters/filters.component';
+import { TreeTableComponent } from './components/TreeTable/tree-table/tree-table.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +41,8 @@ import { CountriesChart03Component } from './components/charts/countries-chart03
     StackedBars01Component,
     CountriesChart02Component,
     CountriesChart03Component,
+    FiltersComponent,
+    TreeTableComponent,
   ],
   imports: [
     BrowserModule,
@@ -49,7 +54,8 @@ import { CountriesChart03Component } from './components/charts/countries-chart03
       ]
     }),
     NgSelectModule, 
-    FormsModule
+    FormsModule,
+    SearchModule
   ],
   providers: [],
   bootstrap: [AppComponent]

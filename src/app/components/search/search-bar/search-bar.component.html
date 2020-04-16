@@ -1,0 +1,13 @@
+<div id="search-bar" class="input-group">
+  <input
+    type="text"
+    [formControl]="query"
+    class="form-control form-control-sm"
+    placeholder="Custom search"
+    aria-label="Search"  
+    i18n-placeholder="@@searchButton" (keyup.enter)="search()"
+  />
+  <div class="input-group-append">
+    <button i18n="@@searchButton" class="btn btn-primary btn-sm" type="button" (click)="search()">Search</button>
+  </div>
+</div>

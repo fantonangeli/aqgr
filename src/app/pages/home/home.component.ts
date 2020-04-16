@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DynamicHTMLModule, DynamicHTMLComponent } from '../../core/components/dynamic-html';
 import {FishStatCultSpecCountriesService} from '../../services/fish-stat-cult-spec-countries.service';
+import {FiltersComponent} from '../../components/home/filters/filters.component';
 
 @Component({
   selector: 'app-home',
@@ -10,27 +11,19 @@ import {FishStatCultSpecCountriesService} from '../../services/fish-stat-cult-sp
 export class HomeComponent implements OnInit {
     fishdata=[];
     fishTableData=[];
-    species=[];
     selectedSpecies=[];
     private _fishstatService;
+
 
     constructor(data: FishStatCultSpecCountriesService){
         this._fishstatService=data;
 
         this.fetchStats();
+
     }
 
     ngOnInit(): void {}
 
-    /**
-     * fired when selected species are chenged
-     *
-     * @param {Object[]} e asfi codes
-     */
-    onSelectedSpeciesChange(e=[]){
-        if(!e.length) this.fetchStats();
-        else this.fetchStatsBySpecies(e.map((item)=>(item.value)).join(","));
-    }
 
 
     /**
@@ -104,5 +97,7 @@ export class HomeComponent implements OnInit {
         );
 
     }
+
+
 
 }

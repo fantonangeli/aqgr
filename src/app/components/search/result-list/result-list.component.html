@@ -1,0 +1,33 @@
+<div>
+    <div class="mb-4">
+        <app-search-bar [typeName]="typeName" [typeVersion]="typeVersion" (searchEvent)=searchUsingQuery($event)></app-search-bar>
+    </div>
+    <div class="mb-4">
+        <app-search-pill *ngIf="filterValues && filterValues.length > 0" [filterValues]="filterValues" (resetFilterCriteriaEvent)="resetFilter($event)">
+        </app-search-pill>                
+    </div>
+    <div class="row">
+        <div class="col-md-2 filter-search" *ngIf="aggregations && aggregations.length >0">
+            <h5>Refine search</h5>
+            <p></p>
+            <div *ngFor="let agg of aggregations">
+                <p>
+                    <app-filter-terms [aggregation]="agg.aggregation" [title]="agg.title"
+                        (filterTermEvent)="searchAggregation(agg.type,agg.parameter,$event)">
+                    </app-filter-terms>
+                </p>
+            </div>
+        </div>
+        <div class="col-md-10 results">
+            <p *ngIf="total > 0">Showing {{from}}-{{to}} of {{total}} results</p>
+            <div *ngIf="list && total === 0">
+                <p class="lead">There are no results</p>
+            </div>
+            <ng-template appResults></ng-template>
+        </div>
+    </div>
+    <pagination *ngIf="paginationItems > itemsPerPage" [(ngModel)]="currentPage" class="mt-4 justify-content-center"
+        [maxSize]="maxSize" [boundaryLinks]="true" [itemsPerPage]="itemsPerPage" [totalItems]="paginationItems"
+        (pageChanged)="pageChanged($event)" previousText="&lsaquo;" nextText="&rsaquo;" firstText="&laquo;"
+        lastText="&raquo;"></pagination>
+</div>

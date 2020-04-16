@@ -1,0 +1,4 @@
+<div id="letters">    
+    <a (click)="searchLetter(all)" [ngClass]="{'selected': selected==all}">{{all}}</a>&nbsp;    
+    <a *ngFor="let letter of letters" (click)="searchLetter(letter)" [ngClass]="{'selected': selected==letter}">{{letter}} </a>&nbsp;    
+</div>

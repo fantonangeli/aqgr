@@ -11,6 +11,7 @@ export const environment = {
             bySpecies:"../assets/data/FishStatSpecCountries.ASFISCode-MSM.json?species="
         },
         species: "assets/data/FishStatCultSpec.json",
+        taxonomies: "assets/data/FishStatCultTax.json",
         countryFtype: "assets/data/country-ftype.json?ccode=",
         countrySFtype: "assets/data/country-sftype.json?ccode=",
         countrySpecies: "assets/data/country-species.json?ccode=",

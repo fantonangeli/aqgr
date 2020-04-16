@@ -1,0 +1,12 @@
+#letters a{
+    color: #007bff;
+}
+
+#letters a.selected{
+    color: #000000 !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+#letters a:hover{
+    cursor: pointer;
+}
