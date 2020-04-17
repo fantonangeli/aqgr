@@ -1,14 +1,13 @@
 <div class="container mw-100">
                 <!-- TODO: put the text introduction -->
-                <!-- TODO: add SearchPillComponent -->
     <div class="row">
         <div class="col-sm-12 col-md-3">
             <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Filters:</h1></div></div>
 
-            <!-- <div class="mb&#45;4"> -->
-            <!--     <app&#45;search&#45;pill *ngIf="filterValues &#38;&#38; filterValues.length > 0" [filterValues]="filterValues" (resetFilterCriteriaEvent)="resetFilter($event)"> -->
-            <!--     </app&#45;search&#45;pill>                 -->
-            <!-- </div> -->
+            <div class="mb-4">
+                <app-search-pill *ngIf="filterValues && filterValues.length > 0" [filterValues]="filterValues" (resetFilterCriteriaEvent)="resetFilter()">
+                </app-search-pill>                
+            </div>
 
             <h5>Refine search</h5>
             <p></p>

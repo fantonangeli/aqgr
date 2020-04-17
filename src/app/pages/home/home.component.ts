@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { DynamicHTMLModule, DynamicHTMLComponent } from '../../core/components/dynamic-html';
-import {FiltersComponent} from '../../components/home/filters/filters.component';
 import { Filter, ResultSearchEvent} from '../../components/search/namespace';
 
 @Component({
@@ -29,5 +28,12 @@ export class HomeComponent implements OnInit {
         this.filterValues=event.filters;
     }
 
+    /**
+     * reset the filters
+     *
+     */
+    resetFilter() {
+        this.filterValues = [];
+    }
 
 }
