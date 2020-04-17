@@ -1,10 +1,25 @@
 <div class="container mw-100">
                 <!-- TODO: put the text introduction -->
     <div class="row">
+        <div class="col-sm-8">
+            Welcome to the Registry of Farmed Types of Aquatic Genetic Resource.  This is a prototype version of the Registry developed and maintained by FAO. It provides you with access to searchable databases of initial information on primary and secondary farmed types of the more than 600 farmed aquatic species across ten taxonomic groups.  The prototype includes some information from over 90 countries. 
+        </div>
+        <div class="col-sm-4 border">
+            A farmed type is a cultured aquatic organism that could be a strain, variety, hybrid, triploid, monosex group, other genetically altered form, or wild type
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            The information is compiled through country contact persons on aquatic genetic resources (AqGR) and Member Country National Focal Points (NFPs). It allows users to analyse the diversity of farmed types of AqGR at national, regional and global levels including the characteristics and status of these farmed types from both development and conservation perspectives. The current registry includes information on xx species, from xx countries including xx primary and xx secondary farmed types.
+        </div>
+    </div>
+    <br>
+    <div class="row">
         <div class="col-sm-12 col-md-3">
             <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Filters:</h1></div></div>
 
             <div class="mb-4">
+                <!-- TODO: same design of fi-skeleton -->
                 <app-search-pill *ngIf="filterValues && filterValues.length > 0" [filterValues]="filterValues" (resetFilterCriteriaEvent)="resetFilter()">
                 </app-search-pill>                
             </div>
@@ -22,13 +37,18 @@
 
                 <!-- <div class="csc&#45;default"><div class="csc&#45;header csc&#45;header&#45;n1"><h1 class="csc&#45;firstHeader">Numer of primary farmed types entered into the Registry:</h1></div></div> -->
                 <div class="container mw-100 p-0">
+                    <!-- TODO: put titles for the charts -->
                     <div class="row">
                         <div class="col-sm-12 col-md-3 p-0">
+                            <!-- TODO: the ftype chart must show the data related to the filter-->
                             <app-countries-chart01></app-countries-chart01>
                         </div>
                         <div class="col-sm-12 col-md-3 p-0">
+                            <!-- TODO: the sftype chart must show the data related to the filter-->
                             <app-countries-chart02></app-countries-chart02>
                         </div>
+                        <!-- TODO: barchart in another row -->
+                        <!-- TODO: the ftype bar chart must show the data related to the filter-->
                         <div class="col-sm-12 col-md-6 p-0">
                             <app-countries-chart03></app-countries-chart03>
                         </div>
@@ -36,7 +56,24 @@
                 </div>
         </div>
     </div>
+    <br>
+    <br>
                 <!-- TODO: put footer text -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        The Registry provides a collection of records on farmed types used in aquaculture and information on use, conservation and development of these resources. The information collected includes data from country reports prepared by NFPs for The State of the World’s Aquatic Genetic Resources, surveys compiled by species expert and NFPs, other FAO information systems on fishery and aquaculture resources.
+    <br>
+                        The Registry has been developed with the support of the Government of Germany.
+    <br>
+                        The information held within this database will be checked and updated on a six-monthly basis. FAO welcomes any advice on information that is out-of-date or incorrect or suggestions on adaptations that can improve the utility of the information. Advice on possible amendments can be emailed to the attention of Dr Graham Mair (FI-Inquiries@fao.org).
+
+    <br>
+                        <b>Citing the database:</b> FAO. 2020. Database of Farmed types in Aquaculture. In: Food and Agriculture Organization of the United Nation [online]. Rome. Database version 1-2020. www.fao.org/name/database-of-farmed-types/en 
+
+    <br>
+                        <b>Disclaimer:</b> The designations employed and the presentation of material in this database do not imply the expression of any opinion whatsoever on the part of the Food and Agriculture Organization of the United Nations (FAO) concerning the legal or development status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.
+                    </div>
+                </div>
 </div>
 
 
