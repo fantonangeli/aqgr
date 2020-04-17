@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DynamicHTMLModule, DynamicHTMLComponent } from '../../core/components/dynamic-html';
 import {FiltersComponent} from '../../components/home/filters/filters.component';
+import { Filter, ResultSearchEvent} from '../../components/search/namespace';
 
 @Component({
   selector: 'app-home',
@@ -8,6 +9,7 @@ import {FiltersComponent} from '../../components/home/filters/filters.component'
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+    filterValues: Filter[]=[];
 
 
     constructor(){
@@ -18,6 +20,14 @@ export class HomeComponent implements OnInit {
 
 
 
+    /**
+     * action on facet click
+     *
+     * @param {object} type the type
+     */
+    searchAggregation(event: ResultSearchEvent) {
+        this.filterValues=event.filters;
+    }
 
 
 }

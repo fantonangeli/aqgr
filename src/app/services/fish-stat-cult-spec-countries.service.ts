@@ -13,6 +13,18 @@ export class FishStatCultSpecCountriesService {
 
 
     /**
+     * gets the data by taxonomy
+     *
+     * @param {string} taxonomy the asfis codes as a list. Eg. "MSM,IPG"
+     * @returns {Observable}
+     */
+    private getByTaxonomy(taxonomy:string) : Observable<Object> {
+        if(taxonomy==="") throw Error("taxonomy not defined");
+
+        return this.http.get(environment.services.fishStatCultSpecCountries.byTaxonomy+taxonomy);
+    }
+
+    /**
      * gets the data by species
      *
      * @param {string} asfisCodes the asfis codes as a list. Eg. "MSM,IPG"

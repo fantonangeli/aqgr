@@ -5,6 +5,7 @@
                 <span class="font-weight-bold h6">{{getToggleIcon(element)}}</span> 
                 &nbsp;{{field}}
                 <a [routerLink]="['/country', 'CHN']" routerLinkActive="router-link-active"><fa-icon *ngIf="!element.children" [icon]="faChartPie"></fa-icon></a>
+                <!-- TODO: (low) remove the fixed link from here -->
             </td>
             <td class="align-top" class="text-truncate" *ngIf="!first" class="text-right">
                 {{field}}

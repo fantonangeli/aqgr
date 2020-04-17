@@ -1,16 +1,19 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, OnChanges } from '@angular/core';
 import {FishStatCultSpecCountriesService} from '../../services/fish-stat-cult-spec-countries.service';
+import { Filter} from '../search/namespace';
 
 @Component({
   selector: 'app-fish-stat-table',
   templateUrl: './fish-stat-table.component.html',
   styleUrls: ['./fish-stat-table.component.scss']
 })
-export class FishStatTableComponent implements OnInit {
+export class FishStatTableComponent implements OnInit, OnChanges {
     fishdata=[];
     fishTableData=[];
     private _fishstatService;
     data=[];
+    @Input() filterValues: Filter[]=[];
+
 
 
     constructor(data: FishStatCultSpecCountriesService){
@@ -57,13 +60,33 @@ export class FishStatTableComponent implements OnInit {
 
     /**
      * fetch the countries and load them in this._fishstatService
+     * @param {string} taxonomy  the taxonomy
+     *
+     */
+    fetchStatsByTaxonomy(taxonomy:string="") {
+        if(!taxonomy) return;
+
+        this._fishstatService.getByTaxonomy(taxonomy).subscribe(
+            (data)=>{
+                this.fishdata=data;
+                this.fishTableData=this.loadTableData(data);
+            },
+            (error)=>{
+                console.log("Network error: ", error);
+            }
+        );
+
+    }
+
+    /**
+     * fetch the countries and load them in this._fishstatService
      * @param {string} asfisCodes the asfis codes as a list. Eg. "MSM,IPG"
      *
      */
-    fetchStatsBySpecies(asfisCodes:string="") {
+    fetchStatsBySpecie(asfisCodes:string="") {
         if(!asfisCodes) return;
 
-        this._fishstatService.getBySpecies(asfisCodes).subscribe(
+        this._fishstatService.getBySpecie(asfisCodes).subscribe(
             (data)=>{
                 this.fishdata=data;
                 this.fishTableData=this.loadTableData(data);
@@ -94,6 +117,14 @@ export class FishStatTableComponent implements OnInit {
 
 
     ngOnChanges() {
+        if (!this.filterValues.length) {
+            this.fetchStats();
+        }
+        else if(this.filterValues[0].key==="taxonomies") {
+            this.fetchStatsByTaxonomy(this.filterValues[0].value);
+        } else if(this.filterValues[0].key==="species") {
+            this.fetchStatsBySpecie(this.filterValues[0].value);
+        }
     }
 
     ngOnInit() {

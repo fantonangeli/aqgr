@@ -8,7 +8,8 @@ export const environment = {
     services:{
         fishStatCultSpecCountries: {
             all:"assets/data/FishStatSpecCountries.json",
-            bySpecies:"../assets/data/FishStatSpecCountries.ASFISCode-MSM.json?species="
+            bySpecies:"../assets/data/FishStatSpecCountries.ASFISCode-MSM.json?species=",
+            byTaxonomy:"../assets/data/FishStatSpecCountries.ASFISCode-MSM.json?species="
         },
         species: "assets/data/FishStatCultSpec.json",
         taxonomies: "assets/data/FishStatCultTax.json",
