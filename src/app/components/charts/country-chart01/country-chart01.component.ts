@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as Highcharts from 'highcharts';
 import {CountryFTypeService} from '../../../services/country-ftype.service';
-import {Pie01Component} from '../pie01/pie01.component';
+import {StackedBars01Component} from '../stacked-bars01/stacked-bars01.component';
 
 @Component({
   selector: 'app-country-chart01',

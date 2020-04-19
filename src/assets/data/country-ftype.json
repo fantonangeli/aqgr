@@ -1,14 +1,142 @@
 [{
+    "name": "Strain",
     "data": [
-        {"name":  "Japanese kelp", "y":5221},
-        {"name":  "Eucheuma seaweeds nei", "y":23763},
-        {"name":  "Grass carp(=White amur)", "y":13464},
-        {"name":  "Cupped oysters nei", "y":13394},
-        {"name":  "Japanese carpet shell", "y":11411},
-        {"name":  "Silver carp", "y":4687},
-        {"name":  "Bighead carp", "y":25301},
-        {"name":  "Gracilaria seaweeds", "y":1332},
-        {"name":  "Common carp", "y":31215}
-    ],
-    "innerSize": "50%"
+        {
+            "name": "Crustaceans",
+            "y": 24941
+        },
+        {
+            "name": "Marine finfish",
+            "y": 21348
+        },
+        {
+            "name": "Freshwater macrophytes",
+            "y": 7299
+        },
+        {
+            "name": "Euryaline finfish",
+            "y": 13678
+        },
+        {
+            "name": "Microalgae",
+            "y": 15600
+        },
+        {
+            "name": "Seaweeds",
+            "y": 2779
+        },
+        {
+            "name": "Molluscs",
+            "y": 785
+        },
+        {
+            "name": "Freshwater fishes",
+            "y": 375
+        }
+    ]
+}, {
+    "name": "Variety",
+    "data": [{
+            "name": "Freshwater fishes",
+            "y": 8161
+        },
+        {
+            "name": "Microalgae",
+            "y": 7265
+        },
+        {
+            "name": "Crustaceans",
+            "y": 27587
+        },
+        {
+            "name": "Molluscs",
+            "y": 11105
+        },
+        {
+            "name": "Marine finfish",
+            "y": 30611
+        },
+        {
+            "name": "Seaweeds",
+            "y": 11000
+        },
+        {
+            "name": "Euryaline finfish",
+            "y": 13266
+        },
+        {
+            "name": "Freshwater macrophytes",
+            "y": 30881
+        }
+    ]
+}, {
+    "name": "Captive propagated",
+    "data": [{
+            "name": "Freshwater fishes",
+            "y": 425
+        },
+        {
+            "name": "Microalgae",
+            "y": 2774
+        },
+        {
+            "name": "Crustaceans",
+            "y": 9865
+        },
+        {
+            "name": "Molluscs",
+            "y": 3216
+        },
+        {
+            "name": "Marine finfish",
+            "y": 5380
+        },
+        {
+            "name": "Seaweeds",
+            "y": 4695
+        },
+        {
+            "name": "Euryaline finfish",
+            "y": 8123
+        },
+        {
+            "name": "Freshwater macrophytes",
+            "y": 17163
+        }
+    ]
+}, {
+    "name": "Wild sourced",
+    "data": [{
+            "name": "Freshwater fishes",
+            "y": 22726
+        },
+        {
+            "name": "Microalgae",
+            "y": 28454
+        },
+        {
+            "name": "Crustaceans",
+            "y": 31602
+        },
+        {
+            "name": "Molluscs",
+            "y": 17961
+        },
+        {
+            "name": "Marine finfish",
+            "y": 18632
+        },
+        {
+            "name": "Seaweeds",
+            "y": 23221
+        },
+        {
+            "name": "Euryaline finfish",
+            "y": 32306
+        },
+        {
+            "name": "Freshwater macrophytes",
+            "y": 17003
+        }
+    ]
 }]
