@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as Highcharts from 'highcharts';
-import {CountrySFTypeService} from '../../../services/country-sftype.service';
-import {Pie01Component} from '../pie01/pie01.component';
+import {CountryDevSpeciesService} from '../../../services/country-dev-species.service';
+import {StackedBars01Component} from '../stacked-bars01/stacked-bars01.component';
 
 @Component({
   selector: 'app-country-chart02',
@@ -13,7 +13,7 @@ export class CountryChart02Component implements OnInit {
     private _service;
 
 
-  constructor(sv:CountrySFTypeService) {
+  constructor(sv:CountryDevSpeciesService) {
         this._service=sv;
 
         this.fetchData();

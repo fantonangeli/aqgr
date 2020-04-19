@@ -19,6 +19,7 @@ noData(Highcharts);
 export class StackedBars01Component implements AfterViewInit  {
     wrapperId=`pie${Math.floor(Math.random() * 1000)}Container`;
     @Input() series :object[]=[];
+    @Input() xAxisTitle :string;
 
     /**
      * show the chart
@@ -34,12 +35,13 @@ export class StackedBars01Component implements AfterViewInit  {
                 text: null
             },
             xAxis: {
-                type: 'category'
+                type: 'category',
             },
             yAxis: {
-                title: {
-                    text: null
-                },
+                title: (this.xAxisTitle)?{
+                    text: this.xAxisTitle,
+                    align: 'low'
+                }:null
             },
             legend: {
                 enabled: true

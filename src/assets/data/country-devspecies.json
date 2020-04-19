@@ -1,0 +1,142 @@
+[{
+    "name": "Strain",
+    "data": [
+        {
+            "name": "Cyprinus carpio",
+            "y": 7299
+        },
+        {
+            "name": "Laminaria saccarima",
+            "y": 15600
+        },
+        {
+            "name": "Eucheuma denticulatum",
+            "y": 13678
+        },
+        {
+            "name": "Oreochromis niloticus",
+            "y": 21348
+        },
+        {
+            "name": "Nanochioropsis oculata",
+            "y": 24941
+        },
+        {
+            "name": "Penaeus vannamei",
+            "y": 2779
+        },
+        {
+            "name": "Machrobrachium rosenbergii",
+            "y": 375
+        },
+        {
+            "name": "Crassotrea gigas",
+            "y": 785
+        }
+    ]
+}, {
+    "name": "Variety",
+    "data": [{
+            "name": "Nanochioropsis oculata",
+            "y": 8161
+        },
+        {
+            "name": "Oreochromis niloticus",
+            "y": 7265
+        },
+        {
+            "name": "Cyprinus carpio",
+            "y": 27587
+        },
+        {
+            "name": "Eucheuma denticulatum",
+            "y": 11105
+        },
+        {
+            "name": "Laminaria saccarima",
+            "y": 30611
+        },
+        {
+            "name": "Penaeus vannamei",
+            "y": 11000
+        },
+        {
+            "name": "Crassotrea gigas",
+            "y": 13266
+        },
+        {
+            "name": "Machrobrachium rosenbergii",
+            "y": 30881
+        }
+    ]
+}, {
+    "name": "Captive propagated",
+    "data": [{
+            "name": "Nanochioropsis oculata",
+            "y": 425
+        },
+        {
+            "name": "Oreochromis niloticus",
+            "y": 2774
+        },
+        {
+            "name": "Cyprinus carpio",
+            "y": 9865
+        },
+        {
+            "name": "Eucheuma denticulatum",
+            "y": 3216
+        },
+        {
+            "name": "Laminaria saccarima",
+            "y": 5380
+        },
+        {
+            "name": "Penaeus vannamei",
+            "y": 4695
+        },
+        {
+            "name": "Crassotrea gigas",
+            "y": 8123
+        },
+        {
+            "name": "Machrobrachium rosenbergii",
+            "y": 17163
+        }
+    ]
+}, {
+    "name": "Wild sourced",
+    "data": [{
+            "name": "Nanochioropsis oculata",
+            "y": 22726
+        },
+        {
+            "name": "Oreochromis niloticus",
+            "y": 28454
+        },
+        {
+            "name": "Cyprinus carpio",
+            "y": 31602
+        },
+        {
+            "name": "Eucheuma denticulatum",
+            "y": 38961
+        },
+        {
+            "name": "Laminaria saccarima",
+            "y": 23221
+        },
+        {
+            "name": "Penaeus vannamei",
+            "y": 32306
+        },
+        {
+            "name": "Crassotrea gigas",
+            "y": 17003
+        },
+        {
+            "name": "Machrobrachium rosenbergii",
+            "y": 0
+        }
+    ]
+}]
