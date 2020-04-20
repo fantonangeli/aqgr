@@ -81,7 +81,7 @@ export class Pie01Component implements AfterViewInit  {
                 pie: {
                     dataLabels: {
                         enabled: this.enableDataLabels,
-                        format: "{point.name} {point.y}",
+                        format: "{point.name}",
                     },
                     showInLegend: true
                 },

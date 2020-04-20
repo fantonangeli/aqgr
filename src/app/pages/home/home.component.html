@@ -23,19 +23,25 @@
     <div class="row">
         <div class="col-sm-12 col-md-3">
             <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Filters:</h1></div></div>
-
-            <div class="mb-4">
-                <!-- TODO: same design of fi-skeleton -->
-                <app-search-pill *ngIf="filterValues && filterValues.length > 0" [filterValues]="filterValues" (resetFilterCriteriaEvent)="resetFilter()">
-                </app-search-pill>                
-            </div>
-
-            <h5>Refine search</h5>
-            <p></p>
-            <app-filters (search)="searchAggregation($event)"></app-filters>
         </div>
         <div class="col-sm-12 col-md-9">
             <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">AqGR Farmed types data:</h1></div></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+            <div class="mb-4" *ngIf="filterValues && filterValues.length > 0">
+                <!-- TODO: same design of fi-skeleton -->
+                <app-search-pill [filterValues]="filterValues" (resetFilterCriteriaEvent)="resetFilter()">
+                </app-search-pill>                
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-3">
+            <app-filters (search)="searchAggregation($event)"></app-filters>
+        </div>
+        <div class="col-sm-12 col-md-9">
             <app-fish-stat-table [filterValues]="filterValues"> </app-fish-stat-table>
 
                 <br>
