@@ -21,6 +21,14 @@ export class Pie01Component implements AfterViewInit  {
     @Input() series :object[]=[];
     @Input() enableDataLabels :boolean=true;
 
+    
+    /**
+     * https://api.highcharts.com/highcharts/legend.enabled
+     */
+    @Input() legendEnabled :boolean=true;
+
+    
+
     /**
      * show the chart
      *
@@ -55,6 +63,7 @@ export class Pie01Component implements AfterViewInit  {
             legend: {
                 align: "right",
                 x: -30,
+                enabled: this.legendEnabled,
                 verticalAlign: "top",
                 y: 25,
                 floating: false,
