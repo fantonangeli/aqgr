@@ -2,6 +2,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import {FilterTermsComponent} from '../../../components/search/filter-terms/filter-terms.component';
 import { Filter, AggregationInput, ResultComponent, ResultList, ResultSearchEvent, ViewTypeEnum } from '../../../components/search/namespace';
 import {TaxonomiesService} from '../../../services/taxonomies.service';
+import {SpeciesService} from '../../../services/species.service';
 
 
 @Component({
@@ -10,19 +11,23 @@ import {TaxonomiesService} from '../../../services/taxonomies.service';
   styles: []
 })
 export class FiltersComponent implements OnInit {
-    aggregations: AggregationInput[];
+    taxonomiesAggregations: AggregationInput;
+    speciesAggregations: AggregationInput;
     private _taxonomies:AggregationInput[];
     private _taxonomiesService;
+    private _speciesService;
     filterValues: Filter[];
 
   @Output() search = new EventEmitter<ResultSearchEvent>();
 
-  constructor(taxonomiesService:TaxonomiesService) {
+  constructor(taxonomiesService:TaxonomiesService, speciesService:SpeciesService) {
         this._taxonomiesService=taxonomiesService;
+        this._speciesService=speciesService;
 
         this.fetchTaxonomies();
+        this.fetchSpecs();
 
-        this.aggregations = [{
+        this.taxonomiesAggregations = {
             "type": "taxonomies",
             "title": "By taxonomies",
             "parameter": "document.taxonomiesMapping",
@@ -30,7 +35,8 @@ export class FiltersComponent implements OnInit {
                 "name": "taxonomies",
                 "values": []
             }
-        }, {
+        };
+        this.speciesAggregations = {
             "type": "species",
             "title": "By species",
             "parameter": "document.speciesMapping",
@@ -38,7 +44,7 @@ export class FiltersComponent implements OnInit {
                 "name": "species",
                 "values":[]
             }
-        }];
+        };
   }
 
 
@@ -49,7 +55,7 @@ export class FiltersComponent implements OnInit {
     fetchTaxonomies() {
         this._taxonomiesService.getAll().subscribe(
             (data)=>{
-                this.aggregations[0].aggregation.values=data;
+                this.taxonomiesAggregations.aggregation.values=data;
             },
             (error)=>{
                 console.log("Network error: ", error);
@@ -62,17 +68,17 @@ export class FiltersComponent implements OnInit {
      * fetch the species and load them in this._service
      *
      */
-    // fetchSpecs() {
-    //     this._taxonomiesService.getAll().subscribe(
-    //         (data)=>{
-    //             this.=data;
-    //         },
-    //         (error)=>{
-    //             console.log("Network error: ", error);
-    //         }
-    //     );
-    //
-    // }
+    fetchSpecs() {
+        this._speciesService.getAll().subscribe(
+            (data)=>{
+                this.speciesAggregations.aggregation.values=data;
+            },
+            (error)=>{
+                console.log("Network error: ", error);
+            }
+        );
+
+    }
 
     /**
      * action on facet click

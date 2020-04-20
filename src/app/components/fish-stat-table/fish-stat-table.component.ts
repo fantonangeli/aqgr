@@ -86,7 +86,7 @@ export class FishStatTableComponent implements OnInit, OnChanges {
     fetchStatsBySpecie(asfisCodes:string="") {
         if(!asfisCodes) return;
 
-        this._fishstatService.getBySpecie(asfisCodes).subscribe(
+        this._fishstatService.getBySpecies(asfisCodes).subscribe(
             (data)=>{
                 this.fishdata=data;
                 this.fishTableData=this.loadTableData(data);

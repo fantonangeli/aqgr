@@ -31,7 +31,6 @@
     <div class="row">
         <div class="col-sm-12 col-md-12">
             <div class="mb-4" *ngIf="filterValues && filterValues.length > 0">
-                <!-- TODO: same design of fi-skeleton -->
                 <app-search-pill [filterValues]="filterValues" (resetFilterCriteriaEvent)="resetFilter()">
                 </app-search-pill>                
             </div>

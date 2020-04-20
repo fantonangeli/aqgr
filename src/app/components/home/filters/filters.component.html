@@ -1,6 +1,12 @@
-<div *ngFor="let agg of aggregations">
+<div>
     <p>
-        <app-filter-terms [aggregation]="agg.aggregation" [title]="agg.title" (filterTermEvent)="searchAggregation(agg.type,agg.parameter,$event)">
+        <app-filter-terms [aggregation]="taxonomiesAggregations.aggregation" [title]="taxonomiesAggregations.title" (filterTermEvent)="searchAggregation(taxonomiesAggregations.type,taxonomiesAggregations.parameter,$event)">
+        </app-filter-terms>
+    </p>
+</div>
+<div>
+    <p>
+        <app-filter-terms [aggregation]="speciesAggregations.aggregation" [title]="speciesAggregations.title" (filterTermEvent)="searchAggregation(speciesAggregations.type,speciesAggregations.parameter,$event)">
         </app-filter-terms>
     </p>
 </div>
