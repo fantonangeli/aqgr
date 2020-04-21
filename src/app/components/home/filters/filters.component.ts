@@ -20,6 +20,8 @@ export class FiltersComponent implements OnInit {
 
   @Output() search = new EventEmitter<ResultSearchEvent>();
 
+    // TODO: it is possible to select for example two or three taxonomic groups
+
   constructor(taxonomiesService:TaxonomiesService, speciesService:SpeciesService) {
         this._taxonomiesService=taxonomiesService;
         this._speciesService=speciesService;

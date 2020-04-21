@@ -13,6 +13,7 @@ export class CountriesChart03Component implements OnInit {
     series=[];
     private _service;
 
+    // TODO: the bars divided into different farmed types, that graph was for page 2. This one should just show the number of species. 
 
   constructor(sv:CountriesSpeciesService) {
         this._service=sv;

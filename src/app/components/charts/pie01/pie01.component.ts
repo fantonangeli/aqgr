@@ -18,9 +18,10 @@ noData(Highcharts);
 })
 export class Pie01Component implements AfterViewInit  {
     wrapperId=`pie${Math.floor(Math.random() * 1000)}Container`;
+    
     @Input() series :object[]=[];
     @Input() enableDataLabels :boolean=true;
-
+    @Input() height:number=null;
     
     /**
      * https://api.highcharts.com/highcharts/legend.enabled
@@ -37,6 +38,7 @@ export class Pie01Component implements AfterViewInit  {
         let options: any = {
             chart: {
                 type: "pie",
+                height:this.height
             },
             title: {
                 text: null
