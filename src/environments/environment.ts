@@ -17,13 +17,17 @@ export const environment = {
             byname:"/assets/data/species/byname.json",
         },
         taxonomies: "assets/data/FishStatCultTax.json",
-        countryFtype: "assets/data/country-ftype.json?ccode=",
-        countrySFtype: "assets/data/country-sftype.json?ccode=",
-        countrySpecies: "assets/data/country-species.json?ccode=",
-        countryDevSpecies: "assets/data/country-devspecies.json?ccode=",
-        countriesFtype: "assets/data/countries-ftype.json?ccode=",
-        countriesSFtype: "assets/data/countries-sftype.json?ccode=",
-        countriesSpecies: "assets/data/countries-species.json?ccode=",
+        country:{
+            species: "assets/data/country/species.json?ccode=",
+            ftype: "assets/data/country/ftype.json?ccode=",
+            sFtype: "assets/data/country/sftype.json?ccode=",
+            devSpecies: "assets/data/country/devspecies.json?ccode=",
+        },
+        countries:{
+            ftype: "assets/data/countries/ftype.json?ccode=",
+            sFtype: "assets/data/countries/sftype.json?ccode=",
+            species: "assets/data/countries/species.json?ccode=",
+        }
     }
 
 };

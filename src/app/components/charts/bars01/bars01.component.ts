@@ -19,6 +19,7 @@ noData(Highcharts);
 export class Bars01Component implements AfterViewInit  {
     wrapperId=`pie${Math.floor(Math.random() * 1000)}Container`;
     @Input() series :object[]=[];
+    @Input() xAxisTitle :string;
 
     /**
      * show the chart
@@ -38,9 +39,10 @@ export class Bars01Component implements AfterViewInit  {
                 type: 'category'
             },
             yAxis: {
-                title: {
-                    text: null
-                },
+                title: (this.xAxisTitle)?{
+                    text: this.xAxisTitle,
+                    align: 'low'
+                }:null
             },
             legend: {
                 enabled: false

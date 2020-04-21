@@ -11,7 +11,7 @@ export class CountriesFtypeService {
 
 
     private getAll() : Observable<Object> {
-        return this.http.get(`${environment.services.countriesFtype}`);
+        return this.http.get(`${environment.services.countries.ftype}`);
     }
 
 

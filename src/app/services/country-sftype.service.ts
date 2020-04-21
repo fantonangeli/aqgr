@@ -11,7 +11,7 @@ export class CountrySFTypeService {
 
 
     private getAll() : Observable<Object> {
-        return this.http.get(`${environment.services.countrySFtype}`);
+        return this.http.get(`${environment.services.country.sFtype}`);
     }
 
 

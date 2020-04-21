@@ -11,7 +11,7 @@ export class CountrySpeciesService {
 
 
     private getAll() : Observable<Object> {
-        return this.http.get(`${environment.services.countrySpecies}`);
+        return this.http.get(`${environment.services.country.species}`);
     }
 
 
