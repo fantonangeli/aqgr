@@ -1,13 +1,13 @@
  <ng-template #tplElement let-element let-pleft="pleft">
     <tr (click)="onElementClick(element)">
-        <ng-container  *ngFor="let field of element; let first = first; let last = last ">
-            <td class="align-top" class="text-truncate" *ngIf="first" [ngStyle]="{'padding-left': (pleft+20)+'px'}">
+        <ng-container  *ngFor="let field of element; let first = first; let last = last; let i=index">
+            <td class="align-top text-truncate" *ngIf="first" [ngStyle]="{'padding-left': (pleft+20)+'px'}" [ngClass]="'index-'+i">
                 <span class="font-weight-bold h6">{{getToggleIcon(element)}}</span> 
                 &nbsp;{{field}}
                 <a [routerLink]="['/country', 'CHN']" routerLinkActive="router-link-active"><fa-icon *ngIf="!element.children" [icon]="faChartPie"></fa-icon></a>
                 <!-- TODO: (low) remove the fixed link from here -->
             </td>
-            <td class="align-top" class="text-truncate" *ngIf="!first" class="text-right">
+            <td class="text-truncate" *ngIf="!first" class="align-top text-right" [ngClass]="'index-'+i">
                 {{field}}
             </td>
         </ng-container>
@@ -26,7 +26,7 @@
     <table class="fao-expandtable table table-striped table-bordered">
         <thead>
             <tr>
-                <th class="align-top" *ngFor="let colname of columns">{{colname}}</th>
+                <th class="align-top" *ngFor="let colname of columns; let i = index" [ngClass]="'index-'+i">{{colname}}</th>
             </tr>
         </thead>
         <tbody>
@@ -36,11 +36,11 @@
         </tbody>
         <tfoot *ngIf="enableTotal">
     <tr>
-        <ng-container  *ngFor="let field of totalRowData; let first = first; let last = last ">
-            <td class="align-top" class="text-truncate" *ngIf="first" [ngStyle]="{'padding-left': '20px'}">
+        <ng-container  *ngFor="let field of totalRowData; let first = first; let last = last; let i = index">
+            <td class="align-top text-truncate" *ngIf="first" [ngStyle]="{'padding-left': '20px'}" [ngClass]="'index-'+i">
                 {{field}}
             </td>
-            <td class="align-top" class="text-truncate" *ngIf="!first" class="text-right">
+            <td class="text-truncate" *ngIf="!first" class="align-top text-right" [ngClass]="'index-'+i">
                 {{field}}
             </td>
         </ng-container>
