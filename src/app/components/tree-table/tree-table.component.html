@@ -34,5 +34,17 @@
                 <ng-template *ngTemplateOutlet="tplElement; context: {$implicit: element, pleft:0}"></ng-template>
             </ng-container>
         </tbody>
+        <tfoot *ngIf="enableTotal">
+    <tr>
+        <ng-container  *ngFor="let field of totalRowData; let first = first; let last = last ">
+            <td class="align-top" class="text-truncate" *ngIf="first" [ngStyle]="{'padding-left': '20px'}">
+                {{field}}
+            </td>
+            <td class="align-top" class="text-truncate" *ngIf="!first" class="text-right">
+                {{field}}
+            </td>
+        </ng-container>
+    </tr>
+        </tfoot>
     </table>
 </div>
