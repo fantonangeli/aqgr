@@ -10,6 +10,7 @@ export class FilterTermsComponent implements OnInit {
 
   @Input() aggregation: Aggregation;
   @Input() title: string;
+  @Input() searchEnabled: boolean=false;
   @Output() filterTermEvent: EventEmitter<string> = new EventEmitter<string>();
 
   constructor() { }

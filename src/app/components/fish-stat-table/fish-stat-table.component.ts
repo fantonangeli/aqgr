@@ -1,17 +1,20 @@
 import { Component, OnInit, Input, OnChanges } from '@angular/core';
+import {ViewEncapsulation} from '@angular/core';
 import {FishStatCultSpecCountriesService} from '../../services/fish-stat-cult-spec-countries.service';
 import { Filter} from '../search/namespace';
 
 @Component({
-  selector: 'app-fish-stat-table',
-  templateUrl: './fish-stat-table.component.html',
-  styleUrls: ['./fish-stat-table.component.scss']
+    selector: 'app-fish-stat-table',
+    templateUrl: './fish-stat-table.component.html',
+    styleUrls: ['./fish-stat-table.component.scss'],
+    encapsulation: ViewEncapsulation.None
 })
 export class FishStatTableComponent implements OnInit, OnChanges {
     fishdata=[];
     fishTableData=[];
     private _fishstatService;
     data=[];
+    disableTonnes=false;
     @Input() filterValues: Filter[]=[];
 
 
@@ -125,6 +128,9 @@ export class FishStatTableComponent implements OnInit, OnChanges {
         } else if(this.filterValues[0].key==="species") {
             this.fetchStatsBySpecie(this.filterValues[0].value);
         }
+
+        this.disableTonnes=(!!this.filterValues.filter(e=>e.key==="taxonomies").length);
+
     }
 
     ngOnInit() {

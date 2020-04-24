@@ -1,8 +1,6 @@
 [{
     "data": [
         {"name": "Strains", "y":230}, 
-        {"name": "Varieties", "y":180},
-        {"name": "Captive propagated", "y":399},
         {"name": "Wild sourced", "y":65}
     ],
     "innerSize": "30%"

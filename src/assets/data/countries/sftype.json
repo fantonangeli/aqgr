@@ -1,12 +1,12 @@
 [{
     "data": [
-        {"name":  "Japanese kelp", "y":17334}, 
-        {"name":  "Eucheuma seaweeds nei", "y":17894}, 
-        {"name":  "Grass carp(=White amur)", "y":17117}, 
-        {"name":  "Cupped oysters nei", "y":18409},
-        {"name":  "Japanese carpet shell", "y":21150},
-        {"name":  "Silver carp", "y":17654},
-        {"name":  "Bighead carp", "y":23668}
+        {"name": "Hybrids", "y":34},
+        {"name": "Introgressed", "y":56},
+        {"name": "Crossbred", "y":45},
+        {"name": "Polyploid", "y":76},
+        {"name": "Monosex", "y":12},
+        {"name": "Transgenic", "y":123},
+        {"name": "Gene edited", "y":64}
     ],
     "innerSize": "30%"
 }]

@@ -1,15 +1,15 @@
 <div>
     <p>
-        <app-filter-terms [aggregation]="taxonomiesAggregations.aggregation" [title]="taxonomiesAggregations.title" (filterTermEvent)="searchAggregation(taxonomiesAggregations.type,taxonomiesAggregations.parameter,$event)">
-        </app-filter-terms>
+        <app-filter-terms [aggregation]="speciesAggregations.aggregation" [title]="speciesAggregations.title" (filterTermEvent)="searchAggregation(speciesAggregations.type,speciesAggregations.parameter,$event)" searchEnabled="true"> </app-filter-terms>
     </p>
 </div>
 <div>
+<!-- TODO: Box “By Species” rename (and add functionality) to “Farmed types” -->
     <p>
-        <app-filter-terms [aggregation]="speciesAggregations.aggregation" [title]="speciesAggregations.title" (filterTermEvent)="searchAggregation(speciesAggregations.type,speciesAggregations.parameter,$event)">
-        </app-filter-terms>
+        <app-filter-terms [aggregation]="taxonomiesAggregations.aggregation" [title]="taxonomiesAggregations.title" (filterTermEvent)="searchAggregation(taxonomiesAggregations.type,taxonomiesAggregations.parameter,$event)"> </app-filter-terms>
     </p>
 </div>
 <!-- TODO:  show farmed types filter -->
-<!-- TODO: texbox search for ftypes -->
+<!-- TODO:  show farmed stypes filter -->
+<!-- TODO: texbox search for species -->
 <!-- TODO: when taxonomy is selected, show related ftypes in the filter -->

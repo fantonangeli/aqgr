@@ -26,7 +26,7 @@ export class Bars01Component implements AfterViewInit  {
      *
      */
     showChart(){
-        // todo: first color is "color": "rgb(16, 59, 145)"
+        //todo: xaxis steps must be 1
 
         let options: any = {
             chart: {
