@@ -4,6 +4,7 @@ import { Filter, AggregationInput, ResultComponent, ResultList, ResultSearchEven
 import {TaxonomiesService} from '../../../services/taxonomies.service';
 import {SpeciesService} from '../../../services/species.service';
 import {CountriesFtypeService} from '../../../services/countries-ftype.service';
+import {CountriesSFtypeService} from '../../../services/countries-sftype.service';
 
 
 @Component({
@@ -12,42 +13,71 @@ import {CountriesFtypeService} from '../../../services/countries-ftype.service';
   styles: []
 })
 export class FiltersComponent implements OnInit {
-    ftypesAggregations: AggregationInput;
-    speciesAggregations: AggregationInput;
     private _countriesFtypeService;
+    private _countriesSFtypeService;
     private _speciesService;
     filterValues: Filter[];
+    aggregations: AggregationInput[];
 
   @Output() search = new EventEmitter<ResultSearchEvent>();
 
 
-  constructor(countriesFtypeService:CountriesFtypeService, speciesService:SpeciesService) {
+  constructor(countriesFtypeService:CountriesFtypeService, speciesService:SpeciesService, countriesSFtypeService:CountriesSFtypeService) {
         this._countriesFtypeService=countriesFtypeService;
+        this._countriesSFtypeService=countriesSFtypeService;
         this._speciesService=speciesService;
 
         this.fetchFtypes();
+        this.fetchSFtypes();
         this.fetchSpecs();
 
-        this.ftypesAggregations = {
-            "type": "ftypes",
-            "title": "By primary farmed type",
-            "parameter": "document.ftypeMapping",
-            "aggregation": {
-                "name": "ftype",
-                "values": []
-            }
-        };
-        this.speciesAggregations = {
-            "type": "species",
-            "title": "By species",
-            "parameter": "document.speciesMapping",
-            "aggregation": {
-                "name": "species",
-                "values":[]
-            }
-        };
+      this.aggregations=[
+          {
+              "type": "species",
+              "title": "By species",
+              "parameter": "document.speciesMapping",
+              "aggregation": {
+                  "name": "species",
+                  "values":[]
+              }
+          },
+          {
+              "type": "ftypes",
+              "title": "By primary farmed type",
+              "parameter": "document.ftypeMapping",
+              "aggregation": {
+                  "name": "ftype",
+                  "values": []
+              }
+          },
+          {
+              "type": "sftypes",
+              "title": "By secondary farmed type",
+              "parameter": "document.sftypeMapping",
+              "aggregation": {
+                  "name": "sftype",
+                  "values": []
+              }
+          },
+      ];
   }
 
+
+    /**
+     * fetch the sftype and load them 
+     *
+     */
+    fetchSFtypes() {
+        this._countriesSFtypeService.getAll().subscribe(
+            (data)=>{
+                this.aggregations[2].aggregation.values=data;
+            },
+            (error)=>{
+                console.log("Network error: ", error);
+            }
+        );
+
+    }
 
     /**
      * fetch the taxonomies and load them 
@@ -56,7 +86,7 @@ export class FiltersComponent implements OnInit {
     fetchFtypes() {
         this._countriesFtypeService.getAll().subscribe(
             (data)=>{
-                this.ftypesAggregations.aggregation.values=data;
+                this.aggregations[1].aggregation.values=data;
             },
             (error)=>{
                 console.log("Network error: ", error);
@@ -72,7 +102,7 @@ export class FiltersComponent implements OnInit {
     fetchSpecs() {
         this._speciesService.getAll().subscribe(
             (data)=>{
-                this.speciesAggregations.aggregation.values=data;
+                this.aggregations[0].aggregation.values=data;
             },
             (error)=>{
                 console.log("Network error: ", error);

@@ -6,7 +6,7 @@ import { environment } from '../../environments/environment';
 @Injectable({
   providedIn: 'root'
 })
-export class CountriesSFTypeService {
+export class CountriesSFtypeService {
     constructor(private http: HttpClient) { }
 
 

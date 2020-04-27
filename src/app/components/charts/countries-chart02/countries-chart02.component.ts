@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {CountriesSFTypeService} from '../../../services/countries-sftype.service';
+import {CountriesSFtypeService} from '../../../services/countries-sftype.service';
 import {Pie01Component} from '../pie01/pie01.component';
 
 @Component({
@@ -14,7 +14,7 @@ export class CountriesChart02Component implements OnInit {
     private _service;
 
 
-  constructor(sv:CountriesSFTypeService) {
+  constructor(sv:CountriesSFtypeService) {
         this._service=sv;
 
         this.fetchData();
