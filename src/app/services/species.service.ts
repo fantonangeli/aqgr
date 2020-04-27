@@ -20,7 +20,7 @@ export class SpeciesService {
     getAll() {
         let cacheid="all";
         if (!this.cache$[cacheid]) {
-            this.cache$[cacheid] = this.requestAll().pipe(
+            this.cache$[cacheid] = this.http.get(`${environment.services.species.all}`).pipe(
                 shareReplay()
             );
         }
@@ -28,35 +28,7 @@ export class SpeciesService {
         return this.cache$[cacheid];
     }
 
-    private requestAll() {
-        return this.http.get(`${environment.services.species.all}`).pipe(
-            map(response => response)
-        );
-    }
 
-
-    // /**
-    //  * download a note from the rest service
-    //  * @param {number} category the category of the note
-    //  * @param {string} lang the language
-    //  * @returns {Observable} the Observable, false if error
-    //  */
-    // private requestNotes(category:number, lang:string) {
-    //      if (typeof category === "undefined" || category === null) {
-    //          throw "InvalidArgument";
-    //                  
-    //      }
-    //
-    //     if (!lang) {
-    //          throw "InvalidArgument";
-    //     }
-    //     
-    //
-    //     return this.http.get(environment.notesServiceBaseUrl+category+"/"+lang+environment.notesServiceSuffix, {responseType: 'text'}).pipe(
-    //         map(response => response)
-    //     );
-    // }
-    //
 
 
 

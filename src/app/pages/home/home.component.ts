@@ -25,16 +25,10 @@ export class HomeComponent implements OnInit {
      *
      * @param {object} type the type
      */
-    searchAggregation(event: ResultSearchEvent) {
-        this.filterValues=event.filters;
+    searchAggregation(event: Filter[]) {
+        this.filterValues=event;
     }
 
-    /**
-     * reset the filters
-     *
-     */
-    resetFilter() {
-        this.filterValues = [];
-    }
+
 
 }

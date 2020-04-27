@@ -63,13 +63,13 @@ export class FishStatTableComponent implements OnInit, OnChanges {
 
     /**
      * fetch the countries and load them in this._fishstatService
-     * @param {string} taxonomy  the taxonomy
+     * @param {string} ftype  the ftype
      *
      */
-    fetchStatsByTaxonomy(taxonomy:string="") {
-        if(!taxonomy) return;
+    fetchStatsByFtype(ftype:string="") {
+        if(!ftype) return;
 
-        this._fishstatService.getByTaxonomy(taxonomy).subscribe(
+        this._fishstatService.getByFtype(ftype).subscribe(
             (data)=>{
                 this.fishdata=data;
                 this.fishTableData=this.loadTableData(data);
@@ -123,13 +123,13 @@ export class FishStatTableComponent implements OnInit, OnChanges {
         if (!this.filterValues.length) {
             this.fetchStats();
         }
-        else if(this.filterValues[0].key==="taxonomies") {
-            this.fetchStatsByTaxonomy(this.filterValues[0].value);
+        else if(this.filterValues[0].key==="ftypes") {
+            this.fetchStatsByFtype(this.filterValues[0].value);
         } else if(this.filterValues[0].key==="species") {
             this.fetchStatsBySpecie(this.filterValues[0].value);
         }
 
-        this.disableTonnes=(!!this.filterValues.filter(e=>e.key==="taxonomies").length);
+        this.disableTonnes=(!!this.filterValues.filter(e=>e.key==="ftypes").length);
 
     }
 

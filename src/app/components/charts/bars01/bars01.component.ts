@@ -21,6 +21,8 @@ export class Bars01Component implements AfterViewInit  {
     @Input() series :object[]=[];
     @Input() xAxisTitle :string;
 
+    // TODO: hide the link to highcharts
+
     /**
      * show the chart
      *
