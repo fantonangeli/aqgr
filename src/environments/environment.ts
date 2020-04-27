@@ -9,7 +9,7 @@ export const environment = {
         fishStatCultSpecCountries: {
             all:"assets/data/FishStatSpecCountries.json",
             bySpecies:"../assets/data/FishStatSpecCountries.ASFISCode-MSM.json?species=",
-            byTaxonomy:"../assets/data/FishStatSpecCountries.ASFISCode-MSM.json?species="
+            byFtype:"../assets/data/FishStatSpecCountries.ASFISCode-MSM.json?species="
         },
         species:{
             all:"/assets/data/species/all.json",

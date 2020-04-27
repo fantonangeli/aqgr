@@ -22,12 +22,15 @@ export class Pie01Component implements AfterViewInit  {
     @Input() series :object[]=[];
     @Input() enableDataLabels :boolean=true;
     @Input() height:number=null;
+    @Input() innerSize:string="30%";
     
     /**
      * https://api.highcharts.com/highcharts/legend.enabled
      */
     @Input() legendEnabled :boolean=true;
 
+
+    // TODO: hide the link to highcharts
     
 
     /**
@@ -76,6 +79,7 @@ export class Pie01Component implements AfterViewInit  {
                 shadow: false
             },
             tooltip: {
+                // TODO: show the percentage in tooltip
                 headerFormat: "",
                 pointFormat: "<span style='color:{point.color}'>●</span> {point.name}: <b>{point.y}</b><br/>",
             },
@@ -99,6 +103,8 @@ export class Pie01Component implements AfterViewInit  {
             },
             series: this.series,
         };
+
+        options.series[0].innerSize=this.innerSize;
 
         Highcharts.chart(this.wrapperId, options);
 }

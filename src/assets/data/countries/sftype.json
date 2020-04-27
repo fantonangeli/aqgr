@@ -1,12 +1,9 @@
-[{
-    "data": [
-        {"name": "Hybrids", "y":34},
-        {"name": "Introgressed", "y":56},
-        {"name": "Crossbred", "y":45},
-        {"name": "Polyploid", "y":76},
-        {"name": "Monosex", "y":12},
-        {"name": "Transgenic", "y":123},
-        {"name": "Gene edited", "y":64}
-    ],
-    "innerSize": "30%"
-}]
+[
+    {"key": "Hybrids", "value":34},
+    {"key": "Introgressed", "value":56},
+    {"key": "Crossbred", "value":45},
+    {"key": "Polyploid", "value":76},
+    {"key": "Monosex", "value":12},
+    {"key": "Transgenic", "value":123},
+    {"key": "Gene edited", "value":64}
+]

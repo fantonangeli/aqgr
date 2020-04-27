@@ -3,6 +3,7 @@ import {FilterTermsComponent} from '../../../components/search/filter-terms/filt
 import { Filter, AggregationInput, ResultComponent, ResultList, ResultSearchEvent, ViewTypeEnum } from '../../../components/search/namespace';
 import {TaxonomiesService} from '../../../services/taxonomies.service';
 import {SpeciesService} from '../../../services/species.service';
+import {CountriesFtypeService} from '../../../services/countries-ftype.service';
 
 
 @Component({
@@ -11,29 +12,28 @@ import {SpeciesService} from '../../../services/species.service';
   styles: []
 })
 export class FiltersComponent implements OnInit {
-    taxonomiesAggregations: AggregationInput;
+    ftypesAggregations: AggregationInput;
     speciesAggregations: AggregationInput;
-    private _taxonomies:AggregationInput[];
-    private _taxonomiesService;
+    private _countriesFtypeService;
     private _speciesService;
     filterValues: Filter[];
 
   @Output() search = new EventEmitter<ResultSearchEvent>();
 
 
-  constructor(taxonomiesService:TaxonomiesService, speciesService:SpeciesService) {
-        this._taxonomiesService=taxonomiesService;
+  constructor(countriesFtypeService:CountriesFtypeService, speciesService:SpeciesService) {
+        this._countriesFtypeService=countriesFtypeService;
         this._speciesService=speciesService;
 
-        this.fetchTaxonomies();
+        this.fetchFtypes();
         this.fetchSpecs();
 
-        this.taxonomiesAggregations = {
-            "type": "taxonomies",
-            "title": "By ftypes",
-            "parameter": "document.taxonomiesMapping",
+        this.ftypesAggregations = {
+            "type": "ftypes",
+            "title": "By primary farmed type",
+            "parameter": "document.ftypeMapping",
             "aggregation": {
-                "name": "taxonomies",
+                "name": "ftype",
                 "values": []
             }
         };
@@ -53,10 +53,10 @@ export class FiltersComponent implements OnInit {
      * fetch the taxonomies and load them 
      *
      */
-    fetchTaxonomies() {
-        this._taxonomiesService.getAll().subscribe(
+    fetchFtypes() {
+        this._countriesFtypeService.getAll().subscribe(
             (data)=>{
-                this.taxonomiesAggregations.aggregation.values=data;
+                this.ftypesAggregations.aggregation.values=data;
             },
             (error)=>{
                 console.log("Network error: ", error);

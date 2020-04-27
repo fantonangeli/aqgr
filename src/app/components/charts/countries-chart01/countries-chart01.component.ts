@@ -13,12 +13,31 @@ export class CountriesChart01Component implements OnInit {
     series=[];
     private _service;
 
+    // TODO: hide if primary ftype selected
+    // TODO: the ftype chart must show the data related to the filter
 
   constructor(sv:CountriesFtypeService) {
         this._service=sv;
 
         this.fetchData();
   }
+
+    /**
+     * initialize the data
+     *
+     * @param {any[]} data=[] the data from the service
+     * @returns {object[]} the series in highchart format
+     */
+    initData(data:any[]=[]):object[]{
+        let r=[{
+            "data": [
+            ]
+        }];
+
+        r[0].data=data.map(e=>({"name": e.key, "y":e.value}));
+
+        return r;
+    }
 
 
     /**
@@ -28,7 +47,7 @@ export class CountriesChart01Component implements OnInit {
     fetchData() {
         this._service.getAll().subscribe(
             (data)=>{
-                this.series=data;
+                this.series=this.initData(data);
             },
             (error)=>{
                 console.log("Network error: ", error);

@@ -20,6 +20,22 @@ export class CountriesChart02Component implements OnInit {
         this.fetchData();
   }
 
+    /**
+     * initialize the data
+     *
+     * @param {any[]} data=[] the data from the service
+     * @returns {object[]} the series in highchart format
+     */
+    initData(data:any[]=[]):object[]{
+        let r=[{
+            "data": [
+            ]
+        }];
+
+        r[0].data=data.map(e=>({"name": e.key, "y":e.value}));
+
+        return r;
+    }
 
     /**
      * fetch the data and load them
@@ -28,7 +44,7 @@ export class CountriesChart02Component implements OnInit {
     fetchData() {
         this._service.getAll().subscribe(
             (data)=>{
-                this.series=data;
+                this.series=this.initData(data);
             },
             (error)=>{
                 console.log("Network error: ", error);
