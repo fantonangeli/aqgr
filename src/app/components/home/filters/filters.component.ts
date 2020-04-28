@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnChanges, Input, Output, EventEmitter } from '@angular/core';
 import {FilterTermsComponent} from '../../../components/search/filter-terms/filter-terms.component';
 import { Filter, AggregationInput, ResultComponent, ResultList, ResultSearchEvent, ViewTypeEnum } from '../../../components/search/namespace';
 import {TaxonomiesService} from '../../../services/taxonomies.service';
@@ -12,11 +12,11 @@ import {CountriesSFtypeService} from '../../../services/countries-sftype.service
   templateUrl: './filters.component.html',
   styles: []
 })
-export class FiltersComponent implements OnInit {
+export class FiltersComponent implements OnChanges {
     private _countriesFtypeService;
     private _countriesSFtypeService;
     private _speciesService;
-    filterValues: Filter[]=[];
+    @Input() filterValues: Filter[];
     aggregations: AggregationInput[];
 
   @Output() search = new EventEmitter<Filter[]>();
@@ -178,17 +178,68 @@ export class FiltersComponent implements OnInit {
      * @param {string} event the event
      */
     searchAggregation(type: string, parameter: string, event: string) {
-        this.aggregations=this.filterAggregation(type, event, this.aggregations);
         this.filterValues=this.clearFiltersByType(this.filterValues, type)
 
-        if(type==="species") this.fetchFtypesBySpecie(event);
-        else if(type==="ftypes") this.fetchSFtypesByFtype(event);
-
-        this.filterValues.push({ key: type, parameter: parameter, value: event });
+        this.filterValues=this.addFilter(type,parameter, event,this.filterValues);
         this.search.emit(this.filterValues);
     }
 
-  ngOnInit() {
-  }
+
+    /**
+     * add a Filter to filterValues
+     * @param {string} key the key
+     * @param {string} parameter the parameter
+     * @param {string} value the value
+     * @param {Filter[]} filters the filter array of filters
+     * @return {Filter[]} the new Filter[], [] otherwise
+     **/
+    addFilter(key:string, parameter:string, value:string, filters:Filter[]):Filter[]{
+        filters.push({ key: key, parameter: parameter, value: value });
+        filters=filters.sort((a,b)=>{
+            let asort=(a.key==="species")?0:(a.key==="ftypes")?1:2;
+            let bsort=(b.key==="species")?0:(b.key==="ftypes")?1:2;
+
+            return asort-bsort;
+        });
+
+        return filters;
+    }
+
+
+    /**
+     * get an element from filterValues by type
+     *
+     * @param {string} key the key
+     * @param {Filter[]} filters the filter array to search
+     * @return {Filter} the elements found, [] otherwise
+     */
+    getFilterValueByKey(key:string, filters:Filter[]){
+        return filters.filter(e=>(e.key===key));
+    }
+
+    ngOnChanges() {
+
+        let specie, ftype, sftype;
+
+        
+        for (var i = 0, len = this.filterValues.length, e=null; i < len && (e=this.filterValues[i]) ; i++) {
+            if (e.key==="species") specie=e;
+            else if (e.key==="ftypes") ftype=e;
+            else if (e.key==="sftypes") sftype=e;
+        }
+
+
+        if (specie) this.aggregations=this.filterAggregation(specie.key, specie.value, this.aggregations);
+        else this.fetchSpecs();
+
+        if (ftype) this.aggregations=this.filterAggregation(ftype.key, ftype.value, this.aggregations);
+        else if (specie) this.fetchFtypesBySpecie(specie.name);
+        else this.fetchFtypes();
+
+        if (sftype) this.aggregations=this.filterAggregation(sftype.key, sftype.value, this.aggregations);
+        else if (ftype) this.fetchSFtypesByFtype(ftype.name);
+        else this.fetchSFtypes();
+
+    }
 
 }

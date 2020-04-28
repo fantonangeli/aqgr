@@ -39,14 +39,14 @@
     <div class="row">
         <div class="col-sm-12 col-md-12">
             <div class="mb-4" *ngIf="filterValues && filterValues.length > 0">
-                <app-search-pill [filterValues]="filterValues" (resetFilterCriteriaEvent)="resetFilter()">
+                <app-search-pill [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                 </app-search-pill>                
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-sm-12 col-md-3">
-            <app-filters (search)="searchAggregation($event)"></app-filters>
+            <app-filters [(filterValues)]="filterValues" (search)="searchAggregation($event)"></app-filters>
         </div>
         <div class="col-sm-12 col-md-9">
             <app-fish-stat-table [filterValues]="filterValues"> </app-fish-stat-table>
@@ -54,7 +54,12 @@
                 <br>
                 <br>
                 
-            <!-- TODO: repeat the filters here-->
+            <div class="col-sm-12 col-md-12">
+                <div class="mb-4" *ngIf="filterValues && filterValues.length > 0">
+                    <app-search-pill [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                    </app-search-pill>                
+                </div>
+            </div>
 
                 <div class="container mw-100 p-0">
                     <div class="row">

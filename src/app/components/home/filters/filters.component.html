@@ -1,8 +1,7 @@
 <div *ngFor="let agg of aggregations">
     <p>
-    <app-filter-terms [aggregation]="agg.aggregation" [title]="agg.title" (filterTermEvent)="searchAggregation(agg.type,agg.parameter,$event)" [searchEnabled]="agg.type==='species'">
+    <app-filter-terms [aggregation]="agg.aggregation" [ngClass]="[agg.aggregation.name]" [title]="agg.title" (filterTermEvent)="searchAggregation(agg.type,agg.parameter,$event)" [searchEnabled]="agg.type==='species'">
     </app-filter-terms>
     </p>
 </div>
 <!-- TODO: texbox search for species -->
-<!-- TODO: when specie is selected, show related ftypes in the filter -->

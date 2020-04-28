@@ -130,7 +130,7 @@ export class FishStatTableComponent implements OnInit, OnChanges {
             this.fetchStatsBySpecie(this.filterValues[0].value);
         }
 
-        this.disableTonnes=(!!this.filterValues.filter(e=>e.key==="ftypes").length);
+        this.disableTonnes=(!!this.filterValues.filter(e=>e.key==="ftypes").length) || (!!this.filterValues.filter(e=>e.key==="sftypes").length);
 
     }
 
