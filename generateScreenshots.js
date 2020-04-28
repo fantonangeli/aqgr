@@ -33,17 +33,19 @@ async function clickAndShot(page, filename, selectors=[]) {
 
     await clickAndShot(page, (pageCount++)+'.png');
 
-    await clickAndShot(page, (pageCount++)+'.png',[ "#maincontent > div > app-root > app-home > div > div:nth-child(8) > div.col-sm-12.col-md-9 > app-fish-stat-table > app-tree-table > div > table > tbody > tr:nth-child(1) > td.align-top.text-truncate.index-0"]);
+    await clickAndShot(page, (pageCount++)+'.png',[ "app-tree-table > div > table > tbody > tr:nth-child(1) > td.align-top.text-truncate.index-0"]);
 
-    await clickAndShot(page, (pageCount++)+'.png',[ "#maincontent > div > app-root > app-home > div > div:nth-child(8) > div.col-sm-12.col-md-9 > app-fish-stat-table > app-tree-table > div > table > tbody > tr:nth-child(2) > td.align-top.text-truncate.index-0"]);
+    await clickAndShot(page, (pageCount++)+'.png',[ "app-tree-table > div > table > tbody > tr:nth-child(2) > td.align-top.text-truncate.index-0"]);
 
-    await clickAndShot(page, (pageCount++)+'.png',[ "#maincontent > div > app-root > app-home > div > div:nth-child(8) > div.col-sm-12.col-md-3 > app-filters > div:nth-child(1) > p > app-filter-terms > div > p:nth-child(3) > a"]);
+    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms > div > p:nth-child(3) > a"]);
 
-    await clickAndShot(page, (pageCount++)+'.png',[ "#maincontent > div > app-root > app-home > div > div:nth-child(8) > div.col-sm-12.col-md-3 > app-filters > div:nth-child(2) > p > app-filter-terms > div > p:nth-child(2) > a"]);
+    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms > div > p:nth-child(2) > a"]);
 
-    await clickAndShot(page, (pageCount++)+'.png',[ "#maincontent > div > app-root > app-home > div > div:nth-child(8) > div.col-sm-12.col-md-9 > app-fish-stat-table > app-tree-table > div > table > tbody > tr:nth-child(1) > td.align-top.text-truncate.index-0"]);
+    await clickAndShot(page, (pageCount++)+'.png',[ "app-tree-table > div > table > tbody > tr:nth-child(1) > td.align-top.text-truncate.index-0"]);
 
-    await clickAndShot(page, (pageCount++)+'.png',[ "#maincontent > div > app-root > app-home > div > div:nth-child(8) > div.col-sm-12.col-md-9 > app-fish-stat-table > app-tree-table > div > table > tbody > tr:nth-child(2) > td.align-top.text-truncate.index-0"]);
+    await clickAndShot(page, (pageCount++)+'.png',[ "app-tree-table > div > table > tbody > tr:nth-child(2) > td.align-top.text-truncate.index-0"]);
+
+    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.sftype > div > p > a"]);
 
 
     // http://localhost:4200/country/CHN-------------------------------------
