@@ -22,7 +22,7 @@ export class FishStatTableComponent implements OnInit, OnChanges {
     constructor(data: FishStatCultSpecCountriesService){
         this._fishstatService=data;
 
-        this.fetchStats();
+        // this.fetchStats();
 
     }
 
@@ -32,12 +32,13 @@ export class FishStatTableComponent implements OnInit, OnChanges {
      * @param {Object[]} data the data from the service
      */
     loadTableData(data){
+        let newdata;
+
         if(!data || !data.Continents) return;
 
-        data=data.Continents;
+        newdata=JSON.parse(JSON.stringify(data.Continents));
 
-
-        return data.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(e=>[
+        return newdata.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(e=>[
             e.Name,
             Number(e.Timeseries["2017"]).toLocaleString('en-US'),
             Number(e.Species).toLocaleString('en-US'),

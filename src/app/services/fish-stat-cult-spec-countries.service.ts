@@ -1,15 +1,16 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { shareReplay, map } from 'rxjs/operators';
 import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class FishStatCultSpecCountriesService {
+    private cache$: Array<Observable<Object>>=Array();
 
     constructor(private http: HttpClient) { }
-
 
 
     /**
@@ -19,10 +20,19 @@ export class FishStatCultSpecCountriesService {
      * @returns {Observable}
      */
     private getByFtype(ftype:string) : Observable<Object> {
+        let cacheid="byFtype";
+        
         if(ftype==="") throw Error("ftype not defined");
 
-        return this.http.get(environment.services.fishStatCultSpecCountries.byFtype+ftype);
+        if (!this.cache$[cacheid]) {
+            this.cache$[cacheid] = this.http.get(environment.services.fishStatCultSpecCountries.byFtype+ftype).pipe(
+                shareReplay()
+            );
+        }
+
+        return this.cache$[cacheid];
     }
+
 
     /**
      * gets the data by species
@@ -30,21 +40,39 @@ export class FishStatCultSpecCountriesService {
      * @param {string} asfisCodes the asfis codes as a list. Eg. "MSM,IPG"
      * @returns {Observable}
      */
-    private getBySpecies(asfisCodes:string) : Observable<Object> {
+    getBySpecies(asfisCodes:string) : Observable<Object> {
+        let cacheid="bySpecies";
+
         if(asfisCodes==="") throw Error("asfisCodes not defined");
 
-        return this.http.get(environment.services.fishStatCultSpecCountries.bySpecies+asfisCodes);
+        if (!this.cache$[cacheid]) {
+            this.cache$[cacheid] = this.http.get(environment.services.fishStatCultSpecCountries.bySpecies+asfisCodes).pipe(
+                shareReplay()
+            );
+        }
+
+        return this.cache$[cacheid];
     }
 
 
     /**
-     * get all the data
-     *
+     * get all elements
      * @returns {Observable}
      */
-    private getAll() : Observable<Object> {
-        return this.http.get(environment.services.fishStatCultSpecCountries.all);
+    getAll() {
+        let cacheid="all";
+        if (!this.cache$[cacheid]) {
+            this.cache$[cacheid] = this.http.get(environment.services.fishStatCultSpecCountries.all).pipe(
+                shareReplay()
+            );
+        }
+
+        return this.cache$[cacheid];
     }
+
+
+
+
 
 
 }
