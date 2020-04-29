@@ -13,7 +13,6 @@ export class CountriesChart01Component implements OnInit {
     series=[];
     private _service;
 
-    // TODO: hide if primary ftype selected
     // TODO: the ftype chart must show the data related to the filter
 
   constructor(sv:CountriesFtypeService) {
