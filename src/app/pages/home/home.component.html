@@ -76,8 +76,7 @@
                             <app-countries-chart02></app-countries-chart02>
                         </div>
                     </div>
-                    <div class="row">
-                        <!-- TODO: the ftype bar chart must show the data related to the filter-->
+                    <div class="row" *ngIf="!getFilterValueByKey('species', filterValues)">
                         <h6 class="mt-5">
                             Number of species (based on reports by country) contained in the Registry
                         </h6>
