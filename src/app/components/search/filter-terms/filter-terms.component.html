@@ -1,7 +1,7 @@
 <div *ngIf="aggregation" class="filter-item">
     <h6 class="text-muted">{{title}}</h6>
     <input type="text" class="form-control mb-2" [(ngModel)]="searchText" placeholder="Type here" *ngIf="searchEnabled" (input)="onSearchChange($event.target.value)" [disabled]="selectedFilter">
-    <p *ngFor="let item of aggregation.values">
+    <p *ngFor="let item of aggregation.values; let i = index" [ngClass]="'index-'+i">
         <a (click)="searchYear(item.key)">{{item.key}} <span *ngIf="item.value">({{item.value}})</span></a>
     </p> 
 </div>
