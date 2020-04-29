@@ -1,0 +1,26 @@
+div#admin-header {background: #ffffff; width: 960px; margin: 0 auto;}
+div#admin-header-container  {background: #EDA803; width: 920px; margin: 0 auto;}
+div#admin-header-container ul.topmenu {border-top: 1px solid #fff; float: none; margin: 0px; padding-left: 0px;}
+div#admin-header-container ul.topmenu li {float:left; list-style: none; padding: 10px 9px; font-size: 1.0em; font-weight: normal; text-transform: uppercase;}
+div#admin-header-container ul.topmenu li a {color:#fff !important; display:block;}
+div#admin-header-container ul.topmenu li a:hover {opacity: 0.5; color:#333 !important; text-decoration: none;}
+div#admin-header-container ul.topmenu li a.topmenu_active, 
+div#admin-header-container ul.topmenu li a.topmenu_active:hover {color:#363636 !important;}
+
+div#admin-header-container ul.topmenu li:last-child {float:right;}
+div#admin-header-container ul.topmenu li:last-child a {color:#AB0000 !important;}
+
+div#admin-header-container ul.topmenu:after {content:''; clear: both; display:block;}
+
+div#admin-header-container ul.topmenu ul.topmenu {display: none; list-style-type: none; position: absolute; /*width: 180px;*/ z-index: 100; margin-top: 0px; background:#CF8741; top: 39px; margin-left: -9px;}
+
+div#admin-header-container ul.topmenu li:hover {background:#CF8741;}
+div#admin-header-container ul.topmenu li:hover ul.topmenu {display: block;}
+div#admin-header-container ul.topmenu ul.topmenu li {float: none; border-bottom: 1px solid #ffffff;}
+div#admin-header-container ul.topmenu ul.topmenu li:last-child {float: none;}
+div#admin-header-container ul.topmenu ul.topmenu li:last-child a {color:#ffffff !important;}
+
+div#admin-header-container ul.topmenu ul.topmenu2 {width: 175px; left: 163px; margin-top: -2px; border-top: 1px solid #fff;}
+
+
+div#admin-header-off {display:none;}
