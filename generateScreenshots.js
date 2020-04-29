@@ -9,6 +9,10 @@ async function clickAndShot(page, filename, selectors=[]) {
         await page.$eval(selectors[i], el => el.click());
     }
 
+    await shot(page,filename);
+}
+
+async function shot(page, filename) {
     await page.waitFor(500);
     await page.screenshot({ path: screenshotsPath+filename}).catch((err) => console.log(err));
 }
@@ -36,6 +40,10 @@ async function clickAndShot(page, filename, selectors=[]) {
     await clickAndShot(page, (pageCount++)+'.png',[ "app-tree-table > div > table > tbody > tr:nth-child(1) > td.align-top.text-truncate.index-0"]);
 
     await clickAndShot(page, (pageCount++)+'.png',[ "app-tree-table > div > table > tbody > tr:nth-child(2) > td.align-top.text-truncate.index-0"]);
+
+    await page.type('app-filter-terms.species input', 'Japan', {delay: 200});
+    await shot(page, (pageCount++)+'.png');
+    await page.type('app-filter-terms.species input', '', {delay: 200});
 
     await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms > div > p:nth-child(3) > a"]);
 
