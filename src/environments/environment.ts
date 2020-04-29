@@ -13,8 +13,7 @@ export const environment = {
         },
         species:{
             all:"/assets/data/species/all.json",
-            bytaxonomy:"/assets/data/species/bytaxonomy.json",
-            byname:"/assets/data/species/byname.json",
+            byname:"/assets/data/species/byname.json?name=",
         },
         taxonomies: "assets/data/FishStatCultTax.json",
         country:{

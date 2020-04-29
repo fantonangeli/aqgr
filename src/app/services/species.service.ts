@@ -14,6 +14,22 @@ export class SpeciesService {
 
 
     /**
+     * get by name
+     * @returns {Observable}
+     */
+    getByName(name:string) {
+        let cacheid="byname";
+        if (!this.cache$[cacheid]) {
+            this.cache$[cacheid] = this.http.get(`${environment.services.species.byname}`+name).pipe(
+                shareReplay()
+            );
+        }
+
+        return this.cache$[cacheid];
+    }
+
+
+    /**
      * get all elements
      * @returns {Observable}
      */

@@ -1,25 +1,34 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { Aggregation } from '../namespace';
+import { Component, OnChanges, Input, Output, EventEmitter } from '@angular/core';
+import { Filter, Aggregation } from '../namespace';
 
 @Component({
   selector: 'app-filter-terms',
   templateUrl: './filter-terms.component.html',
   styleUrls: ['./filter-terms.component.css']
 })
-export class FilterTermsComponent implements OnInit {
+export class FilterTermsComponent implements OnChanges {
 
-  @Input() aggregation: Aggregation;
-  @Input() title: string;
-  @Input() searchEnabled: boolean=false;
-  @Output() filterTermEvent: EventEmitter<string> = new EventEmitter<string>();
+    @Input() aggregation: Aggregation;
+    @Input() title: string;
+    @Input() searchEnabled: boolean=false;
+    @Input() selectedFilter: Filter;
+    @Output() filterTermEvent: EventEmitter<string> = new EventEmitter<string>();
+    @Output() filterByName: EventEmitter<string> = new EventEmitter<string>();
+    searchText:string="";
 
-  constructor() { }
+    constructor() { }
 
-  ngOnInit() {
-  }
+    ngOnChanges() {
+        console.log();
+    }
 
-  searchYear(key: string) {
-    this.filterTermEvent.emit(key);
-  }
+    onSearchChange(searchValue: string): void {  
+        this.filterByName.emit(searchValue);
+    }
+
+    searchYear(key: string) {
+        this.searchText="";
+        this.filterTermEvent.emit(key);
+    }
 
 }

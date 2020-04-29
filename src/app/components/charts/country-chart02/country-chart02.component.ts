@@ -12,8 +12,7 @@ export class CountryChart02Component implements OnInit {
     series=[];
     private _service;
 
-    // TODO: hide if primary ftype selected
-    // TODO: the sftype chart must show the data related to the filter
+    // TODO: put more realistic data
 
   constructor(sv:CountryDevSpeciesService) {
         this._service=sv;

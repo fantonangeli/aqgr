@@ -13,6 +13,8 @@ export class CountryChart01Component implements OnInit {
     private _service;
 
 
+    // TODO: put more realistic data
+
   constructor(sv:CountryFTypeService) {
         this._service=sv;
 

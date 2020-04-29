@@ -27,10 +27,6 @@ export class FiltersComponent implements OnChanges {
         this._countriesSFtypeService=countriesSFtypeService;
         this._speciesService=speciesService;
 
-        this.fetchFtypes();
-        this.fetchSFtypes();
-        this.fetchSpecs();
-
       this.aggregations=[
           {
               "type": "species",
@@ -130,6 +126,22 @@ export class FiltersComponent implements OnChanges {
      * fetch the species and load them in this._service
      *
      */
+    fetchSpecsByName(name) {
+        this._speciesService.getByName(name).subscribe(
+            (data)=>{
+                this.aggregations[0].aggregation.values=data;
+            },
+            (error)=>{
+                console.log("Network error: ", error);
+            }
+        );
+
+    }
+
+    /**
+     * fetch the species and load them in this._service
+     *
+     */
     fetchSpecs() {
         this._speciesService.getAll().subscribe(
             (data)=>{
@@ -213,8 +225,8 @@ export class FiltersComponent implements OnChanges {
      * @param {Filter[]} filters the filter array to search
      * @return {Filter} the elements found, [] otherwise
      */
-    getFilterValueByKey(key:string, filters:Filter[]){
-        return filters.filter(e=>(e.key===key));
+    getFilterValueByKey(key:string, filters:Filter[]):Filter{
+        return filters.filter(e=>(e.key===key))[0];
     }
 
     ngOnChanges() {
@@ -242,4 +254,18 @@ export class FiltersComponent implements OnChanges {
 
     }
 
+
+    /**
+     * event fired when user type on the filter-term textbox
+     *
+     * @param {string} type the type
+     * @param {string} term what typed
+     * @return {void} 
+     */
+    filterAggregations(type:string, term:string){
+        if ((type!=="species") || (term.length<5)) return;
+
+        this.fetchSpecsByName(term);
+
+    }
 }
