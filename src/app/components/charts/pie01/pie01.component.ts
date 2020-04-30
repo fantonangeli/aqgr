@@ -32,7 +32,6 @@ export class Pie01Component implements AfterViewInit, OnChanges  {
     @Input() legendEnabled :boolean=true;
 
 
-    // TODO: hide the link to highcharts
     
 
     /**
@@ -104,6 +103,9 @@ export class Pie01Component implements AfterViewInit, OnChanges  {
                 }
             },
             series: this.series,
+            credits: {
+                enabled: false
+            },
         };
 
         options.series[0].innerSize=this.innerSize;
