@@ -92,6 +92,7 @@ export class FiltersComponent implements OnChanges {
 
     /**
      * fetch the ftypes by specie and load them 
+     * @param {string} specie the name of the specie
      *
      */
     fetchFtypesBySpecie(specie:string) {

@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnChanges } from '@angular/core';
 import {CountriesFtypeService} from '../../../services/countries-ftype.service';
 import {Pie01Component} from '../pie01/pie01.component';
+import { Filter} from '../../../components/search/namespace';
 
 @Component({
   selector: 'app-countries-chart01',
@@ -9,11 +10,11 @@ import {Pie01Component} from '../pie01/pie01.component';
   `,
   styles: []
 })
-export class CountriesChart01Component implements OnInit {
+export class CountriesChart01Component implements OnChanges {
     series=[];
     private _service;
+    @Input() selectedSpecie:Filter;
 
-    // TODO: the ftype chart must show the data related to the filter
 
   constructor(sv:CountriesFtypeService) {
         this._service=sv;
@@ -55,7 +56,26 @@ export class CountriesChart01Component implements OnInit {
 
     }
 
-    ngOnInit(){
+    /**
+     * fetch the ftypes by specie and load them 
+     * @param {string} specie the name of the specie
+     *
+     */
+    fetchFtypesBySpecie(specie:string) {
+        this._service.getBySpecie(specie).subscribe(
+            (data)=>{
+                this.series=this.initData(data);
+            },
+            (error)=>{
+                console.log("Network error: ", error);
+            }
+        );
+
+    }
+
+    ngOnChanges(){
+        if(this.selectedSpecie) this.fetchFtypesBySpecie(this.selectedSpecie.value);
+        else this.fetchData();
     }
 
 }
