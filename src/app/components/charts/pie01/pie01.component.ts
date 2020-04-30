@@ -80,9 +80,8 @@ export class Pie01Component implements AfterViewInit, OnChanges  {
                 shadow: false
             },
             tooltip: {
-                // TODO: show the percentage in tooltip
                 headerFormat: "",
-                pointFormat: "<span style='color:{point.color}'>●</span> {point.name}: <b>{point.y}</b><br/>",
+                pointFormat: "<span style='color:{point.color}'>●</span> {point.name}: <b>{point.percentage:.1f}%</b><br/>",
             },
             plotOptions: {
                 pie: {
