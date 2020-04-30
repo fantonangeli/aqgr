@@ -1,4 +1,4 @@
-import { Component, Input, AfterViewInit } from '@angular/core';
+import { Component, Input, AfterViewInit, OnChanges } from '@angular/core';
 import * as Highcharts from 'highcharts';
 
 declare var require: any;
@@ -16,8 +16,10 @@ noData(Highcharts);
   template: `<div [attr.id]="wrapperId"></div> `,
   styleUrls: []
 })
-export class Pie01Component implements AfterViewInit  {
+export class Pie01Component implements AfterViewInit, OnChanges  {
     wrapperId=`pie${Math.floor(Math.random() * 1000)}Container`;
+
+    private _viewInitialized=false;
     
     @Input() series :object[]=[];
     @Input() enableDataLabels :boolean=true;
@@ -113,8 +115,14 @@ export class Pie01Component implements AfterViewInit  {
   }
 
 
-
     ngAfterViewInit(){
+        this._viewInitialized=true;
+        this.showChart();
+    }
+
+    ngOnChanges(){
+        if(!this._viewInitialized) return;
+
         this.showChart();
     }
 
