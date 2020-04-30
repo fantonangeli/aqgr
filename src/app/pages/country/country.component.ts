@@ -21,7 +21,7 @@ noData(Highcharts);
 })
 export class CountryComponent implements OnInit {
 
-    // todo: divide the numbers in the json by 1000
+    // TODO: get countryName dynamically
     countryName:string="China"
 
     constructor() { }

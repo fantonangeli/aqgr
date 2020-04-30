@@ -12,7 +12,6 @@ export class CountryChart02Component implements OnInit {
     series=[];
     private _service;
 
-    // TODO: put more realistic data
 
   constructor(sv:CountryDevSpeciesService) {
         this._service=sv;
