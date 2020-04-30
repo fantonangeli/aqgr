@@ -23,11 +23,11 @@ export const environment = {
             devSpecies: "assets/data/country/devspecies.json?ccode=",
         },
         countries:{
-            ftype: "assets/data/countries/ftype.json?ccode=",
-            ftypeBySpecies: "assets/data/countries/ftype-filtered.json?ccode=",
-            sFtype: "assets/data/countries/sftype.json?ccode=",
-            sFtypeBySpecies: "assets/data/countries/sftype-filtered.json?ccode=",
-            species: "assets/data/countries/species.json?ccode=",
+            ftype: "assets/data/countries/ftype.json",
+            ftypeBySpecies: "assets/data/countries/ftype-filtered.json?specie=",
+            sFtype: "assets/data/countries/sftype.json",
+            sFtypeBySpecies: "assets/data/countries/sftype-filtered.json?ftype=",
+            species: "assets/data/countries/species.json",
         }
     }
 
