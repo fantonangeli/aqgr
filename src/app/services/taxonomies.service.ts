@@ -11,7 +11,7 @@ export class TaxonomiesService {
 
 
     private getAll() : Observable<Object> {
-        return this.http.get(`${environment.services.taxonomies}`);
+        return this.http.get(`${environment.services.taxonomies.all}`);
     }
 
 

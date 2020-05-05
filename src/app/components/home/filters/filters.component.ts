@@ -16,18 +16,36 @@ export class FiltersComponent implements OnChanges {
     private _countriesFtypeService;
     private _countriesSFtypeService;
     private _speciesService;
+    private _taxonomiesService;
     @Input() filterValues: Filter[];
     aggregations: AggregationInput[];
+
+    private aggIndexes={
+        taxonomies:0,
+        species:1,
+        ftypes:2,
+        sftypes:3
+    };
 
   @Output() search = new EventEmitter<Filter[]>();
 
 
-  constructor(countriesFtypeService:CountriesFtypeService, speciesService:SpeciesService, countriesSFtypeService:CountriesSFtypeService) {
+  constructor(countriesFtypeService:CountriesFtypeService, speciesService:SpeciesService, countriesSFtypeService:CountriesSFtypeService, taxonomiesService:TaxonomiesService) {
         this._countriesFtypeService=countriesFtypeService;
         this._countriesSFtypeService=countriesSFtypeService;
         this._speciesService=speciesService;
+        this._taxonomiesService=taxonomiesService;
 
       this.aggregations=[
+          {
+              "type": "taxonomies",
+              "title": "By taxonomies",
+              "parameter": "document.taxonomiesMapping",
+              "aggregation": {
+                  "name": "taxonomies",
+                  "values":[]
+              }
+          },
           {
               "type": "species",
               "title": "By species",
@@ -65,7 +83,7 @@ export class FiltersComponent implements OnChanges {
     fetchSFtypesByFtype(ftype:string) {
         this._countriesSFtypeService.getByFype(ftype).subscribe(
             (data)=>{
-                this.aggregations[2].aggregation.values=data;
+                this.aggregations[this.aggIndexes.ftypes].aggregation.values=data;
             },
             (error)=>{
                 console.log("Network error: ", error);
@@ -81,7 +99,7 @@ export class FiltersComponent implements OnChanges {
     fetchSFtypes() {
         this._countriesSFtypeService.getAll().subscribe(
             (data)=>{
-                this.aggregations[2].aggregation.values=data;
+                this.aggregations[this.aggIndexes.sftypes].aggregation.values=data;
             },
             (error)=>{
                 console.log("Network error: ", error);
@@ -98,7 +116,7 @@ export class FiltersComponent implements OnChanges {
     fetchFtypesBySpecie(specie:string) {
         this._countriesFtypeService.getBySpecie(specie).subscribe(
             (data)=>{
-                this.aggregations[1].aggregation.values=data;
+                this.aggregations[this.aggIndexes.species].aggregation.values=data;
             },
             (error)=>{
                 console.log("Network error: ", error);
@@ -114,7 +132,7 @@ export class FiltersComponent implements OnChanges {
     fetchFtypes() {
         this._countriesFtypeService.getAll().subscribe(
             (data)=>{
-                this.aggregations[1].aggregation.values=data;
+                this.aggregations[this.aggIndexes.ftypes].aggregation.values=data;
             },
             (error)=>{
                 console.log("Network error: ", error);
@@ -130,7 +148,23 @@ export class FiltersComponent implements OnChanges {
     fetchSpecsByName(name) {
         this._speciesService.getByName(name).subscribe(
             (data)=>{
-                this.aggregations[0].aggregation.values=data;
+                this.aggregations[this.aggIndexes.species].aggregation.values=data;
+            },
+            (error)=>{
+                console.log("Network error: ", error);
+            }
+        );
+
+    }
+
+    /**
+     * fetch the species and load them in this._service
+     *
+     */
+    fetchTaxonomies() {
+        this._taxonomiesService.getAll().subscribe(
+            (data)=>{
+                this.aggregations[this.aggIndexes.taxonomies].aggregation.values=data;
             },
             (error)=>{
                 console.log("Network error: ", error);
@@ -146,7 +180,7 @@ export class FiltersComponent implements OnChanges {
     fetchSpecs() {
         this._speciesService.getAll().subscribe(
             (data)=>{
-                this.aggregations[0].aggregation.values=data;
+                this.aggregations[this.aggIndexes.species].aggregation.values=data;
             },
             (error)=>{
                 console.log("Network error: ", error);
@@ -232,15 +266,19 @@ export class FiltersComponent implements OnChanges {
 
     ngOnChanges() {
 
-        let specie, ftype, sftype;
+        let specie, ftype, sftype, taxonomy;
 
         
         for (var i = 0, len = this.filterValues.length, e=null; i < len && (e=this.filterValues[i]) ; i++) {
-            if (e.key==="species") specie=e;
+            if (e.key==="taxonomies") taxonomy=e;
+            else if (e.key==="species") specie=e;
             else if (e.key==="ftypes") ftype=e;
             else if (e.key==="sftypes") sftype=e;
         }
 
+
+        if (taxonomy) this.aggregations=this.filterAggregation(taxonomy.key, taxonomy.value, this.aggregations);
+        else this.fetchTaxonomies();
 
         if (specie) this.aggregations=this.filterAggregation(specie.key, specie.value, this.aggregations);
         else this.fetchSpecs();

@@ -9,7 +9,7 @@ import { Filter, ResultSearchEvent} from '../../components/search/namespace';
 })
 export class HomeComponent implements OnInit {
     filterValues: Filter[]=[];
-
+    reloadChartsRow01=true;
 
 
     constructor(){
@@ -27,6 +27,8 @@ export class HomeComponent implements OnInit {
      */
     searchAggregation(event: Filter[]) {
         this.filterValues=event;
+
+        this.ChartsRowReloader();
     }
 
     /**
@@ -53,7 +55,19 @@ export class HomeComponent implements OnInit {
     }
 
   removeFilter(filterParam: Filter) {
-    this.filterValues=this.removeFilterByKeyVal(this.filterValues, filterParam.key, filterParam.value);
+      this.filterValues=this.removeFilterByKeyVal(this.filterValues, filterParam.key, filterParam.value);
+
+      this.ChartsRowReloader();
   }
+
+
+    /**
+     * reload the Charts Row 01
+     *
+     */
+    ChartsRowReloader(){
+        setTimeout(() => this.reloadChartsRow01 = false);
+        setTimeout(() => this.reloadChartsRow01 = true);
+    }
 
 }
