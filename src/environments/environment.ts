@@ -15,7 +15,9 @@ export const environment = {
             all:"/assets/data/species/all.json",
             byname:"/assets/data/species/byname.json?name=",
         },
-        taxonomies: "assets/data/FishStatCultTax.json",
+        taxonomies: {
+            all:"assets/data/taxonomies/all.json",
+        },
         country:{
             species: "assets/data/country/species.json?ccode=",
             ftype: "assets/data/country/ftype.json?ccode=",
