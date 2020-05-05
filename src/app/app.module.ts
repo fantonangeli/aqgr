@@ -24,6 +24,7 @@ import { CountriesChart02Component } from './components/charts/countries-chart02
 import { CountriesChart03Component } from './components/charts/countries-chart03/countries-chart03.component';
 import { FiltersComponent } from './components/home/filters/filters.component';
 import { TreeTableComponent } from './components/tree-table/tree-table.component';
+import { ConservationAndSustainableUseComponent } from './pages/conservation-and-sustainable-use/conservation-and-sustainable-use.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { TreeTableComponent } from './components/tree-table/tree-table.component
     CountriesChart03Component,
     FiltersComponent,
     TreeTableComponent,
+    ConservationAndSustainableUseComponent,
   ],
   imports: [
     BrowserModule,
