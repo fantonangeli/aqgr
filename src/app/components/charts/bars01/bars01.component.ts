@@ -43,7 +43,8 @@ export class Bars01Component implements AfterViewInit  {
                 title: (this.xAxisTitle)?{
                     text: this.xAxisTitle,
                     align: 'low'
-                }:null
+                }:null,
+                tickInterval:5
             },
             legend: {
                 enabled: false
