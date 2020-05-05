@@ -13,7 +13,7 @@ async function clickAndShot(page, filename, selectors=[]) {
 }
 
 async function shot(page, filename) {
-    await page.waitFor(500);
+    await page.waitFor(1000);
     await page.screenshot({ path: screenshotsPath+filename}).catch((err) => console.log(err));
 }
 
@@ -45,15 +45,20 @@ async function shot(page, filename) {
     await shot(page, (pageCount++)+'.png');
     await page.type('app-filter-terms.species input', '', {delay: 200});
 
-    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms > div > p:nth-child(3) > a"]);
+    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.taxonomies .index-0 a"]);
 
-    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms > div > p:nth-child(2) > a"]);
+    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.species .index-0 a"]);
+    // await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms > div > p:nth-child(3) > a"]);
+
+    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.ftype .index-0 a"]);
+    // await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms > div > p:nth-child(2) > a"]);
 
     await clickAndShot(page, (pageCount++)+'.png',[ "app-tree-table > div > table > tbody > tr:nth-child(1) > td.align-top.text-truncate.index-0"]);
 
     await clickAndShot(page, (pageCount++)+'.png',[ "app-tree-table > div > table > tbody > tr:nth-child(2) > td.align-top.text-truncate.index-0"]);
 
-    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.sftype > div > p > a"]);
+    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.sftype .index-0 a"]);
+    // await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.sftype > div > p > a"]);
 
 
     // http://localhost:4200/country/CHN-------------------------------------
