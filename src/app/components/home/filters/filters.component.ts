@@ -264,7 +264,7 @@ export class FiltersComponent implements OnChanges {
      * @return {void} 
      */
     filterAggregations(type:string, term:string){
-        if ((type!=="species") || (term.length<5)) return;
+        if ((type!=="species") || (term.length<3)) return;
 
         this.fetchSpecsByName(term);
 
