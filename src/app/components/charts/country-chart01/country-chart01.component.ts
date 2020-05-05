@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import * as Highcharts from 'highcharts';
 import {CountryFTypeService} from '../../../services/country-ftype.service';
 import {StackedBars01Component} from '../stacked-bars01/stacked-bars01.component';
@@ -11,13 +11,12 @@ import {StackedBars01Component} from '../stacked-bars01/stacked-bars01.component
 export class CountryChart01Component implements OnInit {
     series=[];
     private _service;
+    @Input() ccode:string;
 
 
 
   constructor(sv:CountryFTypeService) {
         this._service=sv;
-
-        this.fetchData();
   }
 
 
@@ -26,7 +25,7 @@ export class CountryChart01Component implements OnInit {
      *
      */
     fetchData() {
-        this._service.getAll().subscribe(
+        this._service.getAll(this.ccode).subscribe(
             (data)=>{
                 this.series=data;
             },
@@ -38,6 +37,7 @@ export class CountryChart01Component implements OnInit {
     }
 
     ngOnInit(){
+        this.fetchData();
     }
 
 }

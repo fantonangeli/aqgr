@@ -10,8 +10,8 @@ export class CountryFTypeService {
     constructor(private http: HttpClient) { }
 
 
-    private getAll() : Observable<Object> {
-        return this.http.get(`${environment.services.country.ftype}`);
+    private getAll(ccode:string) : Observable<Object> {
+        return this.http.get(`${environment.services.country.ftype+ccode}`);
     }
 
 

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from "@angular/router";
 import * as Highcharts from 'highcharts';
 import { CountryChart01Component } from '../../components/charts/country-chart01/country-chart01.component';
 import { CountryChart02Component } from '../../components/charts/country-chart02/country-chart02.component';
@@ -20,13 +21,15 @@ noData(Highcharts);
   styleUrls: ['./country.component.scss']
 })
 export class CountryComponent implements OnInit {
+    ccode:string;
 
     // TODO: get countryName dynamically
     countryName:string="China"
 
-    constructor() { }
+    constructor(private route: ActivatedRoute) { }
 
     ngOnInit(){
+        this.ccode = this.route.snapshot.paramMap.get("ccode");
     }
 
 }
