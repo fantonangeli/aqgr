@@ -76,6 +76,10 @@ export class FiltersComponent implements OnChanges {
       ];
   }
 
+/* TODO: (high) add taxonomies dependency to species filter */
+/* TODO: (high) add taxonomies dependency to ftype filter */
+/* TODO: (high) add taxonomies dependency to sftype filter */
+
     /**
      * fetch the sftypes by ftype and load them 
      *
@@ -145,8 +149,8 @@ export class FiltersComponent implements OnChanges {
      * fetch the species and load them in this._service
      *
      */
-    fetchSpecsByName(name) {
-        this._speciesService.getByName(name).subscribe(
+    fetchSpecs(name:string="") {
+        this._speciesService.getAll(name).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.species].aggregation.values=data;
             },
@@ -165,22 +169,6 @@ export class FiltersComponent implements OnChanges {
         this._taxonomiesService.getAll().subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.taxonomies].aggregation.values=data;
-            },
-            (error)=>{
-                console.log("Network error: ", error);
-            }
-        );
-
-    }
-
-    /**
-     * fetch the species and load them in this._service
-     *
-     */
-    fetchSpecs() {
-        this._speciesService.getAll().subscribe(
-            (data)=>{
-                this.aggregations[this.aggIndexes.species].aggregation.values=data;
             },
             (error)=>{
                 console.log("Network error: ", error);
@@ -302,9 +290,9 @@ export class FiltersComponent implements OnChanges {
      * @return {void} 
      */
     filterAggregations(type:string, term:string){
-        if ((type!=="species") || (term.length<3)) return;
+        if ((type!=="species") || ((term.length<3) && (term.length>0))) return;
 
-        this.fetchSpecsByName(term);
+        this.fetchSpecs(term);
 
     }
 }
