@@ -41,6 +41,7 @@ export class FiltersComponent implements OnChanges {
               "type": "taxonomies",
               "title": "By taxonomies",
               "parameter": "document.taxonomiesMapping",
+              "filter": "",
               "aggregation": {
                   "name": "taxonomies",
                   "values":[]
@@ -50,6 +51,7 @@ export class FiltersComponent implements OnChanges {
               "type": "species",
               "title": "By species",
               "parameter": "document.speciesMapping",
+              "filter": "",
               "aggregation": {
                   "name": "species",
                   "values":[]
@@ -59,6 +61,7 @@ export class FiltersComponent implements OnChanges {
               "type": "ftypes",
               "title": "By primary farmed type",
               "parameter": "document.ftypeMapping",
+              "filter": "",
               "aggregation": {
                   "name": "ftype",
                   "values": []
@@ -68,6 +71,7 @@ export class FiltersComponent implements OnChanges {
               "type": "sftypes",
               "title": "By secondary farmed type",
               "parameter": "document.sftypeMapping",
+              "filter": "",
               "aggregation": {
                   "name": "sftype",
                   "values": []
@@ -149,8 +153,8 @@ export class FiltersComponent implements OnChanges {
      * fetch the species and load them in this._service
      *
      */
-    fetchSpecs(name:string="") {
-        this._speciesService.getAll(name).subscribe(
+    fetchSpecs(name:string="", taxonomy:string="") {
+        this._speciesService.getAll(name, taxonomy).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.species].aggregation.values=data;
             },
@@ -269,14 +273,17 @@ export class FiltersComponent implements OnChanges {
         else this.fetchTaxonomies();
 
         if (specie) this.aggregations=this.filterAggregation(specie.key, specie.value, this.aggregations);
-        else this.fetchSpecs();
+        else this.fetchSpecs(
+            this.aggregations[this.aggIndexes.species].filter,
+            (taxonomy || {}).value
+        );
 
         if (ftype) this.aggregations=this.filterAggregation(ftype.key, ftype.value, this.aggregations);
-        else if (specie) this.fetchFtypesBySpecie(specie.name);
+        else if (specie) this.fetchFtypesBySpecie(specie.value);
         else this.fetchFtypes();
 
         if (sftype) this.aggregations=this.filterAggregation(sftype.key, sftype.value, this.aggregations);
-        else if (ftype) this.fetchSFtypesByFtype(ftype.name);
+        else if (ftype) this.fetchSFtypesByFtype(ftype.value);
         else this.fetchSFtypes();
 
     }
@@ -292,7 +299,12 @@ export class FiltersComponent implements OnChanges {
     filterAggregations(type:string, term:string){
         if ((type!=="species") || ((term.length<3) && (term.length>0))) return;
 
-        this.fetchSpecs(term);
+        this.aggregations[this.aggIndexes.species].filter=term;
+
+        this.fetchSpecs(
+            term,
+            (this.getFilterValueByKey("taxonomies", this.filterValues) || {}).value
+        );
 
     }
 }

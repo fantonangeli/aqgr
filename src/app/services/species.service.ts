@@ -17,33 +17,24 @@ export class SpeciesService {
      * get by name
      * @returns {Observable}
      */
-    getByName(name:string) {
-        let cacheid="byname";
+    getAll(name:string="", taxonomy:string="") {
+        let params={}, cacheid;
+
+
+        if(name) params[environment.services.species.params.search]=name;
+        if(taxonomy) params[environment.services.species.params.taxonomy]=taxonomy;
+        params[environment.services.species.params.limit]=environment.services.species.limit;
+
+        cacheid=JSON.stringify(params);
+
         if (!this.cache$[cacheid]) {
-            this.cache$[cacheid] = this.http.get(`${environment.services.species.byname}`+name).pipe(
+            this.cache$[cacheid] = this.http.get(environment.services.species.all, {params}).pipe(
                 shareReplay()
             );
         }
 
         return this.cache$[cacheid];
     }
-
-
-    /**
-     * get all elements
-     * @returns {Observable}
-     */
-    getAll() {
-        let cacheid="all";
-        if (!this.cache$[cacheid]) {
-            this.cache$[cacheid] = this.http.get(`${environment.services.species.all}`).pipe(
-                shareReplay()
-            );
-        }
-
-        return this.cache$[cacheid];
-    }
-
 
 
 

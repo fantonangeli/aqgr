@@ -44,6 +44,7 @@ export class AggregationInput {
     type: string;
     title: string;
     parameter: string;
+    filter:string;
     aggregation: Aggregation;
 }
 

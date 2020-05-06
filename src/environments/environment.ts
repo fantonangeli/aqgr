@@ -12,8 +12,9 @@ export const environment = {
             byFtype:"../assets/data/FishStatSpecCountries.ASFISCode-MSM.json?species="
         },
         species:{
-            all:"/assets/data/species/all.json",
-            byname:"/assets/data/species/byname.json?name=",
+            all:"http://localhost:3000/species",
+            params: {search:"key_like", taxonomy:"taxonomy", limit:"_limit"},
+            limit: 10
         },
         taxonomies: {
             all:"assets/data/taxonomies/all.json",
