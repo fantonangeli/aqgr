@@ -4,4 +4,7 @@
     <p *ngFor="let item of aggregation.values; let i = index" [ngClass]="'index-'+i">
         <a (click)="searchYear(item.key)">{{item.key}} <span *ngIf="item.value">({{item.value}})</span></a>
     </p> 
+    <p *ngIf="aggregation.values.length>=10">
+        <a>...</a>
+    </p>
 </div>
