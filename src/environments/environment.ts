@@ -2,8 +2,11 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+const baseUrl="http://localhost:3000/";
+
 export const environment = {
     production: false,
+    logging:true,
 
     services:{
         fishStatCultSpecCountries: {
@@ -12,7 +15,7 @@ export const environment = {
             byFtype:"../assets/data/FishStatSpecCountries.ASFISCode-MSM.json?species="
         },
         species:{
-            all:"http://localhost:3000/species",
+            all:baseUrl+"species",
             params: {search:"key_like", taxonomy:"taxonomy", limit:"_limit"},
             limit: 10
         },

@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { shareReplay, map } from 'rxjs/operators';
 import { environment } from '../../environments/environment';
+import { LoggerService } from './logger.service';
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +11,7 @@ import { environment } from '../../environments/environment';
 export class SpeciesService {
     private cache$: Array<Observable<Object>>=Array();
 
-    constructor(private http: HttpClient) { }
+    constructor(private http: HttpClient, private logger: LoggerService) { }
 
 
     /**
@@ -20,6 +21,7 @@ export class SpeciesService {
     getAll(name:string="", taxonomy:string="") {
         let params={}, cacheid;
 
+        this.logger.service("Species", {name, taxonomy});
 
         if(name) params[environment.services.species.params.search]=name;
         if(taxonomy) params[environment.services.species.params.taxonomy]=taxonomy;

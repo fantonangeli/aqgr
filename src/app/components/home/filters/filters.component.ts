@@ -303,7 +303,7 @@ export class FiltersComponent implements OnChanges {
 
         this.fetchSpecs(
             term,
-            (this.getFilterValueByKey("taxonomies", this.filterValues) || {}).value
+            (this.getFilterValueByKey("taxonomies", this.filterValues) || {value:null}).value
         );
 
     }

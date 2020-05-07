@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { shareReplay, map } from 'rxjs/operators';
 import { environment } from '../../environments/environment';
+import { LoggerService } from './logger.service';
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +11,7 @@ import { environment } from '../../environments/environment';
 export class CountriesSFtypeService {
     private cache$: Array<Observable<Object>>=Array();
 
-    constructor(private http: HttpClient) { }
+    constructor(private http: HttpClient, private logger: LoggerService) { }
 
     /**
      * get all elements by ftype
@@ -18,6 +19,9 @@ export class CountriesSFtypeService {
      */
     getByFype(ftype) {
         let cacheid="ftype:"+ftype;
+
+        this.logger.service("Sftype", {ftype});
+        
         if (!this.cache$[cacheid]) {
             this.cache$[cacheid] = this.http.get(environment.services.countries.sFtypeBySpecies+ftype).pipe(
                 shareReplay()
@@ -32,6 +36,9 @@ export class CountriesSFtypeService {
      * @returns {Observable}
      */
     getAll() {
+
+        this.logger.service("Sftype");
+
         let cacheid="all";
         if (!this.cache$[cacheid]) {
             this.cache$[cacheid] = this.http.get(environment.services.countries.sFtype).pipe(

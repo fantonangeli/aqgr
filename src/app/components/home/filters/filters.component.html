@@ -1,4 +1,3 @@
-<!-- TODO: (high) put 3 dots as a "see more" -->
 <div *ngFor="let agg of aggregations">
     <p>
     <app-filter-terms [aggregation]="agg.aggregation" [ngClass]="[agg.aggregation.name]" [title]="agg.title" (filterTermEvent)="searchAggregation(agg.type,agg.parameter,$event)" [searchEnabled]="agg.type==='species'" (filterByName)="filterAggregations(agg.type, $event)" [selectedFilter]="getFilterValueByKey(agg.type, filterValues)">
