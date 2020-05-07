@@ -41,7 +41,7 @@ async function shot(page, filename) {
 
     await clickAndShot(page, (pageCount++)+'.png',[ "app-tree-table > div > table > tbody > tr:nth-child(2) > td.align-top.text-truncate.index-0"]);
 
-    await page.type('app-filter-terms.species input', 'Japan', {delay: 200});
+    await page.type('app-filter-terms.species input', 'mono', {delay: 200});
     await shot(page, (pageCount++)+'.png');
     await page.type('app-filter-terms.species input', '', {delay: 200});
 
