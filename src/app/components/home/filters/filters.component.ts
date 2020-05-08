@@ -201,9 +201,11 @@ export class FiltersComponent implements OnChanges {
      * @return {Filter[]} the new Filter[], [] otherwise
      **/
     addFilter(key:string, parameter:string, value:string, filters:Filter[]):Filter[]{
-        /* BUG: select "Acquatic plants" -> "Algae" -> pills are in the wrong order */
         filters.push({ key: key, parameter: parameter, value: value });
         filters=filters.sort((a,b)=>{
+            return this.aggIndexes[a.key]-this.aggIndexes[b.key];
+
+
             let asort=(a.key==="species")?0:(a.key==="ftypes")?1:2;
             let bsort=(b.key==="species")?0:(b.key==="ftypes")?1:2;
 
@@ -241,6 +243,7 @@ export class FiltersComponent implements OnChanges {
         if (taxonomy) this.aggregations=this.filterAggregation(taxonomy.key, taxonomy.value, this.aggregations);
         else this.fetchTaxonomies();
 
+        /* TODO: if select tax-algae -> deselect -> species are not refreshed */
         if (specie) this.aggregations=this.filterAggregation(specie.key, specie.value, this.aggregations);
         else this.fetchSpecs(
             this.aggregations[this.aggIndexes.species].filter,

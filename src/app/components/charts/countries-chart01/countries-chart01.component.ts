@@ -62,7 +62,8 @@ export class CountriesChart01Component implements OnChanges {
      *
      */
     fetchFtypesBySpecie(specie:string) {
-        this._service.getBySpecie(specie).subscribe(
+        /* TODO: filter by taxonomies */
+        this._service.getAll("", specie).subscribe(
             (data)=>{
                 this.series=this.initData(data);
             },

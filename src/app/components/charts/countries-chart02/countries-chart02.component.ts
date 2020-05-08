@@ -43,7 +43,8 @@ export class CountriesChart02Component implements OnChanges {
      *
      */
     fetchSFtypesByFtype(ftype:string) {
-        this._service.getByFype(ftype).subscribe(
+        /* TODO: filter by taxonomies and specie */
+        this._service.getAll("","",ftype).subscribe(
             (data)=>{
                 this.series=this.initData(data);
             },
