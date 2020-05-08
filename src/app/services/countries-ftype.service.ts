@@ -20,7 +20,7 @@ export class CountriesFtypeService {
     getBySpecie(specie) {
         let cacheid="specie:"+specie;
 
-        this.logger.service("Ftype", {specie});
+        this.logger.service("Ftype:getBySpecie", {specie});
         
         if (!this.cache$[cacheid]) {
             this.cache$[cacheid] = this.http.get(environment.services.countries.ftypeBySpecies+specie).pipe(
@@ -32,22 +32,50 @@ export class CountriesFtypeService {
     }
 
     /**
-     * get all elements
+     * getAll elements
+     *
+     * @param {string} taxonomy (optional) the taxonomy for filtering
+     * @param {string} specie (optiona) the specie for filtering
      * @returns {Observable}
      */
-    getAll() {
+    getAll(taxonomy:string="", specie:string=""):Observable<Object> {
+        let params={}, cacheid;
 
-        this.logger.service("Ftype");
+        this.logger.service("ftype:getAll", {taxonomy, specie});
 
-        let cacheid="all";
+        if(taxonomy) params[environment.services.ftypes.params.taxonomy]=taxonomy;
+        if(specie) params[environment.services.ftypes.params.specie]=specie;
+        params[environment.services.ftypes.params.limit]=environment.services.ftypes.limit;
+
+        cacheid=JSON.stringify(params);
+
         if (!this.cache$[cacheid]) {
-            this.cache$[cacheid] = this.http.get(environment.services.countries.ftype).pipe(
+            this.cache$[cacheid] = this.http.get(environment.services.ftypes.all, {params}).pipe(
                 shareReplay()
             );
         }
 
         return this.cache$[cacheid];
     }
+
+
+    /**
+     * get all elements
+     * @returns {Observable}
+     */
+    // getAll() {
+    //
+    //     this.logger.service("Ftype");
+    //
+    //     let cacheid="all";
+    //     if (!this.cache$[cacheid]) {
+    //         this.cache$[cacheid] = this.http.get(environment.services.countries.ftype).pipe(
+    //             shareReplay()
+    //         );
+    //     }
+    //
+    //     return this.cache$[cacheid];
+    // }
 
 
 
