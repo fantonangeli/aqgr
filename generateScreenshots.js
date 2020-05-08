@@ -43,22 +43,23 @@ async function shot(page, filename) {
 
     await page.type('app-filter-terms.species input', 'mono', {delay: 200});
     await shot(page, (pageCount++)+'.png');
-    await page.type('app-filter-terms.species input', '', {delay: 200});
+    await (await page.$('app-filter-terms.species input')).click({ clickCount: 3 })
+    await page.keyboard.press('Backspace');
+    await page.keyboard.press('Backspace');
+    await page.keyboard.press('Backspace');
+    await page.keyboard.press('Backspace');
 
-    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.taxonomies .index-0 a"]);
+    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.taxonomies .index-5 a"]);
 
-    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.species .index-0 a"]);
-    // await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms > div > p:nth-child(3) > a"]);
+    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.species .index-3 a"]);
 
     await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.ftype .index-0 a"]);
-    // await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms > div > p:nth-child(2) > a"]);
 
     await clickAndShot(page, (pageCount++)+'.png',[ "app-tree-table > div > table > tbody > tr:nth-child(1) > td.align-top.text-truncate.index-0"]);
 
     await clickAndShot(page, (pageCount++)+'.png',[ "app-tree-table > div > table > tbody > tr:nth-child(2) > td.align-top.text-truncate.index-0"]);
 
     await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.sftype .index-0 a"]);
-    // await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.sftype > div > p > a"]);
 
 
     // http://localhost:4200/country/CHN-------------------------------------
