@@ -9,7 +9,7 @@ import { LoggerService } from './logger.service';
   providedIn: 'root'
 })
 export class SpeciesService {
-    private cache$: Array<Observable<Object>>=Array();
+    private cache$: Array<Observable<any>>=Array();
 
     constructor(private http: HttpClient, private logger: LoggerService) { }
 
@@ -21,7 +21,7 @@ export class SpeciesService {
     getAll(name:string="", taxonomy:string="") {
         let params={}, cacheid;
 
-        this.logger.service("Species", {name, taxonomy});
+        this.logger.service("Species:getAll", {name, taxonomy});
 
         if(name) params[environment.services.species.params.search]=name;
         if(taxonomy) params[environment.services.species.params.taxonomy]=taxonomy;

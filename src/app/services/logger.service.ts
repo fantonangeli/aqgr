@@ -10,22 +10,32 @@ import { environment } from '../../environments/environment';
 export class LoggerService {
 
     /**
+     * log 4 errors
+     *
+     * @param {string} msg the message
+     * @param {any} data debugging data
+     */
+    error(msg: string, data:any="") {
+        this.log(msg, data, "red");
+    }
+
+    /**
      * log 4 services
      *
-     * @param {string} servicename
-     * @param {any} data
+     * @param {string} servicename the name of the service
+     * @param {any} params request params
      */
-    service(servicename: string, data:any="") {
-        this.log("Service: "+ servicename, data, "red");
+    service(servicename: string, params:any="") {
+        this.log("Service: "+ servicename, params, "green");
     }
 
 
     /**
      * just a logger
      *
-     * @param {string} msg
-     * @param {any} data
-     * @param {string} color
+     * @param {string} msg message to show
+     * @param {any} data the data 
+     * @param {string} color pick your color
      */
     log(msg: any, data:any, color:string="") {
         if(!environment.logging) return;

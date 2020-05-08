@@ -5,7 +5,7 @@
     "ng": "ng",
     "ng:serve": "ng serve",
     "start": "concurrently 'npm run jsonserver'  'npm run ng:serve'",
-    "jsonserver": "json-server --watch ./json-server.data.json",
+    "jsonserver": "json-server --watch ./rest/db.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

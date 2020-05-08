@@ -8,8 +8,8 @@ import { LoggerService } from './logger.service';
 @Injectable({
   providedIn: 'root'
 })
-export class CountriesFtypeService {
-    private cache$: Array<Observable<Object>>=Array();
+export class FtypesService {
+    private cache$: Array<Observable<any>>=Array();
 
     constructor(private http: HttpClient, private logger: LoggerService) { }
 
@@ -38,7 +38,7 @@ export class CountriesFtypeService {
      * @param {string} specie (optiona) the specie for filtering
      * @returns {Observable}
      */
-    getAll(taxonomy:string="", specie:string=""):Observable<Object> {
+    getAll(taxonomy:string="", specie:string="") {
         let params={}, cacheid;
 
         this.logger.service("ftype:getAll", {taxonomy, specie});

@@ -1,5 +1,5 @@
 import { Component, OnChanges, Input } from '@angular/core';
-import {CountriesSFtypeService} from '../../../services/countries-sftype.service';
+import {SFtypesService} from '../../../services/sftypes.service';
 import {Pie01Component} from '../pie01/pie01.component';
 import { Filter} from '../../../components/search/namespace';
 
@@ -16,7 +16,7 @@ export class CountriesChart02Component implements OnChanges {
     @Input() selectedFtype:Filter;
 
 
-  constructor(sv:CountriesSFtypeService) {
+  constructor(sv:SFtypesService) {
         this._service=sv;
   }
 

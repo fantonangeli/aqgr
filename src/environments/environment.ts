@@ -14,13 +14,20 @@ export const environment = {
             bySpecies:"../assets/data/FishStatSpecCountries.ASFISCode-MSM.json?species=",
             byFtype:"../assets/data/FishStatSpecCountries.ASFISCode-MSM.json?species="
         },
+        ftypes:{
+            all:baseUrl+"ftypes",
+            params: {taxonomy:"taxonomies_like", specie:"species_like", limit:"_limit"},
+            limit: 10
+        },
         species:{
             all:baseUrl+"species",
             params: {search:"key_like", taxonomy:"taxonomy", limit:"_limit"},
             limit: 10
         },
         taxonomies: {
-            all:"assets/data/taxonomies/all.json",
+            all:baseUrl+"taxonomies",
+            params: {limit:"_limit"},
+            limit: 10
         },
         country:{
             species: "assets/data/country/species.json?ccode=",

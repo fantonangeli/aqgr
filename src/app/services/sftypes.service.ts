@@ -8,8 +8,8 @@ import { LoggerService } from './logger.service';
 @Injectable({
   providedIn: 'root'
 })
-export class CountriesSFtypeService {
-    private cache$: Array<Observable<Object>>=Array();
+export class SFtypesService {
+    private cache$: Array<Observable<any>>=Array();
 
     constructor(private http: HttpClient, private logger: LoggerService) { }
 

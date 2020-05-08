@@ -3,8 +3,8 @@ import {FilterTermsComponent} from '../../../components/search/filter-terms/filt
 import { Filter, AggregationInput, ResultComponent, ResultList, ResultSearchEvent, ViewTypeEnum } from '../../../components/search/namespace';
 import {TaxonomiesService} from '../../../services/taxonomies.service';
 import {SpeciesService} from '../../../services/species.service';
-import {CountriesFtypeService} from '../../../services/countries-ftype.service';
-import {CountriesSFtypeService} from '../../../services/countries-sftype.service';
+import {FtypesService} from '../../../services/ftypes.service';
+import {SFtypesService} from '../../../services/sftypes.service';
 
 
 @Component({
@@ -13,10 +13,6 @@ import {CountriesSFtypeService} from '../../../services/countries-sftype.service
   styles: []
 })
 export class FiltersComponent implements OnChanges {
-    private _countriesFtypeService;
-    private _countriesSFtypeService;
-    private _speciesService;
-    private _taxonomiesService;
     @Input() filterValues: Filter[];
     aggregations: AggregationInput[];
 
@@ -30,11 +26,12 @@ export class FiltersComponent implements OnChanges {
   @Output() search = new EventEmitter<Filter[]>();
 
 
-  constructor(countriesFtypeService:CountriesFtypeService, speciesService:SpeciesService, countriesSFtypeService:CountriesSFtypeService, taxonomiesService:TaxonomiesService) {
-        this._countriesFtypeService=countriesFtypeService;
-        this._countriesSFtypeService=countriesSFtypeService;
-        this._speciesService=speciesService;
-        this._taxonomiesService=taxonomiesService;
+  constructor(
+      private _FtypesService:FtypesService,
+      private _speciesService:SpeciesService, 
+      private _SFtypesService:SFtypesService, 
+      private _taxonomiesService:TaxonomiesService
+  ) {
 
       this.aggregations=[
           {
@@ -89,7 +86,7 @@ export class FiltersComponent implements OnChanges {
      *
      */
     fetchSFtypesByFtype(ftype:string) {
-        this._countriesSFtypeService.getByFype(ftype).subscribe(
+        this._SFtypesService.getByFype(ftype).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.ftypes].aggregation.values=data;
             },
@@ -105,7 +102,7 @@ export class FiltersComponent implements OnChanges {
      *
      */
     fetchSFtypes() {
-        this._countriesSFtypeService.getAll().subscribe(
+        this._SFtypesService.getAll().subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.sftypes].aggregation.values=data;
             },
@@ -122,7 +119,7 @@ export class FiltersComponent implements OnChanges {
      *
      */
     fetchFtypesBySpecie(specie:string) {
-        this._countriesFtypeService.getBySpecie(specie).subscribe(
+        this._FtypesService.getBySpecie(specie).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.species].aggregation.values=data;
             },
@@ -135,10 +132,12 @@ export class FiltersComponent implements OnChanges {
 
     /**
      * fetch the ftypes and load them 
+     * @param {string} taxonomy (optional) the taxonomy for filtering
+     * @param {string} specie (optiona) the specie for filtering
      *
      */
-    fetchFtypes() {
-        this._countriesFtypeService.getAll().subscribe(
+    fetchFtypes(taxonomy:string="", specie:string="") {
+        this._FtypesService.getAll(taxonomy, specie).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.ftypes].aggregation.values=data;
             },
@@ -233,6 +232,7 @@ export class FiltersComponent implements OnChanges {
      * @return {Filter[]} the new Filter[], [] otherwise
      **/
     addFilter(key:string, parameter:string, value:string, filters:Filter[]):Filter[]{
+        /* BUG: select "Acquatic plants" -> "Algae" -> pills are in the wrong order */
         filters.push({ key: key, parameter: parameter, value: value });
         filters=filters.sort((a,b)=>{
             let asort=(a.key==="species")?0:(a.key==="ftypes")?1:2;
@@ -257,6 +257,7 @@ export class FiltersComponent implements OnChanges {
     }
 
     ngOnChanges() {
+        /* BUG: select "Acquatic plants" -> "Algae" -> "By species" filter has wrong data */
 
         let specie, ftype, sftype, taxonomy;
 
@@ -279,12 +280,15 @@ export class FiltersComponent implements OnChanges {
         );
 
         if (ftype) this.aggregations=this.filterAggregation(ftype.key, ftype.value, this.aggregations);
-        else if (specie) this.fetchFtypesBySpecie(specie.value);
-        else this.fetchFtypes();
+        // else if (specie) this.fetchFtypesBySpecie(specie.value);
+        else this.fetchFtypes(
+            (taxonomy || {}).value,
+            (specie || {}).value
+        );
 
-        if (sftype) this.aggregations=this.filterAggregation(sftype.key, sftype.value, this.aggregations);
-        else if (ftype) this.fetchSFtypesByFtype(ftype.value);
-        else this.fetchSFtypes();
+        // if (sftype) this.aggregations=this.filterAggregation(sftype.key, sftype.value, this.aggregations);
+        // else if (ftype) this.fetchSFtypesByFtype(ftype.value);
+        // else this.fetchSFtypes();
 
     }
 
