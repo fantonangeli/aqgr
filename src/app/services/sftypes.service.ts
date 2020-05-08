@@ -13,35 +13,29 @@ export class SFtypesService {
 
     constructor(private http: HttpClient, private logger: LoggerService) { }
 
-    /**
-     * get all elements by ftype
-     * @returns {Observable}
-     */
-    getByFype(ftype) {
-        let cacheid="ftype:"+ftype;
-
-        this.logger.service("Sftype", {ftype});
-        
-        if (!this.cache$[cacheid]) {
-            this.cache$[cacheid] = this.http.get(environment.services.countries.sFtypeBySpecies+ftype).pipe(
-                shareReplay()
-            );
-        }
-
-        return this.cache$[cacheid];
-    }
 
     /**
-     * get all elements
+     * getAll elements
+     *
+     * @param {string} taxonomy (optional) the taxonomy for filtering
+     * @param {string} specie (optiona) the specie for filtering
+     * @param {string} ftype (optional) the ftype for filtering
      * @returns {Observable}
      */
-    getAll() {
+    getAll(taxonomy:string="", specie:string="", ftype:string="") {
+        let params={}, cacheid;
 
-        this.logger.service("Sftype");
+        this.logger.service("sftype:getAll", {taxonomy, specie});
 
-        let cacheid="all";
+        if(taxonomy) params[environment.services.sftypes.params.taxonomy]=taxonomy;
+        if(specie) params[environment.services.sftypes.params.specie]=specie;
+        if(ftype) params[environment.services.sftypes.params.ftype]=ftype;
+        params[environment.services.sftypes.params.limit]=environment.services.sftypes.limit;
+
+        cacheid=JSON.stringify(params);
+
         if (!this.cache$[cacheid]) {
-            this.cache$[cacheid] = this.http.get(environment.services.countries.sFtype).pipe(
+            this.cache$[cacheid] = this.http.get(environment.services.sftypes.all, {params}).pipe(
                 shareReplay()
             );
         }

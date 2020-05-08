@@ -14,24 +14,6 @@ export class FtypesService {
     constructor(private http: HttpClient, private logger: LoggerService) { }
 
     /**
-     * get all elements by specie
-     * @returns {Observable}
-     */
-    getBySpecie(specie) {
-        let cacheid="specie:"+specie;
-
-        this.logger.service("Ftype:getBySpecie", {specie});
-        
-        if (!this.cache$[cacheid]) {
-            this.cache$[cacheid] = this.http.get(environment.services.countries.ftypeBySpecies+specie).pipe(
-                shareReplay()
-            );
-        }
-
-        return this.cache$[cacheid];
-    }
-
-    /**
      * getAll elements
      *
      * @param {string} taxonomy (optional) the taxonomy for filtering
@@ -58,24 +40,6 @@ export class FtypesService {
         return this.cache$[cacheid];
     }
 
-
-    /**
-     * get all elements
-     * @returns {Observable}
-     */
-    // getAll() {
-    //
-    //     this.logger.service("Ftype");
-    //
-    //     let cacheid="all";
-    //     if (!this.cache$[cacheid]) {
-    //         this.cache$[cacheid] = this.http.get(environment.services.countries.ftype).pipe(
-    //             shareReplay()
-    //         );
-    //     }
-    //
-    //     return this.cache$[cacheid];
-    // }
 
 
 

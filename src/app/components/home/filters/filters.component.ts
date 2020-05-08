@@ -77,32 +77,17 @@ export class FiltersComponent implements OnChanges {
       ];
   }
 
-/* TODO: (high) add taxonomies dependency to species filter */
-/* TODO: (high) add taxonomies dependency to ftype filter */
-/* TODO: (high) add taxonomies dependency to sftype filter */
 
-    /**
-     * fetch the sftypes by ftype and load them 
-     *
-     */
-    fetchSFtypesByFtype(ftype:string) {
-        this._SFtypesService.getByFype(ftype).subscribe(
-            (data)=>{
-                this.aggregations[this.aggIndexes.ftypes].aggregation.values=data;
-            },
-            (error)=>{
-                console.log("Network error: ", error);
-            }
-        );
-
-    }
 
     /**
      * fetch the sftype and load them 
+     * @param {string} taxonomy (optional) the taxonomy for filtering
+     * @param {string} specie (optiona) the specie for filtering
+     * @param {string} ftype (optiona) the ftype for filtering
      *
      */
-    fetchSFtypes() {
-        this._SFtypesService.getAll().subscribe(
+    fetchSFtypes(taxonomy:string="", specie:string="", ftype:string="") {
+        this._SFtypesService.getAll(taxonomy,specie,ftype).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.sftypes].aggregation.values=data;
             },
@@ -113,22 +98,6 @@ export class FiltersComponent implements OnChanges {
 
     }
 
-    /**
-     * fetch the ftypes by specie and load them 
-     * @param {string} specie the name of the specie
-     *
-     */
-    fetchFtypesBySpecie(specie:string) {
-        this._FtypesService.getBySpecie(specie).subscribe(
-            (data)=>{
-                this.aggregations[this.aggIndexes.species].aggregation.values=data;
-            },
-            (error)=>{
-                console.log("Network error: ", error);
-            }
-        );
-
-    }
 
     /**
      * fetch the ftypes and load them 
@@ -257,7 +226,6 @@ export class FiltersComponent implements OnChanges {
     }
 
     ngOnChanges() {
-        /* BUG: select "Acquatic plants" -> "Algae" -> "By species" filter has wrong data */
 
         let specie, ftype, sftype, taxonomy;
 
@@ -280,15 +248,17 @@ export class FiltersComponent implements OnChanges {
         );
 
         if (ftype) this.aggregations=this.filterAggregation(ftype.key, ftype.value, this.aggregations);
-        // else if (specie) this.fetchFtypesBySpecie(specie.value);
         else this.fetchFtypes(
             (taxonomy || {}).value,
             (specie || {}).value
         );
 
-        // if (sftype) this.aggregations=this.filterAggregation(sftype.key, sftype.value, this.aggregations);
-        // else if (ftype) this.fetchSFtypesByFtype(ftype.value);
-        // else this.fetchSFtypes();
+        if (sftype) this.aggregations=this.filterAggregation(sftype.key, sftype.value, this.aggregations);
+        else this.fetchSFtypes(
+            (taxonomy || {}).value,
+            (specie || {}).value,
+            (ftype || {}).value
+        );
 
     }
 

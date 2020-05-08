@@ -14,6 +14,11 @@ export const environment = {
             bySpecies:"../assets/data/FishStatSpecCountries.ASFISCode-MSM.json?species=",
             byFtype:"../assets/data/FishStatSpecCountries.ASFISCode-MSM.json?species="
         },
+        sftypes:{
+            all:baseUrl+"sftypes",
+            params: {taxonomy:"taxonomies_like", specie:"species_like", ftype:"ftypes_like", limit:"_limit"},
+            limit: 10
+        },
         ftypes:{
             all:baseUrl+"ftypes",
             params: {taxonomy:"taxonomies_like", specie:"species_like", limit:"_limit"},
