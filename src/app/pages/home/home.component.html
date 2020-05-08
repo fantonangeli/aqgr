@@ -24,16 +24,16 @@
     <!-- TODO: (low) connect the xx in html to json data -->
     <!-- TODO: (low) use dynamic-html for the header-->
         
-    <br>
-    <br>
-    <br>
-    <br>
+    <!-- <br> -->
+    <!-- <br> -->
+    <!-- <br> -->
+    <!-- <br> -->
     <div class="row">
         <div class="col-sm-12 col-md-3">
             <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Filters:</h1></div></div>
         </div>
         <div class="col-sm-12 col-md-9">
-            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">AqGR Farmed types data:</h1></div></div>
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Data on Farmed Types</h1></div></div>
         </div>
     </div>
     <div class="row">
@@ -56,6 +56,8 @@
 
             <div class="col-sm-12 col-md-12">
                 <div class="mb-4" *ngIf="filterValues && filterValues.length > 0">
+                    <!-- TODO: if species selected , hide tax pills -->
+                    <!-- TODO: pills to the right column-->
                     <app-search-pill [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     </app-search-pill>                
                 </div>
