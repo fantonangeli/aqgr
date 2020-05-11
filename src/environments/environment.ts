@@ -35,6 +35,7 @@ export const environment = {
             limit: 10
         },
         country:{
+            info: "assets/data/country/info.json?ccode=",
             species: "assets/data/country/species.json?ccode=",
             ftype: "assets/data/country/ftype.json?ccode=",
             sFtype: "assets/data/country/sftype.json?ccode=",
