@@ -122,6 +122,11 @@ export class FiltersComponent implements OnChanges {
      *
      */
     fetchSpecs(name:string="", taxonomy:string="") {
+        if(!name && !taxonomy) {
+            this.aggregations[this.aggIndexes.species].aggregation.values=[];
+            return;
+        }
+
         this._speciesService.getAll(name, taxonomy).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.species].aggregation.values=data;
