@@ -25,11 +25,6 @@ module.exports = [
     "taxonomy": "Freshwater fishes"
   },
   {
-    "key": "Osteichthyes",
-    "value": 64,
-    "taxonomy": "Marine fishes"
-  },
-  {
     "key": "Ctenopharyngodon idellus",
     "value": 60,
     "taxonomy": "Freshwater fishes"
@@ -668,11 +663,6 @@ module.exports = [
     "key": "Characidae",
     "value": 5,
     "taxonomy": "Freshwater fishes"
-  },
-  {
-    "key": "Osteichthyes",
-    "value": 5,
-    "taxonomy": "Marine fishes"
   },
   {
     "key": "Tilapia rendalli",
@@ -2763,11 +2753,6 @@ module.exports = [
     "key": "Chelonia mydas",
     "value": 1,
     "taxonomy": "Miscellaneous aquatic animals"
-  },
-  {
-    "key": "Osteichthyes",
-    "value": 1,
-    "taxonomy": "Marine fishes"
   },
   {
     "key": "Asparagopsis spp",

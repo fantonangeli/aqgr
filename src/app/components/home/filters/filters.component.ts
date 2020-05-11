@@ -188,6 +188,10 @@ export class FiltersComponent implements OnChanges {
         this.filterValues=this.clearFiltersByType(this.filterValues, type)
 
         this.filterValues=this.addFilter(type,parameter, event,this.filterValues);
+
+        //reset the search value
+        this.aggregations[this.aggIndexes[type]].filter="",
+
         this.search.emit(this.filterValues);
     }
 
@@ -243,7 +247,6 @@ export class FiltersComponent implements OnChanges {
         if (taxonomy) this.aggregations=this.filterAggregation(taxonomy.key, taxonomy.value, this.aggregations);
         else this.fetchTaxonomies();
 
-        /* TODO: if select tax-algae -> deselect -> species are not refreshed */
         if (specie) this.aggregations=this.filterAggregation(specie.key, specie.value, this.aggregations);
         else this.fetchSpecs(
             this.aggregations[this.aggIndexes.species].filter,
