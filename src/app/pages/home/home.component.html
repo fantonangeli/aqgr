@@ -37,27 +37,25 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-12 col-md-12">
-            <div class="mb-4" *ngIf="filterValues && filterValues.length > 0">
-                <app-search-pill [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-                </app-search-pill>                
-            </div>
-        </div>
-    </div>
-    <div class="row">
         <div class="col-sm-12 col-md-3">
             <app-filters [(filterValues)]="filterValues" (search)="searchAggregation($event)"></app-filters>
         </div>
         <div class="col-sm-12 col-md-9">
+            <div class="col-sm-12 col-md-12 pl-0">
+                <div class="mb-4" *ngIf="filterValues && filterValues.length > 0">
+                    <!-- TODO: if species selected , hide tax pills -->
+                    <app-search-pill [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                    </app-search-pill>                
+                </div>
+            </div>
+
             <app-fish-stat-table [filterValues]="filterValues"> </app-fish-stat-table>
 
             <br>
-            <br>
 
-            <div class="col-sm-12 col-md-12">
+            <div class="col-sm-12 col-md-12 pl-0">
                 <div class="mb-4" *ngIf="filterValues && filterValues.length > 0">
                     <!-- TODO: if species selected , hide tax pills -->
-                    <!-- TODO: pills to the right column-->
                     <app-search-pill [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     </app-search-pill>                
                 </div>
