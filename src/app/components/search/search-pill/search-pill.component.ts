@@ -12,16 +12,27 @@ import { Filter } from '../namespace';
  */
 export class SearchPillComponent implements OnInit {
 
-  /** List of filters used for searching */
-  @Input() filterValues: Filter[];
-  /** Event specifying the filter criteria to be deleted */
-  @Output() resetFilterCriteriaEvent: EventEmitter<Filter> = new EventEmitter<Filter>();
+    /** List of filters used for searching */
+    @Input() filterValues: Filter[];
+    /** Event specifying the filter criteria to be deleted */
+    @Output() resetFilterCriteriaEvent: EventEmitter<Filter> = new EventEmitter<Filter>();
 
-  constructor() { }
+    constructor() { }
 
-  ngOnInit() {}
+    /**
+     * get an element from filterValues by type
+     *
+     * @param {string} key the key
+     * @param {Filter[]} filters the filter array to search
+     * @return {Filter} the elements found, [] otherwise
+     */
+    getFilterValueByKey(key:string, filters:Filter[]):Filter{
+        return filters.filter(e=>(e.key===key))[0];
+    }
 
-  removeFilter(filterCondition: Filter) {
-    this.resetFilterCriteriaEvent.emit(filterCondition);
-  }
+    ngOnInit() {}
+
+    removeFilter(filterCondition: Filter) {
+        this.resetFilterCriteriaEvent.emit(filterCondition);
+    }
 }
