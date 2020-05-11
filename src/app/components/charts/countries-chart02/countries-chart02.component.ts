@@ -13,6 +13,8 @@ import { Filter} from '../../../components/search/namespace';
 export class CountriesChart02Component implements OnChanges {
     series=[];
     private _service;
+    @Input() selectedTaxonomy:Filter;
+    @Input() selectedSpecie:Filter;
     @Input() selectedFtype:Filter;
 
 
@@ -39,28 +41,14 @@ export class CountriesChart02Component implements OnChanges {
 
 
     /**
-     * fetch the sftypes by ftype and load them 
-     *
-     */
-    fetchSFtypesByFtype(ftype:string) {
-        /* TODO: filter by taxonomies and specie */
-        this._service.getAll("","",ftype).subscribe(
-            (data)=>{
-                this.series=this.initData(data);
-            },
-            (error)=>{
-                console.log("Network error: ", error);
-            }
-        );
-
-    }
-
-    /**
      * fetch the data and load them
      *
+     * @param {string} taxonomy the selected taxonomy
+     * @param {string} specie the selected specie
+     * @param {string} ftype the selected ftype
      */
-    fetchData() {
-        this._service.getAll().subscribe(
+    fetchData(taxonomy:string="", specie:string="", ftype:string="") {
+        this._service.getAll(taxonomy, specie, ftype).subscribe(
             (data)=>{
                 this.series=this.initData(data);
             },
@@ -72,8 +60,11 @@ export class CountriesChart02Component implements OnChanges {
     }
 
     ngOnChanges(){
-        if(this.selectedFtype) this.fetchSFtypesByFtype(this.selectedFtype.value);
-        else this.fetchData();
+        this.fetchData(
+            (this.selectedTaxonomy)?this.selectedTaxonomy.value:"",
+            (this.selectedSpecie)?this.selectedSpecie.value:"",
+            (this.selectedFtype)?this.selectedFtype.value:""
+        );
     }
 
 }

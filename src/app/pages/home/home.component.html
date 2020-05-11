@@ -59,7 +59,7 @@
                 </div>
             </div>
 
-            <ng-template #ChartsTpl let-specie="specie" let-ftype="ftype" let-sftype="sftype">
+            <ng-template #ChartsTpl let-taxonomy="taxonomy" let-specie="specie" let-ftype="ftype" let-sftype="sftype">
                 <div class="container mw-100 p-0">
                     <div class="row text-center" *ngIf="reloadChartsRow01">
                         <div class="col-sm-12 p-0" [ngClass]="{'col-md-6':!sftype}">
@@ -67,7 +67,7 @@
                                 <h6 class="">
                                     Proportion of primary farmed types entered
                                 </h6>
-                                <app-countries-chart01 [selectedSpecie]="specie"></app-countries-chart01>
+                                <app-countries-chart01 [selectedTaxonomy]="taxonomy" [selectedSpecie]="specie"></app-countries-chart01>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-6 p-0" [ngClass]="{'col-md-6':!ftype}">
@@ -75,7 +75,7 @@
                                 <h6 class="">
                                     Proportion of secondary farmed types entered
                                 </h6>
-                                <app-countries-chart02 [selectedFtype]="ftype"></app-countries-chart02>
+                                <app-countries-chart02 [selectedTaxonomy]="taxonomy" [selectedSpecie]="specie" [selectedFtype]="ftype" ></app-countries-chart02>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                     </div>
                 </div>
             </ng-template>
-            <ng-template *ngTemplateOutlet="ChartsTpl; context: {specie:getFilterValueByKey('species', filterValues), ftype:getFilterValueByKey('ftypes', filterValues), sftype:getFilterValueByKey('sftypes', filterValues)}"></ng-template>
+            <ng-template *ngTemplateOutlet="ChartsTpl; context: {taxonomy:getFilterValueByKey('taxonomies', filterValues), specie:getFilterValueByKey('species', filterValues), ftype:getFilterValueByKey('ftypes', filterValues), sftype:getFilterValueByKey('sftypes', filterValues)}"></ng-template>
         </div>
     </div>
     <br>

@@ -25,7 +25,7 @@ export class SFtypesService {
     getAll(taxonomy:string="", specie:string="", ftype:string="") {
         let params={}, cacheid;
 
-        this.logger.service("sftype:getAll", {taxonomy, specie});
+        this.logger.service("sftype:getAll", {taxonomy, specie, ftype});
 
         if(taxonomy) params[environment.services.sftypes.params.taxonomy]=taxonomy;
         if(specie) params[environment.services.sftypes.params.specie]=specie;
