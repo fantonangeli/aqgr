@@ -21,6 +21,7 @@ export class FtypesService {
      * @returns {Observable}
      */
     getAll(taxonomy:string="", specie:string="") {
+        /* TODO: add the country param */
         let params={}, cacheid;
 
         this.logger.service("ftype:getAll", {taxonomy, specie});

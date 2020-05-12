@@ -9,7 +9,7 @@ import { Filter, ResultSearchEvent} from '../../components/search/namespace';
 })
 export class HomeComponent implements OnInit {
     filterValues: Filter[]=[];
-    reloadChartsRow01=true;
+    reloadCharts=true;
 
 
     constructor(){
@@ -66,8 +66,8 @@ export class HomeComponent implements OnInit {
      *
      */
     ChartsRowReloader(){
-        setTimeout(() => this.reloadChartsRow01 = false);
-        setTimeout(() => this.reloadChartsRow01 = true);
+        setTimeout(() => this.reloadCharts = false);
+        setTimeout(() => this.reloadCharts = true);
     }
 
 }

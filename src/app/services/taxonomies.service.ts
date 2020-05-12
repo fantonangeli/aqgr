@@ -14,6 +14,7 @@ export class TaxonomiesService {
     constructor(private http: HttpClient, private logger: LoggerService) { }
 
     getAll() {
+        /* TODO: add the country param */
         let params={}, cacheid;
 
         this.logger.service("Taxonomies:getAll");

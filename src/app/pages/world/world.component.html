@@ -1,0 +1,52 @@
+<div class="container mw-100">
+    <div class="row">
+        <div class="col-sm-12 col-md-3">
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Filters:</h1></div></div>
+        </div>
+        <div class="col-sm-12 col-md-9">
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Data on Farmed Types (P1)</h1></div></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-3">
+            <app-filters [(filterValues)]="filterValues" (search)="searchAggregation($event)"></app-filters>
+        </div>
+        <div class="col-sm-12 col-md-9">
+            <div class="col-sm-12 col-md-12 pl-0">
+                <div class="mb-4" *ngIf="filterValues && filterValues.length > 0">
+                    <app-search-pill [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                    </app-search-pill>                
+                </div>
+            </div>
+
+
+            <ng-template #ChartsTpl let-taxonomy="taxonomy" let-specie="specie" let-ftype="ftype" let-sftype="sftype">
+                <div class="container mw-100 p-0">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <div class="font-weight-bold h6 text-center">
+                                Number of primary farmed types entered into the Registry
+                            </div>
+                            <!-- TODO: use the correct info for the chart -->
+                            <app-country-chart01  [selectedTaxonomy]="taxonomy" [selectedSpecie]="specie" [selectedFtype]="ftype"></app-country-chart01>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 mt-5">
+                            <div class="font-weight-bold h6 text-center">
+                                Top 10 developed species (by number of farmed types)
+                            </div>
+                            <!-- TODO: use the correct info for the chart -->
+                            <app-country-chart02 [ccode]="ccode"></app-country-chart02>
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+            <ng-template *ngTemplateOutlet="ChartsTpl; context: {taxonomy:getFilterValueByKey('taxonomies', filterValues), specie:getFilterValueByKey('species', filterValues), ftype:getFilterValueByKey('ftypes', filterValues), sftype:getFilterValueByKey('sftypes', filterValues)}"></ng-template>
+        </div>
+    </div>
+</div>
+
+

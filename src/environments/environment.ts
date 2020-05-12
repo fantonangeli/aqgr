@@ -16,22 +16,22 @@ export const environment = {
         },
         sftypes:{
             all:baseUrl+"sftypes",
-            params: {taxonomy:"taxonomies_like", specie:"species_like", ftype:"ftypes_like", limit:"_limit"},
+            params: {country:"country_like", taxonomy:"taxonomies_like", specie:"species_like", ftype:"ftypes_like", limit:"_limit"},
             limit: 10
         },
         ftypes:{
             all:baseUrl+"ftypes",
-            params: {taxonomy:"taxonomies_like", specie:"species_like", limit:"_limit"},
+            params: {country:"country_like", taxonomy:"taxonomies_like", specie:"species_like", limit:"_limit"},
             limit: 10
         },
         species:{
             all:baseUrl+"species",
-            params: {search:"key_like", taxonomy:"taxonomy", limit:"_limit"},
+            params: {country:"country_like", search:"key_like", taxonomy:"taxonomy", limit:"_limit"},
             limit: 10
         },
         taxonomies: {
             all:baseUrl+"taxonomies",
-            params: {limit:"_limit"},
+            params: {country:"country_like", limit:"_limit"},
             limit: 10
         },
         country:{

@@ -39,7 +39,7 @@
             <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Filters:</h1></div></div>
         </div>
         <div class="col-sm-12 col-md-9">
-            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Data on Farmed Types</h1></div></div>
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Data on Farmed Types (P1)</h1></div></div>
         </div>
     </div>
     <div class="row">
@@ -66,8 +66,8 @@
             </div>
 
             <ng-template #ChartsTpl let-taxonomy="taxonomy" let-specie="specie" let-ftype="ftype" let-sftype="sftype">
-                <div class="container mw-100 p-0">
-                    <div class="row text-center" *ngIf="reloadChartsRow01">
+                <div class="container mw-100 p-0" *ngIf="reloadCharts">
+                    <div class="row text-center">
                         <div class="col-sm-12 p-0" [ngClass]="{'col-md-6':!sftype}">
                             <div *ngIf="!ftype">
                                 <h6 class="">
@@ -90,7 +90,7 @@
                             Number of species (based on reports by country) contained in the Registry
                         </h6>
                         <div class="col-sm-12 col-md-12 p-0">
-                            <app-countries-chart03></app-countries-chart03>
+                            <app-countries-chart03 [selectedTaxonomy]="taxonomy"></app-countries-chart03>
                         </div>
                     </div>
                 </div>

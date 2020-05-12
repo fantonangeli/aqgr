@@ -23,6 +23,7 @@ export class SFtypesService {
      * @returns {Observable}
      */
     getAll(taxonomy:string="", specie:string="", ftype:string="") {
+        /* TODO: add the country param */
         let params={}, cacheid;
 
         this.logger.service("sftype:getAll", {taxonomy, specie, ftype});

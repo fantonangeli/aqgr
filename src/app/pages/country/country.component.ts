@@ -24,7 +24,7 @@ noData(Highcharts);
 export class CountryComponent implements OnInit {
     ccode:string;
 
-    countryName:string="China"
+    countryName:string=""
 
     constructor(private route: ActivatedRoute, private _countryInfoService:CountryInfoService) { }
 

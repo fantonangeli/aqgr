@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnChanges, Input } from '@angular/core';
 import {StackedBars01Component} from '../stacked-bars01/stacked-bars01.component';
-import {CountriesSpeciesService} from '../../../services/countries-species.service';
+import { Filter} from '../../../components/search/namespace';
+import {SpeciesService} from '../../../services/species.service';
 
 @Component({
   selector: 'app-countries-chart03',
@@ -8,27 +9,42 @@ import {CountriesSpeciesService} from '../../../services/countries-species.servi
   template: ` <app-bars01 [series]="series" *ngIf="series.length" xAxisTitle="Total number of species reported by countries"></app-bars01> `,
   styles: []
 })
-export class CountriesChart03Component implements OnInit {
+export class CountriesChart03Component implements OnChanges {
     series=[];
-    private _service;
+    @Input() selectedTaxonomy:Filter;
 
 
-  constructor(sv:CountriesSpeciesService) {
-        this._service=sv;
-
-        this.fetchData();
+  constructor(private _service:SpeciesService) {
   }
 
-    // todo: when filtered must show Japanese eel with correct value
+
+    /**
+     * initialize the data
+     *
+     * @param {any[]} data=[] the data from the service
+     * @returns {object[]} the series in highchart format
+     */
+    initData(data:any[]=[]):object[]{
+        let r=[{
+            "name":"Specie",
+            "data": [
+            ]
+        }];
+
+        r[0].data=data.map(e=>({"name": e.key, "y":e.value}));
+
+        return r;
+    }
 
     /**
      * fetch the data and load them
      *
      */
-    fetchData() {
-        this._service.getAll().subscribe(
+    fetchData(taxonomy:string="") {
+        /* TODO: connect to the species service */
+        this._service.getAll("", taxonomy).subscribe(
             (data)=>{
-                this.series=data;
+                this.series=this.initData(data);
             },
             (error)=>{
                 console.log("Network error: ", error);
@@ -37,7 +53,10 @@ export class CountriesChart03Component implements OnInit {
 
     }
 
-    ngOnInit(){
+    ngOnChanges(){
+        this.fetchData(
+            (this.selectedTaxonomy)?this.selectedTaxonomy.value:""
+        );
     }
 
 }
