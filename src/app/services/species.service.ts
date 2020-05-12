@@ -19,6 +19,7 @@ export class SpeciesService {
      * @returns {Observable}
      */
     getAll(name:string="", taxonomy:string="") {
+        /* TODO: add the country param */
         let params={}, cacheid;
 
         this.logger.service("Species:getAll", {name, taxonomy});

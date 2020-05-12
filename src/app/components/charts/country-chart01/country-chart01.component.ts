@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import * as Highcharts from 'highcharts';
 import {CountryFTypeService} from '../../../services/country-ftype.service';
 import {StackedBars01Component} from '../stacked-bars01/stacked-bars01.component';
+import { Filter} from '../../../components/search/namespace';
 
 @Component({
   selector: 'app-country-chart01',
@@ -12,6 +13,9 @@ export class CountryChart01Component implements OnInit {
     series=[];
     private _service;
     @Input() ccode:string;
+    @Input() selectedTaxonomy:Filter;
+    @Input() selectedSpecie:Filter;
+    @Input() selectedFtype:Filter;
 
 
 
