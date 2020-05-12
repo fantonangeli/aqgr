@@ -18,6 +18,16 @@ async function shot(page, filename) {
 }
 
 
+async function playWithFilters(page, pageCount){
+    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.taxonomies .index-5 a"]);
+
+    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.species .index-3 a"]);
+
+    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.ftype .index-0 a"]);
+
+    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.sftype .index-0 a"]);
+
+}
 
 
 
@@ -49,17 +59,11 @@ async function shot(page, filename) {
     await page.keyboard.press('Backspace');
     await page.keyboard.press('Backspace');
 
-    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.taxonomies .index-5 a"]);
+    await playWithFilters(page, pageCount);
 
-    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.species .index-3 a"]);
-
-    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.ftype .index-0 a"]);
-
-    await clickAndShot(page, (pageCount++)+'.png',[ "app-tree-table > div > table > tbody > tr:nth-child(1) > td.align-top.text-truncate.index-0"]);
-
-    await clickAndShot(page, (pageCount++)+'.png',[ "app-tree-table > div > table > tbody > tr:nth-child(2) > td.align-top.text-truncate.index-0"]);
-
-    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.sftype .index-0 a"]);
+    // await clickAndShot(page, (pageCount++)+'.png',[ "app-tree-table > div > table > tbody > tr:nth-child(1) > td.align-top.text-truncate.index-0"]);
+    //
+    // await clickAndShot(page, (pageCount++)+'.png',[ "app-tree-table > div > table > tbody > tr:nth-child(2) > td.align-top.text-truncate.index-0"]);
 
 
     // http://localhost:4200/country/CHN-------------------------------------
@@ -68,6 +72,13 @@ async function shot(page, filename) {
 
     await clickAndShot(page, (pageCount++)+'.png',[]);
 
+    // http://localhost:4200/world-------------------------------------
+    pageCount=301;
+    await page.goto("http://localhost:4200/world", {waitUntil: 'networkidle0'});
+
+    await clickAndShot(page, (pageCount++)+'.png',[]);
+
+    await playWithFilters(page, pageCount);
 
     // await page.waitForSelector(tableSelector);
     await browser.close();
