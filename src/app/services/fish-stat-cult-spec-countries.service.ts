@@ -3,6 +3,10 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { shareReplay, map } from 'rxjs/operators';
 import { environment } from '../../environments/environment';
+import {SearchServiceParams} from '../namespace';
+import { LoggerService } from './logger.service';
+import {UtilsService} from './utils.service';
+
 
 @Injectable({
   providedIn: 'root'
@@ -10,22 +14,24 @@ import { environment } from '../../environments/environment';
 export class FishStatCultSpecCountriesService {
     private cache$: Array<Observable<Object>>=Array();
 
-    constructor(private http: HttpClient) { }
-
+    constructor(private http: HttpClient, private logger: LoggerService, private utilsService:UtilsService) { }
 
     /**
-     * gets the data by ftype
+     * getAll elements
      *
-     * @param {string} ftype the asfis codes as a list. Eg. "MSM,IPG"
+     * @param {SearchServiceParams} params the params to send to the service
      * @returns {Observable}
      */
-    private getByFtype(ftype:string) : Observable<Object> {
-        let cacheid="byFtype";
-        
-        if(ftype==="") throw Error("ftype not defined");
+    getAll(ssp:SearchServiceParams=new SearchServiceParams()) {
+        let params={}, cacheid;
+
+        this.logger.service("FishStatCultSpecCountriesService:getAll", ssp);
+
+        params=this.utilsService.getRestParams(ssp);
+        cacheid=JSON.stringify(params);
 
         if (!this.cache$[cacheid]) {
-            this.cache$[cacheid] = this.http.get(environment.services.fishStatCultSpecCountries.byFtype+ftype).pipe(
+            this.cache$[cacheid] = this.http.get(environment.services.fishStatCultSpecCountries.all, {params}).pipe(
                 shareReplay()
             );
         }
@@ -34,42 +40,7 @@ export class FishStatCultSpecCountriesService {
     }
 
 
-    /**
-     * gets the data by species
-     *
-     * @param {string} asfisCodes the asfis codes as a list. Eg. "MSM,IPG"
-     * @returns {Observable}
-     */
-    getBySpecies(asfisCodes:string) : Observable<Object> {
-        let cacheid="bySpecies";
 
-        if(asfisCodes==="") throw Error("asfisCodes not defined");
-
-        if (!this.cache$[cacheid]) {
-            this.cache$[cacheid] = this.http.get(environment.services.fishStatCultSpecCountries.bySpecies+asfisCodes).pipe(
-                shareReplay()
-            );
-        }
-
-        return this.cache$[cacheid];
-    }
-
-
-    /**
-     * get all elements
-     * @returns {Observable}
-     */
-    getAll() {
-        /* TODO: add the country param */
-        let cacheid="all";
-        if (!this.cache$[cacheid]) {
-            this.cache$[cacheid] = this.http.get(environment.services.fishStatCultSpecCountries.all).pipe(
-                shareReplay()
-            );
-        }
-
-        return this.cache$[cacheid];
-    }
 
 
 

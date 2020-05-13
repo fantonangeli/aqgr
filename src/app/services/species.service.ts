@@ -4,6 +4,8 @@ import { Observable } from 'rxjs';
 import { shareReplay, map } from 'rxjs/operators';
 import { environment } from '../../environments/environment';
 import { LoggerService } from './logger.service';
+import {SearchServiceParams} from '../namespace';
+import {UtilsService} from './utils.service';
 
 @Injectable({
   providedIn: 'root'
@@ -11,23 +13,22 @@ import { LoggerService } from './logger.service';
 export class SpeciesService {
     private cache$: Array<Observable<any>>=Array();
 
-    constructor(private http: HttpClient, private logger: LoggerService) { }
+    constructor(private http: HttpClient, private logger: LoggerService, private utilsService:UtilsService) { }
 
 
     /**
      * get by name
+     * @param {SearchServiceParams} params the params to send to the service
      * @returns {Observable}
      */
-    getAll(name:string="", taxonomy:string="") {
-        /* TODO: add the country param */
+    getAll(ssp:SearchServiceParams=new SearchServiceParams()) {
         let params={}, cacheid;
 
-        this.logger.service("Species:getAll", {name, taxonomy});
+        this.logger.service("Species:getAll", ssp);
 
-        if(name) params[environment.services.species.params.search]=name;
-        if(taxonomy) params[environment.services.species.params.taxonomy]=taxonomy;
-        params[environment.services.species.params.limit]=environment.services.species.limit;
+        ssp.limit=environment.services.species.limit;
 
+        params=this.utilsService.getRestParams(ssp);
         cacheid=JSON.stringify(params);
 
         if (!this.cache$[cacheid]) {

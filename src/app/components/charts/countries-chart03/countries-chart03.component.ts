@@ -2,6 +2,7 @@ import { Component, OnChanges, Input } from '@angular/core';
 import {StackedBars01Component} from '../stacked-bars01/stacked-bars01.component';
 import { Filter} from '../../../components/search/namespace';
 import {SpeciesService} from '../../../services/species.service';
+import {SearchServiceParams} from '../../../namespace';
 
 @Component({
   selector: 'app-countries-chart03',
@@ -38,11 +39,11 @@ export class CountriesChart03Component implements OnChanges {
 
     /**
      * fetch the data and load them
+     * @param {SearchServiceParams} params the params to send to the service
      *
      */
-    fetchData(taxonomy:string="") {
-        /* TODO: connect to the species service */
-        this._service.getAll("", taxonomy).subscribe(
+    fetchData(params:SearchServiceParams=new SearchServiceParams()) {
+        this._service.getAll(params).subscribe(
             (data)=>{
                 this.series=this.initData(data);
             },
@@ -54,9 +55,10 @@ export class CountriesChart03Component implements OnChanges {
     }
 
     ngOnChanges(){
-        this.fetchData(
-            (this.selectedTaxonomy)?this.selectedTaxonomy.value:""
-        );
+        let params=new SearchServiceParams();
+        params.taxonomy=(this.selectedTaxonomy)?this.selectedTaxonomy.value:"";
+
+        this.fetchData(params);
     }
 
 }

@@ -2,6 +2,7 @@ import { Component, OnChanges, Input } from '@angular/core';
 import {SFtypesService} from '../../../services/sftypes.service';
 import {Pie01Component} from '../pie01/pie01.component';
 import { Filter} from '../../../components/search/namespace';
+import {SearchServiceParams} from '../../../namespace';
 
 @Component({
   selector: 'app-countries-chart02',
@@ -43,12 +44,10 @@ export class CountriesChart02Component implements OnChanges {
     /**
      * fetch the data and load them
      *
-     * @param {string} taxonomy the selected taxonomy
-     * @param {string} specie the selected specie
-     * @param {string} ftype the selected ftype
+     * @param {SearchServiceParams} params the params to send to the service
      */
-    fetchData(taxonomy:string="", specie:string="", ftype:string="") {
-        this._service.getAll(taxonomy, specie, ftype).subscribe(
+    fetchData(params:SearchServiceParams=new SearchServiceParams()) {
+        this._service.getAll(params).subscribe(
             (data)=>{
                 this.series=this.initData(data);
             },
@@ -60,11 +59,12 @@ export class CountriesChart02Component implements OnChanges {
     }
 
     ngOnChanges(){
-        this.fetchData(
-            (this.selectedTaxonomy)?this.selectedTaxonomy.value:"",
-            (this.selectedSpecie)?this.selectedSpecie.value:"",
-            (this.selectedFtype)?this.selectedFtype.value:""
-        );
+        let params=new SearchServiceParams();
+        params.taxonomy=(this.selectedTaxonomy)?this.selectedTaxonomy.value:"";
+        params.specie=(this.selectedSpecie)?this.selectedSpecie.value:"";
+        params.ftype=(this.selectedFtype)?this.selectedFtype.value:"";
+
+        this.fetchData(params);
     }
 
 }

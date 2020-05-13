@@ -1,50 +1,50 @@
 module.exports = [{
         "key": "Hybrids",
         "value": 34,
-        "taxonomies": ["Aquatic plants", "Freshwater fishes", "Crustaceans"],
-        "species": ["Algae"],
-        "ftypes": ["Strains", "Captive propagated"]
+        "taxonomy": ["Aquatic plants", "Freshwater fishes", "Crustaceans"],
+        "specie": ["Algae"],
+        "ftype": ["Strains", "Captive propagated"]
     },
     {
         "key": "Introgressed",
         "value": 56,
-        "taxonomies": ["Aquatic plants", "Freshwater fishes", "Crustaceans"],
-        "species": ["Osteichthyes"],
-        "ftypes": ["Strains", "Varieties"]
+        "taxonomy": ["Aquatic plants", "Freshwater fishes", "Crustaceans"],
+        "specie": ["Osteichthyes"],
+        "ftype": ["Strains", "Varieties"]
     },
     {
         "key": "Crossbred",
         "value": 45,
-        "taxonomies": ["Freshwater fishes"],
-        "species": ["Osteichthyes"],
-        "ftypes": ["Varieties"]
+        "taxonomy": ["Freshwater fishes"],
+        "specie": ["Osteichthyes"],
+        "ftype": ["Varieties"]
     },
     {
         "key": "Polyploid",
         "value": 76,
-        "taxonomies": ["Aquatic plants", "Crustaceans"],
-        "species": ["Algae"],
-        "ftypes": ["Captive propagated", "Strains"]
+        "taxonomy": ["Aquatic plants", "Crustaceans"],
+        "specie": ["Algae"],
+        "ftype": ["Captive propagated", "Strains"]
     },
     {
         "key": "Monosex",
         "value": 12,
-        "taxonomies": ["Aquatic plants", "Freshwater fishes", "Crustaceans"],
-        "species": ["Algae"],
-        "ftypes": ["Strains", "Varieties"]
+        "taxonomy": ["Aquatic plants", "Freshwater fishes", "Crustaceans"],
+        "specie": ["Algae"],
+        "ftype": ["Strains", "Varieties"]
     },
     {
         "key": "Transgenic",
         "value": 123,
-        "taxonomies": ["Aquatic plants", "Freshwater fishes", "Crustaceans"],
-        "species": ["Algae"],
-        "ftypes": ["Wild sourced", "Captive propagated"]
+        "taxonomy": ["Aquatic plants", "Freshwater fishes", "Crustaceans"],
+        "specie": ["Algae"],
+        "ftype": ["Wild sourced", "Captive propagated"]
     },
     {
         "key": "Gene edited",
         "value": 64,
-        "taxonomies": ["Freshwater fishes"],
-        "species": ["Osteichthyes"],
-        "ftypes": ["Captive propagated"]
+        "taxonomy": ["Freshwater fishes"],
+        "specie": ["Osteichthyes"],
+        "ftype": ["Captive propagated"]
     }
 ]

@@ -4,6 +4,8 @@ import { Observable } from 'rxjs';
 import { shareReplay, map } from 'rxjs/operators';
 import { environment } from '../../environments/environment';
 import { LoggerService } from './logger.service';
+import {SearchServiceParams} from '../namespace';
+import {UtilsService} from './utils.service';
 
 @Injectable({
   providedIn: 'root'
@@ -11,28 +13,23 @@ import { LoggerService } from './logger.service';
 export class SFtypesService {
     private cache$: Array<Observable<any>>=Array();
 
-    constructor(private http: HttpClient, private logger: LoggerService) { }
+    constructor(private http: HttpClient, private logger: LoggerService, private utilsService:UtilsService) { }
 
 
     /**
      * getAll elements
      *
-     * @param {string} taxonomy (optional) the taxonomy for filtering
-     * @param {string} specie (optiona) the specie for filtering
-     * @param {string} ftype (optional) the ftype for filtering
+     * @param {SearchServiceParams} params the params to send to the service
      * @returns {Observable}
      */
-    getAll(taxonomy:string="", specie:string="", ftype:string="") {
-        /* TODO: add the country param */
+    getAll(ssp:SearchServiceParams=new SearchServiceParams()) {
         let params={}, cacheid;
 
-        this.logger.service("sftype:getAll", {taxonomy, specie, ftype});
+        this.logger.service("sftype:getAll", ssp);
 
-        if(taxonomy) params[environment.services.sftypes.params.taxonomy]=taxonomy;
-        if(specie) params[environment.services.sftypes.params.specie]=specie;
-        if(ftype) params[environment.services.sftypes.params.ftype]=ftype;
-        params[environment.services.sftypes.params.limit]=environment.services.sftypes.limit;
+        ssp.limit=environment.services.sftypes.limit;
 
+        params=this.utilsService.getRestParams(ssp);
         cacheid=JSON.stringify(params);
 
         if (!this.cache$[cacheid]) {

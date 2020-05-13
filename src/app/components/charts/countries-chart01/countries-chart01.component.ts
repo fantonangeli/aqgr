@@ -2,6 +2,7 @@ import { Component, Input, OnChanges } from '@angular/core';
 import {FtypesService} from '../../../services/ftypes.service';
 import {Pie01Component} from '../pie01/pie01.component';
 import { Filter} from '../../../components/search/namespace';
+import {SearchServiceParams} from '../../../namespace';
 
 @Component({
   selector: 'app-countries-chart01',
@@ -41,12 +42,11 @@ export class CountriesChart01Component implements OnChanges {
 
     /**
      * fetch the data and load them
-     * @param {string} taxonomy the selected taxonomy
-     * @param {string} specie the selected specie
+     * @param {SearchServiceParams} params the params to send to the service
      *
      */
-    fetchData(taxonomy:string="", specie:string="") {
-        this._service.getAll(taxonomy, specie).subscribe(
+    fetchData(params:SearchServiceParams=new SearchServiceParams()) {
+        this._service.getAll(params).subscribe(
             (data)=>{
                 this.series=this.initData(data);
             },
@@ -59,10 +59,11 @@ export class CountriesChart01Component implements OnChanges {
 
 
     ngOnChanges(){
-        this.fetchData(
-            (this.selectedTaxonomy)?this.selectedTaxonomy.value:"",
-            (this.selectedSpecie)?this.selectedSpecie.value:""
-        );
+        let params=new SearchServiceParams();
+        params.taxonomy=(this.selectedTaxonomy)?this.selectedTaxonomy.value:"";
+        params.specie=(this.selectedSpecie)?this.selectedSpecie.value:"";
+
+        this.fetchData(params);
     }
 
 }
