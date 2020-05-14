@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnChanges, Input } from '@angular/core';
 import { faChartPie } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -6,7 +6,7 @@ import { faChartPie } from '@fortawesome/free-solid-svg-icons';
   templateUrl: './tree-table.component.html',
   styleUrls: ['./tree-table.component.scss']
 })
-export class TreeTableComponent implements OnInit {
+export class TreeTableComponent implements OnChanges {
 
     @Input() data: any[] = [];
     @Input() columns: any[] = [];
@@ -140,7 +140,5 @@ export class TreeTableComponent implements OnInit {
         if(this.enableTotal) this.totalRowData=this.getTotalRow(this.data);
     }
 
-    ngOnInit() {
-    }
 
 }

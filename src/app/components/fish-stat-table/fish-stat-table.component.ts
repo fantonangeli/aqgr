@@ -2,6 +2,8 @@ import { Component, OnInit, Input, OnChanges } from '@angular/core';
 import {ViewEncapsulation} from '@angular/core';
 import {FishStatCultSpecCountriesService} from '../../services/fish-stat-cult-spec-countries.service';
 import { Filter} from '../search/namespace';
+import {UtilsService} from '../../services/utils.service'
+import {SearchServiceParams} from '../../namespace';
 
 @Component({
     selector: 'app-fish-stat-table',
@@ -9,21 +11,16 @@ import { Filter} from '../search/namespace';
     styleUrls: ['./fish-stat-table.component.scss'],
     encapsulation: ViewEncapsulation.None
 })
-export class FishStatTableComponent implements OnInit, OnChanges {
-    fishdata=[];
+export class FishStatTableComponent implements OnChanges {
+    fishdata:Object={};
     fishTableData=[];
-    private _fishstatService;
     data=[];
     disableTonnes=false;
     @Input() filterValues: Filter[]=[];
 
 
 
-    constructor(data: FishStatCultSpecCountriesService){
-        this._fishstatService=data;
-
-        // this.fetchStats();
-
+    constructor(private _fishstatService: FishStatCultSpecCountriesService, private _utilsService:UtilsService){
     }
 
     /**
@@ -63,51 +60,12 @@ export class FishStatTableComponent implements OnInit, OnChanges {
     }
 
     /**
-     * fetch the countries and load them in this._fishstatService
-     * @param {string} ftype  the ftype
+     * fetch the sftype and load them 
+     * @param {SearchServiceParams} params the params to send to the service
      *
      */
-    fetchStatsByFtype(ftype:string="") {
-        if(!ftype) return;
-
-        this._fishstatService.getByFtype(ftype).subscribe(
-            (data)=>{
-                this.fishdata=data;
-                this.fishTableData=this.loadTableData(data);
-            },
-            (error)=>{
-                console.log("Network error: ", error);
-            }
-        );
-
-    }
-
-    /**
-     * fetch the countries and load them in this._fishstatService
-     * @param {string} asfisCodes the asfis codes as a list. Eg. "MSM,IPG"
-     *
-     */
-    fetchStatsBySpecie(asfisCodes:string="") {
-        if(!asfisCodes) return;
-
-        this._fishstatService.getBySpecies(asfisCodes).subscribe(
-            (data)=>{
-                this.fishdata=data;
-                this.fishTableData=this.loadTableData(data);
-            },
-            (error)=>{
-                console.log("Network error: ", error);
-            }
-        );
-
-    }
-    
-    /**
-     * fetch the countries and load them in this._fishstatService
-     *
-     */
-    fetchStats() {
-        this._fishstatService.getAll().subscribe(
+    fetchStats(params:SearchServiceParams=new SearchServiceParams()) {
+        this._fishstatService.getAll(params).subscribe(
             (data)=>{
                 this.fishdata=data;
                 this.fishTableData=this.loadTableData(data);
@@ -121,20 +79,11 @@ export class FishStatTableComponent implements OnInit, OnChanges {
 
 
     ngOnChanges() {
-        if (!this.filterValues.length) {
-            this.fetchStats();
-        }
-        else if(this.filterValues[0].key==="ftypes") {
-            this.fetchStatsByFtype(this.filterValues[0].value);
-        } else if(this.filterValues[0].key==="species") {
-            this.fetchStatsBySpecie(this.filterValues[0].value);
-        }
+        this.fetchStats(this._utilsService.getSearchServiceParamsFromFilterValues(this.filterValues));
 
         this.disableTonnes=(!!this.filterValues.filter(e=>e.key==="ftypes").length) || (!!this.filterValues.filter(e=>e.key==="sftypes").length);
 
     }
 
-    ngOnInit() {
-    }
 
 }
