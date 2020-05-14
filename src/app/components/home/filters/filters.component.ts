@@ -228,16 +228,6 @@ export class FiltersComponent implements OnChanges {
     }
 
 
-    /**
-     * get an element from filterValues by type
-     *
-     * @param {string} key the key
-     * @param {Filter[]} filters the filter array to search
-     * @return {Filter} the elements found, [] otherwise
-     */
-    getFilterValueByKey(key:string, filters:Filter[]):Filter{
-        return filters.filter(e=>(e.key===key))[0];
-    }
 
     ngOnChanges() {
         let params=new SearchServiceParams();
@@ -271,6 +261,9 @@ export class FiltersComponent implements OnChanges {
     }
 
 
+    getFilterValueByKey=this._utilsService.getFilterValueByKey;
+
+
     /**
      * event fired when user type on the filter-term textbox
      *
@@ -285,8 +278,8 @@ export class FiltersComponent implements OnChanges {
 
         this.aggregations[this.aggIndexes.species].filter=term;
         params.name=term;
-        params.ccode=(this.getFilterValueByKey("country", this.filterValues) || {value:""}).value;
-        params.taxonomy=(this.getFilterValueByKey("taxonomies", this.filterValues) || {value:""}).value;
+        params.ccode=(this._utilsService.getFilterValueByKey("country", this.filterValues) || {value:""}).value;
+        params.taxonomy=(this._utilsService.getFilterValueByKey("taxonomies", this.filterValues) || {value:""}).value;
 
         this.fetchSpecs(
             params

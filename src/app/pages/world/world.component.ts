@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DynamicHTMLModule, DynamicHTMLComponent } from '../../core/components/dynamic-html';
 import { Filter, ResultSearchEvent} from '../../components/search/namespace';
+import {UtilsService} from '../../services/utils.service';
 
 @Component({
   selector: 'app-world',
@@ -11,17 +12,7 @@ export class WorldComponent implements OnInit {
     filterValues: Filter[]=[];
     reloadChartsRow01=true;
 
-    /**
-     * get an element from filterValues by type
-     *
-     * @param {string} key the key
-     * @param {Filter[]} filters the filter array to search
-     * @return {Filter} the elements found, [] otherwise
-     */
-    getFilterValueByKey(key:string, filters:Filter[]):Filter{
-        return filters.filter(e=>(e.key===key))[0];
-    }
-
+    getFilterValueByKey=this._utilsService.getFilterValueByKey;
 
     /**
      * reload the Charts Row 01
@@ -44,7 +35,7 @@ export class WorldComponent implements OnInit {
         this.ChartsRowReloader();
     }
 
-  constructor() { }
+  constructor(private _utilsService:UtilsService) { }
 
   ngOnInit() {
   }

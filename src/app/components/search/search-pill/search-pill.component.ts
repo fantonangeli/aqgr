@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Filter } from '../namespace';
+import {UtilsService} from '../../../services/utils.service';
 
 @Component({
   selector: 'app-search-pill',
@@ -17,18 +18,9 @@ export class SearchPillComponent implements OnInit {
     /** Event specifying the filter criteria to be deleted */
     @Output() resetFilterCriteriaEvent: EventEmitter<Filter> = new EventEmitter<Filter>();
 
-    constructor() { }
+    constructor(private _utilsService:UtilsService) { }
 
-    /**
-     * get an element from filterValues by type
-     *
-     * @param {string} key the key
-     * @param {Filter[]} filters the filter array to search
-     * @return {Filter} the elements found, [] otherwise
-     */
-    getFilterValueByKey(key:string, filters:Filter[]):Filter{
-        return filters.filter(e=>(e.key===key))[0];
-    }
+    getFilterValueByKey=this._utilsService.getFilterValueByKey;
 
     ngOnInit() {}
 

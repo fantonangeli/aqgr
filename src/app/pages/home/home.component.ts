@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DynamicHTMLModule, DynamicHTMLComponent } from '../../core/components/dynamic-html';
 import { Filter, ResultSearchEvent} from '../../components/search/namespace';
+import {UtilsService} from '../../services/utils.service';
 
 @Component({
   selector: 'app-home',
@@ -12,12 +13,13 @@ export class HomeComponent implements OnInit {
     reloadCharts=true;
 
 
-    constructor(){
+    constructor(private _utilsService:UtilsService){
     }
 
     ngOnInit(): void {}
 
 
+    getFilterValueByKey=this._utilsService.getFilterValueByKey;
 
 
     /**
@@ -43,16 +45,6 @@ export class HomeComponent implements OnInit {
         return filters.filter(e=>(e.key!=key && e.value!=value));
     }
 
-    /**
-     * get an element from filterValues by type
-     *
-     * @param {string} key the key
-     * @param {Filter[]} filters the filter array to search
-     * @return {Filter} the elements found, [] otherwise
-     */
-    getFilterValueByKey(key:string, filters:Filter[]):Filter{
-        return filters.filter(e=>(e.key===key))[0];
-    }
 
   removeFilter(filterParam: Filter) {
       this.filterValues=this.removeFilterByKeyVal(this.filterValues, filterParam.key, filterParam.value);
