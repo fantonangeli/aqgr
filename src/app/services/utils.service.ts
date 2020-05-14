@@ -35,7 +35,7 @@ export class UtilsService {
 
         for (var i = 0, len = filterValues.length, e=null; i < len && (e=filterValues[i]) ; i++) {
             if (e.key==="countries") {
-                params.ccode=e.value;
+                params.ccode=e.id;
             } else if (e.key==="taxonomies"){
                 params.taxonomy=e.value;
             }else if (e.key==="species"){

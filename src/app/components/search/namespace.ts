@@ -2,6 +2,7 @@ export class Filter {
     key: string;
     parameter: string;
     value: string;
+    id?:string;
 }
 
 export enum ViewTypeEnum {
