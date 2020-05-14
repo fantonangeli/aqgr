@@ -6,40 +6,30 @@ import { environment } from '../../environments/environment';
 import { LoggerService } from './logger.service';
 import {SearchServiceParams} from '../namespace';
 import {UtilsService} from './utils.service';
+import {BaseService} from './base.service';
+import { AggregationItem} from '../components/search/namespace';
 
 @Injectable({
   providedIn: 'root'
 })
-export class SpeciesService {
-    private cache$: Array<Observable<any>>=Array();
-
-    constructor(private http: HttpClient, private logger: LoggerService, private utilsService:UtilsService) { }
-
-
-    /**
-     * get by name
-     * @param {SearchServiceParams} params the params to send to the service
-     * @returns {Observable}
-     */
-    getAll(ssp:SearchServiceParams=new SearchServiceParams()) {
-        let params={}, cacheid;
-
-        this.logger.service("Species:getAll", ssp);
-
-        ssp.limit=environment.services.species.limit;
-
-        params=this.utilsService.getRestParams(ssp);
-        cacheid=JSON.stringify(params);
-
-        if (!this.cache$[cacheid]) {
-            this.cache$[cacheid] = this.http.get(environment.services.species.all, {params}).pipe(
-                shareReplay()
-            );
-        }
-
-        return this.cache$[cacheid];
+export class SpeciesService extends BaseService{
+    constructor(http: HttpClient, logger: LoggerService, utilsService:UtilsService) {
+        super(http, logger, utilsService);
     }
 
+    /**
+     * get all data or filtered from the server
+     *
+     * @param {SearchServiceParams} params the params to send to the service
+     */
+    getAll(ssp:SearchServiceParams):Observable<AggregationItem[]>{
+        return this._getAll(
+            "SpeciesServicee",
+            environment.services.species.all, 
+            ssp,
+            environment.services.species.limit
+        );
+    }
 
 
 

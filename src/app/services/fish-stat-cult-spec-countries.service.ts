@@ -3,46 +3,32 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { shareReplay, map } from 'rxjs/operators';
 import { environment } from '../../environments/environment';
-import {SearchServiceParams} from '../namespace';
 import { LoggerService } from './logger.service';
+import {SearchServiceParams} from '../namespace';
 import {UtilsService} from './utils.service';
-
+import {BaseService} from './base.service';
+import { AggregationItem} from '../components/search/namespace';
 
 @Injectable({
   providedIn: 'root'
 })
-export class FishStatCultSpecCountriesService {
-    private cache$: Array<Observable<Object>>=Array();
-
-    constructor(private http: HttpClient, private logger: LoggerService, private utilsService:UtilsService) { }
-
-    /**
-     * getAll elements
-     *
-     * @param {SearchServiceParams} params the params to send to the service
-     * @returns {Observable}
-     */
-    getAll(ssp:SearchServiceParams=new SearchServiceParams()) {
-        let params={}, cacheid;
-
-        this.logger.service("FishStatCultSpecCountriesService:getAll", ssp);
-
-        params=this.utilsService.getRestParams(ssp);
-        cacheid=JSON.stringify(params);
-
-        if (!this.cache$[cacheid]) {
-            this.cache$[cacheid] = this.http.get(environment.services.fishStatCultSpecCountries.all, {params}).pipe(
-                shareReplay()
-            );
-        }
-
-        return this.cache$[cacheid];
+export class FishStatCultSpecCountriesService extends BaseService{
+    constructor(http: HttpClient, logger: LoggerService, utilsService:UtilsService) {
+        super(http, logger, utilsService);
     }
 
-
-
-
-
+    /**
+     * get all data or filtered from the server
+     *
+     * @param {SearchServiceParams} params the params to send to the service
+     */
+    getAll(ssp:SearchServiceParams):Observable<AggregationItem[]>{
+        return this._getAll(
+            "FishStatCultSpecCountriesService",
+            environment.services.fishStatCultSpecCountries.all, 
+            ssp
+        );
+    }
 
 
 

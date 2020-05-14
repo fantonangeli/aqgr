@@ -4,37 +4,35 @@ import { Observable } from 'rxjs';
 import { shareReplay, map } from 'rxjs/operators';
 import { environment } from '../../environments/environment';
 import { LoggerService } from './logger.service';
+import {SearchServiceParams} from '../namespace';
+import {UtilsService} from './utils.service';
+import {BaseService} from './base.service';
+import { AggregationItem} from '../components/search/namespace';
 
 @Injectable({
   providedIn: 'root'
 })
-export class CountryInfoService {
-    private cache$: Array<Observable<any>>=Array();
-
-    constructor(private http: HttpClient, private logger: LoggerService) { }
-
+export class CountryInfoService extends BaseService{
+    constructor(http: HttpClient, logger: LoggerService, utilsService:UtilsService) {
+        super(http, logger, utilsService);
+    }
 
     /**
      * get by countryCode
      * @params
      * @returns {Observable}
      */
-    getData(ccode:string) {
-        let cacheid;
+    getData(ccode:string):Observable<any> {
+        let ssp= new SearchServiceParams();
 
-        this.logger.service("CountryInfo:get", {ccode});
+        ssp.ccode=ccode;
 
-        cacheid=JSON.stringify(ccode);
-
-        if (!this.cache$[cacheid]) {
-            this.cache$[cacheid] = this.http.get(environment.services.country.info+ccode).pipe(
-                shareReplay()
-            );
-        }
-
-        return this.cache$[cacheid];
+        return this._getAll(
+            "CountryInfoService",
+            environment.services.country.info, 
+            ssp
+        );
     }
-
 
 
 

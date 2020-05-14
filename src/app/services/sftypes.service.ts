@@ -6,40 +6,31 @@ import { environment } from '../../environments/environment';
 import { LoggerService } from './logger.service';
 import {SearchServiceParams} from '../namespace';
 import {UtilsService} from './utils.service';
+import {BaseService} from './base.service';
+import { AggregationItem} from '../components/search/namespace';
 
 @Injectable({
   providedIn: 'root'
 })
-export class SFtypesService {
-    private cache$: Array<Observable<any>>=Array();
-
-    constructor(private http: HttpClient, private logger: LoggerService, private utilsService:UtilsService) { }
-
+export class SFtypesService extends BaseService{
+    constructor(http: HttpClient, logger: LoggerService, utilsService:UtilsService) {
+        super(http, logger, utilsService);
+    }
 
     /**
-     * getAll elements
+     * get all data or filtered from the server
      *
      * @param {SearchServiceParams} params the params to send to the service
-     * @returns {Observable}
      */
-    getAll(ssp:SearchServiceParams=new SearchServiceParams()) {
-        let params={}, cacheid;
-
-        this.logger.service("sftype:getAll", ssp);
-
-        ssp.limit=environment.services.sftypes.limit;
-
-        params=this.utilsService.getRestParams(ssp);
-        cacheid=JSON.stringify(params);
-
-        if (!this.cache$[cacheid]) {
-            this.cache$[cacheid] = this.http.get(environment.services.sftypes.all, {params}).pipe(
-                shareReplay()
-            );
-        }
-
-        return this.cache$[cacheid];
+    getAll(ssp:SearchServiceParams):Observable<AggregationItem[]>{
+        return this._getAll(
+            "SFtypesService",
+            environment.services.sftypes.all, 
+            ssp,
+            environment.services.sftypes.limit
+        );
     }
+
 
 
 
