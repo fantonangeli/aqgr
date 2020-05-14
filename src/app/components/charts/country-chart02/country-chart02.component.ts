@@ -1,30 +1,29 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnChanges, Input } from '@angular/core';
 import * as Highcharts from 'highcharts';
 import {CountryDevSpeciesService} from '../../../services/country-dev-species.service';
 import {StackedBars01Component} from '../stacked-bars01/stacked-bars01.component';
+import { Filter} from '../../../components/search/namespace';
+import {UtilsService} from '../../../services/utils.service'
+import {SearchServiceParams} from '../../../namespace';
 
 @Component({
   selector: 'app-country-chart02',
   templateUrl: './country-chart02.component.html',
   styleUrls: ['./country-chart02.component.scss']
 })
-export class CountryChart02Component implements OnInit {
+export class CountryChart02Component implements OnChanges {
     series=[];
-    private _service;
-    @Input() ccode:string;
+    @Input() filterValues:Filter[]=[];
 
-
-  constructor(sv:CountryDevSpeciesService) {
-        this._service=sv;
-  }
+  constructor(private _service:CountryDevSpeciesService, private _utilsService:UtilsService) { }
 
 
     /**
      * fetch the data and load them
      *
      */
-    fetchData() {
-        this._service.getAll(this.ccode).subscribe(
+    fetchData(params:SearchServiceParams=new SearchServiceParams()) {
+        this._service.getAll(params).subscribe(
             (data)=>{
                 this.series=data;
             },
@@ -35,8 +34,8 @@ export class CountryChart02Component implements OnInit {
 
     }
 
-    ngOnInit(){
-        this.fetchData();
+    ngOnChanges(){
+        this.fetchData(this._utilsService.getSearchServiceParamsFromFilterValues(this.filterValues));
     }
 
 }

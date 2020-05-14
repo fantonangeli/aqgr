@@ -15,6 +15,25 @@ export class WorldComponent implements OnInit {
     getFilterValueByKey=this._utilsService.getFilterValueByKey;
 
     /**
+     * remove a filter
+     *
+     * @param {Filter[]} filters the filters to clear
+     * @param {string} key the key
+     * @param {string} value the value
+     * @return Filter[] the filters cleared
+     */
+    removeFilterByKeyVal(filters:Filter[], key:string, value:string):Filter[]{
+        return filters.filter(e=>(e.key!=key && e.value!=value));
+    }
+
+
+    removeFilter(filterParam: Filter) {
+        this.filterValues=this.removeFilterByKeyVal(this.filterValues, filterParam.key, filterParam.value);
+
+        this.ChartsRowReloader();
+    }
+
+    /**
      * reload the Charts Row 01
      *
      */
@@ -35,9 +54,9 @@ export class WorldComponent implements OnInit {
         this.ChartsRowReloader();
     }
 
-  constructor(private _utilsService:UtilsService) { }
+    constructor(private _utilsService:UtilsService) { }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+    }
 
 }
