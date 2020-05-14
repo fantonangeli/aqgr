@@ -5,16 +5,8 @@ import { CountryChart01Component } from '../../components/charts/country-chart01
 import { CountryChart02Component } from '../../components/charts/country-chart02/country-chart02.component';
 import { CountryChart03Component } from '../../components/charts/country-chart03/country-chart03.component';
 import {CountryInfoService} from '../../services/country-info.service';
+import { Filter} from '../../components/search/namespace';
 
-declare var require: any;
-let Boost = require('highcharts/modules/boost');
-let noData = require('highcharts/modules/no-data-to-display');
-let More = require('highcharts/highcharts-more');
-
-Boost(Highcharts);
-noData(Highcharts);
-More(Highcharts);
-noData(Highcharts);
 
 @Component({
   selector: 'app-country',
@@ -23,6 +15,7 @@ noData(Highcharts);
 })
 export class CountryComponent implements OnInit {
     ccode:string;
+    filterValues: Filter[]=[];
 
     countryName:string=""
 
@@ -46,7 +39,14 @@ export class CountryComponent implements OnInit {
     }
 
     ngOnInit(){
+        let countryFilter=new Filter();
         this.ccode = this.route.snapshot.paramMap.get("ccode");
+
+        countryFilter.key="countries";
+        countryFilter.id=this.ccode;
+
+        this.filterValues.push(countryFilter);
+
         this.fetchInfo(this.ccode);
     }
 
