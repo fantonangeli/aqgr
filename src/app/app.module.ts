@@ -26,6 +26,7 @@ import { FiltersComponent } from './components/home/filters/filters.component';
 import { TreeTableComponent } from './components/tree-table/tree-table.component';
 import { ConservationAndSustainableUseComponent } from './pages/conservation-and-sustainable-use/conservation-and-sustainable-use.component';
 import { WorldComponent } from './pages/world/world.component';
+import { BasePage01Component } from './pages/base-page01/base-page01.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { WorldComponent } from './pages/world/world.component';
     TreeTableComponent,
     ConservationAndSustainableUseComponent,
     WorldComponent,
+    BasePage01Component,
   ],
   imports: [
     BrowserModule,
