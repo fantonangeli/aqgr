@@ -3,6 +3,7 @@ import {FtypesService} from '../../../services/ftypes.service';
 import {Pie01Component} from '../pie01/pie01.component';
 import { Filter} from '../../../components/search/namespace';
 import {SearchServiceParams} from '../../../namespace';
+import {LoggerService} from '../../../services/logger.service';
 
 @Component({
   selector: 'app-countries-chart01',
@@ -18,7 +19,7 @@ export class CountriesChart01Component implements OnChanges {
     @Input() selectedSpecie:Filter;
 
 
-  constructor(sv:FtypesService) {
+  constructor(sv:FtypesService, private _logger:LoggerService) {
         this._service=sv;
   }
 
@@ -51,7 +52,7 @@ export class CountriesChart01Component implements OnChanges {
                 this.series=this.initData(data);
             },
             (error)=>{
-                console.log("Network error: ", error);
+                this._logger.error("Network error: ", error);
             }
         );
 

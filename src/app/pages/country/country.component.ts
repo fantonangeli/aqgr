@@ -6,6 +6,7 @@ import { CountryChart02Component } from '../../components/charts/country-chart02
 import { CountryChart03Component } from '../../components/charts/country-chart03/country-chart03.component';
 import {CountryInfoService} from '../../services/country-info.service';
 import { Filter} from '../../components/search/namespace';
+import {LoggerService} from '../../services/logger.service';
 
 
 @Component({
@@ -19,7 +20,7 @@ export class CountryComponent implements OnInit {
 
     countryName:string=""
 
-    constructor(private route: ActivatedRoute, private _countryInfoService:CountryInfoService) { }
+    constructor(private route: ActivatedRoute, private _countryInfoService:CountryInfoService, private _logger:LoggerService) { }
 
     /**
      * fetch the data and load them
@@ -32,7 +33,7 @@ export class CountryComponent implements OnInit {
                 this.countryName=data.CountryName;
             },
             (error)=>{
-                console.log("Network error: ", error);
+                this._logger.error("Network error: ", error);
             }
         );
 

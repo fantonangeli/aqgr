@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {CountrySpeciesService} from '../../../services/country-species.service';
 import {Bars01Component} from '../bars01/bars01.component';
+import {LoggerService} from '../../../services/logger.service';
 
 @Component({
   selector: 'app-country-chart03',
@@ -12,7 +13,7 @@ export class CountryChart03Component implements OnInit {
     private _service;
 
 
-  constructor(sv:CountrySpeciesService) {
+  constructor(sv:CountrySpeciesService, private _logger:LoggerService) {
         this._service=sv;
 
         this.fetchData();
@@ -29,7 +30,7 @@ export class CountryChart03Component implements OnInit {
                 this.series=data;
             },
             (error)=>{
-                console.log("Network error: ", error);
+                this._logger.error("Network error: ", error);
             }
         );
 

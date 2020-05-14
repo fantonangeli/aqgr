@@ -7,6 +7,7 @@ import {FtypesService} from '../../../services/ftypes.service';
 import {SFtypesService} from '../../../services/sftypes.service';
 import {SearchServiceParams} from '../../../namespace';
 import {UtilsService} from '../../../services/utils.service';
+import {LoggerService} from '../../../services/logger.service';
 
 
 @Component({
@@ -33,7 +34,8 @@ export class FiltersComponent implements OnChanges {
       private _speciesService:SpeciesService, 
       private _SFtypesService:SFtypesService, 
       private _taxonomiesService:TaxonomiesService,
-      private _utilsService:UtilsService
+      private _utilsService:UtilsService, 
+      private _logger:LoggerService
   ) {
 
       this.aggregations=[
@@ -93,7 +95,7 @@ export class FiltersComponent implements OnChanges {
                 this.aggregations[this.aggIndexes.sftypes].aggregation.values=data;
             },
             (error)=>{
-                console.log("Network error: ", error);
+                this._logger.error("Network error: ", error);
             }
         );
 
@@ -111,7 +113,7 @@ export class FiltersComponent implements OnChanges {
                 this.aggregations[this.aggIndexes.ftypes].aggregation.values=data;
             },
             (error)=>{
-                console.log("Network error: ", error);
+                this._logger.error("Network error: ", error);
             }
         );
 
@@ -133,7 +135,7 @@ export class FiltersComponent implements OnChanges {
                 this.aggregations[this.aggIndexes.species].aggregation.values=data;
             },
             (error)=>{
-                console.log("Network error: ", error);
+                this._logger.error("Network error: ", error);
             }
         );
 
@@ -151,7 +153,7 @@ export class FiltersComponent implements OnChanges {
                 this.aggregations[this.aggIndexes.taxonomies].aggregation.values=data;
             },
             (error)=>{
-                console.log("Network error: ", error);
+                this._logger.error("Network error: ", error);
             }
         );
 

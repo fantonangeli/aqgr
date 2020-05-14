@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import {SpeciesService} from '../../services/species.service';
+import {LoggerService} from '../../services/logger.service';
 
 @Component({
   selector: 'app-spec-filter',
@@ -14,7 +15,7 @@ export class SpecFilterComponent implements OnInit {
 
     @Output() selectedElementsChange = new EventEmitter<object[]>();
 
-  constructor(specs:SpeciesService) {
+  constructor(specs:SpeciesService, private _logger:LoggerService) {
         this._service=specs;
 
         this.fetchSpecs();
@@ -33,7 +34,7 @@ export class SpecFilterComponent implements OnInit {
                 this.elements=data;
             },
             (error)=>{
-                console.log("Network error: ", error);
+                this._logger.error("Network error: ", error);
             }
         );
 

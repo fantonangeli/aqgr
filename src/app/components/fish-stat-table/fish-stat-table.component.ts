@@ -4,6 +4,7 @@ import {FishStatCultSpecCountriesService} from '../../services/fish-stat-cult-sp
 import { Filter} from '../search/namespace';
 import {UtilsService} from '../../services/utils.service'
 import {SearchServiceParams} from '../../namespace';
+import {LoggerService} from '../../services/logger.service';
 
 @Component({
     selector: 'app-fish-stat-table',
@@ -20,7 +21,7 @@ export class FishStatTableComponent implements OnChanges {
 
 
 
-    constructor(private _fishstatService: FishStatCultSpecCountriesService, private _utilsService:UtilsService){
+    constructor(private _fishstatService: FishStatCultSpecCountriesService, private _utilsService:UtilsService, private _logger:LoggerService){
     }
 
     /**
@@ -71,7 +72,7 @@ export class FishStatTableComponent implements OnChanges {
                 this.fishTableData=this.loadTableData(data);
             },
             (error)=>{
-                console.log("Network error: ", error);
+                this._logger.error("Network error: ", error);
             }
         );
 

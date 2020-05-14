@@ -3,6 +3,7 @@ import {StackedBars01Component} from '../stacked-bars01/stacked-bars01.component
 import { Filter} from '../../../components/search/namespace';
 import {SpeciesService} from '../../../services/species.service';
 import {SearchServiceParams} from '../../../namespace';
+import {LoggerService} from '../../../services/logger.service';
 
 @Component({
   selector: 'app-countries-chart03',
@@ -15,7 +16,7 @@ export class CountriesChart03Component implements OnChanges {
     @Input() selectedTaxonomy:Filter;
 
 
-  constructor(private _service:SpeciesService) {
+  constructor(private _service:SpeciesService, private _logger:LoggerService) {
   }
 
 
@@ -48,7 +49,7 @@ export class CountriesChart03Component implements OnChanges {
                 this.series=this.initData(data);
             },
             (error)=>{
-                console.log("Network error: ", error);
+                this._logger.error("Network error: ", error);
             }
         );
 

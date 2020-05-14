@@ -5,6 +5,7 @@ import {StackedBars01Component} from '../stacked-bars01/stacked-bars01.component
 import { Filter} from '../../../components/search/namespace';
 import {UtilsService} from '../../../services/utils.service'
 import {SearchServiceParams} from '../../../namespace';
+import {LoggerService} from '../../../services/logger.service';
 
 @Component({
   selector: 'app-country-chart02',
@@ -15,7 +16,7 @@ export class CountryChart02Component implements OnChanges {
     series=[];
     @Input() filterValues:Filter[]=[];
 
-  constructor(private _service:CountryDevSpeciesService, private _utilsService:UtilsService) { }
+  constructor(private _service:CountryDevSpeciesService, private _utilsService:UtilsService, private _logger:LoggerService) { }
 
 
     /**
@@ -28,7 +29,7 @@ export class CountryChart02Component implements OnChanges {
                 this.series=data;
             },
             (error)=>{
-                console.log("Network error: ", error);
+                this._logger.error("Network error: ", error);
             }
         );
 
