@@ -90,7 +90,9 @@ export class FiltersComponent implements OnChanges {
      *
      */
     fetchSFtypes(params:SearchServiceParams=new SearchServiceParams()) {
-        this._SFtypesService.getAll(params).subscribe(
+        let {name, ccode, taxonomy, specie, ftype, sftype} = params;
+
+        this._SFtypesService.getAll(<SearchServiceParams>{ccode, taxonomy, specie, ftype}).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.sftypes].aggregation.values=data;
             },
@@ -108,7 +110,9 @@ export class FiltersComponent implements OnChanges {
      *
      */
     fetchFtypes(params:SearchServiceParams=new SearchServiceParams()) {
-        this._FtypesService.getAll(params).subscribe(
+        let {name, ccode, taxonomy, specie, ftype, sftype} = params;
+
+        this._FtypesService.getAll(<SearchServiceParams>{ccode, taxonomy, specie}).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.ftypes].aggregation.values=data;
             },
@@ -130,7 +134,9 @@ export class FiltersComponent implements OnChanges {
             return;
         }
 
-        this._speciesService.getAll(params).subscribe(
+        let {name, ccode, taxonomy, specie, ftype, sftype} = params;
+
+        this._speciesService.getAll(<SearchServiceParams>{ccode, taxonomy, name}).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.species].aggregation.values=data;
             },
@@ -147,8 +153,9 @@ export class FiltersComponent implements OnChanges {
      *
      */
     fetchTaxonomies(params:SearchServiceParams=new SearchServiceParams()) {
+        let {name, ccode, taxonomy, specie, ftype, sftype} = params;
 
-        this._taxonomiesService.getAll(params).subscribe(
+        this._taxonomiesService.getAll(<SearchServiceParams>{ccode}).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.taxonomies].aggregation.values=data;
             },
