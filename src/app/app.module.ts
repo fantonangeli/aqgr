@@ -27,6 +27,10 @@ import { TreeTableComponent } from './components/tree-table/tree-table.component
 import { ConservationAndSustainableUseComponent } from './pages/conservation-and-sustainable-use/conservation-and-sustainable-use.component';
 import { WorldComponent } from './pages/world/world.component';
 import { BasePage01Component } from './pages/base-page01/base-page01.component';
+import { UseChart01Component } from './components/charts/use-chart01/use-chart01.component';
+import { UseChart02Component } from './components/charts/use-chart02/use-chart02.component';
+import { UseChart03Component } from './components/charts/use-chart03/use-chart03.component';
+import { UseChart04Component } from './components/charts/use-chart04/use-chart04.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +53,10 @@ import { BasePage01Component } from './pages/base-page01/base-page01.component';
     ConservationAndSustainableUseComponent,
     WorldComponent,
     BasePage01Component,
+    UseChart01Component,
+    UseChart02Component,
+    UseChart03Component,
+    UseChart04Component,
   ],
   imports: [
     BrowserModule,

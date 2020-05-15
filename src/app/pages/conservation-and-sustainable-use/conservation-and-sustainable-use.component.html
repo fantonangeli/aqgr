@@ -1,4 +1,3 @@
-<p>conservation-and-sustainable-use works!</p>
 <!-- TODO: remove "<Filter>" from the tilte if no Country select -->
 <!-- TODO: add title -->
 <!-- TODO: add intro text -->
@@ -11,3 +10,89 @@
 <!-- TODO: add chart02 -->
 <!-- TODO: add chart03 -->
 <!-- TODO: add chart04 -->
+<div class="container mw-100">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Conservation and sustainable use of AqGR for: &lt;Filter&gt; (P2)</h1></div></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            Whilst currently all farmed AqGR still exist as wild relatives, some AqGR are considered under threat. Both wild relatives and farmed types of AqGR represent a key resource for the future development of aquaculture and need to be conserved. At the name time, aquaculture and farmed AqGR can represent a risk to biodiversity. Such disruption to biodiversity can occur through habitat disruption brought about by aquaculture, by disease introduced from cultured species and through genetic contamination from escapes or deliberate introductions of farmed AqGR into the wild.<br><br>
+This page summarises information contained in the Registry relating to the risks and controls associated with farmed AqGR and also summarises the in situ and ex situ conservation resources (protected areas, live and in vitro gene banks) for AqGR which exist in member countries.
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-sm-12 col-md-3">
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Filters:</h1></div></div>
+        </div>
+        <div class="col-sm-12 col-md-9">
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader"></h1></div></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-3">
+            <app-filters [(filterValues)]="filterValues" (search)="searchAggregation($event)"></app-filters>
+        </div>
+        <div class="col-sm-12 col-md-9">
+            <div class="col-sm-12 col-md-12 pl-0">
+                <div class="mb-4" *ngIf="filterValues && filterValues.length > 0">
+                    <app-search-pill [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                    </app-search-pill>                
+                </div>
+            </div>
+
+
+            <ng-template #ChartsTpl let-taxonomy="taxonomy" let-specie="specie" let-ftype="ftype" let-sftype="sftype">
+                <div class="container mw-100 p-0" *ngIf="reloadCharts">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <div class="font-weight-bold h6 text-center">
+                                Proportion of farmed native and non-native species reported by countries
+                            </div>
+                            <app-use-chart01></app-use-chart01>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <div class="font-weight-bold h6 text-center">
+                                Proportion of farmed native and non-native species reported by countries by continent
+                            </div>
+                            <app-use-chart02></app-use-chart02>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <div class="font-weight-bold h6 text-center">
+                                The proportion (%) of aquaculture production that comes from non-native species by region of countries
+                            </div>
+                            <app-use-chart03></app-use-chart03>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <div class="font-weight-bold h6 text-center">
+                                Top 10 non-native species by production
+                            </div>
+                            <app-use-chart04></app-use-chart04>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+            </ng-template>
+            <ng-template *ngTemplateOutlet="ChartsTpl; context: {taxonomy:getFilterValueByKey('taxonomies', filterValues), specie:getFilterValueByKey('species', filterValues), ftype:getFilterValueByKey('ftypes', filterValues), sftype:getFilterValueByKey('sftypes', filterValues)}"></ng-template>
+        </div>
+    </div>
+</div>
+
+

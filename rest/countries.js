@@ -1,0 +1,52 @@
+module.exports=[
+    {
+        "key":"Spain",
+        "value":141,
+        "id":"ESP"
+    },
+    {
+        "key":"Taiwan Province of China",
+        "value":112,
+        "id":"TWN"
+    },
+    {
+        "key":"China",
+        "value":92,
+        "id":"CHN"
+    },
+    {
+        "key":"Singapore",
+        "value":81,
+        "id":"TWN"
+    },
+    {
+        "key":"Malaysia",
+        "value":76,
+        "id":"MYS"
+    },
+    {
+        "key":"France",
+        "value":76,
+        "id":"FRA"
+    },
+    {
+        "key":"Korea, Republic of",
+        "value":70,
+        "id":"PRK"
+    },
+    {
+        "key":"Italy",
+        "value":70,
+        "id":"ITA"
+    },
+    {
+        "key":"Indonesia",
+        "value":59,
+        "id":"IDN"
+    },
+    {
+        "key":"Mexico",
+        "value":58,
+        "id":"MEX"
+    }
+];
