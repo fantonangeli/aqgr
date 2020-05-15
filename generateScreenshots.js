@@ -80,6 +80,15 @@ async function playWithFilters(page, pageCount){
 
     await playWithFilters(page, pageCount);
 
+
+    // http://localhost:4200/use-------------------------------------
+    pageCount=401;
+    await page.goto("http://localhost:4200/use", {waitUntil: 'networkidle0'});
+
+    await clickAndShot(page, (pageCount++)+'.png',[]);
+
+    await playWithFilters(page, pageCount);
+
     // await page.waitForSelector(tableSelector);
     await browser.close();
 })();
