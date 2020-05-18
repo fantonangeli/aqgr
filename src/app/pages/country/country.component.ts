@@ -30,7 +30,14 @@ export class CountryComponent implements OnInit {
     fetchInfo(ccode:string) {
         this._countryInfoService.getData(this.ccode).subscribe(
             (data)=>{
+                let countryFilter=new Filter();
+
                 this.countryName=data.CountryName;
+
+                countryFilter.key="countries";
+                countryFilter.value=this.countryName;
+
+                this.filterValues.push(countryFilter);
             },
             (error)=>{
                 this._logger.error("Network error: ", error);
@@ -39,15 +46,8 @@ export class CountryComponent implements OnInit {
 
     }
 
-    /* TODO: (high) send the country */
     ngOnInit(){
-        let countryFilter=new Filter();
         this.ccode = this.route.snapshot.paramMap.get("ccode");
-
-        countryFilter.key="countries";
-        countryFilter.id=this.ccode;
-
-        this.filterValues.push(countryFilter);
 
         this.fetchInfo(this.ccode);
     }
