@@ -39,6 +39,7 @@ export class CountryComponent implements OnInit {
 
     }
 
+    /* TODO: (high) send the country */
     ngOnInit(){
         let countryFilter=new Filter();
         this.ccode = this.route.snapshot.paramMap.get("ccode");

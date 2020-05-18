@@ -2,10 +2,6 @@
 <!-- TODO: add title -->
 <!-- TODO: add intro text -->
 <!-- TODO: add country filter -->
-<!-- TODO: add taxonomy filter -->
-<!-- TODO: add species filter -->
-<!-- TODO: add ftype filter -->
-<!-- TODO: add sftype filter -->
 <!-- TODO: add chart01 -->
 <!-- TODO: add chart02 -->
 <!-- TODO: add chart03 -->
@@ -35,7 +31,7 @@ This page summarises information contained in the Registry relating to the risks
     </div>
     <div class="row">
         <div class="col-sm-12 col-md-3">
-            <app-filters [(filterValues)]="filterValues" (search)="searchAggregation($event)"></app-filters>
+            <app-filters [(filterValues)]="filterValues" [aggregationsTypes]="['countries', 'taxonomies', 'species', 'ftypes', 'sftypes']" (search)="searchAggregation($event)"></app-filters>
         </div>
         <div class="col-sm-12 col-md-9">
             <div class="col-sm-12 col-md-12 pl-0">

@@ -12,22 +12,22 @@ import { AggregationItem} from '../components/search/namespace';
 @Injectable({
   providedIn: 'root'
 })
-export class CountryInfoService extends BaseService{
+export class CountriesService extends BaseService{
     constructor(http: HttpClient, logger: LoggerService, utilsService:UtilsService) {
         super(http, logger, utilsService);
     }
 
     /**
-     * get by countryCode
-     * @params
-     * @returns {Observable}
+     * get all data or filtered from the server
+     *
+     * @param {SearchServiceParams} params the params to send to the service
      */
-    getData(ccode:string):Observable<any> {
-
-        return this._getByParams(
-            "CountryInfoService",
-            environment.services.country.info, 
-            {ccode}
+    getAll(ssp:SearchServiceParams):Observable<AggregationItem[]>{
+        return this._getAll(
+            "CountriesService",
+            environment.services.countries.all, 
+            ssp,
+            environment.services.countries.limit
         );
     }
 

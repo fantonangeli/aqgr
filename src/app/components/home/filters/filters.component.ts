@@ -1,6 +1,7 @@
 import { Component, OnChanges, Input, Output, EventEmitter } from '@angular/core';
 import {FilterTermsComponent} from '../../../components/search/filter-terms/filter-terms.component';
 import { Filter, AggregationInput, ResultComponent, ResultList, ResultSearchEvent, ViewTypeEnum } from '../../../components/search/namespace';
+import {CountriesService} from '../../../services/countries.service';
 import {TaxonomiesService} from '../../../services/taxonomies.service';
 import {SpeciesService} from '../../../services/species.service';
 import {FtypesService} from '../../../services/ftypes.service';
@@ -19,11 +20,18 @@ export class FiltersComponent implements OnChanges {
     @Input() filterValues: Filter[];
     aggregations: AggregationInput[];
 
+     /**
+      * What you want to see (lowercase). Eg. ["taxonomies", "ftypes",]
+      * @type {string[]}
+      */
+    @Input() aggregationsTypes:string[]=[];
+
     private aggIndexes={
-        taxonomies:0,
-        species:1,
-        ftypes:2,
-        sftypes:3
+        countries:0,
+        taxonomies:1,
+        species:2,
+        ftypes:3,
+        sftypes:4
     };
 
   @Output() search = new EventEmitter<Filter[]>();
@@ -33,12 +41,24 @@ export class FiltersComponent implements OnChanges {
       private _FtypesService:FtypesService,
       private _speciesService:SpeciesService, 
       private _SFtypesService:SFtypesService, 
+      private _countriesService:CountriesService,
       private _taxonomiesService:TaxonomiesService,
       private _utilsService:UtilsService, 
       private _logger:LoggerService
+
   ) {
 
       this.aggregations=[
+          {
+              "type": "countries",
+              "title": "By countries",
+              "parameter": "document.countriesMapping",
+              "filter": "",
+              "aggregation": {
+                  "name": "countries",
+                  "values":[]
+              }
+          },
           {
               "type": "taxonomies",
               "title": "By taxonomies",
@@ -80,6 +100,7 @@ export class FiltersComponent implements OnChanges {
               }
           },
       ];
+
   }
 
 
@@ -90,9 +111,9 @@ export class FiltersComponent implements OnChanges {
      *
      */
     fetchSFtypes(params:SearchServiceParams=new SearchServiceParams()) {
-        let {name, ccode, taxonomy, specie, ftype, sftype} = params;
+        let {name, country, taxonomy, specie, ftype, sftype} = params;
 
-        this._SFtypesService.getAll(<SearchServiceParams>{ccode, taxonomy, specie, ftype}).subscribe(
+        this._SFtypesService.getAll(<SearchServiceParams>{country, taxonomy, specie, ftype}).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.sftypes].aggregation.values=data;
             },
@@ -110,9 +131,9 @@ export class FiltersComponent implements OnChanges {
      *
      */
     fetchFtypes(params:SearchServiceParams=new SearchServiceParams()) {
-        let {name, ccode, taxonomy, specie, ftype, sftype} = params;
+        let {name, country, taxonomy, specie, ftype, sftype} = params;
 
-        this._FtypesService.getAll(<SearchServiceParams>{ccode, taxonomy, specie}).subscribe(
+        this._FtypesService.getAll(<SearchServiceParams>{country, taxonomy, specie}).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.ftypes].aggregation.values=data;
             },
@@ -134,9 +155,9 @@ export class FiltersComponent implements OnChanges {
             return;
         }
 
-        let {name, ccode, taxonomy, specie, ftype, sftype} = params;
+        let {name, country, taxonomy, specie, ftype, sftype} = params;
 
-        this._speciesService.getAll(<SearchServiceParams>{ccode, taxonomy, name}).subscribe(
+        this._speciesService.getAll(<SearchServiceParams>{country, taxonomy, name}).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.species].aggregation.values=data;
             },
@@ -148,16 +169,35 @@ export class FiltersComponent implements OnChanges {
     }
 
     /**
-     * fetch the species and load them in this._service
+     * fetch the taxonomies and load them in this._service
      * @param {SearchServiceParams} params the params to send to the service
      *
      */
     fetchTaxonomies(params:SearchServiceParams=new SearchServiceParams()) {
-        let {name, ccode, taxonomy, specie, ftype, sftype} = params;
+        let {name, country, taxonomy, specie, ftype, sftype} = params;
 
-        this._taxonomiesService.getAll(<SearchServiceParams>{ccode}).subscribe(
+        this._taxonomiesService.getAll(<SearchServiceParams>{country}).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.taxonomies].aggregation.values=data;
+            },
+            (error)=>{
+                this._logger.error("Network error: ", error);
+            }
+        );
+
+    }
+
+    /**
+     * fetch the countries and load them in this._service
+     * @param {SearchServiceParams} params the params to send to the service
+     *
+     */
+    fetchCountries(params:SearchServiceParams=new SearchServiceParams()) {
+        let {name, country, taxonomy, specie, ftype, sftype} = params;
+
+        this._countriesService.getAll(<SearchServiceParams>{country}).subscribe(
+            (data)=>{
+                this.aggregations[this.aggIndexes.countries].aggregation.values=data;
             },
             (error)=>{
                 this._logger.error("Network error: ", error);
@@ -241,8 +281,12 @@ export class FiltersComponent implements OnChanges {
     ngOnChanges() {
         let params=new SearchServiceParams();
 
+        if (!this.aggregationsTypes.length) this._logger.error("this.aggregationsTypes not valid!");
 
         params=this._utilsService.getSearchServiceParamsFromFilterValues(this.filterValues);
+
+        if (params.country) this.aggregations=this.filterAggregation("countries", params.country, this.aggregations);
+        else this.fetchCountries( params);
 
 
         if (params.taxonomy) this.aggregations=this.filterAggregation("taxonomies", params.taxonomy, this.aggregations);
@@ -287,7 +331,7 @@ export class FiltersComponent implements OnChanges {
 
         this.aggregations[this.aggIndexes.species].filter=term;
         params.name=term;
-        params.ccode=(this._utilsService.getFilterValueByKey("country", this.filterValues) || {value:""}).value;
+        params.country=(this._utilsService.getFilterValueByKey("country", this.filterValues) || {value:""}).value;
         params.taxonomy=(this._utilsService.getFilterValueByKey("taxonomies", this.filterValues) || {value:""}).value;
 
         this.fetchSpecs(

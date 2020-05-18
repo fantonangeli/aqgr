@@ -9,10 +9,10 @@ export class SearchServiceParams {
     name: string = "";
 
     /**
-     * the country code parent
+     * the country parent
      * @type {string}
      */
-    ccode: string = "";
+    country: string = "";
 
     /**
      * the taxonomy parent

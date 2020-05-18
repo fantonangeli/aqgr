@@ -35,7 +35,7 @@ export class UtilsService {
 
         for (var i = 0, len = filterValues.length, e=null; i < len && (e=filterValues[i]) ; i++) {
             if (e.key==="countries") {
-                params.ccode=e.id;
+                params.country=e.value;
             } else if (e.key==="taxonomies"){
                 params.taxonomy=e.value;
             }else if (e.key==="species"){
@@ -60,7 +60,7 @@ export class UtilsService {
         let params={};
 
         if(ssp.name) params[environment.services.params.search]=ssp.name;
-        if(ssp.ccode) params[environment.services.params.ccode]=ssp.ccode;
+        if(ssp.country) params[environment.services.params.country]=ssp.country;
         if(ssp.taxonomy) params[environment.services.params.taxonomy]=ssp.taxonomy;
         if(ssp.specie) params[environment.services.params.specie]=ssp.specie;
         if(ssp.ftype) params[environment.services.params.ftype]=ssp.ftype;

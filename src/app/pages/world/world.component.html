@@ -9,7 +9,7 @@
     </div>
     <div class="row">
         <div class="col-sm-12 col-md-3">
-            <app-filters [(filterValues)]="filterValues" (search)="searchAggregation($event)"></app-filters>
+            <app-filters [(filterValues)]="filterValues" [aggregationsTypes]="['countries', 'taxonomies', 'species', 'ftypes', 'sftypes']" (search)="searchAggregation($event)"></app-filters>
         </div>
         <div class="col-sm-12 col-md-9">
             <div class="col-sm-12 col-md-12 pl-0">

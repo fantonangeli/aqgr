@@ -26,6 +26,8 @@ export class LoggerService {
      * @param {any} params request params
      */
     service(servicename: string, params:any="") {
+        if(!environment.logging) return;
+
         this.log("Service: "+ servicename, params, "green");
     }
 
@@ -38,8 +40,6 @@ export class LoggerService {
      * @param {string} color pick your color
      */
     log(msg: any, data:any, color:string="") {
-        if(!environment.logging) return;
-
         console.log("%c"+msg, `color: ${color}; font-weight: bold;`, data);
     }
 

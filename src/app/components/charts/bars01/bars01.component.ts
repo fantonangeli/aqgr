@@ -1,5 +1,6 @@
 import { Component, Input, AfterViewInit } from '@angular/core';
 import * as Highcharts from 'highcharts';
+// import Exporting from 'highcharts/modules/exporting';
 
 declare var require: any;
 let Boost = require('highcharts/modules/boost');
@@ -10,6 +11,7 @@ Boost(Highcharts);
 noData(Highcharts);
 More(Highcharts);
 noData(Highcharts);
+// Exporting(Highcharts);
 
 @Component({
   selector: 'app-bars01',
@@ -21,15 +23,17 @@ export class Bars01Component implements AfterViewInit  {
     @Input() series :object[]=[];
     @Input() xAxisTitle :string;
 
+    /* TODO: enable pdf export */
 
     /**
      * show the chart
      *
      */
     showChart(){
-        //todo: xaxis steps must be 1
-
         let options: any = {
+            // exporting: {
+            //     enabled: true
+            // },
             chart: {
                 type: "bar",
             },

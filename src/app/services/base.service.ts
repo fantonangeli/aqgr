@@ -17,8 +17,35 @@ export class BaseService {
      *
      * @param {string} serviceName the name of the service
      * @param {string} url the rest url
+     * @param {object} params the params to send to the service
      * @param {number} limit (optional) the limit
+     * @returns {Observable}
+     */
+    protected _getByParams(serviceName:string, url:string, params:any={}, limit:number=0):Observable<any> {
+        let cacheid;
+
+        this.logger.service(serviceName+":getAll", params);
+
+        if(limit>0) params[environment.services.params.limit]=limit;
+
+        cacheid=JSON.stringify(params);
+
+        if (!this.cache$[cacheid]) {
+            this.cache$[cacheid] = this.http.get(url, {params}).pipe(
+                shareReplay()
+            );
+        }
+
+        return this.cache$[cacheid];
+    }
+
+    /**
+     * get all elements or send the service search params
+     *
+     * @param {string} serviceName the name of the service
+     * @param {string} url the rest url
      * @param {SearchServiceParams} params the params to send to the service
+     * @param {number} limit (optional) the limit
      * @returns {Observable}
      */
     protected _getAll(serviceName:string, url:string, ssp:SearchServiceParams=new SearchServiceParams(), limit:number=0):Observable<any> {
@@ -26,9 +53,12 @@ export class BaseService {
 
         this.logger.service(serviceName+":getAll", ssp);
 
-        if(limit>0) ssp.limit=limit;
+        // if(limit>0) ssp.limit=limit;
 
         params=this.utilsService.getRestParams(ssp);
+
+        return this._getByParams(serviceName,url,params,limit);
+
         cacheid=JSON.stringify(params);
 
         if (!this.cache$[cacheid]) {

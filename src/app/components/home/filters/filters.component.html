@@ -1,5 +1,5 @@
 <div *ngFor="let agg of aggregations">
-    <p>
+    <p *ngIf="(aggregationsTypes.indexOf(agg.type)>-1)">
     <app-filter-terms [aggregation]="agg.aggregation" [ngClass]="[agg.aggregation.name]" [title]="agg.title" (filterTermEvent)="searchAggregation(agg.type,agg.parameter,$event)" [searchEnabled]="agg.type==='species'" (filterByName)="filterAggregations(agg.type, $event)" [selectedFilter]="getFilterValueByKey(agg.type, filterValues)">
     </app-filter-terms>
     </p>

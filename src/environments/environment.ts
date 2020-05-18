@@ -15,7 +15,7 @@ export const environment = {
             byFtype:"../assets/data/FishStatSpecCountries.ASFISCode-MSM.json?species="
         },
         params: {
-            ccode:"country_like", 
+            country:"country_like", 
             taxonomy:"taxonomy_like", 
             specie:"specie_like", 
             ftype:"ftype_like", 
@@ -47,6 +47,8 @@ export const environment = {
             devSpecies: "assets/data/country/devspecies.json?ccode=",
         },
         countries:{
+            all:baseUrl+"countries",
+            limit: 10,
             ftype: "assets/data/countries/ftype.json",
             ftypeBySpecies: "assets/data/countries/ftype-filtered.json?specie=",
             sFtype: "assets/data/countries/sftype.json",
