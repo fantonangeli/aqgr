@@ -51,23 +51,9 @@ export class BaseService {
     protected _getAll(serviceName:string, url:string, ssp:SearchServiceParams=new SearchServiceParams(), limit:number=0):Observable<any> {
         let params={}, cacheid;
 
-        this.logger.service(serviceName+":getAll", ssp);
-
-        // if(limit>0) ssp.limit=limit;
-
         params=this.utilsService.getRestParams(ssp);
 
         return this._getByParams(serviceName,url,params,limit);
-
-        cacheid=JSON.stringify(params);
-
-        if (!this.cache$[cacheid]) {
-            this.cache$[cacheid] = this.http.get(url, {params}).pipe(
-                shareReplay()
-            );
-        }
-
-        return this.cache$[cacheid];
     }
 
 
