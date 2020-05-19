@@ -48,13 +48,17 @@ export class FishStatTableComponent implements OnChanges {
                 Number(r.Species).toLocaleString('en-US'),
                 Number(r.FTypes).toLocaleString('en-US'),
                 Number(r.SFTypes).toLocaleString('en-US'),
-                r.Countries=r.Countries.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(c=>[
-                    c.Name,
-                    Number(c.Timeseries["2017"]).toLocaleString('en-US'),
-                    Number(c.Species).toLocaleString('en-US'),
-                    Number(c.FTypes).toLocaleString('en-US'),
-                    Number(c.SFTypes).toLocaleString('en-US'),
-                ])
+                r.Countries=r.Countries.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(c=>{
+                    let rv=[
+                        c.Name,
+                        Number(c.Timeseries["2017"]).toLocaleString('en-US'),
+                        Number(c.Species).toLocaleString('en-US'),
+                        Number(c.FTypes).toLocaleString('en-US'),
+                        Number(c.SFTypes).toLocaleString('en-US'),
+                    ];
+                    rv["Ccode"]=c.Ccode;
+                    return rv;
+                })
 
             ])
         ]);

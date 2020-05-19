@@ -1288,6 +1288,7 @@
             },
             {
               "Name": "China",
+              "Ccode":"CHN",
               "Species": 12,
               "FTypes": 61,
               "SFTypes": 151,

@@ -4,8 +4,7 @@
             <td class="align-top text-truncate" *ngIf="first" [ngStyle]="{'padding-left': (pleft+20)+'px'}" [ngClass]="'index-'+i">
                 <span class="font-weight-bold h6">{{getToggleIcon(element)}}</span> 
                 &nbsp;{{field}}
-                <a [routerLink]="['/country', 'CHN']" routerLinkActive="router-link-active"><fa-icon *ngIf="!element.children" [icon]="faChartPie"></fa-icon></a>
-                <!-- TODO: (low) remove the fixed link from here -->
+                <a [routerLink]="['/country',element.Ccode]" *ngIf="element.Ccode" routerLinkActive="router-link-active"><fa-icon *ngIf="!element.children" [icon]="faChartPie"></fa-icon></a>
             </td>
             <td class="text-truncate" *ngIf="!first" class="align-top text-right" [ngClass]="'index-'+i">
                 {{field}}
