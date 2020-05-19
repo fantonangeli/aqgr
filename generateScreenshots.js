@@ -18,7 +18,7 @@ async function shot(page, filename) {
 }
 
 async function playWithFiltersWithCountry(page, pageCount){
-    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.countries .index-2 a"]); 
+    await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.countries .index-0 a"]); 
 
     await clickAndShot(page, (pageCount++)+'.png',[ "app-filter-terms.taxonomies .index-5 a"]);
 
