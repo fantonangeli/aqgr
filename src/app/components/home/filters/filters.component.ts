@@ -195,7 +195,7 @@ export class FiltersComponent implements OnChanges {
     fetchCountries(params:SearchServiceParams=new SearchServiceParams()) {
         let {name, country, taxonomy, specie, ftype, sftype} = params;
 
-        this._countriesService.getAll(<SearchServiceParams>{country}).subscribe(
+        this._countriesService.getAll(<SearchServiceParams>{name}).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.countries].aggregation.values=data;
             },
@@ -336,16 +336,25 @@ export class FiltersComponent implements OnChanges {
     filterAggregations(type:string, term:string){
         let params=new SearchServiceParams();
 
-        if ((type!=="species") || ((term.length<3) && (term.length>0))) return;
+        if ((term.length<3) && (term.length>0)) return;
 
-        this.aggregations[this.aggIndexes.species].filter=term;
-        params.name=term;
-        params.country=(this._utilsService.getFilterValueByKey("country", this.filterValues) || {value:""}).value;
-        params.taxonomy=(this._utilsService.getFilterValueByKey("taxonomies", this.filterValues) || {value:""}).value;
+        if (type==="species") {
+            this.aggregations[this.aggIndexes.species].filter=term;
+            params.name=term;
+            params.country=(this._utilsService.getFilterValueByKey("country", this.filterValues) || {value:""}).value;
+            params.taxonomy=(this._utilsService.getFilterValueByKey("taxonomies", this.filterValues) || {value:""}).value;
 
-        this.fetchSpecs(
-            params
-        );
+            this.fetchSpecs(
+                params
+            );
+        } else if (type==="countries") {
+            this.aggregations[this.aggIndexes.countries].filter=term;
+            params.name=term;
+
+            this.fetchCountries(
+                params
+            );
+        }
 
     }
 }
