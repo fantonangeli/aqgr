@@ -32,7 +32,7 @@ export class CountryComponent implements OnInit {
             (data)=>{
                 let countryFilter=new Filter();
 
-                this.countryName=data.CountryName;
+                this.countryName=data[0].name;
 
                 countryFilter.key="countries";
                 countryFilter.value=this.countryName;

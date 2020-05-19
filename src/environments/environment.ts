@@ -40,8 +40,8 @@ export const environment = {
             limit: 10
         },
         country:{
-            info:baseUrl+"countryInfo?ccode=",
-            species: "assets/data/country/species.json?",
+            info:baseUrl+"countryInfo?",
+            species: "assets/data/country/species.json?ccode=",
             ftype: "assets/data/country/ftype.json?ccode=",
             sFtype: "assets/data/country/sftype.json?ccode=",
             devSpecies: "assets/data/country/devspecies.json?ccode=",
