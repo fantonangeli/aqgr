@@ -285,31 +285,40 @@ export class FiltersComponent implements OnChanges {
 
         params=this._utilsService.getSearchServiceParamsFromFilterValues(this.filterValues);
 
-        if (params.country) this.aggregations=this.filterAggregation("countries", params.country, this.aggregations);
-        else this.fetchCountries( params);
+        if (~this.aggregationsTypes.indexOf("countries")) {
+            if (params.country) this.aggregations=this.filterAggregation("countries", params.country, this.aggregations);
+            else this.fetchCountries( params);
+        }
 
-
-        if (params.taxonomy) this.aggregations=this.filterAggregation("taxonomies", params.taxonomy, this.aggregations);
-        else this.fetchTaxonomies(
-            params
-        );
-
-        if (params.specie) this.aggregations=this.filterAggregation("species", params.specie, this.aggregations);
-        else {
-            this.fetchSpecs(
-                { ...params, name:this.aggregations[this.aggIndexes.species].filter }
+        if (~this.aggregationsTypes.indexOf("taxonomies")) {
+            if (params.taxonomy) this.aggregations=this.filterAggregation("taxonomies", params.taxonomy, this.aggregations);
+            else this.fetchTaxonomies(
+                params
             );
         }
 
-        if (params.ftype) this.aggregations=this.filterAggregation("ftypes", params.ftype, this.aggregations);
-        else this.fetchFtypes(
-            params
-        );
+        if (~this.aggregationsTypes.indexOf("species")) {
+            if (params.specie) this.aggregations=this.filterAggregation("species", params.specie, this.aggregations);
+            else {
+                this.fetchSpecs(
+                    { ...params, name:this.aggregations[this.aggIndexes.species].filter }
+                );
+            }
+        }
 
-        if (params.sftype) this.aggregations=this.filterAggregation("sftypes", params.sftype, this.aggregations);
-        else this.fetchSFtypes(
-            params
-        );
+        if (~this.aggregationsTypes.indexOf("ftypes")) {
+            if (params.ftype) this.aggregations=this.filterAggregation("ftypes", params.ftype, this.aggregations);
+            else this.fetchFtypes(
+                params
+            );
+        }
+
+        if (~this.aggregationsTypes.indexOf("sftypes")) {
+            if (params.sftype) this.aggregations=this.filterAggregation("sftypes", params.sftype, this.aggregations);
+            else this.fetchSFtypes(
+                params
+            );
+        }
 
     }
 
