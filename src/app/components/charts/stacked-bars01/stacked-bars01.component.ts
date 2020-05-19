@@ -1,5 +1,6 @@
 import { Component, Input, AfterViewInit } from '@angular/core';
 import * as Highcharts from 'highcharts';
+import Exporting from 'highcharts/modules/exporting';
 
 declare var require: any;
 let Boost = require('highcharts/modules/boost');
@@ -10,6 +11,7 @@ Boost(Highcharts);
 noData(Highcharts);
 More(Highcharts);
 noData(Highcharts);
+Exporting(Highcharts);
 
 @Component({
   selector: 'app-stacked-bars01',
@@ -29,6 +31,13 @@ export class StackedBars01Component implements AfterViewInit  {
     showChart(){
 
         let options: any = {
+            exporting: {
+                buttons: {
+                    contextButton: {
+                        menuItems: ['downloadPDF']
+                    }
+                }
+            },
             chart: {
                 type: "bar",
             },
