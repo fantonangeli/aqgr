@@ -1,0 +1,53 @@
+nav#subsiteMenu{
+  margin-bottom: 5px
+}
+nav#subsiteMenu ul.top-submenu li.top-current, 
+nav#subsiteMenu ul.top-submenu li.top-active, 
+nav#subsiteMenu ul.top-submenu li:hover {
+    background-color: #ffffff;
+}
+
+nav ul.top-submenu li.sub-home-link a {
+    padding: 0 10px;
+}
+
+nav ul.top-submenu li a {
+    font-size: 1.00em;
+    line-height: 35px;
+}
+
+nav#subsiteMenu {
+  border-top:0;
+  }
+
+nav#subsiteMenu ul.top-submenu {
+    /* background-color: #f8f8f8; */ 
+background: rgb(255,255,255); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijg0JSIgc3RvcC1jb2xvcj0iI2VmZWZlZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(239,239,239,1) 84%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(84%,rgba(239,239,239,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(239,239,239,1) 84%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(239,239,239,1) 84%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(239,239,239,1) 84%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(239,239,239,1) 84%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efefef',GradientType=0 ); /* IE6-8 */
+    margin: 0;
+    border-top:1px solid #d2d0d0;
+}
+
+nav#subsiteMenu ul.top-submenu li {
+  border-left: 0;
+  margin-left: 0;
+}
+
+nav ul.top-submenu li {
+  height: auto;
+  margin-bottom:0;
+}
+
+div#first-level-banner, 
+#top-banner div.over-top-first-level-banner {
+  background: #ffffff;
+  filter: none;
+}

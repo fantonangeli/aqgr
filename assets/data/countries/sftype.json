@@ -1,0 +1,9 @@
+[
+    {"key": "Hybrids", "value":34},
+    {"key": "Introgressed", "value":56},
+    {"key": "Crossbred", "value":45},
+    {"key": "Polyploid", "value":76},
+    {"key": "Monosex", "value":12},
+    {"key": "Transgenic", "value":123},
+    {"key": "Gene edited", "value":64}
+]

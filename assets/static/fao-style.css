@@ -1,0 +1,39 @@
+.subcl .csc-default,
+.subcr .csc-default {min-height:220px;}
+
+ aside#rightcolumn {padding-top: 5px;}
+ 
+.dyna_form_data_type_radio {margin-right: 15px;}
+.dyna_form_data_type_radio input {margin-right: 3px !important;}
+
+#c545829 .ui-tabs .ui-tabs-panel p.bodytext b {font-size: inherit !important; color:inherit !important;}
+
+#c558739 p.align-right {margin-top: -47px;}
+#c558739 p.align-left {font-weight: 600; margin-bottom: 20px;}
+
+#c567546 h2 a {text-decoration: underline;}
+
+#jfmulticontent_c545829-1 .access-cons,
+#jfmulticontent_c545829 #vac-datatbl-closed_wrapper .access-cons,
+#jfmulticontent_c545829 #vac-datatbl-cancelled_wrapper .access-cons {float: left; margin-top: 6px; margin-left: 10px;}
+
+#jfmulticontent_c545829-1 .access-cons div,
+#jfmulticontent_c545829 #vac-datatbl-closed_wrapper .access-cons div,
+#jfmulticontent_c545829 #vac-datatbl-cancelled_wrapper .access-cons div {font-weight: bold; float: left; padding-right: 10px;}
+
+#jfmulticontent_c545829-1 .access-cons i,
+#jfmulticontent_c545829 #vac-datatbl-closed_wrapper .access-cons i,
+#jfmulticontent_c545829 #vac-datatbl-cancelled_wrapper .access-cons i {margin-top: 4px; font-size: 1.1em;}
+
+#jfmulticontent_c545829-1 table#vac-datatbl td a div, 
+#jfmulticontent_c545829 .dataTables_wrapper td a div  {font-size: 0.9em; font-weight: bold; float: left; padding-right: 10px;}
+
+#jfmulticontent_c545829-1 table#vac-datatbl td a div:hover,
+#jfmulticontent_c545829-1 .access-cons div:hover,
+#jfmulticontent_c545829 .dataTables_wrapper td a div:hover,
+#jfmulticontent_c545829 .access-cons div:hover {text-decoration: underline;}
+
+#jfmulticontent_c545829-1 table#vac-datatbl td a i,
+#jfmulticontent_c545829 .dataTables_wrapper td a i {padding-right: 10px;} 
+
+
