@@ -54,6 +54,12 @@ export const environment = {
             sFtype: "assets/data/countries/sftype.json",
             sFtypeBySpecies: "assets/data/countries/sftype-filtered.json?ftype=",
             species: "assets/data/countries/species.json",
+        },
+        use:{
+            chart01:"assets/data/use/chart01.json",
+            chart02:"assets/data/use/chart02.json",
+            chart03:"assets/data/use/chart03.json",
+            chart04:"assets/data/use/chart04.json",
         }
     }
 
