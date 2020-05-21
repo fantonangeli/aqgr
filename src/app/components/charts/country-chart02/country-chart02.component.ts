@@ -10,8 +10,10 @@ import {UtilsService} from '../../../services/utils.service'
 
 @Component({
   selector: 'app-country-chart02',
-  templateUrl: './country-chart02.component.html',
-  styleUrls: ['./country-chart02.component.scss']
+  template: `
+        <app-stacked-bars01 [series]="series" *ngIf="series.length" xAxisTitle="Total number of farmed types reported by species"></app-stacked-bars01>
+    `,
+  styleUrls: []
 })
 export class CountryChart02Component extends BaseChart01Component implements OnChanges {
 
@@ -35,3 +37,4 @@ export class CountryChart02Component extends BaseChart01Component implements OnC
 
 
 }
+

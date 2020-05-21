@@ -34,18 +34,7 @@ export class UseChart04Component implements OnInit {
                         "inverted": true
                     },
                     "series": [{
-            "data": [
-                ["Laminaria japonica", 10000000],
-                ["Penaeus vannamei", 3500000],
-                ["Claris spp", 100000],
-                ["Cyprinus carpio", 100000],
-                ["Hypophthalmichthys molitrix", 95000],
-                ["Salmo salar", 94000],
-                ["Oncorhynchus mykiss", 93000],
-                ["Pangasius spp", 90000],
-                ["Oreochromis niloticus", 85000],
-                ["Oncorhynchus kisutch", 75000]
-            ],
+            "data": [],
             "name": "Production",
             "turboThreshold": 0,
             "marker": {}

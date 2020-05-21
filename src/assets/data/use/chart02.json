@@ -1,0 +1,43 @@
+[{
+    "name": "Native",
+    "data": [{
+        "name": "Africa",
+        "y": 140
+    }, {
+        "name": "Europe",
+        "y": 125
+    }, {
+        "name": "Asia",
+        "y": 225
+    }, {
+        "name": "Latin America",
+        "y": 160
+    }, {
+        "name": "North America",
+        "y": 125
+    }, {
+        "name": "Oceania",
+        "y": 110
+    }]
+}, {
+    "name": "Non-Native",
+    "data": [{
+        "name": "Africa",
+        "y": 25
+    }, {
+        "name": "Europe",
+        "y": 30
+    }, {
+        "name": "Asia",
+        "y": 50
+    }, {
+        "name": "Latin America",
+        "y": 30
+    }, {
+        "name": "North America",
+        "y": 25
+    }, {
+        "name": "Oceania",
+        "y": 25
+    }]
+}]

@@ -10,8 +10,10 @@ import {UtilsService} from '../../../services/utils.service'
 
 @Component({
   selector: 'app-country-chart01',
-  templateUrl: './country-chart01.component.html',
-  styleUrls: ['./country-chart01.component.scss']
+  template:`
+        <app-stacked-bars01 [series]="series" *ngIf="series.length"></app-stacked-bars01>
+    `,
+  styleUrls: []
 })
 export class CountryChart01Component extends BaseChart01Component implements OnChanges {
     constructor(_service:CountryFTypeService, _utilsService:UtilsService, _logger:LoggerService) {

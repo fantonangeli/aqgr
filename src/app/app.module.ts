@@ -30,6 +30,7 @@ import { UseChart01Component } from './components/charts/use-chart01/use-chart01
 import { UseChart02Component } from './components/charts/use-chart02/use-chart02.component';
 import { UseChart03Component } from './components/charts/use-chart03/use-chart03.component';
 import { UseChart04Component } from './components/charts/use-chart04/use-chart04.component';
+import { StackedColumns01Component } from './components/charts/stacked-columns01/stacked-columns01.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +56,7 @@ import { UseChart04Component } from './components/charts/use-chart04/use-chart04
     UseChart02Component,
     UseChart03Component,
     UseChart04Component,
+    StackedColumns01Component,
   ],
   imports: [
     BrowserModule,
