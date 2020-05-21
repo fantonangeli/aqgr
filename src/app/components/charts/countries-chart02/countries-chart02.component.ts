@@ -4,6 +4,8 @@ import {Pie01Component} from '../pie01/pie01.component';
 import { Filter} from '../../../components/search/namespace';
 import {SearchServiceParams} from '../../../namespace';
 import {LoggerService} from '../../../services/logger.service';
+import {BaseChart01Component} from '../base-chart01/base-chart01.component';
+import {UtilsService} from '../../../services/utils.service'
 
 @Component({
   selector: 'app-countries-chart02',
@@ -12,52 +14,18 @@ import {LoggerService} from '../../../services/logger.service';
   `,
   styles: []
 })
-export class CountriesChart02Component implements OnChanges {
-    series=[];
-    private _service;
+export class CountriesChart02Component extends BaseChart01Component implements OnChanges {
+
+
     @Input() selectedTaxonomy:Filter;
     @Input() selectedSpecie:Filter;
     @Input() selectedFtype:Filter;
 
 
-  constructor(sv:SFtypesService, private _logger:LoggerService) {
-        this._service=sv;
-  }
-
-    /**
-     * initialize the data
-     *
-     * @param {any[]} data=[] the data from the service
-     * @returns {object[]} the series in highchart format
-     */
-    initData(data:any[]=[]):object[]{
-        let r=[{
-            "data": [
-            ]
-        }];
-
-        r[0].data=data.map(e=>({"name": e.key, "y":e.value}));
-
-        return r;
+    constructor(_service:SFtypesService, _utilsService:UtilsService, _logger:LoggerService) {
+        super(_service, _utilsService, _logger);
     }
 
-
-    /**
-     * fetch the data and load them
-     *
-     * @param {SearchServiceParams} params the params to send to the service
-     */
-    fetchData(params:SearchServiceParams=new SearchServiceParams()) {
-        this._service.getAll(params).subscribe(
-            (data)=>{
-                this.series=this.initData(data);
-            },
-            (error)=>{
-                this._logger.error("Network error: ", error);
-            }
-        );
-
-    }
 
     ngOnChanges(){
         let params=new SearchServiceParams();

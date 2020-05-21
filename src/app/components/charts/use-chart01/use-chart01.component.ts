@@ -1,9 +1,8 @@
 import { Component, Input, OnChanges } from '@angular/core';
-import {Pie01Component} from '../pie01/pie01.component';
-import { Filter} from '../../../components/search/namespace';
-import {SearchServiceParams} from '../../../namespace';
 import {LoggerService} from '../../../services/logger.service';
 import {UtilsService} from '../../../services/utils.service'
+import {BaseChart01Component} from '../base-chart01/base-chart01.component';
+import {Pie01Component} from '../pie01/pie01.component';
 import {UseChart01Service} from '../../../services/use/use-chart01.service';
 
 @Component({
@@ -13,51 +12,12 @@ import {UseChart01Service} from '../../../services/use/use-chart01.service';
   `,
   styles: []
 })
-export class UseChart01Component implements OnChanges {
-    series=[];
-    @Input() filterValues:Filter[]=[];
-
-
-  constructor(private _service:UseChart01Service, private _utilsService:UtilsService, private _logger:LoggerService) { }
-
-    /**
-     * initialize the data
-     *
-     * @param {any[]} data=[] the data from the service
-     * @returns {object[]} the series in highchart format
-     */
-    initData(data:any[]=[]):object[]{
-        let r=[{
-            "data": [
-            ]
-        }];
-
-        r[0].data=data.map(e=>({"name": e.key, "y":e.value}));
-
-        return r;
+export class UseChart01Component extends BaseChart01Component implements OnChanges {
+    constructor(_service:UseChart01Service, _utilsService:UtilsService, _logger:LoggerService) {
+        super(_service, _utilsService, _logger);
     }
-
-
-    /**
-     * fetch the data and load them
-     * @param {SearchServiceParams} params the params to send to the service
-     *
-     */
-    fetchData(params:SearchServiceParams=new SearchServiceParams()) {
-        this._service.getAll(params).subscribe(
-            (data)=>{
-                this.series=this.initData(data);
-            },
-            (error)=>{
-                this._logger.error("Network error: ", error);
-            }
-        );
-
-    }
-
 
     ngOnChanges(){
-        this.fetchData(this._utilsService.getSearchServiceParamsFromFilterValues(this.filterValues));
+        super.ngOnChanges();
     }
-
 }

@@ -3,11 +3,6 @@ import { DynamicHTMLModule, DynamicHTMLComponent } from '../../core/components/d
 import { Filter, ResultSearchEvent} from '../../components/search/namespace';
 import {UtilsService} from '../../services/utils.service';
 
-@Component({
-  selector: 'app-base-page01',
-  template: ``,
-  styles: []
-})
 export class BasePage01Component implements OnInit {
     filterValues: Filter[]=[];
     reloadCharts=true;
