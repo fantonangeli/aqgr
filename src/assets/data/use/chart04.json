@@ -1,12 +1,12 @@
 [
-                ["Laminaria japonica", 10000000],
-                ["Penaeus vannamei", 3500000],
-                ["Claris spp", 100000],
-                ["Cyprinus carpio", 100000],
-                ["Hypophthalmichthys molitrix", 95000],
-                ["Salmo salar", 94000],
-                ["Oncorhynchus mykiss", 93000],
-                ["Pangasius spp", 90000],
-                ["Oreochromis niloticus", 85000],
-                ["Oncorhynchus kisutch", 75000]
+    {"key":"Laminaria japonica", "value":10000000},
+    {"key":"Penaeus vannamei", "value":3500000},
+    {"key":"Claris spp", "value":100000},
+    {"key":"Cyprinus carpio", "value":100000},
+    {"key":"Hypophthalmichthys molitrix", "value":95000},
+    {"key":"Salmo salar", "value":94000},
+    {"key":"Oncorhynchus mykiss", "value":93000},
+    {"key":"Pangasius spp", "value":90000},
+    {"key":"Oreochromis niloticus", "value":85000},
+    {"key":"Oncorhynchus kisutch", "value":75000}
             ]

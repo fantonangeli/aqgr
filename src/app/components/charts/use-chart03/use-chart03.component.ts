@@ -1,152 +1,34 @@
-import { Component, OnInit } from '@angular/core';
-import * as Highcharts from 'highcharts';
+import { Component, Input, OnChanges } from '@angular/core';
+import {LoggerService} from '../../../services/logger.service';
+import {UtilsService} from '../../../services/utils.service'
+import {BaseChart01Component} from '../base-chart01/base-chart01.component';
+import {Columns01Component} from '../columns01/columns01.component';
+import {UseChart03Service} from '../../../services/use/use-chart03.service';
 
 @Component({
   selector: 'app-use-chart03',
   template: `
-<div id="highcharts-5bf1869c-b2c3-4fcd-b2fc-00e29b94c83f">
-</div>
+    <app-columns01 [series]="series" *ngIf="series.length" [height]="300"></app-columns01>
   `,
   styles: []
 })
-export class UseChart03Component implements OnInit {
+export class UseChart03Component extends BaseChart01Component implements OnChanges {
+    constructor(_service:UseChart03Service, _utilsService:UtilsService, _logger:LoggerService) {
+        super(_service, _utilsService, _logger);
+    }
 
-    /* TODO: use data from service */
-  constructor() { }
+    /**
+     * initialize the data
+     *
+     * @param {any[]} data=[] the data from the service
+     * @returns {object[]} the series in highchart format
+     */
+    initData(data:any[]=[]):object[]{
+        return data;
+    }
 
- ngOnInit() {
-                 var options:any = {
-                    "title":
-                    {
-                        "text": ""
-                    },
-                    "subtitle":
-                    {
-                        "text": " "
-                    },
-                    "exporting":
-                    {
-                        "enabled": false
-                    },
-                    "chart":
-                    {
-                        "type": "column",
-                        "inverted": false,
-                        "polar": false
-                    },
-                    "plotOptions":
-                    {
-                        "series":
-                        {
-                            "stacking": "normal",
-                            "dataLabels":
-                            {
-                                "enabled": false
-                            },
-                            "animation": false
-                        }
-                    },
-                    "series": [
-                        {
-                            "data":[
- {
-   "name": "Caribbean and Latin America",
-   "y": 39.07
- },
- {
-   "name": "Asia",
-   "y": 17.27
- },
- {
-   "name": "Europe",
-   "y": 12.62
- },
- {
-   "name": "Africa",
-   "y": 10.96
- },
- {
-   "name": "North America",
-   "y": 7.75
- },
- {
-   "name": "Oceania",
-   "y": 3.31
- }
-]}
-],
-                    "data":
-                    {
-                        "csv": "\"Name\";\"Native\";\"Non-native\"\n\"Africa\";140;25\n\"Europe\";125;30\n\"Asia\";225;50\n\"Latin America\";160;30\n\"North America\";125;25\n\"Oceania\";110;25",
-                        "googleSpreadsheetKey": false,
-                        "googleSpreadsheetWorksheet": false
-                    },
-                    "yAxis": [
-                    {
-                        "visible": true,
-                        "showEmpty": true,
-                        "title":
-                        {
-                            "text": ""
-                        },
-                        "labels":
-                        {
-                            "format": "{value}"
-                        },
-                        "opposite": false,
-                        "ordinal": false,
-                        "reversed": false,
-                        "reversedStacks": false
-                    }],
-                    "pane":
-                    {
-                        "background": []
-                    },
-                    "responsive":
-                    {
-                        "rules": []
-                    },
-                    "credits":
-                    {
-                        "enabled": false
-                    },
-                    "xAxis": [
-                    {
-                        "title":
-                        {
-                            "text": ""
-                        },
-                type: 'category'
-                    }],
-                    "legend":
-                    {
-                        "enabled": false
-                    }
-                };
-                /*
-                // Sample of extending options:
-                Highcharts.merge(true, options, {
-                    chart: {
-                        backgroundColor: "#bada55"
-                    },
-                    plotOptions: {
-                        series: {
-                            cursor: "pointer",
-                            events: {
-                                click: function(event) {
-                                    alert(this.name + " clicked\n" +
-                                          "Alt: " + event.altKey + "\n" +
-                                          "Control: " + event.ctrlKey + "\n" +
-                                          "Shift: " + event.shiftKey + "\n");
-                                }
-                            }
-                        }
-                    }
-                });
-                */
-                new Highcharts.Chart(
-                    "highcharts-5bf1869c-b2c3-4fcd-b2fc-00e29b94c83f",
-                    options);
-  }
 
+    ngOnChanges(){
+        super.ngOnChanges();
+    }
 }
