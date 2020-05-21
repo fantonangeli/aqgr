@@ -23,8 +23,6 @@ export class BasePage01Component implements OnInit {
      */
     searchAggregation(event: Filter[]) {
         this.filterValues=event;
-
-        this.ChartsRowReloader();
     }
 
 
@@ -43,19 +41,9 @@ export class BasePage01Component implements OnInit {
 
     removeFilter(filterParam: Filter) {
         this.filterValues=this.removeFilterByKeyVal(this.filterValues, filterParam.key, filterParam.value);
-
-        this.ChartsRowReloader();
     }
 
 
-    /**
-     * reload the Charts Row 01
-     *
-     */
-    ChartsRowReloader(){
-        setTimeout(() => this.reloadCharts = false);
-        setTimeout(() => this.reloadCharts = true);
-    }
 
 
 }

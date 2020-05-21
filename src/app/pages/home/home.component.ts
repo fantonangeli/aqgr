@@ -15,7 +15,32 @@ export class HomeComponent extends BasePage01Component {
         super(_utilsService);
     }
 
+    removeFilter(filterParam: Filter) {
+        super.removeFilter(filterParam);
 
+        this.ChartsRowReloader();
+    }
+
+    /**
+     * action on facet click
+     *
+     * @param {object} type the type
+     */
+    searchAggregation(event: Filter[]) {
+        super.searchAggregation(event);
+
+        this.ChartsRowReloader();
+    }
+
+
+    /**
+     * reload the Charts Row 01
+     *
+     */
+    ChartsRowReloader(){
+        setTimeout(() => this.reloadCharts = false);
+        setTimeout(() => this.reloadCharts = true);
+    }
 
 
 }
