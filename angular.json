@@ -123,8 +123,13 @@
               "devServerTarget": "aqgr-information-system:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "aqgr-information-system"
 }
