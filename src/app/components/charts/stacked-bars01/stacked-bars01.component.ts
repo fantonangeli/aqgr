@@ -1,26 +1,12 @@
-import { Component, Input, AfterViewInit } from '@angular/core';
-import * as Highcharts from 'highcharts';
-import Exporting from 'highcharts/modules/exporting';
-
-declare var require: any;
-let Boost = require('highcharts/modules/boost');
-let noData = require('highcharts/modules/no-data-to-display');
-let More = require('highcharts/highcharts-more');
-
-Boost(Highcharts);
-noData(Highcharts);
-More(Highcharts);
-noData(Highcharts);
-Exporting(Highcharts);
+import { Component, Input } from '@angular/core';
+import {BaseChartRender01Component} from '../base-chart-render01/base-chart-render01.component';
 
 @Component({
   selector: 'app-stacked-bars01',
   template: `<div [attr.id]="wrapperId"></div> `,
   styleUrls: []
 })
-export class StackedBars01Component implements AfterViewInit  {
-    wrapperId=`pie${Math.floor(Math.random() * 1000)}Container`;
-    @Input() series :object[]=[];
+export class StackedBars01Component extends BaseChartRender01Component {
     @Input() xAxisTitle :string;
 
 
@@ -29,20 +15,9 @@ export class StackedBars01Component implements AfterViewInit  {
      *
      */
     showChart(){
-
-        let options: any = {
-            exporting: {
-                buttons: {
-                    contextButton: {
-                        menuItems: ['downloadPDF']
-                    }
-                }
-            },
+        this.options= {
             chart: {
                 type: "bar",
-            },
-            title: {
-                text: null
             },
             xAxis: {
                 type: 'category',
@@ -71,21 +46,14 @@ export class StackedBars01Component implements AfterViewInit  {
                 }
             },
             series: this.series,
-            credits: {
-                enabled: false
-            },
         };
 
-        Highcharts.chart(this.wrapperId, options);
+        super.showChart();
 }
 
-  constructor() {
-  }
 
-
-
-    ngAfterViewInit(){
-        this.showChart();
+    constructor() {
+        super();
     }
 
 }

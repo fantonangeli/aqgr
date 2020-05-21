@@ -20,29 +20,26 @@
             </div>
 
 
-            <ng-template #ChartsTpl let-taxonomy="taxonomy" let-specie="specie" let-ftype="ftype" let-sftype="sftype">
-                <div class="container mw-100 p-0" *ngIf="reloadCharts">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12">
-                            <div class="font-weight-bold h6 text-center">
-                                Number of primary farmed types entered into the Registry
-                            </div>
-                            <app-country-chart01 [filterValues]="filterValues"></app-country-chart01>
+            <div class="container mw-100 p-0" *ngIf="reloadCharts">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <div class="font-weight-bold h6 text-center">
+                            Number of primary farmed types entered into the Registry
                         </div>
-                    </div>
-                    <br>
-                    <br>
-                    <div class="row">
-                        <div class="col-sm-12 col-md-12 mt-5">
-                            <div class="font-weight-bold h6 text-center">
-                                Top 10 developed species (by number of farmed types)
-                            </div>
-                            <app-country-chart02 [filterValues]="filterValues"></app-country-chart02>
-                        </div>
+                        <app-country-chart01 [filterValues]="filterValues"></app-country-chart01>
                     </div>
                 </div>
-            </ng-template>
-            <ng-template *ngTemplateOutlet="ChartsTpl; context: {taxonomy:getFilterValueByKey('taxonomies', filterValues), specie:getFilterValueByKey('species', filterValues), ftype:getFilterValueByKey('ftypes', filterValues), sftype:getFilterValueByKey('sftypes', filterValues)}"></ng-template>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 mt-5">
+                        <div class="font-weight-bold h6 text-center">
+                            Top 10 developed species (by number of farmed types)
+                        </div>
+                        <app-country-chart02 [filterValues]="filterValues"></app-country-chart02>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

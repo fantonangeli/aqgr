@@ -1,62 +1,29 @@
-import { Component, Input, AfterViewInit, OnChanges } from '@angular/core';
+import { Component, Input} from '@angular/core';
 import * as Highcharts from 'highcharts';
-import Exporting from 'highcharts/modules/exporting';
-
-declare var require: any;
-let Boost = require('highcharts/modules/boost');
-let noData = require('highcharts/modules/no-data-to-display');
-let More = require('highcharts/highcharts-more');
-
-Boost(Highcharts);
-noData(Highcharts);
-More(Highcharts);
-noData(Highcharts);
-Exporting(Highcharts);
+import {BaseChartRender01Component} from '../base-chart-render01/base-chart-render01.component';
 
 @Component({
   selector: 'app-pie01',
   template: `<div [attr.id]="wrapperId"></div> `,
   styleUrls: []
 })
-export class Pie01Component implements AfterViewInit, OnChanges  {
-    wrapperId=`pie${Math.floor(Math.random() * 1000)}Container`;
-
-    private _viewInitialized=false;
-    
-    @Input() series :object[]=[];
+export class Pie01Component extends BaseChartRender01Component {
     @Input() enableDataLabels :boolean=true;
-    @Input() height:number=null;
     @Input() innerSize:string="30%";
-    
-    /**
-     * https://api.highcharts.com/highcharts/legend.enabled
-     */
-    @Input() legendEnabled :boolean=true;
 
 
-    
+
+
 
     /**
      * show the chart
      *
      */
     showChart(){
-        let options: any = {
-            exporting: {
-                buttons: {
-                    contextButton: {
-                        menuItems: ['downloadPDF']
-                    }
-                }
-            },
+        this.options= {
             chart: {
                 type: "pie",
-                height:this.height
-            },
-            title: {
-                text: null
-            },
-            xAxis: {
+                height:this.height,
             },
             yAxis: {
                 min: 0,
@@ -111,29 +78,17 @@ export class Pie01Component implements AfterViewInit, OnChanges  {
                 }
             },
             series: this.series,
-            credits: {
-                enabled: false
-            },
         };
 
-        options.series[0].innerSize=this.innerSize;
+        this.options.series[0].innerSize=this.innerSize;
 
-        Highcharts.chart(this.wrapperId, options);
-}
-
-  constructor() {
-  }
-
-
-    ngAfterViewInit(){
-        this._viewInitialized=true;
-        this.showChart();
+        super.showChart();
     }
 
-    ngOnChanges(){
-        if(!this._viewInitialized) return;
-
-        this.showChart();
+    constructor() {
+        super();
     }
+
+
 
 }
