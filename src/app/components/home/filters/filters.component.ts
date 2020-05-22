@@ -280,6 +280,8 @@ export class FiltersComponent implements OnChanges {
 
     ngOnChanges() {
         let params=new SearchServiceParams();
+        /* TODO: (high) show continents */
+        /* TODO: (high) show the countries only on search if no continents are selected (as per species) */
 
         if (!this.aggregationsTypes.length) this._logger.error("this.aggregationsTypes not valid!");
 
