@@ -1,6 +1,14 @@
 <div *ngIf="filterValues" class="pills-container">
     <div *ngFor="let filterCondition of filterValues">
-        <button class="filter-pill mr-2" (click)="removeFilter(filterCondition)" *ngIf="filterCondition.key && !(filterCondition.key==='taxonomies' && getFilterValueByKey('species', filterValues))">
+        <button 
+            class="filter-pill mr-2" 
+            (click)="removeFilter(filterCondition)" 
+            *ngIf="
+                filterCondition.key && 
+                !(filterCondition.key==='taxonomies' && getFilterValueByKey('species', filterValues)) &&
+                !(filterCondition.key==='continents' && getFilterValueByKey('countries', filterValues))
+            "
+        >
             <i
                 class="material-icons md-18 align-bottom mr-1">filter_list</i>{{filterCondition.value}}
             <span class="ml-2 text-muted pointer">×</span>

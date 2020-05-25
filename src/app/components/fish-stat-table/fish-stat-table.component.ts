@@ -20,6 +20,7 @@ export class FishStatTableComponent implements OnChanges {
     @Input() filterValues: Filter[]=[];
 
 
+    /* BUG: FishStatTableComponent doesn't send sftype */
 
     constructor(private _fishstatService: FishStatCultSpecCountriesService, private _utilsService:UtilsService, private _logger:LoggerService){
     }

@@ -2,6 +2,7 @@ import { Component, OnChanges, Input, Output, EventEmitter } from '@angular/core
 import {FilterTermsComponent} from '../../../components/search/filter-terms/filter-terms.component';
 import { Filter, AggregationInput, ResultComponent, ResultList, ResultSearchEvent, ViewTypeEnum } from '../../../components/search/namespace';
 import {CountriesService} from '../../../services/countries.service';
+import {ContinentsService} from '../../../services/continents.service';
 import {TaxonomiesService} from '../../../services/taxonomies.service';
 import {SpeciesService} from '../../../services/species.service';
 import {FtypesService} from '../../../services/ftypes.service';
@@ -27,11 +28,12 @@ export class FiltersComponent implements OnChanges {
     @Input() aggregationsTypes:string[]=[];
 
     private aggIndexes={
-        countries:0,
-        taxonomies:1,
-        species:2,
-        ftypes:3,
-        sftypes:4
+        continents:0,
+        countries:1,
+        taxonomies:2,
+        species:3,
+        ftypes:4,
+        sftypes:5
     };
 
   @Output() search = new EventEmitter<Filter[]>();
@@ -41,6 +43,7 @@ export class FiltersComponent implements OnChanges {
       private _FtypesService:FtypesService,
       private _speciesService:SpeciesService, 
       private _SFtypesService:SFtypesService, 
+      private _continentsService:ContinentsService,
       private _countriesService:CountriesService,
       private _taxonomiesService:TaxonomiesService,
       private _utilsService:UtilsService, 
@@ -49,6 +52,16 @@ export class FiltersComponent implements OnChanges {
   ) {
 
       this.aggregations=[
+          {
+              "type": "continents",
+              "title": "By continents",
+              "parameter": "document.continentsMapping",
+              "filter": "",
+              "aggregation": {
+                  "name": "continents",
+                  "values":[]
+              }
+          },
           {
               "type": "countries",
               "title": "By countries",
@@ -111,9 +124,9 @@ export class FiltersComponent implements OnChanges {
      *
      */
     fetchSFtypes(params:SearchServiceParams=new SearchServiceParams()) {
-        let {name, country, taxonomy, specie, ftype, sftype} = params;
+        let {name, continent, country, taxonomy, specie, ftype, sftype} = params;
 
-        this._SFtypesService.getAll(<SearchServiceParams>{country, taxonomy, specie, ftype}).subscribe(
+        this._SFtypesService.getAll(<SearchServiceParams>{continent, country, taxonomy, specie, ftype}).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.sftypes].aggregation.values=data;
             },
@@ -131,9 +144,9 @@ export class FiltersComponent implements OnChanges {
      *
      */
     fetchFtypes(params:SearchServiceParams=new SearchServiceParams()) {
-        let {name, country, taxonomy, specie, ftype, sftype} = params;
+        let {name, continent, country, taxonomy, specie, ftype, sftype} = params;
 
-        this._FtypesService.getAll(<SearchServiceParams>{country, taxonomy, specie}).subscribe(
+        this._FtypesService.getAll(<SearchServiceParams>{continent, country, taxonomy, specie}).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.ftypes].aggregation.values=data;
             },
@@ -150,14 +163,14 @@ export class FiltersComponent implements OnChanges {
      *
      */
     fetchSpecs(params:SearchServiceParams=new SearchServiceParams()) {
+        let {name, continent, country, taxonomy, specie, ftype, sftype} = params;
+
         if(!params.name && !params.taxonomy) {
             this.aggregations[this.aggIndexes.species].aggregation.values=[];
             return;
         }
 
-        let {name, country, taxonomy, specie, ftype, sftype} = params;
-
-        this._speciesService.getAll(<SearchServiceParams>{country, taxonomy, name}).subscribe(
+        this._speciesService.getAll(<SearchServiceParams>{continent, country, taxonomy, name}).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.species].aggregation.values=data;
             },
@@ -174,9 +187,9 @@ export class FiltersComponent implements OnChanges {
      *
      */
     fetchTaxonomies(params:SearchServiceParams=new SearchServiceParams()) {
-        let {name, country, taxonomy, specie, ftype, sftype} = params;
+        let {name, continent, country, taxonomy, specie, ftype, sftype} = params;
 
-        this._taxonomiesService.getAll(<SearchServiceParams>{country}).subscribe(
+        this._taxonomiesService.getAll(<SearchServiceParams>{continent, country}).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.taxonomies].aggregation.values=data;
             },
@@ -193,11 +206,35 @@ export class FiltersComponent implements OnChanges {
      *
      */
     fetchCountries(params:SearchServiceParams=new SearchServiceParams()) {
-        let {name, country, taxonomy, specie, ftype, sftype} = params;
+        let {name, continent, country, taxonomy, specie, ftype, sftype} = params;
 
-        this._countriesService.getAll(<SearchServiceParams>{name}).subscribe(
+        if(!params.name && !params.continent) {
+            this.aggregations[this.aggIndexes.species].aggregation.values=[];
+            return;
+        }
+
+        this._countriesService.getAll(<SearchServiceParams>{continent, name}).subscribe(
             (data)=>{
                 this.aggregations[this.aggIndexes.countries].aggregation.values=data;
+            },
+            (error)=>{
+                this._logger.error("Network error: ", error);
+            }
+        );
+
+    }
+
+    /**
+     * fetch the continents and load them in this._service
+     * @param {SearchServiceParams} params the params to send to the service
+     *
+     */
+    fetchContinents(params:SearchServiceParams=new SearchServiceParams()) {
+        let {name, continent, taxonomy, specie, ftype, sftype} = params;
+
+        this._continentsService.getAll(<SearchServiceParams>{name}).subscribe(
+            (data)=>{
+                this.aggregations[this.aggIndexes.continents].aggregation.values=data;
             },
             (error)=>{
                 this._logger.error("Network error: ", error);
@@ -280,12 +317,15 @@ export class FiltersComponent implements OnChanges {
 
     ngOnChanges() {
         let params=new SearchServiceParams();
-        /* TODO: (high) show continents */
-        /* TODO: (high) show the countries only on search if no continents are selected (as per species) */
 
         if (!this.aggregationsTypes.length) this._logger.error("this.aggregationsTypes not valid!");
 
         params=this._utilsService.getSearchServiceParamsFromFilterValues(this.filterValues);
+
+        if (~this.aggregationsTypes.indexOf("continents")) {
+            if (params.continent) this.aggregations=this.filterAggregation("continents", params.continent, this.aggregations);
+            else this.fetchContinents( params);
+        }
 
         if (~this.aggregationsTypes.indexOf("countries")) {
             if (params.country) this.aggregations=this.filterAggregation("countries", params.country, this.aggregations);
@@ -343,7 +383,8 @@ export class FiltersComponent implements OnChanges {
         if (type==="species") {
             this.aggregations[this.aggIndexes.species].filter=term;
             params.name=term;
-            params.country=(this._utilsService.getFilterValueByKey("country", this.filterValues) || {value:""}).value;
+            params.continent=(this._utilsService.getFilterValueByKey("continents", this.filterValues) || {value:""}).value;
+            params.country=(this._utilsService.getFilterValueByKey("countries", this.filterValues) || {value:""}).value;
             params.taxonomy=(this._utilsService.getFilterValueByKey("taxonomies", this.filterValues) || {value:""}).value;
 
             this.fetchSpecs(
@@ -352,6 +393,7 @@ export class FiltersComponent implements OnChanges {
         } else if (type==="countries") {
             this.aggregations[this.aggIndexes.countries].filter=term;
             params.name=term;
+            params.continent=(this._utilsService.getFilterValueByKey("continents", this.filterValues) || {value:""}).value;
 
             this.fetchCountries(
                 params
