@@ -10,6 +10,14 @@ import { environment } from '../../environments/environment';
 export class LoggerService {
 
     /**
+     * getTime.
+     */
+    private getTime(){
+        var matches = Date().match(/\w+ \w+ \d+ \d+ ([\d:]+)/i);
+        return matches[1];
+    }
+
+    /**
      * log 4 errors
      *
      * @param {string} msg the message
@@ -28,7 +36,7 @@ export class LoggerService {
     service(servicename: string, params:any="") {
         if(!environment.logging) return;
 
-        this.log("Service: "+ servicename, params, "green");
+        this.log("Service:"+ servicename, params, "green");
     }
 
 
@@ -40,7 +48,11 @@ export class LoggerService {
      * @param {string} color pick your color
      */
     log(msg: any, data:any, color:string="") {
-        console.log("%c"+msg, `color: ${color}; font-weight: bold;`, data);
+        let logmsg="";
+
+        logmsg=this.getTime()+" "+msg;
+
+        console.log("%c"+logmsg, `color: ${color}; font-weight: bold;`, data);
     }
 
 }
