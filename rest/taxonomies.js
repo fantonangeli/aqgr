@@ -193,6 +193,15 @@ module.exports=[
       "Cyprus",
       "Iceland",
       "Mayotte"
+    ],
+    "continent": [
+      "Asia",
+      "Africa",
+      "Americas",
+      "TBD",
+      "Europe",
+      "Oceania",
+      ""
     ]
   },
   {
@@ -292,6 +301,15 @@ module.exports=[
       "Nigeria",
       "Ireland",
       "Qatar",
+      "TBD"
+    ],
+    "continent": [
+      "Asia",
+      "Africa",
+      "Europe",
+      "Oceania",
+      "Americas",
+      "",
       "TBD"
     ]
   },
@@ -424,6 +442,14 @@ module.exports=[
       "Madagascar",
       "Moldova, Republic of",
       "Czechoslovakia"
+    ],
+    "continent": [
+      "Europe",
+      "Asia",
+      "Americas",
+      "Oceania",
+      "Africa",
+      ""
     ]
   },
   {
@@ -514,6 +540,15 @@ module.exports=[
       "New Caledonia",
       "French Polynesia",
       "Netherlands Antilles",
+      "TBD"
+    ],
+    "continent": [
+      "Asia",
+      "Americas",
+      "Europe",
+      "Oceania",
+      "Africa",
+      "",
       "TBD"
     ]
   },
@@ -637,6 +672,14 @@ module.exports=[
       "Zambia",
       "United Kingdom",
       "Saint Kitts and Nevis"
+    ],
+    "continent": [
+      "Asia",
+      "Americas",
+      "Africa",
+      "Oceania",
+      "TBD",
+      "Europe"
     ]
   },
   {
@@ -701,6 +744,15 @@ module.exports=[
       "Italy",
       "France",
       "Central African Republic"
+    ],
+    "continent": [
+      "Asia",
+      "TBD",
+      "Africa",
+      "Americas",
+      "Oceania",
+      "Europe",
+      ""
     ]
   },
   {
@@ -741,6 +793,13 @@ module.exports=[
       "South Africa",
       "Saudi Arabia",
       ""
+    ],
+    "continent": [
+      "Asia",
+      "Europe",
+      "Americas",
+      "Africa",
+      ""
     ]
   },
   {
@@ -755,6 +814,11 @@ module.exports=[
       "Fiji",
       "Indonesia",
       "Papua New Guinea"
+    ],
+    "continent": [
+      "Oceania",
+      "Asia",
+      "Africa"
     ]
   }
 ];

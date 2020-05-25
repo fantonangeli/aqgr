@@ -8,20 +8,20 @@ module.exports=[
     "value": 1064
   },
   {
-    "name": "Africa",
-    "value": 408
-  },
-  {
     "name": "Americas",
     "value": 560
   },
   {
-    "name": "TBD",
-    "value": 129
+    "name": "Africa",
+    "value": 408
   },
   {
     "name": "Oceania",
     "value": 171
+  },
+  {
+    "name": "TBD",
+    "value": 129
   },
   {
     "name": "",
