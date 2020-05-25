@@ -1,30 +1,22 @@
 module.exports=[
   {
-    "name": "Asia",
+    "key": "Asia",
     "value": 1155
   },
   {
-    "name": "Europe",
+    "key": "Europe",
     "value": 1064
   },
   {
-    "name": "Americas",
+    "key": "Americas",
     "value": 560
   },
   {
-    "name": "Africa",
+    "key": "Africa",
     "value": 408
   },
   {
-    "name": "Oceania",
+    "key": "Oceania",
     "value": 171
-  },
-  {
-    "name": "TBD",
-    "value": 129
-  },
-  {
-    "name": "",
-    "value": 31
   }
 ];
