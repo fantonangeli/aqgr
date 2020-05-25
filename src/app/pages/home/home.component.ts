@@ -13,6 +13,7 @@ export class HomeComponent extends BasePage01Component {
 
     constructor(_utilsService:UtilsService){
         super(_utilsService);
+        // this.filterValues=[{"key":"taxonomies","parameter":"document.taxonomiesMapping","value":"Aquatic plants"},{"key":"species","parameter":"document.speciesMapping","value":"Algae"},{"key":"ftypes","parameter":"document.ftypeMapping","value":"Strains"},{"key":"sftypes","parameter":"document.sftypeMapping","value":"Hybrids"}];
     }
 
     removeFilter(filterParam: Filter) {

@@ -67,7 +67,7 @@ export class UtilsService {
         if(ssp.taxonomy) params[environment.services.params.taxonomy]=ssp.taxonomy;
         if(ssp.specie) params[environment.services.params.specie]=ssp.specie;
         if(ssp.ftype) params[environment.services.params.ftype]=ssp.ftype;
-        if(ssp.sftype) params[environment.services.params.ftype]=ssp.ftype;
+        if(ssp.sftype) params[environment.services.params.sftype]=ssp.sftype;
         if(ssp.limit) params[environment.services.params.limit]=ssp.limit;
 
         return params;
