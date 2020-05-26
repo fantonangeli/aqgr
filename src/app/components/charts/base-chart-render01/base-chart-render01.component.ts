@@ -16,7 +16,6 @@ Exporting(Highcharts);
 export class BaseChartRender01Component  implements AfterViewInit, OnChanges {
     wrapperId=`chart${Math.floor(Math.random() * 1000)}Container`;
     options:any;
-    /* TODO: png export in charts */
     /* TODO: (low) share on facebook */
 
     @Input() series :object[]=[];
@@ -45,7 +44,7 @@ export class BaseChartRender01Component  implements AfterViewInit, OnChanges {
             exporting: {
                 buttons: {
                     contextButton: {
-                        menuItems: ['downloadPDF']
+                        menuItems: ['downloadPDF', 'downloadPNG']
                     }
                 }
             },
