@@ -1,0 +1,32 @@
+[
+ {
+   "Name": "Europe",
+   "Trade": 32,
+   "Environment and biodiversity conservation": 6,
+   "Legislation": 3
+ },
+ {
+   "Name": "Latin America",
+   "Trade": 15,
+   "Environment and biodiversity conservation": 13,
+   "Legislation": 2
+ },
+ {
+   "Name": "Asia Pacific",
+   "Trade": 17,
+   "Environment and biodiversity conservation": 15,
+   "Legislation": 3
+ },
+ {
+   "Name": "Africa",
+   "Trade": 12,
+   "Environment and biodiversity conservation": 1,
+   "Legislation": 2
+ },
+ {
+   "Name": "North America",
+   "Trade": 11,
+   "Environment and biodiversity conservation": 1,
+   "Legislation": 0
+ }
+]
