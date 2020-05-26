@@ -1,6 +1,6 @@
 import { Component, OnChanges, Input } from '@angular/core';
 import * as Highcharts from 'highcharts';
-import {CountryDevSpeciesService} from '../../../services/country-dev-species.service';
+import {CountryDevSpeciesService} from '../../../services/country/country-dev-species.service';
 import {StackedBars01Component} from '../stacked-bars01/stacked-bars01.component';
 import { Filter} from '../../../components/search/namespace';
 import {SearchServiceParams} from '../../../namespace';

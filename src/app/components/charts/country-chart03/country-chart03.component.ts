@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {CountrySpeciesService} from '../../../services/country-species.service';
+import {CountrySpeciesService} from '../../../services/country/country-species.service';
 import {Bars01Component} from '../bars01/bars01.component';
 import {LoggerService} from '../../../services/logger.service';
 

@@ -3,8 +3,8 @@ import { ActivatedRoute } from "@angular/router";
 import * as Highcharts from 'highcharts';
 import { CountryChart01Component } from '../../components/charts/country-chart01/country-chart01.component';
 import { CountryChart02Component } from '../../components/charts/country-chart02/country-chart02.component';
-import { CountryChart03Component } from '../../components/charts/country-chart03/country-chart03.component';
-import {CountryInfoService} from '../../services/country-info.service';
+// import { CountryChart03Component } from '../../components/charts/country-chart03/country-chart03.component';
+import {CountryInfoService} from '../../services/country/country-info.service';
 import { Filter} from '../../components/search/namespace';
 import {LoggerService} from '../../services/logger.service';
 
