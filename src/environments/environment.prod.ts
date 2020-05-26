@@ -11,6 +11,7 @@ export const environment = {
             byFtype:"../assets/data/FishStatSpecCountries.ASFISCode-MSM.json?species="
         },
         params: {
+            continent:"continent_like", 
             country:"country_like", 
             taxonomy:"taxonomy_like", 
             specie:"specie_like", 
@@ -34,6 +35,9 @@ export const environment = {
         taxonomies: {
             all:baseUrl+"taxonomies",
             limit: 10
+        },
+        continents:{
+            all:baseUrl+"continents"
         },
         country:{
             info:baseUrl+"countryInfo?",
