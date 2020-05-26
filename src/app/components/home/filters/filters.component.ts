@@ -284,7 +284,11 @@ export class FiltersComponent implements OnChanges {
         this.filterValues=this.addFilter(type,parameter, event,this.filterValues);
 
         //reset the search value
-        this.aggregations[this.aggIndexes[type]].filter="",
+        this.aggregations[this.aggIndexes[type]].filter="";
+
+        //reset the search value for dependent types
+        if(type==="continents") this.aggregations[this.aggIndexes["countries"]].filter=""; 
+        if(type==="taxonomies") this.aggregations[this.aggIndexes["species"]].filter=""; 
 
         this.search.emit(this.filterValues);
     }
@@ -317,6 +321,7 @@ export class FiltersComponent implements OnChanges {
 
     ngOnChanges() {
         let params=new SearchServiceParams();
+
 
         if (!this.aggregationsTypes.length) this._logger.error("this.aggregationsTypes not valid!");
 

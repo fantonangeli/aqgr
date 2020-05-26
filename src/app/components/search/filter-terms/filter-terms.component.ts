@@ -14,12 +14,11 @@ export class FilterTermsComponent implements OnChanges {
     @Input() selectedFilter: Filter;
     @Output() filterTermEvent: EventEmitter<string> = new EventEmitter<string>();
     @Output() filterByName: EventEmitter<string> = new EventEmitter<string>();
-    searchText:string="";
+    @Input() searchText:string="";
 
     constructor() { }
 
     ngOnChanges() {
-        console.log();
     }
 
     onSearchChange(searchValue: string): void {  
