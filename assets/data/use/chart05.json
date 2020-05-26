@@ -1,0 +1,38 @@
+[
+ {
+   "Name": "Africa",
+   "No risk": 10,
+   "Potential risk": 12,
+   "Risk": 8
+ },
+ {
+   "Name": "Asia",
+   "No risk": 15,
+   "Potential risk": 35,
+   "Risk": 15
+ },
+ {
+   "Name": "Europe",
+   "No risk": 8,
+   "Potential risk": 15,
+   "Risk": 15
+ },
+ {
+   "Name": "Latin America and the Caribbean",
+   "No risk": 15,
+   "Potential risk": 11,
+   "Risk": 10
+ },
+ {
+   "Name": "Oceania",
+   "No risk": 8,
+   "Potential risk": 12,
+   "Risk": 10
+ },
+ {
+   "Name": "North America",
+   "No risk": 5,
+   "Potential risk": 20,
+   "Risk": 10
+ }
+]

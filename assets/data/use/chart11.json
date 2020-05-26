@@ -1,0 +1,42 @@
+[
+ {
+   "Name": "Europe",
+   "gametes": 34,
+   "embryos": 2,
+   "tissues": 3,
+   "Spores": 1,
+   "other": 5
+ },
+ {
+   "Name": "Latin America",
+   "gametes": 32,
+   "embryos": 4,
+   "tissues": 2,
+   "Spores": 0,
+   "other": 2
+ },
+ {
+   "Name": "Asia Pacific",
+   "gametes": 23,
+   "embryos": 2,
+   "tissues": 3,
+   "Spores": 5,
+   "other": 1
+ },
+ {
+   "Name": "Africa",
+   "gametes": 12,
+   "embryos": 3,
+   "tissues": 2,
+   "Spores": 5,
+   "other": 2
+ },
+ {
+   "Name": "North America",
+   "gametes": 23,
+   "embryos": 3,
+   "tissues": 2,
+   "Spores": 7,
+   "other": 5
+ }
+]

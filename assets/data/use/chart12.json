@@ -1,0 +1,82 @@
+[
+ {
+   "Names": "Misc. animals",
+   "gametes": 1,
+   "embryos": 0,
+   "tissues": 0,
+   "Spores": 0,
+   "other": 0
+ },
+ {
+   "Names": "Misc. products",
+   "gametes": 2,
+   "embryos": 0,
+   "tissues": 0,
+   "Spores": 0,
+   "other": 0
+ },
+ {
+   "Names": "Freshwater Macrophytes",
+   "gametes": 4,
+   "embryos": 2,
+   "tissues": 0,
+   "Spores": 1,
+   "other": 0
+ },
+ {
+   "Names": "Euryhaline finfish",
+   "gametes": 6,
+   "embryos": 0,
+   "tissues": 0,
+   "Spores": 2,
+   "other": 0
+ },
+ {
+   "Names": "Seaweeds",
+   "gametes": 6,
+   "embryos": 0,
+   "tissues": 2,
+   "Spores": 6,
+   "other": 3
+ },
+ {
+   "Names": "Marine finfish",
+   "gametes": 12,
+   "embryos": 0,
+   "tissues": 0,
+   "Spores": 0,
+   "other": 0
+ },
+ {
+   "Names": "Molluscs",
+   "gametes": 6,
+   "embryos": 7,
+   "tissues": 2,
+   "Spores": 0,
+   "other": 1
+ },
+ {
+   "Names": "Crustaceans",
+   "gametes": 14,
+   "embryos": 0,
+   "tissues": 2,
+   "Spores": 0,
+   "other": 0
+ },
+ {
+   "Names": "Microalgae",
+   "gametes": 0,
+   "embryos": 0,
+   "tissues": 0,
+   "Spores": 12,
+   "other": 12
+ },
+ {
+   "Names": "Freshwater Finfish",
+   "gametes": 24,
+   "embryos": 0,
+   "tissues": 4,
+   "Spores": 0,
+   "other": 0
+ }
+]

@@ -1,0 +1,37 @@
+[
+ {
+   "Name": "Europe",
+   "Effective": 32,
+   "Somewhat": 6,
+   "Not effective": 4,
+   "Uknown": 3
+ },
+ {
+   "Name": "Latin America",
+   "Effective": 15,
+   "Somewhat": 13,
+   "Not effective": 4,
+   "Uknown": 2
+ },
+ {
+   "Name": "Asia Pacific",
+   "Effective": 17,
+   "Somewhat": 15,
+   "Not effective": 3,
+   "Uknown": 3
+ },
+ {
+   "Name": "Africa",
+   "Effective": 12,
+   "Somewhat": 1,
+   "Not effective": 1,
+   "Uknown": 2
+ },
+ {
+   "Name": "North America",
+   "Effective": 11,
+   "Somewhat": 1,
+   "Not effective": 0,
+   "Uknown": 0
+ }
+]

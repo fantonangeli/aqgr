@@ -1,0 +1,82 @@
+[
+ {
+   "Name": "Cyprinus carpio",
+   "gametes": 1,
+   "embryos": 0,
+   "tissues": 0,
+   "Spores": 0,
+   "other": 0
+ },
+ {
+   "Name": "Laminaria saccarima",
+   "gametes": 2,
+   "embryos": 0,
+   "tissues": 0,
+   "Spores": 0,
+   "other": 0
+ },
+ {
+   "Name": "Eucheuma denticulatum",
+   "gametes": 4,
+   "embryos": 2,
+   "tissues": 0,
+   "Spores": 1,
+   "other": 0
+ },
+ {
+   "Name": "Oreochromis niloticus",
+   "gametes": 6,
+   "embryos": 0,
+   "tissues": 0,
+   "Spores": 2,
+   "other": 0
+ },
+ {
+   "Name": "Nanochioropsis oculata",
+   "gametes": 6,
+   "embryos": 0,
+   "tissues": 2,
+   "Spores": 6,
+   "other": 3
+ },
+ {
+   "Name": "Penaeus vannamei",
+   "gametes": 12,
+   "embryos": 0,
+   "tissues": 0,
+   "Spores": 0,
+   "other": 0
+ },
+ {
+   "Name": "Machrobrachium rosenbergii",
+   "gametes": 6,
+   "embryos": 7,
+   "tissues": 2,
+   "Spores": 0,
+   "other": 1
+ },
+ {
+   "Name": "Crassotrea gigas",
+   "gametes": 14,
+   "embryos": 0,
+   "tissues": 2,
+   "Spores": 0,
+   "other": 0
+ },
+ {
+   "Name": "Cyprinus carpio",
+   "gametes": 0,
+   "embryos": 0,
+   "tissues": 0,
+   "Spores": 12,
+   "other": 12
+ },
+ {
+   "Name": "Laminaria saccarima",
+   "gametes": 24,
+   "embryos": 0,
+   "tissues": 4,
+   "Spores": 0,
+   "other": 0
+ }
+]
