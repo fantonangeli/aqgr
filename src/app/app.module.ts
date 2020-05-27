@@ -39,6 +39,8 @@ import { UseChart10Component } from './components/charts/use-chart10/use-chart10
 import { UseChart11Component } from './components/charts/use-chart11/use-chart11.component';
 import { UseChart12Component } from './components/charts/use-chart12/use-chart12.component';
 import { UseChart13Component } from './components/charts/use-chart13/use-chart13.component';
+import { UseChart08Component } from './components/charts/use-chart08/use-chart08.component';
+import { UseChart09Component } from './components/charts/use-chart09/use-chart09.component';
 
 @NgModule({
   declarations: [
@@ -73,6 +75,8 @@ import { UseChart13Component } from './components/charts/use-chart13/use-chart13
     UseChart11Component,
     UseChart12Component,
     UseChart13Component,
+    UseChart08Component,
+    UseChart09Component,
   ],
   imports: [
     BrowserModule,
