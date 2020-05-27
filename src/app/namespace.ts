@@ -50,3 +50,25 @@ export class SearchServiceParams {
      */
     limit: number = 10;
 }
+
+
+/**
+ * define the type of the chart data type received from the server
+ */
+export enum ChartDataFormat {
+
+    /**
+     * highcharts format
+     */
+    highcharts,
+
+    /**
+     * [{key, value}] format
+     */
+    keyval,
+
+    /**
+     * [{key, values:[{key, value}]}] format
+     */
+    stackedKeyval,
+}
