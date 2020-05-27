@@ -68,6 +68,8 @@ export const environment = {
             chart05:"assets/data/use/chart05.json",
             chart06:"assets/data/use/chart06.json",
             chart07:"assets/data/use/chart07.json",
+            chart08:"assets/data/use/chart08.json",
+            chart09:"assets/data/use/chart09.json",
             chart010:"assets/data/use/chart010.json",
             chart011:"assets/data/use/chart011.json",
             chart012:"assets/data/use/chart012.json",
