@@ -20,6 +20,23 @@ export class CountriesChart03Component extends BaseChart01Component implements O
         super(_service, _utilsService, _logger);
     }
 
+    /**
+     * initialize the data
+     *
+     * @param {any[]} data=[] the data from the service
+     * @returns {object[]} the series in highchart format
+     */
+    initData(data:any[]=[]):object[]{
+        let r=[{
+            "data": [
+            ]
+        }];
+
+        r[0].data=data.map(e=>({"name": e.key, "y":e.value}));
+
+        return r;
+    }
+
     ngOnChanges(){
         let params=new SearchServiceParams();
         params.taxonomy=(this.selectedTaxonomy)?this.selectedTaxonomy.value:"";

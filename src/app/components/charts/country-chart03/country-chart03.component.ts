@@ -10,8 +10,10 @@ import {UtilsService} from '../../../services/utils.service'
 
 @Component({
   selector: 'app-country-chart03',
-  templateUrl: './country-chart03.component.html',
-  styleUrls: ['./country-chart03.component.scss']
+  template:`
+    <app-stacked-columns01 [series]="series" *ngIf="series.length"></app-stacked-columns01>
+  `,
+  styleUrls: []
 })
 export class CountryChart03Component extends BaseChart01Component implements OnChanges {
 
@@ -19,15 +21,6 @@ export class CountryChart03Component extends BaseChart01Component implements OnC
         super(_service, _utilsService, _logger);
     }
 
-    /**
-     * initialize the data
-     *
-     * @param {any[]} data=[] the data from the service
-     * @returns {object[]} the series in highchart format
-     */
-    initData(data:any[]=[]):object[]{
-        return data;
-    }
 
     ngOnChanges(){
         super.ngOnChanges();

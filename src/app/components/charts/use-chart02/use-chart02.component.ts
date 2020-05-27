@@ -17,16 +17,6 @@ export class UseChart02Component extends BaseChart01Component implements OnChang
         super(_service, _utilsService, _logger);
     }
 
-    /**
-     * initialize the data
-     *
-     * @param {any[]} data=[] the data from the service
-     * @returns {object[]} the series in highchart format
-     */
-    initData(data:any[]=[]):object[]{
-        return data;
-    }
-
 
     ngOnChanges(){
         super.ngOnChanges();

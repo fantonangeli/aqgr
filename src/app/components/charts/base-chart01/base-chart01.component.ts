@@ -12,21 +12,15 @@ export class BaseChart01Component {
   constructor(protected _service, protected _utilsService:UtilsService, protected _logger:LoggerService) { }
 
     /**
-     * initialize the data
+     * initialize the data. Intended to be overridden in special cases
      *
      * @param {any[]} data=[] the data from the service
      * @returns {object[]} the series in highchart format
      */
     initData(data:any[]=[]):object[]{
-        let r=[{
-            "data": [
-            ]
-        }];
-
-        r[0].data=data.map(e=>({"name": e.key, "y":e.value}));
-
-        return r;
+        return data;
     }
+
 
 
     /**

@@ -1,28 +1,24 @@
 [{
         "name": "Captive propagated",
         "data": [{
-            "name": "Serie",
             "y": 32
         }]
     },
     {
         "name": "Wild Sourced",
         "data": [{
-            "name": "Serie",
             "y": 10
         }]
     },
     {
         "name": "Strains",
         "data": [{
-            "name": "Serie",
             "y": 9
         }]
     },
     {
         "name": "Varieties",
         "data": [{
-            "name": "Serie",
             "y": 7
         }]
     }
