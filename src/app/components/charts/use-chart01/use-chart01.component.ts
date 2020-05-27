@@ -4,6 +4,7 @@ import {UtilsService} from '../../../services/utils.service'
 import {BaseChart01Component} from '../base-chart01/base-chart01.component';
 import {Pie01Component} from '../pie01/pie01.component';
 import {UseChart01Service} from '../../../services/use/use-chart01.service';
+import {ChartDataFormat} from '../../../namespace';
 
 @Component({
   selector: 'app-use-chart01',
@@ -13,6 +14,8 @@ import {UseChart01Service} from '../../../services/use/use-chart01.service';
   styles: []
 })
 export class UseChart01Component extends BaseChart01Component implements OnChanges {
+    dataFormat=ChartDataFormat.keyval;
+
     constructor(_service:UseChart01Service, _utilsService:UtilsService, _logger:LoggerService) {
         super(_service, _utilsService, _logger);
     }

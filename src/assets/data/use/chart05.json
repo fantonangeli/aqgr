@@ -1,38 +1,89 @@
 [
- {
-   "Name": "Africa",
-   "No risk": 10,
-   "Potential risk": 12,
-   "Risk": 8
- },
- {
-   "Name": "Asia",
-   "No risk": 15,
-   "Potential risk": 35,
-   "Risk": 15
- },
- {
-   "Name": "Europe",
-   "No risk": 8,
-   "Potential risk": 15,
-   "Risk": 15
- },
- {
-   "Name": "Latin America and the Caribbean",
-   "No risk": 15,
-   "Potential risk": 11,
-   "Risk": 10
- },
- {
-   "Name": "Oceania",
-   "No risk": 8,
-   "Potential risk": 12,
-   "Risk": 10
- },
- {
-   "Name": "North America",
-   "No risk": 5,
-   "Potential risk": 20,
-   "Risk": 10
- }
+  {
+    "key": "No risk",
+    "values": [
+      {
+        "key": "Africa",
+        "value": 10
+      },
+      {
+        "key": "Asia",
+        "value": 15
+      },
+      {
+        "key": "Europe",
+        "value": 8
+      },
+      {
+        "key": "Latin America and the Caribbean",
+        "value": 15
+      },
+      {
+        "key": "Oceania",
+        "value": 8
+      },
+      {
+        "key": "North America",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "key": "Potential risk",
+    "values": [
+      {
+        "key": "Africa",
+        "value": 12
+      },
+      {
+        "key": "Asia",
+        "value": 35
+      },
+      {
+        "key": "Europe",
+        "value": 15
+      },
+      {
+        "key": "Latin America and the Caribbean",
+        "value": 11
+      },
+      {
+        "key": "Oceania",
+        "value": 12
+      },
+      {
+        "key": "North America",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "key": "Risk",
+    "values": [
+      {
+        "key": "Africa",
+        "value": 8
+      },
+      {
+        "key": "Asia",
+        "value": 15
+      },
+      {
+        "key": "Europe",
+        "value": 15
+      },
+      {
+        "key": "Latin America and the Caribbean",
+        "value": 10
+      },
+      {
+        "key": "Oceania",
+        "value": 10
+      },
+      {
+        "key": "North America",
+        "value": 10
+      }
+    ]
+  }
 ]
