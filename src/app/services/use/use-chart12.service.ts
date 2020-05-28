@@ -24,8 +24,8 @@ export class UseChart12Service extends BaseService{
      */
     getAll(ssp:SearchServiceParams):Observable<AggregationItem[]>{
         return this._getAll(
-            "UseChart012Service",
-            environment.services.use.chart012, 
+            "UseChart12Service",
+            environment.services.use.chart12, 
             ssp
         );
     }

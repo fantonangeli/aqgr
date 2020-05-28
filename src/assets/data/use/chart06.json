@@ -1,62 +1,137 @@
 [
- {
-   "Name": "Marine finfish ",
-   "No risk": 12,
-   "Potential risk": 16,
-   "Risk": 10
- },
- {
-   "Name": "Euryhaline finfish",
-   "No risk": 5,
-   "Potential risk": 4,
-   "Risk": 8
- },
- {
-   "Name": "Freshwater Finfish",
-   "No risk": 8,
-   "Potential risk": 11,
-   "Risk": 10
- },
- {
-   "Name": "Molluscs",
-   "No risk": 12,
-   "Potential risk": 14,
-   "Risk": 5
- },
- {
-   "Name": "Crustaceans",
-   "No risk": 9,
-   "Potential risk": 11,
-   "Risk": 3
- },
- {
-   "Name": "Freshwater Aquatic Macrophytes",
-   "No risk": 5,
-   "Potential risk": 7,
-   "Risk": 8
- },
- {
-   "Name": "Seaweeds",
-   "No risk": 11,
-   "Potential risk": 6,
-   "Risk": 9
- },
- {
-   "Name": "Microalgae",
-   "No risk": 10,
-   "Potential risk": 6,
-   "Risk": 6
- },
- {
-   "Name": "Misc. aquatic animals",
-   "No risk": 5,
-   "Potential risk": 4,
-   "Risk": 4
- },
- {
-   "Name": "Misc. aquatic products",
-   "No risk": 5,
-   "Potential risk": 8,
-   "Risk": 4
- }
+  {
+    "key": "No risk",
+    "values": [
+      {
+        "key": "Marine finfish ",
+        "value": 12
+      },
+      {
+        "key": "Euryhaline finfish",
+        "value": 5
+      },
+      {
+        "key": "Freshwater Finfish",
+        "value": 8
+      },
+      {
+        "key": "Molluscs",
+        "value": 12
+      },
+      {
+        "key": "Crustaceans",
+        "value": 9
+      },
+      {
+        "key": "Freshwater Aquatic Macrophytes",
+        "value": 5
+      },
+      {
+        "key": "Seaweeds",
+        "value": 11
+      },
+      {
+        "key": "Microalgae",
+        "value": 10
+      },
+      {
+        "key": "Misc. aquatic animals",
+        "value": 5
+      },
+      {
+        "key": "Misc. aquatic products",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "key": "Potential risk",
+    "values": [
+      {
+        "key": "Marine finfish ",
+        "value": 16
+      },
+      {
+        "key": "Euryhaline finfish",
+        "value": 4
+      },
+      {
+        "key": "Freshwater Finfish",
+        "value": 11
+      },
+      {
+        "key": "Molluscs",
+        "value": 14
+      },
+      {
+        "key": "Crustaceans",
+        "value": 11
+      },
+      {
+        "key": "Freshwater Aquatic Macrophytes",
+        "value": 7
+      },
+      {
+        "key": "Seaweeds",
+        "value": 6
+      },
+      {
+        "key": "Microalgae",
+        "value": 6
+      },
+      {
+        "key": "Misc. aquatic animals",
+        "value": 4
+      },
+      {
+        "key": "Misc. aquatic products",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "key": "Risk",
+    "values": [
+      {
+        "key": "Marine finfish ",
+        "value": 10
+      },
+      {
+        "key": "Euryhaline finfish",
+        "value": 8
+      },
+      {
+        "key": "Freshwater Finfish",
+        "value": 10
+      },
+      {
+        "key": "Molluscs",
+        "value": 5
+      },
+      {
+        "key": "Crustaceans",
+        "value": 3
+      },
+      {
+        "key": "Freshwater Aquatic Macrophytes",
+        "value": 8
+      },
+      {
+        "key": "Seaweeds",
+        "value": 9
+      },
+      {
+        "key": "Microalgae",
+        "value": 6
+      },
+      {
+        "key": "Misc. aquatic animals",
+        "value": 4
+      },
+      {
+        "key": "Misc. aquatic products",
+        "value": 4
+      }
+    ]
+  }
 ]

@@ -1,37 +1,102 @@
 [
- {
-   "Name": "Europe",
-   "Effective": 32,
-   "Somewhat": 6,
-   "Not effective": 4,
-   "Uknown": 3
- },
- {
-   "Name": "Latin America",
-   "Effective": 15,
-   "Somewhat": 13,
-   "Not effective": 4,
-   "Uknown": 2
- },
- {
-   "Name": "Asia Pacific",
-   "Effective": 17,
-   "Somewhat": 15,
-   "Not effective": 3,
-   "Uknown": 3
- },
- {
-   "Name": "Africa",
-   "Effective": 12,
-   "Somewhat": 1,
-   "Not effective": 1,
-   "Uknown": 2
- },
- {
-   "Name": "North America",
-   "Effective": 11,
-   "Somewhat": 1,
-   "Not effective": 0,
-   "Uknown": 0
- }
+  {
+    "key": "Effective",
+    "values": [
+      {
+        "key": "Europe",
+        "value": 32
+      },
+      {
+        "key": "Latin America",
+        "value": 15
+      },
+      {
+        "key": "Asia Pacific",
+        "value": 17
+      },
+      {
+        "key": "Africa",
+        "value": 12
+      },
+      {
+        "key": "North America",
+        "value": 11
+      }
+    ]
+  },
+  {
+    "key": "Somewhat",
+    "values": [
+      {
+        "key": "Europe",
+        "value": 6
+      },
+      {
+        "key": "Latin America",
+        "value": 13
+      },
+      {
+        "key": "Asia Pacific",
+        "value": 15
+      },
+      {
+        "key": "Africa",
+        "value": 1
+      },
+      {
+        "key": "North America",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "key": "Not effective",
+    "values": [
+      {
+        "key": "Europe",
+        "value": 4
+      },
+      {
+        "key": "Latin America",
+        "value": 4
+      },
+      {
+        "key": "Asia Pacific",
+        "value": 3
+      },
+      {
+        "key": "Africa",
+        "value": 1
+      },
+      {
+        "key": "North America",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "key": "Uknown",
+    "values": [
+      {
+        "key": "Europe",
+        "value": 3
+      },
+      {
+        "key": "Latin America",
+        "value": 2
+      },
+      {
+        "key": "Asia Pacific",
+        "value": 3
+      },
+      {
+        "key": "Africa",
+        "value": 2
+      },
+      {
+        "key": "North America",
+        "value": 0
+      }
+    ]
+  }
 ]

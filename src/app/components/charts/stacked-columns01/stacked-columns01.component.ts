@@ -7,7 +7,7 @@ import {BaseChartRender01Component} from '../base-chart-render01/base-chart-rend
   styleUrls: []
 })
 export class StackedColumns01Component extends BaseChartRender01Component {
-    @Input() xAxisTitle :string;
+    @Input() yAxisTitle :string;
 
 
     /**
@@ -23,8 +23,8 @@ export class StackedColumns01Component extends BaseChartRender01Component {
                 type: 'category',
             },
             yAxis: {
-                title: (this.xAxisTitle)?{
-                    text: this.xAxisTitle,
+                title: (this.yAxisTitle)?{
+                    text: this.yAxisTitle,
                     align: 'low'
                 }:null,
                 reversedStacks: false

@@ -1,19 +1,26 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnChanges } from '@angular/core';
+import {LoggerService} from '../../../services/logger.service';
+import {UtilsService} from '../../../services/utils.service'
+import {BaseChart01Component} from '../base-chart01/base-chart01.component';
+import {StackedColumns01Component} from '../stacked-columns01/stacked-columns01.component';
+import {UseChart13Service} from '../../../services/use/use-chart13.service';
+import {ChartDataFormat} from '../../../namespace';
 
 @Component({
   selector: 'app-use-chart13',
   template: `
-    <p>
-      use-chart13 works!
-    </p>
+    <app-stacked-columns01 [series]="series" [legendEnabled]="false" *ngIf="series.length" [height]="300"></app-stacked-columns01>
   `,
   styles: []
 })
-export class UseChart13Component implements OnInit {
+export class UseChart13Component extends BaseChart01Component implements OnChanges {
+    dataFormat=ChartDataFormat.stackedKeyval;
 
-  constructor() { }
+    constructor(_service:UseChart13Service, _utilsService:UtilsService, _logger:LoggerService) {
+        super(_service, _utilsService, _logger);
+    }
 
-  ngOnInit() {
-  }
-
+    ngOnChanges(){
+        super.ngOnChanges();
+    }
 }
