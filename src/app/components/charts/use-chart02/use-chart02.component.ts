@@ -4,6 +4,7 @@ import {UtilsService} from '../../../services/utils.service'
 import {BaseChart01Component} from '../base-chart01/base-chart01.component';
 import {StackedColumns01Component} from '../stacked-columns01/stacked-columns01.component';
 import {UseChart02Service} from '../../../services/use/use-chart02.service';
+import {ChartDataFormat} from '../../../namespace';
 
 @Component({
   selector: 'app-use-chart02',
@@ -13,6 +14,8 @@ import {UseChart02Service} from '../../../services/use/use-chart02.service';
   styles: []
 })
 export class UseChart02Component extends BaseChart01Component implements OnChanges {
+    dataFormat=ChartDataFormat.stackedKeyval;
+
     constructor(_service:UseChart02Service, _utilsService:UtilsService, _logger:LoggerService) {
         super(_service, _utilsService, _logger);
     }
