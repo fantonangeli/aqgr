@@ -19,6 +19,8 @@ export class FishStatTableComponent implements OnChanges {
     disableTonnes=false;
     @Input() filterValues: Filter[]=[];
 
+    /* BUG: Iran is in Central America */
+    /* BUG: India is in Notrthern America */
 
 
     constructor(private _fishstatService: FishStatCultSpecCountriesService, private _utilsService:UtilsService, private _logger:LoggerService){

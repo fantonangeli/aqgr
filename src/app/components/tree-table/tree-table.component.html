@@ -1,12 +1,12 @@
  <ng-template #tplElement let-element let-pleft="pleft">
     <tr (click)="onElementClick(element)">
         <ng-container  *ngFor="let field of element; let first = first; let last = last; let i=index">
-            <td class="align-top text-truncate" *ngIf="first" [ngStyle]="{'padding-left': (pleft+20)+'px'}" [ngClass]="'index-'+i">
+            <td class="align-top text-truncate" *ngIf="first" [ngStyle]="{'padding-left': (pleft+20)+'px'}" [ngClass]="'index-'+i" class="text-break">
                 <span class="font-weight-bold h6">{{getToggleIcon(element)}}</span> 
                 &nbsp;{{field}}
                 <a [routerLink]="['/country',element.Ccode]" *ngIf="element.Ccode" routerLinkActive="router-link-active"><fa-icon *ngIf="!element.children" [icon]="faChartPie"></fa-icon></a>
             </td>
-            <td class="text-truncate" *ngIf="!first" class="align-top text-right" [ngClass]="'index-'+i">
+            <td class="text-truncate" *ngIf="!first" class="align-top text-right" [ngClass]="'index-'+i" class="text-break">
                 {{field}}
             </td>
         </ng-container>
@@ -25,7 +25,7 @@
     <table class="fao-expandtable table table-striped table-bordered">
         <thead>
             <tr>
-                <th class="align-top" *ngFor="let colname of columns; let i = index" [ngClass]="'index-'+i">{{colname}}</th>
+                <th class="align-top" *ngFor="let colname of columns; let i = index" [ngClass]="'index-'+i" class="col">{{colname}}</th>
             </tr>
         </thead>
         <tbody>
