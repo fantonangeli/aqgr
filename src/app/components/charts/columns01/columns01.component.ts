@@ -17,7 +17,7 @@ export class Columns01Component extends BaseChartRender01Component {
     showChart(){
         this.options= {
             chart: {
-                type: "bar",
+                type: "column",
             },
             xAxis: {
                 type: 'category',
@@ -43,7 +43,7 @@ export class Columns01Component extends BaseChartRender01Component {
                 }
             },
             series: [{
-                data: this.series
+                data: this.series[0]["data"]
             }],
         };
 
