@@ -1,82 +1,227 @@
 [
- {
-   "Names": "Misc. animals",
-   "gametes": 1,
-   "embryos": 0,
-   "tissues": 0,
-   "Spores": 0,
-   "other": 0
- },
- {
-   "Names": "Misc. products",
-   "gametes": 2,
-   "embryos": 0,
-   "tissues": 0,
-   "Spores": 0,
-   "other": 0
- },
- {
-   "Names": "Freshwater Macrophytes",
-   "gametes": 4,
-   "embryos": 2,
-   "tissues": 0,
-   "Spores": 1,
-   "other": 0
- },
- {
-   "Names": "Euryhaline finfish",
-   "gametes": 6,
-   "embryos": 0,
-   "tissues": 0,
-   "Spores": 2,
-   "other": 0
- },
- {
-   "Names": "Seaweeds",
-   "gametes": 6,
-   "embryos": 0,
-   "tissues": 2,
-   "Spores": 6,
-   "other": 3
- },
- {
-   "Names": "Marine finfish",
-   "gametes": 12,
-   "embryos": 0,
-   "tissues": 0,
-   "Spores": 0,
-   "other": 0
- },
- {
-   "Names": "Molluscs",
-   "gametes": 6,
-   "embryos": 7,
-   "tissues": 2,
-   "Spores": 0,
-   "other": 1
- },
- {
-   "Names": "Crustaceans",
-   "gametes": 14,
-   "embryos": 0,
-   "tissues": 2,
-   "Spores": 0,
-   "other": 0
- },
- {
-   "Names": "Microalgae",
-   "gametes": 0,
-   "embryos": 0,
-   "tissues": 0,
-   "Spores": 12,
-   "other": 12
- },
- {
-   "Names": "Freshwater Finfish",
-   "gametes": 24,
-   "embryos": 0,
-   "tissues": 4,
-   "Spores": 0,
-   "other": 0
- }
+  {
+    "key": "gametes",
+    "values": [
+      {
+        "key": "Misc. animals",
+        "value": 1
+      },
+      {
+        "key": "Misc. products",
+        "value": 2
+      },
+      {
+        "key": "Freshwater Macrophytes",
+        "value": 4
+      },
+      {
+        "key": "Euryhaline finfish",
+        "value": 6
+      },
+      {
+        "key": "Seaweeds",
+        "value": 6
+      },
+      {
+        "key": "Marine finfish",
+        "value": 12
+      },
+      {
+        "key": "Molluscs",
+        "value": 6
+      },
+      {
+        "key": "Crustaceans",
+        "value": 14
+      },
+      {
+        "key": "Microalgae",
+        "value": 0
+      },
+      {
+        "key": "Freshwater Finfish",
+        "value": 24
+      }
+    ]
+  },
+  {
+    "key": "embryos",
+    "values": [
+      {
+        "key": "Misc. animals",
+        "value": 0
+      },
+      {
+        "key": "Misc. products",
+        "value": 0
+      },
+      {
+        "key": "Freshwater Macrophytes",
+        "value": 2
+      },
+      {
+        "key": "Euryhaline finfish",
+        "value": 0
+      },
+      {
+        "key": "Seaweeds",
+        "value": 0
+      },
+      {
+        "key": "Marine finfish",
+        "value": 0
+      },
+      {
+        "key": "Molluscs",
+        "value": 7
+      },
+      {
+        "key": "Crustaceans",
+        "value": 0
+      },
+      {
+        "key": "Microalgae",
+        "value": 0
+      },
+      {
+        "key": "Freshwater Finfish",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "key": "tissues",
+    "values": [
+      {
+        "key": "Misc. animals",
+        "value": 0
+      },
+      {
+        "key": "Misc. products",
+        "value": 0
+      },
+      {
+        "key": "Freshwater Macrophytes",
+        "value": 0
+      },
+      {
+        "key": "Euryhaline finfish",
+        "value": 0
+      },
+      {
+        "key": "Seaweeds",
+        "value": 2
+      },
+      {
+        "key": "Marine finfish",
+        "value": 0
+      },
+      {
+        "key": "Molluscs",
+        "value": 2
+      },
+      {
+        "key": "Crustaceans",
+        "value": 2
+      },
+      {
+        "key": "Microalgae",
+        "value": 0
+      },
+      {
+        "key": "Freshwater Finfish",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "key": "Spores",
+    "values": [
+      {
+        "key": "Misc. animals",
+        "value": 0
+      },
+      {
+        "key": "Misc. products",
+        "value": 0
+      },
+      {
+        "key": "Freshwater Macrophytes",
+        "value": 1
+      },
+      {
+        "key": "Euryhaline finfish",
+        "value": 2
+      },
+      {
+        "key": "Seaweeds",
+        "value": 6
+      },
+      {
+        "key": "Marine finfish",
+        "value": 0
+      },
+      {
+        "key": "Molluscs",
+        "value": 0
+      },
+      {
+        "key": "Crustaceans",
+        "value": 0
+      },
+      {
+        "key": "Microalgae",
+        "value": 12
+      },
+      {
+        "key": "Freshwater Finfish",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "key": "other",
+    "values": [
+      {
+        "key": "Misc. animals",
+        "value": 0
+      },
+      {
+        "key": "Misc. products",
+        "value": 0
+      },
+      {
+        "key": "Freshwater Macrophytes",
+        "value": 0
+      },
+      {
+        "key": "Euryhaline finfish",
+        "value": 0
+      },
+      {
+        "key": "Seaweeds",
+        "value": 3
+      },
+      {
+        "key": "Marine finfish",
+        "value": 0
+      },
+      {
+        "key": "Molluscs",
+        "value": 1
+      },
+      {
+        "key": "Crustaceans",
+        "value": 0
+      },
+      {
+        "key": "Microalgae",
+        "value": 12
+      },
+      {
+        "key": "Freshwater Finfish",
+        "value": 0
+      }
+    ]
+  }
 ]

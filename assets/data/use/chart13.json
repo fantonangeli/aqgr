@@ -1,82 +1,187 @@
 [
- {
-   "Name": "Cyprinus carpio",
-   "gametes": 1,
-   "embryos": 0,
-   "tissues": 0,
-   "Spores": 0,
-   "other": 0
- },
- {
-   "Name": "Laminaria saccarima",
-   "gametes": 2,
-   "embryos": 0,
-   "tissues": 0,
-   "Spores": 0,
-   "other": 0
- },
- {
-   "Name": "Eucheuma denticulatum",
-   "gametes": 4,
-   "embryos": 2,
-   "tissues": 0,
-   "Spores": 1,
-   "other": 0
- },
- {
-   "Name": "Oreochromis niloticus",
-   "gametes": 6,
-   "embryos": 0,
-   "tissues": 0,
-   "Spores": 2,
-   "other": 0
- },
- {
-   "Name": "Nanochioropsis oculata",
-   "gametes": 6,
-   "embryos": 0,
-   "tissues": 2,
-   "Spores": 6,
-   "other": 3
- },
- {
-   "Name": "Penaeus vannamei",
-   "gametes": 12,
-   "embryos": 0,
-   "tissues": 0,
-   "Spores": 0,
-   "other": 0
- },
- {
-   "Name": "Machrobrachium rosenbergii",
-   "gametes": 6,
-   "embryos": 7,
-   "tissues": 2,
-   "Spores": 0,
-   "other": 1
- },
- {
-   "Name": "Crassotrea gigas",
-   "gametes": 14,
-   "embryos": 0,
-   "tissues": 2,
-   "Spores": 0,
-   "other": 0
- },
- {
-   "Name": "Cyprinus carpio",
-   "gametes": 0,
-   "embryos": 0,
-   "tissues": 0,
-   "Spores": 12,
-   "other": 12
- },
- {
-   "Name": "Laminaria saccarima",
-   "gametes": 24,
-   "embryos": 0,
-   "tissues": 4,
-   "Spores": 0,
-   "other": 0
- }
+  {
+    "key": "gametes",
+    "values": [
+      {
+        "key": "Eucheuma denticulatum",
+        "value": 4
+      },
+      {
+        "key": "Oreochromis niloticus",
+        "value": 6
+      },
+      {
+        "key": "Nanochioropsis oculata",
+        "value": 6
+      },
+      {
+        "key": "Penaeus vannamei",
+        "value": 12
+      },
+      {
+        "key": "Machrobrachium rosenbergii",
+        "value": 6
+      },
+      {
+        "key": "Crassotrea gigas",
+        "value": 14
+      },
+      {
+        "key": "Cyprinus carpio",
+        "value": 0
+      },
+      {
+        "key": "Laminaria saccarima",
+        "value": 24
+      }
+    ]
+  },
+  {
+    "key": "embryos",
+    "values": [
+      {
+        "key": "Eucheuma denticulatum",
+        "value": 2
+      },
+      {
+        "key": "Oreochromis niloticus",
+        "value": 0
+      },
+      {
+        "key": "Nanochioropsis oculata",
+        "value": 0
+      },
+      {
+        "key": "Penaeus vannamei",
+        "value": 0
+      },
+      {
+        "key": "Machrobrachium rosenbergii",
+        "value": 7
+      },
+      {
+        "key": "Crassotrea gigas",
+        "value": 0
+      },
+      {
+        "key": "Cyprinus carpio",
+        "value": 0
+      },
+      {
+        "key": "Laminaria saccarima",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "key": "tissues",
+    "values": [
+      {
+        "key": "Eucheuma denticulatum",
+        "value": 0
+      },
+      {
+        "key": "Oreochromis niloticus",
+        "value": 0
+      },
+      {
+        "key": "Nanochioropsis oculata",
+        "value": 2
+      },
+      {
+        "key": "Penaeus vannamei",
+        "value": 0
+      },
+      {
+        "key": "Machrobrachium rosenbergii",
+        "value": 2
+      },
+      {
+        "key": "Crassotrea gigas",
+        "value": 2
+      },
+      {
+        "key": "Cyprinus carpio",
+        "value": 0
+      },
+      {
+        "key": "Laminaria saccarima",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "key": "Spores",
+    "values": [
+      {
+        "key": "Eucheuma denticulatum",
+        "value": 1
+      },
+      {
+        "key": "Oreochromis niloticus",
+        "value": 2
+      },
+      {
+        "key": "Nanochioropsis oculata",
+        "value": 6
+      },
+      {
+        "key": "Penaeus vannamei",
+        "value": 0
+      },
+      {
+        "key": "Machrobrachium rosenbergii",
+        "value": 0
+      },
+      {
+        "key": "Crassotrea gigas",
+        "value": 0
+      },
+      {
+        "key": "Cyprinus carpio",
+        "value": 12
+      },
+      {
+        "key": "Laminaria saccarima",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "key": "other",
+    "values": [
+      {
+        "key": "Eucheuma denticulatum",
+        "value": 0
+      },
+      {
+        "key": "Oreochromis niloticus",
+        "value": 0
+      },
+      {
+        "key": "Nanochioropsis oculata",
+        "value": 3
+      },
+      {
+        "key": "Penaeus vannamei",
+        "value": 0
+      },
+      {
+        "key": "Machrobrachium rosenbergii",
+        "value": 1
+      },
+      {
+        "key": "Crassotrea gigas",
+        "value": 0
+      },
+      {
+        "key": "Cyprinus carpio",
+        "value": 12
+      },
+      {
+        "key": "Laminaria saccarima",
+        "value": 0
+      }
+    ]
+  }
 ]

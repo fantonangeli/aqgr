@@ -1,43 +1,60 @@
-[{
-    "name": "Native",
-    "data": [{
-        "name": "Africa",
-        "y": 140
-    }, {
-        "name": "Europe",
-        "y": 125
-    }, {
-        "name": "Asia",
-        "y": 225
-    }, {
-        "name": "Latin America",
-        "y": 160
-    }, {
-        "name": "North America",
-        "y": 125
-    }, {
-        "name": "Oceania",
-        "y": 110
-    }]
-}, {
-    "name": "Non-Native",
-    "data": [{
-        "name": "Africa",
-        "y": 25
-    }, {
-        "name": "Europe",
-        "y": 30
-    }, {
-        "name": "Asia",
-        "y": 50
-    }, {
-        "name": "Latin America",
-        "y": 30
-    }, {
-        "name": "North America",
-        "y": 25
-    }, {
-        "name": "Oceania",
-        "y": 25
-    }]
-}]
+[
+  {
+    "key": "Native",
+    "values": [
+      {
+        "key": "Africa",
+        "value": 140
+      },
+      {
+        "key": "Europe",
+        "value": 125
+      },
+      {
+        "key": "Asia",
+        "value": 225
+      },
+      {
+        "key": "Latin America",
+        "value": 160
+      },
+      {
+        "key": "North America",
+        "value": 125
+      },
+      {
+        "key": "Oceania",
+        "value": 110
+      }
+    ]
+  },
+  {
+    "key": "Non-Native",
+    "values": [
+      {
+        "key": "Africa",
+        "value": 25
+      },
+      {
+        "key": "Europe",
+        "value": 30
+      },
+      {
+        "key": "Asia",
+        "value": 50
+      },
+      {
+        "key": "Latin America",
+        "value": 30
+      },
+      {
+        "key": "North America",
+        "value": 25
+      },
+      {
+        "key": "Oceania",
+        "value": 25
+      }
+    ]
+  }
+]

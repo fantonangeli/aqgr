@@ -1,42 +1,127 @@
 [
- {
-   "Name": "Europe",
-   "gametes": 34,
-   "embryos": 2,
-   "tissues": 3,
-   "Spores": 1,
-   "other": 5
- },
- {
-   "Name": "Latin America",
-   "gametes": 32,
-   "embryos": 4,
-   "tissues": 2,
-   "Spores": 0,
-   "other": 2
- },
- {
-   "Name": "Asia Pacific",
-   "gametes": 23,
-   "embryos": 2,
-   "tissues": 3,
-   "Spores": 5,
-   "other": 1
- },
- {
-   "Name": "Africa",
-   "gametes": 12,
-   "embryos": 3,
-   "tissues": 2,
-   "Spores": 5,
-   "other": 2
- },
- {
-   "Name": "North America",
-   "gametes": 23,
-   "embryos": 3,
-   "tissues": 2,
-   "Spores": 7,
-   "other": 5
- }
+  {
+    "key": "gametes",
+    "values": [
+      {
+        "key": "Europe",
+        "value": 34
+      },
+      {
+        "key": "Latin America",
+        "value": 32
+      },
+      {
+        "key": "Asia Pacific",
+        "value": 23
+      },
+      {
+        "key": "Africa",
+        "value": 12
+      },
+      {
+        "key": "North America",
+        "value": 23
+      }
+    ]
+  },
+  {
+    "key": "embryos",
+    "values": [
+      {
+        "key": "Europe",
+        "value": 2
+      },
+      {
+        "key": "Latin America",
+        "value": 4
+      },
+      {
+        "key": "Asia Pacific",
+        "value": 2
+      },
+      {
+        "key": "Africa",
+        "value": 3
+      },
+      {
+        "key": "North America",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "key": "tissues",
+    "values": [
+      {
+        "key": "Europe",
+        "value": 3
+      },
+      {
+        "key": "Latin America",
+        "value": 2
+      },
+      {
+        "key": "Asia Pacific",
+        "value": 3
+      },
+      {
+        "key": "Africa",
+        "value": 2
+      },
+      {
+        "key": "North America",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "key": "Spores",
+    "values": [
+      {
+        "key": "Europe",
+        "value": 1
+      },
+      {
+        "key": "Latin America",
+        "value": 0
+      },
+      {
+        "key": "Asia Pacific",
+        "value": 5
+      },
+      {
+        "key": "Africa",
+        "value": 5
+      },
+      {
+        "key": "North America",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "key": "other",
+    "values": [
+      {
+        "key": "Europe",
+        "value": 5
+      },
+      {
+        "key": "Latin America",
+        "value": 2
+      },
+      {
+        "key": "Asia Pacific",
+        "value": 1
+      },
+      {
+        "key": "Africa",
+        "value": 2
+      },
+      {
+        "key": "North America",
+        "value": 5
+      }
+    ]
+  }
 ]
