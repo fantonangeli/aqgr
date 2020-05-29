@@ -1,3 +1,12 @@
-app-tree-table.disable-tonnes th.index-1, app-tree-table.disable-tonnes td.index-1 {
-    background-color: #b7b7b7;
+app-tree-table {
+    th.index-0 {
+        width: 65%;
+    }
+
+    &.disable-tonnes {
+        th.index-1, td.index-1 {
+            background-color: #b7b7b7;
+        }
+    }
+
 }

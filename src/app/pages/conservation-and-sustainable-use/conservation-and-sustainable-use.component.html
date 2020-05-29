@@ -40,115 +40,56 @@ This page summarises information contained in the Registry relating to the risks
 
 
             <div class="container mw-100 p-0" *ngIf="reloadCharts">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                        <div class="font-weight-bold h6 text-center">
-                            Proportion of farmed native and non-native species reported by countries
-                        </div>
-                        <app-use-chart01 [filterValues]="filterValues"></app-use-chart01>
-                    </div>
-                </div>
-                <br>
-                <br>
+                <app-chart-wrapper01>
+                    <div header>Proportion of farmed native and non-native species reported by countries</div>
+                    <div body><app-use-chart01 [filterValues]="filterValues"></app-use-chart01></div>
+                </app-chart-wrapper01>
 
-                <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                        <div class="font-weight-bold h6 text-center">
-                            Proportion of farmed native and non-native species reported by countries by continent
-                        </div>
-                        <app-use-chart02 [filterValues]="filterValues"></app-use-chart02>
-                    </div>
-                </div>
-                <br>
-                <br>
 
-                <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                        <div class="font-weight-bold h6 text-center">
-                            The proportion (%) of aquaculture production that comes from non-native species by region of countries
-                        </div>
-                        <app-use-chart03 [filterValues]="filterValues"></app-use-chart03>
-                    </div>
-                </div>
-                <br>
-                <br>
+                <app-chart-wrapper01>
+                    <div header>Proportion of farmed native and non-native species reported by countries by continent</div>
+                    <div body><app-use-chart02 [filterValues]="filterValues"></app-use-chart02></div>
+                </app-chart-wrapper01>
 
-                <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                        <div class="font-weight-bold h6 text-center">
-                            Top 10 non-native species by production
-                        </div>
-                        <app-use-chart04 [filterValues]="filterValues"></app-use-chart04>
-                    </div>
-                </div>
-                <br>
-                <br>
+                <app-chart-wrapper01>
+                    <div header>The proportion (%) of aquaculture production that comes from non-native species by region of countries</div>
+                    <div body><app-use-chart03 [filterValues]="filterValues"></app-use-chart03></div>
+                </app-chart-wrapper01>
 
-                <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                        <div class="font-weight-bold h6 text-center">
-                            Risk status of species reported as cultured by countries
-                        </div>
-                        <app-use-chart05 [filterValues]="filterValues"></app-use-chart05>
-                    </div>
-                </div>
-                <br>
-                <br>
+                <app-chart-wrapper01>
+                    <div header>Top 10 non-native species by production</div>
+                    <div body><app-use-chart04 [filterValues]="filterValues"></app-use-chart04></div>
+                </app-chart-wrapper01>
 
-                <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                        <div class="font-weight-bold h6 text-center">
-                            Number of species whose introduction represents a risk
-                        </div>
-                        <app-use-chart06 [filterValues]="filterValues"></app-use-chart06>
-                    </div>
-                </div>
-                <br>
-                <br>
+                <app-chart-wrapper01>
+                    <div header>Risk status of species reported as cultured by countries</div>
+                    <div body><app-use-chart05 [filterValues]="filterValues"></app-use-chart05></div>
+                </app-chart-wrapper01>
 
-                <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                        <div class="font-weight-bold h6 text-center">
-                            Numbers and effectiveness of aquatic projected areas by region
-                        </div>
-                        <app-use-chart07 [filterValues]="filterValues"></app-use-chart07>
-                    </div>
-                </div>
-                <br>
-                <br>
+                <app-chart-wrapper01>
+                    <div header>Number of species whose introduction represents a risk</div>
+                    <div body><app-use-chart06 [filterValues]="filterValues"></app-use-chart06></div>
+                </app-chart-wrapper01>
 
-                <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                        <div class="font-weight-bold h6 text-center">
-                            No of species with in vitro gene banks by country
-                        </div>
-                        <app-use-chart11 [filterValues]="filterValues"></app-use-chart11>
-                    </div>
-                </div>
-                <br>
-                <br>
+                <app-chart-wrapper01>
+                    <div header>Numbers and effectiveness of aquatic projected areas by region</div>
+                    <div body><app-use-chart07 [filterValues]="filterValues"></app-use-chart07></div>
+                </app-chart-wrapper01>
 
-                <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                        <div class="font-weight-bold h6 text-center">
-                            No of species with reported in vitro gene banks by taxonomy group
-                        </div>
-                        <app-use-chart12 [filterValues]="filterValues"></app-use-chart12>
-                    </div>
-                </div>
-                <br>
-                <br>
+                <app-chart-wrapper01>
+                    <div header>No of species with in vitro gene banks by country</div>
+                    <div body><app-use-chart11 [filterValues]="filterValues"></app-use-chart11></div>
+                </app-chart-wrapper01>
 
-                <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                        <div class="font-weight-bold h6 text-center">
-                            Top 10 species conserved in vitro gene banks
-                        </div>
-                        <app-use-chart13 [filterValues]="filterValues"></app-use-chart13>
-                    </div>
-                </div>
-                <br>
-                <br>
+                <app-chart-wrapper01>
+                    <div header>No of species with reported in vitro gene banks by taxonomy group</div>
+                    <div body><app-use-chart12 [filterValues]="filterValues"></app-use-chart12></div>
+                </app-chart-wrapper01>
+
+                <app-chart-wrapper01>
+                    <div header>Top 10 species conserved in vitro gene banks</div>
+                    <div body><app-use-chart13 [filterValues]="filterValues"></app-use-chart13></div>
+                </app-chart-wrapper01>
 
                 <!-- TODO: show conservation and sustainable use chart 08 -->
                 <!-- TODO: show conservation and sustainable use chart 09 -->

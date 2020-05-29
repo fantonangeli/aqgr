@@ -41,6 +41,7 @@ import { UseChart12Component } from './components/charts/use-chart12/use-chart12
 import { UseChart13Component } from './components/charts/use-chart13/use-chart13.component';
 import { UseChart08Component } from './components/charts/use-chart08/use-chart08.component';
 import { UseChart09Component } from './components/charts/use-chart09/use-chart09.component';
+import { ChartWrapper01Component } from './components/charts/chart-wrapper01/chart-wrapper01.component';
 
 @NgModule({
   declarations: [
@@ -77,6 +78,7 @@ import { UseChart09Component } from './components/charts/use-chart09/use-chart09
     UseChart13Component,
     UseChart08Component,
     UseChart09Component,
+    ChartWrapper01Component,
   ],
   imports: [
     BrowserModule,
