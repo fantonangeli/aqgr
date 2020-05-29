@@ -1,30 +1,37 @@
 module.exports=[
   {
     "key": "Osteichthyes",
-    "value": 114,
-    "taxonomy": "Freshwater fishes",
+    "value": 184,
+    "taxonomy": [
+      "Freshwater fishes",
+      "Marine fishes"
+    ],
     "country": [
       "India",
       "China",
       "Viet Nam",
       "Indonesia",
       "Bangladesh",
+      "Iran (Islamic Rep. of)",
       "Uzbekistan",
       "Myanmar",
+      "Australia",
       "Brazil",
       "Poland",
       "Pakistan",
+      "Japan",
       "Thailand",
       "Lao People's Dem. Rep.",
       "Ukraine",
       "Korea, Dem. People's Rep",
+      "Malaysia",
+      "Taiwan Province of China",
       "Canada",
       "Russian Federation",
       "Slovakia",
-      "Australia",
-      "Taiwan Province of China",
       "Czechia",
       "Nigeria",
+      "China, Hong Kong SAR",
       "Egypt",
       "Hungary",
       "United States of America",
@@ -32,40 +39,43 @@ module.exports=[
       "Germany",
       "France",
       "Ghana",
-      "Malaysia",
+      "Philippines",
       "Cuba",
+      "Norway",
       "Armenia",
       "United Kingdom",
-      "Japan",
+      "Cambodia",
+      "Kuwait",
       "Georgia",
       "Estonia",
       "Finland",
+      "Greece",
       "Romania",
       "Lithuania",
       "Serbia",
-      "Philippines",
+      "Malta",
       "Bosnia and Herzegovina",
       "Belgium",
       "Netherlands",
+      "Korea, Republic of",
       "Croatia",
       "Algeria",
       "Moldova, Republic of",
+      "Brunei Darussalam",
       "Slovenia",
       "Latvia",
       "Belarus",
-      "Korea, Republic of",
-      "Greece",
-      "China, Hong Kong SAR",
+      "Singapore",
       "Guinea",
       "Mexico",
       "Kyrgyzstan",
-      "Brunei Darussalam",
       "Uganda",
       "Austria",
       "Central African Republic",
       "Equatorial Guinea",
       "Haiti",
       "Puerto Rico",
+      "El Salvador",
       "Denmark",
       "French Guiana",
       "North Macedonia",
@@ -82,7 +92,6 @@ module.exports=[
       "Colombia",
       "Czechoslovakia",
       "Ecuador",
-      "El Salvador",
       "Eswatini",
       "Gabon",
       "Guatemala",
@@ -99,7 +108,6 @@ module.exports=[
       "Portugal",
       "Rwanda",
       "R�union",
-      "Singapore",
       "Spain",
       "Suriname",
       "Tajikistan",
@@ -107,13 +115,19 @@ module.exports=[
       "Trinidad and Tobago",
       "Tunisia",
       "Uruguay",
-      "Venezuela, Boliv Rep of"
+      "Venezuela, Boliv Rep of",
+      "French Polynesia",
+      "Martinique",
+      "Mauritius",
+      "Mayotte",
+      "Morocco",
+      "Turkey"
     ],
     "continent": [
       "Asia",
+      "Oceania",
       "Americas",
       "Europe",
-      "Oceania",
       "Africa"
     ]
   },
@@ -515,71 +529,6 @@ module.exports=[
       "Africa",
       "Europe",
       "Oceania"
-    ]
-  },
-  {
-    "key": "Osteichthyes",
-    "value": 64,
-    "taxonomy": "Marine fishes",
-    "country": [
-      "China",
-      "Indonesia",
-      "Bangladesh",
-      "India",
-      "Iran (Islamic Rep. of)",
-      "Viet Nam",
-      "Japan",
-      "Australia",
-      "Malaysia",
-      "Taiwan Province of China",
-      "China, Hong Kong SAR",
-      "United States of America",
-      "Philippines",
-      "Cambodia",
-      "Kuwait",
-      "Greece",
-      "Malta",
-      "Korea, Dem. People's Rep",
-      "United Kingdom",
-      "Korea, Republic of",
-      "Brunei Darussalam",
-      "Singapore",
-      "Brazil",
-      "Georgia",
-      "Mexico",
-      "Italy",
-      "El Salvador",
-      "Bosnia and Herzegovina",
-      "Colombia",
-      "Croatia",
-      "Denmark",
-      "Ecuador",
-      "Egypt",
-      "France",
-      "French Polynesia",
-      "Israel",
-      "Martinique",
-      "Mauritius",
-      "Mayotte",
-      "Morocco",
-      "Netherlands",
-      "Peru",
-      "Portugal",
-      "Romania",
-      "Russian Federation",
-      "R�union",
-      "Slovenia",
-      "Spain",
-      "Thailand",
-      "Tunisia",
-      "Turkey"
-    ],
-    "continent": [
-      "Asia",
-      "Oceania",
-      "Americas",
-      "Europe",
-      "Africa"
     ]
   },
   {
@@ -1490,6 +1439,37 @@ module.exports=[
     ]
   },
   {
+    "key": "Mollusca",
+    "value": 25,
+    "taxonomy": "Molluscs",
+    "country": [
+      "China",
+      "Viet Nam",
+      "Korea, Republic of",
+      "Canada",
+      "Greece",
+      "Taiwan Province of China",
+      "Costa Rica",
+      "Guatemala",
+      "Brazil",
+      "Cambodia",
+      "Croatia",
+      "France",
+      "Indonesia",
+      "Ireland",
+      "Portugal",
+      "Spain",
+      "Tunisia",
+      "United States of America"
+    ],
+    "continent": [
+      "Asia",
+      "Americas",
+      "Europe",
+      "Africa"
+    ]
+  },
+  {
     "key": "Penaeus spp",
     "value": 25,
     "taxonomy": "Crustaceans",
@@ -1816,35 +1796,6 @@ module.exports=[
       "Africa",
       "Oceania",
       "Americas"
-    ]
-  },
-  {
-    "key": "Mollusca",
-    "value": 19,
-    "taxonomy": "Molluscs",
-    "country": [
-      "China",
-      "Viet Nam",
-      "Canada",
-      "Greece",
-      "Taiwan Province of China",
-      "Brazil",
-      "Cambodia",
-      "Croatia",
-      "France",
-      "Indonesia",
-      "Ireland",
-      "Korea, Republic of",
-      "Portugal",
-      "Spain",
-      "Tunisia",
-      "United States of America"
-    ],
-    "continent": [
-      "Asia",
-      "Americas",
-      "Europe",
-      "Africa"
     ]
   },
   {
@@ -3255,6 +3206,27 @@ module.exports=[
     "continent": "Asia"
   },
   {
+    "key": "Crustacea",
+    "value": 7,
+    "taxonomy": "Crustaceans",
+    "country": [
+      "Norway",
+      "Russian Federation",
+      "Guatemala",
+      "Australia",
+      "Japan",
+      "Korea, Republic of",
+      "Tunisia"
+    ],
+    "continent": [
+      "Europe",
+      "Americas",
+      "Oceania",
+      "Asia",
+      "Africa"
+    ]
+  },
+  {
     "key": "Acipenser ruthenus",
     "value": 7,
     "taxonomy": "Diadromous fishes",
@@ -3379,6 +3351,23 @@ module.exports=[
     ]
   },
   {
+    "key": "Palaemonidae",
+    "value": 6,
+    "taxonomy": "Crustaceans",
+    "country": [
+      "China",
+      "Bangladesh",
+      "Guatemala",
+      "Japan",
+      "Spain"
+    ],
+    "continent": [
+      "Asia",
+      "Americas",
+      "Europe"
+    ]
+  },
+  {
     "key": "Anabas testudineus",
     "value": 6,
     "taxonomy": "Freshwater fishes",
@@ -3391,23 +3380,6 @@ module.exports=[
       "India"
     ],
     "continent": "Asia"
-  },
-  {
-    "key": "Mollusca",
-    "value": 6,
-    "taxonomy": "Molluscs",
-    "country": [
-      "China",
-      "Korea, Republic of",
-      "Costa Rica",
-      "Guatemala",
-      "Taiwan Province of China",
-      "Viet Nam"
-    ],
-    "continent": [
-      "Asia",
-      "Americas"
-    ]
   },
   {
     "key": "Oncorhynchus tshawytscha",
@@ -3751,20 +3723,6 @@ module.exports=[
     ]
   },
   {
-    "key": "Osteichthyes",
-    "value": 5,
-    "taxonomy": "Marine fishes",
-    "country": [
-      "Australia",
-      "Norway",
-      "France"
-    ],
-    "continent": [
-      "Oceania",
-      "Europe"
-    ]
-  },
-  {
     "key": "Tilapia rendalli",
     "value": 5,
     "taxonomy": "Freshwater fishes",
@@ -3895,24 +3853,6 @@ module.exports=[
     ]
   },
   {
-    "key": "Crustacea",
-    "value": 5,
-    "taxonomy": "Crustaceans",
-    "country": [
-      "Norway",
-      "Australia",
-      "Japan",
-      "Korea, Republic of",
-      "Tunisia"
-    ],
-    "continent": [
-      "Europe",
-      "Oceania",
-      "Asia",
-      "Africa"
-    ]
-  },
-  {
     "key": "Hoplosternum littorale",
     "value": 5,
     "taxonomy": "Freshwater fishes",
@@ -4027,21 +3967,6 @@ module.exports=[
       "Thailand"
     ],
     "continent": "Asia"
-  },
-  {
-    "key": "Palaemonidae",
-    "value": 4,
-    "taxonomy": "Crustaceans",
-    "country": [
-      "China",
-      "Bangladesh",
-      "Guatemala",
-      "Japan"
-    ],
-    "continent": [
-      "Asia",
-      "Americas"
-    ]
   },
   {
     "key": "Pagrus auratus",
@@ -5540,19 +5465,6 @@ module.exports=[
     "continent": "Asia"
   },
   {
-    "key": "Crustacea",
-    "value": 2,
-    "taxonomy": "Crustaceans",
-    "country": [
-      "Russian Federation",
-      "Guatemala"
-    ],
-    "continent": [
-      "Europe",
-      "Americas"
-    ]
-  },
-  {
     "key": "Haliotis discus",
     "value": 2,
     "taxonomy": "Molluscs",
@@ -5912,6 +5824,19 @@ module.exports=[
     ]
   },
   {
+    "key": "Gobiidae",
+    "value": 2,
+    "taxonomy": [
+      "Freshwater fishes",
+      "Marine fishes"
+    ],
+    "country": [
+      "France",
+      "Ukraine"
+    ],
+    "continent": "Europe"
+  },
+  {
     "key": "Boleophthalmus pectinirostris",
     "value": 2,
     "taxonomy": "Marine fishes",
@@ -5983,13 +5908,6 @@ module.exports=[
       "Europe",
       "Asia"
     ]
-  },
-  {
-    "key": "Palaemonidae",
-    "value": 2,
-    "taxonomy": "Crustaceans",
-    "country": "Spain",
-    "continent": "Europe"
   },
   {
     "key": "Palinurus spp",
@@ -7534,13 +7452,6 @@ module.exports=[
     "continent": "Americas"
   },
   {
-    "key": "Gobiidae",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "France",
-    "continent": "Europe"
-  },
-  {
     "key": "Portunus trituberculatus",
     "value": 1,
     "taxonomy": "Crustaceans",
@@ -7553,13 +7464,6 @@ module.exports=[
     "taxonomy": "Aquatic plants",
     "country": "Korea, Dem. People's Rep",
     "continent": "Asia"
-  },
-  {
-    "key": "Gobiidae",
-    "value": 1,
-    "taxonomy": "Marine fishes",
-    "country": "Ukraine",
-    "continent": "Europe"
   },
   {
     "key": "Venerupis aurea",
@@ -7602,13 +7506,6 @@ module.exports=[
     "taxonomy": "Miscellaneous aquatic animals",
     "country": "R�union",
     "continent": "Africa"
-  },
-  {
-    "key": "Osteichthyes",
-    "value": 1,
-    "taxonomy": "Marine fishes",
-    "country": "Spain",
-    "continent": "Europe"
   },
   {
     "key": "Asparagopsis spp",
