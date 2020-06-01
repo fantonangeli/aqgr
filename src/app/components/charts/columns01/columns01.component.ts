@@ -8,6 +8,7 @@ import {BaseChartRender01Component} from '../base-chart-render01/base-chart-rend
 })
 export class Columns01Component extends BaseChartRender01Component {
     @Input() xAxisTitle :string;
+    @Input() yAxisTitle :string;
 
 
     /**
@@ -21,10 +22,14 @@ export class Columns01Component extends BaseChartRender01Component {
             },
             xAxis: {
                 type: 'category',
-            },
-            yAxis: {
                 title: (this.xAxisTitle)?{
                     text: this.xAxisTitle,
+                    align: 'low'
+                }:null
+            },
+            yAxis: {
+                title: (this.yAxisTitle)?{
+                    text: this.yAxisTitle,
                     align: 'low'
                 }:null
             },

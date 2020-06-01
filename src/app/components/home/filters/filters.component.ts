@@ -21,6 +21,9 @@ export class FiltersComponent implements OnChanges {
     @Input() filterValues: Filter[];
     aggregations: AggregationInput[];
 
+    /* TODO: show regions in pages 2,3,4 */
+    /* TODO: filters in fixed position */
+
      /**
       * What you want to see (lowercase). Eg. ["taxonomies", "ftypes",]
       * @type {string[]}

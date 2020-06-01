@@ -3,8 +3,8 @@
         <div class="col-sm-12">
             <div class="csc-default">
                 <div class="csc-header csc-header-n1">
-                    <h1 class="csc-firstHeader" *ngIf="!countryName"> Conservation and sustainable use of AqGR (P2) </h1>
-                    <h1 class="csc-firstHeader" *ngIf="countryName"> Conservation and sustainable use of AqGR for: {{countryName}} (P2) </h1>
+                    <h1 class="csc-firstHeader" *ngIf="!countryName"> Conservation and sustainable use of AqGR (P3) </h1>
+                    <h1 class="csc-firstHeader" *ngIf="countryName"> Conservation and sustainable use of AqGR for: {{countryName}} (P3) </h1>
                 </div>
             </div>
         </div>
@@ -76,6 +76,25 @@ This page summarises information contained in the Registry relating to the risks
                     <div body><app-use-chart07 [filterValues]="filterValues"></app-use-chart07></div>
                 </app-chart-wrapper01>
 
+                <!-- TODO: show conservation and sustainable use chart 08 -->
+                <!-- TODO: show conservation and sustainable use chart 09 -->
+                <!-- TODO: show conservation and sustainable use chart 10 -->
+
+                <app-chart-wrapper01>
+                    <div header>Number of species with live gene banks by region</div>
+                    <div body><app-use-chart08 [filterValues]="filterValues"></app-use-chart08></div>
+                </app-chart-wrapper01>
+
+                <app-chart-wrapper01>
+                    <div header>Number of species with live gene banks by taxonomic group</div>
+                    <div body><app-use-chart09 [filterValues]="filterValues"></app-use-chart09></div>
+                </app-chart-wrapper01>
+                
+                <app-chart-wrapper01>
+                    <div header>Top 10 species conserved in live gene banks</div>
+                    <div body><app-use-chart10 [filterValues]="filterValues"></app-use-chart10></div>
+                </app-chart-wrapper01>
+
                 <app-chart-wrapper01>
                     <div header>No of species with in vitro gene banks by country</div>
                     <div body><app-use-chart11 [filterValues]="filterValues"></app-use-chart11></div>
@@ -91,9 +110,6 @@ This page summarises information contained in the Registry relating to the risks
                     <div body><app-use-chart13 [filterValues]="filterValues"></app-use-chart13></div>
                 </app-chart-wrapper01>
 
-                <!-- TODO: show conservation and sustainable use chart 08 -->
-                <!-- TODO: show conservation and sustainable use chart 09 -->
-                <!-- TODO: show conservation and sustainable use chart 10 -->
             </div>
         </div>
     </div>

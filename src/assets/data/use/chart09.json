@@ -1,42 +1,42 @@
 [
- {
-   "Name": "Marine finfish ",
-   "Value": 38
- },
- {
-   "Name": "Euryhaline finfish",
-   "Value": 17
- },
- {
-   "Name": "Freshwater Finfish",
-   "Value": 29
- },
- {
-   "Name": "Molluscs",
-   "Value": 31
- },
- {
-   "Name": "Crustaceans",
-   "Value": 23
- },
- {
-   "Name": "Freshwater Aquatic Macrophytes",
-   "Value": 20
- },
- {
-   "Name": "Seaweeds",
-   "Value": 26
- },
- {
-   "Name": "Microalgae",
-   "Value": 22
- },
- {
-   "Name": "Misc. aquatic animals",
-   "Value": 13
- },
- {
-   "Name": "Misc. aquatic products",
-   "Value": 17
- }
+  {
+    "key": "Marine finfish ",
+    "value": 38
+  },
+  {
+    "key": "Euryhaline finfish",
+    "value": 17
+  },
+  {
+    "key": "Freshwater Finfish",
+    "value": 29
+  },
+  {
+    "key": "Molluscs",
+    "value": 31
+  },
+  {
+    "key": "Crustaceans",
+    "value": 23
+  },
+  {
+    "key": "Freshwater Aquatic Macrophytes",
+    "value": 20
+  },
+  {
+    "key": "Seaweeds",
+    "value": 26
+  },
+  {
+    "key": "Microalgae",
+    "value": 22
+  },
+  {
+    "key": "Misc. aquatic animals",
+    "value": 13
+  },
+  {
+    "key": "Misc. aquatic products",
+    "value": 17
+  }
 ]
