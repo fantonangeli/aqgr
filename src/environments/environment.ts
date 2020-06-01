@@ -16,6 +16,7 @@ export const environment = {
         },
         params: {
             continent:"continent_like", 
+            regions:"regions_like", 
             country:"country_like", 
             taxonomy:"taxonomy_like", 
             specie:"specie_like", 
@@ -34,6 +35,10 @@ export const environment = {
         },
         species:{
             all:baseUrl+"species",
+            limit: 10
+        },
+        regions: {
+            all:baseUrl+"regions",
             limit: 10
         },
         taxonomies: {

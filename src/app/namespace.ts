@@ -15,6 +15,12 @@ export class SearchServiceParams {
     continent: string = "";
 
     /**
+     * the region parent
+     * @type {string}
+     */
+    region: string = "";
+
+    /**
      * the country parent
      * @type {string}
      */
