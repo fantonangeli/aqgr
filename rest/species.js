@@ -129,11 +129,146 @@ module.exports=[
       "Americas",
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Southern Asia",
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "Central Asia",
+      "Australia and New Zealand",
+      "South America",
+      "Eastern Europe",
+      "Northern America",
+      "Western Africa",
+      "Northern Africa",
+      "Southern Europe",
+      "Western Europe",
+      "Caribbean",
+      "Northern Europe",
+      "Western Asia",
+      "Central America",
+      "Eastern Africa",
+      "Middle Africa",
+      "Southern Africa",
+      "Micronesia",
+      "Polynesia"
+    ]
+  },
+  {
+    "key": "Oncorhynchus mykiss",
+    "value": 103,
+    "taxonomy": "Diadromous fishes",
+    "country": [
+      "Iran (Islamic Rep. of)",
+      "Turkey",
+      "Chile",
+      "Norway",
+      "Peru",
+      "China",
+      "Italy",
+      "Russian Federation",
+      "France",
+      "Denmark",
+      "United States of America",
+      "Spain",
+      "Poland",
+      "Finland",
+      "United Kingdom",
+      "Mexico",
+      "Sweden",
+      "Germany",
+      "Colombia",
+      "Ecuador",
+      "Japan",
+      "Iceland",
+      "Korea, Republic of",
+      "Bulgaria",
+      "Bosnia and Herzegovina",
+      "Brazil",
+      "Greece",
+      "Romania",
+      "Bolivia (Plurinat.State)",
+      "South Africa",
+      "Argentina",
+      "Austria",
+      "Switzerland",
+      "Lesotho",
+      "Canada",
+      "Slovakia",
+      "Lebanon",
+      "Serbia",
+      "Costa Rica",
+      "India",
+      "Kyrgyzstan",
+      "Slovenia",
+      "Estonia",
+      "Montenegro",
+      "Portugal",
+      "Ireland",
+      "Kenya",
+      "Albania",
+      "Belarus",
+      "Czechia",
+      "Israel",
+      "Croatia",
+      "Ukraine",
+      "Nepal",
+      "Azerbaijan",
+      "Georgia",
+      "Afghanistan",
+      "Papua New Guinea",
+      "Uzbekistan",
+      "Guatemala",
+      "Lithuania",
+      "Morocco",
+      "Latvia",
+      "Taiwan Province of China",
+      "Venezuela, Boliv Rep of",
+      "Zimbabwe",
+      "Malawi",
+      "Hungary",
+      "Netherlands",
+      "Cyprus",
+      "Bhutan",
+      "Panama",
+      "Tajikistan",
+      "Tanzania, United Rep. of",
+      "Australia",
+      "R�union",
+      "Ethiopia",
+      "Belgium",
+      "Faroe Islands",
+      "Madagascar"
+    ],
+    "continent": [
+      "Asia",
+      "Americas",
+      "Europe",
+      "Africa",
+      "Oceania"
+    ],
+    "region": [
+      "Southern Asia",
+      "Western Asia",
+      "South America",
+      "Northern Europe",
+      "Eastern Asia",
+      "Southern Europe",
+      "Eastern Europe",
+      "Western Europe",
+      "Northern America",
+      "Central America",
+      "Southern Africa",
+      "Central Asia",
+      "Eastern Africa",
+      "Melanesia",
+      "Northern Africa",
+      "Australia and New Zealand"
     ]
   },
   {
     "key": "Cyprinus carpio",
-    "value": 103,
+    "value": 101,
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -233,7 +368,6 @@ module.exports=[
       "Serbia and Montenegro",
       "Sweden",
       "Switzerland",
-      "Un. Sov. Soc. Rep.",
       "United Kingdom",
       "United States of America",
       "Uruguay",
@@ -244,102 +378,28 @@ module.exports=[
       "Europe",
       "Africa",
       "Americas",
-      "Oceania",
-      ""
-    ]
-  },
-  {
-    "key": "Oncorhynchus mykiss",
-    "value": 103,
-    "taxonomy": "Diadromous fishes",
-    "country": [
-      "Iran (Islamic Rep. of)",
-      "Turkey",
-      "Chile",
-      "Norway",
-      "Peru",
-      "China",
-      "Italy",
-      "Russian Federation",
-      "France",
-      "Denmark",
-      "United States of America",
-      "Spain",
-      "Poland",
-      "Finland",
-      "United Kingdom",
-      "Mexico",
-      "Sweden",
-      "Germany",
-      "Colombia",
-      "Ecuador",
-      "Japan",
-      "Iceland",
-      "Korea, Republic of",
-      "Bulgaria",
-      "Bosnia and Herzegovina",
-      "Brazil",
-      "Greece",
-      "Romania",
-      "Bolivia (Plurinat.State)",
-      "South Africa",
-      "Argentina",
-      "Austria",
-      "Switzerland",
-      "Lesotho",
-      "Canada",
-      "Slovakia",
-      "Lebanon",
-      "Serbia",
-      "Costa Rica",
-      "India",
-      "Kyrgyzstan",
-      "Slovenia",
-      "Estonia",
-      "Montenegro",
-      "Portugal",
-      "Ireland",
-      "Kenya",
-      "Albania",
-      "Belarus",
-      "Czechia",
-      "Israel",
-      "Croatia",
-      "Ukraine",
-      "Nepal",
-      "Azerbaijan",
-      "Georgia",
-      "Afghanistan",
-      "Papua New Guinea",
-      "Uzbekistan",
-      "Guatemala",
-      "Lithuania",
-      "Morocco",
-      "Latvia",
-      "Taiwan Province of China",
-      "Venezuela, Boliv Rep of",
-      "Zimbabwe",
-      "Malawi",
-      "Hungary",
-      "Netherlands",
-      "Cyprus",
-      "Bhutan",
-      "Panama",
-      "Tajikistan",
-      "Tanzania, United Rep. of",
-      "Australia",
-      "R�union",
-      "Ethiopia",
-      "Belgium",
-      "Faroe Islands",
-      "Madagascar"
-    ],
-    "continent": [
-      "Asia",
-      "Americas",
-      "Europe",
-      "Africa",
       "Oceania"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "Southern Asia",
+      "Eastern Europe",
+      "Northern Africa",
+      "Western Asia",
+      "Western Europe",
+      "Central Asia",
+      "Southern Europe",
+      "Eastern Africa",
+      "Central America",
+      "Northern Europe",
+      "Caribbean",
+      "South America",
+      "Melanesia",
+      "Middle Africa",
+      "Southern Africa",
+      "Micronesia",
+      "Northern America"
     ]
   },
   {
@@ -444,6 +504,27 @@ module.exports=[
       "Americas",
       "Oceania",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "Northern Africa",
+      "Eastern Africa",
+      "Western Africa",
+      "Central America",
+      "South America",
+      "Western Asia",
+      "Caribbean",
+      "Melanesia",
+      "Middle Africa",
+      "Southern Asia",
+      "Southern Africa",
+      "Eastern Europe",
+      "Micronesia",
+      "Western Europe",
+      "Polynesia",
+      "Northern Europe",
+      "Southern Europe"
     ]
   },
   {
@@ -529,11 +610,32 @@ module.exports=[
       "Africa",
       "Europe",
       "Oceania"
+    ],
+    "region": [
+      "Southern Asia",
+      "South America",
+      "South-Eastern Asia",
+      "Central America",
+      "Eastern Asia",
+      "Western Africa",
+      "Eastern Africa",
+      "Northern America",
+      "Western Asia",
+      "Middle Africa",
+      "Caribbean",
+      "Western Europe",
+      "Eastern Europe",
+      "Northern Africa",
+      "Micronesia",
+      "Polynesia",
+      "Southern Europe",
+      "Melanesia",
+      "Northern Europe"
     ]
   },
   {
     "key": "Ctenopharyngodon idellus",
-    "value": 60,
+    "value": 59,
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -593,21 +695,36 @@ module.exports=[
       "Paraguay",
       "Serbia and Montenegro",
       "Slovenia",
-      "Ukraine",
-      "Un. Sov. Soc. Rep."
+      "Ukraine"
     ],
     "continent": [
       "Asia",
       "Europe",
       "Americas",
       "Africa",
-      "Oceania",
-      ""
+      "Oceania"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Southern Asia",
+      "South-Eastern Asia",
+      "Central Asia",
+      "Eastern Europe",
+      "Western Asia",
+      "Southern Europe",
+      "Northern Europe",
+      "South America",
+      "Western Europe",
+      "Northern Africa",
+      "Caribbean",
+      "Melanesia",
+      "Eastern Africa",
+      "Central America"
     ]
   },
   {
     "key": "Hypophthalmichthys molitrix",
-    "value": 55,
+    "value": 54,
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -662,16 +779,29 @@ module.exports=[
       "Panama",
       "Serbia and Montenegro",
       "Slovenia",
-      "Taiwan Province of China",
-      "Un. Sov. Soc. Rep."
+      "Taiwan Province of China"
     ],
     "continent": [
       "Asia",
       "Europe",
       "Americas",
       "Oceania",
-      "Africa",
-      ""
+      "Africa"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Southern Asia",
+      "Eastern Europe",
+      "Central Asia",
+      "Caribbean",
+      "South-Eastern Asia",
+      "Western Asia",
+      "Southern Europe",
+      "Western Europe",
+      "Melanesia",
+      "Central America",
+      "Northern Europe",
+      "Northern Africa"
     ]
   },
   {
@@ -738,6 +868,21 @@ module.exports=[
       "Americas",
       "Oceania",
       "Africa"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Southern Asia",
+      "South-Eastern Asia",
+      "South America",
+      "Northern America",
+      "Caribbean",
+      "Melanesia",
+      "Central America",
+      "Eastern Africa",
+      "Polynesia",
+      "Micronesia",
+      "Western Asia",
+      "Western Africa"
     ]
   },
   {
@@ -793,6 +938,22 @@ module.exports=[
       "Africa",
       "Oceania",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Southern Asia",
+      "South-Eastern Asia",
+      "South America",
+      "Central America",
+      "Western Asia",
+      "Caribbean",
+      "Northern America",
+      "Northern Africa",
+      "Micronesia",
+      "Melanesia",
+      "Southern Europe",
+      "Southern Africa",
+      "Northern Europe"
     ]
   },
   {
@@ -859,6 +1020,22 @@ module.exports=[
       "Americas",
       "Asia",
       "Europe"
+    ],
+    "region": [
+      "Western Africa",
+      "Eastern Africa",
+      "Caribbean",
+      "Eastern Asia",
+      "Northern Africa",
+      "Eastern Europe",
+      "Western Europe",
+      "Southern Asia",
+      "Middle Africa",
+      "Western Asia",
+      "Northern Europe",
+      "Southern Africa",
+      "South America",
+      "Southern Europe"
     ]
   },
   {
@@ -919,6 +1096,26 @@ module.exports=[
       "Africa",
       "Americas",
       "Europe"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Northern Africa",
+      "Southern Asia",
+      "Western Africa",
+      "South America",
+      "Eastern Europe",
+      "Eastern Asia",
+      "Central Asia",
+      "Northern America",
+      "Western Europe",
+      "Western Asia",
+      "Middle Africa",
+      "Southern Europe",
+      "Caribbean",
+      "Northern Europe",
+      "Central America",
+      "Southern Africa",
+      "Eastern Africa"
     ]
   },
   {
@@ -966,6 +1163,23 @@ module.exports=[
       "Americas",
       "Oceania",
       "Africa"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Western Europe",
+      "Northern America",
+      "Northern Europe",
+      "Central America",
+      "Australia and New Zealand",
+      "Southern Europe",
+      "Northern Africa",
+      "Southern Africa",
+      "South America",
+      "Western Asia",
+      "South-Eastern Asia",
+      "Melanesia",
+      "Eastern Europe",
+      "Western Africa"
     ]
   },
   {
@@ -1008,6 +1222,15 @@ module.exports=[
       "Europe",
       "Africa",
       "Americas"
+    ],
+    "region": [
+      "Western Asia",
+      "Southern Europe",
+      "Northern Africa",
+      "Western Europe",
+      "Eastern Africa",
+      "Caribbean",
+      "Northern Europe"
     ]
   },
   {
@@ -1045,6 +1268,13 @@ module.exports=[
     "continent": [
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Western Europe",
+      "Southern Europe",
+      "Northern Europe",
+      "Northern Africa",
+      "Eastern Europe"
     ]
   },
   {
@@ -1081,6 +1311,18 @@ module.exports=[
       "Oceania",
       "Americas",
       "Europe"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Eastern Asia",
+      "Western Asia",
+      "Australia and New Zealand",
+      "Northern America",
+      "Southern Asia",
+      "Eastern Europe",
+      "Polynesia",
+      "Melanesia",
+      "Northern Europe"
     ]
   },
   {
@@ -1122,53 +1364,19 @@ module.exports=[
       "Africa",
       "Oceania",
       "Europe"
-    ]
-  },
-  {
-    "key": "Acipenseridae",
-    "value": 36,
-    "taxonomy": "Diadromous fishes",
-    "country": [
-      "China",
-      "Armenia",
-      "Iran (Islamic Rep. of)",
-      "Russian Federation",
-      "Viet Nam",
-      "Italy",
-      "United States of America",
-      "Poland",
-      "Kazakhstan",
-      "France",
-      "Romania",
-      "Germany",
-      "Ukraine",
-      "Lithuania",
-      "Hungary",
-      "Netherlands",
-      "Latvia",
-      "Bulgaria",
-      "Georgia",
-      "Kyrgyzstan",
-      "Switzerland",
-      "Estonia",
-      "Turkey",
-      "Austria",
-      "Uruguay",
-      "Denmark",
-      "Azerbaijan",
-      "Belgium",
-      "Greece",
-      "Moldova, Republic of",
-      "Spain",
-      "Un. Sov. Soc. Rep.",
-      "United Arab Emirates",
-      "United Kingdom"
     ],
-    "continent": [
-      "Asia",
-      "Europe",
-      "Americas",
-      ""
+    "region": [
+      "South-Eastern Asia",
+      "Eastern Asia",
+      "Southern Asia",
+      "Eastern Africa",
+      "Western Africa",
+      "Melanesia",
+      "Australia and New Zealand",
+      "Polynesia",
+      "Southern Europe",
+      "Western Asia",
+      "Southern Africa"
     ]
   },
   {
@@ -1209,6 +1417,71 @@ module.exports=[
       "Europe",
       "Africa",
       "Americas"
+    ],
+    "region": [
+      "Western Asia",
+      "Southern Europe",
+      "Northern Africa",
+      "Western Europe",
+      "Caribbean"
+    ]
+  },
+  {
+    "key": "Acipenseridae",
+    "value": 35,
+    "taxonomy": "Diadromous fishes",
+    "country": [
+      "China",
+      "Armenia",
+      "Iran (Islamic Rep. of)",
+      "Russian Federation",
+      "Viet Nam",
+      "Italy",
+      "United States of America",
+      "Poland",
+      "Kazakhstan",
+      "France",
+      "Romania",
+      "Germany",
+      "Ukraine",
+      "Lithuania",
+      "Hungary",
+      "Netherlands",
+      "Latvia",
+      "Bulgaria",
+      "Georgia",
+      "Kyrgyzstan",
+      "Switzerland",
+      "Estonia",
+      "Turkey",
+      "Austria",
+      "Uruguay",
+      "Denmark",
+      "Azerbaijan",
+      "Belgium",
+      "Greece",
+      "Moldova, Republic of",
+      "Spain",
+      "United Arab Emirates",
+      "United Kingdom"
+    ],
+    "continent": [
+      "Asia",
+      "Europe",
+      "Americas"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Western Asia",
+      "Southern Asia",
+      "Eastern Europe",
+      "South-Eastern Asia",
+      "Southern Europe",
+      "Northern America",
+      "Central Asia",
+      "Western Europe",
+      "Northern Europe",
+      "South America"
     ]
   },
   {
@@ -1243,6 +1516,17 @@ module.exports=[
       "Americas",
       "Oceania",
       "Asia"
+    ],
+    "region": [
+      "Northern Europe",
+      "South America",
+      "Northern America",
+      "Australia and New Zealand",
+      "Eastern Europe",
+      "Western Europe",
+      "Eastern Asia",
+      "Southern Europe",
+      "Western Asia"
     ]
   },
   {
@@ -1283,45 +1567,15 @@ module.exports=[
       "Europe",
       "Oceania",
       "Americas"
-    ]
-  },
-  {
-    "key": "Mugilidae",
-    "value": 32,
-    "taxonomy": "Marine fishes",
-    "country": [
-      "Egypt",
-      "Indonesia",
-      "Korea, Republic of",
-      "Italy",
-      "Spain",
-      "Malaysia",
-      "Algeria",
-      "Albania",
-      "Azerbaijan",
-      "Brazil",
-      "Dominican Republic",
-      "France",
-      "Guam",
-      "Iraq",
-      "Japan",
-      "Nigeria",
-      "Oman",
-      "Portugal",
-      "Russian Federation",
-      "South Africa",
-      "Turkey",
-      "Ukraine",
-      "Un. Sov. Soc. Rep.",
-      "United Arab Emirates"
     ],
-    "continent": [
-      "Africa",
-      "Asia",
-      "Europe",
-      "Americas",
-      "Oceania",
-      ""
+    "region": [
+      "Western Europe",
+      "Southern Europe",
+      "Northern Europe",
+      "Australia and New Zealand",
+      "Eastern Europe",
+      "South America",
+      "Northern America"
     ]
   },
   {
@@ -1365,6 +1619,70 @@ module.exports=[
       "Europe",
       "Oceania",
       "Americas"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "Southern Asia",
+      "Eastern Europe",
+      "Southern Europe",
+      "Central Asia",
+      "Northern Europe",
+      "Western Europe",
+      "Melanesia",
+      "Central America",
+      "Northern America"
+    ]
+  },
+  {
+    "key": "Mugilidae",
+    "value": 31,
+    "taxonomy": "Marine fishes",
+    "country": [
+      "Egypt",
+      "Indonesia",
+      "Korea, Republic of",
+      "Italy",
+      "Spain",
+      "Malaysia",
+      "Algeria",
+      "Albania",
+      "Azerbaijan",
+      "Brazil",
+      "Dominican Republic",
+      "France",
+      "Guam",
+      "Iraq",
+      "Japan",
+      "Nigeria",
+      "Oman",
+      "Portugal",
+      "Russian Federation",
+      "South Africa",
+      "Turkey",
+      "Ukraine",
+      "United Arab Emirates"
+    ],
+    "continent": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Americas",
+      "Oceania"
+    ],
+    "region": [
+      "Northern Africa",
+      "South-Eastern Asia",
+      "Eastern Asia",
+      "Southern Europe",
+      "Western Asia",
+      "South America",
+      "Caribbean",
+      "Western Europe",
+      "Micronesia",
+      "Western Africa",
+      "Eastern Europe",
+      "Southern Africa"
     ]
   },
   {
@@ -1398,6 +1716,15 @@ module.exports=[
       "Asia",
       "Africa",
       "Oceania"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Eastern Asia",
+      "Eastern Africa",
+      "Micronesia",
+      "Southern Asia",
+      "Polynesia",
+      "Melanesia"
     ]
   },
   {
@@ -1436,6 +1763,15 @@ module.exports=[
       "Asia",
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Central Asia",
+      "Northern Europe",
+      "Eastern Europe",
+      "Northern Africa",
+      "Western Europe",
+      "Southern Europe",
+      "Western Asia"
     ]
   },
   {
@@ -1467,6 +1803,17 @@ module.exports=[
       "Americas",
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "Northern America",
+      "Southern Europe",
+      "Central America",
+      "South America",
+      "Western Europe",
+      "Northern Europe",
+      "Northern Africa"
     ]
   },
   {
@@ -1503,41 +1850,19 @@ module.exports=[
       "Oceania",
       "Americas",
       "Africa"
-    ]
-  },
-  {
-    "key": "Mytilus galloprovincialis",
-    "value": 24,
-    "taxonomy": "Molluscs",
-    "country": [
-      "Italy",
-      "Greece",
-      "France",
-      "Bulgaria",
-      "South Africa",
-      "Croatia",
-      "Slovenia",
-      "Turkey",
-      "Albania",
-      "Montenegro",
-      "Tunisia",
-      "Namibia",
-      "Algeria",
-      "Bosnia and Herzegovina",
-      "Morocco",
-      "Romania",
-      "Russian Federation",
-      "Serbia and Montenegro",
-      "Ukraine",
-      "Un. Sov. Soc. Rep.",
-      "United Kingdom",
-      "Yugoslavia SFR"
     ],
-    "continent": [
-      "Europe",
-      "Africa",
-      "Asia",
-      ""
+    "region": [
+      "Eastern Asia",
+      "Southern Asia",
+      "Australia and New Zealand",
+      "South-Eastern Asia",
+      "South America",
+      "Western Africa",
+      "Northern Africa",
+      "Micronesia",
+      "Caribbean",
+      "Eastern Africa",
+      "Central America"
     ]
   },
   {
@@ -1571,6 +1896,19 @@ module.exports=[
       "Oceania",
       "Americas",
       "Europe"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Eastern Africa",
+      "Southern Africa",
+      "Western Asia",
+      "Melanesia",
+      "Caribbean",
+      "Middle Africa",
+      "Micronesia",
+      "Central America",
+      "South America",
+      "Northern Europe"
     ]
   },
   {
@@ -1607,6 +1945,57 @@ module.exports=[
       "Asia",
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Central Asia",
+      "Eastern Europe",
+      "Western Europe",
+      "Northern Africa",
+      "Southern Europe",
+      "Western Asia",
+      "Northern Europe"
+    ]
+  },
+  {
+    "key": "Mytilus galloprovincialis",
+    "value": 23,
+    "taxonomy": "Molluscs",
+    "country": [
+      "Italy",
+      "Greece",
+      "France",
+      "Bulgaria",
+      "South Africa",
+      "Croatia",
+      "Slovenia",
+      "Turkey",
+      "Albania",
+      "Montenegro",
+      "Tunisia",
+      "Namibia",
+      "Algeria",
+      "Bosnia and Herzegovina",
+      "Morocco",
+      "Romania",
+      "Russian Federation",
+      "Serbia and Montenegro",
+      "Ukraine",
+      "United Kingdom",
+      "Yugoslavia SFR"
+    ],
+    "continent": [
+      "Europe",
+      "Africa",
+      "Asia"
+    ],
+    "region": [
+      "Southern Europe",
+      "Western Europe",
+      "Eastern Europe",
+      "Southern Africa",
+      "Western Asia",
+      "Northern Africa",
+      "Northern Europe"
     ]
   },
   {
@@ -1642,6 +2031,18 @@ module.exports=[
       "Americas",
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Western Asia",
+      "Northern America",
+      "Eastern Asia",
+      "Southern Europe",
+      "Central Asia",
+      "Eastern Europe",
+      "Western Europe",
+      "Eastern Africa",
+      "Northern Europe",
+      "Northern Africa"
     ]
   },
   {
@@ -1674,6 +2075,14 @@ module.exports=[
       "Europe",
       "Africa",
       "Americas"
+    ],
+    "region": [
+      "Western Europe",
+      "Southern Europe",
+      "Northern Europe",
+      "Northern Africa",
+      "Southern Africa",
+      "Northern America"
     ]
   },
   {
@@ -1709,6 +2118,14 @@ module.exports=[
       "Europe",
       "Asia",
       "Africa"
+    ],
+    "region": [
+      "Eastern Europe",
+      "Western Europe",
+      "Northern Europe",
+      "Central Asia",
+      "Southern Europe",
+      "Northern Africa"
     ]
   },
   {
@@ -1739,6 +2156,20 @@ module.exports=[
       "Americas",
       "Oceania",
       "Africa"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "Western Europe",
+      "South America",
+      "Northern America",
+      "Eastern Europe",
+      "Central America",
+      "Australia and New Zealand",
+      "Western Asia",
+      "Southern Europe",
+      "Western Africa",
+      "Northern Europe"
     ]
   },
   {
@@ -1769,6 +2200,15 @@ module.exports=[
       "Asia",
       "Oceania",
       "Africa"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Southern Asia",
+      "Melanesia",
+      "Eastern Asia",
+      "Eastern Africa",
+      "Polynesia",
+      "Australia and New Zealand"
     ]
   },
   {
@@ -1796,6 +2236,16 @@ module.exports=[
       "Africa",
       "Oceania",
       "Americas"
+    ],
+    "region": [
+      "Western Asia",
+      "Eastern Asia",
+      "Southern Europe",
+      "Northern Africa",
+      "South-Eastern Asia",
+      "Melanesia",
+      "South America",
+      "Central America"
     ]
   },
   {
@@ -1826,6 +2276,15 @@ module.exports=[
       "Europe",
       "Americas",
       "Africa"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Southern Europe",
+      "Western Europe",
+      "Northern Europe",
+      "South America",
+      "Eastern Europe",
+      "Southern Africa"
     ]
   },
   {
@@ -1853,7 +2312,13 @@ module.exports=[
       "Slovenia",
       "United Kingdom"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Western Europe",
+      "Eastern Europe",
+      "Southern Europe",
+      "Northern Europe"
+    ]
   },
   {
     "key": "Epinephelus spp",
@@ -1877,6 +2342,13 @@ module.exports=[
       "Asia",
       "Americas",
       "Africa"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "Western Asia",
+      "South America",
+      "Northern Africa"
     ]
   },
   {
@@ -1905,6 +2377,14 @@ module.exports=[
       "Europe",
       "Americas",
       "Africa"
+    ],
+    "region": [
+      "Western Europe",
+      "Northern America",
+      "Northern Europe",
+      "Western Africa",
+      "South America",
+      "Southern Africa"
     ]
   },
   {
@@ -1935,6 +2415,15 @@ module.exports=[
       "Europe",
       "Asia",
       "Africa"
+    ],
+    "region": [
+      "Eastern Europe",
+      "Central Asia",
+      "Eastern Asia",
+      "Western Asia",
+      "Northern Europe",
+      "Southern Europe",
+      "Eastern Africa"
     ]
   },
   {
@@ -1960,6 +2449,12 @@ module.exports=[
     "continent": [
       "Asia",
       "Africa"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Western Africa",
+      "Northern Africa",
+      "Middle Africa"
     ]
   },
   {
@@ -1986,6 +2481,16 @@ module.exports=[
       "Europe",
       "Oceania",
       "Africa"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Central America",
+      "Western Europe",
+      "Southern Europe",
+      "Northern Europe",
+      "Micronesia",
+      "Northern Africa",
+      "Northern America"
     ]
   },
   {
@@ -2015,6 +2520,14 @@ module.exports=[
       "Europe",
       "Asia",
       "Oceania"
+    ],
+    "region": [
+      "Eastern Europe",
+      "Western Europe",
+      "Central Asia",
+      "Southern Europe",
+      "Australia and New Zealand",
+      "Northern Europe"
     ]
   },
   {
@@ -2037,6 +2550,13 @@ module.exports=[
       "Asia",
       "Europe",
       "Americas"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Southern Europe",
+      "Northern America",
+      "Western Europe",
+      "Northern Europe"
     ]
   },
   {
@@ -2063,6 +2583,14 @@ module.exports=[
       "Europe",
       "Oceania",
       "Africa"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Western Europe",
+      "Southern Europe",
+      "Australia and New Zealand",
+      "South-Eastern Asia",
+      "Southern Africa"
     ]
   },
   {
@@ -2090,6 +2618,14 @@ module.exports=[
       "Asia",
       "Americas",
       "Africa"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Central America",
+      "South-Eastern Asia",
+      "South America",
+      "Caribbean",
+      "Eastern Africa"
     ]
   },
   {
@@ -2115,6 +2651,17 @@ module.exports=[
       "Americas",
       "Oceania",
       "Africa"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Southern Europe",
+      "Northern Europe",
+      "Eastern Europe",
+      "Central America",
+      "Australia and New Zealand",
+      "Polynesia",
+      "Southern Africa",
+      "Northern America"
     ]
   },
   {
@@ -2142,6 +2689,16 @@ module.exports=[
       "Americas",
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Central America",
+      "Southern Europe",
+      "Northern Africa",
+      "Caribbean",
+      "Western Europe",
+      "Eastern Africa",
+      "Southern Africa"
     ]
   },
   {
@@ -2165,6 +2722,15 @@ module.exports=[
       "Asia",
       "Europe",
       "Americas"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "Eastern Europe",
+      "Northern Europe",
+      "Southern Europe",
+      "Western Europe",
+      "Central America"
     ]
   },
   {
@@ -2188,6 +2754,12 @@ module.exports=[
       "Africa",
       "Europe",
       "Asia"
+    ],
+    "region": [
+      "Northern Africa",
+      "Southern Europe",
+      "Western Asia",
+      "Western Europe"
     ]
   },
   {
@@ -2215,6 +2787,15 @@ module.exports=[
       "Africa",
       "Oceania",
       "Americas"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Eastern Asia",
+      "Eastern Africa",
+      "Micronesia",
+      "Melanesia",
+      "Caribbean",
+      "Central America"
     ]
   },
   {
@@ -2242,6 +2823,14 @@ module.exports=[
       "Oceania",
       "Africa",
       "Americas"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Melanesia",
+      "Southern Asia",
+      "Eastern Africa",
+      "South America",
+      "Polynesia"
     ]
   },
   {
@@ -2268,6 +2857,15 @@ module.exports=[
       "Asia",
       "Americas",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Northern America",
+      "Eastern Europe",
+      "Central America",
+      "Southern Europe",
+      "South America",
+      "Caribbean"
     ]
   },
   {
@@ -2294,6 +2892,14 @@ module.exports=[
       "Americas",
       "Africa",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "South America",
+      "Southern Africa",
+      "Southern Europe",
+      "Caribbean"
     ]
   },
   {
@@ -2317,6 +2923,12 @@ module.exports=[
     "continent": [
       "Europe",
       "Americas"
+    ],
+    "region": [
+      "Northern Europe",
+      "Western Europe",
+      "Northern America",
+      "Southern Europe"
     ]
   },
   {
@@ -2341,6 +2953,13 @@ module.exports=[
     "continent": [
       "Europe",
       "Oceania"
+    ],
+    "region": [
+      "Western Europe",
+      "Southern Europe",
+      "Eastern Europe",
+      "Northern Europe",
+      "Australia and New Zealand"
     ]
   },
   {
@@ -2366,6 +2985,14 @@ module.exports=[
       "Asia",
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Central Asia",
+      "Western Asia",
+      "Eastern Europe",
+      "Northern Africa",
+      "Northern Europe",
+      "Southern Europe"
     ]
   },
   {
@@ -2388,6 +3015,15 @@ module.exports=[
       "Americas",
       "Asia",
       "Europe"
+    ],
+    "region": [
+      "South America",
+      "Eastern Asia",
+      "Northern Europe",
+      "Northern America",
+      "Western Asia",
+      "Western Europe",
+      "Southern Europe"
     ]
   },
   {
@@ -2408,7 +3044,12 @@ module.exports=[
       "Honduras",
       "Jamaica"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": [
+      "South America",
+      "Central America",
+      "Caribbean"
+    ]
   },
   {
     "key": "Sciaenops ocellatus",
@@ -2431,6 +3072,15 @@ module.exports=[
       "Asia",
       "Africa",
       "Americas"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Eastern Africa",
+      "Northern America",
+      "Western Asia",
+      "Central America",
+      "Caribbean",
+      "South America"
     ]
   },
   {
@@ -2456,6 +3106,12 @@ module.exports=[
       "Asia",
       "Americas",
       "Africa"
+    ],
+    "region": [
+      "Southern Europe",
+      "Western Asia",
+      "Northern America",
+      "Northern Africa"
     ]
   },
   {
@@ -2474,6 +3130,12 @@ module.exports=[
     "continent": [
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Southern Europe",
+      "Northern Africa",
+      "Northern Europe",
+      "Western Europe"
     ]
   },
   {
@@ -2497,6 +3159,13 @@ module.exports=[
       "Oceania",
       "Asia",
       "Americas"
+    ],
+    "region": [
+      "Melanesia",
+      "South-Eastern Asia",
+      "Polynesia",
+      "South America",
+      "Central America"
     ]
   },
   {
@@ -2522,6 +3191,17 @@ module.exports=[
       "Oceania",
       "Americas",
       "Africa"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Australia and New Zealand",
+      "Caribbean",
+      "South America",
+      "Southern Africa",
+      "Central America",
+      "Eastern Africa",
+      "Melanesia",
+      "Polynesia"
     ]
   },
   {
@@ -2545,6 +3225,15 @@ module.exports=[
       "Asia",
       "Americas",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "Central America",
+      "Western Asia",
+      "Western Europe",
+      "Southern Europe",
+      "Eastern Europe"
     ]
   },
   {
@@ -2567,6 +3256,12 @@ module.exports=[
     "continent": [
       "Asia",
       "Americas"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "South America",
+      "Caribbean"
     ]
   },
   {
@@ -2589,6 +3284,13 @@ module.exports=[
     "continent": [
       "Asia",
       "Africa"
+    ],
+    "region": [
+      "Southern Asia",
+      "Western Asia",
+      "Eastern Africa",
+      "Southern Africa",
+      "South-Eastern Asia"
     ]
   },
   {
@@ -2612,6 +3314,13 @@ module.exports=[
       "Asia",
       "Africa",
       "Oceania"
+    ],
+    "region": [
+      "Central America",
+      "Western Asia",
+      "Western Africa",
+      "Caribbean",
+      "Polynesia"
     ]
   },
   {
@@ -2630,7 +3339,11 @@ module.exports=[
       "Thailand",
       "Bhutan"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "Southern Asia",
+      "South-Eastern Asia"
+    ]
   },
   {
     "key": "Pangasianodon hypophthalmus",
@@ -2652,6 +3365,12 @@ module.exports=[
       "Asia",
       "Americas",
       "Oceania"
+    ],
+    "region": [
+      "Southern Asia",
+      "South-Eastern Asia",
+      "Caribbean",
+      "Melanesia"
     ]
   },
   {
@@ -2670,7 +3389,11 @@ module.exports=[
       "Bhutan",
       "Malaysia"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "Southern Asia",
+      "South-Eastern Asia"
+    ]
   },
   {
     "key": "Haliotis spp",
@@ -2692,6 +3415,14 @@ module.exports=[
       "Oceania",
       "Americas",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Australia and New Zealand",
+      "Northern America",
+      "Central America",
+      "South-Eastern Asia",
+      "Northern Europe"
     ]
   },
   {
@@ -2711,6 +3442,11 @@ module.exports=[
     "continent": [
       "Asia",
       "Oceania"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Southern Asia",
+      "Melanesia"
     ]
   },
   {
@@ -2728,6 +3464,11 @@ module.exports=[
     "continent": [
       "Asia",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Southern Europe",
+      "Western Asia"
     ]
   },
   {
@@ -2746,6 +3487,10 @@ module.exports=[
     "continent": [
       "Asia",
       "Oceania"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Micronesia"
     ]
   },
   {
@@ -2768,6 +3513,14 @@ module.exports=[
       "Europe",
       "Americas",
       "Africa"
+    ],
+    "region": [
+      "Southern Europe",
+      "Northern Europe",
+      "Eastern Europe",
+      "Western Europe",
+      "Central America",
+      "Southern Africa"
     ]
   },
   {
@@ -2788,6 +3541,13 @@ module.exports=[
       "Asia",
       "Africa",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Southern Africa",
+      "Southern Europe",
+      "Western Europe",
+      "South-Eastern Asia"
     ]
   },
   {
@@ -2803,7 +3563,11 @@ module.exports=[
       "Korea, Republic of",
       "Taiwan Province of China"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia"
+    ]
   },
   {
     "key": "Spirulina spp",
@@ -2824,6 +3588,14 @@ module.exports=[
       "Europe",
       "Africa",
       "Americas"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Southern Europe",
+      "Northern Africa",
+      "Middle Africa",
+      "Western Africa",
+      "Central America"
     ]
   },
   {
@@ -2840,7 +3612,11 @@ module.exports=[
       "Malaysia",
       "Brunei Darussalam"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "Southern Asia",
+      "South-Eastern Asia"
+    ]
   },
   {
     "key": "Cerastoderma edule",
@@ -2853,7 +3629,12 @@ module.exports=[
       "Germany",
       "United Kingdom"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Western Europe",
+      "Southern Europe",
+      "Northern Europe"
+    ]
   },
   {
     "key": "Lutjanus spp",
@@ -2873,6 +3654,12 @@ module.exports=[
       "Asia",
       "Americas",
       "Africa"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Eastern Asia",
+      "Central America",
+      "Western Africa"
     ]
   },
   {
@@ -2894,6 +3681,13 @@ module.exports=[
       "Asia",
       "Europe",
       "Americas"
+    ],
+    "region": [
+      "Western Asia",
+      "Eastern Europe",
+      "Southern Europe",
+      "South America",
+      "Western Europe"
     ]
   },
   {
@@ -2910,7 +3704,11 @@ module.exports=[
       "Sri Lanka",
       "Bhutan"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "Southern Asia",
+      "South-Eastern Asia"
+    ]
   },
   {
     "key": "Pectinidae",
@@ -2929,6 +3727,12 @@ module.exports=[
       "Asia",
       "Americas",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Northern America",
+      "South America",
+      "Northern Europe"
     ]
   },
   {
@@ -2949,6 +3753,13 @@ module.exports=[
       "Americas",
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Northern America",
+      "Southern Europe",
+      "Central America",
+      "Eastern Africa"
     ]
   },
   {
@@ -2963,7 +3774,11 @@ module.exports=[
       "Brunei Darussalam",
       "Philippines"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia"
+    ]
   },
   {
     "key": "Siluroidei",
@@ -2984,26 +3799,14 @@ module.exports=[
       "Americas",
       "Africa",
       "Europe"
-    ]
-  },
-  {
-    "key": "Coregonus spp",
-    "value": 8,
-    "taxonomy": "Diadromous fishes",
-    "country": [
-      "Russian Federation",
-      "Austria",
-      "Belarus",
-      "Georgia",
-      "Kazakhstan",
-      "Kyrgyzstan",
-      "Switzerland",
-      "Un. Sov. Soc. Rep."
     ],
-    "continent": [
-      "Europe",
-      "Asia",
-      ""
+    "region": [
+      "Southern Asia",
+      "South America",
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "Western Africa",
+      "Northern Europe"
     ]
   },
   {
@@ -3023,6 +3826,13 @@ module.exports=[
     "continent": [
       "Europe",
       "Asia"
+    ],
+    "region": [
+      "Western Europe",
+      "Central Asia",
+      "Eastern Europe",
+      "Northern Europe",
+      "Southern Europe"
     ]
   },
   {
@@ -3042,6 +3852,12 @@ module.exports=[
     "continent": [
       "Asia",
       "Americas"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "South America",
+      "Central America"
     ]
   },
   {
@@ -3061,6 +3877,12 @@ module.exports=[
     "continent": [
       "Europe",
       "Asia"
+    ],
+    "region": [
+      "Eastern Europe",
+      "Eastern Asia",
+      "Western Europe",
+      "Southern Europe"
     ]
   },
   {
@@ -3078,6 +3900,11 @@ module.exports=[
     "continent": [
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Southern Europe",
+      "Northern Africa",
+      "Western Europe"
     ]
   },
   {
@@ -3093,7 +3920,11 @@ module.exports=[
       "Korea, Dem. People's Rep",
       "Malaysia"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia"
+    ]
   },
   {
     "key": "Channa striata",
@@ -3108,7 +3939,11 @@ module.exports=[
       "Singapore",
       "Sri Lanka"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "South-Eastern Asia",
+      "Southern Asia"
+    ]
   },
   {
     "key": "Lutjanus argentimaculatus",
@@ -3125,6 +3960,12 @@ module.exports=[
     "continent": [
       "Asia",
       "Africa"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Eastern Asia",
+      "Western Asia",
+      "Eastern Africa"
     ]
   },
   {
@@ -3140,7 +3981,35 @@ module.exports=[
       "Gambia",
       "Mali"
     ],
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": [
+      "Western Africa",
+      "Middle Africa"
+    ]
+  },
+  {
+    "key": "Coregonus spp",
+    "value": 7,
+    "taxonomy": "Diadromous fishes",
+    "country": [
+      "Russian Federation",
+      "Austria",
+      "Belarus",
+      "Georgia",
+      "Kazakhstan",
+      "Kyrgyzstan",
+      "Switzerland"
+    ],
+    "continent": [
+      "Europe",
+      "Asia"
+    ],
+    "region": [
+      "Eastern Europe",
+      "Western Europe",
+      "Western Asia",
+      "Central Asia"
+    ]
   },
   {
     "key": "Morone chrysops x M. saxatilis",
@@ -3158,24 +4027,13 @@ module.exports=[
       "Americas",
       "Asia",
       "Europe"
-    ]
-  },
-  {
-    "key": "Phaeophyceae",
-    "value": 7,
-    "taxonomy": "Aquatic plants",
-    "country": [
-      "Russian Federation",
-      "Mexico",
-      "Denmark",
-      "Ireland",
-      "Portugal",
-      "Un. Sov. Soc. Rep."
     ],
-    "continent": [
-      "Europe",
-      "Americas",
-      ""
+    "region": [
+      "Northern America",
+      "Western Asia",
+      "Southern Europe",
+      "Western Europe",
+      "Central America"
     ]
   },
   {
@@ -3188,7 +4046,12 @@ module.exports=[
       "France",
       "Portugal"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Southern Europe",
+      "Northern Europe",
+      "Western Europe"
+    ]
   },
   {
     "key": "Epinephelus coioides",
@@ -3203,7 +4066,12 @@ module.exports=[
       "Bahrain",
       "Brunei Darussalam"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "South-Eastern Asia",
+      "Western Asia",
+      "Eastern Asia"
+    ]
   },
   {
     "key": "Crustacea",
@@ -3224,6 +4092,14 @@ module.exports=[
       "Oceania",
       "Asia",
       "Africa"
+    ],
+    "region": [
+      "Northern Europe",
+      "Eastern Europe",
+      "Central America",
+      "Australia and New Zealand",
+      "Eastern Asia",
+      "Northern Africa"
     ]
   },
   {
@@ -3242,6 +4118,11 @@ module.exports=[
     "continent": [
       "Europe",
       "Americas"
+    ],
+    "region": [
+      "Eastern Europe",
+      "Southern Europe",
+      "South America"
     ]
   },
   {
@@ -3259,6 +4140,10 @@ module.exports=[
     "continent": [
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Southern Europe",
+      "Northern Africa"
     ]
   },
   {
@@ -3272,7 +4157,8 @@ module.exports=[
       "Myanmar",
       "Brunei Darussalam"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Anguilla japonica",
@@ -3285,7 +4171,11 @@ module.exports=[
       "Taiwan Province of China",
       "Malaysia"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia"
+    ]
   },
   {
     "key": "Lateolabrax japonicus",
@@ -3297,7 +4187,11 @@ module.exports=[
       "Korea, Republic of",
       "Singapore"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia"
+    ]
   },
   {
     "key": "Osphronemus goramy",
@@ -3311,26 +4205,8 @@ module.exports=[
       "Myanmar",
       "Singapore"
     ],
-    "continent": "Asia"
-  },
-  {
-    "key": "Patinopecten yessoensis",
-    "value": 6,
-    "taxonomy": "Molluscs",
-    "country": [
-      "Japan",
-      "Russian Federation",
-      "Korea, Republic of",
-      "Korea, Dem. People's Rep",
-      "Morocco",
-      "Un. Sov. Soc. Rep."
-    ],
-    "continent": [
-      "Asia",
-      "Europe",
-      "Africa",
-      ""
-    ]
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Eucheuma denticulatum",
@@ -3348,6 +4224,11 @@ module.exports=[
       "Africa",
       "Asia",
       "Americas"
+    ],
+    "region": [
+      "Eastern Africa",
+      "South-Eastern Asia",
+      "South America"
     ]
   },
   {
@@ -3365,6 +4246,12 @@ module.exports=[
       "Asia",
       "Americas",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Southern Asia",
+      "Central America",
+      "Southern Europe"
     ]
   },
   {
@@ -3379,7 +4266,11 @@ module.exports=[
       "Thailand",
       "India"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "Southern Asia",
+      "South-Eastern Asia"
+    ]
   },
   {
     "key": "Oncorhynchus tshawytscha",
@@ -3395,6 +4286,11 @@ module.exports=[
     "continent": [
       "Oceania",
       "Americas"
+    ],
+    "region": [
+      "Australia and New Zealand",
+      "Northern America",
+      "South America"
     ]
   },
   {
@@ -3409,23 +4305,29 @@ module.exports=[
       "Uruguay",
       "Venezuela, Boliv Rep of"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
-    "key": "Salmonoidei",
+    "key": "Phaeophyceae",
     "value": 6,
-    "taxonomy": "Diadromous fishes",
+    "taxonomy": "Aquatic plants",
     "country": [
-      "China",
-      "France",
-      "Austria",
       "Russian Federation",
-      "Un. Sov. Soc. Rep."
+      "Mexico",
+      "Denmark",
+      "Ireland",
+      "Portugal"
     ],
     "continent": [
-      "Asia",
       "Europe",
-      ""
+      "Americas"
+    ],
+    "region": [
+      "Eastern Europe",
+      "Central America",
+      "Northern Europe",
+      "Southern Europe"
     ]
   },
   {
@@ -3443,6 +4345,11 @@ module.exports=[
     "continent": [
       "Asia",
       "Americas"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Southern Asia",
+      "Caribbean"
     ]
   },
   {
@@ -3455,7 +4362,11 @@ module.exports=[
       "Denmark",
       "Latvia"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Northern Europe",
+      "Eastern Europe"
+    ]
   },
   {
     "key": "Gadus morhua",
@@ -3472,6 +4383,11 @@ module.exports=[
     "continent": [
       "Europe",
       "Americas"
+    ],
+    "region": [
+      "Northern Europe",
+      "Northern America",
+      "Eastern Europe"
     ]
   },
   {
@@ -3489,6 +4405,12 @@ module.exports=[
       "Asia",
       "Africa",
       "Oceania"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Western Asia",
+      "Eastern Africa",
+      "Melanesia"
     ]
   },
   {
@@ -3506,6 +4428,10 @@ module.exports=[
     "continent": [
       "Europe",
       "Asia"
+    ],
+    "region": [
+      "Southern Europe",
+      "Western Asia"
     ]
   },
   {
@@ -3524,6 +4450,12 @@ module.exports=[
       "Europe",
       "Americas",
       "Asia"
+    ],
+    "region": [
+      "Eastern Europe",
+      "South America",
+      "Western Asia",
+      "Southern Europe"
     ]
   },
   {
@@ -3541,6 +4473,12 @@ module.exports=[
     "continent": [
       "Asia",
       "Africa"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Eastern Africa",
+      "Southern Asia",
+      "Western Asia"
     ]
   },
   {
@@ -3555,7 +4493,12 @@ module.exports=[
       "Ireland",
       "Spain"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Northern Europe",
+      "Western Europe",
+      "Southern Europe"
+    ]
   },
   {
     "key": "Ex Pinctada spp",
@@ -3572,6 +4515,12 @@ module.exports=[
     "continent": [
       "Asia",
       "Oceania"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Polynesia",
+      "Melanesia",
+      "South-Eastern Asia"
     ]
   },
   {
@@ -3589,6 +4538,12 @@ module.exports=[
     "continent": [
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Eastern Europe",
+      "Northern Africa",
+      "Western Europe",
+      "Northern Europe"
     ]
   },
   {
@@ -3603,7 +4558,12 @@ module.exports=[
       "France",
       "Ukraine"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Eastern Europe",
+      "Northern Europe",
+      "Western Europe"
+    ]
   },
   {
     "key": "Undaria pinnatifida",
@@ -3619,6 +4579,10 @@ module.exports=[
     "continent": [
       "Asia",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Southern Europe"
     ]
   },
   {
@@ -3635,6 +4599,32 @@ module.exports=[
     "continent": [
       "Asia",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Eastern Europe"
+    ]
+  },
+  {
+    "key": "Patinopecten yessoensis",
+    "value": 5,
+    "taxonomy": "Molluscs",
+    "country": [
+      "Japan",
+      "Russian Federation",
+      "Korea, Republic of",
+      "Korea, Dem. People's Rep",
+      "Morocco"
+    ],
+    "continent": [
+      "Asia",
+      "Europe",
+      "Africa"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Eastern Europe",
+      "Northern Africa"
     ]
   },
   {
@@ -3647,7 +4637,8 @@ module.exports=[
       "Malaysia",
       "Singapore"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Lates niloticus",
@@ -3660,7 +4651,12 @@ module.exports=[
       "Togo",
       "Uganda"
     ],
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": [
+      "Western Africa",
+      "Northern Africa",
+      "Eastern Africa"
+    ]
   },
   {
     "key": "Brachyura",
@@ -3674,6 +4670,10 @@ module.exports=[
     "continent": [
       "Asia",
       "Americas"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Caribbean"
     ]
   },
   {
@@ -3687,7 +4687,13 @@ module.exports=[
       "India",
       "Kazakhstan"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "South-Eastern Asia",
+      "Central Asia",
+      "Eastern Asia",
+      "Southern Asia"
+    ]
   },
   {
     "key": "Clarias batrachus",
@@ -3704,6 +4710,12 @@ module.exports=[
       "Asia",
       "Oceania",
       "Europe"
+    ],
+    "region": [
+      "Southern Asia",
+      "South-Eastern Asia",
+      "Micronesia",
+      "Eastern Europe"
     ]
   },
   {
@@ -3720,6 +4732,11 @@ module.exports=[
     "continent": [
       "Africa",
       "Americas"
+    ],
+    "region": [
+      "Western Africa",
+      "South America",
+      "Caribbean"
     ]
   },
   {
@@ -3736,6 +4753,12 @@ module.exports=[
     "continent": [
       "Africa",
       "Americas"
+    ],
+    "region": [
+      "Eastern Africa",
+      "South America",
+      "Caribbean",
+      "Southern Africa"
     ]
   },
   {
@@ -3751,6 +4774,10 @@ module.exports=[
     "continent": [
       "Asia",
       "Americas"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Central America"
     ]
   },
   {
@@ -3764,7 +4791,12 @@ module.exports=[
       "Italy",
       "Norway"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Western Europe",
+      "Northern Europe",
+      "Southern Europe"
+    ]
   },
   {
     "key": "Acanthopagrus schlegeli",
@@ -3775,7 +4807,8 @@ module.exports=[
       "Taiwan Province of China",
       "Japan"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Oxyeleotris marmorata",
@@ -3787,7 +4820,8 @@ module.exports=[
       "Singapore",
       "Malaysia"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Anguilla spp",
@@ -3801,6 +4835,11 @@ module.exports=[
     "continent": [
       "Asia",
       "Africa"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Northern Africa",
+      "Eastern Africa"
     ]
   },
   {
@@ -3818,6 +4857,12 @@ module.exports=[
       "Europe",
       "Africa",
       "Asia"
+    ],
+    "region": [
+      "Eastern Europe",
+      "Northern Africa",
+      "Southern Europe",
+      "Western Asia"
     ]
   },
   {
@@ -3834,6 +4879,10 @@ module.exports=[
     "continent": [
       "Asia",
       "Europe"
+    ],
+    "region": [
+      "Western Asia",
+      "Southern Europe"
     ]
   },
   {
@@ -3850,6 +4899,12 @@ module.exports=[
     "continent": [
       "Asia",
       "Europe"
+    ],
+    "region": [
+      "Southern Asia",
+      "Western Asia",
+      "Eastern Europe",
+      "Western Europe"
     ]
   },
   {
@@ -3862,7 +4917,11 @@ module.exports=[
       "French Guiana",
       "Suriname"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": [
+      "South America",
+      "Caribbean"
+    ]
   },
   {
     "key": "Rhabdosargus sarba",
@@ -3878,6 +4937,11 @@ module.exports=[
     "continent": [
       "Asia",
       "Africa"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Eastern Africa",
+      "Western Asia"
     ]
   },
   {
@@ -3891,7 +4955,12 @@ module.exports=[
       "Slovakia",
       "Slovenia"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Western Europe",
+      "Southern Europe",
+      "Eastern Europe"
+    ]
   },
   {
     "key": "Laminaria japonica",
@@ -3903,7 +4972,8 @@ module.exports=[
       "Korea, Republic of",
       "Japan"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Porphyra tenera",
@@ -3915,7 +4985,8 @@ module.exports=[
       "Korea, Dem. People's Rep",
       "Taiwan Province of China"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Monopterus albus",
@@ -3927,7 +4998,11 @@ module.exports=[
       "Singapore",
       "Thailand"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia"
+    ]
   },
   {
     "key": "Apostichopus japonicus",
@@ -3942,6 +5017,10 @@ module.exports=[
     "continent": [
       "Asia",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Eastern Europe"
     ]
   },
   {
@@ -3954,7 +5033,12 @@ module.exports=[
       "Dominican Republic",
       "Mexico"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": [
+      "Northern America",
+      "Caribbean",
+      "Central America"
+    ]
   },
   {
     "key": "Metapenaeus spp",
@@ -3966,7 +5050,8 @@ module.exports=[
       "Philippines",
       "Thailand"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Pagrus auratus",
@@ -3977,7 +5062,8 @@ module.exports=[
       "China, Hong Kong SAR",
       "Taiwan Province of China"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Paralichthys olivaceus",
@@ -3993,6 +5079,11 @@ module.exports=[
       "Asia",
       "Americas",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South America",
+      "Western Europe"
     ]
   },
   {
@@ -4004,7 +5095,8 @@ module.exports=[
       "Taiwan Province of China",
       "Korea, Republic of"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Trichogaster pectoralis",
@@ -4016,7 +5108,8 @@ module.exports=[
       "Indonesia",
       "Malaysia"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Eleutheronema tetradactylum",
@@ -4028,7 +5121,11 @@ module.exports=[
       "Malaysia",
       "Thailand"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia"
+    ]
   },
   {
     "key": "Pagrus major",
@@ -4039,7 +5136,11 @@ module.exports=[
       "Cyprus",
       "Taiwan Province of China"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "Eastern Asia",
+      "Western Asia"
+    ]
   },
   {
     "key": "Leptobarbus hoeveni",
@@ -4051,7 +5152,8 @@ module.exports=[
       "Malaysia",
       "Singapore"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Cirrhinus molitorella",
@@ -4063,7 +5165,31 @@ module.exports=[
       "China",
       "Taiwan Province of China"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "South-Eastern Asia",
+      "Eastern Asia"
+    ]
+  },
+  {
+    "key": "Salmonoidei",
+    "value": 4,
+    "taxonomy": "Diadromous fishes",
+    "country": [
+      "China",
+      "France",
+      "Austria",
+      "Russian Federation"
+    ],
+    "continent": [
+      "Asia",
+      "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Western Europe",
+      "Eastern Europe"
+    ]
   },
   {
     "key": "Ictalurus spp",
@@ -4078,6 +5204,12 @@ module.exports=[
     "continent": [
       "Americas",
       "Europe"
+    ],
+    "region": [
+      "Central America",
+      "Western Europe",
+      "Southern Europe",
+      "Eastern Europe"
     ]
   },
   {
@@ -4093,6 +5225,10 @@ module.exports=[
     "continent": [
       "Americas",
       "Oceania"
+    ],
+    "region": [
+      "Caribbean",
+      "Melanesia"
     ]
   },
   {
@@ -4108,6 +5244,10 @@ module.exports=[
     "continent": [
       "Europe",
       "Asia"
+    ],
+    "region": [
+      "Southern Europe",
+      "Western Asia"
     ]
   },
   {
@@ -4123,6 +5263,11 @@ module.exports=[
     "continent": [
       "Africa",
       "Europe"
+    ],
+    "region": [
+      "Northern Africa",
+      "Eastern Europe",
+      "Northern Europe"
     ]
   },
   {
@@ -4138,6 +5283,11 @@ module.exports=[
     "continent": [
       "Asia",
       "Europe"
+    ],
+    "region": [
+      "Western Asia",
+      "Southern Europe",
+      "Eastern Asia"
     ]
   },
   {
@@ -4153,6 +5303,11 @@ module.exports=[
     "continent": [
       "Oceania",
       "Asia"
+    ],
+    "region": [
+      "Australia and New Zealand",
+      "South-Eastern Asia",
+      "Polynesia"
     ]
   },
   {
@@ -4168,6 +5323,11 @@ module.exports=[
     "continent": [
       "Europe",
       "Americas"
+    ],
+    "region": [
+      "Eastern Europe",
+      "South America",
+      "Southern Europe"
     ]
   },
   {
@@ -4180,23 +5340,8 @@ module.exports=[
       "Saudi Arabia",
       "United Arab Emirates"
     ],
-    "continent": "Asia"
-  },
-  {
-    "key": "Pleuronectiformes",
-    "value": 4,
-    "taxonomy": "Marine fishes",
-    "country": [
-      "Peru",
-      "Russian Federation",
-      "Ukraine",
-      "Un. Sov. Soc. Rep."
-    ],
-    "continent": [
-      "Americas",
-      "Europe",
-      ""
-    ]
+    "continent": "Asia",
+    "region": "Western Asia"
   },
   {
     "key": "Alburnus alburnus",
@@ -4211,6 +5356,11 @@ module.exports=[
     "continent": [
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Eastern Europe",
+      "Northern Africa",
+      "Western Europe"
     ]
   },
   {
@@ -4225,6 +5375,11 @@ module.exports=[
     "continent": [
       "Asia",
       "Americas"
+    ],
+    "region": [
+      "Western Asia",
+      "Central America",
+      "Eastern Asia"
     ]
   },
   {
@@ -4239,6 +5394,10 @@ module.exports=[
     "continent": [
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Southern Europe",
+      "Northern Africa"
     ]
   },
   {
@@ -4253,6 +5412,11 @@ module.exports=[
     "continent": [
       "Asia",
       "Americas"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Central America",
+      "Western Asia"
     ]
   },
   {
@@ -4265,7 +5429,11 @@ module.exports=[
       "Qatar",
       "United Arab Emirates"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "South-Eastern Asia",
+      "Western Asia"
+    ]
   },
   {
     "key": "Artemia salina",
@@ -4281,6 +5449,12 @@ module.exports=[
       "Oceania",
       "Americas",
       "Africa"
+    ],
+    "region": [
+      "Australia and New Zealand",
+      "Caribbean",
+      "Eastern Africa",
+      "South America"
     ]
   },
   {
@@ -4297,6 +5471,11 @@ module.exports=[
       "Europe",
       "Americas",
       "Asia"
+    ],
+    "region": [
+      "Eastern Europe",
+      "Caribbean",
+      "Central Asia"
     ]
   },
   {
@@ -4313,6 +5492,12 @@ module.exports=[
       "Oceania",
       "Americas",
       "Europe"
+    ],
+    "region": [
+      "Polynesia",
+      "Central America",
+      "South America",
+      "Southern Europe"
     ]
   },
   {
@@ -4324,7 +5509,12 @@ module.exports=[
       "Malaysia",
       "United Arab Emirates"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "Western Asia"
+    ]
   },
   {
     "key": "Leuciscus idus",
@@ -4336,7 +5526,12 @@ module.exports=[
       "Slovenia",
       "United Kingdom"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Northern Europe",
+      "Eastern Europe",
+      "Southern Europe"
+    ]
   },
   {
     "key": "Rhamdia quelen",
@@ -4348,7 +5543,11 @@ module.exports=[
       "Mexico",
       "Uruguay"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": [
+      "South America",
+      "Central America"
+    ]
   },
   {
     "key": "Carassius spp",
@@ -4362,6 +5561,11 @@ module.exports=[
     "continent": [
       "Asia",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Eastern Europe",
+      "Northern Europe"
     ]
   },
   {
@@ -4373,7 +5577,8 @@ module.exports=[
       "Taiwan Province of China",
       "Korea, Republic of"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Misgurnus anguillicaudatus",
@@ -4384,7 +5589,8 @@ module.exports=[
       "Korea, Republic of",
       "Taiwan Province of China"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Silurus asotus",
@@ -4395,7 +5601,8 @@ module.exports=[
       "Korea, Republic of",
       "Taiwan Province of China"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Meretrix lusoria",
@@ -4405,7 +5612,8 @@ module.exports=[
       "Taiwan Province of China",
       "Korea, Republic of"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Testudinata",
@@ -4419,6 +5627,11 @@ module.exports=[
     "continent": [
       "Asia",
       "Americas"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "South America"
     ]
   },
   {
@@ -4430,7 +5643,8 @@ module.exports=[
       "Japan",
       "Korea, Dem. People's Rep"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Salmonidae",
@@ -4444,6 +5658,11 @@ module.exports=[
     "continent": [
       "Americas",
       "Europe"
+    ],
+    "region": [
+      "Northern America",
+      "Northern Europe",
+      "Southern Europe"
     ]
   },
   {
@@ -4455,7 +5674,8 @@ module.exports=[
       "Paraguay",
       "Argentina"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "C. macropomum x P. brachypomus",
@@ -4466,7 +5686,8 @@ module.exports=[
       "Venezuela, Boliv Rep of",
       "Peru"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Lutjanus johnii",
@@ -4476,7 +5697,8 @@ module.exports=[
       "Malaysia",
       "Singapore"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Ostreidae",
@@ -4489,6 +5711,10 @@ module.exports=[
     "continent": [
       "Oceania",
       "Europe"
+    ],
+    "region": [
+      "Australia and New Zealand",
+      "Southern Europe"
     ]
   },
   {
@@ -4500,7 +5726,8 @@ module.exports=[
       "Taiwan Province of China",
       "Korea, Republic of"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Oreochromis andersonii",
@@ -4511,7 +5738,11 @@ module.exports=[
       "Namibia",
       "Botswana"
     ],
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": [
+      "Eastern Africa",
+      "Southern Africa"
+    ]
   },
   {
     "key": "Plantae aquaticae",
@@ -4525,6 +5756,11 @@ module.exports=[
     "continent": [
       "Asia",
       "Americas"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Southern Asia",
+      "Central America"
     ]
   },
   {
@@ -4536,7 +5772,8 @@ module.exports=[
       "Iceland",
       "United Kingdom"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Northern Europe"
   },
   {
     "key": "Pagrus pagrus",
@@ -4550,6 +5787,10 @@ module.exports=[
     "continent": [
       "Europe",
       "Asia"
+    ],
+    "region": [
+      "Southern Europe",
+      "Western Asia"
     ]
   },
   {
@@ -4564,6 +5805,10 @@ module.exports=[
     "continent": [
       "Oceania",
       "Africa"
+    ],
+    "region": [
+      "Polynesia",
+      "Eastern Africa"
     ]
   },
   {
@@ -4575,7 +5820,11 @@ module.exports=[
       "Dominican Republic",
       "Bahamas"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": [
+      "Central America",
+      "Caribbean"
+    ]
   },
   {
     "key": "Bidyanus bidyanus",
@@ -4589,6 +5838,11 @@ module.exports=[
     "continent": [
       "Oceania",
       "Asia"
+    ],
+    "region": [
+      "Australia and New Zealand",
+      "South-Eastern Asia",
+      "Eastern Asia"
     ]
   },
   {
@@ -4604,6 +5858,11 @@ module.exports=[
       "Asia",
       "Americas",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South America",
+      "Eastern Europe"
     ]
   },
   {
@@ -4614,7 +5873,8 @@ module.exports=[
       "Spain",
       "Portugal"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Venerupis pullastra",
@@ -4624,7 +5884,8 @@ module.exports=[
       "Spain",
       "Portugal"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Saccharina latissima",
@@ -4635,7 +5896,11 @@ module.exports=[
       "Spain",
       "Denmark"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Northern Europe",
+      "Southern Europe"
+    ]
   },
   {
     "key": "Chrysichthys nigrodigitatus",
@@ -4645,7 +5910,8 @@ module.exports=[
       "C�te d'Ivoire",
       "Nigeria"
     ],
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Western Africa"
   },
   {
     "key": "Portunus pelagicus",
@@ -4655,7 +5921,11 @@ module.exports=[
       "Singapore",
       "Taiwan Province of China"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "South-Eastern Asia",
+      "Eastern Asia"
+    ]
   },
   {
     "key": "Soleidae",
@@ -4665,7 +5935,11 @@ module.exports=[
       "Netherlands",
       "Spain"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Western Europe",
+      "Southern Europe"
+    ]
   },
   {
     "key": "Epinephelus fuscoguttatus",
@@ -4675,7 +5949,26 @@ module.exports=[
       "Singapore",
       "Malaysia"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
+  },
+  {
+    "key": "Pleuronectiformes",
+    "value": 3,
+    "taxonomy": "Marine fishes",
+    "country": [
+      "Peru",
+      "Russian Federation",
+      "Ukraine"
+    ],
+    "continent": [
+      "Americas",
+      "Europe"
+    ],
+    "region": [
+      "South America",
+      "Eastern Europe"
+    ]
   },
   {
     "key": "Hippopus hippopus",
@@ -4686,7 +5979,11 @@ module.exports=[
       "Samoa",
       "Tonga"
     ],
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": [
+      "Micronesia",
+      "Polynesia"
+    ]
   },
   {
     "key": "Tilapia zillii",
@@ -4697,7 +5994,12 @@ module.exports=[
       "Chad",
       "Uganda"
     ],
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": [
+      "Western Africa",
+      "Middle Africa",
+      "Eastern Africa"
+    ]
   },
   {
     "key": "Acipenser stellatus",
@@ -4708,7 +6010,11 @@ module.exports=[
       "Romania",
       "Spain"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Eastern Europe",
+      "Southern Europe"
+    ]
   },
   {
     "key": "Cichlasoma managuense",
@@ -4719,7 +6025,8 @@ module.exports=[
       "Panama",
       "Guatemala"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Central America"
   },
   {
     "key": "Chlorophyceae",
@@ -4733,6 +6040,10 @@ module.exports=[
     "continent": [
       "Europe",
       "Asia"
+    ],
+    "region": [
+      "Southern Europe",
+      "Eastern Asia"
     ]
   },
   {
@@ -4743,7 +6054,8 @@ module.exports=[
       "Spain",
       "Portugal"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Tridacna maxima",
@@ -4754,7 +6066,11 @@ module.exports=[
       "Samoa",
       "Tonga"
     ],
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": [
+      "Micronesia",
+      "Polynesia"
+    ]
   },
   {
     "key": "Tridacna derasa",
@@ -4765,7 +6081,11 @@ module.exports=[
       "Samoa",
       "Tonga"
     ],
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": [
+      "Micronesia",
+      "Polynesia"
+    ]
   },
   {
     "key": "Leuciscus cephalus",
@@ -4776,7 +6096,11 @@ module.exports=[
       "Romania",
       "United Kingdom"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Eastern Europe",
+      "Northern Europe"
+    ]
   },
   {
     "key": "Spirulina platensis",
@@ -4791,6 +6115,11 @@ module.exports=[
       "Europe",
       "Africa",
       "Americas"
+    ],
+    "region": [
+      "Eastern Europe",
+      "Western Africa",
+      "South America"
     ]
   },
   {
@@ -4802,7 +6131,8 @@ module.exports=[
       "Peru",
       "Uruguay"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Aspius aspius",
@@ -4816,6 +6146,10 @@ module.exports=[
     "continent": [
       "Asia",
       "Europe"
+    ],
+    "region": [
+      "Central Asia",
+      "Eastern Europe"
     ]
   },
   {
@@ -4827,7 +6161,12 @@ module.exports=[
       "Ecuador",
       "Guatemala"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": [
+      "Caribbean",
+      "South America",
+      "Central America"
+    ]
   },
   {
     "key": "Sepia officinalis",
@@ -4841,6 +6180,10 @@ module.exports=[
     "continent": [
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Southern Europe",
+      "Northern Africa"
     ]
   },
   {
@@ -4855,6 +6198,11 @@ module.exports=[
     "continent": [
       "Europe",
       "Asia"
+    ],
+    "region": [
+      "Southern Europe",
+      "Western Asia",
+      "Eastern Asia"
     ]
   },
   {
@@ -4866,7 +6214,11 @@ module.exports=[
       "Samoa",
       "Tonga"
     ],
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": [
+      "Micronesia",
+      "Polynesia"
+    ]
   },
   {
     "key": "Tridacna gigas",
@@ -4877,7 +6229,11 @@ module.exports=[
       "Samoa",
       "Tonga"
     ],
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": [
+      "Micronesia",
+      "Polynesia"
+    ]
   },
   {
     "key": "Penaeus semisulcatus",
@@ -4891,6 +6247,10 @@ module.exports=[
     "continent": [
       "Europe",
       "Asia"
+    ],
+    "region": [
+      "Southern Europe",
+      "Western Asia"
     ]
   },
   {
@@ -4902,7 +6262,12 @@ module.exports=[
       "Spain",
       "United Kingdom"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Western Europe",
+      "Southern Europe",
+      "Northern Europe"
+    ]
   },
   {
     "key": "Megalobrama amblycephala",
@@ -4915,6 +6280,10 @@ module.exports=[
     "continent": [
       "Asia",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Southern Europe"
     ]
   },
   {
@@ -4925,7 +6294,8 @@ module.exports=[
       "China",
       "Korea, Republic of"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Oreochromis aureus x O. niloticus",
@@ -4938,6 +6308,10 @@ module.exports=[
     "continent": [
       "Asia",
       "Americas"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Central America"
     ]
   },
   {
@@ -4948,7 +6322,8 @@ module.exports=[
       "China",
       "Korea, Republic of"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Portunus spp",
@@ -4958,7 +6333,11 @@ module.exports=[
       "China",
       "Indonesia"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia"
+    ]
   },
   {
     "key": "Penaeus chinensis",
@@ -4968,7 +6347,8 @@ module.exports=[
       "China",
       "Korea, Republic of"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Labeo calbasu",
@@ -4978,7 +6358,8 @@ module.exports=[
       "Bangladesh",
       "India"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Southern Asia"
   },
   {
     "key": "Mercenaria mercenaria",
@@ -4991,6 +6372,10 @@ module.exports=[
     "continent": [
       "Americas",
       "Europe"
+    ],
+    "region": [
+      "Northern America",
+      "Northern Europe"
     ]
   },
   {
@@ -5001,7 +6386,8 @@ module.exports=[
       "China",
       "Taiwan Province of China"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Ascidiacea",
@@ -5011,7 +6397,8 @@ module.exports=[
       "Japan",
       "Korea, Republic of"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Perna perna",
@@ -5021,7 +6408,8 @@ module.exports=[
       "Brazil",
       "Venezuela, Boliv Rep of"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Thunnus orientalis",
@@ -5034,6 +6422,10 @@ module.exports=[
     "continent": [
       "Asia",
       "Americas"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Central America"
     ]
   },
   {
@@ -5044,7 +6436,11 @@ module.exports=[
       "Bangladesh",
       "Myanmar"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": [
+      "Southern Asia",
+      "South-Eastern Asia"
+    ]
   },
   {
     "key": "Pleuronectidae",
@@ -5054,7 +6450,8 @@ module.exports=[
       "China",
       "Korea, Republic of"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Argopecten purpuratus",
@@ -5064,7 +6461,8 @@ module.exports=[
       "Peru",
       "Chile"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Strongylocentrotus spp",
@@ -5077,6 +6475,10 @@ module.exports=[
     "continent": [
       "Asia",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Eastern Europe"
     ]
   },
   {
@@ -5084,7 +6486,8 @@ module.exports=[
     "value": 2,
     "taxonomy": "Molluscs",
     "country": "Mexico",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Central America"
   },
   {
     "key": "Hemibagrus nemurus",
@@ -5094,7 +6497,8 @@ module.exports=[
       "Indonesia",
       "Malaysia"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Brycon spp",
@@ -5104,7 +6508,8 @@ module.exports=[
       "Brazil",
       "Colombia"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Probarbus jullieni",
@@ -5114,7 +6519,8 @@ module.exports=[
       "Lao People's Dem. Rep.",
       "Thailand"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Arapaima gigas",
@@ -5124,7 +6530,8 @@ module.exports=[
       "Brazil",
       "Peru"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Crassostrea madrasensis",
@@ -5134,7 +6541,8 @@ module.exports=[
       "India",
       "Sri Lanka"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Southern Asia"
   },
   {
     "key": "Leporinus spp",
@@ -5144,14 +6552,16 @@ module.exports=[
       "Brazil",
       "Paraguay"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Mytilus planulatus",
     "value": 2,
     "taxonomy": "Molluscs",
     "country": "Australia",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Australia and New Zealand"
   },
   {
     "key": "Brycon amazonicus",
@@ -5161,7 +6571,8 @@ module.exports=[
       "Brazil",
       "Colombia"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Parachanna spp",
@@ -5171,7 +6582,11 @@ module.exports=[
       "Nigeria",
       "Cameroon"
     ],
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": [
+      "Western Africa",
+      "Middle Africa"
+    ]
   },
   {
     "key": "Aulacomya ater",
@@ -5181,7 +6596,8 @@ module.exports=[
       "Chile",
       "Argentina"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Haliotis midae",
@@ -5191,7 +6607,8 @@ module.exports=[
       "South Africa",
       "Namibia"
     ],
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Southern Africa"
   },
   {
     "key": "Haliotis rufescens",
@@ -5201,7 +6618,11 @@ module.exports=[
       "Chile",
       "Mexico"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": [
+      "South America",
+      "Central America"
+    ]
   },
   {
     "key": "Ex Unionidae",
@@ -5211,14 +6632,16 @@ module.exports=[
       "China",
       "Japan"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Gracilaria verrucosa",
     "value": 2,
     "taxonomy": "Aquatic plants",
     "country": "Taiwan Province of China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Pseudoplatystoma corruscans",
@@ -5228,7 +6651,8 @@ module.exports=[
       "Paraguay",
       "Brazil"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Saxidomus giganteus",
@@ -5238,7 +6662,8 @@ module.exports=[
       "Canada",
       "United States of America"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Northern America"
   },
   {
     "key": "Holothuroidea",
@@ -5251,6 +6676,10 @@ module.exports=[
     "continent": [
       "Asia",
       "Africa"
+    ],
+    "region": [
+      "South-Eastern Asia",
+      "Eastern Africa"
     ]
   },
   {
@@ -5258,7 +6687,8 @@ module.exports=[
     "value": 2,
     "taxonomy": "Freshwater fishes",
     "country": "Italy",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Oreochromis spilurus",
@@ -5271,6 +6701,10 @@ module.exports=[
     "continent": [
       "Asia",
       "Europe"
+    ],
+    "region": [
+      "Western Asia",
+      "Southern Europe"
     ]
   },
   {
@@ -5278,7 +6712,8 @@ module.exports=[
     "value": 2,
     "taxonomy": "Marine fishes",
     "country": "Philippines",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Oncorhynchus masou",
@@ -5291,6 +6726,10 @@ module.exports=[
     "continent": [
       "Asia",
       "Americas"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South America"
     ]
   },
   {
@@ -5301,7 +6740,8 @@ module.exports=[
       "Senegal",
       "Gambia"
     ],
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Western Africa"
   },
   {
     "key": "Sarotherodon melanotheron",
@@ -5311,7 +6751,8 @@ module.exports=[
       "Senegal",
       "Benin"
     ],
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Western Africa"
   },
   {
     "key": "Macrobrachium malcolmsonii",
@@ -5321,7 +6762,8 @@ module.exports=[
       "Pakistan",
       "India"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Southern Asia"
   },
   {
     "key": "Pagellus bogaraveo",
@@ -5331,21 +6773,24 @@ module.exports=[
       "Spain",
       "Portugal"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Epinephelus malabaricus",
     "value": 2,
     "taxonomy": "Marine fishes",
     "country": "Singapore",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Lutjanidae",
     "value": 2,
     "taxonomy": "Marine fishes",
     "country": "Taiwan Province of China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Miichthys miiuy",
@@ -5355,7 +6800,8 @@ module.exports=[
       "Korea, Republic of",
       "Taiwan Province of China"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Pseudoplatystoma spp",
@@ -5365,7 +6811,8 @@ module.exports=[
       "Argentina",
       "Peru"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Brycon cephalus",
@@ -5375,14 +6822,16 @@ module.exports=[
       "Peru",
       "Brazil"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Lutjanus erythropterus",
     "value": 2,
     "taxonomy": "Marine fishes",
     "country": "Singapore",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Salminus brasiliensis",
@@ -5392,7 +6841,8 @@ module.exports=[
       "Brazil",
       "Argentina"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Cherax tenuimanus",
@@ -5405,6 +6855,10 @@ module.exports=[
     "continent": [
       "Oceania",
       "Africa"
+    ],
+    "region": [
+      "Australia and New Zealand",
+      "Southern Africa"
     ]
   },
   {
@@ -5412,7 +6866,8 @@ module.exports=[
     "value": 2,
     "taxonomy": "Molluscs",
     "country": "Taiwan Province of China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Seriola lalandi",
@@ -5425,6 +6880,10 @@ module.exports=[
     "continent": [
       "Europe",
       "Americas"
+    ],
+    "region": [
+      "Western Europe",
+      "South America"
     ]
   },
   {
@@ -5432,7 +6891,8 @@ module.exports=[
     "value": 2,
     "taxonomy": "Crustaceans",
     "country": "Singapore",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Alaria esculenta",
@@ -5442,7 +6902,8 @@ module.exports=[
       "Ireland",
       "Norway"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Northern Europe"
   },
   {
     "key": "Spirulina maxima",
@@ -5455,6 +6916,10 @@ module.exports=[
     "continent": [
       "Americas",
       "Africa"
+    ],
+    "region": [
+      "South America",
+      "Western Africa"
     ]
   },
   {
@@ -5462,7 +6927,8 @@ module.exports=[
     "value": 2,
     "taxonomy": "Marine fishes",
     "country": "Singapore",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Haliotis discus",
@@ -5475,6 +6941,10 @@ module.exports=[
     "continent": [
       "Americas",
       "Europe"
+    ],
+    "region": [
+      "South America",
+      "Southern Europe"
     ]
   },
   {
@@ -5485,7 +6955,11 @@ module.exports=[
       "Austria",
       "Slovenia"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Western Europe",
+      "Southern Europe"
+    ]
   },
   {
     "key": "Macrobrachium spp",
@@ -5498,6 +6972,10 @@ module.exports=[
     "continent": [
       "Americas",
       "Asia"
+    ],
+    "region": [
+      "Central America",
+      "Southern Asia"
     ]
   },
   {
@@ -5508,7 +6986,11 @@ module.exports=[
       "United Kingdom",
       "Spain"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Northern Europe",
+      "Southern Europe"
+    ]
   },
   {
     "key": "Prochilodus lineatus",
@@ -5518,7 +7000,8 @@ module.exports=[
       "Argentina",
       "Paraguay"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Scortum barcoo",
@@ -5528,7 +7011,8 @@ module.exports=[
       "Malaysia",
       "Singapore"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Tor tambroides",
@@ -5538,7 +7022,8 @@ module.exports=[
       "Malaysia",
       "Singapore"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Polydactylus sexfilis",
@@ -5548,7 +7033,11 @@ module.exports=[
       "Marshall Islands",
       "French Polynesia"
     ],
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": [
+      "Micronesia",
+      "Polynesia"
+    ]
   },
   {
     "key": "Heterobranchus longifilis",
@@ -5558,7 +7047,11 @@ module.exports=[
       "Cameroon",
       "Liberia"
     ],
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": [
+      "Middle Africa",
+      "Western Africa"
+    ]
   },
   {
     "key": "Haliotis tuberculata",
@@ -5568,14 +7061,19 @@ module.exports=[
       "France",
       "Channel Islands"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Western Europe",
+      "Northern Europe"
+    ]
   },
   {
     "key": "Epinephelus lanceolatus",
     "value": 2,
     "taxonomy": "Marine fishes",
     "country": "Singapore",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Pseudoplatystoma fasciatum",
@@ -5585,7 +7083,8 @@ module.exports=[
       "Colombia",
       "Venezuela, Boliv Rep of"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Tridacna spp",
@@ -5595,7 +7094,11 @@ module.exports=[
       "Cook Islands",
       "Papua New Guinea"
     ],
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": [
+      "Polynesia",
+      "Melanesia"
+    ]
   },
   {
     "key": "Solen spp",
@@ -5605,7 +7108,8 @@ module.exports=[
       "Portugal",
       "Spain"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Lota lota",
@@ -5615,7 +7119,11 @@ module.exports=[
       "Russian Federation",
       "Latvia"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Eastern Europe",
+      "Northern Europe"
+    ]
   },
   {
     "key": "Macrocystis pyrifera",
@@ -5625,7 +7133,8 @@ module.exports=[
       "Peru",
       "Chile"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Penaeus kerathurus",
@@ -5638,6 +7147,10 @@ module.exports=[
     "continent": [
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Southern Europe",
+      "Northern Africa"
     ]
   },
   {
@@ -5648,21 +7161,24 @@ module.exports=[
       "Spain",
       "Slovenia"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Cerastoderma glaucum",
     "value": 2,
     "taxonomy": "Molluscs",
     "country": "Spain",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Cromileptes altivelis",
     "value": 2,
     "taxonomy": "Marine fishes",
     "country": "Singapore",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Anadara spp",
@@ -5675,6 +7191,10 @@ module.exports=[
     "continent": [
       "Oceania",
       "Americas"
+    ],
+    "region": [
+      "Melanesia",
+      "Central America"
     ]
   },
   {
@@ -5685,7 +7205,11 @@ module.exports=[
       "Chad",
       "Sudan (former)"
     ],
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": [
+      "Middle Africa",
+      "Northern Africa"
+    ]
   },
   {
     "key": "Chrysichthys spp",
@@ -5695,7 +7219,8 @@ module.exports=[
       "Benin",
       "C�te d'Ivoire"
     ],
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Western Africa"
   },
   {
     "key": "Lepomis macrochirus",
@@ -5705,14 +7230,19 @@ module.exports=[
       "Mexico",
       "Puerto Rico"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": [
+      "Central America",
+      "Caribbean"
+    ]
   },
   {
     "key": "Penaeus esculentus",
     "value": 2,
     "taxonomy": "Crustaceans",
     "country": "Australia",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Australia and New Zealand"
   },
   {
     "key": "Ruditapes spp",
@@ -5722,19 +7252,10 @@ module.exports=[
       "South Africa",
       "Tunisia"
     ],
-    "continent": "Africa"
-  },
-  {
-    "key": "Oncorhynchus keta",
-    "value": 2,
-    "taxonomy": "Diadromous fishes",
-    "country": [
-      "Russian Federation",
-      "Un. Sov. Soc. Rep."
-    ],
-    "continent": [
-      "Europe",
-      ""
+    "continent": "Africa",
+    "region": [
+      "Southern Africa",
+      "Northern Africa"
     ]
   },
   {
@@ -5748,6 +7269,10 @@ module.exports=[
     "continent": [
       "Asia",
       "Europe"
+    ],
+    "region": [
+      "Western Asia",
+      "Southern Europe"
     ]
   },
   {
@@ -5758,7 +7283,8 @@ module.exports=[
       "Italy",
       "Spain"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Centropomus undecimalis",
@@ -5768,7 +7294,11 @@ module.exports=[
       "Dominican Republic",
       "Mexico"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": [
+      "Caribbean",
+      "Central America"
+    ]
   },
   {
     "key": "Diplodus vulgaris",
@@ -5781,6 +7311,10 @@ module.exports=[
     "continent": [
       "Europe",
       "Asia"
+    ],
+    "region": [
+      "Southern Europe",
+      "Western Asia"
     ]
   },
   {
@@ -5791,14 +7325,16 @@ module.exports=[
       "Colombia",
       "Peru"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Penaeus plebejus",
     "value": 2,
     "taxonomy": "Crustaceans",
     "country": "Australia",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Australia and New Zealand"
   },
   {
     "key": "Platichthys flesus",
@@ -5808,7 +7344,11 @@ module.exports=[
       "Denmark",
       "Ukraine"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Northern Europe",
+      "Eastern Europe"
+    ]
   },
   {
     "key": "Ostrea spp",
@@ -5821,6 +7361,10 @@ module.exports=[
     "continent": [
       "Oceania",
       "Americas"
+    ],
+    "region": [
+      "Australia and New Zealand",
+      "Northern America"
     ]
   },
   {
@@ -5834,14 +7378,19 @@ module.exports=[
       "France",
       "Ukraine"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": [
+      "Western Europe",
+      "Eastern Europe"
+    ]
   },
   {
     "key": "Boleophthalmus pectinirostris",
     "value": 2,
     "taxonomy": "Marine fishes",
     "country": "Taiwan Province of China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Eleotridae",
@@ -5854,6 +7403,10 @@ module.exports=[
     "continent": [
       "Americas",
       "Asia"
+    ],
+    "region": [
+      "Caribbean",
+      "South-Eastern Asia"
     ]
   },
   {
@@ -5864,7 +7417,8 @@ module.exports=[
       "Iceland",
       "United Kingdom"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Northern Europe"
   },
   {
     "key": "Argyrosomus japonicus",
@@ -5874,14 +7428,19 @@ module.exports=[
       "Mozambique",
       "South Africa"
     ],
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": [
+      "Eastern Africa",
+      "Southern Africa"
+    ]
   },
   {
     "key": "Panulirus japonicus",
     "value": 2,
     "taxonomy": "Crustaceans",
     "country": "Taiwan Province of China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Octopodidae",
@@ -5894,6 +7453,10 @@ module.exports=[
     "continent": [
       "Asia",
       "Americas"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South America"
     ]
   },
   {
@@ -5907,6 +7470,10 @@ module.exports=[
     "continent": [
       "Europe",
       "Asia"
+    ],
+    "region": [
+      "Southern Europe",
+      "South-Eastern Asia"
     ]
   },
   {
@@ -5920,6 +7487,10 @@ module.exports=[
     "continent": [
       "Americas",
       "Europe"
+    ],
+    "region": [
+      "Central America",
+      "Southern Europe"
     ]
   },
   {
@@ -5933,6 +7504,10 @@ module.exports=[
     "continent": [
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Southern Europe",
+      "Eastern Africa"
     ]
   },
   {
@@ -5940,7 +7515,8 @@ module.exports=[
     "value": 2,
     "taxonomy": "Miscellaneous aquatic animal products",
     "country": "Indonesia",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Labeo spp",
@@ -5950,7 +7526,8 @@ module.exports=[
       "Eswatini",
       "South Africa"
     ],
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Southern Africa"
   },
   {
     "key": "Diplodus spp",
@@ -5963,6 +7540,10 @@ module.exports=[
     "continent": [
       "Europe",
       "Africa"
+    ],
+    "region": [
+      "Southern Europe",
+      "Northern Africa"
     ]
   },
   {
@@ -5976,6 +7557,10 @@ module.exports=[
     "continent": [
       "Europe",
       "Asia"
+    ],
+    "region": [
+      "Southern Europe",
+      "Western Asia"
     ]
   },
   {
@@ -5986,7 +7571,8 @@ module.exports=[
       "Portugal",
       "Spain"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Atherinidae",
@@ -5999,6 +7585,10 @@ module.exports=[
     "continent": [
       "Americas",
       "Europe"
+    ],
+    "region": [
+      "Central America",
+      "Eastern Europe"
     ]
   },
   {
@@ -6009,14 +7599,19 @@ module.exports=[
       "Brazil",
       "Mexico"
     ],
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": [
+      "South America",
+      "Central America"
+    ]
   },
   {
     "key": "Chlamys varia",
     "value": 2,
     "taxonomy": "Molluscs",
     "country": "Spain",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Veneridae",
@@ -6026,14 +7621,16 @@ module.exports=[
       "Greece",
       "Italy"
     ],
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Psammoperca waigiensis",
     "value": 2,
     "taxonomy": "Marine fishes",
     "country": "Taiwan Province of China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Acanthopagrus latus",
@@ -6043,7 +7640,8 @@ module.exports=[
       "Oman",
       "Qatar"
     ],
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Western Asia"
   },
   {
     "key": "Thunnus albacares",
@@ -6056,6 +7654,10 @@ module.exports=[
     "continent": [
       "Americas",
       "Asia"
+    ],
+    "region": [
+      "Central America",
+      "Western Asia"
     ]
   },
   {
@@ -6063,2841 +7665,2087 @@ module.exports=[
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Sinonovacula constricta",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Pelteobagrus fulvidraco",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Mytilus chilensis",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Chile",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Siniperca chuatsi",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Rapana spp",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Macrobrachium nipponense",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "China",
-    "continent": "Asia"
-  },
-  {
-    "key": "Crossocheilus reticulatus",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Larimichthys croceus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Scylla paramamosain",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Seriola quinqueradiata",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Japan",
-    "continent": "Asia"
-  },
-  {
-    "key": "Cymodocea rotundata",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Clarias gariepinus x C. macrocephalus",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Thailand",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Perna canaliculus",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "New Zealand",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Australia and New Zealand"
   },
   {
     "key": "Cipangopaludina chinensis",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Rhopilema spp",
     "value": 1,
     "taxonomy": "Miscellaneous aquatic animals",
     "country": "China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Mytilus coruscus",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Korea, Republic of",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Anodonta cygnea",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Bothidae",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "China",
-    "continent": "Asia"
-  },
-  {
-    "key": "Cymodocea serrulata",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "P. mesopotamicus x C. macropomum",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Brazil",
-    "continent": "Americas"
-  },
-  {
-    "key": "Danio albolineatus",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Osteochilus hasselti",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Indonesia",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Crassostrea iredalei",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Philippines",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Sebastes schlegeli",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Korea, Republic of",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Leiocassis longirostris",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Protosalanx hyalocranius",
     "value": 1,
     "taxonomy": "Diadromous fishes",
     "country": "China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Pangasius pangasius",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Malaysia",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Atrina spp",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Hypomesus olidus",
     "value": 1,
     "taxonomy": "Diadromous fishes",
     "country": "China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Heteropneustes fossilis",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Bangladesh",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Southern Asia"
   },
   {
     "key": "Thunnus maccoyii",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Australia",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Australia and New Zealand"
   },
   {
     "key": "Papyrocranus afer",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Nigeria",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Western Africa"
   },
   {
     "key": "Gymnarchus niloticus",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Nigeria",
-    "continent": "Africa"
-  },
-  {
-    "key": "Devario pathirana",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Africa",
+    "region": "Western Africa"
   },
   {
     "key": "Takifugu obscurus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Capsosiphon fulvescens",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "Korea, Republic of",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Monostroma nitidum",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "Korea, Republic of",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Helostoma temminckii",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Indonesia",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Puntius spp",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Bangladesh",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Southern Asia"
   },
   {
     "key": "Cirrhinus microlepis",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Lao People's Dem. Rep.",
-    "continent": "Asia"
-  },
-  {
-    "key": "Diacronema lutheri",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Systomus sarana",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Bangladesh",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Southern Asia"
   },
   {
     "key": "Oreochromis shiranus",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Malawi",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Eastern Africa"
   },
   {
     "key": "Citharinus spp",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Nigeria",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Western Africa"
   },
   {
     "key": "Synodontis spp",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Nigeria",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Western Africa"
   },
   {
     "key": "Pseudocaranx dentex",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Japan",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Distichodus spp",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Nigeria",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Western Africa"
   },
   {
     "key": "Scapharca broughtonii",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Korea, Republic of",
-    "continent": "Asia"
-  },
-  {
-    "key": "Dichotomyctere nigroviridis",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Osteobrama belangeri",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "India",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Southern Asia"
   },
   {
     "key": "Codium fragile",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "Korea, Republic of",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Metapenaeus monoceros",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "Bangladesh",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Southern Asia"
   },
   {
     "key": "Hepsetus odoe",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Nigeria",
-    "continent": "Africa"
-  },
-  {
-    "key": "Diopatra aciculata",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Africa",
+    "region": "Western Africa"
   },
   {
     "key": "Enteromorpha clathrata",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Prochilodus reticulatus",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Colombia",
-    "continent": "Americas"
-  },
-  {
-    "key": "Epalzeorhynchos munense",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Choromytilus chorus",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Chile",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Wallago attu",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Bangladesh",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Southern Asia"
   },
   {
     "key": "Oreochromis macrochir",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Zambia",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Eastern Africa"
   },
   {
     "key": "Prochilodus nigricans",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Colombia",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Caulerpa spp",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "Philippines",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Hoplobatrachus rugulosus",
     "value": 1,
     "taxonomy": "Miscellaneous aquatic animals",
     "country": "Thailand",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Channa punctata",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Bangladesh",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Southern Asia"
   },
   {
     "key": "Panopea generosa",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "United States of America",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Northern America"
   },
   {
     "key": "Hoplias spp",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Brazil",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Trachurus japonicus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Japan",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Oplegnathus fasciatus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Korea, Republic of",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Lutjanus guttatus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Costa Rica",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Central America"
   },
   {
     "key": "Notopterus notopterus",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Bangladesh",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Southern Asia"
   },
   {
     "key": "Channa marulius",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Bangladesh",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Southern Asia"
   },
   {
     "key": "Astyanax fasciatus",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Brazil",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Mya arenaria",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "United States of America",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Northern America"
   },
   {
     "key": "Monacanthidae",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Korea, Republic of",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Epinephelus septemfasciatus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Korea, Republic of",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Seriola rivoliana",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "United States of America",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Northern America"
   },
   {
     "key": "Ostrea chilensis",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Chile",
-    "continent": "Americas"
-  },
-  {
-    "key": "Eucheuma spinosum",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Oreochromis tanganicae",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Zambia",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Eastern Africa"
   },
   {
     "key": "Barbus callensis",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Tunisia",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Northern Africa"
   },
   {
     "key": "Konosirus punctatus",
     "value": 1,
     "taxonomy": "Diadromous fishes",
     "country": "Korea, Republic of",
-    "continent": "Asia"
-  },
-  {
-    "key": "Gracilariopsis lemaneiformis",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Scomber japonicus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Korea, Republic of",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Hilsa kelee",
     "value": 1,
     "taxonomy": "Diadromous fishes",
     "country": "India",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Southern Asia"
   },
   {
     "key": "Scorpaenidae",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Korea, Republic of",
-    "continent": "Asia"
-  },
-  {
-    "key": "Halodule uninervis",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Metapenaeus ensis",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "Taiwan Province of China",
-    "continent": "Asia"
-  },
-  {
-    "key": "Halodule wrightii",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Chitala chitala",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Bangladesh",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Southern Asia"
   },
   {
     "key": "Pagrus caeruleostictus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Turkey",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Western Asia"
   },
   {
     "key": "Dentex gibbosus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Turkey",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Western Asia"
   },
   {
     "key": "Perca flavescens",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "United States of America",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Northern America"
   },
   {
     "key": "Haliotis iris",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "New Zealand",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Australia and New Zealand"
   },
   {
     "key": "Hypsibarbus spp",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Malaysia",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Gracilaria gracilis",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "Morocco",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Northern Africa"
   },
   {
     "key": "Hatcheria macraei",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Chad",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Middle Africa"
   },
   {
     "key": "Cichla spp",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Brazil",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Pagrus auriga",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Turkey",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Western Asia"
   },
   {
     "key": "Mactra veneriformis",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Korea, Republic of",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Dormitator latifrons",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Ecuador",
-    "continent": "Americas"
-  },
-  {
-    "key": "Halophila minor",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Polymesoda expansa",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Malaysia",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Gnathanodon speciosus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Singapore",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Labeo dussumieri",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Sri Lanka",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Southern Asia"
   },
   {
     "key": "Barbonymus schwanenfeldii",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Malaysia",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Acipenser naccarii",
     "value": 1,
     "taxonomy": "Diadromous fishes",
     "country": "Spain",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Platax orbicularis",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "French Polynesia",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Polynesia"
   },
   {
     "key": "Takifugu spp",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Korea, Republic of",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Prochilodus mariae",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Venezuela, Boliv Rep of",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Nemacystus decipiens",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "Tonga",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Polynesia"
   },
   {
     "key": "Caridina denticulata",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "Korea, Republic of",
-    "continent": "Asia"
-  },
-  {
-    "key": "Halophila ovalis",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Carcinus aestuarii",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "Greece",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Leporinus obtusidens",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Argentina",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Brycon orbignyanus",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Argentina",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Lyropecten subnodosus",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Brazil",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Protothaca staminea",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "United States of America",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Northern America"
   },
   {
     "key": "Trichogaster spp",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Thailand",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Lutjanus sebae",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "New Caledonia",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Melanesia"
   },
   {
     "key": "Anadara tuberculosa",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "El Salvador",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Central America"
   },
   {
     "key": "Anguilla reinhardtii",
     "value": 1,
     "taxonomy": "Diadromous fishes",
     "country": "Australia",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Australia and New Zealand"
   },
   {
     "key": "Panulirus argus",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "Bahamas",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Caribbean"
   },
   {
     "key": "Notopterus spp",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Thailand",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Sarotherodon galilaeus",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Liberia",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Western Africa"
   },
   {
     "key": "Salmo ischchan",
     "value": 1,
     "taxonomy": "Diadromous fishes",
     "country": "Kyrgyzstan",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Central Asia"
   },
   {
     "key": "Ensis ensis",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Spain",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Chlorella vulgaris",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "Bulgaria",
-    "continent": "Europe"
-  },
-  {
-    "key": "Halophila stipulacea",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Europe",
+    "region": "Eastern Europe"
   },
   {
     "key": "Heterobranchus bidorsalis",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Liberia",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Western Africa"
   },
   {
     "key": "Anadara grandis",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "El Salvador",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Central America"
   },
   {
     "key": "Saccostrea cuccullata",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Mauritius",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Eastern Africa"
   },
   {
     "key": "Mytilus platensis",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Argentina",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Cyclina sinensis",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Korea, Republic of",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Turbo setosus",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Cook Islands",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Polynesia"
   },
   {
     "key": "Lutjanus russelli",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "China, Hong Kong SAR",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Tridacna crocea",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Palau",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Micronesia"
   },
   {
     "key": "Caranx ignobilis",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Singapore",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Epinephelus areolatus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "China, Hong Kong SAR",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Dunaliella salina",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "Spain",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Asaphis violascens",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Cook Islands",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Polynesia"
   },
   {
     "key": "Strombus gigas",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Turks and Caicos Is.",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Caribbean"
   },
   {
     "key": "Epinephelus tukula",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Singapore",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Hemichromis fasciatus",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Cameroon",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Middle Africa"
   },
   {
     "key": "Bolbometopon muricatum",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Singapore",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Chondrostoma nasus",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Bulgaria",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Eastern Europe"
   },
   {
     "key": "Carcinus maenas",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "Spain",
-    "continent": "Europe"
-  },
-  {
-    "key": "Heliocidaris erythrogramma",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Pecten jacobaeus",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Croatia",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Cichla ocellaris",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Peru",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Anostomoides laticeps",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Brazil",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Brycon hilarii",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Brazil",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Chondracanthus chamissoi",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "Peru",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Ichthyoelephas humeralis",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Ecuador",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Pimelodus spp",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Colombia",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Porphyra columbina",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "Chile",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Sargassum spp",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "Mexico",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Central America"
   },
   {
     "key": "Solea spp",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Portugal",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Trochita spp",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Chile",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Wallago spp",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Malaysia",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Acetes japonicus",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "Indonesia",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Pterygoplichthys pardalis",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Peru",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Anguilla rostrata",
     "value": 1,
     "taxonomy": "Diadromous fishes",
     "country": "Dominican Republic",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Caribbean"
   },
   {
     "key": "Venerupis rhomboides",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Spain",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Chaetodipterus faber",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Venezuela, Boliv Rep of",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Anarhichas lupus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Iceland",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Northern Europe"
   },
   {
     "key": "Palaemon adspersus",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "Ukraine",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Eastern Europe"
   },
   {
     "key": "Paralichthys spp",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Mexico",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Central America"
   },
   {
     "key": "Caranx sexfasciatus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Singapore",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Atherina boyeri",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Spain",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Mycteroperca bonaci",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Singapore",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Centropristis striata",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "United States of America",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Northern America"
   },
   {
     "key": "Cichlasoma maculicauda",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Guatemala",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Central America"
   },
   {
     "key": "Callinectes sapidus",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "United States of America",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Northern America"
   },
   {
     "key": "Pomatomus saltatrix",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Tunisia",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Northern Africa"
   },
   {
     "key": "Valamugil seheli",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Saudi Arabia",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Western Asia"
   },
   {
     "key": "Scophthalmus rhombus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Portugal",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Sciaena umbra",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Spain",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Callinectes spp",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "Mexico",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Central America"
   },
   {
     "key": "Leuciscus spp",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "United Kingdom",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Northern Europe"
   },
   {
-    "key": "Hemigrammus rhodostomus",
+    "key": "Oncorhynchus keta",
     "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
+    "taxonomy": "Diadromous fishes",
+    "country": "Russian Federation",
+    "continent": "Europe",
+    "region": "Eastern Europe"
   },
   {
     "key": "Caulerpa racemosa",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "Cook Islands",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Polynesia"
   },
   {
     "key": "Cardiidae",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "United States of America",
-    "continent": "Americas"
-  },
-  {
-    "key": "Heritiera littoralis",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Americas",
+    "region": "Northern America"
   },
   {
     "key": "Caranx hippos",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Mexico",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Central America"
   },
   {
     "key": "Evynnis japonica",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Japan",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Muraenesox cinereus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Taiwan Province of China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Chalcalburnus chalcoides",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Bulgaria",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Eastern Europe"
   },
   {
     "key": "Donax spp",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Spain",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Umbrina spp",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "R�union",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Eastern Africa"
   },
   {
     "key": "Sorubim lima",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Colombia",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Palmaria palmata",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "Ireland",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Northern Europe"
   },
   {
     "key": "Metapenaeus macleayi",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "Australia",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Australia and New Zealand"
   },
   {
     "key": "Rana ridibunda",
     "value": 1,
     "taxonomy": "Miscellaneous aquatic animals",
     "country": "Bulgaria",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Eastern Europe"
   },
   {
     "key": "Concholepas concholepas",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Peru",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Cantherhines (=Navodon) spp",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Japan",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Thenus orientalis",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "Philippines",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Abramis spp",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Ukraine",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Eastern Europe"
   },
   {
     "key": "Aplodinotus grunniens",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Mexico",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Central America"
   },
   {
     "key": "Portunus trituberculatus",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "Japan",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Gelidium spp",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "Korea, Dem. People's Rep",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Venerupis aurea",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Portugal",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Macquaria ambigua",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Australia",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Australia and New Zealand"
   },
   {
     "key": "Oncorhynchus aguabonita",
     "value": 1,
     "taxonomy": "Diadromous fishes",
     "country": "Denmark",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Northern Europe"
   },
   {
     "key": "Acanthopagrus berda",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Kuwait",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Western Asia"
   },
   {
     "key": "Aequidens rivulatus",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Ecuador",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Chelonia mydas",
     "value": 1,
     "taxonomy": "Miscellaneous aquatic animals",
     "country": "R�union",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Eastern Africa"
   },
   {
     "key": "Asparagopsis spp",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "France",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Western Europe"
   },
   {
     "key": "Clarias fuscus",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "China, Hong Kong SAR",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Epinephelus akaara",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "China, Hong Kong SAR",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Turbo cornutus",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Korea, Republic of",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Modiolus spp",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Thailand",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Trachurus spp",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Korea, Republic of",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Gelidium amansii",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Rutilus frisii",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Azerbaijan",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Western Asia"
   },
   {
     "key": "Mugil liza",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Guyana",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Coryphaenoides subserrulatus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Argentina",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Scombridae",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Spain",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Lutjanus malabaricus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Kuwait",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Western Asia"
   },
   {
     "key": "Carangoides malabaricus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Taiwan Province of China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Siganus rivulatus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Cyprus",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Western Asia"
   },
   {
     "key": "Polyodon spathula",
     "value": 1,
     "taxonomy": "Diadromous fishes",
     "country": "Romania",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Eastern Europe"
   },
   {
     "key": "Gerres spp",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Mexico",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Central America"
   },
   {
     "key": "Macrobrachium lar",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "Vanuatu",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Melanesia"
   },
   {
     "key": "Clarias anguillaris",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Burkina Faso",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Western Africa"
   },
   {
     "key": "Maccullochella peelii",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Australia",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Australia and New Zealand"
   },
   {
     "key": "Bagrus spp",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Nigeria",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Western Africa"
   },
   {
     "key": "Labeo victorianus",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Uganda",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Eastern Africa"
   },
   {
     "key": "Penaeus setiferus",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "United States of America",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Northern America"
   },
   {
     "key": "Pleurogrammus azonus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Korea, Republic of",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Ostreola conchaphila",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "United States of America",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Northern America"
   },
   {
     "key": "Argopecten ventricosus",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Mexico",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Central America"
   },
   {
     "key": "Tresus nuttallii",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "United States of America",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Northern America"
   },
   {
     "key": "Oncorhynchus spp",
     "value": 1,
     "taxonomy": "Diadromous fishes",
     "country": "Spain",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Lutjanus goldiei",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Singapore",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Coregonus peled",
     "value": 1,
     "taxonomy": "Diadromous fishes",
     "country": "Lithuania",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Northern Europe"
   },
   {
     "key": "Scrobicularia plana",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Portugal",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Percoidei",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Philippines",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Littorina spp",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "France",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Western Europe"
   },
   {
     "key": "Pollachius pollachius",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Spain",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Pyura stolonifera",
     "value": 1,
     "taxonomy": "Miscellaneous aquatic animals",
     "country": "South Africa",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Southern Africa"
   },
   {
     "key": "Penaeus penicillatus",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "Taiwan Province of China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Barbus altianalis",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Uganda",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Eastern Africa"
   },
   {
     "key": "Paphia gallus",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "India",
-    "continent": "Asia"
-  },
-  {
-    "key": "Cichlasoma trimaculatum",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Asia",
+    "region": "Southern Asia"
   },
   {
     "key": "Scatophagus spp",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Philippines",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Anguilla australis",
     "value": 1,
     "taxonomy": "Diadromous fishes",
     "country": "Australia",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Australia and New Zealand"
   },
   {
     "key": "Pelecus cultratus",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Ukraine",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Eastern Europe"
   },
   {
     "key": "Mactra glabrata",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "South Africa",
-    "continent": "Africa"
-  },
-  {
-    "key": "Oncorhynchus nerka",
-    "value": 1,
-    "taxonomy": "Diadromous fishes",
-    "country": "Un. Sov. Soc. Rep.",
-    "continent": ""
+    "continent": "Africa",
+    "region": "Southern Africa"
   },
   {
     "key": "Mugil soiuy",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Ukraine",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Eastern Europe"
   },
   {
     "key": "Pecten fumatus",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Australia",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Australia and New Zealand"
   },
   {
     "key": "Penaeus schmitti",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "Cuba",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Caribbean"
   },
   {
     "key": "Maja squinado",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "Spain",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Palinuridae",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "Japan",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Anarhichas minor",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Iceland",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Northern Europe"
   },
   {
     "key": "Liza vaigiensis",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Thailand",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Paracentrotus lividus",
     "value": 1,
     "taxonomy": "Miscellaneous aquatic animals",
     "country": "Ireland",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Northern Europe"
   },
   {
     "key": "Siganus javus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Singapore",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Chamelea gallina",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Spain",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Strombus spp",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Netherlands Antilles",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Caribbean"
   },
   {
     "key": "Hypostomus plecostomus",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Brazil",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Portunidae",
     "value": 1,
     "taxonomy": "Crustaceans",
     "country": "China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Saccostrea commercialis",
     "value": 1,
     "taxonomy": "Molluscs",
     "country": "Australia",
-    "continent": "Oceania"
+    "continent": "Oceania",
+    "region": "Australia and New Zealand"
   },
   {
     "key": "Laminaria digitata",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "Ireland",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Northern Europe"
   },
   {
     "key": "Megalops atlanticus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Colombia",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Liza ramada",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Tunisia",
-    "continent": "Africa"
+    "continent": "Africa",
+    "region": "Northern Africa"
   },
   {
     "key": "Gasterosteus aculeatus",
     "value": 1,
     "taxonomy": "Diadromous fishes",
     "country": "Russian Federation",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Eastern Europe"
   },
   {
     "key": "Hoplias malabaricus",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Brazil",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Lethrinus miniatus",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Taiwan Province of China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Lutjanus bohar",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Taiwan Province of China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Rohtee ogilbii",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Myanmar",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "South-Eastern Asia"
   },
   {
     "key": "Astronotus spp",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Peru",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Vimba vimba",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Bulgaria",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Eastern Europe"
   },
   {
     "key": "Undaria spp",
     "value": 1,
     "taxonomy": "Aquatic plants",
     "country": "France",
-    "continent": "Europe"
-  },
-  {
-    "key": "Clarias jaensis",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Europe",
+    "region": "Western Europe"
   },
   {
     "key": "Blicca bjoerkna",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Ukraine",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Eastern Europe"
   },
   {
     "key": "Pomoxis annularis",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Mexico",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "Central America"
   },
   {
     "key": "Acipenser transmontanus",
     "value": 1,
     "taxonomy": "Diadromous fishes",
     "country": "Italy",
-    "continent": "Europe"
+    "continent": "Europe",
+    "region": "Southern Europe"
   },
   {
     "key": "Micropogonias furnieri",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Guyana",
-    "continent": "Americas"
+    "continent": "Americas",
+    "region": "South America"
   },
   {
     "key": "Dentex tumifrons",
     "value": 1,
     "taxonomy": "Marine fishes",
     "country": "Taiwan Province of China",
-    "continent": "Asia"
+    "continent": "Asia",
+    "region": "Eastern Asia"
   },
   {
     "key": "Serranochromis robustus",
     "value": 1,
     "taxonomy": "Freshwater fishes",
     "country": "Eswatini",
-    "continent": "Africa"
-  },
-  {
-    "key": "Alligator mississippiensis",
-    "value": 1,
-    "taxonomy": "Miscellaneous aquatic animals",
-    "country": "",
-    "continent": ""
-  },
-  {
-    "key": "Crocodylus acutus",
-    "value": 1,
-    "taxonomy": "Miscellaneous aquatic animals",
-    "country": "",
-    "continent": ""
-  },
-  {
-    "key": "Crocodylus johnstoni",
-    "value": 1,
-    "taxonomy": "Miscellaneous aquatic animals",
-    "country": "",
-    "continent": ""
-  },
-  {
-    "key": "Melanosuchus niger",
-    "value": 1,
-    "taxonomy": "Miscellaneous aquatic animals",
-    "country": "",
-    "continent": ""
-  },
-  {
-    "key": "Caiman latirostris",
-    "value": 1,
-    "taxonomy": "Miscellaneous aquatic animals",
-    "country": "",
-    "continent": ""
-  },
-  {
-    "key": "Crocodylus rhombifer",
-    "value": 1,
-    "taxonomy": "Miscellaneous aquatic animals",
-    "country": "",
-    "continent": ""
-  },
-  {
-    "key": "Paleosuchus palpebrosus",
-    "value": 1,
-    "taxonomy": "Miscellaneous aquatic animals",
-    "country": "",
-    "continent": ""
-  },
-  {
-    "key": "Crocodylus porosus",
-    "value": 1,
-    "taxonomy": "Miscellaneous aquatic animals",
-    "country": "",
-    "continent": ""
-  },
-  {
-    "key": "Crocodylus moreletii",
-    "value": 1,
-    "taxonomy": "Miscellaneous aquatic animals",
-    "country": "",
-    "continent": ""
-  },
-  {
-    "key": "Crocodylus novaeguineae",
-    "value": 1,
-    "taxonomy": "Miscellaneous aquatic animals",
-    "country": "",
-    "continent": ""
-  },
-  {
-    "key": "Crocodylus niloticus",
-    "value": 1,
-    "taxonomy": "Miscellaneous aquatic animals",
-    "country": "",
-    "continent": ""
-  },
-  {
-    "key": "Caiman yacare",
-    "value": 1,
-    "taxonomy": "Miscellaneous aquatic animals",
-    "country": "",
-    "continent": ""
-  },
-  {
-    "key": "Crocodylus siamensis",
-    "value": 1,
-    "taxonomy": "Miscellaneous aquatic animals",
-    "country": "",
-    "continent": ""
-  },
-  {
-    "key": "Crocodylus cataphractus",
-    "value": 1,
-    "taxonomy": "Miscellaneous aquatic animals",
-    "country": "",
-    "continent": ""
-  },
-  {
-    "key": "Paleosuchus trigonatus",
-    "value": 1,
-    "taxonomy": "Miscellaneous aquatic animals",
-    "country": "",
-    "continent": ""
-  },
-  {
-    "key": "Caiman crocodilus",
-    "value": 1,
-    "taxonomy": "Miscellaneous aquatic animals",
-    "country": "",
-    "continent": ""
-  },
-  {
-    "key": "Amatitlania�nigrofasciata",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Amphiporus macracanthus",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Amphiprion ocellaris",
-    "value": 1,
-    "taxonomy": "Marine fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Amyda cartilaginea",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Anguilla bicolor pacifica",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Apistogramma cacatuoides",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Aplocheilus lineatus",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Batrachomoeus trispinosus (Halophryne trispinosus)",
-    "value": 1,
-    "taxonomy": "Marine fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Belontia signata",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Brachionus plicatilis",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Brachygobius doriae",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Cerberus microlepis",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Ceriops tagal",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Chaetoceros calcitrans",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Chaetoceros gracilis",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Chaetoceros muelleri",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Chaetoceros neogracile",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Chaetoceros simplex",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Chamberlainia hainesiana",
-    "value": 1,
-    "taxonomy": "Molluscs",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Cherax cainii",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Clarias magur",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Heros severus",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Hippocampus reidi",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Holothuria floridana",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Hyphessobrycon eques",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Hyriopsis desowitzi",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Isochrysis galbana",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Kappaphycus striatus",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Kronoheros umbriferus",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Leiopotherapon plumbeus",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Liza carinata",
-    "value": 1,
-    "taxonomy": "Marine fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Liza haematocheila",
-    "value": 1,
-    "taxonomy": "Marine fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Liza parsia",
-    "value": 1,
-    "taxonomy": "Marine fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Macropodus opercularis",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Melanotaenia boesemani",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Mesopotamichthys sharpeyi",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Mikrogeophagus ramirezi",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Mizuhopecten yessoensis",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Monopterus cuchia",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Mystus leucophasis",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Nannochloropsis oceanica",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Nannochloropsis oculata",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Nannochloropsis�gaditana",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Navicula jeffreyae",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Neolamprologus brichardi",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Nimbochromis venustus",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Nitzschia alba",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Nodipecten nodosus",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Pangasius krempfi",
-    "value": 1,
-    "taxonomy": "Marine fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Pangasius kunyit",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Pangio kuhlii",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Panopea abrupta",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Papustyla pulcherrima",
-    "value": 1,
-    "taxonomy": "Molluscs",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Paralichthys orbignyanus",
-    "value": 1,
-    "taxonomy": "Marine fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Parambassis siamensis",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Paratheraps guttulatus",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Paratya australiensis",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Pavlova pinguis",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Pelodiscus sinensis",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Pelvicachromis pulcher",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Penaeus pulchricaudatus",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Pethia cumingii",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Pethia nigrofasciata",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Phragmites australis",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Pinctada albina",
-    "value": 1,
-    "taxonomy": "Molluscs",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Pinctada fucata martensii",
-    "value": 1,
-    "taxonomy": "Molluscs",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Poecilia sphenops",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Proteomonas sulcata",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Pseudomystus siamensis",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Pterophyllum scalare",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Puntius sarana",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Puntius titteya",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Pyropia yezoensis",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Rasboroides vaterifloris",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Rebecca salina",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Rhizophora mucronata",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Rhodomonas salina",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Saccharina japonica",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Satanoperca jurupari",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Semilabeo obscurus",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Skeletonema pseudocostatum",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Sorubim cuspicaudus",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Symphysodon discus",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Synchiropus splendidus",
-    "value": 1,
-    "taxonomy": "Marine fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Syringodium isoetifolium",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Tegillarca granosa",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Tetraselmis chuii",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Tetraselmis suecica",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Tetraselmis tetrathele",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Thalassiosira pseudonana",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Thalassodendron ciliatum",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Thenus australiensis",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Thenus unimaculatus",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Tisochrysis lutea",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Trichopodus leerii",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Trichopsis schalleri",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Trigonostigma espei",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Ulva ohnoi",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Ulva tepida",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Unio pictorum",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Velesunio ambiguus",
-    "value": 1,
-    "taxonomy": "Crustaceans",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Vieja maculicauda",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Vieja synspila",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Xiphophorus hellerii",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "xiphophorus maculatus",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Xylocarpus moluccensis",
-    "value": 1,
-    "taxonomy": "Aquatic plants",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Yasuhikotakia morleti",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
-  },
-  {
-    "key": "Yasuhikotakia nigrolineata",
-    "value": 1,
-    "taxonomy": "Freshwater fishes",
-    "country": "TBD",
-    "continent": "TBD"
+    "continent": "Africa",
+    "region": "Southern Africa"
   }
 ];

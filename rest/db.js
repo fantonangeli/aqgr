@@ -1,4 +1,5 @@
 const continents = require("./continents");
+const regions = require("./regions");
 const countryInfo = require("./countryInfo");
 const countries = require("./countries");
 const taxonomies = require("./taxonomies");
@@ -8,6 +9,7 @@ const sftypes = require("./sftypes");
 
 module.exports = () => ({
     continents,
+    regions,
     countryInfo,
     countries,
     taxonomies,

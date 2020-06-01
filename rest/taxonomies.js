@@ -1,7 +1,7 @@
 module.exports=[
   {
     "key": "Freshwater fishes",
-    "value": 1342,
+    "value": 1285,
     "country": [
       "China",
       "India",
@@ -11,7 +11,6 @@ module.exports=[
       "Bangladesh",
       "Myanmar",
       "Brazil",
-      "TBD",
       "Thailand",
       "Philippines",
       "Nigeria",
@@ -180,7 +179,6 @@ module.exports=[
       "Montenegro",
       "Serbia and Montenegro",
       "Sweden",
-      "Un. Sov. Soc. Rep.",
       "Yugoslavia SFR",
       "Ireland",
       "Chile",
@@ -198,15 +196,37 @@ module.exports=[
       "Asia",
       "Africa",
       "Americas",
-      "TBD",
       "Europe",
-      "Oceania",
-      ""
+      "Oceania"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Southern Asia",
+      "South-Eastern Asia",
+      "Northern Africa",
+      "South America",
+      "Western Africa",
+      "Northern America",
+      "Eastern Africa",
+      "Eastern Europe",
+      "Central America",
+      "Western Asia",
+      "Central Asia",
+      "Caribbean",
+      "Western Europe",
+      "Southern Europe",
+      "Middle Africa",
+      "Northern Europe",
+      "Melanesia",
+      "Australia and New Zealand",
+      "Southern Africa",
+      "Micronesia",
+      "Polynesia"
     ]
   },
   {
     "key": "Marine fishes",
-    "value": 604,
+    "value": 594,
     "country": [
       "China",
       "Indonesia",
@@ -287,7 +307,6 @@ module.exports=[
       "Ukraine",
       "Oman",
       "Yugoslavia SFR",
-      "Un. Sov. Soc. Rep.",
       "Fiji",
       "Guyana",
       "Bahrain",
@@ -300,22 +319,41 @@ module.exports=[
       "Iraq",
       "Nigeria",
       "Ireland",
-      "Qatar",
-      "TBD"
+      "Qatar"
     ],
     "continent": [
       "Asia",
       "Africa",
       "Europe",
       "Oceania",
-      "Americas",
-      "",
-      "TBD"
+      "Americas"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "Northern Africa",
+      "Southern Asia",
+      "Western Asia",
+      "Southern Europe",
+      "Australia and New Zealand",
+      "Central America",
+      "Northern Europe",
+      "Eastern Africa",
+      "Western Europe",
+      "Northern America",
+      "Caribbean",
+      "South America",
+      "Polynesia",
+      "Melanesia",
+      "Micronesia",
+      "Eastern Europe",
+      "Southern Africa",
+      "Western Africa"
     ]
   },
   {
     "key": "Diadromous fishes",
-    "value": 481,
+    "value": 475,
     "country": [
       "Norway",
       "Indonesia",
@@ -431,7 +469,6 @@ module.exports=[
       "French Polynesia",
       "Vanuatu",
       "Belgium",
-      "Un. Sov. Soc. Rep.",
       "Algeria",
       "Malta",
       "Serbia and Montenegro",
@@ -448,13 +485,34 @@ module.exports=[
       "Asia",
       "Americas",
       "Oceania",
-      "Africa",
-      ""
+      "Africa"
+    ],
+    "region": [
+      "Northern Europe",
+      "South-Eastern Asia",
+      "South America",
+      "Eastern Asia",
+      "Southern Asia",
+      "Western Asia",
+      "Northern America",
+      "Australia and New Zealand",
+      "Southern Europe",
+      "Eastern Europe",
+      "Western Europe",
+      "Central America",
+      "Southern Africa",
+      "Central Asia",
+      "Eastern Africa",
+      "Northern Africa",
+      "Melanesia",
+      "Micronesia",
+      "Polynesia",
+      "Caribbean"
     ]
   },
   {
     "key": "Molluscs",
-    "value": 418,
+    "value": 412,
     "country": [
       "China",
       "Thailand",
@@ -536,25 +594,43 @@ module.exports=[
       "Romania",
       "Serbia and Montenegro",
       "Ukraine",
-      "Un. Sov. Soc. Rep.",
       "New Caledonia",
       "French Polynesia",
-      "Netherlands Antilles",
-      "TBD"
+      "Netherlands Antilles"
     ],
     "continent": [
       "Asia",
       "Americas",
       "Europe",
       "Oceania",
-      "Africa",
-      "",
-      "TBD"
+      "Africa"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "South America",
+      "Southern Europe",
+      "Northern America",
+      "Australia and New Zealand",
+      "Western Europe",
+      "Northern Europe",
+      "Southern Asia",
+      "Central America",
+      "Eastern Europe",
+      "Southern Africa",
+      "Caribbean",
+      "Western Asia",
+      "Northern Africa",
+      "Western Africa",
+      "Polynesia",
+      "Micronesia",
+      "Eastern Africa",
+      "Melanesia"
     ]
   },
   {
     "key": "Crustaceans",
-    "value": 403,
+    "value": 382,
     "country": [
       "China",
       "India",
@@ -583,7 +659,6 @@ module.exports=[
       "Korea, Republic of",
       "Sri Lanka",
       "Australia",
-      "TBD",
       "Costa Rica",
       "Colombia",
       "New Caledonia",
@@ -678,13 +753,34 @@ module.exports=[
       "Americas",
       "Africa",
       "Oceania",
-      "TBD",
       "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "Southern Asia",
+      "South-Eastern Asia",
+      "South America",
+      "Central America",
+      "Northern America",
+      "Western Asia",
+      "Caribbean",
+      "Eastern Africa",
+      "Australia and New Zealand",
+      "Melanesia",
+      "Southern Europe",
+      "Northern Africa",
+      "Western Africa",
+      "Polynesia",
+      "Western Europe",
+      "Micronesia",
+      "Northern Europe",
+      "Eastern Europe",
+      "Southern Africa"
     ]
   },
   {
     "key": "Aquatic plants",
-    "value": 175,
+    "value": 131,
     "country": [
       "China",
       "Indonesia",
@@ -693,7 +789,6 @@ module.exports=[
       "Korea, Dem. People's Rep",
       "Japan",
       "Malaysia",
-      "TBD",
       "Zanzibar",
       "Madagascar",
       "Chile",
@@ -735,7 +830,6 @@ module.exports=[
       "Saint Kitts and Nevis",
       "Burkina Faso",
       "Uruguay",
-      "Un. Sov. Soc. Rep.",
       "Cook Islands",
       "Brazil",
       "Mozambique",
@@ -747,17 +841,35 @@ module.exports=[
     ],
     "continent": [
       "Asia",
-      "TBD",
       "Africa",
       "Americas",
       "Oceania",
-      "Europe",
-      ""
+      "Europe"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "Eastern Africa",
+      "South America",
+      "Melanesia",
+      "Micronesia",
+      "Southern Asia",
+      "Eastern Europe",
+      "Southern Africa",
+      "Southern Europe",
+      "Northern Europe",
+      "Northern Africa",
+      "Central America",
+      "Polynesia",
+      "Middle Africa",
+      "Caribbean",
+      "Western Africa",
+      "Western Europe"
     ]
   },
   {
     "key": "Miscellaneous aquatic animals",
-    "value": 82,
+    "value": 66,
     "country": [
       "China",
       "Japan",
@@ -791,15 +903,27 @@ module.exports=[
       "Romania",
       "R�union",
       "South Africa",
-      "Saudi Arabia",
-      ""
+      "Saudi Arabia"
     ],
     "continent": [
       "Asia",
       "Europe",
       "Americas",
-      "Africa",
-      ""
+      "Africa"
+    ],
+    "region": [
+      "Eastern Asia",
+      "South-Eastern Asia",
+      "Eastern Europe",
+      "South America",
+      "Central America",
+      "Eastern Africa",
+      "Western Asia",
+      "Southern Asia",
+      "Western Europe",
+      "Northern Europe",
+      "Southern Europe",
+      "Southern Africa"
     ]
   },
   {
@@ -819,6 +943,13 @@ module.exports=[
       "Oceania",
       "Asia",
       "Africa"
+    ],
+    "region": [
+      "Polynesia",
+      "Eastern Asia",
+      "Eastern Africa",
+      "Melanesia",
+      "South-Eastern Asia"
     ]
   }
 ];
