@@ -27,7 +27,7 @@ export class Bars01Component extends BaseChartRender01Component {
                     text: this.xAxisTitle,
                     align: 'low'
                 }:null,
-                tickInterval:5
+                // tickInterval:5 //disabled to have millions format (M)
             },
             tooltip: {
                 headerFormat:null,
