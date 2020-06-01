@@ -1,22 +1,22 @@
 [
- {
-   "Name": "Europe",
-   "Value": 45
- },
- {
-   "Name": "Latin America",
-   "Value": 34
- },
- {
-   "Name": "Asia Pacific",
-   "Value": 38
- },
- {
-   "Name": "Africa",
-   "Value": 16
- },
- {
-   "Name": "North America",
-   "Value": 12
- }
+  {
+    "key": "Europe",
+    "value": 45
+  },
+  {
+    "key": "Latin America",
+    "value": 34
+  },
+  {
+    "key": "Asia Pacific",
+    "value": 38
+  },
+  {
+    "key": "Africa",
+    "value": 16
+  },
+  {
+    "key": "North America",
+    "value": 12
+  }
 ]

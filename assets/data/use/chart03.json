@@ -1,26 +1,26 @@
 [
- {
-   "name": "Caribbean and Latin America",
-   "y": 39.07
- },
- {
-   "name": "Asia",
-   "y": 17.27
- },
- {
-   "name": "Europe",
-   "y": 12.62
- },
- {
-   "name": "Africa",
-   "y": 10.96
- },
- {
-   "name": "North America",
-   "y": 7.75
- },
- {
-   "name": "Oceania",
-   "y": 3.31
- }
+  {
+    "key": "Caribbean and Latin America",
+    "value": 39.07
+  },
+  {
+    "key": "Asia",
+    "value": 17.27
+  },
+  {
+    "key": "Europe",
+    "value": 12.62
+  },
+  {
+    "key": "Africa",
+    "value": 10.96
+  },
+  {
+    "key": "North America",
+    "value": 7.75
+  },
+  {
+    "key": "Oceania",
+    "value": 3.31
+  }
 ]
