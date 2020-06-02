@@ -23,10 +23,12 @@ export class SFtypesService extends BaseService{
      * @param {SearchServiceParams} params the params to send to the service
      */
     getAll(ssp:SearchServiceParams):Observable<AggregationItem[]>{
+        let {name, continent, region, country, taxonomy, specie, ftype, sftype} = ssp;
+
         return this._getAll(
             "SFtypesService",
             environment.services.sftypes.all, 
-            ssp,
+            <SearchServiceParams>{continent, region, country, taxonomy, specie, ftype},
             environment.services.sftypes.limit
         );
     }

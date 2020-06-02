@@ -16,7 +16,7 @@ export const environment = {
         },
         params: {
             continent:"continent_like", 
-            regions:"regions_like", 
+            region:"region_like", 
             country:"country_like", 
             taxonomy:"taxonomy_like", 
             specie:"specie_like", 

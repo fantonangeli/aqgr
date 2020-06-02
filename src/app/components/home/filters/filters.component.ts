@@ -3,6 +3,7 @@ import {FilterTermsComponent} from '../../../components/search/filter-terms/filt
 import { Filter, AggregationInput, ResultComponent, ResultList, ResultSearchEvent, ViewTypeEnum } from '../../../components/search/namespace';
 import {CountriesService} from '../../../services/countries.service';
 import {ContinentsService} from '../../../services/continents.service';
+import {RegionsService} from '../../../services/regions.service';
 import {TaxonomiesService} from '../../../services/taxonomies.service';
 import {SpeciesService} from '../../../services/species.service';
 import {FtypesService} from '../../../services/ftypes.service';
@@ -32,11 +33,12 @@ export class FiltersComponent implements OnChanges {
 
     private aggIndexes={
         continents:0,
-        countries:1,
-        taxonomies:2,
-        species:3,
-        ftypes:4,
-        sftypes:5
+        regions:1,
+        countries:2,
+        taxonomies:3,
+        species:4,
+        ftypes:5,
+        sftypes:6
     };
 
   @Output() search = new EventEmitter<Filter[]>();
@@ -48,6 +50,7 @@ export class FiltersComponent implements OnChanges {
       private _SFtypesService:SFtypesService, 
       private _continentsService:ContinentsService,
       private _countriesService:CountriesService,
+      private _regionsService:RegionsService,
       private _taxonomiesService:TaxonomiesService,
       private _utilsService:UtilsService, 
       private _logger:LoggerService
@@ -62,6 +65,16 @@ export class FiltersComponent implements OnChanges {
               "filter": "",
               "aggregation": {
                   "name": "continents",
+                  "values":[]
+              }
+          },
+          {
+              "type": "regions",
+              "title": "By regions",
+              "parameter": "document.regionsMapping",
+              "filter": "",
+              "aggregation": {
+                  "name": "regions",
                   "values":[]
               }
           },
@@ -120,18 +133,15 @@ export class FiltersComponent implements OnChanges {
   }
 
 
-
     /**
-     * fetch the sftype and load them 
+     * fetch a type of element and load them 
      * @param {SearchServiceParams} params the params to send to the service
      *
      */
-    fetchSFtypes(params:SearchServiceParams=new SearchServiceParams()) {
-        let {name, continent, country, taxonomy, specie, ftype, sftype} = params;
-
-        this._SFtypesService.getAll(<SearchServiceParams>{continent, country, taxonomy, specie, ftype}).subscribe(
+    public fetchData(type:string, service, params:SearchServiceParams=new SearchServiceParams()) {
+        service.getAll(params).subscribe(
             (data)=>{
-                this.aggregations[this.aggIndexes.sftypes].aggregation.values=data;
+                this.aggregations[this.aggIndexes[type]].aggregation.values=data;
             },
             (error)=>{
                 this._logger.error("Network error: ", error);
@@ -140,111 +150,6 @@ export class FiltersComponent implements OnChanges {
 
     }
 
-
-    /**
-     * fetch the ftypes and load them 
-     * @param {SearchServiceParams} params the params to send to the service
-     *
-     */
-    fetchFtypes(params:SearchServiceParams=new SearchServiceParams()) {
-        let {name, continent, country, taxonomy, specie, ftype, sftype} = params;
-
-        this._FtypesService.getAll(<SearchServiceParams>{continent, country, taxonomy, specie}).subscribe(
-            (data)=>{
-                this.aggregations[this.aggIndexes.ftypes].aggregation.values=data;
-            },
-            (error)=>{
-                this._logger.error("Network error: ", error);
-            }
-        );
-
-    }
-
-    /**
-     * fetch the species and load them in this._service
-     * @param {SearchServiceParams} params the params to send to the service
-     *
-     */
-    fetchSpecs(params:SearchServiceParams=new SearchServiceParams()) {
-        let {name, continent, country, taxonomy, specie, ftype, sftype} = params;
-
-        if(!params.name && !params.taxonomy) {
-            this.aggregations[this.aggIndexes.species].aggregation.values=[];
-            return;
-        }
-
-        this._speciesService.getAll(<SearchServiceParams>{continent, country, taxonomy, name}).subscribe(
-            (data)=>{
-                this.aggregations[this.aggIndexes.species].aggregation.values=data;
-            },
-            (error)=>{
-                this._logger.error("Network error: ", error);
-            }
-        );
-
-    }
-
-    /**
-     * fetch the taxonomies and load them in this._service
-     * @param {SearchServiceParams} params the params to send to the service
-     *
-     */
-    fetchTaxonomies(params:SearchServiceParams=new SearchServiceParams()) {
-        let {name, continent, country, taxonomy, specie, ftype, sftype} = params;
-
-        this._taxonomiesService.getAll(<SearchServiceParams>{continent, country}).subscribe(
-            (data)=>{
-                this.aggregations[this.aggIndexes.taxonomies].aggregation.values=data;
-            },
-            (error)=>{
-                this._logger.error("Network error: ", error);
-            }
-        );
-
-    }
-
-    /**
-     * fetch the countries and load them in this._service
-     * @param {SearchServiceParams} params the params to send to the service
-     *
-     */
-    fetchCountries(params:SearchServiceParams=new SearchServiceParams()) {
-        let {name, continent, country, taxonomy, specie, ftype, sftype} = params;
-
-        if(!params.name && !params.continent) {
-            this.aggregations[this.aggIndexes.species].aggregation.values=[];
-            return;
-        }
-
-        this._countriesService.getAll(<SearchServiceParams>{continent, name}).subscribe(
-            (data)=>{
-                this.aggregations[this.aggIndexes.countries].aggregation.values=data;
-            },
-            (error)=>{
-                this._logger.error("Network error: ", error);
-            }
-        );
-
-    }
-
-    /**
-     * fetch the continents and load them in this._service
-     * @param {SearchServiceParams} params the params to send to the service
-     *
-     */
-    fetchContinents(params:SearchServiceParams=new SearchServiceParams()) {
-        let {name, continent, taxonomy, specie, ftype, sftype} = params;
-
-        this._continentsService.getAll(<SearchServiceParams>{name}).subscribe(
-            (data)=>{
-                this.aggregations[this.aggIndexes.continents].aggregation.values=data;
-            },
-            (error)=>{
-                this._logger.error("Network error: ", error);
-            }
-        );
-
-    }
 
     /**
      * remove filters of specific type
@@ -321,54 +226,47 @@ export class FiltersComponent implements OnChanges {
     }
 
 
+    /**
+     * render a filter
+     *
+     * @param {string} type the type of the filter eg.(countries, species)
+     * @param {string} paramType the param type as in SearchServiceParams
+     * @param {SearchServiceParams} params the params
+     * @param {object} service the service for the data
+     * @param {string} depParamType (optional) the dependency param type as in SearchServiceParams. If the dependency is not selected no elements will be shown
+     */
+    public filterRender(type:string, paramType:string, params:SearchServiceParams, service, depParamType:string=""){
+        let name=this.aggregations[this.aggIndexes[type]].filter;
+
+        if (~this.aggregationsTypes.indexOf(type)) {
+            if (params[paramType]) this.aggregations=this.filterAggregation(type, params[paramType], this.aggregations);
+            else if(depParamType && !name && !params[depParamType]) this.aggregations[this.aggIndexes[type]].aggregation.values=[];
+            else this.fetchData( type, service, <SearchServiceParams>{ ...params, name });
+        }
+
+    }
+
 
     ngOnChanges() {
-        let params=new SearchServiceParams();
+        let params:SearchServiceParams=new SearchServiceParams(), type:string, name:string;
 
 
         if (!this.aggregationsTypes.length) this._logger.error("this.aggregationsTypes not valid!");
 
         params=this._utilsService.getSearchServiceParamsFromFilterValues(this.filterValues);
 
-        if (~this.aggregationsTypes.indexOf("continents")) {
-            if (params.continent) this.aggregations=this.filterAggregation("continents", params.continent, this.aggregations);
-            else this.fetchContinents( params);
-        }
 
-        if (~this.aggregationsTypes.indexOf("countries")) {
-            if (params.country) this.aggregations=this.filterAggregation("countries", params.country, this.aggregations);
-            else this.fetchCountries( params);
-        }
+        this.filterRender("continents", "continent", params, this._continentsService);
 
-        if (~this.aggregationsTypes.indexOf("taxonomies")) {
-            if (params.taxonomy) this.aggregations=this.filterAggregation("taxonomies", params.taxonomy, this.aggregations);
-            else this.fetchTaxonomies(
-                params
-            );
-        }
+        this.filterRender("regions", "region", params, this._regionsService, "continent");
 
-        if (~this.aggregationsTypes.indexOf("species")) {
-            if (params.specie) this.aggregations=this.filterAggregation("species", params.specie, this.aggregations);
-            else {
-                this.fetchSpecs(
-                    { ...params, name:this.aggregations[this.aggIndexes.species].filter }
-                );
-            }
-        }
+        this.filterRender("taxonomies", "taxonomy", params, this._taxonomiesService);
 
-        if (~this.aggregationsTypes.indexOf("ftypes")) {
-            if (params.ftype) this.aggregations=this.filterAggregation("ftypes", params.ftype, this.aggregations);
-            else this.fetchFtypes(
-                params
-            );
-        }
+        this.filterRender("species", "specie", params, this._speciesService, "taxonomy");
 
-        if (~this.aggregationsTypes.indexOf("sftypes")) {
-            if (params.sftype) this.aggregations=this.filterAggregation("sftypes", params.sftype, this.aggregations);
-            else this.fetchSFtypes(
-                params
-            );
-        }
+        this.filterRender("ftypes", "ftype", params, this._FtypesService);
+
+        this.filterRender("sftypes", "sftype", params, this._SFtypesService);
 
     }
 
@@ -393,19 +291,17 @@ export class FiltersComponent implements OnChanges {
             params.name=term;
             params.continent=(this._utilsService.getFilterValueByKey("continents", this.filterValues) || {value:""}).value;
             params.country=(this._utilsService.getFilterValueByKey("countries", this.filterValues) || {value:""}).value;
+            params.region=(this._utilsService.getFilterValueByKey("regions", this.filterValues) || {value:""}).value;
             params.taxonomy=(this._utilsService.getFilterValueByKey("taxonomies", this.filterValues) || {value:""}).value;
 
-            this.fetchSpecs(
-                params
-            );
+            this.fetchData("species", this._speciesService, params);
         } else if (type==="countries") {
             this.aggregations[this.aggIndexes.countries].filter=term;
             params.name=term;
             params.continent=(this._utilsService.getFilterValueByKey("continents", this.filterValues) || {value:""}).value;
+            params.region=(this._utilsService.getFilterValueByKey("regions", this.filterValues) || {value:""}).value;
 
-            this.fetchCountries(
-                params
-            );
+            this.fetchData("countries", this._countriesService, params);
         }
 
     }

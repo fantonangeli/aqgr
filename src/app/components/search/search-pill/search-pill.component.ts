@@ -12,6 +12,7 @@ import {UtilsService} from '../../../services/utils.service';
  * allows the user to delete any search criteria used for searching.
  */
 export class SearchPillComponent implements OnInit {
+    /* TODO: same pills for continent, region and country as per taxonomy/specie  */
 
     /** List of filters used for searching */
     @Input() filterValues: Filter[];

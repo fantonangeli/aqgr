@@ -36,6 +36,8 @@ export class UtilsService {
         for (var i = 0, len = filterValues.length, e=null; i < len && (e=filterValues[i]) ; i++) {
             if (e.key==="continents") {
                 params.continent=e.value;
+            } else if (e.key==="regions") {
+                params.region=e.value;
             } else if (e.key==="countries") {
                 params.country=e.value;
             } else if (e.key==="taxonomies"){
@@ -63,6 +65,7 @@ export class UtilsService {
 
         if(ssp.name) params[environment.services.params.search]=ssp.name;
         if(ssp.continent) params[environment.services.params.continent]=ssp.continent;
+        if(ssp.region) params[environment.services.params.region]=ssp.region;
         if(ssp.country) params[environment.services.params.country]=ssp.country;
         if(ssp.taxonomy) params[environment.services.params.taxonomy]=ssp.taxonomy;
         if(ssp.specie) params[environment.services.params.specie]=ssp.specie;

@@ -55,6 +55,7 @@ export class SearchServiceParams {
      * @type {number}
      */
     limit: number = 10;
+
 }
 
 

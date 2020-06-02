@@ -23,10 +23,12 @@ export class RegionsService extends BaseService{
      * @param {SearchServiceParams} params the params to send to the service
      */
     getAll(ssp:SearchServiceParams):Observable<AggregationItem[]>{
+        let {name, continent, region, country, taxonomy, specie, ftype, sftype} = ssp;
+
         return this._getAll(
             "RegionsService",
             environment.services.regions.all, 
-            ssp,
+            <SearchServiceParams>{continent},
             environment.services.regions.limit
         );
     }

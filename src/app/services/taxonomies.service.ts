@@ -23,10 +23,12 @@ export class TaxonomiesService extends BaseService{
      * @param {SearchServiceParams} params the params to send to the service
      */
     getAll(ssp:SearchServiceParams):Observable<AggregationItem[]>{
+        let {name, continent, region, country, taxonomy, specie, ftype, sftype} = ssp;
+
         return this._getAll(
             "TaxonomiesService",
             environment.services.taxonomies.all, 
-            ssp,
+            <SearchServiceParams>{continent, region, country},
             environment.services.taxonomies.limit
         );
     }
