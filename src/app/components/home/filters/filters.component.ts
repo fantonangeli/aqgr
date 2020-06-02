@@ -22,7 +22,6 @@ export class FiltersComponent implements OnChanges {
     @Input() filterValues: Filter[];
     aggregations: AggregationInput[];
 
-    /* TODO: show regions in pages 2,3,4 */
     /* TODO: filters in fixed position */
 
      /**
@@ -259,6 +258,8 @@ export class FiltersComponent implements OnChanges {
         this.filterRender("continents", "continent", params, this._continentsService);
 
         this.filterRender("regions", "region", params, this._regionsService, "continent");
+
+        this.filterRender("countries", "country", params, this._countriesService, "region");
 
         this.filterRender("taxonomies", "taxonomy", params, this._taxonomiesService);
 
