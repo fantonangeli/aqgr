@@ -8,7 +8,6 @@ export class BaseChart01Component {
     series=[];
     @Input() filterValues:Filter[]=[];
 
-    /* TODO: species names in italic for charts with species */
 
     /**
      * server's data format. Default highcharts

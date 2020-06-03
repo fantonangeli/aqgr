@@ -11,7 +11,7 @@ import {UtilsService} from '../../../services/utils.service'
 @Component({
   selector: 'app-country-chart02',
   template: `
-        <app-stacked-bars01 [series]="series" *ngIf="series.length" xAxisTitle="Total number of farmed types reported by species"></app-stacked-bars01>
+        <app-stacked-bars01 [series]="series" *ngIf="series.length" xAxisTitle="Total number of farmed types reported by species" fontStyleItalic="true"></app-stacked-bars01>
     `,
   styleUrls: []
 })

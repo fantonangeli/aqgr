@@ -9,7 +9,7 @@ import {ChartDataFormat} from '../../../namespace';
 @Component({
   selector: 'app-use-chart04',
   template: `
-    <app-bars01 [series]="series" [legendEnabled]="false" *ngIf="series.length" [height]="300"></app-bars01>
+    <app-bars01 [series]="series" [legendEnabled]="false" *ngIf="series.length" [height]="300" fontStyleItalic="true"></app-bars01>
   `,
   styles: []
 })
