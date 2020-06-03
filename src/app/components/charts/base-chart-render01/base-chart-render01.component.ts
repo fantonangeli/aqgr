@@ -20,6 +20,9 @@ export class BaseChartRender01Component  implements AfterViewInit, OnChanges {
 
     @Input() series :object[]=[];
     @Input() height:number=null;
+    @Input() fontStyleItalic:boolean=false;
+    @Input() xAxisTitle :string;
+    @Input() yAxisTitle :string;
 
     private _viewInitialized=false;
 
@@ -55,6 +58,10 @@ export class BaseChartRender01Component  implements AfterViewInit, OnChanges {
                 enabled: false
             },
             ...this.options,
+        };
+
+        options.chart.style={
+            fontStyle:(this.fontStyleItalic)?"italic":""
         };
 
         Highcharts.chart(this.wrapperId, options);

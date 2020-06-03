@@ -7,8 +7,6 @@ import {BaseChartRender01Component} from '../base-chart-render01/base-chart-rend
   styleUrls: []
 })
 export class Columns01Component extends BaseChartRender01Component {
-    @Input() xAxisTitle :string;
-    @Input() yAxisTitle :string;
 
 
     /**

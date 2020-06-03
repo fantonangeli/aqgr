@@ -7,7 +7,6 @@ import {BaseChartRender01Component} from '../base-chart-render01/base-chart-rend
   styleUrls: []
 })
 export class StackedColumns01Component extends BaseChartRender01Component {
-    @Input() yAxisTitle :string;
 
 
     /**
