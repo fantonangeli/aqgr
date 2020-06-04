@@ -75,6 +75,14 @@ export const environment = {
             chart11:"assets/data/use/chart11.json",
             chart12:"assets/data/use/chart12.json",
             chart13:"assets/data/use/chart13.json",
+        },
+        policies:{
+            chart01:"assets/data/policies/chart01.json",
+            chart02:"assets/data/policies/chart02.json",
+            chart03:"assets/data/policies/chart03.json",
+            chart04:"assets/data/policies/chart04.json",
+            chart05:"assets/data/policies/chart05.json",
+            chart06:"assets/data/policies/chart06.json",
         }
     }
 

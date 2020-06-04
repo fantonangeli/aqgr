@@ -1,14 +1,14 @@
 [
- {
-   "Name": "Education",
-   "Value": 12
- },
- {
-   "Name": "Importation",
-   "Value": 5
- },
- {
-   "Name": "Conservation",
-   "Value": 8
- }
+  {
+    "key": "Education",
+    "value": 12
+  },
+  {
+    "key": "Importation",
+    "value": 5
+  },
+  {
+    "key": "Conservation",
+    "value": 8
+  }
 ]

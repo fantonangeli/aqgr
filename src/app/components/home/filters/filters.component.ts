@@ -213,12 +213,6 @@ export class FiltersComponent implements OnChanges {
         filters.push({ key: key, parameter: parameter, value: value });
         filters=filters.sort((a,b)=>{
             return this.aggIndexes[a.key]-this.aggIndexes[b.key];
-
-
-            let asort=(a.key==="species")?0:(a.key==="ftypes")?1:2;
-            let bsort=(b.key==="species")?0:(b.key==="ftypes")?1:2;
-
-            return asort-bsort;
         });
 
         return filters;
@@ -283,6 +277,7 @@ export class FiltersComponent implements OnChanges {
      * @return {void} 
      */
     filterAggregations(type:string, term:string){
+        /* BUG: in countries if search "italy", click italy -> i can select Asia in continents and Eastern Asia in regions*/
         let params=new SearchServiceParams();
 
         if ((term.length<3) && (term.length>0)) return;

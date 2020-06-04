@@ -1,0 +1,60 @@
+<div class="container mw-100">
+    <div class="row">
+        <div class="col-sm-12 col-md-3">
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Filters:</h1></div></div>
+        </div>
+        <div class="col-sm-12 col-md-9">
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Data on Farmed Types (P4)</h1></div></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-3">
+            <app-filters [(filterValues)]="filterValues" [aggregationsTypes]="['continents', 'regions', 'countries', 'taxonomies', 'species', 'ftypes', 'sftypes']" (search)="searchAggregation($event)"></app-filters>
+        </div>
+        <div class="col-sm-12 col-md-9">
+            <div class="col-sm-12 col-md-12 pl-0">
+                <div class="mb-4" *ngIf="filterValues && filterValues.length > 0">
+                    <app-search-pill [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                    </app-search-pill>                
+                </div>
+            </div>
+
+
+            <div class="container mw-100 p-0" *ngIf="reloadCharts">
+                <app-chart-wrapper01>
+                    <div header> Number of species under control measure </div>
+                    <div body><app-policies-chart01 [filterValues]="filterValues"></app-policies-chart01></div>
+                </app-chart-wrapper01>
+                <app-chart-wrapper01>
+                    <div header> Number of species under control measure </div>
+                    <div body><app-policies-chart02 [filterValues]="filterValues"></app-policies-chart02></div>
+                </app-chart-wrapper01>
+                <app-chart-wrapper01>
+                    <div header> Proportion of areas addressed by policies </div>
+                    <div body><app-policies-chart03 [filterValues]="filterValues"></app-policies-chart03></div>
+                </app-chart-wrapper01>
+                <app-chart-wrapper01>
+                    <div header> Proportion of reasearch areas addressed by institutions </div>
+                    <div body><app-policies-chart04 [filterValues]="filterValues"></app-policies-chart04></div>
+                </app-chart-wrapper01>
+                <app-chart-wrapper01>
+                    <div header> Proportion of education areas addressed by institutions </div>
+                    <div body><app-policies-chart05 [filterValues]="filterValues"></app-policies-chart05></div>
+                </app-chart-wrapper01>
+                <app-chart-wrapper01>
+                    <div header> Proportion of educational institutions offering training at different levels </div>
+                    <div body><app-policies-chart06 [filterValues]="filterValues"></app-policies-chart06></div>
+                </app-chart-wrapper01>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- TODO: filters in policies page -->
+<!-- TODO: chart01 in policies page -->
+<!-- TODO: chart02 in policies page -->
+<!-- TODO: chart03 in policies page -->
+<!-- TODO: chart04 in policies page -->
+<!-- TODO: chart05 in policies page -->
+<!-- TODO: chart06 in policies page -->

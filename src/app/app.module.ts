@@ -42,6 +42,13 @@ import { UseChart13Component } from './components/charts/use-chart13/use-chart13
 import { UseChart08Component } from './components/charts/use-chart08/use-chart08.component';
 import { UseChart09Component } from './components/charts/use-chart09/use-chart09.component';
 import { ChartWrapper01Component } from './components/charts/chart-wrapper01/chart-wrapper01.component';
+import { PoliciesComponent } from './pages/policies/policies.component';
+import { PoliciesChart01Component } from './components/charts/policies-chart01/policies-chart01.component';
+import { PoliciesChart02Component } from './components/charts/policies-chart02/policies-chart02.component';
+import { PoliciesChart03Component } from './components/charts/policies-chart03/policies-chart03.component';
+import { PoliciesChart04Component } from './components/charts/policies-chart04/policies-chart04.component';
+import { PoliciesChart05Component } from './components/charts/policies-chart05/policies-chart05.component';
+import { PoliciesChart06Component } from './components/charts/policies-chart06/policies-chart06.component';
 
 @NgModule({
   declarations: [
@@ -79,6 +86,13 @@ import { ChartWrapper01Component } from './components/charts/chart-wrapper01/cha
     UseChart08Component,
     UseChart09Component,
     ChartWrapper01Component,
+    PoliciesComponent,
+    PoliciesChart01Component,
+    PoliciesChart02Component,
+    PoliciesChart03Component,
+    PoliciesChart04Component,
+    PoliciesChart05Component,
+    PoliciesChart06Component,
   ],
   imports: [
     BrowserModule,

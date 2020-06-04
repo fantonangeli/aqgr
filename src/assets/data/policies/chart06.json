@@ -1,14 +1,14 @@
 [
- {
-   "Name": "Undergraduate",
-   "Value": 25
- },
- {
-   "Name": "Training",
-   "Value": 10
- },
- {
-   "Name": "Extension",
-   "Value": 5
- }
+  {
+    "key": "Undergraduate",
+    "value": 25
+  },
+  {
+    "key": "Training",
+    "value": 10
+  },
+  {
+    "key": "Extension",
+    "value": 5
+  }
 ]
