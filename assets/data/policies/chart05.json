@@ -1,14 +1,14 @@
 [
- {
-   "Name": "Genetic improvements",
-   "Value": 15
- },
- {
-   "Name": "Characterization & monitoring",
-   "Value": 5
- },
- {
-   "Name": "Conservation",
-   "Value": 22
- }
+  {
+    "key": "Genetic improvements",
+    "value": 15
+  },
+  {
+    "key": "Characterization & monitoring",
+    "value": 5
+  },
+  {
+    "key": "Conservation",
+    "value": 22
+  }
 ]
