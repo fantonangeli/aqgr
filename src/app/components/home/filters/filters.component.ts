@@ -1,6 +1,6 @@
 import { Component, OnChanges, Input, Output, EventEmitter } from '@angular/core';
 import {FilterTermsComponent} from '../../../components/search/filter-terms/filter-terms.component';
-import { Filter, AggregationInput, ResultComponent, ResultList, ResultSearchEvent, ViewTypeEnum } from '../../../components/search/namespace';
+import { Filter, AggregationInput, AggregationItem, Aggregation, ResultComponent, ResultList, ResultSearchEvent, ViewTypeEnum } from '../../../components/search/namespace';
 import {CountriesService} from '../../../services/countries.service';
 import {ContinentsService} from '../../../services/continents.service';
 import {RegionsService} from '../../../services/regions.service';
@@ -72,6 +72,7 @@ export class FiltersComponent implements OnChanges {
               "title": "By regions",
               "parameter": "document.regionsMapping",
               "filter": "",
+              "parent": "continents",
               "aggregation": {
                   "name": "regions",
                   "values":[]
@@ -82,6 +83,7 @@ export class FiltersComponent implements OnChanges {
               "title": "By countries",
               "parameter": "document.countriesMapping",
               "filter": "",
+              "parent": "regions",
               "aggregation": {
                   "name": "countries",
                   "values":[]
@@ -102,6 +104,7 @@ export class FiltersComponent implements OnChanges {
               "title": "By species",
               "parameter": "document.speciesMapping",
               "filter": "",
+              "parent": "taxonomies",
               "aggregation": {
                   "name": "species",
                   "values":[]
@@ -128,6 +131,7 @@ export class FiltersComponent implements OnChanges {
               }
           },
       ];
+
 
   }
 
@@ -157,7 +161,7 @@ export class FiltersComponent implements OnChanges {
      * @param {string} type the type
      * @return Filter[] the filters cleared
      */
-    clearFiltersByType(filters:Filter[], type:string):Filter[]{
+    public clearFiltersByType(filters:Filter[], type:string):Filter[]{
         return filters.filter(e=>(e.key!=type));
     }
 
@@ -169,7 +173,7 @@ export class FiltersComponent implements OnChanges {
      * @param {AggregationInput[]} aggregations the aggregation
      * @returns {AggregationInput[]} the new value 
      */
-    filterAggregation(type:string, key:string, aggregations:AggregationInput[]):AggregationInput[]{
+    public filterAggregation(type:string, key:string, aggregations:AggregationInput[]):AggregationInput[]{
         return aggregations.map(agg=>{
             if(agg.type!=type) return agg;
 
@@ -183,34 +187,60 @@ export class FiltersComponent implements OnChanges {
      *
      * @param {string} type the type
      * @param {string} parameter the parameter
-     * @param {string} event the event
+     * @param {Aggregation} event the event
      */
-    searchAggregation(type: string, parameter: string, event: string) {
-        this.filterValues=this.clearFiltersByType(this.filterValues, type)
+    public searchAggregation(agg:AggregationInput, event: AggregationItem) {
+        this.filterValues=this.clearFiltersByType(this.filterValues, agg.type)
 
-        this.filterValues=this.addFilter(type,parameter, event,this.filterValues);
+        this.filterValues=this.addFilter(agg, event,this.filterValues);
+
+        //unselect children recursively
+        this.filterValues=this.unselectChildren(agg.type, this.filterValues);
 
         //reset the search value
-        this.aggregations[this.aggIndexes[type]].filter="";
+        this.aggregations[this.aggIndexes[agg.type]].filter="";
+        
 
         //reset the search value for dependent types
-        if(type==="continents") this.aggregations[this.aggIndexes["countries"]].filter=""; 
-        if(type==="taxonomies") this.aggregations[this.aggIndexes["species"]].filter=""; 
+        if(agg.type==="continents") this.aggregations[this.aggIndexes["countries"]].filter=""; 
+        if(agg.type==="taxonomies") this.aggregations[this.aggIndexes["species"]].filter=""; 
 
         this.search.emit(this.filterValues);
+    }
+
+    /**
+     * deselect the children of a type
+     *
+     * @param {string} type the aggregation type
+     * @param {Filter[]} filters the filter array of filters
+     * @return {Filter[]} the new Filter[], [] otherwise
+     */
+    public unselectChildren(type:string, filters:Filter[]):Filter[]{
+        let childAggregation:AggregationInput;
+
+        //get the child aggregation
+        childAggregation=this.aggregations.filter(e=>(e.parent===type))[0];
+
+        if(!childAggregation) return filters;
+
+        //remove the child from filters
+        filters=filters.filter(e=>(e.key!==childAggregation.type));
+
+        //recursively remove 
+        return this.unselectChildren(childAggregation.type, filters);
+
     }
 
 
     /**
      * add a Filter to filterValues
-     * @param {string} key the key
-     * @param {string} parameter the parameter
-     * @param {string} value the value
+     * @param {AggregationInput} agg the current AggregationInput
+     * @param {AggregationItem} selectedAI the selected AggregationItem
      * @param {Filter[]} filters the filter array of filters
      * @return {Filter[]} the new Filter[], [] otherwise
      **/
-    addFilter(key:string, parameter:string, value:string, filters:Filter[]):Filter[]{
-        filters.push({ key: key, parameter: parameter, value: value });
+    public addFilter(agg:AggregationInput, selectedAI:AggregationItem, filters:Filter[]):Filter[]{
+        filters.push({ key: agg.type, parameter: agg.parameter, value: selectedAI.key });
         filters=filters.sort((a,b)=>{
             return this.aggIndexes[a.key]-this.aggIndexes[b.key];
         });
@@ -277,7 +307,6 @@ export class FiltersComponent implements OnChanges {
      * @return {void} 
      */
     filterAggregations(type:string, term:string){
-        /* BUG: in countries if search "italy", click italy -> i can select Asia in continents and Eastern Asia in regions*/
         let params=new SearchServiceParams();
 
         if ((term.length<3) && (term.length>0)) return;

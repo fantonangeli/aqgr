@@ -5,7 +5,7 @@
         [ngClass]="[agg.aggregation.name]" 
         [title]="agg.title" 
         [searchText]="agg.filter" 
-        (filterTermEvent)="searchAggregation(agg.type,agg.parameter,$event)" 
+        (filterTermEvent)="searchAggregation(agg,$event)" 
         [searchEnabled]="agg.type==='countries' || agg.type==='species'" 
         (filterByName)="filterAggregations(agg.type, $event)" 
         [selectedFilter]="getFilterValueByKey(agg.type, filterValues)">

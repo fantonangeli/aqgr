@@ -1,5 +1,5 @@
 import { Component, OnChanges, Input, Output, EventEmitter } from '@angular/core';
-import { Filter, Aggregation } from '../namespace';
+import { Filter, Aggregation, AggregationItem } from '../namespace';
 
 @Component({
   selector: 'app-filter-terms',
@@ -12,7 +12,7 @@ export class FilterTermsComponent implements OnChanges {
     @Input() title: string;
     @Input() searchEnabled: boolean=false;
     @Input() selectedFilter: Filter;
-    @Output() filterTermEvent: EventEmitter<string> = new EventEmitter<string>();
+    @Output() filterTermEvent: EventEmitter<AggregationItem> = new EventEmitter<AggregationItem>();
     @Output() filterByName: EventEmitter<string> = new EventEmitter<string>();
     @Input() searchText:string="";
 
@@ -25,9 +25,8 @@ export class FilterTermsComponent implements OnChanges {
         this.filterByName.emit(searchValue);
     }
 
-    searchYear(key: string) {
-        this.searchText="";
-        this.filterTermEvent.emit(key);
+    search(aggregation:AggregationItem) {
+        this.filterTermEvent.emit(aggregation);
     }
 
 }

@@ -45,6 +45,7 @@ export class AggregationInput {
     title: string;
     parameter: string;
     filter:string;
+    parent?:string;
     aggregation: Aggregation;
 }
 
