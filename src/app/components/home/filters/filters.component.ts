@@ -22,7 +22,6 @@ export class FiltersComponent implements OnChanges {
     @Input() filterValues: Filter[];
     aggregations: AggregationInput[];
 
-    /* TODO: filters in fixed position */
 
      /**
       * What you want to see (lowercase). Eg. ["taxonomies", "ftypes",]

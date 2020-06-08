@@ -6,6 +6,12 @@
         <ng-content select="[body]"></ng-content>
     </div>
 </div>
+<div class="col-sm-12 col-md-12 pl-0">
+    <div class="mb-4" *ngIf="filterValues && filterValues.length > 0">
+        <app-search-pill [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+        </app-search-pill>                
+    </div>
+</div>
 <!-- TODO: repeat search-pills after every charts -->
 <br>
 <br>

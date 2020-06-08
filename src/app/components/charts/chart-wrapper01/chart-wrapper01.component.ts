@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Filter } from '../../../components/search/namespace';
 
 @Component({
   selector: 'app-chart-wrapper01',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class ChartWrapper01Component implements OnInit {
+
+    /** List of filters used for searching */
+    @Input() filterValues: Filter[];
 
   constructor() { }
 
