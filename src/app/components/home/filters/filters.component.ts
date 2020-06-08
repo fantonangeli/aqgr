@@ -198,13 +198,8 @@ export class FiltersComponent implements OnChanges {
         this.filterValues=this.unselectChildren(agg.type, this.filterValues);
 
         //reset the search value
-        this.aggregations[this.aggIndexes[agg.type]].filter="";
+        agg.filter="";
         
-
-        //reset the search value for dependent types
-        if(agg.type==="continents") this.aggregations[this.aggIndexes["countries"]].filter=""; 
-        if(agg.type==="taxonomies") this.aggregations[this.aggIndexes["species"]].filter=""; 
-
         this.search.emit(this.filterValues);
     }
 
@@ -224,7 +219,10 @@ export class FiltersComponent implements OnChanges {
         if(!childAggregation) return filters;
 
         //remove the child from filters
-        filters=filters.filter(e=>(e.key!==childAggregation.type));
+        filters=this.clearFiltersByType(filters, childAggregation.type);
+
+        //reset the search value for dependent types
+        childAggregation.filter="";
 
         //recursively remove 
         return this.unselectChildren(childAggregation.type, filters);
