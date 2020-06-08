@@ -16,7 +16,6 @@ Exporting(Highcharts);
 export class BaseChartRender01Component  implements AfterViewInit, OnChanges {
     wrapperId=`chart${Math.floor(Math.random() * 1000)}Container`;
     options:any;
-    /* TODO: (low) share on facebook */
 
     @Input() series :object[]=[];
     @Input() height:number=null;

@@ -6,7 +6,7 @@
                 &nbsp;{{field}}
                 <a [routerLink]="['/country',element.Ccode]" *ngIf="element.Ccode" routerLinkActive="router-link-active"><fa-icon *ngIf="!element.children" [icon]="faChartPie"></fa-icon></a>
             </td>
-            <td class="text-truncate" *ngIf="!first" class="align-top text-right" [ngClass]="'index-'+i" class="text-break">
+            <td class="text-truncate" *ngIf="!first" [ngClass]="'index-'+i" class="text-break text-right">
                 {{field}}
             </td>
         </ng-container>
@@ -34,16 +34,16 @@
             </ng-container>
         </tbody>
         <tfoot *ngIf="enableTotal">
-    <tr>
-        <ng-container  *ngFor="let field of totalRowData; let first = first; let last = last; let i = index">
-            <td class="align-top text-truncate" *ngIf="first" [ngStyle]="{'padding-left': '20px'}" [ngClass]="'index-'+i">
-                {{field}}
-            </td>
-            <td class="text-truncate" *ngIf="!first" class="align-top text-right" [ngClass]="'index-'+i">
-                {{field}}
-            </td>
-        </ng-container>
-    </tr>
+            <tr>
+                <ng-container  *ngFor="let field of totalRowData; let first = first; let last = last; let i = index">
+                    <td class="align-top text-truncate" *ngIf="first" [ngStyle]="{'padding-left': '20px'}" [ngClass]="'index-'+i">
+                        {{field}}
+                    </td>
+                    <td class="text-truncate" *ngIf="!first" class="align-top text-right" [ngClass]="'index-'+i">
+                        {{field}}
+                    </td>
+                </ng-container>
+            </tr>
         </tfoot>
     </table>
 </div>
