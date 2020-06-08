@@ -34,6 +34,7 @@
     "highcharts": "^8.0.4",
     "jsonata": "^1.8.2",
     "jsonpath": "^1.0.2",
+    "material-design-icons": "^3.0.1",
     "ngx-bootstrap": "^5.5.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
