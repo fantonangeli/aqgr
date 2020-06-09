@@ -56,79 +56,13 @@ export class FiltersComponent implements OnChanges {
   ) {
 
       this.aggregations=[
-          {
-              "type": "continents",
-              "title": "By continents",
-              "parameter": "document.continentsMapping",
-              "filter": "",
-              "aggregation": {
-                  "name": "continents",
-                  "values":[]
-              }
-          },
-          {
-              "type": "regions",
-              "title": "By regions",
-              "parameter": "document.regionsMapping",
-              "filter": "",
-              "parent": "continents",
-              "aggregation": {
-                  "name": "regions",
-                  "values":[]
-              }
-          },
-          {
-              "type": "countries",
-              "title": "By countries",
-              "parameter": "document.countriesMapping",
-              "filter": "",
-              "parent": "regions",
-              "aggregation": {
-                  "name": "countries",
-                  "values":[]
-              }
-          },
-          {
-              "type": "taxonomies",
-              "title": "By taxonomies",
-              "parameter": "document.taxonomiesMapping",
-              "filter": "",
-              "aggregation": {
-                  "name": "taxonomies",
-                  "values":[]
-              }
-          },
-          {
-              "type": "species",
-              "title": "By species",
-              "parameter": "document.speciesMapping",
-              "filter": "",
-              "parent": "taxonomies",
-              "aggregation": {
-                  "name": "species",
-                  "values":[]
-              }
-          },
-          {
-              "type": "ftypes",
-              "title": "By primary farmed type",
-              "parameter": "document.ftypeMapping",
-              "filter": "",
-              "aggregation": {
-                  "name": "ftype",
-                  "values": []
-              }
-          },
-          {
-              "type": "sftypes",
-              "title": "By secondary farmed type",
-              "parameter": "document.sftypeMapping",
-              "filter": "",
-              "aggregation": {
-                  "name": "sftype",
-                  "values": []
-              }
-          },
+          new AggregationInput("continents","By continents"),
+          new AggregationInput( "regions", "By regions", "continents"),
+          new AggregationInput( "countries", "By countries", "regions"),
+          new AggregationInput( "taxonomies", "By taxonomies"),
+          new AggregationInput( "species", "By species", "taxonomies"),
+          new AggregationInput( "ftypes", "By primary farmed type"),
+          new AggregationInput( "sftypes", "By secondary farmed type"),
       ];
 
 

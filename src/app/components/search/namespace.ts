@@ -47,6 +47,18 @@ export class AggregationInput {
     filter:string;
     parent?:string;
     aggregation: Aggregation;
+
+    constructor(type:string, title:string, parent?:string){
+              this.type=type;
+              this.title=title;
+              this.parameter= "document."+type+"Mapping";
+              this.filter= "";
+              this.parent=parent;
+              this.aggregation= {
+                  "name":type,
+                  "values":[]
+          };
+    }
 }
 
 export class Aggregation {
