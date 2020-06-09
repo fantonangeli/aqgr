@@ -31,77 +31,71 @@ This page summarises information contained in the Registry relating to the risks
             <app-filters [(filterValues)]="filterValues" [aggregationsTypes]="['continents', 'regions', 'countries', 'taxonomies', 'species', 'ftypes', 'sftypes']" (search)="searchAggregation($event)"></app-filters>
         </div>
         <div class="col-sm-12 col-md-9">
-            <div class="col-sm-12 col-md-12 pl-0">
-                <div class="mb-4" *ngIf="filterValues && filterValues.length > 0">
-                    <app-search-pill [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-                    </app-search-pill>                
-                </div>
-            </div>
 
 
             <div class="container mw-100 p-0" *ngIf="reloadCharts">
-                <app-chart-wrapper01>
+                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Proportion of farmed native and non-native species reported by countries</div>
                     <div body><app-use-chart01 [filterValues]="filterValues"></app-use-chart01></div>
                 </app-chart-wrapper01>
 
 
-                <app-chart-wrapper01>
+                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Proportion of farmed native and non-native species reported by countries by continent</div>
                     <div body><app-use-chart02 [filterValues]="filterValues"></app-use-chart02></div>
                 </app-chart-wrapper01>
 
-                <app-chart-wrapper01>
+                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>The proportion (%) of aquaculture production that comes from non-native species by region of countries</div>
                     <div body><app-use-chart03 [filterValues]="filterValues"></app-use-chart03></div>
                 </app-chart-wrapper01>
 
-                <app-chart-wrapper01>
+                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Top 10 non-native species by production</div>
                     <div body><app-use-chart04 [filterValues]="filterValues"></app-use-chart04></div>
                 </app-chart-wrapper01>
 
-                <app-chart-wrapper01>
+                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Risk status of species reported as cultured by countries</div>
                     <div body><app-use-chart05 [filterValues]="filterValues"></app-use-chart05></div>
                 </app-chart-wrapper01>
 
-                <app-chart-wrapper01>
+                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Number of species whose introduction represents a risk</div>
                     <div body><app-use-chart06 [filterValues]="filterValues"></app-use-chart06></div>
                 </app-chart-wrapper01>
 
-                <app-chart-wrapper01>
+                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Numbers and effectiveness of aquatic projected areas by region</div>
                     <div body><app-use-chart07 [filterValues]="filterValues"></app-use-chart07></div>
                 </app-chart-wrapper01>
 
-                <app-chart-wrapper01>
+                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Number of species with live gene banks by region</div>
                     <div body><app-use-chart08 [filterValues]="filterValues"></app-use-chart08></div>
                 </app-chart-wrapper01>
 
-                <app-chart-wrapper01>
+                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Number of species with live gene banks by taxonomic group</div>
                     <div body><app-use-chart09 [filterValues]="filterValues"></app-use-chart09></div>
                 </app-chart-wrapper01>
                 
-                <app-chart-wrapper01>
+                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Top 10 species conserved in live gene banks</div>
                     <div body><app-use-chart10 [filterValues]="filterValues"></app-use-chart10></div>
                 </app-chart-wrapper01>
 
-                <app-chart-wrapper01>
+                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>No of species with in vitro gene banks by country</div>
                     <div body><app-use-chart11 [filterValues]="filterValues"></app-use-chart11></div>
                 </app-chart-wrapper01>
 
-                <app-chart-wrapper01>
+                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>No of species with reported in vitro gene banks by taxonomy group</div>
                     <div body><app-use-chart12 [filterValues]="filterValues"></app-use-chart12></div>
                 </app-chart-wrapper01>
 
-                <app-chart-wrapper01>
+                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Top 10 species conserved in vitro gene banks</div>
                     <div body><app-use-chart13 [filterValues]="filterValues"></app-use-chart13></div>
                 </app-chart-wrapper01>

@@ -12,26 +12,20 @@
             <app-filters [(filterValues)]="filterValues" [aggregationsTypes]="['continents', 'regions', 'countries', 'taxonomies', 'species', 'ftypes', 'sftypes']" (search)="searchAggregation($event)"></app-filters>
         </div>
         <div class="col-sm-12 col-md-9">
-            <div class="col-sm-12 col-md-12 pl-0">
-                <div class="mb-4" *ngIf="filterValues && filterValues.length > 0">
-                    <app-search-pill [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-                    </app-search-pill>                
-                </div>
-            </div>
 
 
             <div class="container mw-100 p-0" *ngIf="reloadCharts">
-                <app-chart-wrapper01>
+                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Number of primary farmed types entered into the Registry</div>
                     <div body><app-country-chart01 [filterValues]="filterValues"></app-country-chart01></div>
                 </app-chart-wrapper01>
 
-                <app-chart-wrapper01>
+                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Top 10 developed species (by number of farmed types)</div>
                     <div body><app-country-chart02 [filterValues]="filterValues"></app-country-chart02></div>
                 </app-chart-wrapper01>
 
-                <app-chart-wrapper01>
+                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Recorded production by primary farmed type</div>
                     <div body><app-country-chart03 [filterValues]="filterValues"></app-country-chart03></div>
                 </app-chart-wrapper01>
