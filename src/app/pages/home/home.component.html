@@ -86,12 +86,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row" *ngIf="!specie">
+                    <div class="row" *ngIf="!taxonomy">
                         <h6 class="mt-5">
                             Number of species (based on reports by country) contained in the Registry
                         </h6>
                         <div class="col-sm-12 col-md-12 p-0">
-                            <app-countries-chart03 [selectedTaxonomy]="taxonomy"></app-countries-chart03>
+                            <app-countries-chart03></app-countries-chart03>
                         </div>
                     </div>
                 </div>
