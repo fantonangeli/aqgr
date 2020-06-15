@@ -39,6 +39,8 @@ export class FiltersComponent implements OnChanges {
         sftypes:6
     };
 
+    /* TODO: show the regions only when a continent is selected */
+
   @Output() search = new EventEmitter<Filter[]>();
 
 
@@ -77,7 +79,7 @@ export class FiltersComponent implements OnChanges {
     public fetchData(type:string, service, params:SearchServiceParams=new SearchServiceParams()) {
         service.getAll(params).subscribe(
             (data)=>{
-                this.aggregations[this.aggIndexes[type]].aggregation.values=data;
+                this.aggregations[this.aggIndexes[type]].aggregation.values=data.map(e=>({"key":e.key, "value":null}));
             },
             (error)=>{
                 this._logger.error("Network error: ", error);
