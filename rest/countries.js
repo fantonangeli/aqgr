@@ -546,7 +546,7 @@ module.exports=[
     "region": "Middle Africa"
   },
   {
-    "key": "C�te d'Ivoire",
+    "key": "Côte d'Ivoire",
     "value": 11,
     "continent": "Africa",
     "region": "Western Africa"
