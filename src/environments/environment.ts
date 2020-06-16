@@ -49,6 +49,7 @@ export const environment = {
             all:baseUrl+"continents"
         },
         country:{
+            groupsSpecies:"assets/data/country/groups-species.json",
             info:baseUrl+"countryInfo?",
             species: "assets/data/country/species.json?ccode=",
             ftype: "assets/data/country/ftype.json?ccode=",

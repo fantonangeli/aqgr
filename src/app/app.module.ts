@@ -49,6 +49,7 @@ import { PoliciesChart03Component } from './components/charts/policies-chart03/p
 import { PoliciesChart04Component } from './components/charts/policies-chart04/policies-chart04.component';
 import { PoliciesChart05Component } from './components/charts/policies-chart05/policies-chart05.component';
 import { PoliciesChart06Component } from './components/charts/policies-chart06/policies-chart06.component';
+import { SpeciesListComponent } from './components/country/species-list/species-list.component';
 
 @NgModule({
   declarations: [
@@ -93,6 +94,7 @@ import { PoliciesChart06Component } from './components/charts/policies-chart06/p
     PoliciesChart04Component,
     PoliciesChart05Component,
     PoliciesChart06Component,
+    SpeciesListComponent,
   ],
   imports: [
     BrowserModule,
