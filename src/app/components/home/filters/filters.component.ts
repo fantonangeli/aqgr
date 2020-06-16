@@ -39,7 +39,6 @@ export class FiltersComponent implements OnChanges {
         sftypes:6
     };
 
-    /* TODO: show the regions only when a continent is selected */
 
   @Output() search = new EventEmitter<Filter[]>();
 

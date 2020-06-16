@@ -1,3 +1,4 @@
+<!-- BUG: Countries filter: "Cote d'Ivoire" not well printed -->
 <div *ngFor="let agg of aggregations">
     <p *ngIf="(aggregationsTypes.indexOf(agg.type)>-1)">
     <app-filter-terms 
@@ -8,7 +9,8 @@
         (filterTermEvent)="searchAggregation(agg,$event)" 
         [searchEnabled]="agg.type==='countries' || agg.type==='species'" 
         (filterByName)="filterAggregations(agg.type, $event)" 
-        [selectedFilter]="getFilterValueByKey(agg.type, filterValues)">
+        [selectedFilter]="getFilterValueByKey(agg.type, filterValues)"
+        *ngIf="!(agg.type==='regions' && !getFilterValueByKey('continents', filterValues))">
     </app-filter-terms>
     </p>
 </div>
