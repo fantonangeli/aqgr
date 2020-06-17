@@ -13,7 +13,15 @@
     </div>
 
     <div class="col-7">
-        
+        <ul>
+            <li *ngFor="let t of speciesData" class="pb-3">
+                <!-- TODO: set the correct a href to the species table-->
+                <a class="font-weight-bold h6" href="#">{{t.Name}}</a>
+                <div class="">
+                    <span *ngFor="let s of t.Species; let first = first; let last = last; let i=index">{{s.Name}}{{(!last)?", ":""}}</span>
+                </div>
+            </li>
+        </ul>
     </div>
     
 </div>

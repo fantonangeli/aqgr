@@ -14,6 +14,7 @@ import {LoggerService} from '../../../services/logger.service';
 export class SpeciesListComponent implements OnChanges {
     @Input() filterValues: Filter[]=[];
     totalProd:number;
+    speciesData:object[]=[];
 
 
     constructor(private _service: CountryGroupsSpeciesService, private _utilsService:UtilsService, private _logger:LoggerService){
@@ -70,6 +71,8 @@ export class SpeciesListComponent implements OnChanges {
                 if(!data) return;
 
                 this.totalProd=data.slice(-1)[0].Production;
+
+                this.speciesData=data.slice(0,-1);
 
             },
             (error)=>{
