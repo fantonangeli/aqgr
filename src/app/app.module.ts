@@ -7,6 +7,10 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import {SearchModule} from './components/search/search.module';
 
+//ngx-bootstrap
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CollapseModule } from 'ngx-bootstrap/collapse';
+
 import { AppComponent } from './app.component';
 import { DynamicHTMLModule, DynamicHTMLComponent } from './core/components/dynamic-html';
 import { FishStatTableComponent } from './components/fish-stat-table/fish-stat-table.component';
@@ -50,6 +54,7 @@ import { PoliciesChart04Component } from './components/charts/policies-chart04/p
 import { PoliciesChart05Component } from './components/charts/policies-chart05/policies-chart05.component';
 import { PoliciesChart06Component } from './components/charts/policies-chart06/policies-chart06.component';
 import { SpeciesListComponent } from './components/country/species-list/species-list.component';
+import { ChartWrapper02Component } from './components/charts/chart-wrapper02/chart-wrapper02.component';
 
 @NgModule({
   declarations: [
@@ -95,6 +100,7 @@ import { SpeciesListComponent } from './components/country/species-list/species-
     PoliciesChart05Component,
     PoliciesChart06Component,
     SpeciesListComponent,
+    ChartWrapper02Component,
   ],
   imports: [
     BrowserModule,
@@ -107,7 +113,9 @@ import { SpeciesListComponent } from './components/country/species-list/species-
     }),
     NgSelectModule, 
     FormsModule,
-    SearchModule
+    SearchModule,
+    BrowserAnimationsModule,
+    CollapseModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

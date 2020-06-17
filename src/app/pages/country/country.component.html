@@ -10,15 +10,16 @@
 
     <app-species-list [filterValues]="filterValues"></app-species-list>
 
-    <app-chart-wrapper01>
+    <app-chart-wrapper02>
         <div header>Number of primary farmed types entered into the Registry</div>
         <div body><app-country-chart01 *ngIf="filterValues.length" [filterValues]="filterValues"></app-country-chart01></div>
-    </app-chart-wrapper01>
+    </app-chart-wrapper02>
 
-    <app-chart-wrapper01>
+    c:{{isChart02collapsed}}
+    <app-chart-wrapper02 [(isCollapsed)]="isChart02collapsed">
         <div header>Top 10 developed species (by number of farmed types)</div>
         <div body><app-country-chart02 *ngIf="filterValues.length" [filterValues]="filterValues"></app-country-chart02></div>
-    </app-chart-wrapper01>
+    </app-chart-wrapper02>
 
 </div>
 
