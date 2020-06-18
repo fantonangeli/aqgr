@@ -1,8 +1,8 @@
 <div class="row">
     <div class="col-12">
-        <a href="javascript:" class="font-weight-bold h5 text-left" (click)="toggleCollapse(isCollapsed)" [attr.aria-expanded]="!isCollapsed" aria-controls="collapseBasic">
-            <i class="material-icons md-18 align-bottom mr-1" *ngIf="!isCollapsed">unfold_more</i>
-            <i class="material-icons md-18 align-bottom mr-1" *ngIf="isCollapsed">unfold_less</i>
+        <a href="javascript:" class="font-weight-bold h5 text-left" (click)="toggleCollapse(isOpen)" [attr.aria-expanded]="isOpen" aria-controls="collapseBasic">
+            <i class="material-icons md-18 align-bottom mr-1" *ngIf="isOpen">unfold_more</i>
+            <i class="material-icons md-18 align-bottom mr-1" *ngIf="!isOpen">unfold_less</i>
             <ng-content select="[header]"></ng-content>
         </a>
     </div>
@@ -21,7 +21,7 @@
 <div class="row">
     <div class="col-12">
 
-        <div id="collapseBasic" [collapse]="isCollapsed" [isAnimated]="true">
+        <div id="collapseBasic" [collapse]="!isOpen" [isAnimated]="true">
             <ng-content select="[body]"></ng-content>
         </div>
 
