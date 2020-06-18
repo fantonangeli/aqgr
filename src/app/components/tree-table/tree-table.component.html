@@ -25,7 +25,7 @@
     <table class="fao-expandtable table table-striped table-bordered">
         <thead>
             <tr>
-                <th class="align-top" *ngFor="let colname of columns; let i = index" [ngClass]="'index-'+i" class="col">{{colname}}</th>
+                <th class="align-top" *ngFor="let colname of columns; let i = index" [ngClass]="'index-'+i" scope="col">{{colname}}</th>
             </tr>
         </thead>
         <tbody>

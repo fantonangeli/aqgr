@@ -65,7 +65,7 @@ export class TreeTableComponent implements OnChanges {
      */
     getToggleIcon(element:any=[]):string{
 
-        if(!element.children) return "";
+        if(!element.children || !element.children.length) return "";
 
         if(!element.toggle) return "+";
 

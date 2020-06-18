@@ -15,7 +15,7 @@ import {LoggerService} from '../../services/logger.service';
   styleUrls: ['./country.component.scss']
 })
 export class CountryComponent implements OnInit {
-    isChart02collapsed:boolean=true;
+    isChart03open=true;
     ccode:string;
     filterValues: Filter[]=[];
 

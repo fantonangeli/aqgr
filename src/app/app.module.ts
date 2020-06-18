@@ -54,7 +54,8 @@ import { PoliciesChart04Component } from './components/charts/policies-chart04/p
 import { PoliciesChart05Component } from './components/charts/policies-chart05/policies-chart05.component';
 import { PoliciesChart06Component } from './components/charts/policies-chart06/policies-chart06.component';
 import { SpeciesListComponent } from './components/country/species-list/species-list.component';
-import { ChartWrapper02Component } from './components/charts/chart-wrapper02/chart-wrapper02.component';
+import { Accordion01Component } from './components/accordion01/accordion01.component';
+import { CountryTable01Component } from './components/country/country-table01/country-table01.component';
 
 @NgModule({
   declarations: [
@@ -100,7 +101,8 @@ import { ChartWrapper02Component } from './components/charts/chart-wrapper02/cha
     PoliciesChart05Component,
     PoliciesChart06Component,
     SpeciesListComponent,
-    ChartWrapper02Component,
+    Accordion01Component,
+    CountryTable01Component,
   ],
   imports: [
     BrowserModule,
