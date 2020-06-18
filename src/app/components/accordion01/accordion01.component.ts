@@ -1,12 +1,12 @@
 import { Component, OnInit, Input, Output, EventEmitter, ContentChild, TemplateRef  } from '@angular/core';
-import { Filter } from '../../../components/search/namespace';
+import { Filter } from '../../components/search/namespace';
 
 @Component({
-  selector: 'app-chart-wrapper02',
-  templateUrl: './chart-wrapper02.component.html',
-  styleUrls: ['./chart-wrapper02.component.scss']
+  selector: 'app-accordion01',
+  templateUrl: './accordion01.component.html',
+  styleUrls: ['./accordion01.component.scss']
 })
-export class ChartWrapper02Component {
+export class Accordion01Component {
     @Input() isOpen:boolean = false;
     @Output() isOpenChange = new EventEmitter<boolean>();
 
