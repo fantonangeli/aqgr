@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, OnChanges } from '@angular/core';
+import { Component, OnInit, Input, Output, OnChanges, EventEmitter } from '@angular/core';
 import {ViewEncapsulation} from '@angular/core';
 import { CountryGroupsSpeciesService } from '../../../services/country/country-groups-species.service';
 import { Filter} from '../../search/namespace';
@@ -15,6 +15,7 @@ export class SpeciesListComponent implements OnChanges {
     @Input() filterValues: Filter[]=[];
     totalProd:number;
     speciesData:object[]=[];
+    @Output() onTaxonomyClickEvent: EventEmitter<string> = new EventEmitter<string>();
 
 
     constructor(private _service: CountryGroupsSpeciesService, private _utilsService:UtilsService, private _logger:LoggerService){
@@ -47,6 +48,5 @@ export class SpeciesListComponent implements OnChanges {
     ngOnChanges() {
         this.fetchStats(this._utilsService.getSearchServiceParamsFromFilterValues(this.filterValues));
     }
-
 
 }

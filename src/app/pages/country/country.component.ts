@@ -15,7 +15,7 @@ import {LoggerService} from '../../services/logger.service';
   styleUrls: ['./country.component.scss']
 })
 export class CountryComponent implements OnInit {
-    isChart03open=true;
+    isAccordion03open:boolean=false;
     ccode:string;
     filterValues: Filter[]=[];
 
@@ -25,7 +25,7 @@ export class CountryComponent implements OnInit {
 
     /**
      * fetch the data and load them
-     * @param {string} ccode
+     * @param {string} ccode country code
      *
      */
     fetchInfo(ccode:string) {
@@ -45,6 +45,19 @@ export class CountryComponent implements OnInit {
             }
         );
 
+    }
+
+    /**
+     * event fired on taxonomy click inside speciesList
+     *
+     * @param {string} (optional) taxonomy taxonomy name, not used for now
+     */
+    public speciesList_onTaxonomyClick(taxonomy?:string){
+        this.isAccordion03open=true;
+        
+        setTimeout(()=>{
+            document.querySelector("app-country-table01").scrollIntoView();
+        }, 100);
     }
 
     ngOnInit(){
