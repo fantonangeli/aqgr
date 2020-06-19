@@ -82,7 +82,7 @@
                                 <h6 class="">
                                     Proportion of secondary farmed types entered
                                 </h6>
-                                <app-countries-chart02 [selectedTaxonomy]="taxonomy" [selectedSpecie]="specie" [selectedFtype]="ftype" ></app-countries-chart02>
+                                <app-countries-chart02 [filterValues]="filterValues" height="200"></app-countries-chart02>
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@
                             Number of species (based on reports by country) contained in the Registry
                         </h6>
                         <div class="col-sm-12 col-md-12 p-0">
-                            <app-countries-chart03></app-countries-chart03>
+                            <app-countries-chart03 [filterValues]="filterValues"></app-countries-chart03>
                         </div>
                     </div>
                 </div>

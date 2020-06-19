@@ -1,27 +1,20 @@
-import { Component, OnChanges, Input } from '@angular/core';
-import {SFtypesService} from '../../../services/sftypes.service';
-import {Pie01Component} from '../pie01/pie01.component';
-import { Filter} from '../../../components/search/namespace';
-import {SearchServiceParams, ChartDataFormat} from '../../../namespace';
+import { Component, Input, OnChanges } from '@angular/core';
 import {LoggerService} from '../../../services/logger.service';
-import {BaseChart01Component} from '../base-chart01/base-chart01.component';
 import {UtilsService} from '../../../services/utils.service'
+import {BaseChart01Component} from '../base-chart01/base-chart01.component';
+import {StackedColumns01Component} from '../stacked-columns01/stacked-columns01.component';
+import {SFtypesService} from '../../../services/sftypes.service';
+import {ChartDataFormat} from '../../../namespace';
 
 @Component({
   selector: 'app-countries-chart02',
   template: `
-    <app-pie01 [series]="series" [legendEnabled]="false" [enableDataLabels]="true" *ngIf="series.length" [height]="200"></app-pie01>
+    <app-pie01 [series]="series" [legendEnabled]="false" [enableDataLabels]="true" *ngIf="series.length" [height]="height"></app-pie01>
   `,
   styles: []
 })
 export class CountriesChart02Component extends BaseChart01Component implements OnChanges {
     dataFormat=ChartDataFormat.keyval;
-
-
-    @Input() selectedTaxonomy:Filter;
-    @Input() selectedSpecie:Filter;
-    @Input() selectedFtype:Filter;
-
 
     constructor(_service:SFtypesService, _utilsService:UtilsService, _logger:LoggerService) {
         super(_service, _utilsService, _logger);
@@ -29,12 +22,6 @@ export class CountriesChart02Component extends BaseChart01Component implements O
 
 
     ngOnChanges(){
-        let params=new SearchServiceParams();
-        params.taxonomy=(this.selectedTaxonomy)?this.selectedTaxonomy.value:"";
-        params.specie=(this.selectedSpecie)?this.selectedSpecie.value:"";
-        params.ftype=(this.selectedFtype)?this.selectedFtype.value:"";
-
-        this.fetchData(params);
+        super.ngOnChanges();
     }
-
 }
