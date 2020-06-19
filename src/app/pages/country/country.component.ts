@@ -15,6 +15,8 @@ import {LoggerService} from '../../services/logger.service';
   styleUrls: ['./country.component.scss']
 })
 export class CountryComponent implements OnInit {
+    isAccordion01open:boolean=false;
+    isAccordion02open:boolean=false;
     isAccordion03open:boolean=false;
     ccode:string;
     filterValues: Filter[]=[];
