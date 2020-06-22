@@ -3,8 +3,8 @@
         <div class="col-sm-12">
             <div class="csc-default">
                 <div class="csc-header csc-header-n1">
-                    <h1 class="csc-firstHeader" *ngIf="!countryName"> Conservation and sustainable use of AqGR (P3) </h1>
-                    <h1 class="csc-firstHeader" *ngIf="countryName"> Conservation and sustainable use of AqGR for: {{countryName}} (P3) </h1>
+                    <h1 class="csc-firstHeader" *ngIf="!countryName"> Conservation and sustainable use of AqGR</h1>
+                    <h1 class="csc-firstHeader" *ngIf="countryName"> Conservation and sustainable use of AqGR for: {{countryName}}</h1>
                 </div>
             </div>
         </div>
@@ -52,6 +52,7 @@ This page summarises information contained in the Registry relating to the risks
 
                 <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Top 10 non-native species by production</div>
+                    <!-- TODO: use the global chart04  -->
                     <div body><app-use-chart04 [filterValues]="filterValues"></app-use-chart04></div>
                 </app-chart-wrapper01>
 
