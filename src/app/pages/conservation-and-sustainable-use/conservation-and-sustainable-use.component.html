@@ -42,9 +42,9 @@ This page summarises information contained in the Registry relating to the risks
                     <div body><app-use-chart02 [filterValues]="filterValues"></app-use-chart02></div>
                 </app-chart-wrapper01>
 
-                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                <app-chart-wrapper01 [filterValues]="filterValues" *ngIf="!selectedSpecie" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>The proportion (%) of aquaculture production that comes from non-native species by region of countries</div>
-                    <div body><app-use-chart03 [filterValues]="filterValues"></app-use-chart03></div>
+                    <div body><app-use-chart03 [filterValues]="filterValues" *ngIf="!selectedSpecie"></app-use-chart03></div>
                 </app-chart-wrapper01>
 
                 <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
