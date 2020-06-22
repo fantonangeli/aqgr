@@ -58,9 +58,9 @@ This page summarises information contained in the Registry relating to the risks
                     <div body><app-use-chart05 [filterValues]="filterValues"></app-use-chart05></div>
                 </app-chart-wrapper01>
 
-                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                <app-chart-wrapper01 [filterValues]="filterValues" *ngIf="!selectedSpecie" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Number of species whose introduction represents a risk</div>
-                    <div body><app-use-chart06 [filterValues]="filterValues"></app-use-chart06></div>
+                    <div body><app-use-chart06 [filterValues]="filterValues" *ngIf="!selectedSpecie"></app-use-chart06></div>
                 </app-chart-wrapper01>
 
                 <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
