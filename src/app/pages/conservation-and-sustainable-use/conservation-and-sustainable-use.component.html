@@ -3,8 +3,8 @@
         <div class="col-sm-12">
             <div class="csc-default">
                 <div class="csc-header csc-header-n1">
-                    <h1 class="csc-firstHeader" *ngIf="!countryName"> Conservation and sustainable use of AqGR (P3) </h1>
-                    <h1 class="csc-firstHeader" *ngIf="countryName"> Conservation and sustainable use of AqGR for: {{countryName}} (P3) </h1>
+                    <h1 class="csc-firstHeader" *ngIf="!countryName"> Conservation and sustainable use of AqGR</h1>
+                    <h1 class="csc-firstHeader" *ngIf="countryName"> Conservation and sustainable use of AqGR for: {{countryName}}</h1>
                 </div>
             </div>
         </div>
@@ -19,9 +19,6 @@ This page summarises information contained in the Registry relating to the risks
     <br>
     <br>
     <div class="row">
-        <div class="col-sm-12 col-md-3">
-            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Filters:</h1></div></div>
-        </div>
         <div class="col-sm-12 col-md-9">
             <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader"></h1></div></div>
         </div>
@@ -45,13 +42,14 @@ This page summarises information contained in the Registry relating to the risks
                     <div body><app-use-chart02 [filterValues]="filterValues"></app-use-chart02></div>
                 </app-chart-wrapper01>
 
-                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                <app-chart-wrapper01 [filterValues]="filterValues" *ngIf="!selectedSpecie" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>The proportion (%) of aquaculture production that comes from non-native species by region of countries</div>
-                    <div body><app-use-chart03 [filterValues]="filterValues"></app-use-chart03></div>
+                    <div body><app-use-chart03 [filterValues]="filterValues" *ngIf="!selectedSpecie"></app-use-chart03></div>
                 </app-chart-wrapper01>
 
                 <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Top 10 non-native species by production</div>
+                    <!-- TODO: use the global chart04  -->
                     <div body><app-use-chart04 [filterValues]="filterValues"></app-use-chart04></div>
                 </app-chart-wrapper01>
 
@@ -60,9 +58,9 @@ This page summarises information contained in the Registry relating to the risks
                     <div body><app-use-chart05 [filterValues]="filterValues"></app-use-chart05></div>
                 </app-chart-wrapper01>
 
-                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                <app-chart-wrapper01 [filterValues]="filterValues" *ngIf="!selectedSpecie" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Number of species whose introduction represents a risk</div>
-                    <div body><app-use-chart06 [filterValues]="filterValues"></app-use-chart06></div>
+                    <div body><app-use-chart06 [filterValues]="filterValues" *ngIf="!selectedSpecie"></app-use-chart06></div>
                 </app-chart-wrapper01>
 
                 <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">

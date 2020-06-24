@@ -7,6 +7,7 @@ import {UtilsService} from '../../../services/utils.service'
 export class BaseChart01Component {
     series=[];
     @Input() filterValues:Filter[]=[];
+    @Input() height:number;
 
 
     /**

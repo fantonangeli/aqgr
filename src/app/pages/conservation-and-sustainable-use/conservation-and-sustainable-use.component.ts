@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnChanges } from '@angular/core';
 import { DynamicHTMLModule, DynamicHTMLComponent } from '../../core/components/dynamic-html';
 import { Filter, ResultSearchEvent} from '../../components/search/namespace';
 import {UtilsService} from '../../services/utils.service';
@@ -9,7 +9,8 @@ import {BasePage01Component} from '../base-page01/base-page01.component';
   templateUrl: './conservation-and-sustainable-use.component.html',
   styleUrls: ['./conservation-and-sustainable-use.component.scss']
 })
-export class ConservationAndSustainableUseComponent extends BasePage01Component  {
+export class ConservationAndSustainableUseComponent extends BasePage01Component {
+    selectedSpecie:Filter;
     countryName:string;
 
     constructor(_utilsService:UtilsService){
@@ -26,6 +27,8 @@ export class ConservationAndSustainableUseComponent extends BasePage01Component 
     searchAggregation(event: Filter[]) {
         if(event[0].key==="countries") this.countryName=event[0].value;
 
+        this.selectedSpecie=this.getFilterValueByKey('species', event);
+
         return super.searchAggregation(event);
     }
 
@@ -40,6 +43,8 @@ export class ConservationAndSustainableUseComponent extends BasePage01Component 
      */
     removeFilterByKeyVal(filters:Filter[], key:string, value:string):Filter[]{
         if(key==="countries") this.countryName=null;
+
+        if(key==="species") this.selectedSpecie=null;
 
         return super.removeFilterByKeyVal(filters, key, value);
     }

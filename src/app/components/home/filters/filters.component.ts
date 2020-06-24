@@ -57,13 +57,13 @@ export class FiltersComponent implements OnChanges {
   ) {
 
       this.aggregations=[
-          new AggregationInput("continents","By continents"),
-          new AggregationInput( "regions", "By regions", "continents"),
-          new AggregationInput( "countries", "By countries", "regions"),
-          new AggregationInput( "taxonomies", "By taxonomies"),
-          new AggregationInput( "species", "By species", "taxonomies"),
-          new AggregationInput( "ftypes", "By primary farmed type"),
-          new AggregationInput( "sftypes", "By secondary farmed type"),
+          new AggregationInput("continents","Continents"),
+          new AggregationInput( "regions", "Regions", "continents"),
+          new AggregationInput( "countries", "Countries", "regions"),
+          new AggregationInput( "taxonomies", "Taxonomies"),
+          new AggregationInput( "species", "Species", "taxonomies"),
+          new AggregationInput( "ftypes", "Primary farmed type"),
+          new AggregationInput( "sftypes", "Secondary farmed type"),
       ];
 
 

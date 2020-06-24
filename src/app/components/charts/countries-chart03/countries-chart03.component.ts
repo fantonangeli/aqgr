@@ -2,10 +2,9 @@ import { Component, Input, OnChanges } from '@angular/core';
 import {LoggerService} from '../../../services/logger.service';
 import {UtilsService} from '../../../services/utils.service'
 import {BaseChart01Component} from '../base-chart01/base-chart01.component';
-import {TaxonomiesService} from '../../../services/taxonomies.service';
 import {StackedBars01Component} from '../stacked-bars01/stacked-bars01.component';
-import {SearchServiceParams, ChartDataFormat} from '../../../namespace';
-import { Filter} from '../../../components/search/namespace';
+import {TaxonomiesService} from '../../../services/taxonomies.service';
+import {ChartDataFormat} from '../../../namespace';
 
 @Component({
   selector: 'app-countries-chart03',
@@ -17,10 +16,10 @@ export class CountriesChart03Component extends BaseChart01Component implements O
 
     constructor(_service:TaxonomiesService, _utilsService:UtilsService, _logger:LoggerService) {
         super(_service, _utilsService, _logger);
-        super.fetchData();
     }
+
 
     ngOnChanges(){
+        super.ngOnChanges();
     }
-
 }
