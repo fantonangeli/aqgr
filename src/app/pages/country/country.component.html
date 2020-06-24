@@ -17,7 +17,7 @@
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="isAccordion02open">
-        <div header>Top 10 developed species (by number of farmed types)</div>
+        <div header>Top 10 species for which farmed types are developed</div>
         <div body><app-country-chart02 *ngIf="isAccordion02open" [filterValues]="filterValues"></app-country-chart02></div>
     </app-accordion01>
 
