@@ -12,7 +12,7 @@
     <app-species-list [filterValues]="filterValues" *ngIf="filterValues.length" (onTaxonomyClickEvent)="speciesList_onTaxonomyClick($event)"></app-species-list>
 
     <app-accordion01 [(isOpen)]="isAccordion01open">
-        <div header>Number of primary farmed types entered into the Registry</div>
+        <div header>Number of primary farmed types</div>
         <div body><app-country-chart01 *ngIf="isAccordion01open" [filterValues]="filterValues"></app-country-chart01></div>
     </app-accordion01>
 
