@@ -54,7 +54,7 @@ This page summarises information contained in the Registry relating to the risks
 
                 <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Risk status of species reported as cultured by countries</div>
-                    <div body><app-use-chart05 [filterValues]="filterValues"></app-use-chart05></div>
+                    <div body><app-common-chart09 [filterValues]="filterValues"></app-common-chart09></div>
                 </app-chart-wrapper01>
 
                 <app-chart-wrapper01 [filterValues]="filterValues" *ngIf="!selectedSpecie" (resetFilterCriteriaEvent)="removeFilter($event)">

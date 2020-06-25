@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UseChart05Component } from './use-chart05.component';
+import { CommonChart05Component } from './common-chart05.component';
 
-describe('UseChart05Component', () => {
-  let component: UseChart05Component;
-  let fixture: ComponentFixture<UseChart05Component>;
+describe('CommonChart05Component', () => {
+  let component: CommonChart05Component;
+  let fixture: ComponentFixture<CommonChart05Component>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ UseChart05Component ]
+      declarations: [ CommonChart05Component ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(UseChart05Component);
+    fixture = TestBed.createComponent(CommonChart05Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

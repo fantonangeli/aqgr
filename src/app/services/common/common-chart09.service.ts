@@ -12,7 +12,7 @@ import { AggregationItem} from '../../components/search/namespace';
 @Injectable({
   providedIn: 'root'
 })
-export class UseChart04Service extends BaseService{
+export class CommonChart09Service extends BaseService{
     constructor(http: HttpClient, logger: LoggerService, utilsService:UtilsService) {
         super(http, logger, utilsService);
     }
@@ -24,8 +24,8 @@ export class UseChart04Service extends BaseService{
      */
     getAll(ssp:SearchServiceParams):Observable<AggregationItem[]>{
         return this._getAll(
-            "UseChart04Service",
-            environment.services.use.chart04, 
+            "CommonChart05Service",
+            environment.services.common.chart09, 
             ssp
         );
     }

@@ -36,7 +36,7 @@ import { UseChart03Component } from './components/charts/use-chart03/use-chart03
 import { CommonChart04Component } from './components/charts/common-chart04/common-chart04.component';
 import { StackedColumns01Component } from './components/charts/stacked-columns01/stacked-columns01.component';
 import { Columns01Component } from './components/charts/columns01/columns01.component';
-import { UseChart05Component } from './components/charts/use-chart05/use-chart05.component';
+import { CommonChart09Component } from './components/charts/common-chart09/common-chart09.component';
 import { UseChart06Component } from './components/charts/use-chart06/use-chart06.component';
 import { UseChart07Component } from './components/charts/use-chart07/use-chart07.component';
 import { UseChart10Component } from './components/charts/use-chart10/use-chart10.component';
@@ -56,6 +56,7 @@ import { PoliciesChart06Component } from './components/charts/policies-chart06/p
 import { SpeciesListComponent } from './components/country/species-list/species-list.component';
 import { Accordion01Component } from './components/accordion01/accordion01.component';
 import { CountryTable01Component } from './components/country/country-table01/country-table01.component';
+import { CountryChart01Component } from './components/charts/country-chart01/country-chart01.component';
 
 @NgModule({
   declarations: [
@@ -83,7 +84,7 @@ import { CountryTable01Component } from './components/country/country-table01/co
     CommonChart04Component,
     StackedColumns01Component,
     Columns01Component,
-    UseChart05Component,
+    CommonChart09Component,
     UseChart06Component,
     UseChart07Component,
     UseChart10Component,
@@ -103,6 +104,7 @@ import { CountryTable01Component } from './components/country/country-table01/co
     SpeciesListComponent,
     Accordion01Component,
     CountryTable01Component,
+    CountryChart01Component,
   ],
   imports: [
     BrowserModule,

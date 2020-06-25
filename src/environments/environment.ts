@@ -3,6 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 const baseUrl="http://localhost:3000/";
+const dataPath="assets/data/";
+const commonPath=dataPath+"common/";
 
 export const environment = {
     production: false,
@@ -70,8 +72,6 @@ export const environment = {
             chart01:"assets/data/use/chart01.json",
             chart02:"assets/data/use/chart02.json",
             chart03:"assets/data/use/chart03.json",
-            chart04:"assets/data/use/chart04.json",
-            chart05:"assets/data/use/chart05.json",
             chart06:"assets/data/use/chart06.json",
             chart07:"assets/data/use/chart07.json",
             chart08:"assets/data/use/chart08.json",
@@ -88,6 +88,10 @@ export const environment = {
             chart04:"assets/data/policies/chart04.json",
             chart05:"assets/data/policies/chart05.json",
             chart06:"assets/data/policies/chart06.json",
+        },
+        common:{
+            chart04:commonPath+"chart04.json",
+            chart08:commonPath+"chart09.json",
         }
     }
 
