@@ -49,8 +49,7 @@ This page summarises information contained in the Registry relating to the risks
 
                 <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Top 10 non-native species by production</div>
-                    <!-- TODO: use the global chart04  -->
-                    <div body><app-use-chart04 [filterValues]="filterValues"></app-use-chart04></div>
+                    <div body><app-common-chart04 [filterValues]="filterValues"></app-common-chart04></div>
                 </app-chart-wrapper01>
 
                 <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">

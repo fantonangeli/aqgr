@@ -33,7 +33,7 @@ import { WorldComponent } from './pages/world/world.component';
 import { CommonChart05Component } from './components/charts/common-chart05/common-chart05.component';
 import { UseChart02Component } from './components/charts/use-chart02/use-chart02.component';
 import { UseChart03Component } from './components/charts/use-chart03/use-chart03.component';
-import { UseChart04Component } from './components/charts/use-chart04/use-chart04.component';
+import { CommonChart04Component } from './components/charts/common-chart04/common-chart04.component';
 import { StackedColumns01Component } from './components/charts/stacked-columns01/stacked-columns01.component';
 import { Columns01Component } from './components/charts/columns01/columns01.component';
 import { UseChart05Component } from './components/charts/use-chart05/use-chart05.component';
@@ -80,7 +80,7 @@ import { CountryTable01Component } from './components/country/country-table01/co
     CommonChart05Component,
     UseChart02Component,
     UseChart03Component,
-    UseChart04Component,
+    CommonChart04Component,
     StackedColumns01Component,
     Columns01Component,
     UseChart05Component,
