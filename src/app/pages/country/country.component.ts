@@ -17,6 +17,7 @@ export class CountryComponent implements OnInit {
     isAccordion02open:boolean=false;
     isAccordion03open:boolean=false;
     isAccordion04open:boolean=false;
+    isAccordion05open:boolean=false;
     ccode:string;
     filterValues: Filter[]=[];
 
