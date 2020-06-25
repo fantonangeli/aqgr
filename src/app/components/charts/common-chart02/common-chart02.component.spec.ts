@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CountriesChart02Component } from './countries-chart02.component';
+import { CommonChart02Component } from './common-chart02.component';
 
-describe('CountriesChart02Component', () => {
-  let component: CountriesChart02Component;
-  let fixture: ComponentFixture<CountriesChart02Component>;
+describe('CommonChart02Component', () => {
+  let component: CommonChart02Component;
+  let fixture: ComponentFixture<CommonChart02Component>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CountriesChart02Component ]
+      declarations: [ CommonChart02Component ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CountriesChart02Component);
+    fixture = TestBed.createComponent(CommonChart02Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

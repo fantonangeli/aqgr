@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
 import * as Highcharts from 'highcharts';
-import { CountryChart01Component } from '../../components/charts/country-chart01/country-chart01.component';
-import { CountryChart02Component } from '../../components/charts/country-chart02/country-chart02.component';
 import {CountryInfoService} from '../../services/country/country-info.service';
 import { SpeciesListComponent } from '../../components/country/species-list/species-list.component';
 import { Filter} from '../../components/search/namespace';

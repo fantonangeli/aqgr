@@ -18,13 +18,13 @@ import { SpecFilterComponent } from './components/spec-filter/spec-filter.compon
 import { CountryComponent } from './pages/country/country.component';
 import { HomeComponent } from './pages/home/home.component';
 import { Pie01Component } from './components/charts/pie01/pie01.component';
-import { CountryChart01Component } from './components/charts/country-chart01/country-chart01.component';
-import { CountryChart02Component } from './components/charts/country-chart02/country-chart02.component';
+import { CommonChart12Component } from './components/charts/common-chart12/common-chart12.component';
+import { CommonChart13Component } from './components/charts/common-chart13/common-chart13.component';
 import { Bars01Component } from './components/charts/bars01/bars01.component';
-import { CountryChart03Component } from './components/charts/country-chart03/country-chart03.component';
-import { CountriesChart01Component } from './components/charts/countries-chart01/countries-chart01.component';
+import { CommonChart06Component } from './components/charts/common-chart06/common-chart06.component';
+import { CommonChart01Component } from './components/charts/common-chart01/common-chart01.component';
 import { StackedBars01Component } from './components/charts/stacked-bars01/stacked-bars01.component';
-import { CountriesChart02Component } from './components/charts/countries-chart02/countries-chart02.component';
+import { CommonChart02Component } from './components/charts/common-chart02/common-chart02.component';
 import { CountriesChart03Component } from './components/charts/countries-chart03/countries-chart03.component';
 import { FiltersComponent } from './components/home/filters/filters.component';
 import { TreeTableComponent } from './components/tree-table/tree-table.component';
@@ -65,13 +65,13 @@ import { CountryTable01Component } from './components/country/country-table01/co
     CountryComponent,
     HomeComponent,
     Pie01Component,
-    CountryChart01Component,
-    CountryChart02Component,
+    CommonChart01Component,
+    CommonChart02Component,
     Bars01Component,
-    CountryChart03Component,
-    CountriesChart01Component,
+    CommonChart06Component,
+    CommonChart12Component,
     StackedBars01Component,
-    CountriesChart02Component,
+    CommonChart13Component,
     CountriesChart03Component,
     FiltersComponent,
     TreeTableComponent,

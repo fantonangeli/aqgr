@@ -1,6 +1,6 @@
 import { Component, OnChanges, Input } from '@angular/core';
 import * as Highcharts from 'highcharts';
-import {CountryFTypeService} from '../../../services/country/country-ftype.service';
+import {CountryDevSpeciesService} from '../../../services/country/country-dev-species.service';
 import {StackedBars01Component} from '../stacked-bars01/stacked-bars01.component';
 import { Filter} from '../../../components/search/namespace';
 import {SearchServiceParams} from '../../../namespace';
@@ -9,14 +9,15 @@ import {BaseChart01Component} from '../base-chart01/base-chart01.component';
 import {UtilsService} from '../../../services/utils.service'
 
 @Component({
-  selector: 'app-country-chart01',
-  template:`
-        <app-stacked-bars01 [series]="series" *ngIf="series.length"></app-stacked-bars01>
+  selector: 'app-common-chart13',
+  template: `
+        <app-stacked-bars01 [series]="series" *ngIf="series.length" xAxisTitle="Total number of farmed types reported by species" fontStyleItalic="true"></app-stacked-bars01>
     `,
   styleUrls: []
 })
-export class CountryChart01Component extends BaseChart01Component implements OnChanges {
-    constructor(_service:CountryFTypeService, _utilsService:UtilsService, _logger:LoggerService) {
+export class CommonChart13Component extends BaseChart01Component implements OnChanges {
+
+    constructor(_service:CountryDevSpeciesService, _utilsService:UtilsService, _logger:LoggerService) {
         super(_service, _utilsService, _logger);
     }
 
@@ -26,3 +27,4 @@ export class CountryChart01Component extends BaseChart01Component implements OnC
 
 
 }
+

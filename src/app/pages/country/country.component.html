@@ -13,17 +13,17 @@
 
     <app-accordion01 [(isOpen)]="isAccordion01open">
         <div header>Number of primary farmed types</div>
-        <div body><app-country-chart01 *ngIf="isAccordion01open" [filterValues]="filterValues"></app-country-chart01></div>
+        <div body><app-common-chart12 *ngIf="isAccordion01open" [filterValues]="filterValues"></app-common-chart12></div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="isAccordion02open">
         <div header>Top 10 species for which farmed types are developed</div>
-        <div body><app-country-chart02 *ngIf="isAccordion02open" [filterValues]="filterValues"></app-country-chart02></div>
+        <div body><app-common-chart13 *ngIf="isAccordion02open" [filterValues]="filterValues"></app-common-chart13></div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="isAccordion04open">
         <div header>Total number of primary farmed types</div>
-        <div body> <app-countries-chart01 [filterValues]="filterValues" *ngIf="isAccordion04open"></app-countries-chart01> </div>
+        <div body> <app-common-chart01 [filterValues]="filterValues" *ngIf="isAccordion04open"></app-common-chart01> </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="isAccordion03open">
