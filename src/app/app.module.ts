@@ -30,7 +30,7 @@ import { FiltersComponent } from './components/home/filters/filters.component';
 import { TreeTableComponent } from './components/tree-table/tree-table.component';
 import { ConservationAndSustainableUseComponent } from './pages/conservation-and-sustainable-use/conservation-and-sustainable-use.component';
 import { WorldComponent } from './pages/world/world.component';
-import { UseChart01Component } from './components/charts/use-chart01/use-chart01.component';
+import { CommonChart05Component } from './components/charts/common-chart05/common-chart05.component';
 import { UseChart02Component } from './components/charts/use-chart02/use-chart02.component';
 import { UseChart03Component } from './components/charts/use-chart03/use-chart03.component';
 import { UseChart04Component } from './components/charts/use-chart04/use-chart04.component';
@@ -77,7 +77,7 @@ import { CountryTable01Component } from './components/country/country-table01/co
     TreeTableComponent,
     ConservationAndSustainableUseComponent,
     WorldComponent,
-    UseChart01Component,
+    CommonChart05Component,
     UseChart02Component,
     UseChart03Component,
     UseChart04Component,

@@ -7,13 +7,13 @@ import {UseChart01Service} from '../../../services/use/use-chart01.service';
 import {ChartDataFormat} from '../../../namespace';
 
 @Component({
-  selector: 'app-use-chart01',
+  selector: 'app-common-chart05',
   template: `
     <app-pie01 [series]="series" [legendEnabled]="false" [enableDataLabels]="true" *ngIf="series.length" [height]="300"></app-pie01>
   `,
   styles: []
 })
-export class UseChart01Component extends BaseChart01Component implements OnChanges {
+export class CommonChart05Component extends BaseChart01Component implements OnChanges {
     dataFormat=ChartDataFormat.keyval;
 
     constructor(_service:UseChart01Service, _utilsService:UtilsService, _logger:LoggerService) {

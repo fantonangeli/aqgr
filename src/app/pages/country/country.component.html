@@ -31,6 +31,11 @@
         <div body> <app-common-chart02 [filterValues]="filterValues" *ngIf="isAccordion05open"></app-common-chart02> </div>
     </app-accordion01>
 
+    <app-accordion01 [(isOpen)]="isAccordion06open">
+        <div header>Production of farmed types</div>
+        <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="isAccordion06open"></app-common-chart06> </div>
+    </app-accordion01>
+
     <app-accordion01 [(isOpen)]="isAccordion03open">
         <div header>Monitoring, characterising and developing AqGR</div>
         <div body> <app-country-table01 [filterValues]="filterValues" *ngIf="isAccordion03open"></app-country-table01> </div>
