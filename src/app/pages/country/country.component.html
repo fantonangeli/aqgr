@@ -36,6 +36,11 @@
         <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="isAccordion06open"></app-common-chart06> </div>
     </app-accordion01>
 
+    <app-accordion01 [(isOpen)]="isAccordion07open">
+        <div header>Prevalence of non-native species</div>
+        <div body> <app-common-chart05 [filterValues]="filterValues" *ngIf="isAccordion07open"></app-common-chart05> </div>
+    </app-accordion01>
+
     <app-accordion01 [(isOpen)]="isAccordion03open">
         <div header>Monitoring, characterising and developing AqGR</div>
         <div body> <app-country-table01 [filterValues]="filterValues" *ngIf="isAccordion03open"></app-country-table01> </div>
