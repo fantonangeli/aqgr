@@ -69,7 +69,6 @@ export const environment = {
             species: "assets/data/countries/species.json",
         },
         use:{
-            chart01:"assets/data/use/chart01.json",
             chart02:"assets/data/use/chart02.json",
             chart03:"assets/data/use/chart03.json",
             chart06:"assets/data/use/chart06.json",
@@ -91,7 +90,8 @@ export const environment = {
         },
         common:{
             chart04:commonPath+"chart04.json",
-            chart08:commonPath+"chart09.json",
+            chart05:commonPath+"chart05.json",
+            chart09:commonPath+"chart09.json",
         }
     }
 
