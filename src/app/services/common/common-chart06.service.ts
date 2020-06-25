@@ -11,7 +11,7 @@ import {BaseService} from '../base.service';
 @Injectable({
   providedIn: 'root'
 })
-export class CountryChart03Service extends BaseService{
+export class CommonChart06Service extends BaseService{
     constructor(http: HttpClient, logger: LoggerService, utilsService:UtilsService) {
         super(http, logger, utilsService);
     }
@@ -23,8 +23,8 @@ export class CountryChart03Service extends BaseService{
      */
     getAll(ssp:SearchServiceParams):Observable<Object[]>{
         return this._getAll(
-            "CountryChart03Service",
-            environment.services.country.chart03, 
+            "CommonChart06Service",
+            environment.services.common.chart06, 
             ssp
         );
     }
