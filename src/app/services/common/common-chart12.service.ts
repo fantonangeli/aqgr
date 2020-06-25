@@ -11,7 +11,7 @@ import {BaseService} from '../base.service';
 @Injectable({
   providedIn: 'root'
 })
-export class CountryFTypeService extends BaseService{
+export class CommonChart12Service extends BaseService{
     constructor(http: HttpClient, logger: LoggerService, utilsService:UtilsService) {
         super(http, logger, utilsService);
     }
@@ -23,8 +23,8 @@ export class CountryFTypeService extends BaseService{
      */
     getAll(ssp:SearchServiceParams):Observable<Object[]>{
         return this._getAll(
-            "CountryFTypeService",
-            environment.services.country.ftype, 
+            "Common12Service",
+            environment.services.common.chart12, 
             ssp
         );
     }

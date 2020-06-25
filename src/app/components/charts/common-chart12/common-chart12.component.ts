@@ -1,6 +1,6 @@
 import { Component, OnChanges, Input } from '@angular/core';
 import * as Highcharts from 'highcharts';
-import {CountryFTypeService} from '../../../services/country/country-ftype.service';
+import {CommonChart12Service} from '../../../services/common/common-chart12.service';
 import {StackedBars01Component} from '../stacked-bars01/stacked-bars01.component';
 import { Filter} from '../../../components/search/namespace';
 import {SearchServiceParams} from '../../../namespace';
@@ -16,7 +16,7 @@ import {UtilsService} from '../../../services/utils.service'
   styleUrls: []
 })
 export class CommonChart12Component extends BaseChart01Component implements OnChanges {
-    constructor(_service:CountryFTypeService, _utilsService:UtilsService, _logger:LoggerService) {
+    constructor(_service:CommonChart12Service, _utilsService:UtilsService, _logger:LoggerService) {
         super(_service, _utilsService, _logger);
     }
 
