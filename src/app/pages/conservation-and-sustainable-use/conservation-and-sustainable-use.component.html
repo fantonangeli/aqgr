@@ -33,7 +33,7 @@ This page summarises information contained in the Registry relating to the risks
             <div class="container mw-100 p-0" *ngIf="reloadCharts">
                 <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Proportion of farmed native and non-native species reported by countries</div>
-                    <div body><app-use-chart01 [filterValues]="filterValues"></app-use-chart01></div>
+                    <div body><app-common-chart05 [filterValues]="filterValues"></app-common-chart05></div>
                 </app-chart-wrapper01>
 
 
@@ -49,13 +49,12 @@ This page summarises information contained in the Registry relating to the risks
 
                 <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Top 10 non-native species by production</div>
-                    <!-- TODO: use the global chart04  -->
-                    <div body><app-use-chart04 [filterValues]="filterValues"></app-use-chart04></div>
+                    <div body><app-common-chart04 [filterValues]="filterValues"></app-common-chart04></div>
                 </app-chart-wrapper01>
 
                 <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Risk status of species reported as cultured by countries</div>
-                    <div body><app-use-chart05 [filterValues]="filterValues"></app-use-chart05></div>
+                    <div body><app-common-chart09 [filterValues]="filterValues"></app-common-chart09></div>
                 </app-chart-wrapper01>
 
                 <app-chart-wrapper01 [filterValues]="filterValues" *ngIf="!selectedSpecie" (resetFilterCriteriaEvent)="removeFilter($event)">

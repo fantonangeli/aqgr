@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { CommonChart09Service } from './common-chart09.service';
+import { Common13Service } from './common-chart13.service';
 
-describe('CommonChart09Service', () => {
+describe('Common13Service', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: CommonChart09Service = TestBed.get(CommonChart09Service);
+    const service: Common13Service = TestBed.get(Common13Service);
     expect(service).toBeTruthy();
   });
 });

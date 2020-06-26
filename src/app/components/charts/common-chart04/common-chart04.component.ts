@@ -2,21 +2,21 @@ import { Component, Input, OnChanges } from '@angular/core';
 import {LoggerService} from '../../../services/logger.service';
 import {UtilsService} from '../../../services/utils.service'
 import {BaseChart01Component} from '../base-chart01/base-chart01.component';
-import {Pie01Component} from '../pie01/pie01.component';
-import {CountryChart01Service} from '../../../services/country/country-chart01.service';
+import {Bars01Component} from '../bars01/bars01.component';
+import {CommonChart04Service} from '../../../services/common/common-chart04.service';
 import {ChartDataFormat} from '../../../namespace';
 
 @Component({
-  selector: 'app-country-chart01',
+  selector: 'app-common-chart04',
   template: `
-    <app-pie01 [series]="series" [legendEnabled]="false" [enableDataLabels]="true" *ngIf="series.length" [height]="300"></app-pie01>
+    <app-bars01 [series]="series" [legendEnabled]="false" *ngIf="series.length" [height]="300" fontStyleItalic="true"></app-bars01>
   `,
   styles: []
 })
-export class CountryChart01Component extends BaseChart01Component implements OnChanges {
+export class CommonChart04Component extends BaseChart01Component implements OnChanges {
     dataFormat=ChartDataFormat.keyval;
 
-    constructor(_service:CountryChart01Service, _utilsService:UtilsService, _logger:LoggerService) {
+    constructor(_service:CommonChart04Service, _utilsService:UtilsService, _logger:LoggerService) {
         super(_service, _utilsService, _logger);
     }
 

@@ -1,12 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
 import * as Highcharts from 'highcharts';
-import { CountryChart01Component } from '../../components/charts/country-chart01/country-chart01.component';
-import { CountryChart02Component } from '../../components/charts/country-chart02/country-chart02.component';
 import {CountryInfoService} from '../../services/country/country-info.service';
 import { SpeciesListComponent } from '../../components/country/species-list/species-list.component';
 import { Filter} from '../../components/search/namespace';
 import {LoggerService} from '../../services/logger.service';
+import { environment } from '../../../environments/environment';
 
 
 @Component({
@@ -15,10 +14,16 @@ import {LoggerService} from '../../services/logger.service';
   styleUrls: ['./country.component.scss']
 })
 export class CountryComponent implements OnInit {
-    isAccordion01open:boolean=false;
-    isAccordion02open:boolean=false;
-    isAccordion03open:boolean=false;
-    isAccordion04open:boolean=false;
+    initialAccordionsIsOpen:boolean=!environment.production;
+    isAccordion01open:boolean=this.initialAccordionsIsOpen;
+    isAccordion02open:boolean=this.initialAccordionsIsOpen;
+    isAccordion03open:boolean=this.initialAccordionsIsOpen;
+    isAccordion04open:boolean=this.initialAccordionsIsOpen;
+    isAccordion05open:boolean=this.initialAccordionsIsOpen;
+    isAccordion06open:boolean=this.initialAccordionsIsOpen;
+    isAccordion07open:boolean=this.initialAccordionsIsOpen;
+    isAccordion08open:boolean=this.initialAccordionsIsOpen;
+    isAccordion09open:boolean=this.initialAccordionsIsOpen;
     ccode:string;
     filterValues: Filter[]=[];
 
