@@ -23,6 +23,7 @@ export class CountryComponent implements OnInit {
     isAccordion06open:boolean=this.initialAccordionsIsOpen;
     isAccordion07open:boolean=this.initialAccordionsIsOpen;
     isAccordion08open:boolean=this.initialAccordionsIsOpen;
+    isAccordion09open:boolean=this.initialAccordionsIsOpen;
     ccode:string;
     filterValues: Filter[]=[];
 
