@@ -54,7 +54,6 @@ export const environment = {
             groupsSpecies:countryPath+"groups-species.json",
             info:baseUrl+"countryInfo?",
             species: countryPath+"species.json?ccode=",
-            sFtype: countryPath+"sftype.json?ccode=",
             chart01:countryPath+"chart01.json",
         },
         countries:{
