@@ -1,4 +1,10 @@
 const baseUrl="https://aqgr-demo-rest.herokuapp.com/";
+const dataPath="assets/data/";
+const commonPath=dataPath+"common/";
+const countryPath=dataPath+"country/";
+const countriesPath=dataPath+"countries/";
+const policiesPath=dataPath+"policies/";
+const usePath=dataPath+"use/";
 
 export const environment = {
     production: true,
@@ -6,9 +12,9 @@ export const environment = {
 
     services:{
         fishStatCultSpecCountries: {
-            all:"assets/data/FishStatSpecCountries.json",
-            bySpecies:"../assets/data/FishStatSpecCountries.ASFISCode-MSM.json?species=",
-            byFtype:"../assets/data/FishStatSpecCountries.ASFISCode-MSM.json?species="
+            all:dataPath+"FishStatSpecCountries.json",
+            bySpecies:dataPath+"FishStatSpecCountries.ASFISCode-MSM.json?species=",
+            byFtype:dataPath+"FishStatSpecCountries.ASFISCode-MSM.json?species="
         },
         params: {
             continent:"continent_like", 
@@ -45,45 +51,48 @@ export const environment = {
             all:baseUrl+"continents"
         },
         country:{
-            groupsSpecies:"assets/data/country/groups-species.json",
+            groupsSpecies:countryPath+"groups-species.json",
             info:baseUrl+"countryInfo?",
-            species: "assets/data/country/species.json?ccode=",
-            ftype: "assets/data/country/ftype.json?ccode=",
-            sFtype: "assets/data/country/sftype.json?ccode=",
-            devSpecies: "assets/data/country/devspecies.json?ccode=",
-            chart03:"assets/data/country/chart03.json",
+            species: countryPath+"species.json?ccode=",
+            sFtype: countryPath+"sftype.json?ccode=",
+            chart01:countryPath+"chart01.json",
         },
         countries:{
             all:baseUrl+"countries",
             limit: 10,
-            ftype: "assets/data/countries/ftype.json",
-            ftypeBySpecies: "assets/data/countries/ftype-filtered.json?specie=",
-            sFtype: "assets/data/countries/sftype.json",
-            sFtypeBySpecies: "assets/data/countries/sftype-filtered.json?ftype=",
-            species: "assets/data/countries/species.json",
+            ftype: countriesPath+"ftype.json",
+            ftypeBySpecies: countriesPath+"ftype-filtered.json?specie=",
+            sFtype: countriesPath+"sftype.json",
+            sFtypeBySpecies: countriesPath+"sftype-filtered.json?ftype=",
+            species: countriesPath+"species.json",
         },
         use:{
-            chart01:"assets/data/use/chart01.json",
-            chart02:"assets/data/use/chart02.json",
-            chart03:"assets/data/use/chart03.json",
-            chart04:"assets/data/use/chart04.json",
-            chart05:"assets/data/use/chart05.json",
-            chart06:"assets/data/use/chart06.json",
-            chart07:"assets/data/use/chart07.json",
-            chart08:"assets/data/use/chart08.json",
-            chart09:"assets/data/use/chart09.json",
-            chart10:"assets/data/use/chart10.json",
-            chart11:"assets/data/use/chart11.json",
-            chart12:"assets/data/use/chart12.json",
-            chart13:"assets/data/use/chart13.json",
+            chart02:usePath+"chart02.json",
+            chart03:usePath+"chart03.json",
+            chart06:usePath+"chart06.json",
+            chart07:usePath+"chart07.json",
+            chart08:usePath+"chart08.json",
+            chart09:usePath+"chart09.json",
+            chart10:usePath+"chart10.json",
+            chart11:usePath+"chart11.json",
+            chart12:usePath+"chart12.json",
+            chart13:usePath+"chart13.json",
         },
         policies:{
-            chart01:"assets/data/policies/chart01.json",
-            chart02:"assets/data/policies/chart02.json",
-            chart03:"assets/data/policies/chart03.json",
-            chart04:"assets/data/policies/chart04.json",
-            chart05:"assets/data/policies/chart05.json",
-            chart06:"assets/data/policies/chart06.json",
+            chart01:policiesPath+"chart01.json",
+            chart02:policiesPath+"chart02.json",
+            chart03:policiesPath+"chart03.json",
+            chart04:policiesPath+"chart04.json",
+            chart05:policiesPath+"chart05.json",
+            chart06:policiesPath+"chart06.json",
+        },
+        common:{
+            chart04:commonPath+"chart04.json",
+            chart05:commonPath+"chart05.json",
+            chart06:commonPath+"chart06.json",
+            chart09:commonPath+"chart09.json",
+            chart12:commonPath+"chart12.json",
+            chart13:commonPath+"chart13.json",
         }
     }
 
