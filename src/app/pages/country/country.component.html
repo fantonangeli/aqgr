@@ -47,8 +47,13 @@
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="isAccordion09open">
-        <div header>Prevalence of non-native species</div>
+        <div header>Number and effectiveness of Aquatic Protected Areas</div>
         <div body> <app-country-chart01 [filterValues]="filterValues" *ngIf="isAccordion09open"></app-country-chart01> </div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="isAccordion10open">
+        <div header>Number of in vivo and in vitro gene banks</div>
+        <div body> <app-country-chart02 [filterValues]="filterValues" *ngIf="isAccordion10open"></app-country-chart02> </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="isAccordion03open">
