@@ -4,7 +4,9 @@
   "scripts": {
     "ng": "ng",
     "ng:serve": "ng serve",
+    "ng:serveprod": "ng serve --prod",
     "start": "concurrently 'npm run jsonserver'  'npm run ng:serve'",
+    "startprod": "concurrently 'npm run jsonserver'  'npm run ng:serveprod'",
     "jsonserver": "json-server --watch ./rest/db.js",
     "build": "ng build",
     "test": "ng test",
