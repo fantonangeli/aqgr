@@ -1,0 +1,18 @@
+[
+  {
+    "key": "Effective",
+    "value": 75
+  },
+  {
+    "key": "Somewhat",
+    "value": 30
+  },
+  {
+    "key": "Not effective",
+    "value": 25
+  },
+  {
+    "key": "Unknown",
+    "value": 10
+  }
+]
