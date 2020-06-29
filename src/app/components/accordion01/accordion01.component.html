@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row mb-4">
     <div class="col-12">
         <a href="javascript:" class="font-weight-bold h5 text-left" (click)="toggleCollapse(isOpen)" [attr.aria-expanded]="isOpen" aria-controls="collapseBasic">
             <i class="material-icons md-18 align-bottom mr-1" *ngIf="isOpen">unfold_more</i>
@@ -8,10 +8,10 @@
     </div>
 </div>
 
-<div class="row mb-5">
+<div class="row" *ngIf="filterValues && filterValues.length > 0">
 
-    <div class="col-sm-12 col-md-12 pl-0">
-        <div class="mb-4" *ngIf="filterValues && filterValues.length > 0">
+    <div class="col-sm-12 col-md-12">
+        <div class="mb-4">
             <app-search-pill [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
             </app-search-pill>                
         </div>
