@@ -37,7 +37,6 @@ export class Columns01Component extends BaseChartRender01Component {
             },
             plotOptions: {
                 series: {
-                    stacking: "normal",
                     events: {
                         legendItemClick: function () {
                             return false;
@@ -45,9 +44,7 @@ export class Columns01Component extends BaseChartRender01Component {
                     }
                 }
             },
-            series: [{
-                data: this.series[0]["data"]
-            }],
+            series: this.series,
         };
 
         super.showChart();

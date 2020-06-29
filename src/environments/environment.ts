@@ -13,6 +13,7 @@ const usePath=dataPath+"use/";
 export const environment = {
     production: false,
     logging:true,
+    defaultAccordionIsOpenValue:false,
 
     services:{
         fishStatCultSpecCountries: {
@@ -57,9 +58,8 @@ export const environment = {
         country:{
             groupsSpecies:countryPath+"groups-species.json",
             info:baseUrl+"countryInfo?",
-            species: countryPath+"species.json?ccode=",
-            sFtype: countryPath+"sftype.json?ccode=",
             chart01:countryPath+"chart01.json",
+            chart02:countryPath+"chart02.json",
         },
         countries:{
             all:baseUrl+"countries",
