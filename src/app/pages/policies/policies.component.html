@@ -11,30 +11,37 @@
         <div class="col-sm-12 col-md-9">
 
             <div class="container mw-100 p-0" *ngIf="reloadCharts">
-                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+
+                <app-accordion01 [(isOpen)]="isAccordion01open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header> Number of species under control measure </div>
-                    <div body><app-policies-chart01 [filterValues]="filterValues"></app-policies-chart01></div>
-                </app-chart-wrapper01>
-                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                    <div body><app-policies-chart01 *ngIf="isAccordion01open" [filterValues]="filterValues"></app-policies-chart01></div>
+                </app-accordion01>
+
+                <app-accordion01 [(isOpen)]="isAccordion02open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header> Number of species under control measure </div>
-                    <div body><app-policies-chart02 [filterValues]="filterValues"></app-policies-chart02></div>
-                </app-chart-wrapper01>
-                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                    <div body><app-policies-chart02 *ngIf="isAccordion02open" [filterValues]="filterValues"></app-policies-chart02></div>
+                </app-accordion01>
+
+                <app-accordion01 [(isOpen)]="isAccordion03open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header> Proportion of areas addressed by policies </div>
-                    <div body><app-policies-chart03 [filterValues]="filterValues"></app-policies-chart03></div>
-                </app-chart-wrapper01>
-                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                    <div body><app-policies-chart03 *ngIf="isAccordion03open" [filterValues]="filterValues"></app-policies-chart03></div>
+                </app-accordion01>
+
+                <app-accordion01 [(isOpen)]="isAccordion04open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header> Proportion of reasearch areas addressed by institutions </div>
-                    <div body><app-policies-chart04 [filterValues]="filterValues"></app-policies-chart04></div>
-                </app-chart-wrapper01>
-                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                    <div body><app-policies-chart04 *ngIf="isAccordion04open" [filterValues]="filterValues"></app-policies-chart04></div>
+                </app-accordion01>
+
+                <app-accordion01 [(isOpen)]="isAccordion05open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header> Proportion of education areas addressed by institutions </div>
-                    <div body><app-policies-chart05 [filterValues]="filterValues"></app-policies-chart05></div>
-                </app-chart-wrapper01>
-                <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                    <div body><app-policies-chart05 *ngIf="isAccordion05open" [filterValues]="filterValues"></app-policies-chart05></div>
+                </app-accordion01>
+
+                <app-accordion01 [(isOpen)]="isAccordion06open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header> Proportion of educational institutions offering training at different levels </div>
-                    <div body><app-policies-chart06 [filterValues]="filterValues"></app-policies-chart06></div>
-                </app-chart-wrapper01>
+                    <div body><app-policies-chart06 *ngIf="isAccordion06open" [filterValues]="filterValues"></app-policies-chart06></div>
+                </app-accordion01>
+
             </div>
         </div>
     </div>
