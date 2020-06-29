@@ -58,6 +58,7 @@ import { Accordion01Component } from './components/accordion01/accordion01.compo
 import { CountryTable01Component } from './components/country/country-table01/country-table01.component';
 import { CountryChart01Component } from './components/charts/country-chart01/country-chart01.component';
 import { CountryChart02Component } from './components/charts/country-chart02/country-chart02.component';
+import { CountryChart03Component } from './components/charts/country-chart03/country-chart03.component';
 
 @NgModule({
   declarations: [
@@ -107,6 +108,7 @@ import { CountryChart02Component } from './components/charts/country-chart02/cou
     CountryTable01Component,
     CountryChart01Component,
     CountryChart02Component,
+    CountryChart03Component,
   ],
   imports: [
     BrowserModule,

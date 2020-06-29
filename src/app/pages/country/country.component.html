@@ -56,7 +56,33 @@
         <div body> <app-country-chart02 [filterValues]="filterValues" *ngIf="isAccordion10open"></app-country-chart02> </div>
     </app-accordion01>
 
-    <app-accordion01 [(isOpen)]="isAccordion03open">
+
+    <app-accordion01 [(isOpen)]="isAccordion11open">
+        <div header>Number of control measures applied</div>
+        <div body><app-country-chart03 [filterValues]="filterValues" *ngIf="isAccordion11open"></app-country-chart03></div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="isAccordion12open">
+        <div header>Number of policies affecting AqGR</div>
+        <div body></div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="isAccordion13open">
+        <div header>Number of institutions supporting R&D on aquatic genetic resources</div>
+        <div body></div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="isAccordion14open">
+        <div header>Proportion of education areas addressed by insitutions</div>
+        <div body></div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="isAccordion15open">
+        <div header>Proportion of educational institutions offering training at different levels</div>
+        <div body></div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="isAccordion16open">
         <div header>Monitoring, characterising and developing AqGR</div>
         <div body> <app-country-table01 [filterValues]="filterValues" *ngIf="isAccordion03open"></app-country-table01> </div>
     </app-accordion01>
