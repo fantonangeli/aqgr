@@ -1,25 +1,18 @@
-[{
-        "name": "Captive propagated",
-        "data": [{
-            "y": 32
-        }]
-    },
-    {
-        "name": "Wild Sourced",
-        "data": [{
-            "y": 10
-        }]
-    },
-    {
-        "name": "Strains",
-        "data": [{
-            "y": 9
-        }]
-    },
-    {
-        "name": "Varieties",
-        "data": [{
-            "y": 7
-        }]
-    }
+[
+  {
+    "key": "Captive propagated",
+    "value": 32
+  },
+  {
+    "key": "Wild Sourced",
+    "value": 10
+  },
+  {
+    "key": "Strains",
+    "value": 9
+  },
+  {
+    "key": "Varieties",
+    "value": 7
+  }
 ]
