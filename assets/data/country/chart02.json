@@ -1,0 +1,92 @@
+[
+  {
+    "key": "No of species with live gene banks by country",
+    "values": [
+      {
+        "key": "Marine finfish ",
+        "value": 12
+      },
+      {
+        "key": "Euryhaline finfish",
+        "value": 5
+      },
+      {
+        "key": "Freshwater Finfish",
+        "value": 8
+      },
+      {
+        "key": "Molluscs",
+        "value": 12
+      },
+      {
+        "key": "Crustaceans",
+        "value": 9
+      },
+      {
+        "key": "Freshwater Aquatic Macrophytes",
+        "value": 5
+      },
+      {
+        "key": "Seaweeds",
+        "value": 11
+      },
+      {
+        "key": "Microalgae",
+        "value": 10
+      },
+      {
+        "key": "Misc. aquatic animals",
+        "value": 5
+      },
+      {
+        "key": "Misc. aquatic products",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "key": "No of species with in vitro gene banks",
+    "values": [
+      {
+        "key": "Marine finfish ",
+        "value": 16
+      },
+      {
+        "key": "Euryhaline finfish",
+        "value": 4
+      },
+      {
+        "key": "Freshwater Finfish",
+        "value": 11
+      },
+      {
+        "key": "Molluscs",
+        "value": 14
+      },
+      {
+        "key": "Crustaceans",
+        "value": 11
+      },
+      {
+        "key": "Freshwater Aquatic Macrophytes",
+        "value": 7
+      },
+      {
+        "key": "Seaweeds",
+        "value": 6
+      },
+      {
+        "key": "Microalgae",
+        "value": 6
+      },
+      {
+        "key": "Misc. aquatic animals",
+        "value": 4
+      },
+      {
+        "key": "Misc. aquatic products",
+        "value": 8
+      }
+    ]
+  }
+]
