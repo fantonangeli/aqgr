@@ -12,8 +12,8 @@ import { environment } from '../../../environments/environment';
 })
 export class PoliciesComponent extends BasePage01Component  {
     countryName:string;
-    initialAccordionsIsOpen:boolean=!environment.production;
-    isAccordion01open:boolean=this.initialAccordionsIsOpen;
+    initialAccordionsIsOpen:boolean=environment.defaultAccordionIsOpenValue;
+    isAccordion01open:boolean=true;
     isAccordion02open:boolean=this.initialAccordionsIsOpen;
     isAccordion03open:boolean=this.initialAccordionsIsOpen;
     isAccordion04open:boolean=this.initialAccordionsIsOpen;

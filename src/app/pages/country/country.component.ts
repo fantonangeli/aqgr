@@ -14,7 +14,7 @@ import { environment } from '../../../environments/environment';
   styleUrls: ['./country.component.scss']
 })
 export class CountryComponent implements OnInit {
-    initialAccordionsIsOpen:boolean=!environment.production;
+    initialAccordionsIsOpen:boolean=environment.defaultAccordionIsOpenValue;
     isAccordion01open:boolean=this.initialAccordionsIsOpen;
     isAccordion02open:boolean=this.initialAccordionsIsOpen;
     isAccordion03open:boolean=this.initialAccordionsIsOpen;

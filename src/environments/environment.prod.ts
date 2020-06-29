@@ -9,6 +9,7 @@ const usePath=dataPath+"use/";
 export const environment = {
     production: true,
     logging:true,
+    defaultAccordionIsOpenValue:false,
 
     services:{
         fishStatCultSpecCountries: {
