@@ -72,7 +72,7 @@
 
     <app-accordion01 [(isOpen)]="isAccordion14open">
         <div header>Proportion of education areas addressed by insitutions</div>
-        <div body></div>
+        <div body> <app-common-chart14 [filterValues]="filterValues" *ngIf="isAccordion14open"></app-common-chart14> </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="isAccordion15open">
