@@ -55,7 +55,6 @@
         <div body> <app-country-chart02 [filterValues]="filterValues" *ngIf="isAccordion10open"></app-country-chart02> </div>
     </app-accordion01>
 
-
     <app-accordion01 [(isOpen)]="isAccordion11open">
         <div header>Number of control measures applied</div>
         <div body><app-country-chart03 [filterValues]="filterValues" *ngIf="isAccordion11open"></app-country-chart03></div>
@@ -68,7 +67,7 @@
 
     <app-accordion01 [(isOpen)]="isAccordion13open">
         <div header>Number of institutions supporting R&D on aquatic genetic resources</div>
-        <div body></div>
+        <div body><app-country-chart05 [filterValues]="filterValues" *ngIf="isAccordion13open"></app-country-chart05></div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="isAccordion14open">

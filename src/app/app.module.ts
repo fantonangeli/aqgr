@@ -60,6 +60,7 @@ import { CountryChart01Component } from './components/charts/country-chart01/cou
 import { CountryChart02Component } from './components/charts/country-chart02/country-chart02.component';
 import { CountryChart03Component } from './components/charts/country-chart03/country-chart03.component';
 import { CountryChart04Component } from './components/charts/country-chart04/country-chart04.component';
+import { CountryChart05Component } from './components/charts/country-chart05/country-chart05.component';
 
 @NgModule({
   declarations: [
@@ -111,6 +112,7 @@ import { CountryChart04Component } from './components/charts/country-chart04/cou
     CountryChart02Component,
     CountryChart03Component,
     CountryChart04Component,
+    CountryChart05Component,
   ],
   imports: [
     BrowserModule,
