@@ -34,7 +34,9 @@ export class CountryComponent implements OnInit {
     ccode:string;
     filterValues: Filter[]=[];
 
-    countryName:string=""
+    countryName:string="";
+    lastUpdate:string="";
+    defaultDateFormat:string=environment.defaultDateFormat;
 
     constructor(private route: ActivatedRoute, private _countryInfoService:CountryInfoService, private _logger:LoggerService) { }
 
@@ -49,6 +51,7 @@ export class CountryComponent implements OnInit {
                 let countryFilter=new Filter();
 
                 this.countryName=data[0].name;
+                this.lastUpdate=data[0].lastUpdate;
 
                 countryFilter.key="countries";
                 countryFilter.value=this.countryName;

@@ -9,7 +9,12 @@ const usePath=dataPath+"use/";
 export const environment = {
     production: true,
     logging:true,
-    defaultAccordionIsOpenValue:false,
+    defaultAccordionIsOpenValue:true,
+
+    /**
+     * default date format used to format dates 
+     */
+    defaultDateFormat:"dd/MM/yyyy",
 
     services:{
         fishStatCultSpecCountries: {
