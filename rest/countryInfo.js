@@ -1,998 +1,1247 @@
 module.exports=[
   {
     "name": "Afghanistan",
-    "ccode": "AFG"
+    "ccode": "AFG",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Åland Islands",
-    "ccode": "ALA"
+    "ccode": "ALA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Albania",
-    "ccode": "ALB"
+    "ccode": "ALB",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Algeria",
-    "ccode": "DZA"
+    "ccode": "DZA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "American Samoa",
-    "ccode": "ASM"
+    "ccode": "ASM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Andorra",
-    "ccode": "AND"
+    "ccode": "AND",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Angola",
-    "ccode": "AGO"
+    "ccode": "AGO",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Anguilla",
-    "ccode": "AIA"
+    "ccode": "AIA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Antarctica",
-    "ccode": "ATA"
+    "ccode": "ATA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Antigua and Barbuda",
-    "ccode": "ATG"
+    "ccode": "ATG",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Argentina",
-    "ccode": "ARG"
+    "ccode": "ARG",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Armenia",
-    "ccode": "ARM"
+    "ccode": "ARM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Aruba",
-    "ccode": "ABW"
+    "ccode": "ABW",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Australia",
-    "ccode": "AUS"
+    "ccode": "AUS",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Austria",
-    "ccode": "AUT"
+    "ccode": "AUT",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Azerbaijan",
-    "ccode": "AZE"
+    "ccode": "AZE",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Bahamas",
-    "ccode": "BHS"
+    "ccode": "BHS",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Bahrain",
-    "ccode": "BHR"
+    "ccode": "BHR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Bangladesh",
-    "ccode": "BGD"
+    "ccode": "BGD",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Barbados",
-    "ccode": "BRB"
+    "ccode": "BRB",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Belarus",
-    "ccode": "BLR"
+    "ccode": "BLR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Belgium",
-    "ccode": "BEL"
+    "ccode": "BEL",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Belize",
-    "ccode": "BLZ"
+    "ccode": "BLZ",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Benin",
-    "ccode": "BEN"
+    "ccode": "BEN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Bermuda",
-    "ccode": "BMU"
+    "ccode": "BMU",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Bhutan",
-    "ccode": "BTN"
+    "ccode": "BTN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Bolivia (Plurinational State of)",
-    "ccode": "BOL"
+    "ccode": "BOL",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Bonaire, Sint Eustatius and Saba",
-    "ccode": "BES"
+    "ccode": "BES",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Bosnia and Herzegovina",
-    "ccode": "BIH"
+    "ccode": "BIH",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Botswana",
-    "ccode": "BWA"
+    "ccode": "BWA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Bouvet Island",
-    "ccode": "BVT"
+    "ccode": "BVT",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Brazil",
-    "ccode": "BRA"
+    "ccode": "BRA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "British Indian Ocean Territory",
-    "ccode": "IOT"
+    "ccode": "IOT",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Brunei Darussalam",
-    "ccode": "BRN"
+    "ccode": "BRN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Bulgaria",
-    "ccode": "BGR"
+    "ccode": "BGR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Burkina Faso",
-    "ccode": "BFA"
+    "ccode": "BFA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Burundi",
-    "ccode": "BDI"
+    "ccode": "BDI",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Cabo Verde",
-    "ccode": "CPV"
+    "ccode": "CPV",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Cambodia",
-    "ccode": "KHM"
+    "ccode": "KHM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Cameroon",
-    "ccode": "CMR"
+    "ccode": "CMR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Canada",
-    "ccode": "CAN"
+    "ccode": "CAN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Cayman Islands",
-    "ccode": "CYM"
+    "ccode": "CYM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Central African Republic",
-    "ccode": "CAF"
+    "ccode": "CAF",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Chad",
-    "ccode": "TCD"
+    "ccode": "TCD",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Chile",
-    "ccode": "CHL"
+    "ccode": "CHL",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "China",
-    "ccode": "CHN"
+    "ccode": "CHN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Christmas Island",
-    "ccode": "CXR"
+    "ccode": "CXR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Cocos (Keeling) Islands",
-    "ccode": "CCK"
+    "ccode": "CCK",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Colombia",
-    "ccode": "COL"
+    "ccode": "COL",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Comoros",
-    "ccode": "COM"
+    "ccode": "COM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Congo",
-    "ccode": "COG"
+    "ccode": "COG",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Congo, Democratic Republic of the",
-    "ccode": "COD"
+    "ccode": "COD",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Cook Islands",
-    "ccode": "COK"
+    "ccode": "COK",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Costa Rica",
-    "ccode": "CRI"
+    "ccode": "CRI",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Côte d'Ivoire",
-    "ccode": "CIV"
+    "ccode": "CIV",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Croatia",
-    "ccode": "HRV"
+    "ccode": "HRV",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Cuba",
-    "ccode": "CUB"
+    "ccode": "CUB",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Curaçao",
-    "ccode": "CUW"
+    "ccode": "CUW",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Cyprus",
-    "ccode": "CYP"
+    "ccode": "CYP",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Czechia",
-    "ccode": "CZE"
+    "ccode": "CZE",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Denmark",
-    "ccode": "DNK"
+    "ccode": "DNK",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Djibouti",
-    "ccode": "DJI"
+    "ccode": "DJI",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Dominica",
-    "ccode": "DMA"
+    "ccode": "DMA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Dominican Republic",
-    "ccode": "DOM"
+    "ccode": "DOM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Ecuador",
-    "ccode": "ECU"
+    "ccode": "ECU",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Egypt",
-    "ccode": "EGY"
+    "ccode": "EGY",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "El Salvador",
-    "ccode": "SLV"
+    "ccode": "SLV",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Equatorial Guinea",
-    "ccode": "GNQ"
+    "ccode": "GNQ",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Eritrea",
-    "ccode": "ERI"
+    "ccode": "ERI",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Estonia",
-    "ccode": "EST"
+    "ccode": "EST",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Eswatini",
-    "ccode": "SWZ"
+    "ccode": "SWZ",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Ethiopia",
-    "ccode": "ETH"
+    "ccode": "ETH",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Falkland Islands (Malvinas)",
-    "ccode": "FLK"
+    "ccode": "FLK",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Faroe Islands",
-    "ccode": "FRO"
+    "ccode": "FRO",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Fiji",
-    "ccode": "FJI"
+    "ccode": "FJI",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Finland",
-    "ccode": "FIN"
+    "ccode": "FIN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "France",
-    "ccode": "FRA"
+    "ccode": "FRA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "French Guiana",
-    "ccode": "GUF"
+    "ccode": "GUF",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "French Polynesia",
-    "ccode": "PYF"
+    "ccode": "PYF",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "French Southern Territories",
-    "ccode": "ATF"
+    "ccode": "ATF",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Gabon",
-    "ccode": "GAB"
+    "ccode": "GAB",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Gambia",
-    "ccode": "GMB"
+    "ccode": "GMB",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Georgia",
-    "ccode": "GEO"
+    "ccode": "GEO",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Germany",
-    "ccode": "DEU"
+    "ccode": "DEU",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Ghana",
-    "ccode": "GHA"
+    "ccode": "GHA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Gibraltar",
-    "ccode": "GIB"
+    "ccode": "GIB",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Greece",
-    "ccode": "GRC"
+    "ccode": "GRC",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Greenland",
-    "ccode": "GRL"
+    "ccode": "GRL",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Grenada",
-    "ccode": "GRD"
+    "ccode": "GRD",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Guadeloupe",
-    "ccode": "GLP"
+    "ccode": "GLP",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Guam",
-    "ccode": "GUM"
+    "ccode": "GUM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Guatemala",
-    "ccode": "GTM"
+    "ccode": "GTM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Guernsey",
-    "ccode": "GGY"
+    "ccode": "GGY",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Guinea",
-    "ccode": "GIN"
+    "ccode": "GIN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Guinea-Bissau",
-    "ccode": "GNB"
+    "ccode": "GNB",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Guyana",
-    "ccode": "GUY"
+    "ccode": "GUY",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Haiti",
-    "ccode": "HTI"
+    "ccode": "HTI",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Heard Island and McDonald Islands",
-    "ccode": "HMD"
+    "ccode": "HMD",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Holy See",
-    "ccode": "VAT"
+    "ccode": "VAT",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Honduras",
-    "ccode": "HND"
+    "ccode": "HND",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Hong Kong",
-    "ccode": "HKG"
+    "ccode": "HKG",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Hungary",
-    "ccode": "HUN"
+    "ccode": "HUN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Iceland",
-    "ccode": "ISL"
+    "ccode": "ISL",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "India",
-    "ccode": "IND"
+    "ccode": "IND",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Indonesia",
-    "ccode": "IDN"
+    "ccode": "IDN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Iran (Islamic Republic of)",
-    "ccode": "IRN"
+    "ccode": "IRN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Iraq",
-    "ccode": "IRQ"
+    "ccode": "IRQ",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Ireland",
-    "ccode": "IRL"
+    "ccode": "IRL",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Isle of Man",
-    "ccode": "IMN"
+    "ccode": "IMN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Israel",
-    "ccode": "ISR"
+    "ccode": "ISR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Italy",
-    "ccode": "ITA"
+    "ccode": "ITA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Jamaica",
-    "ccode": "JAM"
+    "ccode": "JAM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Japan",
-    "ccode": "JPN"
+    "ccode": "JPN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Jersey",
-    "ccode": "JEY"
+    "ccode": "JEY",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Jordan",
-    "ccode": "JOR"
+    "ccode": "JOR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Kazakhstan",
-    "ccode": "KAZ"
+    "ccode": "KAZ",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Kenya",
-    "ccode": "KEN"
+    "ccode": "KEN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Kiribati",
-    "ccode": "KIR"
+    "ccode": "KIR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Korea (Democratic People's Republic of)",
-    "ccode": "PRK"
+    "ccode": "PRK",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Korea, Republic of",
-    "ccode": "KOR"
+    "ccode": "KOR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Kuwait",
-    "ccode": "KWT"
+    "ccode": "KWT",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Kyrgyzstan",
-    "ccode": "KGZ"
+    "ccode": "KGZ",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Lao People's Democratic Republic",
-    "ccode": "LAO"
+    "ccode": "LAO",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Latvia",
-    "ccode": "LVA"
+    "ccode": "LVA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Lebanon",
-    "ccode": "LBN"
+    "ccode": "LBN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Lesotho",
-    "ccode": "LSO"
+    "ccode": "LSO",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Liberia",
-    "ccode": "LBR"
+    "ccode": "LBR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Libya",
-    "ccode": "LBY"
+    "ccode": "LBY",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Liechtenstein",
-    "ccode": "LIE"
+    "ccode": "LIE",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Lithuania",
-    "ccode": "LTU"
+    "ccode": "LTU",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Luxembourg",
-    "ccode": "LUX"
+    "ccode": "LUX",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Macao",
-    "ccode": "MAC"
+    "ccode": "MAC",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Madagascar",
-    "ccode": "MDG"
+    "ccode": "MDG",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Malawi",
-    "ccode": "MWI"
+    "ccode": "MWI",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Malaysia",
-    "ccode": "MYS"
+    "ccode": "MYS",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Maldives",
-    "ccode": "MDV"
+    "ccode": "MDV",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Mali",
-    "ccode": "MLI"
+    "ccode": "MLI",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Malta",
-    "ccode": "MLT"
+    "ccode": "MLT",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Marshall Islands",
-    "ccode": "MHL"
+    "ccode": "MHL",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Martinique",
-    "ccode": "MTQ"
+    "ccode": "MTQ",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Mauritania",
-    "ccode": "MRT"
+    "ccode": "MRT",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Mauritius",
-    "ccode": "MUS"
+    "ccode": "MUS",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Mayotte",
-    "ccode": "MYT"
+    "ccode": "MYT",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Mexico",
-    "ccode": "MEX"
+    "ccode": "MEX",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Micronesia (Federated States of)",
-    "ccode": "FSM"
+    "ccode": "FSM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Moldova, Republic of",
-    "ccode": "MDA"
+    "ccode": "MDA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Monaco",
-    "ccode": "MCO"
+    "ccode": "MCO",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Mongolia",
-    "ccode": "MNG"
+    "ccode": "MNG",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Montenegro",
-    "ccode": "MNE"
+    "ccode": "MNE",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Montserrat",
-    "ccode": "MSR"
+    "ccode": "MSR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Morocco",
-    "ccode": "MAR"
+    "ccode": "MAR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Mozambique",
-    "ccode": "MOZ"
+    "ccode": "MOZ",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Myanmar",
-    "ccode": "MMR"
+    "ccode": "MMR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Namibia",
-    "ccode": "NAM"
+    "ccode": "NAM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Nauru",
-    "ccode": "NRU"
+    "ccode": "NRU",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Nepal",
-    "ccode": "NPL"
+    "ccode": "NPL",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Netherlands",
-    "ccode": "NLD"
+    "ccode": "NLD",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "New Caledonia",
-    "ccode": "NCL"
+    "ccode": "NCL",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "New Zealand",
-    "ccode": "NZL"
+    "ccode": "NZL",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Nicaragua",
-    "ccode": "NIC"
+    "ccode": "NIC",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Niger",
-    "ccode": "NER"
+    "ccode": "NER",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Nigeria",
-    "ccode": "NGA"
+    "ccode": "NGA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Niue",
-    "ccode": "NIU"
+    "ccode": "NIU",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Norfolk Island",
-    "ccode": "NFK"
+    "ccode": "NFK",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "North Macedonia",
-    "ccode": "MKD"
+    "ccode": "MKD",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Northern Mariana Islands",
-    "ccode": "MNP"
+    "ccode": "MNP",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Norway",
-    "ccode": "NOR"
+    "ccode": "NOR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Oman",
-    "ccode": "OMN"
+    "ccode": "OMN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Pakistan",
-    "ccode": "PAK"
+    "ccode": "PAK",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Palau",
-    "ccode": "PLW"
+    "ccode": "PLW",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Palestine, State of",
-    "ccode": "PSE"
+    "ccode": "PSE",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Panama",
-    "ccode": "PAN"
+    "ccode": "PAN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Papua New Guinea",
-    "ccode": "PNG"
+    "ccode": "PNG",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Paraguay",
-    "ccode": "PRY"
+    "ccode": "PRY",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Peru",
-    "ccode": "PER"
+    "ccode": "PER",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Philippines",
-    "ccode": "PHL"
+    "ccode": "PHL",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Pitcairn",
-    "ccode": "PCN"
+    "ccode": "PCN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Poland",
-    "ccode": "POL"
+    "ccode": "POL",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Portugal",
-    "ccode": "PRT"
+    "ccode": "PRT",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Puerto Rico",
-    "ccode": "PRI"
+    "ccode": "PRI",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Qatar",
-    "ccode": "QAT"
+    "ccode": "QAT",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Réunion",
-    "ccode": "REU"
+    "ccode": "REU",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Romania",
-    "ccode": "ROU"
+    "ccode": "ROU",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Russian Federation",
-    "ccode": "RUS"
+    "ccode": "RUS",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Rwanda",
-    "ccode": "RWA"
+    "ccode": "RWA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Saint Barthélemy",
-    "ccode": "BLM"
+    "ccode": "BLM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Saint Helena, Ascension and Tristan da Cunha",
-    "ccode": "SHN"
+    "ccode": "SHN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Saint Kitts and Nevis",
-    "ccode": "KNA"
+    "ccode": "KNA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Saint Lucia",
-    "ccode": "LCA"
+    "ccode": "LCA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Saint Martin (French part)",
-    "ccode": "MAF"
+    "ccode": "MAF",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Saint Pierre and Miquelon",
-    "ccode": "SPM"
+    "ccode": "SPM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Saint Vincent and the Grenadines",
-    "ccode": "VCT"
+    "ccode": "VCT",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Samoa",
-    "ccode": "WSM"
+    "ccode": "WSM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "San Marino",
-    "ccode": "SMR"
+    "ccode": "SMR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Sao Tome and Principe",
-    "ccode": "STP"
+    "ccode": "STP",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Saudi Arabia",
-    "ccode": "SAU"
+    "ccode": "SAU",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Senegal",
-    "ccode": "SEN"
+    "ccode": "SEN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Serbia",
-    "ccode": "SRB"
+    "ccode": "SRB",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Seychelles",
-    "ccode": "SYC"
+    "ccode": "SYC",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Sierra Leone",
-    "ccode": "SLE"
+    "ccode": "SLE",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Singapore",
-    "ccode": "SGP"
+    "ccode": "SGP",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Sint Maarten (Dutch part)",
-    "ccode": "SXM"
+    "ccode": "SXM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Slovakia",
-    "ccode": "SVK"
+    "ccode": "SVK",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Slovenia",
-    "ccode": "SVN"
+    "ccode": "SVN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Solomon Islands",
-    "ccode": "SLB"
+    "ccode": "SLB",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Somalia",
-    "ccode": "SOM"
+    "ccode": "SOM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "South Africa",
-    "ccode": "ZAF"
+    "ccode": "ZAF",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "South Georgia and the South Sandwich Islands",
-    "ccode": "SGS"
+    "ccode": "SGS",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "South Sudan",
-    "ccode": "SSD"
+    "ccode": "SSD",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Spain",
-    "ccode": "ESP"
+    "ccode": "ESP",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Sri Lanka",
-    "ccode": "LKA"
+    "ccode": "LKA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Sudan",
-    "ccode": "SDN"
+    "ccode": "SDN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Suriname",
-    "ccode": "SUR"
+    "ccode": "SUR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Svalbard and Jan Mayen",
-    "ccode": "SJM"
+    "ccode": "SJM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Sweden",
-    "ccode": "SWE"
+    "ccode": "SWE",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Switzerland",
-    "ccode": "CHE"
+    "ccode": "CHE",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Syrian Arab Republic",
-    "ccode": "SYR"
+    "ccode": "SYR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Taiwan, Province of China",
-    "ccode": "TWN"
+    "ccode": "TWN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Tajikistan",
-    "ccode": "TJK"
+    "ccode": "TJK",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Tanzania, United Republic of",
-    "ccode": "TZA"
+    "ccode": "TZA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Thailand",
-    "ccode": "THA"
+    "ccode": "THA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Timor-Leste",
-    "ccode": "TLS"
+    "ccode": "TLS",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Togo",
-    "ccode": "TGO"
+    "ccode": "TGO",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Tokelau",
-    "ccode": "TKL"
+    "ccode": "TKL",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Tonga",
-    "ccode": "TON"
+    "ccode": "TON",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Trinidad and Tobago",
-    "ccode": "TTO"
+    "ccode": "TTO",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Tunisia",
-    "ccode": "TUN"
+    "ccode": "TUN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Turkey",
-    "ccode": "TUR"
+    "ccode": "TUR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Turkmenistan",
-    "ccode": "TKM"
+    "ccode": "TKM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Turks and Caicos Islands",
-    "ccode": "TCA"
+    "ccode": "TCA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Tuvalu",
-    "ccode": "TUV"
+    "ccode": "TUV",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Uganda",
-    "ccode": "UGA"
+    "ccode": "UGA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Ukraine",
-    "ccode": "UKR"
+    "ccode": "UKR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "United Arab Emirates",
-    "ccode": "ARE"
+    "ccode": "ARE",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "United Kingdom of Great Britain and Northern Ireland",
-    "ccode": "GBR"
+    "ccode": "GBR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "United States of America",
-    "ccode": "USA"
+    "ccode": "USA",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "United States Minor Outlying Islands",
-    "ccode": "UMI"
+    "ccode": "UMI",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Uruguay",
-    "ccode": "URY"
+    "ccode": "URY",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Uzbekistan",
-    "ccode": "UZB"
+    "ccode": "UZB",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Vanuatu",
-    "ccode": "VUT"
+    "ccode": "VUT",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Venezuela (Bolivarian Republic of)",
-    "ccode": "VEN"
+    "ccode": "VEN",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Viet Nam",
-    "ccode": "VNM"
+    "ccode": "VNM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Virgin Islands (British)",
-    "ccode": "VGB"
+    "ccode": "VGB",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Virgin Islands (U.S.)",
-    "ccode": "VIR"
+    "ccode": "VIR",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Wallis and Futuna",
-    "ccode": "WLF"
+    "ccode": "WLF",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Western Sahara",
-    "ccode": "ESH"
+    "ccode": "ESH",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Yemen",
-    "ccode": "YEM"
+    "ccode": "YEM",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Zambia",
-    "ccode": "ZMB"
+    "ccode": "ZMB",
+    "lastUpdate":"2020-05-15"
   },
   {
     "name": "Zimbabwe",
-    "ccode": "ZWE"
+    "ccode": "ZWE",
+    "lastUpdate":"2020-05-15"
   }
 ];
