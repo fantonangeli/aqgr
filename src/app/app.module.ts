@@ -51,7 +51,7 @@ import { PoliciesChart01Component } from './components/charts/policies-chart01/p
 import { PoliciesChart02Component } from './components/charts/policies-chart02/policies-chart02.component';
 import { PoliciesChart03Component } from './components/charts/policies-chart03/policies-chart03.component';
 import { PoliciesChart04Component } from './components/charts/policies-chart04/policies-chart04.component';
-import { PoliciesChart05Component } from './components/charts/policies-chart05/policies-chart05.component';
+import { CommonChart14Component } from './components/charts/common-chart14/common-chart14.component';
 import { PoliciesChart06Component } from './components/charts/policies-chart06/policies-chart06.component';
 import { SpeciesListComponent } from './components/country/species-list/species-list.component';
 import { Accordion01Component } from './components/accordion01/accordion01.component';
@@ -103,7 +103,7 @@ import { CountryChart05Component } from './components/charts/country-chart05/cou
     PoliciesChart02Component,
     PoliciesChart03Component,
     PoliciesChart04Component,
-    PoliciesChart05Component,
+    CommonChart14Component,
     PoliciesChart06Component,
     SpeciesListComponent,
     Accordion01Component,

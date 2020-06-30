@@ -91,7 +91,6 @@ export const environment = {
             chart02:policiesPath+"chart02.json",
             chart03:policiesPath+"chart03.json",
             chart04:policiesPath+"chart04.json",
-            chart05:policiesPath+"chart05.json",
             chart06:policiesPath+"chart06.json",
         },
         common:{
@@ -101,6 +100,7 @@ export const environment = {
             chart09:commonPath+"chart09.json",
             chart12:commonPath+"chart12.json",
             chart13:commonPath+"chart13.json",
+            chart14:commonPath+"chart14.json",
         }
     }
 
