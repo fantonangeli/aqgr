@@ -1,4 +1,4 @@
-<div class="container mw-100">
+<div class="container mw-100" *ngIf="filterValues.length">
     <div class="row">
         <div class="col-sm-12 col-md-12">
             <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">AqGR Farmed types data of {{countryName}}:</h1></div></div>
@@ -8,8 +8,7 @@
         </div>
     </div>
 
-
-    <app-species-list [filterValues]="filterValues" *ngIf="filterValues.length" (onTaxonomyClickEvent)="speciesList_onTaxonomyClick($event)"></app-species-list>
+    <app-species-list [filterValues]="filterValues" (onTaxonomyClickEvent)="speciesList_onTaxonomyClick($event)"></app-species-list>
 
     <app-accordion01 [(isOpen)]="isAccordion01open">
         <div header>Number of primary farmed types</div>
@@ -86,6 +85,7 @@
         <div header>Monitoring, characterising and developing AqGR</div>
         <div body> <app-country-table01 [filterValues]="filterValues" *ngIf="isAccordion03open"></app-country-table01> </div>
     </app-accordion01>
+
 </div>
 
 
