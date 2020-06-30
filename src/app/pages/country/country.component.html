@@ -64,7 +64,7 @@
 
     <app-accordion01 [(isOpen)]="isAccordion12open">
         <div header>Number of policies affecting AqGR</div>
-        <div body></div>
+        <div body><app-country-chart04 [filterValues]="filterValues" *ngIf="isAccordion12open"></app-country-chart04></div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="isAccordion13open">

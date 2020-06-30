@@ -61,6 +61,7 @@ export const environment = {
             chart01:countryPath+"chart01.json",
             chart02:countryPath+"chart02.json",
             chart03:countryPath+"chart03.json",
+            chart04:countryPath+"chart04.json",
         },
         countries:{
             all:baseUrl+"countries",
