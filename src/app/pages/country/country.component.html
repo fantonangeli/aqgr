@@ -77,7 +77,7 @@
 
     <app-accordion01 [(isOpen)]="isAccordion15open">
         <div header>Proportion of educational institutions offering training at different levels</div>
-        <div body></div>
+        <div body> <app-common-chart15 [filterValues]="filterValues" *ngIf="isAccordion15open"></app-common-chart15> </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="isAccordion16open">
