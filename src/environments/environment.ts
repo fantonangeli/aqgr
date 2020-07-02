@@ -42,6 +42,7 @@ export const environment = {
             limit: 10
         },
         species:{
+            info:baseUrl+"specieInfo?",
             all:baseUrl+"species",
             limit: 10
         },
