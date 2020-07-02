@@ -22,12 +22,12 @@ export class CountryInfoService extends BaseService{
      * @params
      * @returns {Observable}
      */
-    getData(ccode:string):Observable<any> {
+    getData(iso3:string):Observable<any> {
 
         return this._getByParams(
             "CountryInfoService",
             environment.services.country.info, 
-            {ccode}
+            {iso3}
         );
     }
 

@@ -1,3602 +1,3602 @@
 module.exports=[
   {
-    "name": "Laminaria japonica",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Laminaria japonica",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LNJ"
+    "alphaCode": "LNJ"
   },
   {
-    "name": "Eucheuma spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Eucheuma spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "EMX"
+    "alphaCode": "EMX"
   },
   {
-    "name": "Ctenopharyngodon idellus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Ctenopharyngodon idellus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FCG"
+    "alphaCode": "FCG"
   },
   {
-    "name": "Crassostrea spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Crassostrea spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OYC"
+    "alphaCode": "OYC"
   },
   {
-    "name": "Ruditapes philippinarum",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Ruditapes philippinarum",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CLJ"
+    "alphaCode": "CLJ"
   },
   {
-    "name": "Hypophthalmichthys molitrix",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Hypophthalmichthys molitrix",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SVC"
+    "alphaCode": "SVC"
   },
   {
-    "name": "Hypophthalmichthys nobilis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Hypophthalmichthys nobilis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BIC"
+    "alphaCode": "BIC"
   },
   {
-    "name": "Gracilaria spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Gracilaria spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "GLS"
+    "alphaCode": "GLS"
   },
   {
-    "name": "Cyprinus carpio",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cyprinus carpio",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FCP"
+    "alphaCode": "FCP"
   },
   {
-    "name": "Carassius spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Carassius spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "WDX"
+    "alphaCode": "WDX"
   },
   {
-    "name": "Catla catla",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Catla catla",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CTT"
+    "alphaCode": "CTT"
   },
   {
-    "name": "Pectinidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pectinidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SCX"
+    "alphaCode": "SCX"
   },
   {
-    "name": "Porphyra spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Porphyra spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FYS"
+    "alphaCode": "FYS"
   },
   {
-    "name": "Undaria pinnatifida",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Undaria pinnatifida",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "UDP"
+    "alphaCode": "UDP"
   },
   {
-    "name": "Kappaphycus alvarezii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Kappaphycus alvarezii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "EMA"
+    "alphaCode": "EMA"
   },
   {
-    "name": "Pangasius spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pangasius spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PGZ"
+    "alphaCode": "PGZ"
   },
   {
-    "name": "Salmo salar",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Salmo salar",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SAL"
+    "alphaCode": "SAL"
   },
   {
-    "name": "Chanos chanos",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Chanos chanos",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MIL"
+    "alphaCode": "MIL"
   },
   {
-    "name": "Oreochromis niloticus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oreochromis niloticus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TLN"
+    "alphaCode": "TLN"
   },
   {
-    "name": "Procambarus clarkii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Procambarus clarkii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "RCW"
+    "alphaCode": "RCW"
   },
   {
-    "name": "Penaeus vannamei",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Penaeus vannamei",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PNV"
+    "alphaCode": "PNV"
   },
   {
-    "name": "Labeo rohita",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Labeo rohita",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LRH"
+    "alphaCode": "LRH"
   },
   {
-    "name": "Mytilidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Mytilidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MSX"
+    "alphaCode": "MSX"
   },
   {
-    "name": "Sinonovacula constricta",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Sinonovacula constricta",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SVT"
+    "alphaCode": "SVT"
   },
   {
-    "name": "Clarias spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Clarias spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CTO"
+    "alphaCode": "CTO"
   },
   {
-    "name": "Osteichthyes",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Osteichthyes",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FRF"
+    "alphaCode": "FRF"
   },
   {
-    "name": "Megalobrama amblycephala",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Megalobrama amblycephala",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "WUB"
+    "alphaCode": "WUB"
   },
   {
-    "name": "Eriocheir sinensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Eriocheir sinensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ERS"
+    "alphaCode": "ERS"
   },
   {
-    "name": "Mollusca",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Mollusca",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MOL"
+    "alphaCode": "MOL"
   },
   {
-    "name": "Mylopharyngodon piceus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Mylopharyngodon piceus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BKC"
+    "alphaCode": "BKC"
   },
   {
-    "name": "Algae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Algae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SWX"
+    "alphaCode": "SWX"
   },
   {
-    "name": "Porphyra tenera",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Porphyra tenera",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PRT"
+    "alphaCode": "PRT"
   },
   {
-    "name": "Pangasianodon hypophthalmus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pangasianodon hypophthalmus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PGS"
+    "alphaCode": "PGS"
   },
   {
-    "name": "Channa argus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Channa argus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CNA"
+    "alphaCode": "CNA"
   },
   {
-    "name": "Pelteobagrus fulvidraco",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pelteobagrus fulvidraco",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "YCH"
+    "alphaCode": "YCH"
   },
   {
-    "name": "Micropterus salmoides",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Micropterus salmoides",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MPS"
+    "alphaCode": "MPS"
   },
   {
-    "name": "Cyprinidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cyprinidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FCY"
+    "alphaCode": "FCY"
   },
   {
-    "name": "Oreochromis aureus x O. niloticus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oreochromis aureus x O. niloticus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OXW"
+    "alphaCode": "OXW"
   },
   {
-    "name": "Misgurnus anguillicaudatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Misgurnus anguillicaudatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "KUR"
+    "alphaCode": "KUR"
   },
   {
-    "name": "Silurus asotus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Silurus asotus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SRO"
+    "alphaCode": "SRO"
   },
   {
-    "name": "Monopterus albus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Monopterus albus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FLT"
+    "alphaCode": "FLT"
   },
   {
-    "name": "Anadara granosa",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Anadara granosa",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BLC"
+    "alphaCode": "BLC"
   },
   {
-    "name": "Mytilus chilensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Mytilus chilensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MYC"
+    "alphaCode": "MYC"
   },
   {
-    "name": "Siniperca chuatsi",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Siniperca chuatsi",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SIN"
+    "alphaCode": "SIN"
   },
   {
-    "name": "Oreochromis (=Tilapia) spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oreochromis (=Tilapia) spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TLP"
+    "alphaCode": "TLP"
   },
   {
-    "name": "Trionyx sinensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Trionyx sinensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TTS"
+    "alphaCode": "TTS"
   },
   {
-    "name": "Crassostrea gigas",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Crassostrea gigas",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OYG"
+    "alphaCode": "OYG"
   },
   {
-    "name": "Penaeus monodon",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Penaeus monodon",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "GIT"
+    "alphaCode": "GIT"
   },
   {
-    "name": "Rapana spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Rapana spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "RPN"
+    "alphaCode": "RPN"
   },
   {
-    "name": "Macrobrachium nipponense",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Macrobrachium nipponense",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MNX"
+    "alphaCode": "MNX"
   },
   {
-    "name": "Ictalurus punctatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Ictalurus punctatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ITP"
+    "alphaCode": "ITP"
   },
   {
-    "name": "Apostichopus japonicus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Apostichopus japonicus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CUJ"
+    "alphaCode": "CUJ"
   },
   {
-    "name": "Anguilla japonica",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Anguilla japonica",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ELJ"
+    "alphaCode": "ELJ"
   },
   {
-    "name": "Cirrhinus mrigala",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cirrhinus mrigala",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CMG"
+    "alphaCode": "CMG"
   },
   {
-    "name": "Sargassum fusiforme",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Sargassum fusiforme",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "GQB"
+    "alphaCode": "GQB"
   },
   {
-    "name": "Mugilidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Mugilidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MUL"
+    "alphaCode": "MUL"
   },
   {
-    "name": "Larimichthys croceus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Larimichthys croceus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LYC"
+    "alphaCode": "LYC"
   },
   {
-    "name": "Oncorhynchus mykiss",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oncorhynchus mykiss",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TRR"
+    "alphaCode": "TRR"
   },
   {
-    "name": "Oncorhynchus kisutch",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oncorhynchus kisutch",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "COH"
+    "alphaCode": "COH"
   },
   {
-    "name": "Lateolabrax japonicus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Lateolabrax japonicus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BAJ"
+    "alphaCode": "BAJ"
   },
   {
-    "name": "Clarias gariepinus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Clarias gariepinus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CLZ"
+    "alphaCode": "CLZ"
   },
   {
-    "name": "Scylla paramamosain",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Scylla paramamosain",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "YAR"
+    "alphaCode": "YAR"
   },
   {
-    "name": "Haliotis spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Haliotis spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ABX"
+    "alphaCode": "ABX"
   },
   {
-    "name": "Osphronemus goramy",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Osphronemus goramy",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FGG"
+    "alphaCode": "FGG"
   },
   {
-    "name": "Seriola quinqueradiata",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Seriola quinqueradiata",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "AMJ"
+    "alphaCode": "AMJ"
   },
   {
-    "name": "Macrobrachium rosenbergii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Macrobrachium rosenbergii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PRF"
+    "alphaCode": "PRF"
   },
   {
-    "name": "Patinopecten yessoensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Patinopecten yessoensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "JSC"
+    "alphaCode": "JSC"
   },
   {
-    "name": "Epinephelus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Epinephelus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "GPX"
+    "alphaCode": "GPX"
   },
   {
-    "name": "Trachinotus blochii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Trachinotus blochii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "POO"
+    "alphaCode": "POO"
   },
   {
-    "name": "Portunus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Portunus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CRS"
+    "alphaCode": "CRS"
   },
   {
-    "name": "Crassostrea virginica",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Crassostrea virginica",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OYA"
+    "alphaCode": "OYA"
   },
   {
-    "name": "Eucheuma denticulatum",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Eucheuma denticulatum",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "EMI"
+    "alphaCode": "EMI"
   },
   {
-    "name": "Colossoma macropomum",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Colossoma macropomum",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CSM"
+    "alphaCode": "CSM"
   },
   {
-    "name": "Clarias gariepinus x C. macrocephalus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Clarias gariepinus x C. macrocephalus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CGM"
+    "alphaCode": "CGM"
   },
   {
-    "name": "Dicentrarchus labrax",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Dicentrarchus labrax",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BSS"
+    "alphaCode": "BSS"
   },
   {
-    "name": "Perna canaliculus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Perna canaliculus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MUZ"
+    "alphaCode": "MUZ"
   },
   {
-    "name": "Penaeus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Penaeus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PEN"
+    "alphaCode": "PEN"
   },
   {
-    "name": "Cipangopaludina chinensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cipangopaludina chinensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "GFZ"
+    "alphaCode": "GFZ"
   },
   {
-    "name": "Siluroidei",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Siluroidei",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FSI"
+    "alphaCode": "FSI"
   },
   {
-    "name": "Rana spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Rana spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FRG"
+    "alphaCode": "FRG"
   },
   {
-    "name": "Perna viridis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Perna viridis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MSV"
+    "alphaCode": "MSV"
   },
   {
-    "name": "Acipenseridae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Acipenseridae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "STU"
+    "alphaCode": "STU"
   },
   {
-    "name": "Rhopilema spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Rhopilema spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "JEL"
+    "alphaCode": "JEL"
   },
   {
-    "name": "Piaractus brachypomus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Piaractus brachypomus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CSD"
+    "alphaCode": "CSD"
   },
   {
-    "name": "Sparidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Sparidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SBX"
+    "alphaCode": "SBX"
   },
   {
-    "name": "Mytilus coruscus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Mytilus coruscus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MUK"
+    "alphaCode": "MUK"
   },
   {
-    "name": "Spirulina spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Spirulina spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SIZ"
+    "alphaCode": "SIZ"
   },
   {
-    "name": "Metapenaeus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Metapenaeus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MET"
+    "alphaCode": "MET"
   },
   {
-    "name": "Anodonta cygnea",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Anodonta cygnea",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SWT"
+    "alphaCode": "SWT"
   },
   {
-    "name": "Sciaenops ocellatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Sciaenops ocellatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "RDM"
+    "alphaCode": "RDM"
   },
   {
-    "name": "Palaemonidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Palaemonidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PPZ"
+    "alphaCode": "PPZ"
   },
   {
-    "name": "Scylla serrata",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Scylla serrata",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MUD"
+    "alphaCode": "MUD"
   },
   {
-    "name": "Mytilus galloprovincialis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Mytilus galloprovincialis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MSM"
+    "alphaCode": "MSM"
   },
   {
-    "name": "Pagrus auratus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pagrus auratus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "GSU"
+    "alphaCode": "GSU"
   },
   {
-    "name": "Bivalvia",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Bivalvia",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CLX"
+    "alphaCode": "CLX"
   },
   {
-    "name": "Sparus aurata",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Sparus aurata",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SBG"
+    "alphaCode": "SBG"
   },
   {
-    "name": "Bothidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Bothidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LEF"
+    "alphaCode": "LEF"
   },
   {
-    "name": "Mytilus edulis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Mytilus edulis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MUS"
+    "alphaCode": "MUS"
   },
   {
-    "name": "Penaeus japonicus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Penaeus japonicus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "KUP"
+    "alphaCode": "KUP"
   },
   {
-    "name": "Meretrix lusoria",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Meretrix lusoria",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HCJ"
+    "alphaCode": "HCJ"
   },
   {
-    "name": "Testudinata",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Testudinata",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TUL"
+    "alphaCode": "TUL"
   },
   {
-    "name": "Psetta maxima",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Psetta maxima",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TUR"
+    "alphaCode": "TUR"
   },
   {
-    "name": "Invertebrata",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Invertebrata",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "INV"
+    "alphaCode": "INV"
   },
   {
-    "name": "Rachycentron canadum",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Rachycentron canadum",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CBA"
+    "alphaCode": "CBA"
   },
   {
-    "name": "Channa striata",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Channa striata",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FSS"
+    "alphaCode": "FSS"
   },
   {
-    "name": "Anabas testudineus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Anabas testudineus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FPC"
+    "alphaCode": "FPC"
   },
   {
-    "name": "Barbonymus gonionotus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Barbonymus gonionotus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PTG"
+    "alphaCode": "PTG"
   },
   {
-    "name": "Paralichthys olivaceus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Paralichthys olivaceus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BAH"
+    "alphaCode": "BAH"
   },
   {
-    "name": "Oreochromis mossambicus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oreochromis mossambicus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TLM"
+    "alphaCode": "TLM"
   },
   {
-    "name": "Penaeus chinensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Penaeus chinensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FLP"
+    "alphaCode": "FLP"
   },
   {
-    "name": "P. mesopotamicus x C. macropomum",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "P. mesopotamicus x C. macropomum",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TXY"
+    "alphaCode": "TXY"
   },
   {
-    "name": "Channa micropeltes",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Channa micropeltes",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FIS"
+    "alphaCode": "FIS"
   },
   {
-    "name": "Osteochilus hasselti",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Osteochilus hasselti",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FCN"
+    "alphaCode": "FCN"
   },
   {
-    "name": "Labeo calbasu",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Labeo calbasu",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LCB"
+    "alphaCode": "LCB"
   },
   {
-    "name": "Seriola spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Seriola spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "AMX"
+    "alphaCode": "AMX"
   },
   {
-    "name": "Lates calcarifer",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Lates calcarifer",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "GIP"
+    "alphaCode": "GIP"
   },
   {
-    "name": "Argyrosomus regius",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Argyrosomus regius",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MGR"
+    "alphaCode": "MGR"
   },
   {
-    "name": "Takifugu rubripes",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Takifugu rubripes",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TXK"
+    "alphaCode": "TXK"
   },
   {
-    "name": "Mercenaria mercenaria",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Mercenaria mercenaria",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CLH"
+    "alphaCode": "CLH"
   },
   {
-    "name": "Crassostrea iredalei",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Crassostrea iredalei",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CSI"
+    "alphaCode": "CSI"
   },
   {
-    "name": "Sebastes schlegeli",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Sebastes schlegeli",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SFL"
+    "alphaCode": "SFL"
   },
   {
-    "name": "Corbicula fluminea",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Corbicula fluminea",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CMA"
+    "alphaCode": "CMA"
   },
   {
-    "name": "Leiocassis longirostris",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Leiocassis longirostris",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LLZ"
+    "alphaCode": "LLZ"
   },
   {
-    "name": "Protosalanx hyalocranius",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Protosalanx hyalocranius",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PRS"
+    "alphaCode": "PRS"
   },
   {
-    "name": "Pangasius pangasius",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pangasius pangasius",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PGP"
+    "alphaCode": "PGP"
   },
   {
-    "name": "Penaeus merguiensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Penaeus merguiensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PBA"
+    "alphaCode": "PBA"
   },
   {
-    "name": "Ascidiacea",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Ascidiacea",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SSX"
+    "alphaCode": "SSX"
   },
   {
-    "name": "Salmonidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Salmonidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SLZ"
+    "alphaCode": "SLZ"
   },
   {
-    "name": "Perna perna",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Perna perna",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MSL"
+    "alphaCode": "MSL"
   },
   {
-    "name": "Atrina spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Atrina spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TQY"
+    "alphaCode": "TQY"
   },
   {
-    "name": "Lates niloticus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Lates niloticus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "NIP"
+    "alphaCode": "NIP"
   },
   {
-    "name": "Thunnus orientalis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Thunnus orientalis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PBF"
+    "alphaCode": "PBF"
   },
   {
-    "name": "Scylla olivacea",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Scylla olivacea",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "YLW"
+    "alphaCode": "YLW"
   },
   {
-    "name": "Brachyura",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Brachyura",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CRA"
+    "alphaCode": "CRA"
   },
   {
-    "name": "Pleuronectidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pleuronectidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PLZ"
+    "alphaCode": "PLZ"
   },
   {
-    "name": "Oncorhynchus tshawytscha",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oncorhynchus tshawytscha",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CHI"
+    "alphaCode": "CHI"
   },
   {
-    "name": "Piaractus mesopotamicus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Piaractus mesopotamicus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CSO"
+    "alphaCode": "CSO"
   },
   {
-    "name": "Trichogaster pectoralis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Trichogaster pectoralis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FGS"
+    "alphaCode": "FGS"
   },
   {
-    "name": "Hypomesus olidus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Hypomesus olidus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PSM"
+    "alphaCode": "PSM"
   },
   {
-    "name": "Argopecten purpuratus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Argopecten purpuratus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SCQ"
+    "alphaCode": "SCQ"
   },
   {
-    "name": "Salmo spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Salmo spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TRO"
+    "alphaCode": "TRO"
   },
   {
-    "name": "Eleutheronema tetradactylum",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Eleutheronema tetradactylum",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FOT"
+    "alphaCode": "FOT"
   },
   {
-    "name": "Channa spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Channa spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FSN"
+    "alphaCode": "FSN"
   },
   {
-    "name": "Strongylocentrotus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Strongylocentrotus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "URC"
+    "alphaCode": "URC"
   },
   {
-    "name": "Heteropneustes fossilis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Heteropneustes fossilis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HTF"
+    "alphaCode": "HTF"
   },
   {
-    "name": "Clarias batrachus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Clarias batrachus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CBT"
+    "alphaCode": "CBT"
   },
   {
-    "name": "Thunnus maccoyii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Thunnus maccoyii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SBF"
+    "alphaCode": "SBF"
   },
   {
-    "name": "Papyrocranus afer",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Papyrocranus afer",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ONP"
+    "alphaCode": "ONP"
   },
   {
-    "name": "Lutjanus argentimaculatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Lutjanus argentimaculatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "RES"
+    "alphaCode": "RES"
   },
   {
-    "name": "Pagrus major",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pagrus major",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "REV"
+    "alphaCode": "REV"
   },
   {
-    "name": "Gymnarchus niloticus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Gymnarchus niloticus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OGN"
+    "alphaCode": "OGN"
   },
   {
-    "name": "C. macropomum x P. brachypomus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "C. macropomum x P. brachypomus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TXZ"
+    "alphaCode": "TXZ"
   },
   {
-    "name": "Lutjanus johnii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Lutjanus johnii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LJH"
+    "alphaCode": "LJH"
   },
   {
-    "name": "Takifugu obscurus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Takifugu obscurus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TZO"
+    "alphaCode": "TZO"
   },
   {
-    "name": "Capsosiphon fulvescens",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Capsosiphon fulvescens",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "UEC"
+    "alphaCode": "UEC"
   },
   {
-    "name": "Monostroma nitidum",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Monostroma nitidum",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MTN"
+    "alphaCode": "MTN"
   },
   {
-    "name": "Helostoma temminckii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Helostoma temminckii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FGO"
+    "alphaCode": "FGO"
   },
   {
-    "name": "Puntius spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Puntius spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FAB"
+    "alphaCode": "FAB"
   },
   {
-    "name": "Cirrhinus microlepis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cirrhinus microlepis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "RNM"
+    "alphaCode": "RNM"
   },
   {
-    "name": "Heterotis niloticus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Heterotis niloticus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HTN"
+    "alphaCode": "HTN"
   },
   {
-    "name": "Crassostrea corteziensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Crassostrea corteziensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OYR"
+    "alphaCode": "OYR"
   },
   {
-    "name": "Hemibagrus nemurus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Hemibagrus nemurus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MYN"
+    "alphaCode": "MYN"
   },
   {
-    "name": "Systomus sarana",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Systomus sarana",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PUS"
+    "alphaCode": "PUS"
   },
   {
-    "name": "Oreochromis shiranus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oreochromis shiranus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OIH"
+    "alphaCode": "OIH"
   },
   {
-    "name": "Ostreidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Ostreidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OST"
+    "alphaCode": "OST"
   },
   {
-    "name": "Plecoglossus altivelis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Plecoglossus altivelis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PCA"
+    "alphaCode": "PCA"
   },
   {
-    "name": "Citharinus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Citharinus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CIV"
+    "alphaCode": "CIV"
   },
   {
-    "name": "Brycon spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Brycon spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BXH"
+    "alphaCode": "BXH"
   },
   {
-    "name": "Synodontis spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Synodontis spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CSY"
+    "alphaCode": "CSY"
   },
   {
-    "name": "Probarbus jullieni",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Probarbus jullieni",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PRJ"
+    "alphaCode": "PRJ"
   },
   {
-    "name": "Characidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Characidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CHA"
+    "alphaCode": "CHA"
   },
   {
-    "name": "Thunnus thynnus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Thunnus thynnus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BFT"
+    "alphaCode": "BFT"
   },
   {
-    "name": "Coregonus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Coregonus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "WHF"
+    "alphaCode": "WHF"
   },
   {
-    "name": "Morone chrysops x M. saxatilis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Morone chrysops x M. saxatilis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SBH"
+    "alphaCode": "SBH"
   },
   {
-    "name": "Salvelinus alpinus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Salvelinus alpinus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ACH"
+    "alphaCode": "ACH"
   },
   {
-    "name": "Pseudocaranx dentex",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pseudocaranx dentex",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TRZ"
+    "alphaCode": "TRZ"
   },
   {
-    "name": "Distichodus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Distichodus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "DSE"
+    "alphaCode": "DSE"
   },
   {
-    "name": "Leptobarbus hoeveni",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Leptobarbus hoeveni",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FCH"
+    "alphaCode": "FCH"
   },
   {
-    "name": "Arapaima gigas",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Arapaima gigas",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ARP"
+    "alphaCode": "ARP"
   },
   {
-    "name": "Scapharca broughtonii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Scapharca broughtonii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ACB"
+    "alphaCode": "ACB"
   },
   {
-    "name": "Oreochromis andersonii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oreochromis andersonii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "STA"
+    "alphaCode": "STA"
   },
   {
-    "name": "Crassostrea madrasensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Crassostrea madrasensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OYI"
+    "alphaCode": "OYI"
   },
   {
-    "name": "Osteobrama belangeri",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Osteobrama belangeri",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OBL"
+    "alphaCode": "OBL"
   },
   {
-    "name": "Cirrhinus molitorella",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cirrhinus molitorella",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MUC"
+    "alphaCode": "MUC"
   },
   {
-    "name": "Codium fragile",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Codium fragile",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "KII"
+    "alphaCode": "KII"
   },
   {
-    "name": "Metapenaeus monoceros",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Metapenaeus monoceros",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MPN"
+    "alphaCode": "MPN"
   },
   {
-    "name": "Leporinus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Leporinus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LXZ"
+    "alphaCode": "LXZ"
   },
   {
-    "name": "Hepsetus odoe",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Hepsetus odoe",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HED"
+    "alphaCode": "HED"
   },
   {
-    "name": "Mytilus planulatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Mytilus planulatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MYA"
+    "alphaCode": "MYA"
   },
   {
-    "name": "Enteromorpha clathrata",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Enteromorpha clathrata",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "EOW"
+    "alphaCode": "EOW"
   },
   {
-    "name": "Brycon amazonicus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Brycon amazonicus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BZH"
+    "alphaCode": "BZH"
   },
   {
-    "name": "Prochilodus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Prochilodus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PRL"
+    "alphaCode": "PRL"
   },
   {
-    "name": "Salmonoidei",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Salmonoidei",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SLX"
+    "alphaCode": "SLX"
   },
   {
-    "name": "Ruditapes decussatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Ruditapes decussatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CTG"
+    "alphaCode": "CTG"
   },
   {
-    "name": "Tilapia rendalli",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Tilapia rendalli",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TLR"
+    "alphaCode": "TLR"
   },
   {
-    "name": "Caranx spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Caranx spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TRE"
+    "alphaCode": "TRE"
   },
   {
-    "name": "Prochilodus reticulatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Prochilodus reticulatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PLR"
+    "alphaCode": "PLR"
   },
   {
-    "name": "Parachanna spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Parachanna spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "QRX"
+    "alphaCode": "QRX"
   },
   {
-    "name": "Penaeus indicus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Penaeus indicus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PNI"
+    "alphaCode": "PNI"
   },
   {
-    "name": "Anguilla anguilla",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Anguilla anguilla",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ELE"
+    "alphaCode": "ELE"
   },
   {
-    "name": "Mugil cephalus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Mugil cephalus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MUF"
+    "alphaCode": "MUF"
   },
   {
-    "name": "Rutilus rutilus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Rutilus rutilus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FRO"
+    "alphaCode": "FRO"
   },
   {
-    "name": "Cerastoderma edule",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cerastoderma edule",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "COC"
+    "alphaCode": "COC"
   },
   {
-    "name": "Salvelinus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Salvelinus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CHR"
+    "alphaCode": "CHR"
   },
   {
-    "name": "Acanthopagrus schlegeli",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Acanthopagrus schlegeli",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MLM"
+    "alphaCode": "MLM"
   },
   {
-    "name": "Rana catesbeiana",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Rana catesbeiana",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FOK"
+    "alphaCode": "FOK"
   },
   {
-    "name": "Plantae aquaticae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Plantae aquaticae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "APL"
+    "alphaCode": "APL"
   },
   {
-    "name": "Hippoglossus hippoglossus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Hippoglossus hippoglossus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HAL"
+    "alphaCode": "HAL"
   },
   {
-    "name": "Ictalurus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Ictalurus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CAF"
+    "alphaCode": "CAF"
   },
   {
-    "name": "Phaeophyceae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Phaeophyceae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SWB"
+    "alphaCode": "SWB"
   },
   {
-    "name": "Aulacomya ater",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Aulacomya ater",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MSC"
+    "alphaCode": "MSC"
   },
   {
-    "name": "Panulirus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Panulirus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SLV"
+    "alphaCode": "SLV"
   },
   {
-    "name": "Penaeus stylirostris",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Penaeus stylirostris",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PNS"
+    "alphaCode": "PNS"
   },
   {
-    "name": "Oreochromis aureus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oreochromis aureus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OEA"
+    "alphaCode": "OEA"
   },
   {
-    "name": "Pagrus pagrus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pagrus pagrus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "RPG"
+    "alphaCode": "RPG"
   },
   {
-    "name": "Pinctada margaritifera",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pinctada margaritifera",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PNM"
+    "alphaCode": "PNM"
   },
   {
-    "name": "Haliotis midae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Haliotis midae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ABP"
+    "alphaCode": "ABP"
   },
   {
-    "name": "Crassostrea rhizophorae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Crassostrea rhizophorae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OYM"
+    "alphaCode": "OYM"
   },
   {
-    "name": "Choromytilus chorus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Choromytilus chorus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CHC"
+    "alphaCode": "CHC"
   },
   {
-    "name": "Wallago attu",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Wallago attu",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "WAA"
+    "alphaCode": "WAA"
   },
   {
-    "name": "Haliotis rufescens",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Haliotis rufescens",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ABF"
+    "alphaCode": "ABF"
   },
   {
-    "name": "Solea senegalensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Solea senegalensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OAL"
+    "alphaCode": "OAL"
   },
   {
-    "name": "Oreochromis macrochir",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oreochromis macrochir",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ORM"
+    "alphaCode": "ORM"
   },
   {
-    "name": "Salmo trutta",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Salmo trutta",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TRS"
+    "alphaCode": "TRS"
   },
   {
-    "name": "Carassius carassius",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Carassius carassius",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FCC"
+    "alphaCode": "FCC"
   },
   {
-    "name": "Prochilodus nigricans",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Prochilodus nigricans",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "QPN"
+    "alphaCode": "QPN"
   },
   {
-    "name": "Caulerpa spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Caulerpa spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CAU"
+    "alphaCode": "CAU"
   },
   {
-    "name": "Ex Unionidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Ex Unionidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FSH"
+    "alphaCode": "FSH"
   },
   {
-    "name": "Hoplobatrachus rugulosus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Hoplobatrachus rugulosus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ZHB"
+    "alphaCode": "ZHB"
   },
   {
-    "name": "Channa punctata",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Channa punctata",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CNP"
+    "alphaCode": "CNP"
   },
   {
-    "name": "Tinca tinca",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Tinca tinca",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FTE"
+    "alphaCode": "FTE"
   },
   {
-    "name": "Panopea generosa",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Panopea generosa",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "GEC"
+    "alphaCode": "GEC"
   },
   {
-    "name": "Hoplias spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Hoplias spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HVW"
+    "alphaCode": "HVW"
   },
   {
-    "name": "Trachurus japonicus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Trachurus japonicus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "JJM"
+    "alphaCode": "JJM"
   },
   {
-    "name": "Oxyeleotris marmorata",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oxyeleotris marmorata",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "GBM"
+    "alphaCode": "GBM"
   },
   {
-    "name": "Oplegnathus fasciatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oplegnathus fasciatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OLF"
+    "alphaCode": "OLF"
   },
   {
-    "name": "Ostrea edulis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Ostrea edulis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OYF"
+    "alphaCode": "OYF"
   },
   {
-    "name": "Lutjanus guttatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Lutjanus guttatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LJS"
+    "alphaCode": "LJS"
   },
   {
-    "name": "Notopterus notopterus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Notopterus notopterus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ONN"
+    "alphaCode": "ONN"
   },
   {
-    "name": "Channa marulius",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Channa marulius",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "KNA"
+    "alphaCode": "KNA"
   },
   {
-    "name": "Gracilaria verrucosa",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Gracilaria verrucosa",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "GJW"
+    "alphaCode": "GJW"
   },
   {
-    "name": "Pseudoplatystoma corruscans",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pseudoplatystoma corruscans",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "UDC"
+    "alphaCode": "UDC"
   },
   {
-    "name": "Esox lucius",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Esox lucius",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FPI"
+    "alphaCode": "FPI"
   },
   {
-    "name": "Astyanax fasciatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Astyanax fasciatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "AXF"
+    "alphaCode": "AXF"
   },
   {
-    "name": "Salvelinus fontinalis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Salvelinus fontinalis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SVF"
+    "alphaCode": "SVF"
   },
   {
-    "name": "Mya arenaria",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Mya arenaria",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CLS"
+    "alphaCode": "CLS"
   },
   {
-    "name": "Coregonus lavaretus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Coregonus lavaretus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PLN"
+    "alphaCode": "PLN"
   },
   {
-    "name": "Saxidomus giganteus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Saxidomus giganteus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BCL"
+    "alphaCode": "BCL"
   },
   {
-    "name": "Abramis brama",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Abramis brama",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FBM"
+    "alphaCode": "FBM"
   },
   {
-    "name": "Holothuroidea",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Holothuroidea",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CUX"
+    "alphaCode": "CUX"
   },
   {
-    "name": "Silurus glanis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Silurus glanis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SOM"
+    "alphaCode": "SOM"
   },
   {
-    "name": "Gadus morhua",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Gadus morhua",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "COD"
+    "alphaCode": "COD"
   },
   {
-    "name": "Monacanthidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Monacanthidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FFX"
+    "alphaCode": "FFX"
   },
   {
-    "name": "Epinephelus septemfasciatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Epinephelus septemfasciatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "EIF"
+    "alphaCode": "EIF"
   },
   {
-    "name": "Carassius auratus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Carassius auratus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CGO"
+    "alphaCode": "CGO"
   },
   {
-    "name": "Trachinotus carolinus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Trachinotus carolinus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "POM"
+    "alphaCode": "POM"
   },
   {
-    "name": "Seriola rivoliana",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Seriola rivoliana",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "YTL"
+    "alphaCode": "YTL"
   },
   {
-    "name": "Sander lucioperca",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Sander lucioperca",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FPP"
+    "alphaCode": "FPP"
   },
   {
-    "name": "Ostrea chilensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Ostrea chilensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OCH"
+    "alphaCode": "OCH"
   },
   {
-    "name": "Epinephelus coioides",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Epinephelus coioides",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ENI"
+    "alphaCode": "ENI"
   },
   {
-    "name": "Lutjanus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Lutjanus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SNA"
+    "alphaCode": "SNA"
   },
   {
-    "name": "Perca fluviatilis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Perca fluviatilis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FPE"
+    "alphaCode": "FPE"
   },
   {
-    "name": "Oreochromis tanganicae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oreochromis tanganicae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OIT"
+    "alphaCode": "OIT"
   },
   {
-    "name": "Ameiurus melas",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Ameiurus melas",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ITM"
+    "alphaCode": "ITM"
   },
   {
-    "name": "Anguilla spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Anguilla spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ELX"
+    "alphaCode": "ELX"
   },
   {
-    "name": "Oreochromis spilurus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oreochromis spilurus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TLL"
+    "alphaCode": "TLL"
   },
   {
-    "name": "Barbus callensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Barbus callensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BBK"
+    "alphaCode": "BBK"
   },
   {
-    "name": "Konosirus punctatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Konosirus punctatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "DOD"
+    "alphaCode": "DOD"
   },
   {
-    "name": "Serranidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Serranidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BSX"
+    "alphaCode": "BSX"
   },
   {
-    "name": "Acipenser baerii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Acipenser baerii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "APB"
+    "alphaCode": "APB"
   },
   {
-    "name": "Bidyanus bidyanus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Bidyanus bidyanus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BYB"
+    "alphaCode": "BYB"
   },
   {
-    "name": "Scomber japonicus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Scomber japonicus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MAS"
+    "alphaCode": "MAS"
   },
   {
-    "name": "Haematococcus pluvialis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Haematococcus pluvialis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HZP"
+    "alphaCode": "HZP"
   },
   {
-    "name": "Hilsa kelee",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Hilsa kelee",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HIX"
+    "alphaCode": "HIX"
   },
   {
-    "name": "Oncorhynchus masou",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oncorhynchus masou",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CHE"
+    "alphaCode": "CHE"
   },
   {
-    "name": "Scorpaenidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Scorpaenidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SCO"
+    "alphaCode": "SCO"
   },
   {
-    "name": "Crassostrea gasar",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Crassostrea gasar",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OGZ"
+    "alphaCode": "OGZ"
   },
   {
-    "name": "Palaemonetes varians",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Palaemonetes varians",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PVR"
+    "alphaCode": "PVR"
   },
   {
-    "name": "Sarotherodon melanotheron",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Sarotherodon melanotheron",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SAH"
+    "alphaCode": "SAH"
   },
   {
-    "name": "Cherax quadricarinatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cherax quadricarinatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CRP"
+    "alphaCode": "CRP"
   },
   {
-    "name": "Metapenaeus ensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Metapenaeus ensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MPE"
+    "alphaCode": "MPE"
   },
   {
-    "name": "Macrobrachium malcolmsonii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Macrobrachium malcolmsonii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MBM"
+    "alphaCode": "MBM"
   },
   {
-    "name": "Umbrina cirrosa",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Umbrina cirrosa",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "COB"
+    "alphaCode": "COB"
   },
   {
-    "name": "Venerupis pullastra",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Venerupis pullastra",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CTS"
+    "alphaCode": "CTS"
   },
   {
-    "name": "Siganus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Siganus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SPI"
+    "alphaCode": "SPI"
   },
   {
-    "name": "Chitala chitala",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Chitala chitala",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "NCC"
+    "alphaCode": "NCC"
   },
   {
-    "name": "Pagellus bogaraveo",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pagellus bogaraveo",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SBR"
+    "alphaCode": "SBR"
   },
   {
-    "name": "Diplodus puntazzo",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Diplodus puntazzo",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SHR"
+    "alphaCode": "SHR"
   },
   {
-    "name": "Saccharina latissima",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Saccharina latissima",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LQX"
+    "alphaCode": "LQX"
   },
   {
-    "name": "Epinephelus malabaricus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Epinephelus malabaricus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MAR"
+    "alphaCode": "MAR"
   },
   {
-    "name": "Lutjanidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Lutjanidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SNX"
+    "alphaCode": "SNX"
   },
   {
-    "name": "Acipenser gueldenstaedtii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Acipenser gueldenstaedtii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "APG"
+    "alphaCode": "APG"
   },
   {
-    "name": "Barbus barbus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Barbus barbus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PTB"
+    "alphaCode": "PTB"
   },
   {
-    "name": "Pagrus caeruleostictus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pagrus caeruleostictus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BSC"
+    "alphaCode": "BSC"
   },
   {
-    "name": "Dentex gibbosus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Dentex gibbosus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "DEP"
+    "alphaCode": "DEP"
   },
   {
-    "name": "Rutilus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Rutilus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FRX"
+    "alphaCode": "FRX"
   },
   {
-    "name": "Miichthys miiuy",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Miichthys miiuy",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MIH"
+    "alphaCode": "MIH"
   },
   {
-    "name": "Perca flavescens",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Perca flavescens",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FPY"
+    "alphaCode": "FPY"
   },
   {
-    "name": "Holothuria scabra",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Holothuria scabra",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HFC"
+    "alphaCode": "HFC"
   },
   {
-    "name": "Haliotis iris",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Haliotis iris",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "DZS"
+    "alphaCode": "DZS"
   },
   {
-    "name": "Pseudoplatystoma spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pseudoplatystoma spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "UPY"
+    "alphaCode": "UPY"
   },
   {
-    "name": "Hypsibarbus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Hypsibarbus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "YHX"
+    "alphaCode": "YHX"
   },
   {
-    "name": "Brycon cephalus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Brycon cephalus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BNC"
+    "alphaCode": "BNC"
   },
   {
-    "name": "Gracilaria gracilis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Gracilaria gracilis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "GZG"
+    "alphaCode": "GZG"
   },
   {
-    "name": "Hatcheria macraei",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Hatcheria macraei",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HTM"
+    "alphaCode": "HTM"
   },
   {
-    "name": "Cichla spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cichla spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "IGX"
+    "alphaCode": "IGX"
   },
   {
-    "name": "Lutjanus erythropterus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Lutjanus erythropterus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LJT"
+    "alphaCode": "LJT"
   },
   {
-    "name": "Seriola dumerili",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Seriola dumerili",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "AMB"
+    "alphaCode": "AMB"
   },
   {
-    "name": "Pagrus auriga",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pagrus auriga",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "REA"
+    "alphaCode": "REA"
   },
   {
-    "name": "Salminus brasiliensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Salminus brasiliensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SXU"
+    "alphaCode": "SXU"
   },
   {
-    "name": "Cherax tenuimanus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cherax tenuimanus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CRT"
+    "alphaCode": "CRT"
   },
   {
-    "name": "Soletellina diphos",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Soletellina diphos",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OIF"
+    "alphaCode": "OIF"
   },
   {
-    "name": "Mactra veneriformis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Mactra veneriformis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MTV"
+    "alphaCode": "MTV"
   },
   {
-    "name": "Dentex dentex",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Dentex dentex",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "DEC"
+    "alphaCode": "DEC"
   },
   {
-    "name": "Chrysichthys nigrodigitatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Chrysichthys nigrodigitatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CSR"
+    "alphaCode": "CSR"
   },
   {
-    "name": "Dormitator latifrons",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Dormitator latifrons",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "DOM"
+    "alphaCode": "DOM"
   },
   {
-    "name": "Seriola lalandi",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Seriola lalandi",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "YTC"
+    "alphaCode": "YTC"
   },
   {
-    "name": "Panulirus polyphagus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Panulirus polyphagus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LMS"
+    "alphaCode": "LMS"
   },
   {
-    "name": "Alaria esculenta",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Alaria esculenta",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "AJC"
+    "alphaCode": "AJC"
   },
   {
-    "name": "Spirulina maxima",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Spirulina maxima",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ULX"
+    "alphaCode": "ULX"
   },
   {
-    "name": "Astacus leptodactylus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Astacus leptodactylus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CRD"
+    "alphaCode": "CRD"
   },
   {
-    "name": "Polymesoda expansa",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Polymesoda expansa",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "YMX"
+    "alphaCode": "YMX"
   },
   {
-    "name": "Gnathanodon speciosus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Gnathanodon speciosus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "GLT"
+    "alphaCode": "GLT"
   },
   {
-    "name": "Cherax destructor",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cherax destructor",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CDT"
+    "alphaCode": "CDT"
   },
   {
-    "name": "Plectropomus maculatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Plectropomus maculatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PLM"
+    "alphaCode": "PLM"
   },
   {
-    "name": "Labeo dussumieri",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Labeo dussumieri",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LBM"
+    "alphaCode": "LBM"
   },
   {
-    "name": "Barbonymus schwanenfeldii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Barbonymus schwanenfeldii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BFS"
+    "alphaCode": "BFS"
   },
   {
-    "name": "Pecten maximus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pecten maximus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SCE"
+    "alphaCode": "SCE"
   },
   {
-    "name": "Acipenser naccarii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Acipenser naccarii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "AAA"
+    "alphaCode": "AAA"
   },
   {
-    "name": "Portunus pelagicus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Portunus pelagicus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SCD"
+    "alphaCode": "SCD"
   },
   {
-    "name": "Platax orbicularis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Platax orbicularis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LXR"
+    "alphaCode": "LXR"
   },
   {
-    "name": "Crustacea",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Crustacea",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CRU"
+    "alphaCode": "CRU"
   },
   {
-    "name": "Takifugu spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Takifugu spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TXV"
+    "alphaCode": "TXV"
   },
   {
-    "name": "Ex Pinctada spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Ex Pinctada spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OSH"
+    "alphaCode": "OSH"
   },
   {
-    "name": "Prochilodus mariae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Prochilodus mariae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "QMR"
+    "alphaCode": "QMR"
   },
   {
-    "name": "Nemacystus decipiens",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Nemacystus decipiens",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "NYQ"
+    "alphaCode": "NYQ"
   },
   {
-    "name": "Soleidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Soleidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SOX"
+    "alphaCode": "SOX"
   },
   {
-    "name": "Hoplosternum littorale",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Hoplosternum littorale",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HSR"
+    "alphaCode": "HSR"
   },
   {
-    "name": "Haliotis discus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Haliotis discus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ABJ"
+    "alphaCode": "ABJ"
   },
   {
-    "name": "Hucho hucho",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Hucho hucho",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HUC"
+    "alphaCode": "HUC"
   },
   {
-    "name": "Caridina denticulata",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Caridina denticulata",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CID"
+    "alphaCode": "CID"
   },
   {
-    "name": "Macrobrachium spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Macrobrachium spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PPF"
+    "alphaCode": "PPF"
   },
   {
-    "name": "Acipenser ruthenus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Acipenser ruthenus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "APR"
+    "alphaCode": "APR"
   },
   {
-    "name": "Huso huso",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Huso huso",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HUH"
+    "alphaCode": "HUH"
   },
   {
-    "name": "Carcinus aestuarii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Carcinus aestuarii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CMR"
+    "alphaCode": "CMR"
   },
   {
-    "name": "Aequipecten opercularis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Aequipecten opercularis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "QSC"
+    "alphaCode": "QSC"
   },
   {
-    "name": "Sparidentex hasta",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Sparidentex hasta",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SZH"
+    "alphaCode": "SZH"
   },
   {
-    "name": "Leporinus obtusidens",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Leporinus obtusidens",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LPB"
+    "alphaCode": "LPB"
   },
   {
-    "name": "Prochilodus lineatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Prochilodus lineatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PLL"
+    "alphaCode": "PLL"
   },
   {
-    "name": "Scardinius erythrophthalmus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Scardinius erythrophthalmus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SRE"
+    "alphaCode": "SRE"
   },
   {
-    "name": "Brycon orbignyanus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Brycon orbignyanus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BNO"
+    "alphaCode": "BNO"
   },
   {
-    "name": "Lyropecten subnodosus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Lyropecten subnodosus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "YKD"
+    "alphaCode": "YKD"
   },
   {
-    "name": "Protothaca staminea",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Protothaca staminea",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PTS"
+    "alphaCode": "PTS"
   },
   {
-    "name": "Scortum barcoo",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Scortum barcoo",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "QOF"
+    "alphaCode": "QOF"
   },
   {
-    "name": "Rhabdosargus sarba",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Rhabdosargus sarba",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "RSS"
+    "alphaCode": "RSS"
   },
   {
-    "name": "Trichogaster spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Trichogaster spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "GOM"
+    "alphaCode": "GOM"
   },
   {
-    "name": "Lutjanus sebae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Lutjanus sebae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LUB"
+    "alphaCode": "LUB"
   },
   {
-    "name": "Tor tambroides",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Tor tambroides",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TOB"
+    "alphaCode": "TOB"
   },
   {
-    "name": "Polydactylus sexfilis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Polydactylus sexfilis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OLX"
+    "alphaCode": "OLX"
   },
   {
-    "name": "Epinephelus fuscoguttatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Epinephelus fuscoguttatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "EWF"
+    "alphaCode": "EWF"
   },
   {
-    "name": "Anadara tuberculosa",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Anadara tuberculosa",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "NQT"
+    "alphaCode": "NQT"
   },
   {
-    "name": "Heterobranchus longifilis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Heterobranchus longifilis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HEL"
+    "alphaCode": "HEL"
   },
   {
-    "name": "Haliotis tuberculata",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Haliotis tuberculata",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HLT"
+    "alphaCode": "HLT"
   },
   {
-    "name": "Pleuronectiformes",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pleuronectiformes",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FLX"
+    "alphaCode": "FLX"
   },
   {
-    "name": "Epinephelus lanceolatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Epinephelus lanceolatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "EEN"
+    "alphaCode": "EEN"
   },
   {
-    "name": "Anguilla reinhardtii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Anguilla reinhardtii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "AAR"
+    "alphaCode": "AAR"
   },
   {
-    "name": "Alburnus alburnus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Alburnus alburnus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ALR"
+    "alphaCode": "ALR"
   },
   {
-    "name": "Pseudoplatystoma fasciatum",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pseudoplatystoma fasciatum",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "UDF"
+    "alphaCode": "UDF"
   },
   {
-    "name": "Panulirus argus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Panulirus argus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SLC"
+    "alphaCode": "SLC"
   },
   {
-    "name": "Solea solea",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Solea solea",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SOL"
+    "alphaCode": "SOL"
   },
   {
-    "name": "Astacidae, Cambaridae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Astacidae, Cambaridae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "AYS"
+    "alphaCode": "AYS"
   },
   {
-    "name": "Tridacna spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Tridacna spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "QQX"
+    "alphaCode": "QQX"
   },
   {
-    "name": "Notopterus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Notopterus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FKN"
+    "alphaCode": "FKN"
   },
   {
-    "name": "Sarotherodon galilaeus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Sarotherodon galilaeus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SAR"
+    "alphaCode": "SAR"
   },
   {
-    "name": "Salmo ischchan",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Salmo ischchan",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SFI"
+    "alphaCode": "SFI"
   },
   {
-    "name": "Solen spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Solen spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "RAZ"
+    "alphaCode": "RAZ"
   },
   {
-    "name": "Ensis ensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Ensis ensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "EQE"
+    "alphaCode": "EQE"
   },
   {
-    "name": "Hippopus hippopus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Hippopus hippopus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HIP"
+    "alphaCode": "HIP"
   },
   {
-    "name": "Chlorella vulgaris",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Chlorella vulgaris",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HQW"
+    "alphaCode": "HQW"
   },
   {
-    "name": "Diplodus sargus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Diplodus sargus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SWA"
+    "alphaCode": "SWA"
   },
   {
-    "name": "Heterobranchus bidorsalis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Heterobranchus bidorsalis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HEB"
+    "alphaCode": "HEB"
   },
   {
-    "name": "Lota lota",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Lota lota",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FBU"
+    "alphaCode": "FBU"
   },
   {
-    "name": "Anadara grandis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Anadara grandis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "NDN"
+    "alphaCode": "NDN"
   },
   {
-    "name": "Saccostrea cuccullata",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Saccostrea cuccullata",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CSC"
+    "alphaCode": "CSC"
   },
   {
-    "name": "Morone saxatilis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Morone saxatilis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "STB"
+    "alphaCode": "STB"
   },
   {
-    "name": "Mytilus platensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Mytilus platensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MSR"
+    "alphaCode": "MSR"
   },
   {
-    "name": "Cyclina sinensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cyclina sinensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "KNJ"
+    "alphaCode": "KNJ"
   },
   {
-    "name": "Tilapia zillii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Tilapia zillii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TLZ"
+    "alphaCode": "TLZ"
   },
   {
-    "name": "Turbo setosus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Turbo setosus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "UOS"
+    "alphaCode": "UOS"
   },
   {
-    "name": "Lutjanus russelli",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Lutjanus russelli",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SNU"
+    "alphaCode": "SNU"
   },
   {
-    "name": "Octopus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Octopus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OCZ"
+    "alphaCode": "OCZ"
   },
   {
-    "name": "Natantia",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Natantia",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "DCP"
+    "alphaCode": "DCP"
   },
   {
-    "name": "Thymallus thymallus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Thymallus thymallus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TLV"
+    "alphaCode": "TLV"
   },
   {
-    "name": "Macrocystis pyrifera",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Macrocystis pyrifera",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MXY"
+    "alphaCode": "MXY"
   },
   {
-    "name": "Tridacna crocea",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Tridacna crocea",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "DKC"
+    "alphaCode": "DKC"
   },
   {
-    "name": "Astacus astacus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Astacus astacus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "AAS"
+    "alphaCode": "AAS"
   },
   {
-    "name": "Siganus canaliculatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Siganus canaliculatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SCN"
+    "alphaCode": "SCN"
   },
   {
-    "name": "Caranx ignobilis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Caranx ignobilis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "NXI"
+    "alphaCode": "NXI"
   },
   {
-    "name": "Acipenser stellatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Acipenser stellatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "APE"
+    "alphaCode": "APE"
   },
   {
-    "name": "Epinephelus areolatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Epinephelus areolatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "EPR"
+    "alphaCode": "EPR"
   },
   {
-    "name": "Cichlasoma managuense",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cichlasoma managuense",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CHL"
+    "alphaCode": "CHL"
   },
   {
-    "name": "Dunaliella salina",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Dunaliella salina",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "UNI"
+    "alphaCode": "UNI"
   },
   {
-    "name": "Asaphis violascens",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Asaphis violascens",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FSV"
+    "alphaCode": "FSV"
   },
   {
-    "name": "Strombus gigas",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Strombus gigas",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "COO"
+    "alphaCode": "COO"
   },
   {
-    "name": "Epinephelus tukula",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Epinephelus tukula",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "EWL"
+    "alphaCode": "EWL"
   },
   {
-    "name": "Hemichromis fasciatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Hemichromis fasciatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HJF"
+    "alphaCode": "HJF"
   },
   {
-    "name": "Penaeus kerathurus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Penaeus kerathurus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TGS"
+    "alphaCode": "TGS"
   },
   {
-    "name": "Chlorophyceae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Chlorophyceae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SWG"
+    "alphaCode": "SWG"
   },
   {
-    "name": "Venus verrucosa",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Venus verrucosa",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "VEV"
+    "alphaCode": "VEV"
   },
   {
-    "name": "Cerastoderma glaucum",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cerastoderma glaucum",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "KTG"
+    "alphaCode": "KTG"
   },
   {
-    "name": "Dicentrarchus punctatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Dicentrarchus punctatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SPU"
+    "alphaCode": "SPU"
   },
   {
-    "name": "Tridacna maxima",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Tridacna maxima",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "DKX"
+    "alphaCode": "DKX"
   },
   {
-    "name": "Tridacna derasa",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Tridacna derasa",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TDD"
+    "alphaCode": "TDD"
   },
   {
-    "name": "Bolbometopon muricatum",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Bolbometopon muricatum",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BMK"
+    "alphaCode": "BMK"
   },
   {
-    "name": "Cromileptes altivelis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cromileptes altivelis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MPV"
+    "alphaCode": "MPV"
   },
   {
-    "name": "Leuciscus cephalus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Leuciscus cephalus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LUH"
+    "alphaCode": "LUH"
   },
   {
-    "name": "Chondrostoma nasus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Chondrostoma nasus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HON"
+    "alphaCode": "HON"
   },
   {
-    "name": "Carcinus maenas",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Carcinus maenas",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CRG"
+    "alphaCode": "CRG"
   },
   {
-    "name": "Pecten jacobaeus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pecten jacobaeus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SJA"
+    "alphaCode": "SJA"
   },
   {
-    "name": "Cichla ocellaris",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cichla ocellaris",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CLO"
+    "alphaCode": "CLO"
   },
   {
-    "name": "Anostomoides laticeps",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Anostomoides laticeps",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OIA"
+    "alphaCode": "OIA"
   },
   {
-    "name": "Brycon hilarii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Brycon hilarii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BXN"
+    "alphaCode": "BXN"
   },
   {
-    "name": "Chondracanthus chamissoi",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Chondracanthus chamissoi",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "KDM"
+    "alphaCode": "KDM"
   },
   {
-    "name": "Ichthyoelephas humeralis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Ichthyoelephas humeralis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ICH"
+    "alphaCode": "ICH"
   },
   {
-    "name": "Pimelodus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pimelodus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MXW"
+    "alphaCode": "MXW"
   },
   {
-    "name": "Porphyra columbina",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Porphyra columbina",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "YKN"
+    "alphaCode": "YKN"
   },
   {
-    "name": "Sargassum spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Sargassum spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "QWX"
+    "alphaCode": "QWX"
   },
   {
-    "name": "Solea spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Solea spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SOO"
+    "alphaCode": "SOO"
   },
   {
-    "name": "Spirulina platensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Spirulina platensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ULL"
+    "alphaCode": "ULL"
   },
   {
-    "name": "Trochita spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Trochita spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "UDX"
+    "alphaCode": "UDX"
   },
   {
-    "name": "Wallago spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Wallago spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "WAX"
+    "alphaCode": "WAX"
   },
   {
-    "name": "Acetes japonicus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Acetes japonicus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "AKS"
+    "alphaCode": "AKS"
   },
   {
-    "name": "Pterygoplichthys pardalis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pterygoplichthys pardalis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "QYP"
+    "alphaCode": "QYP"
   },
   {
-    "name": "Anguilla rostrata",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Anguilla rostrata",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ELA"
+    "alphaCode": "ELA"
   },
   {
-    "name": "Anadara spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Anadara spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BLS"
+    "alphaCode": "BLS"
   },
   {
-    "name": "Odontesthes bonariensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Odontesthes bonariensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BCB"
+    "alphaCode": "BCB"
   },
   {
-    "name": "Aspius aspius",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Aspius aspius",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ASU"
+    "alphaCode": "ASU"
   },
   {
-    "name": "Venerupis rhomboides",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Venerupis rhomboides",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "VNR"
+    "alphaCode": "VNR"
   },
   {
-    "name": "Chaetodipterus faber",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Chaetodipterus faber",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HRF"
+    "alphaCode": "HRF"
   },
   {
-    "name": "Anarhichas lupus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Anarhichas lupus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CAA"
+    "alphaCode": "CAA"
   },
   {
-    "name": "Palaemon adspersus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Palaemon adspersus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PAA"
+    "alphaCode": "PAA"
   },
   {
-    "name": "Paralichthys spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Paralichthys spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BAX"
+    "alphaCode": "BAX"
   },
   {
-    "name": "Bagrus bajad",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Bagrus bajad",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BGJ"
+    "alphaCode": "BGJ"
   },
   {
-    "name": "Caranx sexfasciatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Caranx sexfasciatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CXS"
+    "alphaCode": "CXS"
   },
   {
-    "name": "Atherina boyeri",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Atherina boyeri",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ATB"
+    "alphaCode": "ATB"
   },
   {
-    "name": "Chrysichthys spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Chrysichthys spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CST"
+    "alphaCode": "CST"
   },
   {
-    "name": "Mycteroperca bonaci",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Mycteroperca bonaci",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MAB"
+    "alphaCode": "MAB"
   },
   {
-    "name": "Centropristis striata",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Centropristis striata",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BSB"
+    "alphaCode": "BSB"
   },
   {
-    "name": "Cichlasoma maculicauda",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cichlasoma maculicauda",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CHK"
+    "alphaCode": "CHK"
   },
   {
-    "name": "Callinectes sapidus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Callinectes sapidus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CRB"
+    "alphaCode": "CRB"
   },
   {
-    "name": "Pomatomus saltatrix",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pomatomus saltatrix",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BLU"
+    "alphaCode": "BLU"
   },
   {
-    "name": "Lepomis macrochirus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Lepomis macrochirus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LMM"
+    "alphaCode": "LMM"
   },
   {
-    "name": "Valamugil seheli",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Valamugil seheli",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "VMH"
+    "alphaCode": "VMH"
   },
   {
-    "name": "Scophthalmus rhombus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Scophthalmus rhombus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BLL"
+    "alphaCode": "BLL"
   },
   {
-    "name": "Artemia salina",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Artemia salina",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "AMS"
+    "alphaCode": "AMS"
   },
   {
-    "name": "Sciaena umbra",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Sciaena umbra",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CBM"
+    "alphaCode": "CBM"
   },
   {
-    "name": "Penaeus esculentus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Penaeus esculentus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PRB"
+    "alphaCode": "PRB"
   },
   {
-    "name": "Ictiobus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Ictiobus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BUF"
+    "alphaCode": "BUF"
   },
   {
-    "name": "Callinectes spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Callinectes spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CAL"
+    "alphaCode": "CAL"
   },
   {
-    "name": "Ruditapes spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Ruditapes spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TPS"
+    "alphaCode": "TPS"
   },
   {
-    "name": "Leuciscus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Leuciscus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LEW"
+    "alphaCode": "LEW"
   },
   {
-    "name": "Oncorhynchus keta",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oncorhynchus keta",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CHU"
+    "alphaCode": "CHU"
   },
   {
-    "name": "Cichlasoma spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cichlasoma spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CHX"
+    "alphaCode": "CHX"
   },
   {
-    "name": "Caulerpa racemosa",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Caulerpa racemosa",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "KQR"
+    "alphaCode": "KQR"
   },
   {
-    "name": "Cardiidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cardiidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "COZ"
+    "alphaCode": "COZ"
   },
   {
-    "name": "Sepia officinalis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Sepia officinalis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CTC"
+    "alphaCode": "CTC"
   },
   {
-    "name": "Pagellus erythrinus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pagellus erythrinus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PAC"
+    "alphaCode": "PAC"
   },
   {
-    "name": "Palaemon serratus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Palaemon serratus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CPR"
+    "alphaCode": "CPR"
   },
   {
-    "name": "Centropomus undecimalis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Centropomus undecimalis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SNO"
+    "alphaCode": "SNO"
   },
   {
-    "name": "Diplodus vulgaris",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Diplodus vulgaris",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CTB"
+    "alphaCode": "CTB"
   },
   {
-    "name": "Caranx hippos",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Caranx hippos",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CVJ"
+    "alphaCode": "CVJ"
   },
   {
-    "name": "Evynnis japonica",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Evynnis japonica",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ENJ"
+    "alphaCode": "ENJ"
   },
   {
-    "name": "Sciaenidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Sciaenidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CDX"
+    "alphaCode": "CDX"
   },
   {
-    "name": "Muraenesox cinereus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Muraenesox cinereus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "DPC"
+    "alphaCode": "DPC"
   },
   {
-    "name": "Chalcalburnus chalcoides",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Chalcalburnus chalcoides",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "NUC"
+    "alphaCode": "NUC"
   },
   {
-    "name": "Donax spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Donax spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "DON"
+    "alphaCode": "DON"
   },
   {
-    "name": "Brycon moorei",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Brycon moorei",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BCM"
+    "alphaCode": "BCM"
   },
   {
-    "name": "Umbrina spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Umbrina spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "UBS"
+    "alphaCode": "UBS"
   },
   {
-    "name": "Sorubim lima",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Sorubim lima",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SBM"
+    "alphaCode": "SBM"
   },
   {
-    "name": "Palmaria palmata",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Palmaria palmata",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "RHP"
+    "alphaCode": "RHP"
   },
   {
-    "name": "Penaeus plebejus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Penaeus plebejus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PNP"
+    "alphaCode": "PNP"
   },
   {
-    "name": "Metapenaeus macleayi",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Metapenaeus macleayi",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MPM"
+    "alphaCode": "MPM"
   },
   {
-    "name": "Platichthys flesus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Platichthys flesus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FLE"
+    "alphaCode": "FLE"
   },
   {
-    "name": "Rana ridibunda",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Rana ridibunda",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FGI"
+    "alphaCode": "FGI"
   },
   {
-    "name": "Concholepas concholepas",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Concholepas concholepas",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SNE"
+    "alphaCode": "SNE"
   },
   {
-    "name": "Cantherhines (=Navodon) spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Cantherhines (=Navodon) spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FLF"
+    "alphaCode": "FLF"
   },
   {
-    "name": "Ostrea spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Ostrea spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OYX"
+    "alphaCode": "OYX"
   },
   {
-    "name": "Thenus orientalis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Thenus orientalis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "THQ"
+    "alphaCode": "THQ"
   },
   {
-    "name": "Tridacna squamosa",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Tridacna squamosa",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TDS"
+    "alphaCode": "TDS"
   },
   {
-    "name": "Abramis spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Abramis spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FBR"
+    "alphaCode": "FBR"
   },
   {
-    "name": "Aplodinotus grunniens",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Aplodinotus grunniens",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "AGR"
+    "alphaCode": "AGR"
   },
   {
-    "name": "Gobiidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Gobiidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FGX"
+    "alphaCode": "FGX"
   },
   {
-    "name": "Gastropoda",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Gastropoda",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "GAS"
+    "alphaCode": "GAS"
   },
   {
-    "name": "Portunus trituberculatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Portunus trituberculatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "GAZ"
+    "alphaCode": "GAZ"
   },
   {
-    "name": "Gelidium spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Gelidium spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "GEL"
+    "alphaCode": "GEL"
   },
   {
-    "name": "Tridacna gigas",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Tridacna gigas",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TDG"
+    "alphaCode": "TDG"
   },
   {
-    "name": "Venerupis aurea",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Venerupis aurea",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "VNA"
+    "alphaCode": "VNA"
   },
   {
-    "name": "Macquaria ambigua",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Macquaria ambigua",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MCA"
+    "alphaCode": "MCA"
   },
   {
-    "name": "Oncorhynchus aguabonita",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oncorhynchus aguabonita",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ONA"
+    "alphaCode": "ONA"
   },
   {
-    "name": "Acanthopagrus berda",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Acanthopagrus berda",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MLB"
+    "alphaCode": "MLB"
   },
   {
-    "name": "Epinephelus tauvina",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Epinephelus tauvina",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "EPT"
+    "alphaCode": "EPT"
   },
   {
-    "name": "Boleophthalmus pectinirostris",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Boleophthalmus pectinirostris",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BFP"
+    "alphaCode": "BFP"
   },
   {
-    "name": "Aequidens rivulatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Aequidens rivulatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "AER"
+    "alphaCode": "AER"
   },
   {
-    "name": "Penaeus semisulcatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Penaeus semisulcatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TIP"
+    "alphaCode": "TIP"
   },
   {
-    "name": "Chelonia mydas",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Chelonia mydas",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TUG"
+    "alphaCode": "TUG"
   },
   {
-    "name": "Eleotridae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Eleotridae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FGB"
+    "alphaCode": "FGB"
   },
   {
-    "name": "Melanogrammus aeglefinus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Melanogrammus aeglefinus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HAD"
+    "alphaCode": "HAD"
   },
   {
-    "name": "Asparagopsis spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Asparagopsis spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ASR"
+    "alphaCode": "ASR"
   },
   {
-    "name": "Clarias fuscus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Clarias fuscus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CFS"
+    "alphaCode": "CFS"
   },
   {
-    "name": "Epinephelus akaara",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Epinephelus akaara",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "EPA"
+    "alphaCode": "EPA"
   },
   {
-    "name": "Turbo cornutus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Turbo cornutus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TOS"
+    "alphaCode": "TOS"
   },
   {
-    "name": "Modiolus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Modiolus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MOD"
+    "alphaCode": "MOD"
   },
   {
-    "name": "Trachurus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Trachurus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "JAX"
+    "alphaCode": "JAX"
   },
   {
-    "name": "Gelidium amansii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Gelidium amansii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "GDY"
+    "alphaCode": "GDY"
   },
   {
-    "name": "Argyrosomus japonicus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Argyrosomus japonicus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "RYJ"
+    "alphaCode": "RYJ"
   },
   {
-    "name": "Panulirus japonicus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Panulirus japonicus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "NUJ"
+    "alphaCode": "NUJ"
   },
   {
-    "name": "Rutilus frisii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Rutilus frisii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "RFR"
+    "alphaCode": "RFR"
   },
   {
-    "name": "Mugil liza",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Mugil liza",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MUB"
+    "alphaCode": "MUB"
   },
   {
-    "name": "Coryphaenoides subserrulatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Coryphaenoides subserrulatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MCS"
+    "alphaCode": "MCS"
   },
   {
-    "name": "Scombridae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Scombridae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MAX"
+    "alphaCode": "MAX"
   },
   {
-    "name": "Lutjanus malabaricus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Lutjanus malabaricus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MAL"
+    "alphaCode": "MAL"
   },
   {
-    "name": "Carangoides malabaricus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Carangoides malabaricus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "NGS"
+    "alphaCode": "NGS"
   },
   {
-    "name": "Siganus rivulatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Siganus rivulatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SRI"
+    "alphaCode": "SRI"
   },
   {
-    "name": "Polyodon spathula",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Polyodon spathula",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PAM"
+    "alphaCode": "PAM"
   },
   {
-    "name": "Gerres spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Gerres spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MOJ"
+    "alphaCode": "MOJ"
   },
   {
-    "name": "Macrobrachium lar",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Macrobrachium lar",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BKR"
+    "alphaCode": "BKR"
   },
   {
-    "name": "Clarias anguillaris",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Clarias anguillaris",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CLN"
+    "alphaCode": "CLN"
   },
   {
-    "name": "Maccullochella peelii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Maccullochella peelii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MCP"
+    "alphaCode": "MCP"
   },
   {
-    "name": "Bagrus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Bagrus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CAN"
+    "alphaCode": "CAN"
   },
   {
-    "name": "Labeo victorianus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Labeo victorianus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LOC"
+    "alphaCode": "LOC"
   },
   {
-    "name": "Penaeus setiferus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Penaeus setiferus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PST"
+    "alphaCode": "PST"
   },
   {
-    "name": "Octopodidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Octopodidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OCT"
+    "alphaCode": "OCT"
   },
   {
-    "name": "Pleurogrammus azonus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pleurogrammus azonus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ATK"
+    "alphaCode": "ATK"
   },
   {
-    "name": "Ostreola conchaphila",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Ostreola conchaphila",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OYH"
+    "alphaCode": "OYH"
   },
   {
-    "name": "Leuciscus idus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Leuciscus idus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FID"
+    "alphaCode": "FID"
   },
   {
-    "name": "Rhodophyceae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Rhodophyceae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SWR"
+    "alphaCode": "SWR"
   },
   {
-    "name": "Argopecten ventricosus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Argopecten ventricosus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SCH"
+    "alphaCode": "SCH"
   },
   {
-    "name": "Tresus nuttallii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Tresus nuttallii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TQU"
+    "alphaCode": "TQU"
   },
   {
-    "name": "Oncorhynchus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Oncorhynchus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ORC"
+    "alphaCode": "ORC"
   },
   {
-    "name": "Palinurus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Palinurus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CRW"
+    "alphaCode": "CRW"
   },
   {
-    "name": "Lutjanus goldiei",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Lutjanus goldiei",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LVG"
+    "alphaCode": "LVG"
   },
   {
-    "name": "Pagrus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pagrus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SBP"
+    "alphaCode": "SBP"
   },
   {
-    "name": "Coregonus peled",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Coregonus peled",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CIJ"
+    "alphaCode": "CIJ"
   },
   {
-    "name": "Pteria penguin",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pteria penguin",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PTE"
+    "alphaCode": "PTE"
   },
   {
-    "name": "Scrobicularia plana",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Scrobicularia plana",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OBN"
+    "alphaCode": "OBN"
   },
   {
-    "name": "Percoidei",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Percoidei",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PRC"
+    "alphaCode": "PRC"
   },
   {
-    "name": "Littorina spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Littorina spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PER"
+    "alphaCode": "PER"
   },
   {
-    "name": "Pollachius pollachius",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pollachius pollachius",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "POL"
+    "alphaCode": "POL"
   },
   {
-    "name": "Pyura stolonifera",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pyura stolonifera",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SSR"
+    "alphaCode": "SSR"
   },
   {
-    "name": "Penaeus penicillatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Penaeus penicillatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "REP"
+    "alphaCode": "REP"
   },
   {
-    "name": "Labeo spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Labeo spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "RHI"
+    "alphaCode": "RHI"
   },
   {
-    "name": "Barbus altianalis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Barbus altianalis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BBU"
+    "alphaCode": "BBU"
   },
   {
-    "name": "Paphia gallus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Paphia gallus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FAG"
+    "alphaCode": "FAG"
   },
   {
-    "name": "Diplodus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Diplodus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SRG"
+    "alphaCode": "SRG"
   },
   {
-    "name": "Scatophagus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Scatophagus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SCT"
+    "alphaCode": "SCT"
   },
   {
-    "name": "Sciaena spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Sciaena spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "DRU"
+    "alphaCode": "DRU"
   },
   {
-    "name": "Dicentrarchus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Dicentrarchus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "BSE"
+    "alphaCode": "BSE"
   },
   {
-    "name": "Anguilla australis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Anguilla australis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ELU"
+    "alphaCode": "ELU"
   },
   {
-    "name": "Pelecus cultratus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pelecus cultratus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "FSC"
+    "alphaCode": "FSC"
   },
   {
-    "name": "Pacifastacus leniusculus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pacifastacus leniusculus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PCL"
+    "alphaCode": "PCL"
   },
   {
-    "name": "Atherinidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Atherinidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SIL"
+    "alphaCode": "SIL"
   },
   {
-    "name": "Mactra glabrata",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Mactra glabrata",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MAG"
+    "alphaCode": "MAG"
   },
   {
-    "name": "Centropomus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Centropomus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ROB"
+    "alphaCode": "ROB"
   },
   {
-    "name": "Mugil soiuy",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Mugil soiuy",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MYZ"
+    "alphaCode": "MYZ"
   },
   {
-    "name": "Rhamdia quelen",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Rhamdia quelen",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "RMQ"
+    "alphaCode": "RMQ"
   },
   {
-    "name": "Pecten fumatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pecten fumatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SSC"
+    "alphaCode": "SSC"
   },
   {
-    "name": "Penaeus schmitti",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Penaeus schmitti",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PNT"
+    "alphaCode": "PNT"
   },
   {
-    "name": "Maja squinado",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Maja squinado",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SCR"
+    "alphaCode": "SCR"
   },
   {
-    "name": "Palinuridae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Palinuridae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "VLO"
+    "alphaCode": "VLO"
   },
   {
-    "name": "Anarhichas minor",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Anarhichas minor",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CAS"
+    "alphaCode": "CAS"
   },
   {
-    "name": "Liza vaigiensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Liza vaigiensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LZV"
+    "alphaCode": "LZV"
   },
   {
-    "name": "Paracentrotus lividus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Paracentrotus lividus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "URM"
+    "alphaCode": "URM"
   },
   {
-    "name": "Siganus javus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Siganus javus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "IGV"
+    "alphaCode": "IGV"
   },
   {
-    "name": "Chamelea gallina",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Chamelea gallina",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SVE"
+    "alphaCode": "SVE"
   },
   {
-    "name": "Strombus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Strombus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CON"
+    "alphaCode": "CON"
   },
   {
-    "name": "Hypostomus plecostomus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Hypostomus plecostomus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HSL"
+    "alphaCode": "HSL"
   },
   {
-    "name": "Portunidae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Portunidae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "SWM"
+    "alphaCode": "SWM"
   },
   {
-    "name": "Saccostrea commercialis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Saccostrea commercialis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "OYS"
+    "alphaCode": "OYS"
   },
   {
-    "name": "Laminaria digitata",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Laminaria digitata",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LQD"
+    "alphaCode": "LQD"
   },
   {
-    "name": "Megalops atlanticus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Megalops atlanticus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "TAR"
+    "alphaCode": "TAR"
   },
   {
-    "name": "Liza ramada",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Liza ramada",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "MGC"
+    "alphaCode": "MGC"
   },
   {
-    "name": "Gasterosteus aculeatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Gasterosteus aculeatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "GTA"
+    "alphaCode": "GTA"
   },
   {
-    "name": "Hoplias malabaricus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Hoplias malabaricus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "HWU"
+    "alphaCode": "HWU"
   },
   {
-    "name": "Lethrinus miniatus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Lethrinus miniatus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LHI"
+    "alphaCode": "LHI"
   },
   {
-    "name": "Lutjanus bohar",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Lutjanus bohar",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "LJB"
+    "alphaCode": "LJB"
   },
   {
-    "name": "Chlamys varia",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Chlamys varia",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "VSC"
+    "alphaCode": "VSC"
   },
   {
-    "name": "Rohtee ogilbii",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Rohtee ogilbii",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ROG"
+    "alphaCode": "ROG"
   },
   {
-    "name": "Astronotus spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Astronotus spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "AST"
+    "alphaCode": "AST"
   },
   {
-    "name": "Veneridae",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Veneridae",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CLV"
+    "alphaCode": "CLV"
   },
   {
-    "name": "Vimba vimba",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Vimba vimba",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "VIV"
+    "alphaCode": "VIV"
   },
   {
-    "name": "Psammoperca waigiensis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Psammoperca waigiensis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PWG"
+    "alphaCode": "PWG"
   },
   {
-    "name": "Undaria spp",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Undaria spp",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "UDS"
+    "alphaCode": "UDS"
   },
   {
-    "name": "Blicca bjoerkna",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Blicca bjoerkna",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "ABK"
+    "alphaCode": "ABK"
   },
   {
-    "name": "Pomoxis annularis",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Pomoxis annularis",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "PXR"
+    "alphaCode": "PXR"
   },
   {
-    "name": "Acipenser transmontanus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Acipenser transmontanus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "APN"
+    "alphaCode": "APN"
   },
   {
-    "name": "Micropogonias furnieri",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Micropogonias furnieri",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "CKM"
+    "alphaCode": "CKM"
   },
   {
-    "name": "Dentex tumifrons",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Dentex tumifrons",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "DTT"
+    "alphaCode": "DTT"
   },
   {
-    "name": "Serranochromis robustus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Serranochromis robustus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "YBB"
+    "alphaCode": "YBB"
   },
   {
-    "name": "Acanthopagrus latus",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Acanthopagrus latus",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "YWF"
+    "alphaCode": "YWF"
   },
   {
-    "name": "Thunnus albacares",
-    "lastUpdate": "2020-05-15",
+    "scientificName": "Thunnus albacares",
+    "lastModifiedDate": "2020-05-15",
     "production": "26000",
-    "3AlfaSpecies": "YFT"
+    "alphaCode": "YFT"
   }
 ];
