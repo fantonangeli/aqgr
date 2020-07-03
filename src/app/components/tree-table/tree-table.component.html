@@ -4,7 +4,7 @@
             <td class="align-top text-truncate" *ngIf="first" [ngStyle]="{'padding-left': (pleft+20)+'px'}" [ngClass]="'index-'+i" class="text-break">
                 <span class="font-weight-bold h6">{{getToggleIcon(element)}}</span> 
                 &nbsp;{{field}}
-                <a [routerLink]="['/country',element.Ccode]" *ngIf="element.Ccode" routerLinkActive="router-link-active"><fa-icon *ngIf="!element.children" [icon]="faChartPie"></fa-icon></a>
+                <ng-template *ngTemplateOutlet="firstFieldAppendTpl; context: {$implicit: element}"></ng-template>
             </td>
             <td class="text-truncate" *ngIf="!first" [ngClass]="'index-'+i" class="text-break text-right">
                 {{field}}

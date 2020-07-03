@@ -6,6 +6,7 @@ import {UtilsService} from '../../services/utils.service'
 import {SearchServiceParams} from '../../namespace';
 import {LoggerService} from '../../services/logger.service';
 import { environment } from '../../../environments/environment';
+import { faChartPie } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
     selector: 'app-fish-stat-table',
@@ -20,6 +21,7 @@ export class FishStatTableComponent implements OnChanges {
     disableTonnes=false;
     @Input() filterValues: Filter[]=[];
     lastTimeseriesYear=environment.lastTimeseriesYear;
+    faChartPie = faChartPie;
 
 
     constructor(private _fishstatService: FishStatCultSpecCountriesService, private _utilsService:UtilsService, private _logger:LoggerService){

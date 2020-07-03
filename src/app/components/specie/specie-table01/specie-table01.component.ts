@@ -5,10 +5,11 @@ import {UtilsService} from '../../../services/utils.service'
 import {SearchServiceParams} from '../../../namespace';
 import {LoggerService} from '../../../services/logger.service';
 import { environment } from '../../../../environments/environment';
+import { faChartPie } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
     selector: 'app-specie-table01',
-    template:`<app-tree-table [data]="fishTableData" [columns]="['Area', 'Total production in tonnes '+lastTimeseriesYear, 'Primary farmed types', 'Secondary farmed types']" [enableTotal]="true" [ngClass]="{'disable-tonnes':disableTonnes}"></app-tree-table>`,
+    templateUrl:'specie-table01.component.html',
 })
 export class SpecieTable01Component implements OnChanges {
     fishdata:Object={};
@@ -17,6 +18,7 @@ export class SpecieTable01Component implements OnChanges {
     disableTonnes=false;
     @Input() filterValues: Filter[]=[];
     lastTimeseriesYear=environment.lastTimeseriesYear;
+    faChartPie = faChartPie;
 
 
     constructor(private _fishstatService: FishStatCultSpecCountriesService, private _utilsService:UtilsService, private _logger:LoggerService){

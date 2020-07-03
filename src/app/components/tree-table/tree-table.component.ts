@@ -1,5 +1,4 @@
-import { Component, OnChanges, Input } from '@angular/core';
-import { faChartPie } from '@fortawesome/free-solid-svg-icons';
+import { Component, OnChanges, Input, ContentChild, TemplateRef, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-tree-table',
@@ -12,13 +11,13 @@ export class TreeTableComponent implements OnChanges {
     @Input() columns: any[] = [];
     @Input() childColumns: any[] = [];
 
+    @ContentChild('firstFieldAppendTpl') firstFieldAppendTpl: TemplateRef<ElementRef>;
+
     /**
      * enable the total row
      *
      */
     @Input() enableTotal: boolean=false;
-
-    faChartPie = faChartPie;
 
     totalRowData:any[]=[];
 
