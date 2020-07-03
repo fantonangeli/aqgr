@@ -8,7 +8,25 @@
         </div>
     </div>
 
-    <!-- <app&#45;species&#45;list [filterValues]="filterValues" (onTaxonomyClickEvent)="speciesList_onTaxonomyClick($event)"></app&#45;species&#45;list> -->
+    <div class="row">
+
+        <div class="col-12 font-weight-bold h6 text-left pt-5">
+            List of farmed types, primary and secondary, of {{specieName}}
+        </div>
+
+    </div>
+
+    <div class="row p-2">
+
+        <div class="col-3 h2 pl-2">
+            {{totalProduction}}<br>tonnes
+        </div>
+
+        <div class="col-9">
+            <app-specie-table01 [filterValues]="filterValues"> </app-specie-table01>
+        </div>
+
+    </div>
 
     <!-- <app&#45;accordion01 [(isOpen)]="isAccordion01open"> -->
     <!--     <div header>Number of primary farmed types</div> -->

@@ -20,6 +20,7 @@ export class SpecieComponent implements OnInit {
 
     specieName:string="";
     lastModifiedDate:string="";
+    totalProduction:number;
     defaultDateFormat:string=environment.defaultDateFormat;
 
     constructor(private route: ActivatedRoute, private _specieInfoService:SpecieInfoService, private _logger:LoggerService) { }
@@ -35,6 +36,7 @@ export class SpecieComponent implements OnInit {
                 let filter=new Filter();
 
                 this.specieName=data[0].scientificName;
+                this.totalProduction=data[0].timeseries[environment.lastTimeseriesYear];
                 this.lastModifiedDate=data[0].lastModifiedDate;
 
                 filter.key="species";
