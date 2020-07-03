@@ -10,6 +10,7 @@ export const environment = {
     production: false,
     logging:true,
     defaultAccordionIsOpenValue:true,
+    lastTimeseriesYear:"2017",
 
     /**
      * default date format used to format dates 

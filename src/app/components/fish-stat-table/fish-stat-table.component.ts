@@ -5,6 +5,7 @@ import { Filter} from '../search/namespace';
 import {UtilsService} from '../../services/utils.service'
 import {SearchServiceParams} from '../../namespace';
 import {LoggerService} from '../../services/logger.service';
+import { environment } from '../../../environments/environment';
 
 @Component({
     selector: 'app-fish-stat-table',
@@ -18,6 +19,7 @@ export class FishStatTableComponent implements OnChanges {
     data=[];
     disableTonnes=false;
     @Input() filterValues: Filter[]=[];
+    lastTimeseriesYear=environment.lastTimeseriesYear;
 
 
     constructor(private _fishstatService: FishStatCultSpecCountriesService, private _utilsService:UtilsService, private _logger:LoggerService){
@@ -37,20 +39,20 @@ export class FishStatTableComponent implements OnChanges {
 
         return newdata.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(e=>[
             e.Name,
-            Number(e.Timeseries["2017"]).toLocaleString('en-US'),
+            Number(e.Timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
             e.Species,
             e.FTypes,
             e.SFTypes,
-            e.Regions=e.Regions.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(r=>[
+            e.Regions.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(r=>[
                 r.Name,
-                Number(r.Timeseries["2017"]).toLocaleString('en-US'),
+                Number(e.Timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
                 r.Species,
                 r.FTypes,
                 r.SFTypes,
-                r.Countries=r.Countries.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(c=>{
+                r.Countries.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(c=>{
                     let rv=[
                         c.Name,
-                        Number(c.Timeseries["2017"]).toLocaleString('en-US'),
+                        Number(e.Timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
                         c.Species,
                         c.FTypes,
                         c.SFTypes,
