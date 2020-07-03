@@ -5,6 +5,7 @@ import { Filter} from '../../search/namespace';
 import {UtilsService} from '../../../services/utils.service'
 import {SearchServiceParams} from '../../../namespace';
 import {LoggerService} from '../../../services/logger.service';
+import { environment } from '../../../../environments/environment';
 
 @Component({
   selector: 'app-country-table01',
@@ -13,8 +14,8 @@ import {LoggerService} from '../../../services/logger.service';
 })
 export class CountryTable01Component implements OnChanges {
     @Input() filterValues: Filter[]=[];
-    totalProd:number;
     data:object[]=[];
+    lastTimeseriesYear=environment.lastTimeseriesYear;
 
 
     constructor(private _service: CountryGroupsSpeciesService, private _utilsService:UtilsService, private _logger:LoggerService){
@@ -34,13 +35,13 @@ export class CountryTable01Component implements OnChanges {
 
         return newdata.map(e=>[
             e.Name,
-            e.Production,
+            Number(e.Timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
             e.Ftypes,
             e.SFtypes,
             null,
             e.Species=e.Species.map(r=>[
                 r.Name,
-                r.Production,
+                Number(r.Timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
                 r.Ftypes,
                 r.SFtypes,
                 r.Native,

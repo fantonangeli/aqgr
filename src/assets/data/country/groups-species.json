@@ -1,84 +1,108 @@
 [
   {
     "Name": "Aquatic plants",
-    "Production": "17,533,590.0",
+    "Timeseries": {
+      "2017": 17533590
+    },
     "Ftypes": 102,
     "SFtypes": 0,
     "Native": "",
     "Species": [
       {
         "Name": "Algae",
-        "Production": "664,530.0",
+        "Timeseries": {
+          "2017": 664530
+        },
         "Ftypes": 9,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Enteromorpha clathrata",
-        "Production": "3,400.0",
+        "Timeseries": {
+          "2017": 3400
+        },
         "Ftypes": 8,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Eucheuma spp",
-        "Production": "56,290.0",
+        "Timeseries": {
+          "2017": 56290
+        },
         "Ftypes": 12,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Gelidium amansii",
-        "Production": ".0",
+        "Timeseries": {
+          "2017": 0
+        },
         "Ftypes": 0,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Gracilaria spp",
-        "Production": "3,086,740.0",
+        "Timeseries": {
+          "2017": 3086740
+        },
         "Ftypes": 9,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Haematococcus pluvialis",
-        "Production": "200.0",
+        "Timeseries": {
+          "2017": 200
+        },
         "Ftypes": 10,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Laminaria japonica",
-        "Production": "10,049,720.0",
+        "Timeseries": {
+          "2017": 10049720
+        },
         "Ftypes": 14,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Porphyra spp",
-        "Production": "1,733,050.0",
+        "Timeseries": {
+          "2017": 1733050
+        },
         "Ftypes": 10,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Sargassum fusiforme",
-        "Production": "199,970.0",
+        "Timeseries": {
+          "2017": 199970
+        },
         "Ftypes": 16,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Spirulina spp",
-        "Production": "71,740.0",
+        "Timeseries": {
+          "2017": 71740
+        },
         "Ftypes": 11,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Undaria pinnatifida",
-        "Production": "1,667,950.0",
+        "Timeseries": {
+          "2017": 1667950
+        },
         "Ftypes": 3,
         "SFtypes": 0,
         "Native": "Yes"
@@ -87,105 +111,135 @@
   },
   {
     "Name": "Crustaceans",
-    "Production": "4,549,725.0",
+    "Timeseries": {
+      "2017": 4549725
+    },
     "Ftypes": 107,
     "SFtypes": 0,
     "Native": "",
     "Species": [
       {
         "Name": "Brachyura",
-        "Production": "14,278.0",
+        "Timeseries": {
+          "2017": 14278
+        },
         "Ftypes": 4,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Eriocheir sinensis",
-        "Production": "750,945.0",
+        "Timeseries": {
+          "2017": 750945
+        },
         "Ftypes": 11,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Macrobrachium nipponense",
-        "Production": "240,739.0",
+        "Timeseries": {
+          "2017": 240739
+        },
         "Ftypes": 5,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Macrobrachium rosenbergii",
-        "Production": "137,360.0",
+        "Timeseries": {
+          "2017": 137360
+        },
         "Ftypes": 5,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Palaemonidae",
-        "Production": "68,292.0",
+        "Timeseries": {
+          "2017": 68292
+        },
         "Ftypes": 7,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Penaeus chinensis",
-        "Production": "37,458.0",
+        "Timeseries": {
+          "2017": 37458
+        },
         "Ftypes": 6,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Penaeus japonicus",
-        "Production": "52,466.0",
+        "Timeseries": {
+          "2017": 52466
+        },
         "Ftypes": 9,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Penaeus monodon",
-        "Production": "75,227.0",
+        "Timeseries": {
+          "2017": 75227
+        },
         "Ftypes": 7,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Penaeus spp",
-        "Production": "99,212.0",
+        "Timeseries": {
+          "2017": 99212
+        },
         "Ftypes": 7,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Penaeus vannamei",
-        "Production": "1,672,287.0",
+        "Timeseries": {
+          "2017": 1672287
+        },
         "Ftypes": 24,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Portunidae",
-        "Production": ".0",
+        "Timeseries": {
+          "2017": 0
+        },
         "Ftypes": 0,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Portunus spp",
-        "Production": "119,777.0",
+        "Timeseries": {
+          "2017": 119777
+        },
         "Ftypes": 11,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Procambarus clarkii",
-        "Production": "1,129,708.0",
+        "Timeseries": {
+          "2017": 1129708
+        },
         "Ftypes": 6,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Scylla paramamosain",
-        "Production": "151,976.0",
+        "Timeseries": {
+          "2017": 151976
+        },
         "Ftypes": 5,
         "SFtypes": 0,
         "Native": "No"
@@ -194,49 +248,63 @@
   },
   {
     "Name": "Diadromous fishes",
-    "Production": "377,636.0",
+    "Timeseries": {
+      "2017": 377636
+    },
     "Ftypes": 35,
     "SFtypes": 0,
     "Native": "",
     "Species": [
       {
         "Name": "Acipenseridae",
-        "Production": "83,058.0",
+        "Timeseries": {
+          "2017": 83058
+        },
         "Ftypes": 7,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Anguilla japonica",
-        "Production": "217,263.0",
+        "Timeseries": {
+          "2017": 217263
+        },
         "Ftypes": 9,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Hypomesus olidus",
-        "Production": "12,067.0",
+        "Timeseries": {
+          "2017": 12067
+        },
         "Ftypes": 5,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Oncorhynchus mykiss",
-        "Production": "41,460.0",
+        "Timeseries": {
+          "2017": 41460
+        },
         "Ftypes": 8,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Protosalanx hyalocranius",
-        "Production": "20,699.0",
+        "Timeseries": {
+          "2017": 20699
+        },
         "Ftypes": 6,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Salmonoidei",
-        "Production": "3,089.0",
+        "Timeseries": {
+          "2017": 3089
+        },
         "Ftypes": 0,
         "SFtypes": 0,
         "Native": "No"
@@ -245,154 +313,198 @@
   },
   {
     "Name": "Freshwater fishes",
-    "Production": "25,025,844.0",
+    "Timeseries": {
+      "2017": 25025844
+    },
     "Ftypes": 209,
     "SFtypes": 0,
     "Native": "",
     "Species": [
       {
         "Name": "Carassius spp",
-        "Production": "2,817,989.0",
+        "Timeseries": {
+          "2017": 2817989
+        },
         "Ftypes": 15,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Channa argus",
-        "Production": "483,141.0",
+        "Timeseries": {
+          "2017": 483141
+        },
         "Ftypes": 8,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Cirrhinus molitorella",
-        "Production": ".0",
+        "Timeseries": {
+          "2017": 0
+        },
         "Ftypes": 0,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Ctenopharyngodon idellus",
-        "Production": "5,345,641.0",
+        "Timeseries": {
+          "2017": 5345641
+        },
         "Ftypes": 12,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Cyprinus carpio",
-        "Production": "3,004,345.0",
+        "Timeseries": {
+          "2017": 3004345
+        },
         "Ftypes": 11,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Hypophthalmichthys molitrix",
-        "Production": "3,852,813.0",
+        "Timeseries": {
+          "2017": 3852813
+        },
         "Ftypes": 14,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Hypophthalmichthys nobilis",
-        "Production": "3,097,952.0",
+        "Timeseries": {
+          "2017": 3097952
+        },
         "Ftypes": 11,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Ictalurus punctatus",
-        "Production": "227,454.0",
+        "Timeseries": {
+          "2017": 227454
+        },
         "Ftypes": 9,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Leiocassis longirostris",
-        "Production": "21,331.0",
+        "Timeseries": {
+          "2017": 21331
+        },
         "Ftypes": 4,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Megalobrama amblycephala",
-        "Production": "833,393.0",
+        "Timeseries": {
+          "2017": 833393
+        },
         "Ftypes": 12,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Micropterus salmoides",
-        "Production": "456,888.0",
+        "Timeseries": {
+          "2017": 456888
+        },
         "Ftypes": 7,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Misgurnus anguillicaudatus",
-        "Production": "394,691.0",
+        "Timeseries": {
+          "2017": 394691
+        },
         "Ftypes": 14,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Monopterus albus",
-        "Production": "358,295.0",
+        "Timeseries": {
+          "2017": 358295
+        },
         "Ftypes": 10,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Mylopharyngodon piceus",
-        "Production": "684,502.0",
+        "Timeseries": {
+          "2017": 684502
+        },
         "Ftypes": 10,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Oreochromis aureus x O. niloticus",
-        "Production": "396,200.0",
+        "Timeseries": {
+          "2017": 396200
+        },
         "Ftypes": 13,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Oreochromis niloticus",
-        "Production": "1,188,480.0",
+        "Timeseries": {
+          "2017": 1188480
+        },
         "Ftypes": 10,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Osteichthyes",
-        "Production": "582,689.0",
+        "Timeseries": {
+          "2017": 582689
+        },
         "Ftypes": 11,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Pelteobagrus fulvidraco",
-        "Production": "480,032.0",
+        "Timeseries": {
+          "2017": 480032
+        },
         "Ftypes": 10,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Piaractus brachypomus",
-        "Production": "82,119.0",
+        "Timeseries": {
+          "2017": 82119
+        },
         "Ftypes": 8,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Silurus asotus",
-        "Production": "382,306.0",
+        "Timeseries": {
+          "2017": 382306
+        },
         "Ftypes": 11,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Siniperca chuatsi",
-        "Production": "335,583.0",
+        "Timeseries": {
+          "2017": 335583
+        },
         "Ftypes": 9,
         "SFtypes": 0,
         "Native": "No"
@@ -401,105 +513,135 @@
   },
   {
     "Name": "Marine fishes",
-    "Production": "1,425,672.0",
+    "Timeseries": {
+      "2017": 1425672
+    },
     "Ftypes": 109,
     "SFtypes": 0,
     "Native": "",
     "Species": [
       {
         "Name": "Bothidae",
-        "Production": "60,737.0",
+        "Timeseries": {
+          "2017": 60737
+        },
         "Ftypes": 6,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Epinephelus spp",
-        "Production": "131,536.0",
+        "Timeseries": {
+          "2017": 131536
+        },
         "Ftypes": 8,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Larimichthys croceus",
-        "Production": "177,640.0",
+        "Timeseries": {
+          "2017": 177640
+        },
         "Ftypes": 8,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Lateolabrax japonicus",
-        "Production": "156,595.0",
+        "Timeseries": {
+          "2017": 156595
+        },
         "Ftypes": 8,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Osteichthyes",
-        "Production": "470,067.0",
+        "Timeseries": {
+          "2017": 470067
+        },
         "Ftypes": 13,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Pleuronectidae",
-        "Production": "13,655.0",
+        "Timeseries": {
+          "2017": 13655
+        },
         "Ftypes": 4,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Psetta maxima",
-        "Production": "45,500.0",
+        "Timeseries": {
+          "2017": 45500
+        },
         "Ftypes": 10,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Rachycentron canadum",
-        "Production": "43,657.0",
+        "Timeseries": {
+          "2017": 43657
+        },
         "Ftypes": 10,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Sciaenops ocellatus",
-        "Production": "68,559.0",
+        "Timeseries": {
+          "2017": 68559
+        },
         "Ftypes": 7,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Seriola spp",
-        "Production": "25,933.0",
+        "Timeseries": {
+          "2017": 25933
+        },
         "Ftypes": 7,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Sparidae",
-        "Production": "81,107.0",
+        "Timeseries": {
+          "2017": 81107
+        },
         "Ftypes": 9,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Takifugu obscurus",
-        "Production": "6,283.0",
+        "Timeseries": {
+          "2017": 6283
+        },
         "Ftypes": 2,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Takifugu rubripes",
-        "Production": "24,403.0",
+        "Timeseries": {
+          "2017": 24403
+        },
         "Ftypes": 8,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Trachinotus blochii",
-        "Production": "120,000.0",
+        "Timeseries": {
+          "2017": 120000
+        },
         "Ftypes": 9,
         "SFtypes": 0,
         "Native": "No"
@@ -508,21 +650,27 @@
   },
   {
     "Name": "Miscellaneous aquatic animal products",
-    "Production": "941.45",
+    "Timeseries": {
+      "2017": 941.45
+    },
     "Ftypes": 0,
     "SFtypes": 0,
     "Native": "",
     "Species": [
       {
         "Name": "Ex Pinctada spp",
-        "Production": "2.27",
+        "Timeseries": {
+          "2017": 2.27
+        },
         "Ftypes": 0,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Ex Unionidae",
-        "Production": "939.18",
+        "Timeseries": {
+          "2017": 939.18
+        },
         "Ftypes": 0,
         "SFtypes": 0,
         "Native": "No"
@@ -531,56 +679,72 @@
   },
   {
     "Name": "Miscellaneous aquatic animals",
-    "Production": "858,940.16",
+    "Timeseries": {
+      "2017": 858940.16
+    },
     "Ftypes": 56,
     "SFtypes": 0,
     "Native": "",
     "Species": [
       {
         "Name": "Apostichopus japonicus",
-        "Production": "219,907.0",
+        "Timeseries": {
+          "2017": 219907
+        },
         "Ftypes": 5,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Invertebrata",
-        "Production": "87,492.0",
+        "Timeseries": {
+          "2017": 87492
+        },
         "Ftypes": 15,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Rana spp",
-        "Production": "91,653.0",
+        "Timeseries": {
+          "2017": 91653
+        },
         "Ftypes": 7,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Rhopilema spp",
-        "Production": "82,280.0",
+        "Timeseries": {
+          "2017": 82280
+        },
         "Ftypes": 10,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Strongylocentrotus spp",
-        "Production": "9,708.16",
+        "Timeseries": {
+          "2017": 9708.16
+        },
         "Ftypes": 3,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Testudinata",
-        "Production": "45,798.0",
+        "Timeseries": {
+          "2017": 45798
+        },
         "Ftypes": 6,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Trionyx sinensis",
-        "Production": "322,102.0",
+        "Timeseries": {
+          "2017": 322102
+        },
         "Ftypes": 10,
         "SFtypes": 0,
         "Native": "No"
@@ -589,98 +753,126 @@
   },
   {
     "Name": "Molluscs",
-    "Production": "14,586,132.0",
+    "Timeseries": {
+      "2017": 14586132
+    },
     "Ftypes": 147,
     "SFtypes": 0,
     "Native": "",
     "Species": [
       {
         "Name": "Anadara granosa",
-        "Production": "352,619.0",
+        "Timeseries": {
+          "2017": 352619
+        },
         "Ftypes": 15,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Anodonta cygnea",
-        "Production": "69,436.0",
+        "Timeseries": {
+          "2017": 69436
+        },
         "Ftypes": 10,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Atrina spp",
-        "Production": "16,503.0",
+        "Timeseries": {
+          "2017": 16503
+        },
         "Ftypes": 5,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Cipangopaludina chinensis",
-        "Production": "98,894.0",
+        "Timeseries": {
+          "2017": 98894
+        },
         "Ftypes": 7,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Corbicula fluminea",
-        "Production": "21,746.0",
+        "Timeseries": {
+          "2017": 21746
+        },
         "Ftypes": 4,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Crassostrea spp",
-        "Production": "4,879,422.0",
+        "Timeseries": {
+          "2017": 4879422
+        },
         "Ftypes": 21,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Haliotis spp",
-        "Production": "148,539.0",
+        "Timeseries": {
+          "2017": 148539
+        },
         "Ftypes": 11,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Mollusca",
-        "Production": "768,645.0",
+        "Timeseries": {
+          "2017": 768645
+        },
         "Ftypes": 14,
         "SFtypes": 0,
         "Native": "No"
       },
       {
         "Name": "Mytilidae",
-        "Production": "927,609.0",
+        "Timeseries": {
+          "2017": 927609
+        },
         "Ftypes": 8,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Pectinidae",
-        "Production": "2,007,529.0",
+        "Timeseries": {
+          "2017": 2007529
+        },
         "Ftypes": 11,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Rapana spp",
-        "Production": "254,736.0",
+        "Timeseries": {
+          "2017": 254736
+        },
         "Ftypes": 14,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Ruditapes philippinarum",
-        "Production": "4,177,913.0",
+        "Timeseries": {
+          "2017": 4177913
+        },
         "Ftypes": 13,
         "SFtypes": 0,
         "Native": "Yes"
       },
       {
         "Name": "Sinonovacula constricta",
-        "Production": "862,541.0",
+        "Timeseries": {
+          "2017": 862541
+        },
         "Ftypes": 14,
         "SFtypes": 0,
         "Native": "Yes"
@@ -689,7 +881,9 @@
   },
   {
     "Name": "Total",
-    "Production": "64,358,480.61",
+    "Timeseries": {
+      "2017": 64358480.61
+    },
     "Ftypes": 765,
     "SFtypes": 0,
     "Native": null,
