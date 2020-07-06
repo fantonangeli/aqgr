@@ -33,7 +33,7 @@ export class SpeciesListComponent implements OnChanges {
             (data)=>{
                 if(!data) return;
 
-                this.totalProduction=data.slice(-1)[0].Timeseries[environment.lastTimeseriesYear];
+                this.totalProduction=data.slice(-1)[0].timeseries[environment.lastTimeseriesYear];
 
                 this.speciesData=data.slice(0,-1);
 

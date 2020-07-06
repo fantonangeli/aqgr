@@ -11,7 +11,7 @@ export class TreeTableComponent implements OnChanges {
     @Input() columns: any[] = [];
     @Input() childColumns: any[] = [];
 
-    @ContentChild('firstFieldAppendTpl') firstFieldAppendTpl: TemplateRef<ElementRef>;
+    @ContentChild('firstFieldAppendTpl', {static: false}) firstFieldAppendTpl: TemplateRef<ElementRef>;
 
     /**
      * enable the total row
