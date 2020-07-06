@@ -60,7 +60,7 @@ export class FiltersComponent implements OnChanges {
           new AggregationInput("continents","Continents"),
           new AggregationInput( "regions", "Regions", "continents"),
           new AggregationInput( "countries", "Countries", "regions"),
-          new AggregationInput( "taxonomies", "Taxonomies"),
+          new AggregationInput( "taxonomies", "Taxanomonic categories"),
           new AggregationInput( "species", "Species", "taxonomies"),
           new AggregationInput( "ftypes", "Primary farmed type"),
           new AggregationInput( "sftypes", "Secondary farmed type"),
