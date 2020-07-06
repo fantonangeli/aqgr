@@ -9,7 +9,7 @@ import {ChartDataFormat} from '../../../namespace';
 @Component({
   selector: 'app-common-chart06',
   template:`
-    <app-pie01 [series]="series" unit="farmed types" [legendEnabled]="false" [enableDataLabels]="true" *ngIf="series.length" [height]="300"></app-pie01>
+    <app-pie01 [series]="series" unit="tonnes" [legendEnabled]="false" [enableDataLabels]="true" *ngIf="series.length" [height]="300"></app-pie01>
   `,
   styleUrls: []
 })
