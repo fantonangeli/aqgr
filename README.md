@@ -18,6 +18,10 @@ npm install
 
 Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Production server
+
+Run `npm run startprod` for a local prodution server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
 ## Json server
 
 Run `npm run jsonserver` for a dev server. Navigate to `http://localhost:3000/{element}`.
