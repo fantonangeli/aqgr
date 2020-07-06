@@ -49,7 +49,7 @@ export class CountryTable01Component implements OnChanges {
                     r.native,
                     []
                 ];
-                rv.alphaCode=r.alphaCode;
+                rv["alphaCode"]=r.alphaCode;
                 return rv;
             })
         ]);
