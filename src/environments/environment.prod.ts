@@ -9,7 +9,13 @@ const usePath=dataPath+"use/";
 export const environment = {
     production: true,
     logging:true,
-    defaultAccordionIsOpenValue:false,
+    defaultAccordionIsOpenValue:true,
+    lastTimeseriesYear:"2017",
+
+    /**
+     * default date format used to format dates 
+     */
+    defaultDateFormat:"dd/MM/yyyy",
 
     services:{
         fishStatCultSpecCountries: {
@@ -37,6 +43,7 @@ export const environment = {
             limit: 10
         },
         species:{
+            info:baseUrl+"specieInfo?",
             all:baseUrl+"species",
             limit: 10
         },
@@ -56,6 +63,9 @@ export const environment = {
             info:baseUrl+"countryInfo?",
             chart01:countryPath+"chart01.json",
             chart02:countryPath+"chart02.json",
+            chart03:countryPath+"chart03.json",
+            chart04:countryPath+"chart04.json",
+            chart05:countryPath+"chart05.json",
         },
         countries:{
             all:baseUrl+"countries",
@@ -83,8 +93,6 @@ export const environment = {
             chart02:policiesPath+"chart02.json",
             chart03:policiesPath+"chart03.json",
             chart04:policiesPath+"chart04.json",
-            chart05:policiesPath+"chart05.json",
-            chart06:policiesPath+"chart06.json",
         },
         common:{
             chart04:commonPath+"chart04.json",
@@ -93,6 +101,8 @@ export const environment = {
             chart09:commonPath+"chart09.json",
             chart12:commonPath+"chart12.json",
             chart13:commonPath+"chart13.json",
+            chart14:commonPath+"chart14.json",
+            chart15:commonPath+"chart15.json",
         }
     }
 

@@ -51,13 +51,18 @@ import { PoliciesChart01Component } from './components/charts/policies-chart01/p
 import { PoliciesChart02Component } from './components/charts/policies-chart02/policies-chart02.component';
 import { PoliciesChart03Component } from './components/charts/policies-chart03/policies-chart03.component';
 import { PoliciesChart04Component } from './components/charts/policies-chart04/policies-chart04.component';
-import { PoliciesChart05Component } from './components/charts/policies-chart05/policies-chart05.component';
-import { PoliciesChart06Component } from './components/charts/policies-chart06/policies-chart06.component';
+import { CommonChart14Component } from './components/charts/common-chart14/common-chart14.component';
+import { CommonChart15Component } from './components/charts/common-chart15/common-chart15.component';
 import { SpeciesListComponent } from './components/country/species-list/species-list.component';
 import { Accordion01Component } from './components/accordion01/accordion01.component';
 import { CountryTable01Component } from './components/country/country-table01/country-table01.component';
 import { CountryChart01Component } from './components/charts/country-chart01/country-chart01.component';
 import { CountryChart02Component } from './components/charts/country-chart02/country-chart02.component';
+import { CountryChart03Component } from './components/charts/country-chart03/country-chart03.component';
+import { CountryChart04Component } from './components/charts/country-chart04/country-chart04.component';
+import { CountryChart05Component } from './components/charts/country-chart05/country-chart05.component';
+import { SpecieComponent } from './pages/specie/specie.component';
+import { SpecieTable01Component } from './components/specie/specie-table01/specie-table01.component';
 
 @NgModule({
   declarations: [
@@ -100,13 +105,18 @@ import { CountryChart02Component } from './components/charts/country-chart02/cou
     PoliciesChart02Component,
     PoliciesChart03Component,
     PoliciesChart04Component,
-    PoliciesChart05Component,
-    PoliciesChart06Component,
+    CommonChart14Component,
+    CommonChart15Component,
     SpeciesListComponent,
     Accordion01Component,
     CountryTable01Component,
     CountryChart01Component,
     CountryChart02Component,
+    CountryChart03Component,
+    CountryChart04Component,
+    CountryChart05Component,
+    SpecieComponent,
+    SpecieTable01Component,
   ],
   imports: [
     BrowserModule,

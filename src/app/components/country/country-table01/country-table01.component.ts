@@ -5,6 +5,8 @@ import { Filter} from '../../search/namespace';
 import {UtilsService} from '../../../services/utils.service'
 import {SearchServiceParams} from '../../../namespace';
 import {LoggerService} from '../../../services/logger.service';
+import { environment } from '../../../../environments/environment';
+import { faChartPie } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-country-table01',
@@ -13,9 +15,9 @@ import {LoggerService} from '../../../services/logger.service';
 })
 export class CountryTable01Component implements OnChanges {
     @Input() filterValues: Filter[]=[];
-    totalProd:number;
     data:object[]=[];
-
+    lastTimeseriesYear=environment.lastTimeseriesYear;
+    faChartPie = faChartPie;
 
     constructor(private _service: CountryGroupsSpeciesService, private _utilsService:UtilsService, private _logger:LoggerService){
     }
@@ -33,19 +35,23 @@ export class CountryTable01Component implements OnChanges {
         newdata=JSON.parse(JSON.stringify(data));
 
         return newdata.map(e=>[
-            e.Name,
-            e.Production,
-            e.Ftypes,
-            e.SFtypes,
+            e.name,
+            Number(e.timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
+            e.ftypes,
+            e.sFtypes,
             null,
-            e.Species=e.Species.map(r=>[
-                r.Name,
-                r.Production,
-                r.Ftypes,
-                r.SFtypes,
-                r.Native,
-                []
-            ])
+            e.species=e.species.map(r=>{
+                let rv=[
+                    r.name,
+                    Number(r.timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
+                    r.ftypes,
+                    r.sFtypes,
+                    r.native,
+                    []
+                ];
+                rv["alphaCode"]=r.alphaCode;
+                return rv;
+            })
         ]);
     }
 

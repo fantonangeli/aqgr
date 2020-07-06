@@ -3,20 +3,20 @@ import {LoggerService} from '../../../services/logger.service';
 import {UtilsService} from '../../../services/utils.service'
 import {BaseChart01Component} from '../base-chart01/base-chart01.component';
 import {Pie01Component} from '../pie01/pie01.component';
-import {PoliciesChart03Service} from '../../../services/policies/policies-chart03.service';
+import {CountryChart04Service} from '../../../services/country/country-chart04.service';
 import {ChartDataFormat} from '../../../namespace';
 
 @Component({
-  selector: 'app-policies-chart03',
+  selector: 'app-country-chart04',
   template: `
-    <app-pie01 [series]="series" unit="areas" [legendEnabled]="false" [enableDataLabels]="true" *ngIf="series.length" [height]="300"></app-pie01>
+    <app-pie01 [series]="series" [legendEnabled]="false" [enableDataLabels]="true" *ngIf="series.length" [height]="300"></app-pie01>
   `,
   styles: []
 })
-export class PoliciesChart03Component extends BaseChart01Component implements OnChanges {
+export class CountryChart04Component extends BaseChart01Component implements OnChanges {
     dataFormat=ChartDataFormat.keyval;
 
-    constructor(_service:PoliciesChart03Service, _utilsService:UtilsService, _logger:LoggerService) {
+    constructor(_service:CountryChart04Service, _utilsService:UtilsService, _logger:LoggerService) {
         super(_service, _utilsService, _logger);
     }
 

@@ -11,7 +11,6 @@ import { environment } from '../../../environments/environment';
 @Component({
   selector: 'app-country',
   templateUrl: './country.component.html',
-  styleUrls: ['./country.component.scss']
 })
 export class CountryComponent implements OnInit {
     initialAccordionsIsOpen:boolean=environment.defaultAccordionIsOpenValue;
@@ -25,29 +24,38 @@ export class CountryComponent implements OnInit {
     isAccordion08open:boolean=this.initialAccordionsIsOpen;
     isAccordion09open:boolean=this.initialAccordionsIsOpen;
     isAccordion10open:boolean=this.initialAccordionsIsOpen;
-    ccode:string;
+    isAccordion11open:boolean=this.initialAccordionsIsOpen;
+    isAccordion12open:boolean=this.initialAccordionsIsOpen;
+    isAccordion13open:boolean=this.initialAccordionsIsOpen;
+    isAccordion14open:boolean=this.initialAccordionsIsOpen;
+    isAccordion15open:boolean=this.initialAccordionsIsOpen;
+    isAccordion16open:boolean=this.initialAccordionsIsOpen;
+    iso3:string;
     filterValues: Filter[]=[];
 
-    countryName:string=""
+    countryName:string="";
+    lastModifiedDate:string="";
+    defaultDateFormat:string=environment.defaultDateFormat;
 
     constructor(private route: ActivatedRoute, private _countryInfoService:CountryInfoService, private _logger:LoggerService) { }
 
     /**
      * fetch the data and load them
-     * @param {string} ccode country code
+     * @param {string} iso3 country code
      *
      */
-    fetchInfo(ccode:string) {
-        this._countryInfoService.getData(this.ccode).subscribe(
+    fetchInfo(iso3:string) {
+        this._countryInfoService.getData(this.iso3).subscribe(
             (data)=>{
-                let countryFilter=new Filter();
+                let filter=new Filter();
 
-                this.countryName=data[0].name;
+                this.countryName=data[0].nameEn;
+                this.lastModifiedDate=data[0].lastModifiedDate;
 
-                countryFilter.key="countries";
-                countryFilter.value=this.countryName;
+                filter.key="countries";
+                filter.value=this.countryName;
 
-                this.filterValues.push(countryFilter);
+                this.filterValues.push(filter);
             },
             (error)=>{
                 this._logger.error("Network error: ", error);
@@ -70,9 +78,9 @@ export class CountryComponent implements OnInit {
     }
 
     ngOnInit(){
-        this.ccode = this.route.snapshot.paramMap.get("ccode");
+        this.iso3 = this.route.snapshot.paramMap.get("iso3");
 
-        this.fetchInfo(this.ccode);
+        this.fetchInfo(this.iso3);
     }
 
 }

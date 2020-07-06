@@ -24,7 +24,7 @@ export class BaseService {
     protected _getByParams(serviceName:string, url:string, params:any={}, limit:number=0):Observable<any> {
         let cacheid;
 
-        this.logger.service(serviceName+":getAll", params);
+        this.logger.service(serviceName+":get", params);
 
         if(limit>0) params[environment.services.params.limit]=limit;
 

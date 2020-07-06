@@ -34,12 +34,12 @@
 
                 <app-accordion01 [(isOpen)]="isAccordion05open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header> Proportion of education areas addressed by institutions </div>
-                    <div body><app-policies-chart05 *ngIf="isAccordion05open" [filterValues]="filterValues"></app-policies-chart05></div>
+                    <div body><app-common-chart14 *ngIf="isAccordion05open" [filterValues]="filterValues"></app-common-chart14></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion06open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header> Proportion of educational institutions offering training at different levels </div>
-                    <div body><app-policies-chart06 *ngIf="isAccordion06open" [filterValues]="filterValues"></app-policies-chart06></div>
+                    <div body><app-common-chart15 *ngIf="isAccordion06open" [filterValues]="filterValues"></app-common-chart15></div>
                 </app-accordion01>
 
             </div>

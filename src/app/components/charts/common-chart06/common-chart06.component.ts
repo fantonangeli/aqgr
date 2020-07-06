@@ -1,21 +1,20 @@
-import { Component, OnChanges, Input } from '@angular/core';
-import * as Highcharts from 'highcharts';
-import {CommonChart06Service} from '../../../services/common/common-chart06.service';
-import {StackedColumns01Component} from '../stacked-columns01/stacked-columns01.component';
-import { Filter} from '../../../components/search/namespace';
-import {SearchServiceParams} from '../../../namespace';
+import { Component, Input, OnChanges } from '@angular/core';
 import {LoggerService} from '../../../services/logger.service';
-import {BaseChart01Component} from '../base-chart01/base-chart01.component';
 import {UtilsService} from '../../../services/utils.service'
+import {BaseChart01Component} from '../base-chart01/base-chart01.component';
+import {Pie01Component} from '../pie01/pie01.component';
+import {CommonChart06Service} from '../../../services/common/common-chart06.service';
+import {ChartDataFormat} from '../../../namespace';
 
 @Component({
   selector: 'app-common-chart06',
   template:`
-    <app-stacked-columns01 [series]="series" *ngIf="series.length"></app-stacked-columns01>
+    <app-pie01 [series]="series" unit="farmed types" [legendEnabled]="false" [enableDataLabels]="true" *ngIf="series.length" [height]="300"></app-pie01>
   `,
   styleUrls: []
 })
 export class CommonChart06Component extends BaseChart01Component implements OnChanges {
+    dataFormat=ChartDataFormat.keyval;
 
     constructor(_service:CommonChart06Service, _utilsService:UtilsService, _logger:LoggerService) {
         super(_service, _utilsService, _logger);

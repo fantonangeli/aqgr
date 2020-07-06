@@ -9,15 +9,15 @@
 <div class="row p-2">
 
     <div class="col-4 h2 pl-2">
-        {{totalProd}}<br>tonnes
+        {{totalProduction}}<br>tonnes
     </div>
 
     <div class="col-8">
         <ul>
             <li *ngFor="let t of speciesData" class="pb-3">
-                <a class="font-weight-bold h6" href="" (click)="onTaxonomyClickEvent.emit(t.Name); false">{{t.Name}}</a>
+                <a class="font-weight-bold h6" href="" (click)="onTaxonomyClickEvent.emit(t.name); false">{{t.name}}</a>
                 <div class="">
-                    <i *ngFor="let s of t.Species; let first = first; let last = last; let i=index">{{s.Name}}{{(!last)?", ":""}}</i>
+                    <i *ngFor="let s of t.species; let first = first; let last = last; let i=index">{{s.name}}{{(!last)?", ":""}}</i>
                 </div>
             </li>
         </ul>

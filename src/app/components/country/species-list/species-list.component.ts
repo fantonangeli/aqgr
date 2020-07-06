@@ -5,6 +5,7 @@ import { Filter} from '../../search/namespace';
 import {UtilsService} from '../../../services/utils.service'
 import {SearchServiceParams} from '../../../namespace';
 import {LoggerService} from '../../../services/logger.service';
+import { environment } from '../../../../environments/environment';
 
 @Component({
   selector: 'app-species-list',
@@ -13,7 +14,7 @@ import {LoggerService} from '../../../services/logger.service';
 })
 export class SpeciesListComponent implements OnChanges {
     @Input() filterValues: Filter[]=[];
-    totalProd:number;
+    totalProduction:number;
     speciesData:object[]=[];
     @Output() onTaxonomyClickEvent: EventEmitter<string> = new EventEmitter<string>();
 
@@ -32,7 +33,7 @@ export class SpeciesListComponent implements OnChanges {
             (data)=>{
                 if(!data) return;
 
-                this.totalProd=data.slice(-1)[0].Production;
+                this.totalProduction=data.slice(-1)[0].timeseries[environment.lastTimeseriesYear];
 
                 this.speciesData=data.slice(0,-1);
 
