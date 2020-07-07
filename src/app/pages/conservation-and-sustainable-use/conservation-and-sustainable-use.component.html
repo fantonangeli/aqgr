@@ -62,9 +62,9 @@
                     <div body><app-use-chart06 *ngIf="isAccordion06open && !selectedSpecie" [filterValues]="filterValues"></app-use-chart06></div>
                 </app-accordion01>
 
-                <app-accordion01 [(isOpen)]="isAccordion07open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                <app-accordion01 [(isOpen)]="isAccordion07open" *ngIf="!selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Numbers and effectiveness of aquatic projected areas by region</div>
-                    <div body><app-use-chart07 *ngIf="isAccordion07open" [filterValues]="filterValues"></app-use-chart07></div>
+                    <div body><app-use-chart07 *ngIf="isAccordion07open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues"></app-use-chart07></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion08open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
