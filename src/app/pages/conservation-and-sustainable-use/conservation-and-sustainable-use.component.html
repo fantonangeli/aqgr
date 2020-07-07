@@ -52,13 +52,13 @@
                     <div body><app-common-chart04 *ngIf="isAccordion04open && !selectedSpecie" [filterValues]="filterValues"></app-common-chart04></div>
                 </app-accordion01>
 
-                <app-accordion01 [(isOpen)]="isAccordion05open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                <app-accordion01 [(isOpen)]="isAccordion05open" *ngIf="!selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Risk status of species reported as cultured by countries</div>
-                    <div body><app-common-chart09 *ngIf="isAccordion05open" [filterValues]="filterValues"></app-common-chart09></div>
+                    <div body><app-common-chart09 *ngIf="isAccordion05open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues"></app-common-chart09></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion06open" *ngIf="!selectedSpecie" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-                    <div header>Number of species whose introduction represents a risk</div>
+                    <div header>Number of species whose introduction represents a risk by taxonomic category</div>
                     <div body><app-use-chart06 *ngIf="isAccordion06open && !selectedSpecie" [filterValues]="filterValues"></app-use-chart06></div>
                 </app-accordion01>
 
