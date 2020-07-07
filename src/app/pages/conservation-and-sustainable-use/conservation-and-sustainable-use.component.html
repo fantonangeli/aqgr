@@ -42,14 +42,14 @@
                     <div body><app-use-chart02 *ngIf="isAccordion02open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues"></app-use-chart02></div>
                 </app-accordion01>
 
-                <app-accordion01 [(isOpen)]="isAccordion03open" *ngIf="!selectedSpecie" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                <app-accordion01 [(isOpen)]="isAccordion03open" *ngIf="!selectedSpecie && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>The proportion (%) of aquaculture production that comes from non-native species by region of countries</div>
-                    <div body><app-use-chart03 *ngIf="isAccordion03open && !selectedSpecie" [filterValues]="filterValues"></app-use-chart03></div>
+                    <div body><app-use-chart03 *ngIf="isAccordion03open && !selectedSpecie && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues"></app-use-chart03></div>
                 </app-accordion01>
 
-                <app-accordion01 [(isOpen)]="isAccordion04open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                <app-accordion01 [(isOpen)]="isAccordion04open" *ngIf="!selectedSpecie" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Top 10 non-native species by production</div>
-                    <div body><app-common-chart04 *ngIf="isAccordion04open" [filterValues]="filterValues"></app-common-chart04></div>
+                    <div body><app-common-chart04 *ngIf="isAccordion04open && !selectedSpecie" [filterValues]="filterValues"></app-common-chart04></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion05open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
