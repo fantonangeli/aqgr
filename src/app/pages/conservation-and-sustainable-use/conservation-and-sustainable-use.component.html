@@ -73,7 +73,7 @@
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion09open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-                    <div header>Number of species with live gene banks by taxonomic group</div>
+                    <div header>Number of species with live gene banks by taxonomic category</div>
                     <div body><app-use-chart09 *ngIf="isAccordion09open" [filterValues]="filterValues"></app-use-chart09></div>
                 </app-accordion01>
                 
