@@ -59,7 +59,11 @@ export class BaseChartRender01Component  implements AfterViewInit, OnChanges {
             ...this.options,
         };
 
-        options.chart.style={
+        options.yAxis.labels=(options.yAxis.labels || {});
+        options.yAxis.labels.style=(options.yAxis.labels.style || {});
+        options.xAxis.labels=(options.xAxis.labels || {});
+        options.xAxis.labels.style=(options.xAxis.labels.style || {});
+        options.yAxis.labels=options.xAxis.labels.style={
             fontStyle:(this.fontStyleItalic)?"italic":""
         };
 
