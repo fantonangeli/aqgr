@@ -67,9 +67,9 @@
                     <div body><app-use-chart07 *ngIf="isAccordion07open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues"></app-use-chart07></div>
                 </app-accordion01>
 
-                <app-accordion01 [(isOpen)]="isAccordion08open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                <app-accordion01 [(isOpen)]="isAccordion08open" *ngIf="!selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Number of species with live gene banks by region</div>
-                    <div body><app-use-chart08 *ngIf="isAccordion08open" [filterValues]="filterValues"></app-use-chart08></div>
+                    <div body><app-use-chart08 *ngIf="isAccordion08open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues"></app-use-chart08></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion09open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
