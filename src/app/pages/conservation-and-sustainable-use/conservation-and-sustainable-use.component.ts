@@ -12,7 +12,10 @@ import { environment } from '../../../environments/environment';
 })
 export class ConservationAndSustainableUseComponent extends BasePage01Component {
     selectedSpecie:Filter;
-    countryName:string;
+    selectedContinent:Filter;
+    selectedRegion:Filter;
+    selectedCountry:Filter;
+
     initialAccordionsIsOpen:boolean=environment.defaultAccordionIsOpenValue;
     isAccordion01open:boolean=true;
     isAccordion02open:boolean=this.initialAccordionsIsOpen;
@@ -40,8 +43,9 @@ export class ConservationAndSustainableUseComponent extends BasePage01Component 
      * @param {object} type the type
      */
     searchAggregation(event: Filter[]) {
-        if(event[0].key==="countries") this.countryName=event[0].value;
-
+        this.selectedContinent=this.getFilterValueByKey('continents', event);
+        this.selectedRegion=this.getFilterValueByKey('regions', event);
+        this.selectedCountry=this.getFilterValueByKey('countries', event);
         this.selectedSpecie=this.getFilterValueByKey('species', event);
 
         return super.searchAggregation(event);
@@ -57,8 +61,9 @@ export class ConservationAndSustainableUseComponent extends BasePage01Component 
      * @return Filter[] the filters cleared
      */
     removeFilterByKeyVal(filters:Filter[], key:string, value:string):Filter[]{
-        if(key==="countries") this.countryName=null;
-
+        if(key==="continents") this.selectedContinent=null;
+        if(key==="regions") this.selectedRegion=null;
+        if(key==="countries") this.selectedCountry=null;
         if(key==="species") this.selectedSpecie=null;
 
         return super.removeFilterByKeyVal(filters, key, value);
