@@ -11,6 +11,7 @@ import { environment } from '../../../environments/environment';
   styleUrls: ['./conservation-and-sustainable-use.component.scss']
 })
 export class ConservationAndSustainableUseComponent extends BasePage01Component {
+    selectedTaxonomy:Filter;
     selectedSpecie:Filter;
     selectedContinent:Filter;
     selectedRegion:Filter;
@@ -46,6 +47,7 @@ export class ConservationAndSustainableUseComponent extends BasePage01Component 
         this.selectedContinent=this.getFilterValueByKey('continents', event);
         this.selectedRegion=this.getFilterValueByKey('regions', event);
         this.selectedCountry=this.getFilterValueByKey('countries', event);
+        this.selectedTaxonomy=this.getFilterValueByKey('taxonomies', event);
         this.selectedSpecie=this.getFilterValueByKey('species', event);
 
         return super.searchAggregation(event);
@@ -64,6 +66,7 @@ export class ConservationAndSustainableUseComponent extends BasePage01Component 
         if(key==="continents") this.selectedContinent=null;
         if(key==="regions") this.selectedRegion=null;
         if(key==="countries") this.selectedCountry=null;
+        if(key==="taxonomies") this.selectedTaxonomy=null;
         if(key==="species") this.selectedSpecie=null;
 
         return super.removeFilterByKeyVal(filters, key, value);
