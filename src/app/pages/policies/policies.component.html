@@ -45,16 +45,20 @@
                 <app-accordion01 [(isOpen)]="isAccordion03open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Proportion of policy areas addressed by national policy</div>
                     <div body>
+                    <app-policies-chart03 *ngIf="isAccordion03open" [filterValues]="filterValues"></app-policies-chart03>
                         <div class="mb-3">
                             Note: The graphic item is based on country responses in their Country Reports identifying national polices that address one or more of these AqGR related policy areas and represents the proportion of the reported policies which address each area. 
                         </div>
-                    <app-policies-chart03 *ngIf="isAccordion03open" [filterValues]="filterValues"></app-policies-chart03>
                     </div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion04open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-                    <div header> Proportion of reasearch areas addressed by institutions </div>
-                    <div body><app-policies-chart04 *ngIf="isAccordion04open" [filterValues]="filterValues"></app-policies-chart04></div>
+                    <div header>Research institutions and the issues addressed by them</div>
+                    <div body>
+                        <app-policies-chart04 *ngIf="isAccordion04open" [filterValues]="filterValues"></app-policies-chart04>
+                        <div class="mb-3">Note: The chart shows the total number of research institutions for the geographic area and a breakdown of the research issues they cover.  </div>
+                    </div>
+                    Note: The chart shows the total number of research institutions for the geographic area and a breakdown of the research issues they cover.  
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion05open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
