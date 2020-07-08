@@ -240,6 +240,7 @@ export class FiltersComponent implements OnChanges {
      */
     filterAggregations(type:string, term:string){
         let params=new SearchServiceParams();
+        /* BUG: if search "alg", then erase -> all species are shown */
 
         if ((term.length<3) && (term.length>0)) return;
 

@@ -92,9 +92,9 @@
                     <div body><app-use-chart12 *ngIf="isAccordion12open && !selectedTaxonomy && !selectedSpecie" [filterValues]="filterValues"></app-use-chart12></div>
                 </app-accordion01>
 
-                <app-accordion01 [(isOpen)]="isAccordion13open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-                    <div header>Top 10 species conserved in vitro gene banks</div>
-                    <div body><app-use-chart13 *ngIf="isAccordion13open" [filterValues]="filterValues"></app-use-chart13></div>
+                <app-accordion01 [(isOpen)]="isAccordion13open" *ngIf="!selectedSpecie" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                    <div header>Top 10 species conserved <i>in vitro</i> gene banks</div>
+                    <div body><app-use-chart13 *ngIf="isAccordion13open && !selectedSpecie" [filterValues]="filterValues"></app-use-chart13></div>
                 </app-accordion01>
 
             </div>
