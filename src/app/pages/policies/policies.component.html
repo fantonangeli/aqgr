@@ -32,13 +32,13 @@
                     </div>
                 </app-accordion01>
 
-                <app-accordion01 [(isOpen)]="isAccordion02open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-                    <div header> Number of species under control measure </div>
+                <app-accordion01 [(isOpen)]="isAccordion02open" *ngIf="!selectedSpecie" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                    <div header> Number of species under control measures </div>
                     <div body>
                         <div class="mb-3">
                             The Registry questionnaire asks, for each country, if there are any species-specific controls on conservation, management and use of this species and where controls exist, to identify whether these controls apply to trade (export/import), the environment and biodiversity conservation and/or legislation on the use of wild relatives in fisheries and aquaculture?
                         </div>
-                        <app-policies-chart02 *ngIf="isAccordion02open" [filterValues]="filterValues"></app-policies-chart02>
+                        <app-policies-chart02 *ngIf="isAccordion02open && !selectedSpecie" [filterValues]="filterValues"></app-policies-chart02>
                     </div>
                 </app-accordion01>
 
