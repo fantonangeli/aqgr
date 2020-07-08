@@ -240,11 +240,15 @@ export class FiltersComponent implements OnChanges {
      */
     filterAggregations(type:string, term:string){
         let params=new SearchServiceParams();
-        /* BUG: if search "alg", then erase -> all species are shown */
 
         if ((term.length<3) && (term.length>0)) return;
 
         if (type==="species") {
+            if(!term.length && !this._utilsService.getFilterValueByKey("taxonomies", this.filterValues)) {
+                this.aggregations[this.aggIndexes.species].aggregation.values=[];
+                return;
+            }
+
             this.aggregations[this.aggIndexes.species].filter=term;
             params.name=term;
             params.continent=(this._utilsService.getFilterValueByKey("continents", this.filterValues) || {value:""}).value;
@@ -254,6 +258,11 @@ export class FiltersComponent implements OnChanges {
 
             this.fetchData("species", this._speciesService, params);
         } else if (type==="countries") {
+            if(!term.length && !this._utilsService.getFilterValueByKey("regions", this.filterValues)) {
+                this.aggregations[this.aggIndexes.countries].aggregation.values=[];
+                return;
+            }
+
             this.aggregations[this.aggIndexes.countries].filter=term;
             params.name=term;
             params.continent=(this._utilsService.getFilterValueByKey("continents", this.filterValues) || {value:""}).value;
