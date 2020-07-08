@@ -76,20 +76,20 @@
                     <div header>Number of species with live gene banks by taxonomic category</div>
                     <div body><app-use-chart09 *ngIf="isAccordion09open && !selectedSpecie" [filterValues]="filterValues"></app-use-chart09></div>
                 </app-accordion01>
-                
+
                 <app-accordion01 [(isOpen)]="isAccordion10open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Top 10 species conserved in live gene banks</div>
                     <div body><app-use-chart10 *ngIf="isAccordion10open" [filterValues]="filterValues"></app-use-chart10></div>
                 </app-accordion01>
 
-                <app-accordion01 [(isOpen)]="isAccordion11open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-                    <div header>No of species with in vitro gene banks by country</div>
-                    <div body><app-use-chart11 *ngIf="isAccordion11open" [filterValues]="filterValues"></app-use-chart11></div>
+                <app-accordion01 [(isOpen)]="isAccordion11open" *ngIf="!selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                    <div header>No of species with <i>in vitro</i> gene banks by country</div>
+                    <div body><app-use-chart11 *ngIf="isAccordion11open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues"></app-use-chart11></div>
                 </app-accordion01>
 
-                <app-accordion01 [(isOpen)]="isAccordion12open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-                    <div header>No of species with reported in vitro gene banks by taxonomy group</div>
-                    <div body><app-use-chart12 *ngIf="isAccordion12open" [filterValues]="filterValues"></app-use-chart12></div>
+                <app-accordion01 [(isOpen)]="isAccordion12open" *ngIf="!selectedTaxonomy && !selectedSpecie" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                    <div header>No of species with reported <i>in vitro</i> gene banks by taxonomy category</div>
+                    <div body><app-use-chart12 *ngIf="isAccordion12open && !selectedTaxonomy && !selectedSpecie" [filterValues]="filterValues"></app-use-chart12></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion13open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
