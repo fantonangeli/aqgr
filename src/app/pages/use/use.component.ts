@@ -6,11 +6,10 @@ import {BasePage01Component} from '../base-page01/base-page01.component';
 import { environment } from '../../../environments/environment';
 
 @Component({
-  selector: 'app-conservation-and-sustainable-use',
-  templateUrl: './conservation-and-sustainable-use.component.html',
-  styleUrls: ['./conservation-and-sustainable-use.component.scss']
+  selector: 'app-use',
+  templateUrl: './use.component.html',
 })
-export class ConservationAndSustainableUseComponent extends BasePage01Component {
+export class UseComponent extends BasePage01Component {
     selectedTaxonomy:Filter;
     selectedSpecie:Filter;
     selectedContinent:Filter;
