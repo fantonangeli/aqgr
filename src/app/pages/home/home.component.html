@@ -59,37 +59,35 @@
                 </div>
             </div>
 
-            <ng-template #ChartsTpl let-taxonomy="taxonomy" let-specie="specie" let-ftype="ftype" let-sftype="sftype">
-                <div class="container mw-100 p-0" *ngIf="reloadCharts">
-                    <div class="row text-center">
-                        <div class="col-sm-12 p-0" [ngClass]="{'col-md-6':!sftype}">
-                            <div *ngIf="!ftype">
-                                <h6 class="">
-                                    Proportion of primary farmed types entered
-                                </h6>
-                                <app-common-chart01 [filterValues]="filterValues" height="200"></app-common-chart01>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 p-0" [ngClass]="{'col-md-6':!ftype}">
-                            <div *ngIf="!sftype">
-                                <h6 class="">
-                                    Proportion of secondary farmed types entered
-                                </h6>
-                                <app-common-chart02 [filterValues]="filterValues" height="200"></app-common-chart02>
-                            </div>
+            <div class="container mw-100 p-0" *ngIf="reloadCharts">
+                <div class="row text-center">
+                    <div class="col-sm-12 p-0" [ngClass]="{'col-md-6':!selectedSftype}">
+                        <div *ngIf="!selectedFtype">
+                            <h6 class="">
+                                Proportion of primary farmed types entered
+                            </h6>
+                            <app-common-chart01 [filterValues]="filterValues" height="200"></app-common-chart01>
                         </div>
                     </div>
-                    <div class="row" *ngIf="!taxonomy && !specie">
-                        <h6 class="mt-5">
-                            Number of species (based on reports by country) contained in the Registry
-                        </h6>
-                        <div class="col-sm-12 col-md-12 p-0">
-                            <app-countries-chart03 [filterValues]="filterValues"></app-countries-chart03>
+                    <div class="col-sm-12 col-md-6 p-0" [ngClass]="{'col-md-6':!selectedFtype}">
+                        <div *ngIf="!selectedSftype">
+                            <h6 class="">
+                                Proportion of secondary farmed types entered
+                            </h6>
+                            <app-common-chart02 [filterValues]="filterValues" height="200"></app-common-chart02>
                         </div>
                     </div>
                 </div>
-            </ng-template>
-            <ng-template *ngTemplateOutlet="ChartsTpl; context: {taxonomy:getFilterValueByKey('taxonomies', filterValues), specie:getFilterValueByKey('species', filterValues), ftype:getFilterValueByKey('ftypes', filterValues), sftype:getFilterValueByKey('sftypes', filterValues)}"></ng-template>
+                <div class="row" *ngIf="!selectedTaxonomy && !selectedSpecie">
+                    <h6 class="mt-5">
+                        Number of species (based on reports by country) contained in the Registry
+                    </h6>
+                    <div class="col-sm-12 col-md-12 p-0">
+                        <app-countries-chart03 [filterValues]="filterValues"></app-countries-chart03>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     <br>

@@ -10,12 +10,6 @@ import { environment } from '../../../environments/environment';
   templateUrl: './use.component.html',
 })
 export class UseComponent extends BasePage01Component {
-    selectedTaxonomy:Filter;
-    selectedSpecie:Filter;
-    selectedContinent:Filter;
-    selectedRegion:Filter;
-    selectedCountry:Filter;
-
     initialAccordionsIsOpen:boolean=environment.defaultAccordionIsOpenValue;
     isAccordion01open:boolean=true;
     isAccordion02open:boolean=this.initialAccordionsIsOpen;
@@ -35,41 +29,6 @@ export class UseComponent extends BasePage01Component {
         super(_utilsService);
     }
 
-
-
-    /**
-     * action on facet click
-     *
-     * @param {object} type the type
-     */
-    searchAggregation(event: Filter[]) {
-        this.selectedContinent=this.getFilterValueByKey('continents', event);
-        this.selectedRegion=this.getFilterValueByKey('regions', event);
-        this.selectedCountry=this.getFilterValueByKey('countries', event);
-        this.selectedTaxonomy=this.getFilterValueByKey('taxonomies', event);
-        this.selectedSpecie=this.getFilterValueByKey('species', event);
-
-        return super.searchAggregation(event);
-    }
-
-
-    /**
-     * remove a filter
-     *
-     * @param {Filter[]} filters the filters to clear
-     * @param {string} key the key
-     * @param {string} value the value
-     * @return Filter[] the filters cleared
-     */
-    removeFilterByKeyVal(filters:Filter[], key:string, value:string):Filter[]{
-        if(key==="continents") this.selectedContinent=null;
-        if(key==="regions") this.selectedRegion=null;
-        if(key==="countries") this.selectedCountry=null;
-        if(key==="taxonomies") this.selectedTaxonomy=null;
-        if(key==="species") this.selectedSpecie=null;
-
-        return super.removeFilterByKeyVal(filters, key, value);
-    }
 
 
 }
