@@ -24,7 +24,6 @@ export class StackedColumns01Component extends BaseChartRender01Component {
             yAxis: {
                 title: (this.yAxisTitle)?{
                     text: this.yAxisTitle,
-                    align: 'low'
                 }:null,
                 reversedStacks: false
             },

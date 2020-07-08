@@ -22,13 +22,11 @@ export class Bars01Component extends BaseChartRender01Component {
                 type: 'category',
                 title: (this.yAxisTitle)?{
                     text: this.yAxisTitle,
-                    align: 'low'
                 }:null,
             },
             yAxis: {
                 title: (this.xAxisTitle)?{
                     text: this.xAxisTitle,
-                    align: 'low'
                 }:null,
                 // tickInterval:5 //disabled to have millions format (M)
             },

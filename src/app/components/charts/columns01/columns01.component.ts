@@ -22,13 +22,11 @@ export class Columns01Component extends BaseChartRender01Component {
                 type: 'category',
                 title: (this.xAxisTitle)?{
                     text: this.xAxisTitle,
-                    align: 'low'
                 }:null
             },
             yAxis: {
                 title: (this.yAxisTitle)?{
                     text: this.yAxisTitle,
-                    align: 'low'
                 }:null
             },
             tooltip: {
