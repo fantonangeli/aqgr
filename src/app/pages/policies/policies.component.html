@@ -4,6 +4,16 @@
             <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Data on Farmed Types</h1></div></div>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            At this stage of its development the prototype Registry questionnaire does not include questions related to national policy, institutions or capacity with the exception of one question related to controls on access to AqGR. The data related to this question is covered in the first two graphic items. The remaining graphic items presented on this page are based on data collected from Country Reports as part of the preparation of the Report on the State of the World’s Aquatic Genetic Resources for Food and Agriculture published in August 2019. This information refers to legislation and policy that relates to or impacts upon AqGR including controls on their use and exchange. Information is also provided on the numbers and focus of institutions involved in Research and Education related to AqGR. 
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
     <div class="row">
         <div class="col-sm-12 col-md-3">
             <app-filters [(filterValues)]="filterValues" [aggregationsTypes]="['continents', 'regions', 'countries', 'taxonomies', 'species', 'ftypes', 'sftypes']" (search)="searchAggregation($event)"></app-filters>
@@ -12,14 +22,24 @@
 
             <div class="container mw-100 p-0" *ngIf="reloadCharts">
 
-                <app-accordion01 [(isOpen)]="isAccordion01open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-                    <div header> Number of species under control measure </div>
-                    <div body><app-policies-chart01 *ngIf="isAccordion01open" [filterValues]="filterValues"></app-policies-chart01></div>
+                <app-accordion01 [(isOpen)]="isAccordion01open" *ngIf="!selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                    <div header> Number of species under control measures </div>
+                    <div body>
+                        <div class="mb-3">
+                            The Registry questionnaire asks, for each country, if there are any species-specific controls on conservation, management and use of this species and where controls exist, to identify whether these controls apply to trade (export/import), the environment and biodiversity conservation and/or legislation on the use of wild relatives in fisheries and aquaculture?
+                        </div>
+                        <app-policies-chart01 *ngIf="isAccordion01open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues"></app-policies-chart01>
+                    </div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion02open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header> Number of species under control measure </div>
-                    <div body><app-policies-chart02 *ngIf="isAccordion02open" [filterValues]="filterValues"></app-policies-chart02></div>
+                    <div body>
+                        <div class="mb-3">
+                            The Registry questionnaire asks, for each country, if there are any species-specific controls on conservation, management and use of this species and where controls exist, to identify whether these controls apply to trade (export/import), the environment and biodiversity conservation and/or legislation on the use of wild relatives in fisheries and aquaculture?
+                        </div>
+                        <app-policies-chart02 *ngIf="isAccordion02open" [filterValues]="filterValues"></app-policies-chart02>
+                    </div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion03open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
