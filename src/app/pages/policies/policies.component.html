@@ -43,8 +43,13 @@
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion03open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-                    <div header> Proportion of areas addressed by policies </div>
-                    <div body><app-policies-chart03 *ngIf="isAccordion03open" [filterValues]="filterValues"></app-policies-chart03></div>
+                    <div header>Proportion of policy areas addressed by national policy</div>
+                    <div body>
+                        <div class="mb-3">
+                            Note: The graphic item is based on country responses in their Country Reports identifying national polices that address one or more of these AqGR related policy areas and represents the proportion of the reported policies which address each area. 
+                        </div>
+                    <app-policies-chart03 *ngIf="isAccordion03open" [filterValues]="filterValues"></app-policies-chart03>
+                    </div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion04open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
