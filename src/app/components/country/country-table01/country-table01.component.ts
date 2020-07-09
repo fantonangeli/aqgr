@@ -11,7 +11,8 @@ import { faChartPie } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-country-table01',
   templateUrl: './country-table01.component.html',
-  styleUrls: ['./country-table01.component.scss']
+  styleUrls: ['./country-table01.component.scss'],
+  encapsulation: ViewEncapsulation.None 
 })
 export class CountryTable01Component implements OnChanges {
     @Input() filterValues: Filter[]=[];
