@@ -34,19 +34,33 @@ export class Donut01Component extends BaseChartRender01Component {
      *
      */
     showChart(){
+            // tried this options but when export the total is in one line and overlaps
+            // title: {
+            //     text: this.totalTemplate.replace("{total}", this.series[0]['total']),
+            //     verticalAlign: "middle",
+            //     y: 0,
+            //     widthAdjust: -44,
+            //     floating: false,
+            //     useHTML: true,
+            //     style: {
+            //         fontSize: 9,
+            //         maxWidth: "100px",
+            //         whiteSpace: "inherit",
+            //         display: "block",
+            //         textAlign: "center"
+            //     }
+            // },
+
         this.options= {
             title: {
                 text: this.totalTemplate.replace("{total}", this.series[0]['total']),
                 verticalAlign: "middle",
-                y: 0,
+                y: 15,
                 widthAdjust: -44,
                 floating: false,
-                useHTML: true,
+                useHTML:false,
                 style: {
-                    fontSize: 9,
-                    maxWidth: "100px",
-                    whiteSpace: "inherit",
-                    display: "block",
+                    fontSize: 10,
                     textAlign: "center"
                 }
             },
@@ -94,7 +108,8 @@ export class Donut01Component extends BaseChartRender01Component {
                         enabled: this.enableDataLabels,
                         format: "{point.name}",
                     },
-                    showInLegend: true
+                    showInLegend: true,
+                    center:["50%","50%"]
                 },
                 series: {
                     point: {

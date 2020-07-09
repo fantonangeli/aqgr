@@ -2,14 +2,13 @@ import { Component, Input, OnChanges } from '@angular/core';
 import {LoggerService} from '../../../services/logger.service';
 import {UtilsService} from '../../../services/utils.service'
 import {BaseChart01Component} from '../base-chart01/base-chart01.component';
-import {Pie01Component} from '../pie01/pie01.component';
 import {PoliciesChart04Service} from '../../../services/policies/policies-chart04.service';
 import {ChartDataFormat} from '../../../namespace';
 
 @Component({
   selector: 'app-policies-chart04',
   template: `
-    <app-donut01 [series]="series" totalTemplate="Total number of policies reported globally {total}" unit="areas" [legendEnabled]="false" [enableDataLabels]="true" *ngIf="series.length" [height]="300"></app-donut01>
+    <app-donut01 [series]="series" totalTemplate="Total number of<br>institutions reported<br>{total}" unit="areas" [legendEnabled]="false" [enableDataLabels]="true" *ngIf="series.length" [height]="300"></app-donut01>
   `,
   styles: []
 })
