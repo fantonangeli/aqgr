@@ -69,8 +69,11 @@
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion06open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-                    <div header> Proportion of educational institutions offering training at different levels </div>
-                    <div body><app-common-chart15 *ngIf="isAccordion06open" [filterValues]="filterValues"></app-common-chart15></div>
+                    <div header>Educational institutions and the levels of education delivered by them</div>
+                    <div body>
+                        <app-common-chart15 *ngIf="isAccordion06open" [filterValues]="filterValues"></app-common-chart15>
+                        <div class="mb-3">Note: The chart shows the total number of education and training institutions for the geographic area and a breakdown of the levels of education they deliver.</div>
+                    </div>
                 </app-accordion01>
 
             </div>
