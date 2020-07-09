@@ -9,12 +9,13 @@ import {ChartDataFormat} from '../../../namespace';
 @Component({
   selector: 'app-policies-chart04',
   template: `
-    <app-pie01 [series]="series" unit="areas" [legendEnabled]="false" [enableDataLabels]="true" *ngIf="series.length" [height]="300"></app-pie01>
+    <app-donut01 [series]="series" totalTemplate="Total number of policies reported globally {total}" unit="areas" [legendEnabled]="false" [enableDataLabels]="true" *ngIf="series.length" [height]="300"></app-donut01>
   `,
   styles: []
 })
 export class PoliciesChart04Component extends BaseChart01Component implements OnChanges {
     dataFormat=ChartDataFormat.keyval;
+    calcTotals=true;
 
     constructor(_service:PoliciesChart04Service, _utilsService:UtilsService, _logger:LoggerService) {
         super(_service, _utilsService, _logger);
