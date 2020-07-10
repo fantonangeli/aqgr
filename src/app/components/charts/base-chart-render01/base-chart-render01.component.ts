@@ -53,6 +53,9 @@ export class BaseChartRender01Component  implements AfterViewInit, OnChanges {
                 chartOptions:{
                     title: {
                         text: this.exportTitle
+                    },
+                    subtitle:{
+                        y:30 //this position better the subtitle in donut01 
                     }
                 },
                 buttons: {
