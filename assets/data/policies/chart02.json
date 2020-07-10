@@ -1,6 +1,6 @@
 [
   {
-    "key": "No risk",
+    "key": "Trade",
     "values": [
       {
         "key": "Marine finfish ",
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "key": "Potential risk",
+    "key": "Environment and biodiversity conservation",
     "values": [
       {
         "key": "Marine finfish ",
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "key": "Risk",
+    "key": "Legislation",
     "values": [
       {
         "key": "Marine finfish ",

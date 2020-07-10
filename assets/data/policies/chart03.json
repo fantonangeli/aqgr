@@ -1,14 +1,38 @@
 [
   {
     "key": "Education",
+    "value": 21
+  },
+  {
+    "key": "Other",
     "value": 12
   },
   {
-    "key": "Importation",
-    "value": 5
+    "key": "Genes/molecules",
+    "value": 34
+  },
+  {
+    "key": "Aquaculture",
+    "value": 123
+  },
+  {
+    "key": "Fisheries",
+    "value": 31
   },
   {
     "key": "Conservation",
+    "value": 13
+  },
+  {
+    "key": "IP",
+    "value": 32
+  },
+  {
+    "key": "Importation",
     "value": 8
+  },
+  {
+    "key": "Trade & Commerce",
+    "value": 9
   }
 ]

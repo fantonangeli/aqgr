@@ -1,14 +1,38 @@
 [
   {
     "key": "Genetic improvements",
-    "value": 8
+    "value": 215
   },
   {
-    "key": "Characterization & monitoring",
-    "value": 20
+    "key": "Economic evaluation",
+    "value": 5
+  },
+  {
+    "key": "Conservation",
+    "value": 6
+  },
+  {
+    "key": "Communication",
+    "value": 2
+  },
+  {
+    "key": "Access and benefits",
+    "value": 21
+  },
+  {
+    "key": "Other",
+    "value": 2
+  },
+  {
+    "key": "Genetic Resource Mngt",
+    "value": 34
   },
   {
     "key": "Basic knowledge",
-    "value": 10
+    "value": 123
+  },
+  {
+    "key": "Characterisation & monitoring",
+    "value": 182
   }
 ]
