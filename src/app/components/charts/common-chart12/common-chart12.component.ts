@@ -11,7 +11,7 @@ import {UtilsService} from '../../../services/utils.service'
 @Component({
   selector: 'app-common-chart12',
   template:`
-        <app-stacked-bars01 [series]="series" *ngIf="series.length"></app-stacked-bars01>
+        <app-stacked-bars01 [series]="series" *ngIf="series.length" [exportTitle]="exportTitle"></app-stacked-bars01>
     `,
   styleUrls: []
 })

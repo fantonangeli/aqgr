@@ -34,67 +34,67 @@
 
                 <app-accordion01 [(isOpen)]="isAccordion01open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Proportion of farmed native and non-native species reported by countries</div>
-                    <div body><app-common-chart05 *ngIf="isAccordion01open" [filterValues]="filterValues"></app-common-chart05></div>
+                    <div body><app-common-chart05 *ngIf="isAccordion01open" [filterValues]="filterValues" exportTitle="Proportion of farmed native and non-native species reported by countries"></app-common-chart05></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion02open" *ngIf="!selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Proportion of farmed native and non-native species reported by countries by continent</div>
-                    <div body><app-use-chart02 *ngIf="isAccordion02open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues"></app-use-chart02></div>
+                    <div body><app-use-chart02 *ngIf="isAccordion02open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" exportTitle="Proportion of farmed native and non-native species reported by countries by continent"></app-use-chart02></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion03open" *ngIf="!selectedSpecie && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>The proportion (%) of aquaculture production that comes from non-native species by region of countries</div>
-                    <div body><app-use-chart03 *ngIf="isAccordion03open && !selectedSpecie && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues"></app-use-chart03></div>
+                    <div body><app-use-chart03 *ngIf="isAccordion03open && !selectedSpecie && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" exportTitle="The proportion (%) of aquaculture production that comes from non-native species by region of countries"></app-use-chart03></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion04open" *ngIf="!selectedSpecie" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Top 10 non-native species by production</div>
-                    <div body><app-common-chart04 *ngIf="isAccordion04open && !selectedSpecie" [filterValues]="filterValues"></app-common-chart04></div>
+                    <div body><app-common-chart04 *ngIf="isAccordion04open && !selectedSpecie" [filterValues]="filterValues" exportTitle="Top 10 non-native species by production"></app-common-chart04></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion05open" *ngIf="!selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Risk status of species reported as cultured by countries</div>
-                    <div body><app-common-chart09 *ngIf="isAccordion05open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues"></app-common-chart09></div>
+                    <div body><app-common-chart09 *ngIf="isAccordion05open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" exportTitle="Risk status of species reported as cultured by countries"></app-common-chart09></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion06open" *ngIf="!selectedSpecie" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Number of species whose introduction represents a risk by taxonomic category</div>
-                    <div body><app-use-chart06 *ngIf="isAccordion06open && !selectedSpecie" [filterValues]="filterValues"></app-use-chart06></div>
+                    <div body><app-use-chart06 *ngIf="isAccordion06open && !selectedSpecie" [filterValues]="filterValues" exportTitle="Number of species whose introduction represents a risk by taxonomic category"></app-use-chart06></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion07open" *ngIf="!selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Numbers and effectiveness of aquatic projected areas by region</div>
-                    <div body><app-use-chart07 *ngIf="isAccordion07open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues"></app-use-chart07></div>
+                    <div body><app-use-chart07 *ngIf="isAccordion07open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" exportTitle="Numbers and effectiveness of aquatic projected areas by region"></app-use-chart07></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion08open" *ngIf="!selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Number of species with live gene banks by region</div>
-                    <div body><app-use-chart08 *ngIf="isAccordion08open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues"></app-use-chart08></div>
+                    <div body><app-use-chart08 *ngIf="isAccordion08open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" exportTitle="Number of species with live gene banks by region"></app-use-chart08></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion09open" *ngIf="!selectedSpecie" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Number of species with live gene banks by taxonomic category</div>
-                    <div body><app-use-chart09 *ngIf="isAccordion09open && !selectedSpecie" [filterValues]="filterValues"></app-use-chart09></div>
+                    <div body><app-use-chart09 *ngIf="isAccordion09open && !selectedSpecie" [filterValues]="filterValues" exportTitle="Number of species with live gene banks by taxonomic category"></app-use-chart09></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion10open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Top 10 species conserved in live gene banks</div>
-                    <div body><app-use-chart10 *ngIf="isAccordion10open" [filterValues]="filterValues"></app-use-chart10></div>
+                    <div body><app-use-chart10 *ngIf="isAccordion10open" [filterValues]="filterValues" exportTitle="Top 10 species conserved in live gene banks"></app-use-chart10></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion11open" *ngIf="!selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>No of species with <i>in vitro</i> gene banks by country</div>
-                    <div body><app-use-chart11 *ngIf="isAccordion11open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues"></app-use-chart11></div>
+                    <div body><app-use-chart11 *ngIf="isAccordion11open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" exportTitle="No of species with <i>in vitro</i> gene banks by country"></app-use-chart11></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion12open" *ngIf="!selectedTaxonomy && !selectedSpecie" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>No of species with reported <i>in vitro</i> gene banks by taxonomy category</div>
-                    <div body><app-use-chart12 *ngIf="isAccordion12open && !selectedTaxonomy && !selectedSpecie" [filterValues]="filterValues"></app-use-chart12></div>
+                    <div body><app-use-chart12 *ngIf="isAccordion12open && !selectedTaxonomy && !selectedSpecie" [filterValues]="filterValues" exportTitle="No of species with reported <i>in vitro</i> gene banks by taxonomy category"></app-use-chart12></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion13open" *ngIf="!selectedSpecie" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Top 10 species conserved <i>in vitro</i> gene banks</div>
-                    <div body><app-use-chart13 *ngIf="isAccordion13open && !selectedSpecie" [filterValues]="filterValues"></app-use-chart13></div>
+                    <div body><app-use-chart13 *ngIf="isAccordion13open && !selectedSpecie" [filterValues]="filterValues" exportTitle="Top 10 species conserved <i>in vitro</i> gene banks"></app-use-chart13></div>
                 </app-accordion01>
 
             </div>

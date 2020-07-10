@@ -9,7 +9,7 @@ import {ChartDataFormat} from '../../../namespace';
 @Component({
   selector: 'app-use-chart08',
   template: `
-    <app-columns01 yAxisTitle="Number of species reported by countries" [series]="series" *ngIf="series.length" [height]="300"></app-columns01>
+    <app-columns01 yAxisTitle="Number of species reported by countries" [series]="series" *ngIf="series.length" [height]="300" [exportTitle]="exportTitle"></app-columns01>
   `,
   styles: []
 })

@@ -23,6 +23,12 @@ export class BaseChartRender01Component  implements AfterViewInit, OnChanges {
     @Input() xAxisTitle :string;
     @Input() yAxisTitle :string;
 
+     /**
+      * title to show in the exportation (img/pdf)
+      * @type {string}
+      */
+    @Input() exportTitle: string="";
+
     private _viewInitialized=false;
 
     /**
@@ -44,6 +50,11 @@ export class BaseChartRender01Component  implements AfterViewInit, OnChanges {
             yAxis: {
             },
             exporting: {
+                chartOptions:{
+                    title: {
+                        text: this.exportTitle
+                    }
+                },
                 buttons: {
                     contextButton: {
                         menuItems: ['downloadPDF', 'downloadPNG']

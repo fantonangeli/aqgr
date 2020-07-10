@@ -51,9 +51,13 @@ export class Donut01Component extends BaseChartRender01Component {
             //     }
             // },
 
+        let title=this.totalTemplate.replace("{total}", this.series[0]['total']);
+
+        this.exportTitle=title;
+
         this.options= {
             title: {
-                text: this.totalTemplate.replace("{total}", this.series[0]['total']),
+                text: title,
                 verticalAlign: "middle",
                 y: 15,
                 widthAdjust: -44,

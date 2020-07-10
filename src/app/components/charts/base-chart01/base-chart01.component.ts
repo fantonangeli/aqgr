@@ -9,6 +9,12 @@ export class BaseChart01Component {
     @Input() filterValues:Filter[]=[];
     @Input() height:number;
 
+     /**
+      * title to show in the exportation (img/pdf)
+      * @type {string}
+      */
+    @Input() exportTitle: string;
+
     
     /**
      * if true calculate the totals in the series
