@@ -9,7 +9,7 @@ const usePath=dataPath+"use/";
 export const environment = {
     production: true,
     logging:true,
-    defaultAccordionIsOpenValue:true,
+    defaultAccordionIsOpenValue:false,
     lastTimeseriesYear:"2017",
 
     /**
