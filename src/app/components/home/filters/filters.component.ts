@@ -137,6 +137,17 @@ export class FiltersComponent implements OnChanges {
         this.search.emit(this.filterValues);
     }
 
+
+    /**
+     * removeAllFiltersClick event. Removes all the filters and throw the search event
+     */
+    public removeAllFiltersClick(){
+        this.filterValues=[];
+
+        this.search.emit(this.filterValues);
+    }
+
+
     /**
      * deselect the children of a type
      *
