@@ -13,7 +13,7 @@ import { CollapseModule } from 'ngx-bootstrap/collapse';
 
 import { AppComponent } from './app.component';
 import { DynamicHTMLModule, DynamicHTMLComponent } from './core/components/dynamic-html';
-import { FishStatTableComponent } from './components/fish-stat-table/fish-stat-table.component';
+import { FishStatTableComponent } from './components/home/fish-stat-table/fish-stat-table.component';
 import { SpecFilterComponent } from './components/spec-filter/spec-filter.component';
 import { CountryComponent } from './pages/country/country.component';
 import { HomeComponent } from './pages/home/home.component';
