@@ -64,6 +64,7 @@ import { CountryChart05Component } from './components/charts/country-chart05/cou
 import { SpecieComponent } from './pages/specie/specie.component';
 import { SpecieTable01Component } from './components/specie/specie-table01/specie-table01.component';
 import { Donut01Component } from './components/charts/donut01/donut01.component';
+import { NgxScrollTopModule } from 'ngx-scrolltop';
 
 @NgModule({
   declarations: [
@@ -134,6 +135,7 @@ import { Donut01Component } from './components/charts/donut01/donut01.component'
     SearchModule,
     BrowserAnimationsModule,
     CollapseModule.forRoot(),
+    NgxScrollTopModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
