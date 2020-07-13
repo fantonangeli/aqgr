@@ -12,15 +12,8 @@ export class Pie01Component extends BaseChartRender01Component {
     @Input() innerSize:string="30%";
 
 
-     /**
-      * Unit to show in the tooltip
-      * @type {string}
-      */
-    @Input() unit:string="";
 
 
-
-    /* TODO: show percentage in tooltip. Format: 20 tonnes (74%)*/
 
 
     /**
@@ -65,7 +58,7 @@ export class Pie01Component extends BaseChartRender01Component {
             },
             tooltip: {
                 headerFormat: "",
-                pointFormat: "<span style='color:{point.color}'>●</span> {point.name}: <b>{point.y} "+this.unit+"</b><br> Proportion: <b>{point.percentage:.1f}%</b><br/>",
+                pointFormat: "<span style='color:{point.color}'>●</span> {point.name}: <b>{point.y} "+this.unit+" ({point.percentage:.1f}%)</b><br/>",
             },
             plotOptions: {
                 pie: {

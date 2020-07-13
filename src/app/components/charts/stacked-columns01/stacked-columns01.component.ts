@@ -8,7 +8,6 @@ import {BaseChartRender01Component} from '../base-chart-render01/base-chart-rend
 })
 export class StackedColumns01Component extends BaseChartRender01Component {
 
-    /* TODO: show percentage in tooltip */
 
     /**
      * show the chart
@@ -33,7 +32,7 @@ export class StackedColumns01Component extends BaseChartRender01Component {
             },
             tooltip: {
                 headerFormat:null,
-                pointFormat: "{series.name}: {point.y}",
+                pointFormat: "<span style='color:{point.color}'>●</span> {series.name}: <b>{point.y} "+this.unit+" ({point.percentage:.1f}%)</b><br/>",
             },
             plotOptions: {
                 series: {

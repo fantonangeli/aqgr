@@ -36,6 +36,12 @@ export class BaseChartRender01Component  implements AfterViewInit, OnChanges {
      */
     @Input() legendEnabled :boolean=true;
 
+     /**
+      * Unit to show in the tooltip
+      * @type {string}
+      */
+    @Input() unit:string="";
+
     /**
      * show the chart
      *

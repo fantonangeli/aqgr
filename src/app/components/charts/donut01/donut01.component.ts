@@ -19,15 +19,6 @@ export class Donut01Component extends BaseChartRender01Component {
     @Input() totalTemplate:string="";
 
 
-     /**
-      * Unit to show in the tooltip
-      * @type {string}
-      */
-    @Input() unit:string="";
-
-
-
-
 
     /**
      * show the chart
@@ -103,7 +94,7 @@ export class Donut01Component extends BaseChartRender01Component {
             },
             tooltip: {
                 headerFormat: "",
-                pointFormat: "<span style='color:{point.color}'>●</span> {point.name}: <b>{point.y} "+this.unit+"</b><br> Proportion: <b>{point.percentage:.1f}%</b><br/>",
+                pointFormat: "<span style='color:{point.color}'>●</span> {point.name}: <b>{point.y} "+this.unit+" ({point.percentage:.1f}%)</b><br/>",
             },
             plotOptions: {
                 pie: {
