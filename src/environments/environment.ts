@@ -5,6 +5,7 @@ const countryPath=dataPath+"country/";
 const countriesPath=dataPath+"countries/";
 const policiesPath=dataPath+"policies/";
 const usePath=dataPath+"use/";
+const homePath=dataPath+"home/";
 
 export const environment = {
     production: false,
@@ -18,8 +19,11 @@ export const environment = {
     defaultDateFormat:"dd/MM/yyyy",
 
     services:{
+        home:{
+            globalInfo:homePath+"globalInfo.json"
+        },
         fishStatCultSpecCountries: {
-            all:dataPath+"FishStatSpecCountries.json",
+            all:homePath+"FishStatSpecCountries.json",
             bySpecies:dataPath+"FishStatSpecCountries.ASFISCode-MSM.json?species=",
             byFtype:dataPath+"FishStatSpecCountries.ASFISCode-MSM.json?species="
         },

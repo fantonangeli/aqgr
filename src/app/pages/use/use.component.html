@@ -1,3 +1,7 @@
+<!-- TODO: put a go to top button -->
+<!-- TODO: repeat the pills below intro text -->
+<!-- TODO: expand/collapse all -->
+<!-- TODO: with taxonomy filters: hide all charts with taxonomies key in title -->
 <div class="container mw-100">
     <div class="row">
         <div class="col-sm-12">
@@ -53,6 +57,7 @@
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion05open" *ngIf="!selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                    <!-- TODO: tooltip with short name -->
                     <div header>Risk status of species reported as cultured by countries</div>
                     <div body><app-common-chart09 *ngIf="isAccordion05open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" exportTitle="Risk status of species reported as cultured by countries"></app-common-chart09></div>
                 </app-accordion01>

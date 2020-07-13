@@ -8,6 +8,7 @@ import {BaseChartRender01Component} from '../base-chart-render01/base-chart-rend
 })
 export class StackedColumns01Component extends BaseChartRender01Component {
 
+    /* TODO: show percentage in tooltip */
 
     /**
      * show the chart

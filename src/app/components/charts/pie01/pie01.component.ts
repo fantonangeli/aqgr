@@ -20,6 +20,7 @@ export class Pie01Component extends BaseChartRender01Component {
 
 
 
+    /* TODO: show percentage in tooltip. Format: 20 tonnes (74%)*/
 
 
     /**
