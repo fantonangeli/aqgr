@@ -74,9 +74,9 @@
                     <div body><app-use-chart08 *ngIf="isAccordion08open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" exportTitle="Number of species with live gene banks by continent"></app-use-chart08></div>
                 </app-accordion01>
 
-                <app-accordion01 [(isOpen)]="isAccordion09open" *ngIf="!selectedSpecie" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                <app-accordion01 [(isOpen)]="isAccordion09open" *ngIf="!selectedTaxonomy && !selectedSpecie" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Number of species with live gene banks by taxonomic category</div>
-                    <div body><app-use-chart09 *ngIf="isAccordion09open && !selectedSpecie" [filterValues]="filterValues" exportTitle="Number of species with live gene banks by taxonomic category"></app-use-chart09></div>
+                    <div body><app-use-chart09 *ngIf="isAccordion09open && !selectedTaxonomy && !selectedSpecie" [filterValues]="filterValues" exportTitle="Number of species with live gene banks by taxonomic category"></app-use-chart09></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="isAccordion10open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
