@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { DynamicHTMLModule, DynamicHTMLComponent } from '../../core/components/dynamic-html';
 import { Filter, ResultSearchEvent} from '../../components/search/namespace';
 import {UtilsService} from '../../services/utils.service';
+import { AccordionProps } from '../../namespace';
 
 export class BasePage01Component implements OnInit {
     filterValues: Filter[]=[];
@@ -13,6 +14,7 @@ export class BasePage01Component implements OnInit {
     selectedSpecie:Filter;
     selectedFtype:Filter;
     selectedSftype:Filter;
+    accordionsProps:AccordionProps[]=[];
 
 
     constructor(private _utilsService:UtilsService){}
@@ -66,6 +68,27 @@ export class BasePage01Component implements OnInit {
         this.filterValues=this.removeFilterByKeyVal(this.filterValues, filterParam.key, filterParam.value);
     }
 
+
+    /**
+     * onClick event of expandAllAccordion btn
+     */
+    expandAllAccordionOnClick(){
+        this.accordionsProps=this.accordionsProps.map(e=>{
+            e.isOpen=true;
+            return e;
+        });
+    }
+
+
+    /**
+     * onClick event of collapseAllAccordion btn
+     */
+    collapseAllAccordionOnClick(){
+        this.accordionsProps=this.accordionsProps.map(e=>{
+            e.isOpen=false;
+            return e;
+        });
+    }
 
 
 

@@ -14,7 +14,6 @@ import { environment } from '../../../environments/environment';
 })
 export class SpecieComponent implements OnInit {
     initialAccordionsIsOpen:boolean=environment.defaultAccordionIsOpenValue;
-    isAccordion01open:boolean=this.initialAccordionsIsOpen;
     alphaCode:string;
     filterValues: Filter[]=[];
 

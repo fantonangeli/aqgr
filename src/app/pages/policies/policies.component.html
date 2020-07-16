@@ -23,57 +23,69 @@
         <div class="col-sm-12 col-md-9">
 
             <div class="container mw-100 p-0" *ngIf="reloadCharts">
+                <div class="row">
+                    <div class="col-12 pb-4 text-right">
+                        <a href="javascript:" class="font-weight-bold text-left pr-3" (click)="expandAllAccordionOnClick()">
+                            <i class="material-icons md-18 align-bottom">unfold_more</i>
+                            Expand all
+                        </a>
+                        <a href="javascript:" class="font-weight-bold text-left" (click)="collapseAllAccordionOnClick()">
+                            <i class="material-icons md-18 align-bottom">unfold_less</i>
+                            Collapse all
+                        </a>
+                    </div>
+                </div>
 
-                <app-accordion01 [(isOpen)]="isAccordion01open" *ngIf="!selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                <app-accordion01 [(isOpen)]="accordionsProps[00].isOpen" *ngIf="!selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header> Number of species under control measures </div>
                     <div body>
                         <div class="mb-3">
                             The Registry questionnaire asks, for each country, if there are any species-specific controls on conservation, management and use of this species and where controls exist, to identify whether these controls apply to trade (export/import), the environment and biodiversity conservation and/or legislation on the use of wild relatives in fisheries and aquaculture?
                         </div>
-                        <app-policies-chart01 *ngIf="isAccordion01open && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" exportTitle=" Number of species under control measures "></app-policies-chart01>
+                        <app-policies-chart01 *ngIf="accordionsProps[00].isOpen && !selectedContinent && !selectedRegion && !selectedCountry" [filterValues]="filterValues" exportTitle=" Number of species under control measures "></app-policies-chart01>
                     </div>
                 </app-accordion01>
 
-                <app-accordion01 [(isOpen)]="isAccordion02open" *ngIf="!selectedSpecie" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                <app-accordion01 [(isOpen)]="accordionsProps[01].isOpen" *ngIf="!selectedSpecie" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header> Number of species under control measures </div>
                     <div body>
                         <div class="mb-3">
                             The Registry questionnaire asks, for each country, if there are any species-specific controls on conservation, management and use of this species and where controls exist, to identify whether these controls apply to trade (export/import), the environment and biodiversity conservation and/or legislation on the use of wild relatives in fisheries and aquaculture?
                         </div>
-                        <app-policies-chart02 *ngIf="isAccordion02open && !selectedSpecie" [filterValues]="filterValues" exportTitle=" Number of species under control measures "></app-policies-chart02>
+                        <app-policies-chart02 *ngIf="accordionsProps[01].isOpen && !selectedSpecie" [filterValues]="filterValues" exportTitle=" Number of species under control measures "></app-policies-chart02>
                     </div>
                 </app-accordion01>
 
-                <app-accordion01 [(isOpen)]="isAccordion03open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                <app-accordion01 [(isOpen)]="accordionsProps[02].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Proportion of policy areas addressed by national policy</div>
                     <div body>
-                    <app-policies-chart03 *ngIf="isAccordion03open" [filterValues]="filterValues" exportTitle="Proportion of policy areas addressed by national policy"></app-policies-chart03>
+                    <app-policies-chart03 *ngIf="accordionsProps[02].isOpen" [filterValues]="filterValues" exportTitle="Proportion of policy areas addressed by national policy"></app-policies-chart03>
                         <div class="mb-3">
                             Note: The graphic item is based on country responses in their Country Reports identifying national polices that address one or more of these AqGR related policy areas and represents the proportion of the reported policies which address each area. 
                         </div>
                     </div>
                 </app-accordion01>
 
-                <app-accordion01 [(isOpen)]="isAccordion04open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                <app-accordion01 [(isOpen)]="accordionsProps[03].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Research institutions and the issues addressed by them</div>
                     <div body>
-                        <app-policies-chart04 *ngIf="isAccordion04open" [filterValues]="filterValues" exportTitle="Research institutions and the issues addressed by them"></app-policies-chart04>
+                        <app-policies-chart04 *ngIf="accordionsProps[03].isOpen" [filterValues]="filterValues" exportTitle="Research institutions and the issues addressed by them"></app-policies-chart04>
                         <div class="mb-3">Note: The chart shows the total number of research institutions for the geographic area and a breakdown of the research issues they cover.</div>
                     </div>
                 </app-accordion01>
 
-                <app-accordion01 [(isOpen)]="isAccordion05open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                <app-accordion01 [(isOpen)]="accordionsProps[04].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Educational institutions and the issues addressed by them</div>
                     <div body>
-                        <app-common-chart14 *ngIf="isAccordion05open" [filterValues]="filterValues" exportTitle="Educational institutions and the issues addressed by them"></app-common-chart14>
+                        <app-common-chart14 *ngIf="accordionsProps[04].isOpen" [filterValues]="filterValues" exportTitle="Educational institutions and the issues addressed by them"></app-common-chart14>
                         <div class="mb-3">Note: The chart shows the total number of education and training institutions for the geographic area and a breakdown of the issues they cover.</div>
                     </div>
                 </app-accordion01>
 
-                <app-accordion01 [(isOpen)]="isAccordion06open" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+                <app-accordion01 [(isOpen)]="accordionsProps[05].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Educational institutions and the levels of education delivered by them</div>
                     <div body>
-                        <app-common-chart15 *ngIf="isAccordion06open" [filterValues]="filterValues" exportTitle="Educational institutions and the levels of education delivered by them"></app-common-chart15>
+                        <app-common-chart15 *ngIf="accordionsProps[05].isOpen" [filterValues]="filterValues" exportTitle="Educational institutions and the levels of education delivered by them"></app-common-chart15>
                         <div class="mb-3">Note: The chart shows the total number of education and training institutions for the geographic area and a breakdown of the levels of education they deliver.</div>
                     </div>
                 </app-accordion01>

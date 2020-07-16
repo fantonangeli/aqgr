@@ -10,7 +10,7 @@ const homePath=dataPath+"home/";
 export const environment = {
     production: false,
     logging:true,
-    defaultAccordionIsOpenValue:true,
+    defaultAccordionIsOpenValue:false,
     lastTimeseriesYear:"2017",
 
     /**

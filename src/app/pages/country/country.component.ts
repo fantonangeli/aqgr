@@ -6,38 +6,27 @@ import { SpeciesListComponent } from '../../components/country/species-list/spec
 import { Filter} from '../../components/search/namespace';
 import {LoggerService} from '../../services/logger.service';
 import { environment } from '../../../environments/environment';
+import {BasePage01Component} from '../base-page01/base-page01.component';
+import {UtilsService} from '../../services/utils.service';
+import { AccordionProps } from '../../namespace';
 
 
 @Component({
   selector: 'app-country',
   templateUrl: './country.component.html',
 })
-export class CountryComponent implements OnInit {
-    initialAccordionsIsOpen:boolean=environment.defaultAccordionIsOpenValue;
-    isAccordion01open:boolean=this.initialAccordionsIsOpen;
-    isAccordion02open:boolean=this.initialAccordionsIsOpen;
-    isAccordion03open:boolean=this.initialAccordionsIsOpen;
-    isAccordion04open:boolean=this.initialAccordionsIsOpen;
-    isAccordion05open:boolean=this.initialAccordionsIsOpen;
-    isAccordion06open:boolean=this.initialAccordionsIsOpen;
-    isAccordion07open:boolean=this.initialAccordionsIsOpen;
-    isAccordion08open:boolean=this.initialAccordionsIsOpen;
-    isAccordion09open:boolean=this.initialAccordionsIsOpen;
-    isAccordion10open:boolean=this.initialAccordionsIsOpen;
-    isAccordion11open:boolean=this.initialAccordionsIsOpen;
-    isAccordion12open:boolean=this.initialAccordionsIsOpen;
-    isAccordion13open:boolean=this.initialAccordionsIsOpen;
-    isAccordion14open:boolean=this.initialAccordionsIsOpen;
-    isAccordion15open:boolean=this.initialAccordionsIsOpen;
-    isAccordion16open:boolean=this.initialAccordionsIsOpen;
+export class CountryComponent extends BasePage01Component implements OnInit {
     iso3:string;
     filterValues: Filter[]=[];
-
     countryName:string="";
     lastModifiedDate:string="";
     defaultDateFormat:string=environment.defaultDateFormat;
 
-    constructor(private route: ActivatedRoute, private _countryInfoService:CountryInfoService, private _logger:LoggerService) { }
+    constructor(private route: ActivatedRoute, private _countryInfoService:CountryInfoService, private _logger:LoggerService, _utilsService:UtilsService) {
+        super(_utilsService);
+
+        this.accordionsProps=Array(16).fill(null).map(e=>(new AccordionProps()));
+    }
 
     /**
      * fetch the data and load them
@@ -70,7 +59,7 @@ export class CountryComponent implements OnInit {
      * @param {string} (optional) taxonomy taxonomy name, not used for now
      */
     public speciesList_onTaxonomyClick(taxonomy?:string){
-        this.isAccordion03open=true;
+        this.accordionsProps[15].isOpen=true;
         
         setTimeout(()=>{
             document.querySelector("app-country-table01").scrollIntoView();
