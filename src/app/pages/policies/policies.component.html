@@ -16,7 +16,9 @@
 
     <div class="row">
         <div class="col-sm-12 col-md-3">
-            <app-filters [(filterValues)]="filterValues" [aggregationsTypes]="['continents', 'regions', 'countries', 'taxonomies', 'species', 'ftypes', 'sftypes']" (search)="searchAggregation($event)"></app-filters>
+            <div class="sticky-top">
+                <app-filters [(filterValues)]="filterValues" [aggregationsTypes]="['continents', 'regions', 'countries', 'taxonomies', 'species', 'ftypes', 'sftypes']" (search)="searchAggregation($event)"></app-filters>
+            </div>
         </div>
         <div class="col-sm-12 col-md-9">
 
