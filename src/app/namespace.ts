@@ -83,9 +83,13 @@ export enum ChartDataFormat {
 }
 
 
+/**
+ * accordion properties
+ */
 export class AccordionProps {
 
     isOpen:boolean=environment.defaultAccordionIsOpenValue;
+    isVisible:boolean=true;
 
     constructor(isOpen:boolean=false){};
 }

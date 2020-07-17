@@ -21,4 +21,8 @@ export class PoliciesComponent extends BasePage01Component  {
         this.accordionsProps[0].isOpen=true;
     }
 
+    onFilterValuesChange(){
+                this.accordionsProps[0].isVisible=(!this.selectedContinent && !this.selectedRegion && !this.selectedCountry);
+                this.accordionsProps[1].isVisible=(!this.selectedSpecie);
+    }
 }
