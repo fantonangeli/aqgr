@@ -25,7 +25,7 @@ export class UseComponent extends BasePage01Component {
         this.accordionsProps[2].isVisible=(!this.selectedSpecie && !this.selectedContinent && !this.selectedRegion && !this.selectedCountry);
         this.accordionsProps[3].isVisible=(!this.selectedSpecie);
         this.accordionsProps[4].isVisible=(!this.selectedContinent && !this.selectedRegion && !this.selectedCountry);
-        this.accordionsProps[5].isVisible=(!this.selectedSpecie);
+        this.accordionsProps[5].isVisible=(!this.selectedTaxonomy && !this.selectedSpecie);
         this.accordionsProps[6].isVisible=(!this.selectedContinent && !this.selectedRegion && !this.selectedCountry);
         this.accordionsProps[7].isVisible=(!this.selectedContinent && !this.selectedRegion && !this.selectedCountry);
         this.accordionsProps[8].isVisible=(!this.selectedTaxonomy && !this.selectedSpecie);
