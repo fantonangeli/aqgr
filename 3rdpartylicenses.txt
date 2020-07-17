@@ -190,6 +190,9 @@ ngx-bootstrap/collapse
 
 ngx-bootstrap/pagination
 
+ngx-scrolltop
+MIT
+
 regenerator-runtime
 MIT
 MIT License
