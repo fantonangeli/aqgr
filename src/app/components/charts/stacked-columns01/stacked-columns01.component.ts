@@ -24,7 +24,6 @@ export class StackedColumns01Component extends BaseChartRender01Component {
             yAxis: {
                 title: (this.yAxisTitle)?{
                     text: this.yAxisTitle,
-                    align: 'low'
                 }:null,
                 reversedStacks: false
             },
@@ -33,7 +32,7 @@ export class StackedColumns01Component extends BaseChartRender01Component {
             },
             tooltip: {
                 headerFormat:null,
-                pointFormat: "{series.name}: {point.y}",
+                pointFormat: "<span style='color:{point.color}'>●</span> {series.name}: <b>{point.y} "+this.unit+" ({point.percentage:.1f}%)</b><br/>",
             },
             plotOptions: {
                 series: {

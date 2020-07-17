@@ -9,6 +9,18 @@ export class BaseChart01Component {
     @Input() filterValues:Filter[]=[];
     @Input() height:number;
 
+     /**
+      * title to show in the exportation (img/pdf)
+      * @type {string}
+      */
+    @Input() exportTitle: string;
+
+    
+    /**
+     * if true calculate the totals in the series
+     * @type {boolean}
+     */
+    protected calcTotals:boolean=false;
 
     /**
      * server's data format. Default highcharts
@@ -18,12 +30,19 @@ export class BaseChart01Component {
 
   constructor(protected _service, protected _utilsService:UtilsService, protected _logger:LoggerService) { }
 
+    /**
+     * initialize an highcharts series
+     *
+     * @param {object} el
+     * @returns {object} the highcharts serie
+     */
     private _initKeyValSerie(el):object{
         if(!el) return null;
 
         return {
                 "name":el.key,
-                "data":el.values.map(e=>({"name": e.key, "y":e.value}))
+                "data":el.values.map(e=>({"name": e.key, "y":e.value})),
+                "total":(this.calcTotals)?(el.values.reduce((accumulator, e) => (accumulator + e.value), 0)):null
             };
     }
 

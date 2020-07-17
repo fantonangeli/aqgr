@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnChanges } from '@angular/core';
 import { DynamicHTMLModule, DynamicHTMLComponent } from '../../core/components/dynamic-html';
 import { Filter, ResultSearchEvent} from '../../components/search/namespace';
 import {UtilsService} from '../../services/utils.service';
@@ -7,18 +7,19 @@ import { environment } from '../../../environments/environment';
 import { AccordionProps } from '../../namespace';
 
 @Component({
-  selector: 'app-policies',
-  templateUrl: './policies.component.html',
-  styleUrls: ['./policies.component.scss']
+  selector: 'app-use',
+  templateUrl: './use.component.html',
 })
-export class PoliciesComponent extends BasePage01Component  {
-    countryName:string;
-
+export class UseComponent extends BasePage01Component {
+    initialAccordionsIsOpen:boolean=environment.defaultAccordionIsOpenValue;
+    
     constructor(_utilsService:UtilsService){
         super(_utilsService);
 
         this.accordionsProps=Array(13).fill(null).map(e=>(new AccordionProps()));
         this.accordionsProps[0].isOpen=true;
     }
+
+
 
 }

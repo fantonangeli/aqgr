@@ -1,3 +1,5 @@
+import { environment } from '../environments/environment';
+
 /**
  * SearchServiceParams class to define the search params to pass to the service for querying
  */
@@ -78,4 +80,12 @@ export enum ChartDataFormat {
      * [{key, values:[{key, value}]}] format
      */
     stackedKeyval,
+}
+
+
+export class AccordionProps {
+
+    isOpen:boolean=environment.defaultAccordionIsOpenValue;
+
+    constructor(isOpen:boolean=false){};
 }

@@ -1,48 +1,35 @@
 <div class="container mw-100">
     <div class="row">
         <div class="col-sm-12">
-            This registry summarizes the outcome of a global survey on farmed types, and also includes the survey sections on 
-            <a [routerLink]="['/use']" routerLinkActive="router-link-active">Conservation & Sustainable Use</a> and the 
-            <a [routerLink]="['/policies']" routerLinkActive="router-link-active">Policies, Institutions and Capacity</a> for the management of Aquaculture Genetic Resources for Food and Aquaculture
+            <div class="bg-white border border-dark col-sm-4 float-right mb-3 ml-3 p-3 rounded shadow">
+                A <b>farmed type</b> is a cultured aquatic organism that could be a strain, variety, hybrid, triploid, monosex group, other genetically altered form, or wild type
+            </div>
+
+
+            Welcome to the Registry of Farmed Types of Aquatic Genetic Resource.  This is a prototype version of the Registry developed and maintained by FAO. It provides you with access to searchable databases of initial information on primary and secondary farmed types of the more than 600 farmed aquatic species across ten taxonomic groups.  The prototype includes some information from over 90 countries. 
+
             <br>
-            <a [routerLink]="['/world']" routerLinkActive="router-link-active">Development summary</a>
+            <br>
+            The information is compiled through country contact persons on aquatic genetic resources (AqGR) and Member Country National Focal Points (NFPs). It allows users to analyse the diversity of farmed types of AqGR at national, regional and global levels including the characteristics and status of these farmed types from both development and conservation perspectives.
+            <br><br>
+            The current registry includes information on {{globalInfoData.totalSpecies}} species, from {{globalInfoData.totalCountries}} countries including {{globalInfoData.totalFtypes}} primary and {{globalInfoData.totalSftypes}} secondary farmed types.
+            <br>
+            This page summarises the data currently contained within the Registry. Data can also be viewed in separate pages focusing on <a [routerLink]="['/world']" routerLinkActive="router-link-active">Development of AqGR</a>, <a [routerLink]="['/use']" routerLinkActive="router-link-active">Conservation & Sustainable Use</a> and <a [routerLink]="['/policies']" routerLinkActive="router-link-active">Policies, Institutions and Capacity</a> for the management of AqGR. 
         </div>
     </div>
-    <!-- <div class="row"> -->
-    <!--     <div class="col&#45;sm&#45;12"> -->
-    <!--         <div class="bg&#45;white border border&#45;dark col&#45;sm&#45;4 float&#45;right mb&#45;3 ml&#45;3 p&#45;3 rounded shadow"> -->
-    <!--             A <b>farmed type</b> is a cultured aquatic organism that could be a strain, variety, hybrid, triploid, monosex group, other genetically altered form, or wild type -->
-    <!--         </div> -->
-    <!--  -->
-    <!--         This registry summarizes the outcome of a global survey on farmed types, and also includes the survey sections on <a href="http://www.fao.org/cgrfa/topics/aquatic/en/">Conservation &#38; Sustainable Use</a> and the <a href="http://www.fao.org/cgrfa/topics/aquatic/en/">Policies, Institutions and Capacity</a> for the management of Aquaculture Genetic Resources for Food and Aquaculture -->
-    <!--  -->
-    <!--         <br> -->
-    <!--         <br> -->
-    <!--  -->
-    <!--  -->
-    <!--         Welcome to the Registry of Farmed Types of Aquatic Genetic Resource.  This is a prototype version of the Registry developed and maintained by FAO. It provides you with access to searchable databases of initial information on primary and secondary farmed types of the more than 600 farmed aquatic species across ten taxonomic groups.  The prototype includes some information from over 90 countries.  -->
-    <!--  -->
-    <!--         <br> -->
-    <!--         <br> -->
-    <!--         The information is compiled through country contact persons on aquatic genetic resources (AqGR) and Member Country National Focal Points (NFPs). It allows users to analyse the diversity of farmed types of AqGR at national, regional and global levels including the characteristics and status of these farmed types from both development and conservation perspectives. -->
-    <!--         <br><br> -->
-    <!--         The current registry includes information on xx species, from xx countries including xx primary and xx secondary farmed types. -->
-    <!--  -->
-    <!--     </div> -->
-    <!-- </div> -->
-    <!-- TODO: (low) connect the xx in html to json data -->
-    <!-- TODO: (low) use dynamic-html for the header-->
         
     <br>
     <br>
     <div class="row">
         <div class="col-sm-12 col-md-9">
-            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Data on Farmed Types</h1></div></div>
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Summary of records currently contained in the Registry</h1></div></div>
         </div>
     </div>
     <div class="row">
         <div class="col-sm-12 col-md-3">
-            <app-filters [(filterValues)]="filterValues" [aggregationsTypes]="['taxonomies', 'species', 'ftypes', 'sftypes']" (search)="searchAggregation($event)"></app-filters>
+            <div class="sticky-top">
+                <app-filters [(filterValues)]="filterValues" [aggregationsTypes]="['taxonomies', 'species', 'ftypes', 'sftypes']" (search)="searchAggregation($event)"></app-filters>
+            </div>
         </div>
         <div class="col-sm-12 col-md-9">
             <div class="col-sm-12 col-md-12 pl-0">
@@ -63,37 +50,35 @@
                 </div>
             </div>
 
-            <ng-template #ChartsTpl let-taxonomy="taxonomy" let-specie="specie" let-ftype="ftype" let-sftype="sftype">
-                <div class="container mw-100 p-0" *ngIf="reloadCharts">
-                    <div class="row text-center">
-                        <div class="col-sm-12 p-0" [ngClass]="{'col-md-6':!sftype}">
-                            <div *ngIf="!ftype">
-                                <h6 class="">
-                                    Proportion of primary farmed types entered
-                                </h6>
-                                <app-common-chart01 [filterValues]="filterValues" height="200"></app-common-chart01>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 p-0" [ngClass]="{'col-md-6':!ftype}">
-                            <div *ngIf="!sftype">
-                                <h6 class="">
-                                    Proportion of secondary farmed types entered
-                                </h6>
-                                <app-common-chart02 [filterValues]="filterValues" height="200"></app-common-chart02>
-                            </div>
+            <div class="container mw-100 p-0" *ngIf="reloadCharts">
+                <div class="row text-center">
+                    <div class="col-sm-12 p-0" [ngClass]="{'col-md-6':!selectedSftype}">
+                        <div *ngIf="!selectedFtype">
+                            <h6 class="">
+                                Proportion of primary farmed types entered
+                            </h6>
+                            <app-common-chart01 [filterValues]="filterValues" height="200" exportTitle="Proportion of primary farmed types entered"></app-common-chart01>
                         </div>
                     </div>
-                    <div class="row" *ngIf="!taxonomy && !specie">
-                        <h6 class="mt-5">
-                            Number of species (based on reports by country) contained in the Registry
-                        </h6>
-                        <div class="col-sm-12 col-md-12 p-0">
-                            <app-countries-chart03 [filterValues]="filterValues"></app-countries-chart03>
+                    <div class="col-sm-12 col-md-6 p-0" [ngClass]="{'col-md-6':!selectedFtype}">
+                        <div *ngIf="!selectedSftype">
+                            <h6 class="">
+                                Proportion of secondary farmed types entered
+                            </h6>
+                            <app-common-chart02 [filterValues]="filterValues" height="200" exportTitle="Proportion of secondary farmed types entered"></app-common-chart02>
                         </div>
                     </div>
                 </div>
-            </ng-template>
-            <ng-template *ngTemplateOutlet="ChartsTpl; context: {taxonomy:getFilterValueByKey('taxonomies', filterValues), specie:getFilterValueByKey('species', filterValues), ftype:getFilterValueByKey('ftypes', filterValues), sftype:getFilterValueByKey('sftypes', filterValues)}"></ng-template>
+                <div class="row" *ngIf="!selectedTaxonomy && !selectedSpecie">
+                    <h6 class="mt-5">
+                        Number of species (based on reports by country) contained in the Registry
+                    </h6>
+                    <div class="col-sm-12 col-md-12 p-0">
+                        <app-countries-chart03 [filterValues]="filterValues" exportTitle="Number of species (based on reports by country) contained in the Registry"></app-countries-chart03>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     <br>

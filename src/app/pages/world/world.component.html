@@ -1,12 +1,14 @@
 <div class="container mw-100">
     <div class="row">
         <div class="col-sm-12 col-md-9">
-            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Data on Farmed Types</h1></div></div>
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Date on farmed types reported</h1></div></div>
         </div>
     </div>
     <div class="row">
         <div class="col-sm-12 col-md-3">
-            <app-filters [(filterValues)]="filterValues" [aggregationsTypes]="['continents', 'regions', 'countries', 'taxonomies', 'species', 'ftypes', 'sftypes']" (search)="searchAggregation($event)"></app-filters>
+            <div class="sticky-top">
+                <app-filters [(filterValues)]="filterValues" [aggregationsTypes]="['continents', 'regions', 'countries', 'taxonomies', 'species', 'ftypes', 'sftypes']" (search)="searchAggregation($event)"></app-filters>
+            </div>
         </div>
         <div class="col-sm-12 col-md-9">
 
@@ -14,17 +16,17 @@
             <div class="container mw-100 p-0" *ngIf="reloadCharts">
                 <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Number of primary farmed types entered into the Registry</div>
-                    <div body><app-common-chart12 [filterValues]="filterValues"></app-common-chart12></div>
+                    <div body><app-common-chart12 [filterValues]="filterValues" exportTitle="Number of primary farmed types entered into the Registry"></app-common-chart12></div>
                 </app-chart-wrapper01>
 
                 <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Top 10 developed species (by number of farmed types)</div>
-                    <div body><app-common-chart13 [filterValues]="filterValues"></app-common-chart13></div>
+                    <div body><app-common-chart13 [filterValues]="filterValues" exportTitle="Top 10 developed species (by number of farmed types)"></app-common-chart13></div>
                 </app-chart-wrapper01>
 
                 <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Recorded production by primary farmed type</div>
-                    <div body><app-common-chart06 [filterValues]="filterValues"></app-common-chart06></div>
+                    <div body><app-common-chart06 [filterValues]="filterValues" exportTitle="Recorded production by primary farmed type"></app-common-chart06></div>
                 </app-chart-wrapper01>
 
             </div>

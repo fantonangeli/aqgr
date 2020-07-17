@@ -24,7 +24,6 @@ export class StackedBars01Component extends BaseChartRender01Component {
             yAxis: {
                 title: (this.xAxisTitle)?{
                     text: this.xAxisTitle,
-                    align: 'low'
                 }:null
             },
             legend: {

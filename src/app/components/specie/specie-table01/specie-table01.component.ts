@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, OnChanges } from '@angular/core';
-import {FishStatCultSpecCountriesService} from '../../../services/countries/fish-stat-cult-spec-countries.service';
+import {FishStatCultSpecCountriesService} from '../../../services/home/fish-stat-cult-spec-countries.service';
 import { Filter} from '../../search/namespace';
 import {UtilsService} from '../../../services/utils.service'
 import {SearchServiceParams} from '../../../namespace';

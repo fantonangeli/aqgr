@@ -3,16 +3,20 @@ import * as Highcharts from 'highcharts';
 import {BaseChartRender01Component} from '../base-chart-render01/base-chart-render01.component';
 
 @Component({
-  selector: 'app-pie01',
+  selector: 'app-donut01',
   template: `<div [attr.id]="wrapperId"></div> `,
-  styleUrls: []
+  styles: []
 })
-export class Pie01Component extends BaseChartRender01Component {
+export class Donut01Component extends BaseChartRender01Component {
     @Input() enableDataLabels :boolean=true;
-    @Input() innerSize:string="30%";
+    @Input() innerSize:string="60%";
 
 
-
+     /**
+      * template string for the total. eg:"Total number of policies reported globally {total}" 
+      * @type {string}
+      */
+    @Input() totalTemplate:string="";
 
 
 
@@ -21,7 +25,39 @@ export class Pie01Component extends BaseChartRender01Component {
      *
      */
     showChart(){
+            // tried this options but when export the total is in one line and overlaps
+            // title: {
+            //     text: this.totalTemplate.replace("{total}", this.series[0]['total']),
+            //     verticalAlign: "middle",
+            //     y: 0,
+            //     widthAdjust: -44,
+            //     floating: false,
+            //     useHTML: true,
+            //     style: {
+            //         fontSize: 9,
+            //         maxWidth: "100px",
+            //         whiteSpace: "inherit",
+            //         display: "block",
+            //         textAlign: "center"
+            //     }
+            // },
+
+        // let title=this.totalTemplate.replace("{total}", this.series[0]['total']);
+
+        // this.exportTitle=title;
+
         this.options= {
+            subtitle: {
+                text:this.totalTemplate.replace("{total}", this.series[0]['total']),
+                verticalAlign: "middle",
+                y:10,
+                floating: false,
+                useHTML:false,
+                style: {
+                    fontSize: 10,
+                    textAlign: "center"
+                }
+            },
             chart: {
                 type: "pie",
                 height:this.height,
@@ -66,7 +102,8 @@ export class Pie01Component extends BaseChartRender01Component {
                         enabled: this.enableDataLabels,
                         format: "{point.name}",
                     },
-                    showInLegend: true
+                    showInLegend: true,
+                    center:["50%","50%"]
                 },
                 series: {
                     point: {

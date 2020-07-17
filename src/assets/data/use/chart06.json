@@ -1,6 +1,6 @@
 [
   {
-    "key": "No risk",
+    "key": "No risk - no risk have been identified for this species",
     "values": [
       {
         "key": "Marine finfish ",
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "key": "Potential risk",
+    "key": "Potential risk - risks have been identified but no impacts recorded",
     "values": [
       {
         "key": "Marine finfish ",
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "key": "Risk",
+    "key": "Risk - there are recorded impacts of this species",
     "values": [
       {
         "key": "Marine finfish ",

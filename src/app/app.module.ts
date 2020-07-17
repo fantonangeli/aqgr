@@ -13,7 +13,7 @@ import { CollapseModule } from 'ngx-bootstrap/collapse';
 
 import { AppComponent } from './app.component';
 import { DynamicHTMLModule, DynamicHTMLComponent } from './core/components/dynamic-html';
-import { FishStatTableComponent } from './components/fish-stat-table/fish-stat-table.component';
+import { FishStatTableComponent } from './components/home/fish-stat-table/fish-stat-table.component';
 import { SpecFilterComponent } from './components/spec-filter/spec-filter.component';
 import { CountryComponent } from './pages/country/country.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -28,7 +28,7 @@ import { CommonChart02Component } from './components/charts/common-chart02/commo
 import { CountriesChart03Component } from './components/charts/countries-chart03/countries-chart03.component';
 import { FiltersComponent } from './components/home/filters/filters.component';
 import { TreeTableComponent } from './components/tree-table/tree-table.component';
-import { ConservationAndSustainableUseComponent } from './pages/conservation-and-sustainable-use/conservation-and-sustainable-use.component';
+import { UseComponent } from './pages/use/use.component';
 import { WorldComponent } from './pages/world/world.component';
 import { CommonChart05Component } from './components/charts/common-chart05/common-chart05.component';
 import { UseChart02Component } from './components/charts/use-chart02/use-chart02.component';
@@ -63,6 +63,8 @@ import { CountryChart04Component } from './components/charts/country-chart04/cou
 import { CountryChart05Component } from './components/charts/country-chart05/country-chart05.component';
 import { SpecieComponent } from './pages/specie/specie.component';
 import { SpecieTable01Component } from './components/specie/specie-table01/specie-table01.component';
+import { Donut01Component } from './components/charts/donut01/donut01.component';
+import { NgxScrollTopModule } from 'ngx-scrolltop';
 
 @NgModule({
   declarations: [
@@ -82,7 +84,7 @@ import { SpecieTable01Component } from './components/specie/specie-table01/speci
     CountriesChart03Component,
     FiltersComponent,
     TreeTableComponent,
-    ConservationAndSustainableUseComponent,
+    UseComponent,
     WorldComponent,
     CommonChart05Component,
     UseChart02Component,
@@ -117,6 +119,7 @@ import { SpecieTable01Component } from './components/specie/specie-table01/speci
     CountryChart05Component,
     SpecieComponent,
     SpecieTable01Component,
+    Donut01Component,
   ],
   imports: [
     BrowserModule,
@@ -132,6 +135,7 @@ import { SpecieTable01Component } from './components/specie/specie-table01/speci
     SearchModule,
     BrowserAnimationsModule,
     CollapseModule.forRoot(),
+    NgxScrollTopModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

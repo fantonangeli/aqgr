@@ -19,12 +19,14 @@ export class Bars01Component extends BaseChartRender01Component {
                 type: "bar",
             },
             xAxis: {
-                type: 'category'
+                type: 'category',
+                title: (this.yAxisTitle)?{
+                    text: this.yAxisTitle,
+                }:null,
             },
             yAxis: {
                 title: (this.xAxisTitle)?{
                     text: this.xAxisTitle,
-                    align: 'low'
                 }:null,
                 // tickInterval:5 //disabled to have millions format (M)
             },

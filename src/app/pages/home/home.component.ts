@@ -3,17 +3,41 @@ import { DynamicHTMLModule, DynamicHTMLComponent } from '../../core/components/d
 import { Filter, ResultSearchEvent} from '../../components/search/namespace';
 import {UtilsService} from '../../services/utils.service';
 import {BasePage01Component} from '../base-page01/base-page01.component';
+import { GlobalInfoService } from '../../services/home/global-info.service';
+import {LoggerService} from '../../services/logger.service';
 
 @Component({
   selector: 'app-world',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent extends BasePage01Component {
+export class HomeComponent extends BasePage01Component implements OnInit {
 
-    constructor(_utilsService:UtilsService){
+    /**
+     * this object contains the data from the GlobalInfoService
+     */
+    public globalInfoData:any={};
+
+    constructor(_utilsService:UtilsService, private _infoService:GlobalInfoService, private _logger:LoggerService){
         super(_utilsService);
         // this.filterValues=[{"key":"taxonomies","parameter":"document.taxonomiesMapping","value":"Aquatic plants"},{"key":"species","parameter":"document.speciesMapping","value":"Algae"},{"key":"ftypes","parameter":"document.ftypeMapping","value":"Strains"},{"key":"sftypes","parameter":"document.sftypeMapping","value":"Hybrids"}];
+    }
+
+
+
+    /**
+     * load the data from the GlobalInfoService 
+     */
+    public fetchInfo() {
+        this._infoService.getData().subscribe(
+            (data)=>{
+                this.globalInfoData=data;
+            },
+            (error)=>{
+                this._logger.error("Network error: ", error);
+            }
+        );
+
     }
 
     removeFilter(filterParam: Filter) {
@@ -43,5 +67,8 @@ export class HomeComponent extends BasePage01Component {
         setTimeout(() => this.reloadCharts = true);
     }
 
+    ngOnInit(){
+        this.fetchInfo();
+    }
 
 }

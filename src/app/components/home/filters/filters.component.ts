@@ -60,7 +60,7 @@ export class FiltersComponent implements OnChanges {
           new AggregationInput("continents","Continents"),
           new AggregationInput( "regions", "Regions", "continents"),
           new AggregationInput( "countries", "Countries", "regions"),
-          new AggregationInput( "taxonomies", "Taxonomies"),
+          new AggregationInput( "taxonomies", "Taxonomonic categories"),
           new AggregationInput( "species", "Species", "taxonomies"),
           new AggregationInput( "ftypes", "Primary farmed type"),
           new AggregationInput( "sftypes", "Secondary farmed type"),
@@ -136,6 +136,17 @@ export class FiltersComponent implements OnChanges {
         
         this.search.emit(this.filterValues);
     }
+
+
+    /**
+     * removeAllFiltersClick event. Removes all the filters and throw the search event
+     */
+    public removeAllFiltersClick(){
+        this.filterValues=[];
+
+        this.search.emit(this.filterValues);
+    }
+
 
     /**
      * deselect the children of a type
@@ -244,6 +255,11 @@ export class FiltersComponent implements OnChanges {
         if ((term.length<3) && (term.length>0)) return;
 
         if (type==="species") {
+            if(!term.length && !this._utilsService.getFilterValueByKey("taxonomies", this.filterValues)) {
+                this.aggregations[this.aggIndexes.species].aggregation.values=[];
+                return;
+            }
+
             this.aggregations[this.aggIndexes.species].filter=term;
             params.name=term;
             params.continent=(this._utilsService.getFilterValueByKey("continents", this.filterValues) || {value:""}).value;
@@ -253,6 +269,11 @@ export class FiltersComponent implements OnChanges {
 
             this.fetchData("species", this._speciesService, params);
         } else if (type==="countries") {
+            if(!term.length && !this._utilsService.getFilterValueByKey("regions", this.filterValues)) {
+                this.aggregations[this.aggIndexes.countries].aggregation.values=[];
+                return;
+            }
+
             this.aggregations[this.aggIndexes.countries].filter=term;
             params.name=term;
             params.continent=(this._utilsService.getFilterValueByKey("continents", this.filterValues) || {value:""}).value;

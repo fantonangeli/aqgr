@@ -23,12 +23,24 @@ export class BaseChartRender01Component  implements AfterViewInit, OnChanges {
     @Input() xAxisTitle :string;
     @Input() yAxisTitle :string;
 
+     /**
+      * title to show in the exportation (img/pdf)
+      * @type {string}
+      */
+    @Input() exportTitle: string="";
+
     private _viewInitialized=false;
 
     /**
      * https://api.highcharts.com/highcharts/legend.enabled
      */
     @Input() legendEnabled :boolean=true;
+
+     /**
+      * Unit to show in the tooltip
+      * @type {string}
+      */
+    @Input() unit:string="";
 
     /**
      * show the chart
@@ -44,6 +56,14 @@ export class BaseChartRender01Component  implements AfterViewInit, OnChanges {
             yAxis: {
             },
             exporting: {
+                chartOptions:{
+                    title: {
+                        text: this.exportTitle
+                    },
+                    subtitle:{
+                        y:30 //this position better the subtitle in donut01 
+                    }
+                },
                 buttons: {
                     contextButton: {
                         menuItems: ['downloadPDF', 'downloadPNG']
@@ -59,7 +79,11 @@ export class BaseChartRender01Component  implements AfterViewInit, OnChanges {
             ...this.options,
         };
 
-        options.chart.style={
+        options.yAxis.labels=(options.yAxis.labels || {});
+        options.yAxis.labels.style=(options.yAxis.labels.style || {});
+        options.xAxis.labels=(options.xAxis.labels || {});
+        options.xAxis.labels.style=(options.xAxis.labels.style || {});
+        options.yAxis.labels=options.xAxis.labels.style={
             fontStyle:(this.fontStyleItalic)?"italic":""
         };
 
