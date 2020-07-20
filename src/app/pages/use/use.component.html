@@ -111,8 +111,8 @@
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="accordionsProps[11].isOpen" *ngIf="accordionsProps[11].isVisible" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-                    <div header>No of species with reported <i>in vitro</i> gene banks by taxonomy category</div>
-                    <div body><app-use-chart12 *ngIf="accordionsProps[11].isOpen && accordionsProps[11].isVisible" [filterValues]="filterValues" exportTitle="No of species with reported <i>in vitro</i> gene banks by taxonomy category"></app-use-chart12></div>
+                    <div header>No of species with reported <i>in vitro</i> gene banks by taxonomy categories</div>
+                    <div body><app-use-chart12 *ngIf="accordionsProps[11].isOpen && accordionsProps[11].isVisible" [filterValues]="filterValues" exportTitle="No of species with reported <i>in vitro</i> gene banks by taxonomy categories"></app-use-chart12></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="accordionsProps[12].isOpen" *ngIf="accordionsProps[12].isVisible" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
