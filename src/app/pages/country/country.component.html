@@ -31,8 +31,8 @@
     </div>
 
     <app-accordion01 [(isOpen)]="accordionsProps[0].isOpen">
-        <div header>Number of primary farmed types</div>
-        <div body><app-common-chart12 *ngIf="accordionsProps[0].isOpen" [filterValues]="filterValues" exportTitle="Number of primary farmed types"></app-common-chart12></div>
+        <div header>Number of primary farmed types by taxonomic category</div>
+        <div body><app-common-chart12 *ngIf="accordionsProps[0].isOpen" [filterValues]="filterValues" exportTitle="Number of primary farmed types by taxonomic category"></app-common-chart12></div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[1].isOpen">
