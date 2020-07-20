@@ -85,8 +85,11 @@
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[13].isOpen">
-        <div header>Proportion of education areas addressed by insitutions</div>
-        <div body> <app-common-chart14 [filterValues]="filterValues" *ngIf="accordionsProps[13].isOpen" exportTitle="Proportion of education areas addressed by insitutions"></app-common-chart14> </div>
+        <div header>Educational institutions and the issues addressed by them</div>
+        <div body>
+            <app-common-chart14 *ngIf="accordionsProps[13].isOpen" [filterValues]="filterValues" exportTitle="Educational institutions and the issues addressed by them"></app-common-chart14>
+            <div class="mb-3">Note: The chart shows the total number of education and training institutions for the geographic area and a breakdown of the issues they cover.</div>
+        </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[14].isOpen">
