@@ -25,6 +25,12 @@ export class BasePage01Component implements OnInit {
     getFilterValueByKey=this._utilsService.getFilterValueByKey;
 
 
+
+    /**
+     * event fired when FilterValues changes
+     */
+    onFilterValuesChange(){}
+
     /**
      * action on facet click
      *
@@ -40,7 +46,10 @@ export class BasePage01Component implements OnInit {
         this.selectedSpecie=this.getFilterValueByKey('species', event);
         this.selectedFtype=this.getFilterValueByKey('ftypes', event);
         this.selectedSftype=this.getFilterValueByKey('sftypes', event);
+
+        this.onFilterValuesChange();
     }
+
 
 
     /**
@@ -66,6 +75,8 @@ export class BasePage01Component implements OnInit {
 
     removeFilter(filterParam: Filter) {
         this.filterValues=this.removeFilterByKeyVal(this.filterValues, filterParam.key, filterParam.value);
+
+        this.onFilterValuesChange();
     }
 
 
@@ -89,6 +100,17 @@ export class BasePage01Component implements OnInit {
             return e;
         });
     }
+
+
+   /**
+    * check if all the visible accordions are collapsed
+    *
+    * @param {AccordionProps[]} accordionsProps the accordionsProps array
+    * @returns {boolean} true if they are all collapsed
+    */
+   public isAllVisibleAccordionCollapsed(accordionsProps:AccordionProps[]):boolean {
+       return accordionsProps.filter(a=>(a.isOpen && a.isVisible)).length===0;
+   }
 
 
 

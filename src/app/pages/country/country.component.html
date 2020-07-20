@@ -10,6 +10,7 @@
 
     <app-species-list [filterValues]="filterValues" (onTaxonomyClickEvent)="speciesList_onTaxonomyClick($event)"></app-species-list>
 
+
     <div class="row">
         <div class="col-12 pb-4 text-right">
             <a href="javascript:" class="font-weight-bold text-left pr-3" (click)="expandAllAccordionOnClick()">
@@ -23,44 +24,44 @@
         </div>
     </div>
 
-    <app-accordion01 [(isOpen)]="accordionsProps[00].isOpen">
+    <app-accordion01 [(isOpen)]="accordionsProps[0].isOpen">
         <div header>Number of primary farmed types</div>
-        <div body><app-common-chart12 *ngIf="accordionsProps[00].isOpen" [filterValues]="filterValues" exportTitle="Number of primary farmed types"></app-common-chart12></div>
+        <div body><app-common-chart12 *ngIf="accordionsProps[0].isOpen" [filterValues]="filterValues" exportTitle="Number of primary farmed types"></app-common-chart12></div>
     </app-accordion01>
 
-    <app-accordion01 [(isOpen)]="accordionsProps[01].isOpen">
+    <app-accordion01 [(isOpen)]="accordionsProps[1].isOpen">
         <div header>Top 10 species for which farmed types are developed</div>
-        <div body><app-common-chart13 *ngIf="accordionsProps[01].isOpen" [filterValues]="filterValues" exportTitle="Top 10 species for which farmed types are developed"></app-common-chart13></div>
+        <div body><app-common-chart13 *ngIf="accordionsProps[1].isOpen" [filterValues]="filterValues" exportTitle="Top 10 species for which farmed types are developed"></app-common-chart13></div>
     </app-accordion01>
 
-    <app-accordion01 [(isOpen)]="accordionsProps[03].isOpen">
+    <app-accordion01 [(isOpen)]="accordionsProps[3].isOpen">
         <div header>Total number of primary farmed types</div>
-        <div body> <app-common-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[03].isOpen" exportTitle="Total number of primary farmed types"></app-common-chart01> </div>
+        <div body> <app-common-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[3].isOpen" exportTitle="Total number of primary farmed types"></app-common-chart01> </div>
     </app-accordion01>
 
-    <app-accordion01 [(isOpen)]="accordionsProps[04].isOpen">
+    <app-accordion01 [(isOpen)]="accordionsProps[4].isOpen">
         <div header>Total number of secondary farmed types</div>
-        <div body> <app-common-chart02 [filterValues]="filterValues" *ngIf="accordionsProps[04].isOpen" exportTitle="Total number of secondary farmed types"></app-common-chart02> </div>
+        <div body> <app-common-chart02 [filterValues]="filterValues" *ngIf="accordionsProps[4].isOpen" exportTitle="Total number of secondary farmed types"></app-common-chart02> </div>
     </app-accordion01>
 
-    <app-accordion01 [(isOpen)]="accordionsProps[05].isOpen">
+    <app-accordion01 [(isOpen)]="accordionsProps[5].isOpen">
         <div header>Production of farmed types</div>
-        <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[05].isOpen" exportTitle="Production of farmed types"></app-common-chart06> </div>
+        <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[5].isOpen" exportTitle="Production of farmed types"></app-common-chart06> </div>
     </app-accordion01>
 
-    <app-accordion01 [(isOpen)]="accordionsProps[06].isOpen">
+    <app-accordion01 [(isOpen)]="accordionsProps[6].isOpen">
         <div header>Prevalence of non-native species</div>
-        <div body> <app-common-chart05 [filterValues]="filterValues" *ngIf="accordionsProps[06].isOpen" exportTitle="Prevalence of non-native species"></app-common-chart05> </div>
+        <div body> <app-common-chart05 [filterValues]="filterValues" *ngIf="accordionsProps[6].isOpen" exportTitle="Prevalence of non-native species"></app-common-chart05> </div>
     </app-accordion01>
 
-    <app-accordion01 [(isOpen)]="accordionsProps[07].isOpen">
+    <app-accordion01 [(isOpen)]="accordionsProps[7].isOpen">
         <div header>Top 10 non-native species</div>
-        <div body> <app-common-chart04 [filterValues]="filterValues" *ngIf="accordionsProps[07].isOpen" exportTitle="Top 10 non-native species"></app-common-chart04> </div>
+        <div body> <app-common-chart04 [filterValues]="filterValues" *ngIf="accordionsProps[7].isOpen" exportTitle="Top 10 non-native species"></app-common-chart04> </div>
     </app-accordion01>
 
-    <app-accordion01 [(isOpen)]="accordionsProps[08].isOpen">
+    <app-accordion01 [(isOpen)]="accordionsProps[8].isOpen">
         <div header>Number and effectiveness of Aquatic Protected Areas</div>
-        <div body> <app-country-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[08].isOpen" exportTitle="Number and effectiveness of Aquatic Protected Areas"></app-country-chart01> </div>
+        <div body> <app-country-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[8].isOpen" exportTitle="Number and effectiveness of Aquatic Protected Areas"></app-country-chart01> </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[9].isOpen">
@@ -84,13 +85,19 @@
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[13].isOpen">
-        <div header>Proportion of education areas addressed by insitutions</div>
-        <div body> <app-common-chart14 [filterValues]="filterValues" *ngIf="accordionsProps[13].isOpen" exportTitle="Proportion of education areas addressed by insitutions"></app-common-chart14> </div>
+        <div header>Educational institutions and the issues addressed by them</div>
+        <div body>
+            <app-common-chart14 *ngIf="accordionsProps[13].isOpen" [filterValues]="filterValues" exportTitle="Educational institutions and the issues addressed by them"></app-common-chart14>
+            <div class="mb-3">Note: The chart shows the total number of education and training institutions for the geographic area and a breakdown of the issues they cover.</div>
+        </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[14].isOpen">
-        <div header>Proportion of educational institutions offering training at different levels</div>
-        <div body> <app-common-chart15 [filterValues]="filterValues" *ngIf="accordionsProps[14].isOpen" exportTitle="Proportion of educational institutions offering training at different levels"></app-common-chart15> </div>
+        <div header>Educational institutions and the levels of education delivered by them</div>
+        <div body>
+            <app-common-chart15 *ngIf="accordionsProps[14].isOpen" [filterValues]="filterValues" exportTitle="Educational institutions and the levels of education delivered by them"></app-common-chart15>
+            <div class="mb-3">Note: The chart shows the total number of education and training institutions for the geographic area and a breakdown of the levels of education they deliver.</div>
+        </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[15].isOpen">
