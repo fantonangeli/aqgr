@@ -33,6 +33,9 @@ export class Columns01Component extends BaseChartRender01Component {
                 headerFormat:null,
                 pointFormat: "{point.name}: {point.y}",
             },
+            legend: {
+                enabled: this.legendEnabled
+            },
             plotOptions: {
                 series: {
                     events: {
