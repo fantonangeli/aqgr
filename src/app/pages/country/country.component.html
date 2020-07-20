@@ -24,6 +24,12 @@
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-12 pb-3 pt-5">
+            <h2 clss="">Development of AqGR in {{countryName}}</h2>
+        </div>
+    </div>
+
     <app-accordion01 [(isOpen)]="accordionsProps[0].isOpen">
         <div header>Number of primary farmed types</div>
         <div body><app-common-chart12 *ngIf="accordionsProps[0].isOpen" [filterValues]="filterValues" exportTitle="Number of primary farmed types"></app-common-chart12></div>
@@ -49,6 +55,12 @@
         <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[5].isOpen" exportTitle="Production of farmed types"></app-common-chart06> </div>
     </app-accordion01>
 
+    <div class="row">
+        <div class="col-12 pb-3 pt-5">
+            <h2 clss="">Conservation and sustainble use of AqGR in  {{countryName}}</h2>
+        </div>
+    </div>
+
     <app-accordion01 [(isOpen)]="accordionsProps[6].isOpen">
         <div header>Prevalence of non-native species</div>
         <div body> <app-common-chart05 [filterValues]="filterValues" *ngIf="accordionsProps[6].isOpen" exportTitle="Prevalence of non-native species"></app-common-chart05> </div>
@@ -73,6 +85,12 @@
         <div header>Number of control measures applied</div>
         <div body><app-country-chart03 [filterValues]="filterValues" *ngIf="accordionsProps[10].isOpen" exportTitle="Number of control measures applied"></app-country-chart03></div>
     </app-accordion01>
+
+    <div class="row">
+        <div class="col-12 pb-3 pt-5">
+            <h2 clss="">Policies, institutions and capacity for AqGR management in {{countryName}}</h2>
+        </div>
+    </div>
 
     <app-accordion01 [(isOpen)]="accordionsProps[11].isOpen">
         <div header>Number of policies affecting AqGR</div>
