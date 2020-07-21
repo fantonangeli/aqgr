@@ -1,10 +1,10 @@
 <div class="container mw-100" *ngIf="filterValues.length">
     <div class="row">
         <div class="col-sm-12 col-md-12">
-            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">AqGR Farmed types data of {{countryName}}:</h1></div></div>
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Country fact sheet on Farmed Types of Aquatic Genetic Resources: {{countryName}}</h1></div></div>
         </div>
         <div class="col-12">
-            This fact sheet presents a summary of the data entered into the Registry of Farmed Types of AqGR in Chiina relating to the conservation, sustainable used and management of AqGR in the country.  Data for {{countryName}} was last updated on {{ lastModifiedDate | date:defaultDateFormat}}.
+            This fact sheet presents a summary of the data entered into the Registry of Farmed Types of AqGR in {{countryName}} relating to the conservation, sustainable used and management of AqGR in the country.  Data for {{countryName}} was last updated on {{ lastModifiedDate | date:defaultDateFormat}}.
         </div>
     </div>
 
@@ -24,9 +24,15 @@
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-12 pb-3 pt-5">
+            <h2 clss="">Development of AqGR in {{countryName}}</h2>
+        </div>
+    </div>
+
     <app-accordion01 [(isOpen)]="accordionsProps[0].isOpen">
-        <div header>Number of primary farmed types</div>
-        <div body><app-common-chart12 *ngIf="accordionsProps[0].isOpen" [filterValues]="filterValues" exportTitle="Number of primary farmed types"></app-common-chart12></div>
+        <div header>Number of primary farmed types by taxonomic category</div>
+        <div body><app-common-chart12 *ngIf="accordionsProps[0].isOpen" [filterValues]="filterValues" exportTitle="Number of primary farmed types by taxonomic category"></app-common-chart12></div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[1].isOpen">
@@ -45,9 +51,15 @@
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[5].isOpen">
-        <div header>Production of farmed types</div>
-        <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[5].isOpen" exportTitle="Production of farmed types"></app-common-chart06> </div>
+        <div header>Production of primary farmed types</div>
+        <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[5].isOpen" exportTitle="Production of primary farmed types"></app-common-chart06> </div>
     </app-accordion01>
+
+    <div class="row">
+        <div class="col-12 pb-3 pt-5">
+            <h2 clss="">Conservation and sustainble use of AqGR in  {{countryName}}</h2>
+        </div>
+    </div>
 
     <app-accordion01 [(isOpen)]="accordionsProps[6].isOpen">
         <div header>Prevalence of non-native species</div>
@@ -65,14 +77,23 @@
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[9].isOpen">
-        <div header>Number of in vivo and in vitro gene banks</div>
-        <div body> <app-country-chart02 [filterValues]="filterValues" *ngIf="accordionsProps[9].isOpen" exportTitle="Number of in vivo and in vitro gene banks"></app-country-chart02> </div>
+        <div header>Number of <i>in vivo</i> and <i>in vitro</i> gene banks by taxonomic category</div>
+        <div body> <app-country-chart02 [filterValues]="filterValues" *ngIf="accordionsProps[9].isOpen" exportTitle="Number of <i>in vivo</i> and <i>in vitro</i> gene banks by taxonomic category"></app-country-chart02> </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[10].isOpen">
-        <div header>Number of control measures applied</div>
-        <div body><app-country-chart03 [filterValues]="filterValues" *ngIf="accordionsProps[10].isOpen" exportTitle="Number of control measures applied"></app-country-chart03></div>
+        <div header>Number of species under control measures by taxonmic category</div>
+        <div body>
+            <app-country-chart03 [filterValues]="filterValues" *ngIf="accordionsProps[10].isOpen" exportTitle="Number of control measures applied"></app-country-chart03>
+            <div class="mb-3">Note: The Registry questionnaire asks, for each country, if there are any species-specific controls on conservation, management and use of this species and where controls exist, to identify whether these controls apply to trade (export/import), the environment and biodiversity conservation and/or legislation on the use of wild relatives in fisheries and aquaculture?</div>
+        </div>
     </app-accordion01>
+
+    <div class="row">
+        <div class="col-12 pb-3 pt-5">
+            <h2 clss="">Policies, institutions and capacity for AqGR management in {{countryName}}</h2>
+        </div>
+    </div>
 
     <app-accordion01 [(isOpen)]="accordionsProps[11].isOpen">
         <div header>Number of policies affecting AqGR</div>

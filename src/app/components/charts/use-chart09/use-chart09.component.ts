@@ -9,7 +9,7 @@ import {ChartDataFormat} from '../../../namespace';
 @Component({
   selector: 'app-use-chart09',
   template: `
-    <app-columns01 [series]="series" *ngIf="series.length" [height]="300" yAxisTitle="No. of gene banks reported by all countries" [exportTitle]="exportTitle"></app-columns01>
+    <app-columns01 [series]="series" *ngIf="series.length" [height]="300" yAxisTitle="No. of gene banks reported by all countries" [exportTitle]="exportTitle" [legendEnabled]="false"></app-columns01>
   `,
   styles: []
 })

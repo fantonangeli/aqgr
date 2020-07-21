@@ -49,3 +49,6 @@ Thumbs.db
 
 #screenshots files
 screenshots/*
+
+# Backstopjs
+backstop_data/bitmaps_test/*

@@ -1,6 +1,6 @@
 [
   {
-    "key": "No of species with live gene banks by country",
+    "key": "<i>In vivo</i>",
     "values": [
       {
         "key": "Marine finfish ",
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "key": "No of species with in vitro gene banks",
+    "key": "<i>In vitro</i>",
     "values": [
       {
         "key": "Marine finfish ",

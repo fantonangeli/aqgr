@@ -47,7 +47,7 @@ export class CountryTable01Component implements OnChanges {
                     Number(r.timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
                     r.ftypes,
                     r.sFtypes,
-                    r.native,
+                    (r.native)?"Yes":"No",
                     []
                 ];
                 rv["alphaCode"]=r.alphaCode;
