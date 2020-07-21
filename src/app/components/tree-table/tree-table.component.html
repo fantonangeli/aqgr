@@ -6,7 +6,7 @@
                 &nbsp;{{field}}
                 <ng-template *ngTemplateOutlet="firstFieldAppendTpl; context: {$implicit: element}"></ng-template>
             </td>
-            <td class="text-truncate" *ngIf="!first" [ngClass]="'index-'+i" class="text-break text-right">
+            <td class="text-truncate" *ngIf="!first" [ngClass]="'index-'+i" class="text-break">
                 {{field}}
             </td>
         </ng-container>
@@ -39,7 +39,7 @@
                     <td class="align-top text-truncate" *ngIf="first" [ngStyle]="{'padding-left': '20px'}" [ngClass]="'index-'+i">
                         {{field}}
                     </td>
-                    <td class="text-truncate" *ngIf="!first" class="align-top text-right" [ngClass]="'index-'+i">
+                    <td class="text-truncate" *ngIf="!first" class="align-top" [ngClass]="'index-'+i">
                         {{field}}
                     </td>
                 </ng-container>
