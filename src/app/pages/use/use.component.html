@@ -70,7 +70,7 @@
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="accordionsProps[3].isOpen" *ngIf="accordionsProps[3].isVisible" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-                    <div header>Top 10 non-native species by production</div>
+                    <div header>Top 10 non-native species by production volume</div>
                     <div body><app-common-chart04 *ngIf="accordionsProps[3].isOpen && accordionsProps[3].isVisible" [filterValues]="filterValues" exportTitle="Top 10 non-native species by production"></app-common-chart04></div>
                 </app-accordion01>
 
