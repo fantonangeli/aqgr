@@ -26,6 +26,14 @@ Run `npm run startprod` for a local prodution server. Navigate to `http://localh
 
 Run `npm run jsonserver` for a dev server. Navigate to `http://localhost:3000/{element}`.
 
+## Visual regression tests
+
+Install backstopjs: `npm install -g backstopjs`
+
+Compare snapshots with localhost: `backstop test`
+
+Approve snapshots: `backstop approve`
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.

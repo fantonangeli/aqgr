@@ -1,35 +1,13 @@
-table.dataTable {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+table {
+    tr{
+        td, th{
+            text-align:right;
 
-  th, td {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
-  tbody tr {
-    background-color: white;
-  }
-
-  &.compact thead {
-    th, td {
-      padding: 5px 9px;
+            &.index-0{
+                text-align:left;
+            }
+        }
     }
-  }
-
-  width: 100%;
-  margin: 0 auto;
-  clear: both;
-  border-collapse: separate;
-  border-spacing: 0;
+    
 }
-
-.dataTables_wrapper table.dataTable thead {
-  th, td {
-    border-bottom: 0;
-  }
-}
-
 
