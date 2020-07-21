@@ -14,7 +14,7 @@ import { environment } from '../../../../environments/environment';
 })
 export class SpeciesListComponent implements OnChanges {
     @Input() filterValues: Filter[]=[];
-    totalProduction:number;
+    totalProduction:string;
     speciesData:object[]=[];
     @Output() onTaxonomyClickEvent: EventEmitter<string> = new EventEmitter<string>();
 
