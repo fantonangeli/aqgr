@@ -50,12 +50,12 @@
 
     <app-accordion01 [(isOpen)]="accordionsProps[4].isOpen">
         <div header>Proportion of countries by region where Algae is native and those where it is non native</div>
-        <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[4].isOpen" exportTitle="Proportion of countries by region where Algae is native and those where it is non native"></app-common-chart06> </div>
+        <div body> <app-common-chart08 [filterValues]="filterValues" *ngIf="accordionsProps[4].isOpen" exportTitle="Proportion of countries by region where Algae is native and those where it is non native"></app-common-chart08> </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[5].isOpen">
-        <div header>Production of primary FTs of {{specieName}}</div>
-        <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[5].isOpen" exportTitle="Production of primary FTs of {{specieName}}"></app-common-chart06> </div>
+        <div header>Risk status of species reported as cultured by countries</div>
+        <div body> <app-common-chart09 [filterValues]="filterValues" *ngIf="accordionsProps[5].isOpen" exportTitle="Risk status of species reported as cultured by countries"></app-common-chart09> </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[6].isOpen">
