@@ -23,6 +23,13 @@ export class BaseChartRender01Component  implements AfterViewInit, OnChanges {
     @Input() xAxisTitle :string;
     @Input() yAxisTitle :string;
 
+
+     /**
+      * if true the children of the nodes will be shown in the tooltip as a list
+      * @type {boolean}
+      */
+    @Input() showChildrenInTooltip:boolean=false;
+
      /**
       * title to show in the exportation (img/pdf)
       * @type {string}
@@ -76,6 +83,7 @@ export class BaseChartRender01Component  implements AfterViewInit, OnChanges {
             credits: {
                 enabled: false
             },
+            tooltip: {},
             ...this.options,
         };
 
@@ -86,8 +94,34 @@ export class BaseChartRender01Component  implements AfterViewInit, OnChanges {
         options.yAxis.labels=options.xAxis.labels.style={
             fontStyle:(this.fontStyleItalic)?"italic":""
         };
+        if(this.showChildrenInTooltip) {
+            options.tooltip.pointFormatter=this.pointWithChildrenFormatter;
+            options.tooltip.useHTML=true;
+        }
 
         Highcharts.chart(this.wrapperId, options);
+    }
+
+    /**
+     * pointFormatter fn to used to show a point with children inside
+     *
+     * @returns {string} the html to show
+     */
+    pointWithChildrenFormatter=function(){
+                let shortData=(this.data || []), ttext="";
+                let fullDataLength=shortData.length;
+        
+                if(fullDataLength>10) shortData=this.data.slice(0,10);
+
+                ttext= `<b>${this.name}: ${this.y}</b><br/><br/>`+
+                shortData.map(function(e){
+                    return `<span class='bullet'>•</span> ${e.key}: ${e.value}`;
+                }).join("<br/>");
+        
+                if(fullDataLength>10) ttext+="<br/>...";
+
+                return ttext;
+
     }
 
     ngAfterViewInit(){

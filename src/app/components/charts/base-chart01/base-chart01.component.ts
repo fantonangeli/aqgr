@@ -41,7 +41,7 @@ export class BaseChart01Component {
 
         return {
                 "name":el.key,
-                "data":el.values.map(e=>({"name": e.key, "y":e.value})),
+                "data":el.values.map(e=>({"name": e.key, "y":e.value, "data":e.data})),
                 "total":(this.calcTotals)?(el.values.reduce((accumulator, e) => (accumulator + e.value), 0)):null
             };
     }

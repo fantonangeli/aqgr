@@ -6,6 +6,7 @@ const countriesPath=dataPath+"countries/";
 const policiesPath=dataPath+"policies/";
 const usePath=dataPath+"use/";
 const homePath=dataPath+"home/";
+const speciePath=dataPath+"specie/";
 
 export const environment = {
     production: false,
@@ -47,9 +48,12 @@ export const environment = {
             limit: 10
         },
         species:{
-            info:baseUrl+"specieInfo?",
             all:baseUrl+"species",
             limit: 10
+        },
+        specie:{
+            info:baseUrl+"specieInfo?",
+            chart01:speciePath+"chart01.json",
         },
         regions: {
             all:baseUrl+"regions",
