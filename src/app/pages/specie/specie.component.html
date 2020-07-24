@@ -28,6 +28,56 @@
 
     </div>
 
+    <app-accordion01 [(isOpen)]="accordionsProps[0].isOpen">
+        <div header>Proportion of primary farmed types of {{specieName}}</div>
+        <div body> <app-common-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[0].isOpen" exportTitle="Proportion of primary farmed types of {{specieName}}"></app-common-chart01> </div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="accordionsProps[1].isOpen">
+        <div header>Proportion of secondary farmed types of {{specieName}}</div>
+        <div body> <app-common-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[1].isOpen" exportTitle="Proportion of secondary farmed types of {{specieName}}"></app-common-chart01> </div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="accordionsProps[2].isOpen">
+        <div header>Production of primary FTs of {{specieName}}</div>
+        <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[2].isOpen" exportTitle="Production of primary FTs of {{specieName}}"></app-common-chart06> </div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="accordionsProps[3].isOpen">
+        <div header>Proportion of countries where Algae is native and those where it is non native</div>
+        <div body> <app-common-chart05 [filterValues]="filterValues" *ngIf="accordionsProps[3].isOpen" exportTitle="Proportion of countries where Algae is native and those where it is non native"></app-common-chart05> </div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="accordionsProps[4].isOpen">
+        <div header>Proportion of countries by region where Algae is native and those where it is non native</div>
+        <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[4].isOpen" exportTitle="Proportion of countries by region where Algae is native and those where it is non native"></app-common-chart06> </div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="accordionsProps[5].isOpen">
+        <div header>Production of primary FTs of {{specieName}}</div>
+        <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[5].isOpen" exportTitle="Production of primary FTs of {{specieName}}"></app-common-chart06> </div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="accordionsProps[6].isOpen">
+        <div header>Production of primary FTs of {{specieName}}</div>
+        <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[6].isOpen" exportTitle="Production of primary FTs of {{specieName}}"></app-common-chart06> </div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="accordionsProps[7].isOpen">
+        <div header>Production of primary FTs of {{specieName}}</div>
+        <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[7].isOpen" exportTitle="Production of primary FTs of {{specieName}}"></app-common-chart06> </div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="accordionsProps[8].isOpen">
+        <div header>Production of primary FTs of {{specieName}}</div>
+        <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[8].isOpen" exportTitle="Production of primary FTs of {{specieName}}"></app-common-chart06> </div>
+    </app-accordion01>
+
+    <!-- <app&#45;accordion01 [(isOpen)]="accordionsProps[9].isOpen"> -->
+    <!--     <div header>Production of primary FTs of {{specieName}}</div> -->
+    <!--     <div body> <app&#45;common&#45;chart06 [filterValues]="filterValues" *ngIf="accordionsProps[9].isOpen" exportTitle="Production of primary FTs of {{specieName}}"></app&#45;common&#45;chart06> </div> -->
+    <!-- </app&#45;accordion01> -->
+    <!--  -->
     <!-- <app&#45;accordion01 [(isOpen)]="isAccordion01open"> -->
     <!--     <div header>Number of primary farmed types</div> -->
     <!--     <div body><app&#45;common&#45;chart12 *ngIf="isAccordion01open" [filterValues]="filterValues"></app&#45;common&#45;chart12></div> -->
