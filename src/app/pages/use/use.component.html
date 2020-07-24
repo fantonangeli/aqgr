@@ -61,7 +61,7 @@
 
                 <app-accordion01 [(isOpen)]="accordionsProps[1].isOpen" *ngIf="accordionsProps[1].isVisible" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header>Proportion of farmed native and non-native species reported by continent</div>
-                    <div body><app-use-chart02 *ngIf="accordionsProps[1].isOpen && accordionsProps[1].isVisible" [filterValues]="filterValues" exportTitle="Proportion of farmed native and non-native species reported by continent"></app-use-chart02></div>
+                    <div body><app-common-chart08 *ngIf="accordionsProps[1].isOpen && accordionsProps[1].isVisible" [filterValues]="filterValues" exportTitle="Proportion of farmed native and non-native species reported by continent"></app-common-chart08></div>
                 </app-accordion01>
 
                 <app-accordion01 [(isOpen)]="accordionsProps[2].isOpen" *ngIf="accordionsProps[2].isVisible" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">

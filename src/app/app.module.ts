@@ -31,7 +31,7 @@ import { TreeTableComponent } from './components/tree-table/tree-table.component
 import { UseComponent } from './pages/use/use.component';
 import { WorldComponent } from './pages/world/world.component';
 import { CommonChart05Component } from './components/charts/common-chart05/common-chart05.component';
-import { UseChart02Component } from './components/charts/use-chart02/use-chart02.component';
+import { CommonChart08Component } from './components/charts/common-chart08/common-chart08.component';
 import { UseChart03Component } from './components/charts/use-chart03/use-chart03.component';
 import { CommonChart04Component } from './components/charts/common-chart04/common-chart04.component';
 import { StackedColumns01Component } from './components/charts/stacked-columns01/stacked-columns01.component';
@@ -87,7 +87,7 @@ import { NgxScrollTopModule } from 'ngx-scrolltop';
     UseComponent,
     WorldComponent,
     CommonChart05Component,
-    UseChart02Component,
+    CommonChart08Component,
     UseChart03Component,
     CommonChart04Component,
     StackedColumns01Component,
