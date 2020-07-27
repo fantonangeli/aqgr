@@ -1,6 +1,6 @@
 import { Component, Input, OnChanges } from '@angular/core';
 import {LoggerService} from '../../../services/logger.service';
-import {UtilsService} from '../../../services/utils.service'
+import {UtilsService} from '../../../services/utils.service';
 import {BaseChart01Component} from '../base-chart01/base-chart01.component';
 import {StackedColumns01Component} from '../stacked-columns01/stacked-columns01.component';
 import {CommonChart08Service} from '../../../services/common/common-chart08.service';
@@ -9,7 +9,7 @@ import {ChartDataFormat} from '../../../namespace';
 @Component({
   selector: 'app-common-chart08',
   template: `
-    <app-stacked-columns01 [series]="series" *ngIf="series.length" [height]="300" [exportTitle]="exportTitle"></app-stacked-columns01>
+    <app-stacked-columns01 [series]="series" *ngIf="series.length" [height]="300" [exportTitle]="exportTitle" unit="countries"></app-stacked-columns01>
   `,
   styles: []
 })
