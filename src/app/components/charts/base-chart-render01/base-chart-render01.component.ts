@@ -113,10 +113,10 @@ export class BaseChartRender01Component  implements AfterViewInit, OnChanges {
         
                 if(fullDataLength>10) shortData=this.data.slice(0,10);
 
-                ttext= `<b>${this.name}: ${this.y}</b><br/><br/>`+
+                ttext= `<b>${this.name}: ${this.y}</b><br />`+
                 shortData.map(function(e){
-                    return `<span class='bullet'>•</span> ${e.key}: ${e.value}`;
-                }).join("<br/>");
+                    return `<br /><span class='bullet'>•</span> ${e.key}: ${e.value}`;
+                });
         
                 if(fullDataLength>10) ttext+="<br/>...";
 
