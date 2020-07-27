@@ -54,6 +54,7 @@ export const environment = {
         specie:{
             info:baseUrl+"specieInfo?",
             chart01:speciePath+"chart01.json",
+            chart02:speciePath+"chart02.json",
         },
         regions: {
             all:baseUrl+"regions",

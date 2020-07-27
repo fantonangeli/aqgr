@@ -9,7 +9,7 @@ import {ChartDataFormat} from '../../../namespace';
 @Component({
   selector: 'app-specie-chart01',
   template: `
-    <app-columns01 [series]="series" *ngIf="series.length" showChildrenInTooltip="false" [legendEnabled]="false" [height]="300" [exportTitle]="exportTitle" ></app-columns01>
+    <app-columns01 [series]="series" *ngIf="series.length" [showChildrenInTooltip]="true" [legendEnabled]="false" [height]="300" [exportTitle]="exportTitle" ></app-columns01>
   `,
   styles: []
 })

@@ -112,20 +112,24 @@ export class BaseChartRender01Component implements AfterViewInit, OnChanges {
    *
    * @returns {string} the html to show
    */
-  pointWithChildrenFormatter = function () {
-    let shortData = this.data || [],
-      ttext = "";
-    let fullDataLength = shortData.length;
+  pointWithChildrenFormatter = function() {
+    let shortData = this.data || [];
+    let ttext = "";
+    const fullDataLength = shortData.length;
 
-    if (fullDataLength > 10) shortData = this.data.slice(0, 10);
+    if (fullDataLength > 10) {
+        shortData = this.data.slice(0, 10);
+    }
 
     ttext =
       `<b>${this.name}: ${this.y}</b><br />` +
-      shortData.map(function (e) {
+      shortData.map((e) => {
         return `<br /><span class='bullet'>•</span> ${e.key}: ${e.value}`;
       });
 
-    if (fullDataLength > 10) ttext += "<br/>...";
+    if (fullDataLength > 10) {
+        ttext += "<br/>...";
+    }
 
     return ttext;
   };

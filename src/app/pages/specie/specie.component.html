@@ -63,6 +63,11 @@
         <div body> <app-specie-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[6].isOpen" exportTitle="Number of in vivo gene banks of Algae reported by country in each region"></app-specie-chart01> </div>
     </app-accordion01>
 
+    <app-accordion01 [(isOpen)]="accordionsProps[7].isOpen">
+        <div header>Number of in vitro gene banks of Algae reported by country in each region</div>
+        <div body> <app-specie-chart02 [filterValues]="filterValues" *ngIf="accordionsProps[7].isOpen" exportTitle="Number of in vitro gene banks of Algae reported by country in each region"></app-specie-chart02> </div>
+    </app-accordion01>
+
     <!-- <app&#45;accordion01 [(isOpen)]="accordionsProps[7].isOpen"> -->
     <!--     <div header>Production of primary FTs of {{specieName}}</div> -->
     <!--     <div body> <app&#45;common&#45;chart06 [filterValues]="filterValues" *ngIf="accordionsProps[7].isOpen" exportTitle="Production of primary FTs of {{specieName}}"></app&#45;common&#45;chart06> </div> -->

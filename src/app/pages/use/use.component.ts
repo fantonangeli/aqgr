@@ -12,7 +12,7 @@ import { AccordionProps } from '../../namespace';
 })
 export class UseComponent extends BasePage01Component {
     initialAccordionsIsOpen:boolean=environment.defaultAccordionIsOpenValue;
-    
+
     constructor(_utilsService:UtilsService){
         super(_utilsService);
 
@@ -20,7 +20,7 @@ export class UseComponent extends BasePage01Component {
         this.accordionsProps[0].isOpen=true;
     }
 
-    onFilterValuesChange(){
+    onFilterValuesChange() {
         this.accordionsProps[0].isVisible=(!this.selectedSpecie);
         this.accordionsProps[1].isVisible=(!this.selectedContinent && !this.selectedRegion && !this.selectedCountry);
         this.accordionsProps[2].isVisible=(!this.selectedSpecie && !this.selectedContinent && !this.selectedRegion && !this.selectedCountry);

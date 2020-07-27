@@ -66,6 +66,7 @@ import { SpecieTable01Component } from './components/specie/specie-table01/speci
 import { Donut01Component } from './components/charts/donut01/donut01.component';
 import { NgxScrollTopModule } from 'ngx-scrolltop';
 import { SpcecieChart01Component } from './components/charts/spcecie-chart01/spcecie-chart01.component';
+import { SpecieChart02Component } from './components/charts/specie-chart02/specie-chart02.component';
 
 @NgModule({
   declarations: [
@@ -122,6 +123,7 @@ import { SpcecieChart01Component } from './components/charts/spcecie-chart01/spc
     SpecieTable01Component,
     Donut01Component,
     SpcecieChart01Component,
+    SpecieChart02Component,
   ],
   imports: [
     BrowserModule,
