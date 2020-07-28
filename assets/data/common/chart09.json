@@ -1,6 +1,6 @@
 [
   {
-    "key": "No risk - no risk have been identified for this species",
+    "key": "No risk",
     "values": [
       {
         "key": "Africa",
@@ -29,7 +29,7 @@
     ]
   },
   {
-    "key": "Potential risk - risks have been identified but no impacts recorded",
+    "key": "Potential risk",
     "values": [
       {
         "key": "Africa",
@@ -58,7 +58,7 @@
     ]
   },
   {
-    "key": "Risk - there are recorded impacts of this species",
+    "key": "Risk",
     "values": [
       {
         "key": "Africa",

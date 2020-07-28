@@ -1,0 +1,117 @@
+
+[
+  {
+    "key": "Trade",
+    "values": [
+      {
+        "key": "Europe",
+        "value": 32
+      },
+      {
+        "key": "Latin America",
+        "value": 15,
+        "data":[
+            {"key":"Argentina", "value":4},
+            {"key":"Bolivia", "value":4},
+            {"key":"Brazil", "value":3},
+            {"key":"Chile", "value":2},
+            {"key":"Colombia", "value":1},
+            {"key":"Costa Rica", "value":1}
+        ]
+      },
+      {
+        "key": "Asia Pacific",
+        "value": 17,
+        "data":[
+            {"key":"China", "value":6},
+            {"key":"Indonesia", "value":5},
+            {"key":"Philippines", "value":4},
+            {"key":"Viet Nam", "value":1},
+            {"key":"Myanmar", "value":1}
+        ]
+      },
+      {
+        "key": "Africa",
+        "value": 12
+      },
+      {
+        "key": "North America",
+        "value": 11
+      }
+    ]
+  },
+  {
+    "key": "Environment and biodiversity conservation",
+    "values": [
+      {
+        "key": "Europe",
+        "value": 6
+      },
+      {
+        "key": "Latin America",
+        "value": 13,
+        "data":[
+            {"key":"Chile", "value":2},
+            {"key":"Colombia", "value":2},
+            {"key":"Costa Rica", "value":2},
+            {"key":"Cuba", "value":2},
+            {"key":"Dominican Republic", "value":2},
+            {"key":"Ecuador", "value":1},
+            {"key":"El Salvador", "value":1},
+            {"key":"French Guiana", "value":1}
+        ]
+      },
+      {
+        "key": "Asia Pacific",
+        "value": 15,
+        "data":[
+            {"key":"Indonesia", "value":5},
+            {"key":"Philippines", "value":4},
+            {"key":"Viet Nam", "value":4},
+            {"key":"Korea, Republic of", "value":2}
+        ]
+      },
+      {
+        "key": "Africa",
+        "value": 1
+      },
+      {
+        "key": "North America",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "key": "Legislation",
+    "values": [
+      {
+        "key": "Europe",
+        "value": 3
+      },
+      {
+        "key": "Latin America",
+        "value": 2,
+        "data":[
+            {"key":"Guadeloupe", "value":1},
+            {"key":"Guatemala", "value":1}
+        ]
+      },
+      {
+        "key": "Asia Pacific",
+        "value": 3,
+        "data":[
+            {"key":"Myanmar", "value":2},
+            {"key":"Korea, Republic of", "value":1}
+        ]
+      },
+      {
+        "key": "Africa",
+        "value": 2
+      },
+      {
+        "key": "North America",
+        "value": 0
+      }
+    ]
+  }
+]
