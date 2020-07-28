@@ -1,0 +1,45 @@
+[
+  {
+    "key": "Europe",
+    "value": 45
+  },
+  {
+    "key": "Latin America",
+    "value": 34,
+    "data":[
+        {"key":"Argentina", "value":10},
+        {"key":"Bolivia", "value":5},
+        {"key":"Brazil", "value":4},
+        {"key":"Chile", "value":2},
+        {"key":"Colombia", "value":2},
+        {"key":"Costa Rica", "value":2},
+        {"key":"Cuba", "value":2},
+        {"key":"Dominican Republic", "value":2},
+        {"key":"Ecuador", "value":1},
+        {"key":"El Salvador", "value":1},
+        {"key":"French Guiana", "value":1},
+        {"key":"Guadeloupe", "value":1},
+        {"key":"Guatemala", "value":1}
+    ]
+  },
+  {
+    "key": "Asia Pacific",
+    "value": 38,
+    "data":[
+        {"key":"China", "value":12},
+        {"key":"Indonesia", "value":10},
+        {"key":"Philippines", "value":6},
+        {"key":"Viet Nam", "value":4},
+        {"key":"Myanmar", "value":4},
+        {"key":"Korea, Republic of", "value":2}
+    ]
+  },
+  {
+    "key": "Africa",
+    "value": 16
+  },
+  {
+    "key": "North America",
+    "value": 12
+  }
+]

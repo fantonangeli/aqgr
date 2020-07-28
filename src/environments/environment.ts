@@ -6,6 +6,7 @@ const countriesPath=dataPath+"countries/";
 const policiesPath=dataPath+"policies/";
 const usePath=dataPath+"use/";
 const homePath=dataPath+"home/";
+const speciePath=dataPath+"specie/";
 
 export const environment = {
     production: false,
@@ -47,9 +48,14 @@ export const environment = {
             limit: 10
         },
         species:{
-            info:baseUrl+"specieInfo?",
             all:baseUrl+"species",
             limit: 10
+        },
+        specie:{
+            info:baseUrl+"specieInfo?",
+            chart01:speciePath+"chart01.json",
+            chart02:speciePath+"chart02.json",
+            chart03:speciePath+"chart03.json",
         },
         regions: {
             all:baseUrl+"regions",
@@ -81,7 +87,6 @@ export const environment = {
             species: countriesPath+"species.json",
         },
         use:{
-            chart02:usePath+"chart02.json",
             chart03:usePath+"chart03.json",
             chart06:usePath+"chart06.json",
             chart07:usePath+"chart07.json",
@@ -102,6 +107,7 @@ export const environment = {
             chart04:commonPath+"chart04.json",
             chart05:commonPath+"chart05.json",
             chart06:commonPath+"chart06.json",
+            chart08:commonPath+"chart08.json",
             chart09:commonPath+"chart09.json",
             chart12:commonPath+"chart12.json",
             chart13:commonPath+"chart13.json",

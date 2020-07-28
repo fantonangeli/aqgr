@@ -29,12 +29,12 @@
             </tr>
         </thead>
         <tbody>
+
             <ng-container *ngFor="let element of data">
                 <ng-template *ngTemplateOutlet="tplElement; context: {$implicit: element, pleft:0, level:0}"></ng-template>
             </ng-container>
-        </tbody>
-        <tfoot *ngIf="enableTotal">
-            <tr>
+
+            <tr *ngIf="enableTotal">
                 <ng-container  *ngFor="let field of totalRowData; let first = first; let last = last; let i = index">
                     <td class="align-top text-truncate" *ngIf="first" [ngStyle]="{'padding-left': '20px'}" [ngClass]="'index-'+i">
                         {{field}}
@@ -44,6 +44,7 @@
                     </td>
                 </ng-container>
             </tr>
-        </tfoot>
+
+        </tbody>
     </table>
 </div>

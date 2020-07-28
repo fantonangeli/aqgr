@@ -8,30 +8,72 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row pt-5">
 
-        <div class="col-12 font-weight-bold h6 text-left pt-5">
+        <div class="col-7 font-weight-bold h6 text-left">
             List of farmed types, primary and secondary, of {{specieName}}
+        </div>
+
+        <div class="col-5">
+                <div class="bg-white border border-dark float-right mb-3 mr-0 p-3 rounded shadow">
+                    Global aquaculture production = {{totalProduction}} tonnes
+                </div>
         </div>
 
     </div>
 
-    <div class="row p-2">
+    <div class="row pt-2 pb-5">
 
-        <div class="col-3 h2 pl-2">
-            {{totalProduction}}<br>tonnes
-        </div>
-
-        <div class="col-9">
+        <div class="col-12">
             <app-specie-table01 [filterValues]="filterValues"> </app-specie-table01>
         </div>
 
     </div>
 
-    <!-- <app&#45;accordion01 [(isOpen)]="isAccordion01open"> -->
-    <!--     <div header>Number of primary farmed types</div> -->
-    <!--     <div body><app&#45;common&#45;chart12 *ngIf="isAccordion01open" [filterValues]="filterValues"></app&#45;common&#45;chart12></div> -->
-    <!-- </app&#45;accordion01> -->
+    <app-accordion01 [(isOpen)]="accordionsProps[0].isOpen">
+        <div header>Proportion of primary farmed types of {{specieName}}</div>
+        <div body> <app-common-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[0].isOpen" exportTitle="Proportion of primary farmed types of {{specieName}}"></app-common-chart01> </div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="accordionsProps[1].isOpen">
+        <div header>Proportion of secondary farmed types of {{specieName}}</div>
+        <div body> <app-common-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[1].isOpen" exportTitle="Proportion of secondary farmed types of {{specieName}}"></app-common-chart01> </div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="accordionsProps[2].isOpen">
+        <div header>Production of primary FTs of {{specieName}}</div>
+        <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[2].isOpen" exportTitle="Production of primary FTs of {{specieName}}"></app-common-chart06> </div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="accordionsProps[3].isOpen">
+        <div header>Proportion of countries where {{specieName}} is native and those where it is non native</div>
+        <div body> <app-common-chart05 [filterValues]="filterValues" *ngIf="accordionsProps[3].isOpen" exportTitle="Proportion of countries where {{specieName}} is native and those where it is non native"></app-common-chart05> </div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="accordionsProps[4].isOpen">
+        <div header>Proportion of countries by region where {{specieName}} is native and those where it is non native</div>
+        <div body> <app-common-chart08 [filterValues]="filterValues" *ngIf="accordionsProps[4].isOpen" exportTitle="Proportion of countries by region where {{specieName}} is native and those where it is non native"></app-common-chart08> </div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="accordionsProps[5].isOpen">
+        <div header>Risk status of species reported as cultured by countries</div>
+        <div body> <app-common-chart09 [filterValues]="filterValues" *ngIf="accordionsProps[5].isOpen" exportTitle="Risk status of species reported as cultured by countries"></app-common-chart09> </div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="accordionsProps[6].isOpen">
+        <div header>Number of in vivo gene banks of {{specieName}} reported by country in each region</div>
+        <div body> <app-specie-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[6].isOpen" exportTitle="Number of in vivo gene banks of {{specieName}} reported by country in each region"></app-specie-chart01> </div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="accordionsProps[7].isOpen">
+        <div header>Number of in vitro gene banks of {{specieName}} reported by country in each region</div>
+        <div body> <app-specie-chart02 [filterValues]="filterValues" *ngIf="accordionsProps[7].isOpen" exportTitle="Number of in vitro gene banks of {{specieName}} reported by country in each region"></app-specie-chart02> </div>
+    </app-accordion01>
+
+    <app-accordion01 [(isOpen)]="accordionsProps[8].isOpen">
+        <div header>Number of recordings for {{specieName}} under control measures</div>
+        <div body> <app-specie-chart03 [filterValues]="filterValues" *ngIf="accordionsProps[8].isOpen" exportTitle="Number of recordings for {{specieName}} under control measures"></app-specie-chart03> </div>
+    </app-accordion01>
 
 
     <div class="row">

@@ -6,13 +6,16 @@ import { SpeciesListComponent } from '../../components/country/species-list/spec
 import { Filter} from '../../components/search/namespace';
 import {LoggerService} from '../../services/logger.service';
 import { environment } from '../../../environments/environment';
+import {BasePage01Component} from '../base-page01/base-page01.component';
+import {UtilsService} from '../../services/utils.service';
+import { AccordionProps } from '../../namespace';
 
 
 @Component({
   selector: 'app-specie',
   templateUrl: './specie.component.html',
 })
-export class SpecieComponent implements OnInit {
+export class SpecieComponent extends BasePage01Component implements OnInit {
     initialAccordionsIsOpen:boolean=environment.defaultAccordionIsOpenValue;
     alphaCode:string;
     filterValues: Filter[]=[];
@@ -22,7 +25,10 @@ export class SpecieComponent implements OnInit {
     totalProduction:number;
     defaultDateFormat:string=environment.defaultDateFormat;
 
-    constructor(private route: ActivatedRoute, private _specieInfoService:SpecieInfoService, private _logger:LoggerService) { }
+    constructor(private route: ActivatedRoute, private _specieInfoService:SpecieInfoService, private _logger:LoggerService, _utilsService:UtilsService) {
+        super(_utilsService);
+        this.accordionsProps=Array(9).fill(null).map(e=>(new AccordionProps()));
+    }
 
     /**
      * fetch the data and load them

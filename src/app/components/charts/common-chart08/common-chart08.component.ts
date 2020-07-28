@@ -1,22 +1,22 @@
 import { Component, Input, OnChanges } from '@angular/core';
 import {LoggerService} from '../../../services/logger.service';
-import {UtilsService} from '../../../services/utils.service'
+import {UtilsService} from '../../../services/utils.service';
 import {BaseChart01Component} from '../base-chart01/base-chart01.component';
 import {StackedColumns01Component} from '../stacked-columns01/stacked-columns01.component';
-import {UseChart02Service} from '../../../services/use/use-chart02.service';
+import {CommonChart08Service} from '../../../services/common/common-chart08.service';
 import {ChartDataFormat} from '../../../namespace';
 
 @Component({
-  selector: 'app-use-chart02',
+  selector: 'app-common-chart08',
   template: `
-    <app-stacked-columns01 [series]="series" *ngIf="series.length" [height]="300" [exportTitle]="exportTitle"></app-stacked-columns01>
+    <app-stacked-columns01 [series]="series" *ngIf="series.length" [height]="300" [exportTitle]="exportTitle" unit="countries"></app-stacked-columns01>
   `,
   styles: []
 })
-export class UseChart02Component extends BaseChart01Component implements OnChanges {
+export class CommonChart08Component extends BaseChart01Component implements OnChanges {
     dataFormat=ChartDataFormat.stackedKeyval;
 
-    constructor(_service:UseChart02Service, _utilsService:UtilsService, _logger:LoggerService) {
+    constructor(_service:CommonChart08Service, _utilsService:UtilsService, _logger:LoggerService) {
         super(_service, _utilsService, _logger);
     }
 
