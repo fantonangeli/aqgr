@@ -8,21 +8,23 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row pt-5">
 
-        <div class="col-12 font-weight-bold h6 text-left pt-5">
+        <div class="col-7 font-weight-bold h6 text-left">
             List of farmed types, primary and secondary, of {{specieName}}
+        </div>
+
+        <div class="col-5">
+                <div class="bg-white border border-dark float-right mb-3 mr-0 p-3 rounded shadow">
+                    Total aquaculture production = {{totalProduction}} tonnes
+                </div>
         </div>
 
     </div>
 
-    <div class="row p-2">
+    <div class="row pt-2 pb-5">
 
-        <div class="col-3 h2 pl-2">
-            {{totalProduction}}<br>tonnes
-        </div>
-
-        <div class="col-9">
+        <div class="col-12">
             <app-specie-table01 [filterValues]="filterValues"> </app-specie-table01>
         </div>
 
