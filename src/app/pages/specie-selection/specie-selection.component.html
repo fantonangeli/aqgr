@@ -1,0 +1,24 @@
+<div class="container mw-100">
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Species Fact Sheet:</h1></div></div>
+        </div>
+        <div class="col-12">
+            Please select a specie to see the Specie Fact Sheet:
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-10 offset-1">
+            <ng-select [items]="species$ | async"
+             bindLabel="name"
+             bindValue="id"
+             [editableSearchTerm]="true"
+             [(ngModel)]="selectedSpecie">
+            </ng-select>
+        </div>
+    </div>
+
+</div>
+
+
