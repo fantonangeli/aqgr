@@ -27,7 +27,7 @@ export class BaseChartRender01Component implements AfterViewInit, OnChanges {
    * optional custom tooltip point formatter
    * @type {() => string}
    */
-  @Input() pointFormatter: () => string;
+  @Input() pointFormatter: () => string=null;
 
   /**
    * if true the children of the nodes will be shown in the tooltip as a list
