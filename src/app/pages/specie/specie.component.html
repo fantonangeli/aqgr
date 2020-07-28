@@ -30,6 +30,19 @@
 
     </div>
 
+    <div class="row">
+        <div class="col-12 pb-4 text-right">
+            <a href="javascript:" class="font-weight-bold text-left pr-3" (click)="expandAllAccordionOnClick()">
+                <i class="material-icons md-18 align-bottom">unfold_more</i>
+                Expand all
+            </a>
+            <a href="javascript:" class="font-weight-bold text-left" (click)="collapseAllAccordionOnClick()">
+                <i class="material-icons md-18 align-bottom">unfold_less</i>
+                Collapse all
+            </a>
+        </div>
+    </div>
+
     <app-accordion01 [(isOpen)]="accordionsProps[0].isOpen">
         <div header>Proportion of primary farmed types of {{specieName}}</div>
         <div body> <app-common-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[0].isOpen" exportTitle="Proportion of primary farmed types of {{specieName}}"></app-common-chart01> </div>
