@@ -10,7 +10,6 @@ import { ChartDataFormat } from "../../../namespace";
   selector: "app-specie-chart02",
   template: `
     <app-stacked-columns01 [series]="series"
-      yAxisTitle="Number of species recorded"
       [pointFormatter]="pointFormatter"
       [legendEnabled]="false"
       *ngIf="series.length"
