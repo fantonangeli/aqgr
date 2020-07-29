@@ -4,16 +4,45 @@
             <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Species Fact Sheet:</h1></div></div>
         </div>
         <div class="col-12">
-            Please select a specie to see the Specie Fact Sheet:
+            Search a specie to see the Specie Fact Sheet:
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-10 offset-1">
-            <ng-select [items]="species$ | async"
-             bindLabel="name"
-             bindValue="id"
-             [editableSearchTerm]="true"
+    <div class="row pt-3">
+        <div class="col-2">
+            <label for="taxonomy">Taxonomy:</label>
+        </div>
+        <div class="col-8">
+            <ng-select [items]="taxonomy$ | async"
+             id="taxonomy"
+             bindLabel="key"
+             bindValue="key"
+             [hideSelected]="true"
+             [minTermLength]="2"
+             [loading]="taxonomyLoading"
+             typeToSearchText="Please type here"
+             [typeahead]="taxonomyInput$"
+             (change)="onChangeTaxonomy($event)"
+             [(ngModel)]="selectedTaxonomy">
+            </ng-select>
+        </div>
+    </div>
+
+    <div class="row pt-3">
+        <div class="col-2">
+            <label for="specie">Specie:</label>
+        </div>
+        <div class="col-8">
+            <ng-select [items]="specie$ | async"
+             id="specie"
+             bindLabel="key"
+             bindValue="alphaCode"
+             [hideSelected]="true"
+             [minTermLength]="2"
+             [loading]="specieLoading"
+             typeToSearchText="Please type here"
+             [typeahead]="specieInput$"
+             (change)="onChangeSpecie($event)"
              [(ngModel)]="selectedSpecie">
             </ng-select>
         </div>

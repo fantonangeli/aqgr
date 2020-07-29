@@ -22,11 +22,11 @@ export class SpeciesService extends BaseService{
      *
      * @param {SearchServiceParams} params the params to send to the service
      */
-    getAll(ssp:SearchServiceParams):Observable<AggregationItem[]>{
+    getAll(ssp:SearchServiceParams=new SearchServiceParams()):Observable<AggregationItem[]>{
         let {name, continent, region, country, taxonomy, specie, ftype, sftype} = ssp;
 
         return this._getAll(
-            "SpeciesServicee",
+            "SpeciesService",
             environment.services.species.all, 
             <SearchServiceParams>{name, continent, region, country, taxonomy},
             environment.services.species.limit
@@ -34,6 +34,19 @@ export class SpeciesService extends BaseService{
     }
 
 
+    /**
+     * search by name
+     * @params {string} name the name to search
+     * @returns an observable
+     */
+    searchByName(name: string=""): Observable<any> {
+        return this._getAll(
+            "SpeciesService",
+            environment.services.species.all, 
+            <SearchServiceParams>{name},
+            environment.services.species.limit
+        );
+    }
 
 
 }
