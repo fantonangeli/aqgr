@@ -2,6 +2,7 @@ module.exports=[
   {
     "key": "Osteichthyes",
     "value": 184,
+    "alphaCode": "FRF",
     "taxonomy": [
       "Freshwater fishes",
       "Marine fishes"
@@ -157,6 +158,7 @@ module.exports=[
   {
     "key": "Oncorhynchus mykiss",
     "value": 103,
+    "alphaCode": "TRR",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Iran (Islamic Rep. of)",
@@ -269,6 +271,7 @@ module.exports=[
   {
     "key": "Cyprinus carpio",
     "value": 101,
+    "alphaCode": "FCP",
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -405,6 +408,7 @@ module.exports=[
   {
     "key": "Oreochromis niloticus",
     "value": 100,
+    "alphaCode": "TLN",
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -530,6 +534,7 @@ module.exports=[
   {
     "key": "Oreochromis (=Tilapia) spp",
     "value": 87,
+    "alphaCode": "TLP",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Bangladesh",
@@ -636,6 +641,7 @@ module.exports=[
   {
     "key": "Ctenopharyngodon idellus",
     "value": 59,
+    "alphaCode": "FCG",
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -725,6 +731,7 @@ module.exports=[
   {
     "key": "Hypophthalmichthys molitrix",
     "value": 54,
+    "alphaCode": "SVC",
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -807,6 +814,7 @@ module.exports=[
   {
     "key": "Macrobrachium rosenbergii",
     "value": 54,
+    "alphaCode": "PRF",
     "taxonomy": "Crustaceans",
     "country": [
       "China",
@@ -888,6 +896,7 @@ module.exports=[
   {
     "key": "Penaeus vannamei",
     "value": 53,
+    "alphaCode": "PNV",
     "taxonomy": "Crustaceans",
     "country": [
       "China",
@@ -959,6 +968,7 @@ module.exports=[
   {
     "key": "Clarias gariepinus",
     "value": 53,
+    "alphaCode": "CLZ",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Nigeria",
@@ -1041,6 +1051,7 @@ module.exports=[
   {
     "key": "Cyprinidae",
     "value": 48,
+    "alphaCode": "FCY",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Viet Nam",
@@ -1121,6 +1132,7 @@ module.exports=[
   {
     "key": "Crassostrea gigas",
     "value": 40,
+    "alphaCode": "OYG",
     "taxonomy": "Molluscs",
     "country": [
       "Korea, Republic of",
@@ -1185,6 +1197,7 @@ module.exports=[
   {
     "key": "Dicentrarchus labrax",
     "value": 39,
+    "alphaCode": "BSS",
     "taxonomy": "Marine fishes",
     "country": [
       "Turkey",
@@ -1236,6 +1249,7 @@ module.exports=[
   {
     "key": "Anguilla anguilla",
     "value": 39,
+    "alphaCode": "ELE",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Netherlands",
@@ -1280,6 +1294,7 @@ module.exports=[
   {
     "key": "Lates calcarifer",
     "value": 38,
+    "alphaCode": "GIP",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Malaysia",
@@ -1328,6 +1343,7 @@ module.exports=[
   {
     "key": "Penaeus monodon",
     "value": 36,
+    "alphaCode": "GIT",
     "taxonomy": "Crustaceans",
     "country": [
       "Viet Nam",
@@ -1382,6 +1398,7 @@ module.exports=[
   {
     "key": "Sparus aurata",
     "value": 36,
+    "alphaCode": "SBG",
     "taxonomy": "Marine fishes",
     "country": [
       "Turkey",
@@ -1429,6 +1446,7 @@ module.exports=[
   {
     "key": "Acipenseridae",
     "value": 35,
+    "alphaCode": "STU",
     "taxonomy": "Diadromous fishes",
     "country": [
       "China",
@@ -1487,6 +1505,7 @@ module.exports=[
   {
     "key": "Salmo salar",
     "value": 33,
+    "alphaCode": "SAL",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Norway",
@@ -1532,6 +1551,7 @@ module.exports=[
   {
     "key": "Salmo trutta",
     "value": 33,
+    "alphaCode": "TRS",
     "taxonomy": "Diadromous fishes",
     "country": [
       "France",
@@ -1581,6 +1601,7 @@ module.exports=[
   {
     "key": "Hypophthalmichthys nobilis",
     "value": 31,
+    "alphaCode": "BIC",
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -1637,6 +1658,7 @@ module.exports=[
   {
     "key": "Mugilidae",
     "value": 31,
+    "alphaCode": "MUL",
     "taxonomy": "Marine fishes",
     "country": [
       "Egypt",
@@ -1688,6 +1710,7 @@ module.exports=[
   {
     "key": "Chanos chanos",
     "value": 30,
+    "alphaCode": "MIL",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Indonesia",
@@ -1730,6 +1753,7 @@ module.exports=[
   {
     "key": "Sander lucioperca",
     "value": 26,
+    "alphaCode": "FPP",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Uzbekistan",
@@ -1777,6 +1801,7 @@ module.exports=[
   {
     "key": "Mollusca",
     "value": 25,
+    "alphaCode": "MOL",
     "taxonomy": "Molluscs",
     "country": [
       "China",
@@ -1819,6 +1844,7 @@ module.exports=[
   {
     "key": "Penaeus spp",
     "value": 25,
+    "alphaCode": "PEN",
     "taxonomy": "Crustaceans",
     "country": [
       "China",
@@ -1868,6 +1894,7 @@ module.exports=[
   {
     "key": "Oreochromis mossambicus",
     "value": 24,
+    "alphaCode": "TLM",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Indonesia",
@@ -1914,6 +1941,7 @@ module.exports=[
   {
     "key": "Silurus glanis",
     "value": 24,
+    "alphaCode": "SOM",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Uzbekistan",
@@ -1959,6 +1987,7 @@ module.exports=[
   {
     "key": "Mytilus galloprovincialis",
     "value": 23,
+    "alphaCode": "MSM",
     "taxonomy": "Molluscs",
     "country": [
       "Italy",
@@ -2001,6 +2030,7 @@ module.exports=[
   {
     "key": "Salmo spp",
     "value": 23,
+    "alphaCode": "TRO",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Armenia",
@@ -2048,6 +2078,7 @@ module.exports=[
   {
     "key": "Ostrea edulis",
     "value": 23,
+    "alphaCode": "OYF",
     "taxonomy": "Molluscs",
     "country": [
       "France",
@@ -2088,6 +2119,7 @@ module.exports=[
   {
     "key": "Esox lucius",
     "value": 23,
+    "alphaCode": "FPI",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Russian Federation",
@@ -2131,6 +2163,7 @@ module.exports=[
   {
     "key": "Crassostrea spp",
     "value": 22,
+    "alphaCode": "OYC",
     "taxonomy": "Molluscs",
     "country": [
       "China",
@@ -2175,6 +2208,7 @@ module.exports=[
   {
     "key": "Scylla serrata",
     "value": 21,
+    "alphaCode": "MUD",
     "taxonomy": "Crustaceans",
     "country": [
       "Viet Nam",
@@ -2214,6 +2248,7 @@ module.exports=[
   {
     "key": "Mugil cephalus",
     "value": 21,
+    "alphaCode": "MUF",
     "taxonomy": "Marine fishes",
     "country": [
       "Israel",
@@ -2251,6 +2286,7 @@ module.exports=[
   {
     "key": "Psetta maxima",
     "value": 19,
+    "alphaCode": "TUR",
     "taxonomy": "Marine fishes",
     "country": [
       "China",
@@ -2290,6 +2326,7 @@ module.exports=[
   {
     "key": "Tinca tinca",
     "value": 19,
+    "alphaCode": "FTE",
     "taxonomy": "Freshwater fishes",
     "country": [
       "France",
@@ -2323,6 +2360,7 @@ module.exports=[
   {
     "key": "Epinephelus spp",
     "value": 18,
+    "alphaCode": "GPX",
     "taxonomy": "Marine fishes",
     "country": [
       "China",
@@ -2354,6 +2392,7 @@ module.exports=[
   {
     "key": "Mytilus edulis",
     "value": 18,
+    "alphaCode": "MUS",
     "taxonomy": "Molluscs",
     "country": [
       "Netherlands",
@@ -2390,6 +2429,7 @@ module.exports=[
   {
     "key": "Carassius carassius",
     "value": 18,
+    "alphaCode": "FCC",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Moldova, Republic of",
@@ -2429,6 +2469,7 @@ module.exports=[
   {
     "key": "Clarias spp",
     "value": 17,
+    "alphaCode": "CTO",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Indonesia",
@@ -2460,6 +2501,7 @@ module.exports=[
   {
     "key": "Bivalvia",
     "value": 17,
+    "alphaCode": "CLX",
     "taxonomy": "Molluscs",
     "country": [
       "Korea, Dem. People's Rep",
@@ -2496,6 +2538,7 @@ module.exports=[
   {
     "key": "Perca fluviatilis",
     "value": 17,
+    "alphaCode": "FPE",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Russian Federation",
@@ -2533,6 +2576,7 @@ module.exports=[
   {
     "key": "Ruditapes philippinarum",
     "value": 16,
+    "alphaCode": "CLJ",
     "taxonomy": "Molluscs",
     "country": [
       "China",
@@ -2562,6 +2606,7 @@ module.exports=[
   {
     "key": "Penaeus japonicus",
     "value": 16,
+    "alphaCode": "KUP",
     "taxonomy": "Crustaceans",
     "country": [
       "China",
@@ -2596,6 +2641,7 @@ module.exports=[
   {
     "key": "Rachycentron canadum",
     "value": 16,
+    "alphaCode": "CBA",
     "taxonomy": "Marine fishes",
     "country": [
       "China",
@@ -2631,6 +2677,7 @@ module.exports=[
   {
     "key": "Mytilidae",
     "value": 15,
+    "alphaCode": "MSX",
     "taxonomy": "Molluscs",
     "country": [
       "China",
@@ -2667,6 +2714,7 @@ module.exports=[
   {
     "key": "Micropterus salmoides",
     "value": 15,
+    "alphaCode": "MPS",
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -2704,6 +2752,7 @@ module.exports=[
   {
     "key": "Invertebrata",
     "value": 15,
+    "alphaCode": "INV",
     "taxonomy": "Miscellaneous aquatic animals",
     "country": [
       "China",
@@ -2736,6 +2785,7 @@ module.exports=[
   {
     "key": "Argyrosomus regius",
     "value": 15,
+    "alphaCode": "MGR",
     "taxonomy": "Marine fishes",
     "country": [
       "Egypt",
@@ -2765,6 +2815,7 @@ module.exports=[
   {
     "key": "Eucheuma spp",
     "value": 14,
+    "alphaCode": "EMX",
     "taxonomy": "Aquatic plants",
     "country": [
       "Indonesia",
@@ -2801,6 +2852,7 @@ module.exports=[
   {
     "key": "Kappaphycus alvarezii",
     "value": 14,
+    "alphaCode": "EMA",
     "taxonomy": "Aquatic plants",
     "country": [
       "Philippines",
@@ -2836,6 +2888,7 @@ module.exports=[
   {
     "key": "Ictalurus punctatus",
     "value": 14,
+    "alphaCode": "ITP",
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -2871,6 +2924,7 @@ module.exports=[
   {
     "key": "Gracilaria spp",
     "value": 13,
+    "alphaCode": "GLS",
     "taxonomy": "Aquatic plants",
     "country": [
       "China",
@@ -2905,6 +2959,7 @@ module.exports=[
   {
     "key": "Salvelinus alpinus",
     "value": 13,
+    "alphaCode": "ACH",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Iceland",
@@ -2934,6 +2989,7 @@ module.exports=[
   {
     "key": "Salvelinus fontinalis",
     "value": 13,
+    "alphaCode": "SVF",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Austria",
@@ -2965,6 +3021,7 @@ module.exports=[
   {
     "key": "Abramis brama",
     "value": 13,
+    "alphaCode": "FBM",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Uzbekistan",
@@ -2998,6 +3055,7 @@ module.exports=[
   {
     "key": "Oncorhynchus kisutch",
     "value": 12,
+    "alphaCode": "COH",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Chile",
@@ -3029,6 +3087,7 @@ module.exports=[
   {
     "key": "Colossoma macropomum",
     "value": 12,
+    "alphaCode": "CSM",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Brazil",
@@ -3054,6 +3113,7 @@ module.exports=[
   {
     "key": "Sciaenops ocellatus",
     "value": 12,
+    "alphaCode": "RDM",
     "taxonomy": "Marine fishes",
     "country": [
       "China",
@@ -3086,6 +3146,7 @@ module.exports=[
   {
     "key": "Thunnus thynnus",
     "value": 12,
+    "alphaCode": "BFT",
     "taxonomy": "Marine fishes",
     "country": [
       "Malta",
@@ -3117,6 +3178,7 @@ module.exports=[
   {
     "key": "Ruditapes decussatus",
     "value": 12,
+    "alphaCode": "CTG",
     "taxonomy": "Molluscs",
     "country": [
       "Italy",
@@ -3141,6 +3203,7 @@ module.exports=[
   {
     "key": "Penaeus stylirostris",
     "value": 12,
+    "alphaCode": "PNS",
     "taxonomy": "Crustaceans",
     "country": [
       "New Caledonia",
@@ -3171,6 +3234,7 @@ module.exports=[
   {
     "key": "Cherax quadricarinatus",
     "value": 12,
+    "alphaCode": "CRP",
     "taxonomy": "Crustaceans",
     "country": [
       "Malaysia",
@@ -3207,6 +3271,7 @@ module.exports=[
   {
     "key": "Rana spp",
     "value": 11,
+    "alphaCode": "FRG",
     "taxonomy": "Miscellaneous aquatic animals",
     "country": [
       "China",
@@ -3239,6 +3304,7 @@ module.exports=[
   {
     "key": "Piaractus brachypomus",
     "value": 11,
+    "alphaCode": "CSD",
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -3267,6 +3333,7 @@ module.exports=[
   {
     "key": "Penaeus indicus",
     "value": 11,
+    "alphaCode": "PNI",
     "taxonomy": "Crustaceans",
     "country": [
       "Bangladesh",
@@ -3296,6 +3363,7 @@ module.exports=[
   {
     "key": "Oreochromis aureus",
     "value": 11,
+    "alphaCode": "OEA",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Costa Rica",
@@ -3326,6 +3394,7 @@ module.exports=[
   {
     "key": "Labeo rohita",
     "value": 10,
+    "alphaCode": "LRH",
     "taxonomy": "Freshwater fishes",
     "country": [
       "India",
@@ -3348,6 +3417,7 @@ module.exports=[
   {
     "key": "Pangasianodon hypophthalmus",
     "value": 10,
+    "alphaCode": "PGS",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Bangladesh",
@@ -3376,6 +3446,7 @@ module.exports=[
   {
     "key": "Cirrhinus mrigala",
     "value": 10,
+    "alphaCode": "CMG",
     "taxonomy": "Freshwater fishes",
     "country": [
       "India",
@@ -3398,6 +3469,7 @@ module.exports=[
   {
     "key": "Haliotis spp",
     "value": 10,
+    "alphaCode": "ABX",
     "taxonomy": "Molluscs",
     "country": [
       "China",
@@ -3428,6 +3500,7 @@ module.exports=[
   {
     "key": "Perna viridis",
     "value": 10,
+    "alphaCode": "MSV",
     "taxonomy": "Molluscs",
     "country": [
       "Thailand",
@@ -3452,6 +3525,7 @@ module.exports=[
   {
     "key": "Sparidae",
     "value": 10,
+    "alphaCode": "SBX",
     "taxonomy": "Marine fishes",
     "country": [
       "China",
@@ -3474,6 +3548,7 @@ module.exports=[
   {
     "key": "Penaeus merguiensis",
     "value": 10,
+    "alphaCode": "PBA",
     "taxonomy": "Crustaceans",
     "country": [
       "Indonesia",
@@ -3496,6 +3571,7 @@ module.exports=[
   {
     "key": "Astacidae, Cambaridae",
     "value": 10,
+    "alphaCode": "AYS",
     "taxonomy": "Crustaceans",
     "country": [
       "Italy",
@@ -3526,6 +3602,7 @@ module.exports=[
   {
     "key": "Algae",
     "value": 9,
+    "alphaCode": "SWX",
     "taxonomy": "Aquatic plants",
     "country": [
       "China",
@@ -3553,6 +3630,7 @@ module.exports=[
   {
     "key": "Anadara granosa",
     "value": 9,
+    "alphaCode": "BLC",
     "taxonomy": "Molluscs",
     "country": [
       "China",
@@ -3572,6 +3650,7 @@ module.exports=[
   {
     "key": "Spirulina spp",
     "value": 9,
+    "alphaCode": "SIZ",
     "taxonomy": "Aquatic plants",
     "country": [
       "China",
@@ -3601,6 +3680,7 @@ module.exports=[
   {
     "key": "Barbonymus gonionotus",
     "value": 9,
+    "alphaCode": "PTG",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Bangladesh",
@@ -3621,6 +3701,7 @@ module.exports=[
   {
     "key": "Cerastoderma edule",
     "value": 9,
+    "alphaCode": "COC",
     "taxonomy": "Molluscs",
     "country": [
       "France",
@@ -3639,6 +3720,7 @@ module.exports=[
   {
     "key": "Lutjanus spp",
     "value": 9,
+    "alphaCode": "SNA",
     "taxonomy": "Marine fishes",
     "country": [
       "Cambodia",
@@ -3665,6 +3747,7 @@ module.exports=[
   {
     "key": "Acipenser baerii",
     "value": 9,
+    "alphaCode": "APB",
     "taxonomy": "Diadromous fishes",
     "country": [
       "United Arab Emirates",
@@ -3693,6 +3776,7 @@ module.exports=[
   {
     "key": "Catla catla",
     "value": 8,
+    "alphaCode": "CTT",
     "taxonomy": "Freshwater fishes",
     "country": [
       "India",
@@ -3713,6 +3797,7 @@ module.exports=[
   {
     "key": "Pectinidae",
     "value": 8,
+    "alphaCode": "SCX",
     "taxonomy": "Molluscs",
     "country": [
       "China",
@@ -3738,6 +3823,7 @@ module.exports=[
   {
     "key": "Procambarus clarkii",
     "value": 8,
+    "alphaCode": "RCW",
     "taxonomy": "Crustaceans",
     "country": [
       "China",
@@ -3765,6 +3851,7 @@ module.exports=[
   {
     "key": "Trachinotus blochii",
     "value": 8,
+    "alphaCode": "POO",
     "taxonomy": "Marine fishes",
     "country": [
       "China",
@@ -3783,6 +3870,7 @@ module.exports=[
   {
     "key": "Siluroidei",
     "value": 8,
+    "alphaCode": "FSI",
     "taxonomy": "Freshwater fishes",
     "country": [
       "India",
@@ -3812,6 +3900,7 @@ module.exports=[
   {
     "key": "Rutilus rutilus",
     "value": 8,
+    "alphaCode": "FRO",
     "taxonomy": "Freshwater fishes",
     "country": [
       "France",
@@ -3838,6 +3927,7 @@ module.exports=[
   {
     "key": "Rana catesbeiana",
     "value": 8,
+    "alphaCode": "FOK",
     "taxonomy": "Miscellaneous aquatic animals",
     "country": [
       "Taiwan Province of China",
@@ -3863,6 +3953,7 @@ module.exports=[
   {
     "key": "Carassius auratus",
     "value": 8,
+    "alphaCode": "CGO",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Bulgaria",
@@ -3888,6 +3979,7 @@ module.exports=[
   {
     "key": "Diplodus sargus",
     "value": 8,
+    "alphaCode": "SWA",
     "taxonomy": "Marine fishes",
     "country": [
       "Italy",
@@ -3910,6 +4002,7 @@ module.exports=[
   {
     "key": "Trionyx sinensis",
     "value": 7,
+    "alphaCode": "TTS",
     "taxonomy": "Miscellaneous aquatic animals",
     "country": [
       "China",
@@ -3929,6 +4022,7 @@ module.exports=[
   {
     "key": "Channa striata",
     "value": 7,
+    "alphaCode": "FSS",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Cambodia",
@@ -3948,6 +4042,7 @@ module.exports=[
   {
     "key": "Lutjanus argentimaculatus",
     "value": 7,
+    "alphaCode": "RES",
     "taxonomy": "Marine fishes",
     "country": [
       "Malaysia",
@@ -3971,6 +4066,7 @@ module.exports=[
   {
     "key": "Heterotis niloticus",
     "value": 7,
+    "alphaCode": "HTN",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Nigeria",
@@ -3990,6 +4086,7 @@ module.exports=[
   {
     "key": "Coregonus spp",
     "value": 7,
+    "alphaCode": "WHF",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Russian Federation",
@@ -4014,6 +4111,7 @@ module.exports=[
   {
     "key": "Morone chrysops x M. saxatilis",
     "value": 7,
+    "alphaCode": "SBH",
     "taxonomy": "Freshwater fishes",
     "country": [
       "United States of America",
@@ -4039,6 +4137,7 @@ module.exports=[
   {
     "key": "Solea senegalensis",
     "value": 7,
+    "alphaCode": "OAL",
     "taxonomy": "Marine fishes",
     "country": [
       "Spain",
@@ -4056,6 +4155,7 @@ module.exports=[
   {
     "key": "Epinephelus coioides",
     "value": 7,
+    "alphaCode": "ENI",
     "taxonomy": "Marine fishes",
     "country": [
       "Cambodia",
@@ -4076,6 +4176,7 @@ module.exports=[
   {
     "key": "Crustacea",
     "value": 7,
+    "alphaCode": "CRU",
     "taxonomy": "Crustaceans",
     "country": [
       "Norway",
@@ -4105,6 +4206,7 @@ module.exports=[
   {
     "key": "Acipenser ruthenus",
     "value": 7,
+    "alphaCode": "APR",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Belarus",
@@ -4128,6 +4230,7 @@ module.exports=[
   {
     "key": "Solea solea",
     "value": 7,
+    "alphaCode": "SOL",
     "taxonomy": "Marine fishes",
     "country": [
       "Italy",
@@ -4149,6 +4252,7 @@ module.exports=[
   {
     "key": "Pangasius spp",
     "value": 6,
+    "alphaCode": "PGZ",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Viet Nam",
@@ -4163,6 +4267,7 @@ module.exports=[
   {
     "key": "Anguilla japonica",
     "value": 6,
+    "alphaCode": "ELJ",
     "taxonomy": "Diadromous fishes",
     "country": [
       "China",
@@ -4180,6 +4285,7 @@ module.exports=[
   {
     "key": "Lateolabrax japonicus",
     "value": 6,
+    "alphaCode": "BAJ",
     "taxonomy": "Marine fishes",
     "country": [
       "China",
@@ -4196,6 +4302,7 @@ module.exports=[
   {
     "key": "Osphronemus goramy",
     "value": 6,
+    "alphaCode": "FGG",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Indonesia",
@@ -4211,6 +4318,7 @@ module.exports=[
   {
     "key": "Eucheuma denticulatum",
     "value": 6,
+    "alphaCode": "EMI",
     "taxonomy": "Aquatic plants",
     "country": [
       "Zanzibar",
@@ -4234,6 +4342,7 @@ module.exports=[
   {
     "key": "Palaemonidae",
     "value": 6,
+    "alphaCode": "PPZ",
     "taxonomy": "Crustaceans",
     "country": [
       "China",
@@ -4257,6 +4366,7 @@ module.exports=[
   {
     "key": "Anabas testudineus",
     "value": 6,
+    "alphaCode": "FPC",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Bangladesh",
@@ -4275,6 +4385,7 @@ module.exports=[
   {
     "key": "Oncorhynchus tshawytscha",
     "value": 6,
+    "alphaCode": "CHI",
     "taxonomy": "Diadromous fishes",
     "country": [
       "New Zealand",
@@ -4296,6 +4407,7 @@ module.exports=[
   {
     "key": "Prochilodus spp",
     "value": 6,
+    "alphaCode": "PRL",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Brazil",
@@ -4311,6 +4423,7 @@ module.exports=[
   {
     "key": "Phaeophyceae",
     "value": 6,
+    "alphaCode": "SWB",
     "taxonomy": "Aquatic plants",
     "country": [
       "Russian Federation",
@@ -4333,6 +4446,7 @@ module.exports=[
   {
     "key": "Panulirus spp",
     "value": 6,
+    "alphaCode": "SLV",
     "taxonomy": "Crustaceans",
     "country": [
       "Viet Nam",
@@ -4355,6 +4469,7 @@ module.exports=[
   {
     "key": "Coregonus lavaretus",
     "value": 6,
+    "alphaCode": "PLN",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Finland",
@@ -4371,6 +4486,7 @@ module.exports=[
   {
     "key": "Gadus morhua",
     "value": 6,
+    "alphaCode": "COD",
     "taxonomy": "Marine fishes",
     "country": [
       "Norway",
@@ -4393,6 +4509,7 @@ module.exports=[
   {
     "key": "Siganus spp",
     "value": 6,
+    "alphaCode": "SPI",
     "taxonomy": "Marine fishes",
     "country": [
       "Philippines",
@@ -4416,6 +4533,7 @@ module.exports=[
   {
     "key": "Diplodus puntazzo",
     "value": 6,
+    "alphaCode": "SHR",
     "taxonomy": "Marine fishes",
     "country": [
       "Greece",
@@ -4437,6 +4555,7 @@ module.exports=[
   {
     "key": "Acipenser gueldenstaedtii",
     "value": 6,
+    "alphaCode": "APG",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Bulgaria",
@@ -4461,6 +4580,7 @@ module.exports=[
   {
     "key": "Holothuria scabra",
     "value": 6,
+    "alphaCode": "HFC",
     "taxonomy": "Miscellaneous aquatic animals",
     "country": [
       "Viet Nam",
@@ -4484,6 +4604,7 @@ module.exports=[
   {
     "key": "Pecten maximus",
     "value": 6,
+    "alphaCode": "SCE",
     "taxonomy": "Molluscs",
     "country": [
       "Norway",
@@ -4503,6 +4624,7 @@ module.exports=[
   {
     "key": "Ex Pinctada spp",
     "value": 6,
+    "alphaCode": "OSH",
     "taxonomy": "Miscellaneous aquatic animal products",
     "country": [
       "Japan",
@@ -4526,6 +4648,7 @@ module.exports=[
   {
     "key": "Scardinius erythrophthalmus",
     "value": 6,
+    "alphaCode": "SRE",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Bulgaria",
@@ -4549,6 +4672,7 @@ module.exports=[
   {
     "key": "Astacus astacus",
     "value": 6,
+    "alphaCode": "AAS",
     "taxonomy": "Crustaceans",
     "country": [
       "Romania",
@@ -4568,6 +4692,7 @@ module.exports=[
   {
     "key": "Undaria pinnatifida",
     "value": 5,
+    "alphaCode": "UDP",
     "taxonomy": "Aquatic plants",
     "country": [
       "China",
@@ -4588,6 +4713,7 @@ module.exports=[
   {
     "key": "Mylopharyngodon piceus",
     "value": 5,
+    "alphaCode": "BKC",
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -4608,6 +4734,7 @@ module.exports=[
   {
     "key": "Patinopecten yessoensis",
     "value": 5,
+    "alphaCode": "JSC",
     "taxonomy": "Molluscs",
     "country": [
       "Japan",
@@ -4630,6 +4757,7 @@ module.exports=[
   {
     "key": "Channa micropeltes",
     "value": 5,
+    "alphaCode": "FIS",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Indonesia",
@@ -4643,6 +4771,7 @@ module.exports=[
   {
     "key": "Lates niloticus",
     "value": 5,
+    "alphaCode": "NIP",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Nigeria",
@@ -4661,6 +4790,7 @@ module.exports=[
   {
     "key": "Brachyura",
     "value": 5,
+    "alphaCode": "CRA",
     "taxonomy": "Crustaceans",
     "country": [
       "China",
@@ -4679,6 +4809,7 @@ module.exports=[
   {
     "key": "Channa spp",
     "value": 5,
+    "alphaCode": "FSN",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Indonesia",
@@ -4698,6 +4829,7 @@ module.exports=[
   {
     "key": "Clarias batrachus",
     "value": 5,
+    "alphaCode": "CBT",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Bangladesh",
@@ -4721,6 +4853,7 @@ module.exports=[
   {
     "key": "Characidae",
     "value": 5,
+    "alphaCode": "CHA",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Nigeria",
@@ -4742,6 +4875,7 @@ module.exports=[
   {
     "key": "Tilapia rendalli",
     "value": 5,
+    "alphaCode": "TLR",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Zambia",
@@ -4764,6 +4898,7 @@ module.exports=[
   {
     "key": "Caranx spp",
     "value": 5,
+    "alphaCode": "TRE",
     "taxonomy": "Marine fishes",
     "country": [
       "Malaysia",
@@ -4783,6 +4918,7 @@ module.exports=[
   {
     "key": "Salvelinus spp",
     "value": 5,
+    "alphaCode": "CHR",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Germany",
@@ -4801,6 +4937,7 @@ module.exports=[
   {
     "key": "Acanthopagrus schlegeli",
     "value": 5,
+    "alphaCode": "MLM",
     "taxonomy": "Marine fishes",
     "country": [
       "Korea, Republic of",
@@ -4813,6 +4950,7 @@ module.exports=[
   {
     "key": "Oxyeleotris marmorata",
     "value": 5,
+    "alphaCode": "GBM",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Indonesia",
@@ -4826,6 +4964,7 @@ module.exports=[
   {
     "key": "Anguilla spp",
     "value": 5,
+    "alphaCode": "ELX",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Indonesia",
@@ -4845,6 +4984,7 @@ module.exports=[
   {
     "key": "Rutilus spp",
     "value": 5,
+    "alphaCode": "FRX",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Russian Federation",
@@ -4868,6 +5008,7 @@ module.exports=[
   {
     "key": "Dentex dentex",
     "value": 5,
+    "alphaCode": "DEC",
     "taxonomy": "Marine fishes",
     "country": [
       "Turkey",
@@ -4888,6 +5029,7 @@ module.exports=[
   {
     "key": "Astacus leptodactylus",
     "value": 5,
+    "alphaCode": "CRD",
     "taxonomy": "Crustaceans",
     "country": [
       "Iran (Islamic Rep. of)",
@@ -4910,6 +5052,7 @@ module.exports=[
   {
     "key": "Hoplosternum littorale",
     "value": 5,
+    "alphaCode": "HSR",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Guyana",
@@ -4926,6 +5069,7 @@ module.exports=[
   {
     "key": "Rhabdosargus sarba",
     "value": 5,
+    "alphaCode": "RSS",
     "taxonomy": "Marine fishes",
     "country": [
       "China, Hong Kong SAR",
@@ -4947,6 +5091,7 @@ module.exports=[
   {
     "key": "Thymallus thymallus",
     "value": 5,
+    "alphaCode": "TLV",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Austria",
@@ -4965,6 +5110,7 @@ module.exports=[
   {
     "key": "Laminaria japonica",
     "value": 4,
+    "alphaCode": "LNJ",
     "taxonomy": "Aquatic plants",
     "country": [
       "China",
@@ -4978,6 +5124,7 @@ module.exports=[
   {
     "key": "Porphyra tenera",
     "value": 4,
+    "alphaCode": "PRT",
     "taxonomy": "Aquatic plants",
     "country": [
       "Korea, Republic of",
@@ -4991,6 +5138,7 @@ module.exports=[
   {
     "key": "Monopterus albus",
     "value": 4,
+    "alphaCode": "FLT",
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -5007,6 +5155,7 @@ module.exports=[
   {
     "key": "Apostichopus japonicus",
     "value": 4,
+    "alphaCode": "CUJ",
     "taxonomy": "Miscellaneous aquatic animals",
     "country": [
       "China",
@@ -5026,6 +5175,7 @@ module.exports=[
   {
     "key": "Crassostrea virginica",
     "value": 4,
+    "alphaCode": "OYA",
     "taxonomy": "Molluscs",
     "country": [
       "United States of America",
@@ -5043,6 +5193,7 @@ module.exports=[
   {
     "key": "Metapenaeus spp",
     "value": 4,
+    "alphaCode": "MET",
     "taxonomy": "Crustaceans",
     "country": [
       "Indonesia",
@@ -5056,6 +5207,7 @@ module.exports=[
   {
     "key": "Pagrus auratus",
     "value": 4,
+    "alphaCode": "GSU",
     "taxonomy": "Marine fishes",
     "country": [
       "Japan",
@@ -5068,6 +5220,7 @@ module.exports=[
   {
     "key": "Paralichthys olivaceus",
     "value": 4,
+    "alphaCode": "BAH",
     "taxonomy": "Marine fishes",
     "country": [
       "Korea, Republic of",
@@ -5089,6 +5242,7 @@ module.exports=[
   {
     "key": "Seriola spp",
     "value": 4,
+    "alphaCode": "AMX",
     "taxonomy": "Marine fishes",
     "country": [
       "China",
@@ -5101,6 +5255,7 @@ module.exports=[
   {
     "key": "Trichogaster pectoralis",
     "value": 4,
+    "alphaCode": "FGS",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Cambodia",
@@ -5114,6 +5269,7 @@ module.exports=[
   {
     "key": "Eleutheronema tetradactylum",
     "value": 4,
+    "alphaCode": "FOT",
     "taxonomy": "Marine fishes",
     "country": [
       "Taiwan Province of China",
@@ -5130,6 +5286,7 @@ module.exports=[
   {
     "key": "Pagrus major",
     "value": 4,
+    "alphaCode": "REV",
     "taxonomy": "Marine fishes",
     "country": [
       "Korea, Republic of",
@@ -5145,6 +5302,7 @@ module.exports=[
   {
     "key": "Leptobarbus hoeveni",
     "value": 4,
+    "alphaCode": "FCH",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Cambodia",
@@ -5158,6 +5316,7 @@ module.exports=[
   {
     "key": "Cirrhinus molitorella",
     "value": 4,
+    "alphaCode": "MUC",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Lao People's Dem. Rep.",
@@ -5174,6 +5333,7 @@ module.exports=[
   {
     "key": "Salmonoidei",
     "value": 4,
+    "alphaCode": "SLX",
     "taxonomy": "Diadromous fishes",
     "country": [
       "China",
@@ -5194,6 +5354,7 @@ module.exports=[
   {
     "key": "Ictalurus spp",
     "value": 4,
+    "alphaCode": "CAF",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Mexico",
@@ -5215,6 +5376,7 @@ module.exports=[
   {
     "key": "Crassostrea rhizophorae",
     "value": 4,
+    "alphaCode": "OYM",
     "taxonomy": "Molluscs",
     "country": [
       "Cuba",
@@ -5234,6 +5396,7 @@ module.exports=[
   {
     "key": "Umbrina cirrosa",
     "value": 4,
+    "alphaCode": "COB",
     "taxonomy": "Marine fishes",
     "country": [
       "Greece",
@@ -5253,6 +5416,7 @@ module.exports=[
   {
     "key": "Barbus barbus",
     "value": 4,
+    "alphaCode": "PTB",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Algeria",
@@ -5273,6 +5437,7 @@ module.exports=[
   {
     "key": "Seriola dumerili",
     "value": 4,
+    "alphaCode": "AMB",
     "taxonomy": "Marine fishes",
     "country": [
       "United Arab Emirates",
@@ -5293,6 +5458,7 @@ module.exports=[
   {
     "key": "Cherax destructor",
     "value": 4,
+    "alphaCode": "CDT",
     "taxonomy": "Crustaceans",
     "country": [
       "Australia",
@@ -5313,6 +5479,7 @@ module.exports=[
   {
     "key": "Huso huso",
     "value": 4,
+    "alphaCode": "HUH",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Bulgaria",
@@ -5333,6 +5500,7 @@ module.exports=[
   {
     "key": "Sparidentex hasta",
     "value": 4,
+    "alphaCode": "SZH",
     "taxonomy": "Marine fishes",
     "country": [
       "Kuwait",
@@ -5346,6 +5514,7 @@ module.exports=[
   {
     "key": "Alburnus alburnus",
     "value": 4,
+    "alphaCode": "ALR",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Bulgaria",
@@ -5366,6 +5535,7 @@ module.exports=[
   {
     "key": "Morone saxatilis",
     "value": 4,
+    "alphaCode": "STB",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Palestine",
@@ -5385,6 +5555,7 @@ module.exports=[
   {
     "key": "Octopus spp",
     "value": 4,
+    "alphaCode": "OCZ",
     "taxonomy": "Molluscs",
     "country": [
       "Spain",
@@ -5403,6 +5574,7 @@ module.exports=[
   {
     "key": "Natantia",
     "value": 4,
+    "alphaCode": "DCP",
     "taxonomy": "Crustaceans",
     "country": [
       "Taiwan Province of China",
@@ -5422,6 +5594,7 @@ module.exports=[
   {
     "key": "Siganus canaliculatus",
     "value": 4,
+    "alphaCode": "SCN",
     "taxonomy": "Marine fishes",
     "country": [
       "Singapore",
@@ -5438,6 +5611,7 @@ module.exports=[
   {
     "key": "Artemia salina",
     "value": 4,
+    "alphaCode": "AMS",
     "taxonomy": "Crustaceans",
     "country": [
       "Australia",
@@ -5460,6 +5634,7 @@ module.exports=[
   {
     "key": "Ictiobus spp",
     "value": 4,
+    "alphaCode": "BUF",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Bulgaria",
@@ -5481,6 +5656,7 @@ module.exports=[
   {
     "key": "Gastropoda",
     "value": 4,
+    "alphaCode": "GAS",
     "taxonomy": "Molluscs",
     "country": [
       "Cook Islands",
@@ -5503,6 +5679,7 @@ module.exports=[
   {
     "key": "Epinephelus tauvina",
     "value": 4,
+    "alphaCode": "EPT",
     "taxonomy": "Marine fishes",
     "country": [
       "China, Hong Kong SAR",
@@ -5519,6 +5696,7 @@ module.exports=[
   {
     "key": "Leuciscus idus",
     "value": 4,
+    "alphaCode": "FID",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Latvia",
@@ -5536,6 +5714,7 @@ module.exports=[
   {
     "key": "Rhamdia quelen",
     "value": 4,
+    "alphaCode": "RMQ",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Argentina",
@@ -5552,6 +5731,7 @@ module.exports=[
   {
     "key": "Carassius spp",
     "value": 3,
+    "alphaCode": "WDX",
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -5571,6 +5751,7 @@ module.exports=[
   {
     "key": "Eriocheir sinensis",
     "value": 3,
+    "alphaCode": "ERS",
     "taxonomy": "Crustaceans",
     "country": [
       "China",
@@ -5583,6 +5764,7 @@ module.exports=[
   {
     "key": "Misgurnus anguillicaudatus",
     "value": 3,
+    "alphaCode": "KUR",
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -5595,6 +5777,7 @@ module.exports=[
   {
     "key": "Silurus asotus",
     "value": 3,
+    "alphaCode": "SRO",
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -5607,6 +5790,7 @@ module.exports=[
   {
     "key": "Meretrix lusoria",
     "value": 3,
+    "alphaCode": "HCJ",
     "taxonomy": "Molluscs",
     "country": [
       "Taiwan Province of China",
@@ -5618,6 +5802,7 @@ module.exports=[
   {
     "key": "Testudinata",
     "value": 3,
+    "alphaCode": "TUL",
     "taxonomy": "Miscellaneous aquatic animals",
     "country": [
       "China",
@@ -5637,6 +5822,7 @@ module.exports=[
   {
     "key": "Takifugu rubripes",
     "value": 3,
+    "alphaCode": "TXK",
     "taxonomy": "Marine fishes",
     "country": [
       "China",
@@ -5649,6 +5835,7 @@ module.exports=[
   {
     "key": "Salmonidae",
     "value": 3,
+    "alphaCode": "SLZ",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Canada",
@@ -5668,6 +5855,7 @@ module.exports=[
   {
     "key": "Piaractus mesopotamicus",
     "value": 3,
+    "alphaCode": "CSO",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Brazil",
@@ -5680,6 +5868,7 @@ module.exports=[
   {
     "key": "C. macropomum x P. brachypomus",
     "value": 3,
+    "alphaCode": "TXZ",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Brazil",
@@ -5692,6 +5881,7 @@ module.exports=[
   {
     "key": "Lutjanus johnii",
     "value": 3,
+    "alphaCode": "LJH",
     "taxonomy": "Marine fishes",
     "country": [
       "Malaysia",
@@ -5703,6 +5893,7 @@ module.exports=[
   {
     "key": "Ostreidae",
     "value": 3,
+    "alphaCode": "OST",
     "taxonomy": "Molluscs",
     "country": [
       "Australia",
@@ -5720,6 +5911,7 @@ module.exports=[
   {
     "key": "Plecoglossus altivelis",
     "value": 3,
+    "alphaCode": "PCA",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Japan",
@@ -5732,6 +5924,7 @@ module.exports=[
   {
     "key": "Oreochromis andersonii",
     "value": 3,
+    "alphaCode": "STA",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Zambia",
@@ -5747,6 +5940,7 @@ module.exports=[
   {
     "key": "Plantae aquaticae",
     "value": 3,
+    "alphaCode": "APL",
     "taxonomy": "Aquatic plants",
     "country": [
       "Korea, Republic of",
@@ -5766,6 +5960,7 @@ module.exports=[
   {
     "key": "Hippoglossus hippoglossus",
     "value": 3,
+    "alphaCode": "HAL",
     "taxonomy": "Marine fishes",
     "country": [
       "Norway",
@@ -5778,6 +5973,7 @@ module.exports=[
   {
     "key": "Pagrus pagrus",
     "value": 3,
+    "alphaCode": "RPG",
     "taxonomy": "Marine fishes",
     "country": [
       "Greece",
@@ -5796,6 +5992,7 @@ module.exports=[
   {
     "key": "Pinctada margaritifera",
     "value": 3,
+    "alphaCode": "PNM",
     "taxonomy": "Miscellaneous aquatic animal products",
     "country": [
       "French Polynesia",
@@ -5814,6 +6011,7 @@ module.exports=[
   {
     "key": "Trachinotus carolinus",
     "value": 3,
+    "alphaCode": "POM",
     "taxonomy": "Marine fishes",
     "country": [
       "Panama",
@@ -5829,6 +6027,7 @@ module.exports=[
   {
     "key": "Bidyanus bidyanus",
     "value": 3,
+    "alphaCode": "BYB",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Australia",
@@ -5848,6 +6047,7 @@ module.exports=[
   {
     "key": "Haematococcus pluvialis",
     "value": 3,
+    "alphaCode": "HZP",
     "taxonomy": "Aquatic plants",
     "country": [
       "China",
@@ -5868,6 +6068,7 @@ module.exports=[
   {
     "key": "Palaemonetes varians",
     "value": 3,
+    "alphaCode": "PVR",
     "taxonomy": "Crustaceans",
     "country": [
       "Spain",
@@ -5879,6 +6080,7 @@ module.exports=[
   {
     "key": "Venerupis pullastra",
     "value": 3,
+    "alphaCode": "CTS",
     "taxonomy": "Molluscs",
     "country": [
       "Spain",
@@ -5890,6 +6092,7 @@ module.exports=[
   {
     "key": "Saccharina latissima",
     "value": 3,
+    "alphaCode": "LQX",
     "taxonomy": "Aquatic plants",
     "country": [
       "Norway",
@@ -5905,6 +6108,7 @@ module.exports=[
   {
     "key": "Chrysichthys nigrodigitatus",
     "value": 3,
+    "alphaCode": "CSR",
     "taxonomy": "Freshwater fishes",
     "country": [
       "C�te d'Ivoire",
@@ -5916,6 +6120,7 @@ module.exports=[
   {
     "key": "Portunus pelagicus",
     "value": 3,
+    "alphaCode": "SCD",
     "taxonomy": "Crustaceans",
     "country": [
       "Singapore",
@@ -5930,6 +6135,7 @@ module.exports=[
   {
     "key": "Soleidae",
     "value": 3,
+    "alphaCode": "SOX",
     "taxonomy": "Marine fishes",
     "country": [
       "Netherlands",
@@ -5944,6 +6150,7 @@ module.exports=[
   {
     "key": "Epinephelus fuscoguttatus",
     "value": 3,
+    "alphaCode": "EWF",
     "taxonomy": "Marine fishes",
     "country": [
       "Singapore",
@@ -5955,6 +6162,7 @@ module.exports=[
   {
     "key": "Pleuronectiformes",
     "value": 3,
+    "alphaCode": "FLX",
     "taxonomy": "Marine fishes",
     "country": [
       "Peru",
@@ -5973,6 +6181,7 @@ module.exports=[
   {
     "key": "Hippopus hippopus",
     "value": 3,
+    "alphaCode": "HIP",
     "taxonomy": "Molluscs",
     "country": [
       "Palau",
@@ -5988,6 +6197,7 @@ module.exports=[
   {
     "key": "Tilapia zillii",
     "value": 3,
+    "alphaCode": "TLZ",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Liberia",
@@ -6004,6 +6214,7 @@ module.exports=[
   {
     "key": "Acipenser stellatus",
     "value": 3,
+    "alphaCode": "APE",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Bulgaria",
@@ -6019,6 +6230,7 @@ module.exports=[
   {
     "key": "Cichlasoma managuense",
     "value": 3,
+    "alphaCode": "CHL",
     "taxonomy": "Freshwater fishes",
     "country": [
       "El Salvador",
@@ -6031,6 +6243,7 @@ module.exports=[
   {
     "key": "Chlorophyceae",
     "value": 3,
+    "alphaCode": "SWG",
     "taxonomy": "Aquatic plants",
     "country": [
       "Spain",
@@ -6049,6 +6262,7 @@ module.exports=[
   {
     "key": "Dicentrarchus punctatus",
     "value": 3,
+    "alphaCode": "SPU",
     "taxonomy": "Marine fishes",
     "country": [
       "Spain",
@@ -6060,6 +6274,7 @@ module.exports=[
   {
     "key": "Tridacna maxima",
     "value": 3,
+    "alphaCode": "DKX",
     "taxonomy": "Molluscs",
     "country": [
       "Palau",
@@ -6075,6 +6290,7 @@ module.exports=[
   {
     "key": "Tridacna derasa",
     "value": 3,
+    "alphaCode": "TDD",
     "taxonomy": "Molluscs",
     "country": [
       "Palau",
@@ -6090,6 +6306,7 @@ module.exports=[
   {
     "key": "Leuciscus cephalus",
     "value": 3,
+    "alphaCode": "LUH",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Bulgaria",
@@ -6105,6 +6322,7 @@ module.exports=[
   {
     "key": "Spirulina platensis",
     "value": 3,
+    "alphaCode": "ULL",
     "taxonomy": "Aquatic plants",
     "country": [
       "Bulgaria",
@@ -6125,6 +6343,7 @@ module.exports=[
   {
     "key": "Odontesthes bonariensis",
     "value": 3,
+    "alphaCode": "BCB",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Bolivia (Plurinat.State)",
@@ -6137,6 +6356,7 @@ module.exports=[
   {
     "key": "Aspius aspius",
     "value": 3,
+    "alphaCode": "ASU",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Kazakhstan",
@@ -6155,6 +6375,7 @@ module.exports=[
   {
     "key": "Cichlasoma spp",
     "value": 3,
+    "alphaCode": "CHX",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Dominican Republic",
@@ -6171,6 +6392,7 @@ module.exports=[
   {
     "key": "Sepia officinalis",
     "value": 3,
+    "alphaCode": "CTC",
     "taxonomy": "Molluscs",
     "country": [
       "Portugal",
@@ -6189,6 +6411,7 @@ module.exports=[
   {
     "key": "Sciaenidae",
     "value": 3,
+    "alphaCode": "CDX",
     "taxonomy": "Marine fishes",
     "country": [
       "Portugal",
@@ -6208,6 +6431,7 @@ module.exports=[
   {
     "key": "Tridacna squamosa",
     "value": 3,
+    "alphaCode": "TDS",
     "taxonomy": "Molluscs",
     "country": [
       "Palau",
@@ -6223,6 +6447,7 @@ module.exports=[
   {
     "key": "Tridacna gigas",
     "value": 3,
+    "alphaCode": "TDG",
     "taxonomy": "Molluscs",
     "country": [
       "Palau",
@@ -6238,6 +6463,7 @@ module.exports=[
   {
     "key": "Penaeus semisulcatus",
     "value": 3,
+    "alphaCode": "TIP",
     "taxonomy": "Crustaceans",
     "country": [
       "Italy",
@@ -6256,6 +6482,7 @@ module.exports=[
   {
     "key": "Pacifastacus leniusculus",
     "value": 3,
+    "alphaCode": "PCL",
     "taxonomy": "Crustaceans",
     "country": [
       "France",
@@ -6272,6 +6499,7 @@ module.exports=[
   {
     "key": "Megalobrama amblycephala",
     "value": 2,
+    "alphaCode": "WUB",
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -6289,6 +6517,7 @@ module.exports=[
   {
     "key": "Channa argus",
     "value": 2,
+    "alphaCode": "CNA",
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -6300,6 +6529,7 @@ module.exports=[
   {
     "key": "Oreochromis aureus x O. niloticus",
     "value": 2,
+    "alphaCode": "OXW",
     "taxonomy": "Freshwater fishes",
     "country": [
       "China",
@@ -6317,6 +6547,7 @@ module.exports=[
   {
     "key": "Sargassum fusiforme",
     "value": 2,
+    "alphaCode": "GQB",
     "taxonomy": "Aquatic plants",
     "country": [
       "China",
@@ -6328,6 +6559,7 @@ module.exports=[
   {
     "key": "Portunus spp",
     "value": 2,
+    "alphaCode": "CRS",
     "taxonomy": "Crustaceans",
     "country": [
       "China",
@@ -6342,6 +6574,7 @@ module.exports=[
   {
     "key": "Penaeus chinensis",
     "value": 2,
+    "alphaCode": "FLP",
     "taxonomy": "Crustaceans",
     "country": [
       "China",
@@ -6353,6 +6586,7 @@ module.exports=[
   {
     "key": "Labeo calbasu",
     "value": 2,
+    "alphaCode": "LCB",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Bangladesh",
@@ -6364,6 +6598,7 @@ module.exports=[
   {
     "key": "Mercenaria mercenaria",
     "value": 2,
+    "alphaCode": "CLH",
     "taxonomy": "Molluscs",
     "country": [
       "United States of America",
@@ -6381,6 +6616,7 @@ module.exports=[
   {
     "key": "Corbicula fluminea",
     "value": 2,
+    "alphaCode": "CMA",
     "taxonomy": "Molluscs",
     "country": [
       "China",
@@ -6392,6 +6628,7 @@ module.exports=[
   {
     "key": "Ascidiacea",
     "value": 2,
+    "alphaCode": "SSX",
     "taxonomy": "Miscellaneous aquatic animals",
     "country": [
       "Japan",
@@ -6403,6 +6640,7 @@ module.exports=[
   {
     "key": "Perna perna",
     "value": 2,
+    "alphaCode": "MSL",
     "taxonomy": "Molluscs",
     "country": [
       "Brazil",
@@ -6414,6 +6652,7 @@ module.exports=[
   {
     "key": "Thunnus orientalis",
     "value": 2,
+    "alphaCode": "PBF",
     "taxonomy": "Marine fishes",
     "country": [
       "Japan",
@@ -6431,6 +6670,7 @@ module.exports=[
   {
     "key": "Scylla olivacea",
     "value": 2,
+    "alphaCode": "YLW",
     "taxonomy": "Crustaceans",
     "country": [
       "Bangladesh",
@@ -6445,6 +6685,7 @@ module.exports=[
   {
     "key": "Pleuronectidae",
     "value": 2,
+    "alphaCode": "PLZ",
     "taxonomy": "Marine fishes",
     "country": [
       "China",
@@ -6456,6 +6697,7 @@ module.exports=[
   {
     "key": "Argopecten purpuratus",
     "value": 2,
+    "alphaCode": "SCQ",
     "taxonomy": "Molluscs",
     "country": [
       "Peru",
@@ -6467,6 +6709,7 @@ module.exports=[
   {
     "key": "Strongylocentrotus spp",
     "value": 2,
+    "alphaCode": "URC",
     "taxonomy": "Miscellaneous aquatic animals",
     "country": [
       "China",
@@ -6484,6 +6727,7 @@ module.exports=[
   {
     "key": "Crassostrea corteziensis",
     "value": 2,
+    "alphaCode": "OYR",
     "taxonomy": "Molluscs",
     "country": "Mexico",
     "continent": "Americas",
@@ -6492,6 +6736,7 @@ module.exports=[
   {
     "key": "Hemibagrus nemurus",
     "value": 2,
+    "alphaCode": "MYN",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Indonesia",
@@ -6503,6 +6748,7 @@ module.exports=[
   {
     "key": "Brycon spp",
     "value": 2,
+    "alphaCode": "BXH",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Brazil",
@@ -6514,6 +6760,7 @@ module.exports=[
   {
     "key": "Probarbus jullieni",
     "value": 2,
+    "alphaCode": "PRJ",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Lao People's Dem. Rep.",
@@ -6525,6 +6772,7 @@ module.exports=[
   {
     "key": "Arapaima gigas",
     "value": 2,
+    "alphaCode": "ARP",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Brazil",
@@ -6536,6 +6784,7 @@ module.exports=[
   {
     "key": "Crassostrea madrasensis",
     "value": 2,
+    "alphaCode": "OYI",
     "taxonomy": "Molluscs",
     "country": [
       "India",
@@ -6547,6 +6796,7 @@ module.exports=[
   {
     "key": "Leporinus spp",
     "value": 2,
+    "alphaCode": "LXZ",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Brazil",
@@ -6558,6 +6808,7 @@ module.exports=[
   {
     "key": "Mytilus planulatus",
     "value": 2,
+    "alphaCode": "MYA",
     "taxonomy": "Molluscs",
     "country": "Australia",
     "continent": "Oceania",
@@ -6566,6 +6817,7 @@ module.exports=[
   {
     "key": "Brycon amazonicus",
     "value": 2,
+    "alphaCode": "BZH",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Brazil",
@@ -6577,6 +6829,7 @@ module.exports=[
   {
     "key": "Parachanna spp",
     "value": 2,
+    "alphaCode": "QRX",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Nigeria",
@@ -6591,6 +6844,7 @@ module.exports=[
   {
     "key": "Aulacomya ater",
     "value": 2,
+    "alphaCode": "MSC",
     "taxonomy": "Molluscs",
     "country": [
       "Chile",
@@ -6602,6 +6856,7 @@ module.exports=[
   {
     "key": "Haliotis midae",
     "value": 2,
+    "alphaCode": "ABP",
     "taxonomy": "Molluscs",
     "country": [
       "South Africa",
@@ -6613,6 +6868,7 @@ module.exports=[
   {
     "key": "Haliotis rufescens",
     "value": 2,
+    "alphaCode": "ABF",
     "taxonomy": "Molluscs",
     "country": [
       "Chile",
@@ -6627,6 +6883,7 @@ module.exports=[
   {
     "key": "Ex Unionidae",
     "value": 2,
+    "alphaCode": "FSH",
     "taxonomy": "Miscellaneous aquatic animal products",
     "country": [
       "China",
@@ -6638,6 +6895,7 @@ module.exports=[
   {
     "key": "Gracilaria verrucosa",
     "value": 2,
+    "alphaCode": "GJW",
     "taxonomy": "Aquatic plants",
     "country": "Taiwan Province of China",
     "continent": "Asia",
@@ -6646,6 +6904,7 @@ module.exports=[
   {
     "key": "Pseudoplatystoma corruscans",
     "value": 2,
+    "alphaCode": "UDC",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Paraguay",
@@ -6657,6 +6916,7 @@ module.exports=[
   {
     "key": "Saxidomus giganteus",
     "value": 2,
+    "alphaCode": "BCL",
     "taxonomy": "Molluscs",
     "country": [
       "Canada",
@@ -6668,6 +6928,7 @@ module.exports=[
   {
     "key": "Holothuroidea",
     "value": 2,
+    "alphaCode": "CUX",
     "taxonomy": "Miscellaneous aquatic animals",
     "country": [
       "Indonesia",
@@ -6685,6 +6946,7 @@ module.exports=[
   {
     "key": "Ameiurus melas",
     "value": 2,
+    "alphaCode": "ITM",
     "taxonomy": "Freshwater fishes",
     "country": "Italy",
     "continent": "Europe",
@@ -6693,6 +6955,7 @@ module.exports=[
   {
     "key": "Oreochromis spilurus",
     "value": 2,
+    "alphaCode": "TLL",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Saudi Arabia",
@@ -6710,6 +6973,7 @@ module.exports=[
   {
     "key": "Serranidae",
     "value": 2,
+    "alphaCode": "BSX",
     "taxonomy": "Marine fishes",
     "country": "Philippines",
     "continent": "Asia",
@@ -6718,6 +6982,7 @@ module.exports=[
   {
     "key": "Oncorhynchus masou",
     "value": 2,
+    "alphaCode": "CHE",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Korea, Republic of",
@@ -6735,6 +7000,7 @@ module.exports=[
   {
     "key": "Crassostrea gasar",
     "value": 2,
+    "alphaCode": "OGZ",
     "taxonomy": "Molluscs",
     "country": [
       "Senegal",
@@ -6746,6 +7012,7 @@ module.exports=[
   {
     "key": "Sarotherodon melanotheron",
     "value": 2,
+    "alphaCode": "SAH",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Senegal",
@@ -6757,6 +7024,7 @@ module.exports=[
   {
     "key": "Macrobrachium malcolmsonii",
     "value": 2,
+    "alphaCode": "MBM",
     "taxonomy": "Crustaceans",
     "country": [
       "Pakistan",
@@ -6768,6 +7036,7 @@ module.exports=[
   {
     "key": "Pagellus bogaraveo",
     "value": 2,
+    "alphaCode": "SBR",
     "taxonomy": "Marine fishes",
     "country": [
       "Spain",
@@ -6779,6 +7048,7 @@ module.exports=[
   {
     "key": "Epinephelus malabaricus",
     "value": 2,
+    "alphaCode": "MAR",
     "taxonomy": "Marine fishes",
     "country": "Singapore",
     "continent": "Asia",
@@ -6787,6 +7057,7 @@ module.exports=[
   {
     "key": "Lutjanidae",
     "value": 2,
+    "alphaCode": "SNX",
     "taxonomy": "Marine fishes",
     "country": "Taiwan Province of China",
     "continent": "Asia",
@@ -6795,6 +7066,7 @@ module.exports=[
   {
     "key": "Miichthys miiuy",
     "value": 2,
+    "alphaCode": "MIH",
     "taxonomy": "Marine fishes",
     "country": [
       "Korea, Republic of",
@@ -6806,6 +7078,7 @@ module.exports=[
   {
     "key": "Pseudoplatystoma spp",
     "value": 2,
+    "alphaCode": "UPY",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Argentina",
@@ -6817,6 +7090,7 @@ module.exports=[
   {
     "key": "Brycon cephalus",
     "value": 2,
+    "alphaCode": "BNC",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Peru",
@@ -6828,6 +7102,7 @@ module.exports=[
   {
     "key": "Lutjanus erythropterus",
     "value": 2,
+    "alphaCode": "LJT",
     "taxonomy": "Marine fishes",
     "country": "Singapore",
     "continent": "Asia",
@@ -6836,6 +7111,7 @@ module.exports=[
   {
     "key": "Salminus brasiliensis",
     "value": 2,
+    "alphaCode": "SXU",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Brazil",
@@ -6847,6 +7123,7 @@ module.exports=[
   {
     "key": "Cherax tenuimanus",
     "value": 2,
+    "alphaCode": "CRT",
     "taxonomy": "Crustaceans",
     "country": [
       "Australia",
@@ -6864,6 +7141,7 @@ module.exports=[
   {
     "key": "Soletellina diphos",
     "value": 2,
+    "alphaCode": "OIF",
     "taxonomy": "Molluscs",
     "country": "Taiwan Province of China",
     "continent": "Asia",
@@ -6872,6 +7150,7 @@ module.exports=[
   {
     "key": "Seriola lalandi",
     "value": 2,
+    "alphaCode": "YTC",
     "taxonomy": "Marine fishes",
     "country": [
       "Netherlands",
@@ -6889,6 +7168,7 @@ module.exports=[
   {
     "key": "Panulirus polyphagus",
     "value": 2,
+    "alphaCode": "LMS",
     "taxonomy": "Crustaceans",
     "country": "Singapore",
     "continent": "Asia",
@@ -6897,6 +7177,7 @@ module.exports=[
   {
     "key": "Alaria esculenta",
     "value": 2,
+    "alphaCode": "AJC",
     "taxonomy": "Aquatic plants",
     "country": [
       "Ireland",
@@ -6908,6 +7189,7 @@ module.exports=[
   {
     "key": "Spirulina maxima",
     "value": 2,
+    "alphaCode": "ULX",
     "taxonomy": "Aquatic plants",
     "country": [
       "Chile",
@@ -6925,6 +7207,7 @@ module.exports=[
   {
     "key": "Plectropomus maculatus",
     "value": 2,
+    "alphaCode": "PLM",
     "taxonomy": "Marine fishes",
     "country": "Singapore",
     "continent": "Asia",
@@ -6933,6 +7216,7 @@ module.exports=[
   {
     "key": "Haliotis discus",
     "value": 2,
+    "alphaCode": "ABJ",
     "taxonomy": "Molluscs",
     "country": [
       "Chile",
@@ -6950,6 +7234,7 @@ module.exports=[
   {
     "key": "Hucho hucho",
     "value": 2,
+    "alphaCode": "HUC",
     "taxonomy": "Diadromous fishes",
     "country": [
       "Austria",
@@ -6964,6 +7249,7 @@ module.exports=[
   {
     "key": "Macrobrachium spp",
     "value": 2,
+    "alphaCode": "PPF",
     "taxonomy": "Crustaceans",
     "country": [
       "Mexico",
@@ -6981,6 +7267,7 @@ module.exports=[
   {
     "key": "Aequipecten opercularis",
     "value": 2,
+    "alphaCode": "QSC",
     "taxonomy": "Molluscs",
     "country": [
       "United Kingdom",
@@ -6995,6 +7282,7 @@ module.exports=[
   {
     "key": "Prochilodus lineatus",
     "value": 2,
+    "alphaCode": "PLL",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Argentina",
@@ -7006,6 +7294,7 @@ module.exports=[
   {
     "key": "Scortum barcoo",
     "value": 2,
+    "alphaCode": "QOF",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Malaysia",
@@ -7017,6 +7306,7 @@ module.exports=[
   {
     "key": "Tor tambroides",
     "value": 2,
+    "alphaCode": "TOB",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Malaysia",
@@ -7028,6 +7318,7 @@ module.exports=[
   {
     "key": "Polydactylus sexfilis",
     "value": 2,
+    "alphaCode": "OLX",
     "taxonomy": "Marine fishes",
     "country": [
       "Marshall Islands",
@@ -7042,6 +7333,7 @@ module.exports=[
   {
     "key": "Heterobranchus longifilis",
     "value": 2,
+    "alphaCode": "HEL",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Cameroon",
@@ -7056,6 +7348,7 @@ module.exports=[
   {
     "key": "Haliotis tuberculata",
     "value": 2,
+    "alphaCode": "HLT",
     "taxonomy": "Molluscs",
     "country": [
       "France",
@@ -7070,6 +7363,7 @@ module.exports=[
   {
     "key": "Epinephelus lanceolatus",
     "value": 2,
+    "alphaCode": "EEN",
     "taxonomy": "Marine fishes",
     "country": "Singapore",
     "continent": "Asia",
@@ -7078,6 +7372,7 @@ module.exports=[
   {
     "key": "Pseudoplatystoma fasciatum",
     "value": 2,
+    "alphaCode": "UDF",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Colombia",
@@ -7089,6 +7384,7 @@ module.exports=[
   {
     "key": "Tridacna spp",
     "value": 2,
+    "alphaCode": "QQX",
     "taxonomy": "Molluscs",
     "country": [
       "Cook Islands",
@@ -7103,6 +7399,7 @@ module.exports=[
   {
     "key": "Solen spp",
     "value": 2,
+    "alphaCode": "RAZ",
     "taxonomy": "Molluscs",
     "country": [
       "Portugal",
@@ -7114,6 +7411,7 @@ module.exports=[
   {
     "key": "Lota lota",
     "value": 2,
+    "alphaCode": "FBU",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Russian Federation",
@@ -7128,6 +7426,7 @@ module.exports=[
   {
     "key": "Macrocystis pyrifera",
     "value": 2,
+    "alphaCode": "MXY",
     "taxonomy": "Aquatic plants",
     "country": [
       "Peru",
@@ -7139,6 +7438,7 @@ module.exports=[
   {
     "key": "Penaeus kerathurus",
     "value": 2,
+    "alphaCode": "TGS",
     "taxonomy": "Crustaceans",
     "country": [
       "Spain",
@@ -7156,6 +7456,7 @@ module.exports=[
   {
     "key": "Venus verrucosa",
     "value": 2,
+    "alphaCode": "VEV",
     "taxonomy": "Molluscs",
     "country": [
       "Spain",
@@ -7167,6 +7468,7 @@ module.exports=[
   {
     "key": "Cerastoderma glaucum",
     "value": 2,
+    "alphaCode": "KTG",
     "taxonomy": "Molluscs",
     "country": "Spain",
     "continent": "Europe",
@@ -7175,6 +7477,7 @@ module.exports=[
   {
     "key": "Cromileptes altivelis",
     "value": 2,
+    "alphaCode": "MPV",
     "taxonomy": "Marine fishes",
     "country": "Singapore",
     "continent": "Asia",
@@ -7183,6 +7486,7 @@ module.exports=[
   {
     "key": "Anadara spp",
     "value": 2,
+    "alphaCode": "BLS",
     "taxonomy": "Molluscs",
     "country": [
       "Fiji",
@@ -7200,6 +7504,7 @@ module.exports=[
   {
     "key": "Bagrus bajad",
     "value": 2,
+    "alphaCode": "BGJ",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Chad",
@@ -7214,6 +7519,7 @@ module.exports=[
   {
     "key": "Chrysichthys spp",
     "value": 2,
+    "alphaCode": "CST",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Benin",
@@ -7225,6 +7531,7 @@ module.exports=[
   {
     "key": "Lepomis macrochirus",
     "value": 2,
+    "alphaCode": "LMM",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Mexico",
@@ -7239,6 +7546,7 @@ module.exports=[
   {
     "key": "Penaeus esculentus",
     "value": 2,
+    "alphaCode": "PRB",
     "taxonomy": "Crustaceans",
     "country": "Australia",
     "continent": "Oceania",
@@ -7247,6 +7555,7 @@ module.exports=[
   {
     "key": "Ruditapes spp",
     "value": 2,
+    "alphaCode": "TPS",
     "taxonomy": "Molluscs",
     "country": [
       "South Africa",
@@ -7261,6 +7570,7 @@ module.exports=[
   {
     "key": "Pagellus erythrinus",
     "value": 2,
+    "alphaCode": "PAC",
     "taxonomy": "Marine fishes",
     "country": [
       "Cyprus",
@@ -7278,6 +7588,7 @@ module.exports=[
   {
     "key": "Palaemon serratus",
     "value": 2,
+    "alphaCode": "CPR",
     "taxonomy": "Crustaceans",
     "country": [
       "Italy",
@@ -7289,6 +7600,7 @@ module.exports=[
   {
     "key": "Centropomus undecimalis",
     "value": 2,
+    "alphaCode": "SNO",
     "taxonomy": "Marine fishes",
     "country": [
       "Dominican Republic",
@@ -7303,6 +7615,7 @@ module.exports=[
   {
     "key": "Diplodus vulgaris",
     "value": 2,
+    "alphaCode": "CTB",
     "taxonomy": "Marine fishes",
     "country": [
       "Italy",
@@ -7320,6 +7633,7 @@ module.exports=[
   {
     "key": "Brycon moorei",
     "value": 2,
+    "alphaCode": "BCM",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Colombia",
@@ -7331,6 +7645,7 @@ module.exports=[
   {
     "key": "Penaeus plebejus",
     "value": 2,
+    "alphaCode": "PNP",
     "taxonomy": "Crustaceans",
     "country": "Australia",
     "continent": "Oceania",
@@ -7339,6 +7654,7 @@ module.exports=[
   {
     "key": "Platichthys flesus",
     "value": 2,
+    "alphaCode": "FLE",
     "taxonomy": "Marine fishes",
     "country": [
       "Denmark",
@@ -7353,6 +7669,7 @@ module.exports=[
   {
     "key": "Ostrea spp",
     "value": 2,
+    "alphaCode": "OYX",
     "taxonomy": "Molluscs",
     "country": [
       "Australia",
@@ -7370,6 +7687,7 @@ module.exports=[
   {
     "key": "Gobiidae",
     "value": 2,
+    "alphaCode": "FGX",
     "taxonomy": [
       "Freshwater fishes",
       "Marine fishes"
@@ -7387,6 +7705,7 @@ module.exports=[
   {
     "key": "Boleophthalmus pectinirostris",
     "value": 2,
+    "alphaCode": "BFP",
     "taxonomy": "Marine fishes",
     "country": "Taiwan Province of China",
     "continent": "Asia",
@@ -7395,6 +7714,7 @@ module.exports=[
   {
     "key": "Eleotridae",
     "value": 2,
+    "alphaCode": "FGB",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Dominican Republic",
@@ -7412,6 +7732,7 @@ module.exports=[
   {
     "key": "Melanogrammus aeglefinus",
     "value": 2,
+    "alphaCode": "HAD",
     "taxonomy": "Marine fishes",
     "country": [
       "Iceland",
@@ -7423,6 +7744,7 @@ module.exports=[
   {
     "key": "Argyrosomus japonicus",
     "value": 2,
+    "alphaCode": "RYJ",
     "taxonomy": "Marine fishes",
     "country": [
       "Mozambique",
@@ -7437,6 +7759,7 @@ module.exports=[
   {
     "key": "Panulirus japonicus",
     "value": 2,
+    "alphaCode": "NUJ",
     "taxonomy": "Crustaceans",
     "country": "Taiwan Province of China",
     "continent": "Asia",
@@ -7445,6 +7768,7 @@ module.exports=[
   {
     "key": "Octopodidae",
     "value": 2,
+    "alphaCode": "OCT",
     "taxonomy": "Molluscs",
     "country": [
       "Japan",
@@ -7462,6 +7786,7 @@ module.exports=[
   {
     "key": "Rhodophyceae",
     "value": 2,
+    "alphaCode": "SWR",
     "taxonomy": "Aquatic plants",
     "country": [
       "Portugal",
@@ -7479,6 +7804,7 @@ module.exports=[
   {
     "key": "Palinurus spp",
     "value": 2,
+    "alphaCode": "CRW",
     "taxonomy": "Crustaceans",
     "country": [
       "Belize",
@@ -7496,6 +7822,7 @@ module.exports=[
   {
     "key": "Pagrus spp",
     "value": 2,
+    "alphaCode": "SBP",
     "taxonomy": "Marine fishes",
     "country": [
       "Croatia",
@@ -7513,6 +7840,7 @@ module.exports=[
   {
     "key": "Pteria penguin",
     "value": 2,
+    "alphaCode": "PTE",
     "taxonomy": "Miscellaneous aquatic animal products",
     "country": "Indonesia",
     "continent": "Asia",
@@ -7521,6 +7849,7 @@ module.exports=[
   {
     "key": "Labeo spp",
     "value": 2,
+    "alphaCode": "RHI",
     "taxonomy": "Freshwater fishes",
     "country": [
       "Eswatini",
@@ -7532,6 +7861,7 @@ module.exports=[
   {
     "key": "Diplodus spp",
     "value": 2,
+    "alphaCode": "SRG",
     "taxonomy": "Marine fishes",
     "country": [
       "Portugal",
@@ -7549,6 +7879,7 @@ module.exports=[
   {
     "key": "Sciaena spp",
     "value": 2,
+    "alphaCode": "DRU",
     "taxonomy": "Marine fishes",
     "country": [
       "Greece",
@@ -7566,6 +7897,7 @@ module.exports=[
   {
     "key": "Dicentrarchus spp",
     "value": 2,
+    "alphaCode": "BSE",
     "taxonomy": "Marine fishes",
     "country": [
       "Portugal",
@@ -7577,6 +7909,7 @@ module.exports=[
   {
     "key": "Atherinidae",
     "value": 2,
+    "alphaCode": "SIL",
     "taxonomy": "Marine fishes",
     "country": [
       "Mexico",
@@ -7594,6 +7927,7 @@ module.exports=[
   {
     "key": "Centropomus spp",
     "value": 2,
+    "alphaCode": "ROB",
     "taxonomy": "Marine fishes",
     "country": [
       "Brazil",
@@ -7608,6 +7942,7 @@ module.exports=[
   {
     "key": "Chlamys varia",
     "value": 2,
+    "alphaCode": "VSC",
     "taxonomy": "Molluscs",
     "country": "Spain",
     "continent": "Europe",
@@ -7616,6 +7951,7 @@ module.exports=[
   {
     "key": "Veneridae",
     "value": 2,
+    "alphaCode": "CLV",
     "taxonomy": "Molluscs",
     "country": [
       "Greece",
@@ -7627,6 +7963,7 @@ module.exports=[
   {
     "key": "Psammoperca waigiensis",
     "value": 2,
+    "alphaCode": "PWG",
     "taxonomy": "Marine fishes",
     "country": "Taiwan Province of China",
     "continent": "Asia",
@@ -7635,6 +7972,7 @@ module.exports=[
   {
     "key": "Acanthopagrus latus",
     "value": 2,
+    "alphaCode": "YWF",
     "taxonomy": "Marine fishes",
     "country": [
       "Oman",
@@ -7646,6 +7984,7 @@ module.exports=[
   {
     "key": "Thunnus albacares",
     "value": 2,
+    "alphaCode": "YFT",
     "taxonomy": "Marine fishes",
     "country": [
       "Mexico",
@@ -7663,6 +8002,7 @@ module.exports=[
   {
     "key": "Porphyra spp",
     "value": 1,
+    "alphaCode": "FYS",
     "taxonomy": "Aquatic plants",
     "country": "China",
     "continent": "Asia",
@@ -7671,6 +8011,7 @@ module.exports=[
   {
     "key": "Sinonovacula constricta",
     "value": 1,
+    "alphaCode": "SVT",
     "taxonomy": "Molluscs",
     "country": "China",
     "continent": "Asia",
@@ -7679,6 +8020,7 @@ module.exports=[
   {
     "key": "Pelteobagrus fulvidraco",
     "value": 1,
+    "alphaCode": "YCH",
     "taxonomy": "Freshwater fishes",
     "country": "China",
     "continent": "Asia",
@@ -7687,6 +8029,7 @@ module.exports=[
   {
     "key": "Mytilus chilensis",
     "value": 1,
+    "alphaCode": "MYC",
     "taxonomy": "Molluscs",
     "country": "Chile",
     "continent": "Americas",
@@ -7695,6 +8038,7 @@ module.exports=[
   {
     "key": "Siniperca chuatsi",
     "value": 1,
+    "alphaCode": "SIN",
     "taxonomy": "Freshwater fishes",
     "country": "China",
     "continent": "Asia",
@@ -7703,6 +8047,7 @@ module.exports=[
   {
     "key": "Rapana spp",
     "value": 1,
+    "alphaCode": "RPN",
     "taxonomy": "Molluscs",
     "country": "China",
     "continent": "Asia",
@@ -7711,6 +8056,7 @@ module.exports=[
   {
     "key": "Macrobrachium nipponense",
     "value": 1,
+    "alphaCode": "MNX",
     "taxonomy": "Crustaceans",
     "country": "China",
     "continent": "Asia",
@@ -7719,6 +8065,7 @@ module.exports=[
   {
     "key": "Larimichthys croceus",
     "value": 1,
+    "alphaCode": "LYC",
     "taxonomy": "Marine fishes",
     "country": "China",
     "continent": "Asia",
@@ -7727,6 +8074,7 @@ module.exports=[
   {
     "key": "Scylla paramamosain",
     "value": 1,
+    "alphaCode": "YAR",
     "taxonomy": "Crustaceans",
     "country": "China",
     "continent": "Asia",
@@ -7735,6 +8083,7 @@ module.exports=[
   {
     "key": "Seriola quinqueradiata",
     "value": 1,
+    "alphaCode": "AMJ",
     "taxonomy": "Marine fishes",
     "country": "Japan",
     "continent": "Asia",
@@ -7743,6 +8092,7 @@ module.exports=[
   {
     "key": "Clarias gariepinus x C. macrocephalus",
     "value": 1,
+    "alphaCode": "CGM",
     "taxonomy": "Freshwater fishes",
     "country": "Thailand",
     "continent": "Asia",
@@ -7751,6 +8101,7 @@ module.exports=[
   {
     "key": "Perna canaliculus",
     "value": 1,
+    "alphaCode": "MUZ",
     "taxonomy": "Molluscs",
     "country": "New Zealand",
     "continent": "Oceania",
@@ -7759,6 +8110,7 @@ module.exports=[
   {
     "key": "Cipangopaludina chinensis",
     "value": 1,
+    "alphaCode": "GFZ",
     "taxonomy": "Molluscs",
     "country": "China",
     "continent": "Asia",
@@ -7767,6 +8119,7 @@ module.exports=[
   {
     "key": "Rhopilema spp",
     "value": 1,
+    "alphaCode": "JEL",
     "taxonomy": "Miscellaneous aquatic animals",
     "country": "China",
     "continent": "Asia",
@@ -7775,6 +8128,7 @@ module.exports=[
   {
     "key": "Mytilus coruscus",
     "value": 1,
+    "alphaCode": "MUK",
     "taxonomy": "Molluscs",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -7783,6 +8137,7 @@ module.exports=[
   {
     "key": "Anodonta cygnea",
     "value": 1,
+    "alphaCode": "SWT",
     "taxonomy": "Molluscs",
     "country": "China",
     "continent": "Asia",
@@ -7791,6 +8146,7 @@ module.exports=[
   {
     "key": "Bothidae",
     "value": 1,
+    "alphaCode": "LEF",
     "taxonomy": "Marine fishes",
     "country": "China",
     "continent": "Asia",
@@ -7799,6 +8155,7 @@ module.exports=[
   {
     "key": "P. mesopotamicus x C. macropomum",
     "value": 1,
+    "alphaCode": "TXY",
     "taxonomy": "Freshwater fishes",
     "country": "Brazil",
     "continent": "Americas",
@@ -7807,6 +8164,7 @@ module.exports=[
   {
     "key": "Osteochilus hasselti",
     "value": 1,
+    "alphaCode": "FCN",
     "taxonomy": "Freshwater fishes",
     "country": "Indonesia",
     "continent": "Asia",
@@ -7815,6 +8173,7 @@ module.exports=[
   {
     "key": "Crassostrea iredalei",
     "value": 1,
+    "alphaCode": "CSI",
     "taxonomy": "Molluscs",
     "country": "Philippines",
     "continent": "Asia",
@@ -7823,6 +8182,7 @@ module.exports=[
   {
     "key": "Sebastes schlegeli",
     "value": 1,
+    "alphaCode": "SFL",
     "taxonomy": "Marine fishes",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -7831,6 +8191,7 @@ module.exports=[
   {
     "key": "Leiocassis longirostris",
     "value": 1,
+    "alphaCode": "LLZ",
     "taxonomy": "Freshwater fishes",
     "country": "China",
     "continent": "Asia",
@@ -7839,6 +8200,7 @@ module.exports=[
   {
     "key": "Protosalanx hyalocranius",
     "value": 1,
+    "alphaCode": "PRS",
     "taxonomy": "Diadromous fishes",
     "country": "China",
     "continent": "Asia",
@@ -7847,6 +8209,7 @@ module.exports=[
   {
     "key": "Pangasius pangasius",
     "value": 1,
+    "alphaCode": "PGP",
     "taxonomy": "Freshwater fishes",
     "country": "Malaysia",
     "continent": "Asia",
@@ -7855,6 +8218,7 @@ module.exports=[
   {
     "key": "Atrina spp",
     "value": 1,
+    "alphaCode": "TQY",
     "taxonomy": "Molluscs",
     "country": "China",
     "continent": "Asia",
@@ -7863,6 +8227,7 @@ module.exports=[
   {
     "key": "Hypomesus olidus",
     "value": 1,
+    "alphaCode": "PSM",
     "taxonomy": "Diadromous fishes",
     "country": "China",
     "continent": "Asia",
@@ -7871,6 +8236,7 @@ module.exports=[
   {
     "key": "Heteropneustes fossilis",
     "value": 1,
+    "alphaCode": "HTF",
     "taxonomy": "Freshwater fishes",
     "country": "Bangladesh",
     "continent": "Asia",
@@ -7879,6 +8245,7 @@ module.exports=[
   {
     "key": "Thunnus maccoyii",
     "value": 1,
+    "alphaCode": "SBF",
     "taxonomy": "Marine fishes",
     "country": "Australia",
     "continent": "Oceania",
@@ -7887,6 +8254,7 @@ module.exports=[
   {
     "key": "Papyrocranus afer",
     "value": 1,
+    "alphaCode": "ONP",
     "taxonomy": "Freshwater fishes",
     "country": "Nigeria",
     "continent": "Africa",
@@ -7895,6 +8263,7 @@ module.exports=[
   {
     "key": "Gymnarchus niloticus",
     "value": 1,
+    "alphaCode": "OGN",
     "taxonomy": "Freshwater fishes",
     "country": "Nigeria",
     "continent": "Africa",
@@ -7903,6 +8272,7 @@ module.exports=[
   {
     "key": "Takifugu obscurus",
     "value": 1,
+    "alphaCode": "TZO",
     "taxonomy": "Marine fishes",
     "country": "China",
     "continent": "Asia",
@@ -7911,6 +8281,7 @@ module.exports=[
   {
     "key": "Capsosiphon fulvescens",
     "value": 1,
+    "alphaCode": "UEC",
     "taxonomy": "Aquatic plants",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -7919,6 +8290,7 @@ module.exports=[
   {
     "key": "Monostroma nitidum",
     "value": 1,
+    "alphaCode": "MTN",
     "taxonomy": "Aquatic plants",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -7927,6 +8299,7 @@ module.exports=[
   {
     "key": "Helostoma temminckii",
     "value": 1,
+    "alphaCode": "FGO",
     "taxonomy": "Freshwater fishes",
     "country": "Indonesia",
     "continent": "Asia",
@@ -7935,6 +8308,7 @@ module.exports=[
   {
     "key": "Puntius spp",
     "value": 1,
+    "alphaCode": "FAB",
     "taxonomy": "Freshwater fishes",
     "country": "Bangladesh",
     "continent": "Asia",
@@ -7943,6 +8317,7 @@ module.exports=[
   {
     "key": "Cirrhinus microlepis",
     "value": 1,
+    "alphaCode": "RNM",
     "taxonomy": "Freshwater fishes",
     "country": "Lao People's Dem. Rep.",
     "continent": "Asia",
@@ -7951,6 +8326,7 @@ module.exports=[
   {
     "key": "Systomus sarana",
     "value": 1,
+    "alphaCode": "PUS",
     "taxonomy": "Freshwater fishes",
     "country": "Bangladesh",
     "continent": "Asia",
@@ -7959,6 +8335,7 @@ module.exports=[
   {
     "key": "Oreochromis shiranus",
     "value": 1,
+    "alphaCode": "OIH",
     "taxonomy": "Freshwater fishes",
     "country": "Malawi",
     "continent": "Africa",
@@ -7967,6 +8344,7 @@ module.exports=[
   {
     "key": "Citharinus spp",
     "value": 1,
+    "alphaCode": "CIV",
     "taxonomy": "Freshwater fishes",
     "country": "Nigeria",
     "continent": "Africa",
@@ -7975,6 +8353,7 @@ module.exports=[
   {
     "key": "Synodontis spp",
     "value": 1,
+    "alphaCode": "CSY",
     "taxonomy": "Freshwater fishes",
     "country": "Nigeria",
     "continent": "Africa",
@@ -7983,6 +8362,7 @@ module.exports=[
   {
     "key": "Pseudocaranx dentex",
     "value": 1,
+    "alphaCode": "TRZ",
     "taxonomy": "Marine fishes",
     "country": "Japan",
     "continent": "Asia",
@@ -7991,6 +8371,7 @@ module.exports=[
   {
     "key": "Distichodus spp",
     "value": 1,
+    "alphaCode": "DSE",
     "taxonomy": "Freshwater fishes",
     "country": "Nigeria",
     "continent": "Africa",
@@ -7999,6 +8380,7 @@ module.exports=[
   {
     "key": "Scapharca broughtonii",
     "value": 1,
+    "alphaCode": "ACB",
     "taxonomy": "Molluscs",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -8007,6 +8389,7 @@ module.exports=[
   {
     "key": "Osteobrama belangeri",
     "value": 1,
+    "alphaCode": "OBL",
     "taxonomy": "Freshwater fishes",
     "country": "India",
     "continent": "Asia",
@@ -8015,6 +8398,7 @@ module.exports=[
   {
     "key": "Codium fragile",
     "value": 1,
+    "alphaCode": "KII",
     "taxonomy": "Aquatic plants",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -8023,6 +8407,7 @@ module.exports=[
   {
     "key": "Metapenaeus monoceros",
     "value": 1,
+    "alphaCode": "MPN",
     "taxonomy": "Crustaceans",
     "country": "Bangladesh",
     "continent": "Asia",
@@ -8031,6 +8416,7 @@ module.exports=[
   {
     "key": "Hepsetus odoe",
     "value": 1,
+    "alphaCode": "HED",
     "taxonomy": "Freshwater fishes",
     "country": "Nigeria",
     "continent": "Africa",
@@ -8039,6 +8425,7 @@ module.exports=[
   {
     "key": "Enteromorpha clathrata",
     "value": 1,
+    "alphaCode": "EOW",
     "taxonomy": "Aquatic plants",
     "country": "China",
     "continent": "Asia",
@@ -8047,6 +8434,7 @@ module.exports=[
   {
     "key": "Prochilodus reticulatus",
     "value": 1,
+    "alphaCode": "PLR",
     "taxonomy": "Freshwater fishes",
     "country": "Colombia",
     "continent": "Americas",
@@ -8055,6 +8443,7 @@ module.exports=[
   {
     "key": "Choromytilus chorus",
     "value": 1,
+    "alphaCode": "CHC",
     "taxonomy": "Molluscs",
     "country": "Chile",
     "continent": "Americas",
@@ -8063,6 +8452,7 @@ module.exports=[
   {
     "key": "Wallago attu",
     "value": 1,
+    "alphaCode": "WAA",
     "taxonomy": "Freshwater fishes",
     "country": "Bangladesh",
     "continent": "Asia",
@@ -8071,6 +8461,7 @@ module.exports=[
   {
     "key": "Oreochromis macrochir",
     "value": 1,
+    "alphaCode": "ORM",
     "taxonomy": "Freshwater fishes",
     "country": "Zambia",
     "continent": "Africa",
@@ -8079,6 +8470,7 @@ module.exports=[
   {
     "key": "Prochilodus nigricans",
     "value": 1,
+    "alphaCode": "QPN",
     "taxonomy": "Freshwater fishes",
     "country": "Colombia",
     "continent": "Americas",
@@ -8087,6 +8479,7 @@ module.exports=[
   {
     "key": "Caulerpa spp",
     "value": 1,
+    "alphaCode": "CAU",
     "taxonomy": "Aquatic plants",
     "country": "Philippines",
     "continent": "Asia",
@@ -8095,6 +8488,7 @@ module.exports=[
   {
     "key": "Hoplobatrachus rugulosus",
     "value": 1,
+    "alphaCode": "ZHB",
     "taxonomy": "Miscellaneous aquatic animals",
     "country": "Thailand",
     "continent": "Asia",
@@ -8103,6 +8497,7 @@ module.exports=[
   {
     "key": "Channa punctata",
     "value": 1,
+    "alphaCode": "CNP",
     "taxonomy": "Freshwater fishes",
     "country": "Bangladesh",
     "continent": "Asia",
@@ -8111,6 +8506,7 @@ module.exports=[
   {
     "key": "Panopea generosa",
     "value": 1,
+    "alphaCode": "GEC",
     "taxonomy": "Molluscs",
     "country": "United States of America",
     "continent": "Americas",
@@ -8119,6 +8515,7 @@ module.exports=[
   {
     "key": "Hoplias spp",
     "value": 1,
+    "alphaCode": "HVW",
     "taxonomy": "Freshwater fishes",
     "country": "Brazil",
     "continent": "Americas",
@@ -8127,6 +8524,7 @@ module.exports=[
   {
     "key": "Trachurus japonicus",
     "value": 1,
+    "alphaCode": "JJM",
     "taxonomy": "Marine fishes",
     "country": "Japan",
     "continent": "Asia",
@@ -8135,6 +8533,7 @@ module.exports=[
   {
     "key": "Oplegnathus fasciatus",
     "value": 1,
+    "alphaCode": "OLF",
     "taxonomy": "Marine fishes",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -8143,6 +8542,7 @@ module.exports=[
   {
     "key": "Lutjanus guttatus",
     "value": 1,
+    "alphaCode": "LJS",
     "taxonomy": "Marine fishes",
     "country": "Costa Rica",
     "continent": "Americas",
@@ -8151,6 +8551,7 @@ module.exports=[
   {
     "key": "Notopterus notopterus",
     "value": 1,
+    "alphaCode": "ONN",
     "taxonomy": "Freshwater fishes",
     "country": "Bangladesh",
     "continent": "Asia",
@@ -8159,6 +8560,7 @@ module.exports=[
   {
     "key": "Channa marulius",
     "value": 1,
+    "alphaCode": "KNA",
     "taxonomy": "Freshwater fishes",
     "country": "Bangladesh",
     "continent": "Asia",
@@ -8167,6 +8569,7 @@ module.exports=[
   {
     "key": "Astyanax fasciatus",
     "value": 1,
+    "alphaCode": "AXF",
     "taxonomy": "Freshwater fishes",
     "country": "Brazil",
     "continent": "Americas",
@@ -8175,6 +8578,7 @@ module.exports=[
   {
     "key": "Mya arenaria",
     "value": 1,
+    "alphaCode": "CLS",
     "taxonomy": "Molluscs",
     "country": "United States of America",
     "continent": "Americas",
@@ -8183,6 +8587,7 @@ module.exports=[
   {
     "key": "Monacanthidae",
     "value": 1,
+    "alphaCode": "FFX",
     "taxonomy": "Marine fishes",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -8191,6 +8596,7 @@ module.exports=[
   {
     "key": "Epinephelus septemfasciatus",
     "value": 1,
+    "alphaCode": "EIF",
     "taxonomy": "Marine fishes",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -8199,6 +8605,7 @@ module.exports=[
   {
     "key": "Seriola rivoliana",
     "value": 1,
+    "alphaCode": "YTL",
     "taxonomy": "Marine fishes",
     "country": "United States of America",
     "continent": "Americas",
@@ -8207,6 +8614,7 @@ module.exports=[
   {
     "key": "Ostrea chilensis",
     "value": 1,
+    "alphaCode": "OCH",
     "taxonomy": "Molluscs",
     "country": "Chile",
     "continent": "Americas",
@@ -8215,6 +8623,7 @@ module.exports=[
   {
     "key": "Oreochromis tanganicae",
     "value": 1,
+    "alphaCode": "OIT",
     "taxonomy": "Freshwater fishes",
     "country": "Zambia",
     "continent": "Africa",
@@ -8223,6 +8632,7 @@ module.exports=[
   {
     "key": "Barbus callensis",
     "value": 1,
+    "alphaCode": "BBK",
     "taxonomy": "Freshwater fishes",
     "country": "Tunisia",
     "continent": "Africa",
@@ -8231,6 +8641,7 @@ module.exports=[
   {
     "key": "Konosirus punctatus",
     "value": 1,
+    "alphaCode": "DOD",
     "taxonomy": "Diadromous fishes",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -8239,6 +8650,7 @@ module.exports=[
   {
     "key": "Scomber japonicus",
     "value": 1,
+    "alphaCode": "MAS",
     "taxonomy": "Marine fishes",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -8247,6 +8659,7 @@ module.exports=[
   {
     "key": "Hilsa kelee",
     "value": 1,
+    "alphaCode": "HIX",
     "taxonomy": "Diadromous fishes",
     "country": "India",
     "continent": "Asia",
@@ -8255,6 +8668,7 @@ module.exports=[
   {
     "key": "Scorpaenidae",
     "value": 1,
+    "alphaCode": "SCO",
     "taxonomy": "Marine fishes",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -8263,6 +8677,7 @@ module.exports=[
   {
     "key": "Metapenaeus ensis",
     "value": 1,
+    "alphaCode": "MPE",
     "taxonomy": "Crustaceans",
     "country": "Taiwan Province of China",
     "continent": "Asia",
@@ -8271,6 +8686,7 @@ module.exports=[
   {
     "key": "Chitala chitala",
     "value": 1,
+    "alphaCode": "NCC",
     "taxonomy": "Freshwater fishes",
     "country": "Bangladesh",
     "continent": "Asia",
@@ -8279,6 +8695,7 @@ module.exports=[
   {
     "key": "Pagrus caeruleostictus",
     "value": 1,
+    "alphaCode": "BSC",
     "taxonomy": "Marine fishes",
     "country": "Turkey",
     "continent": "Asia",
@@ -8287,6 +8704,7 @@ module.exports=[
   {
     "key": "Dentex gibbosus",
     "value": 1,
+    "alphaCode": "DEP",
     "taxonomy": "Marine fishes",
     "country": "Turkey",
     "continent": "Asia",
@@ -8295,6 +8713,7 @@ module.exports=[
   {
     "key": "Perca flavescens",
     "value": 1,
+    "alphaCode": "FPY",
     "taxonomy": "Freshwater fishes",
     "country": "United States of America",
     "continent": "Americas",
@@ -8303,6 +8722,7 @@ module.exports=[
   {
     "key": "Haliotis iris",
     "value": 1,
+    "alphaCode": "DZS",
     "taxonomy": "Molluscs",
     "country": "New Zealand",
     "continent": "Oceania",
@@ -8311,6 +8731,7 @@ module.exports=[
   {
     "key": "Hypsibarbus spp",
     "value": 1,
+    "alphaCode": "YHX",
     "taxonomy": "Freshwater fishes",
     "country": "Malaysia",
     "continent": "Asia",
@@ -8319,6 +8740,7 @@ module.exports=[
   {
     "key": "Gracilaria gracilis",
     "value": 1,
+    "alphaCode": "GZG",
     "taxonomy": "Aquatic plants",
     "country": "Morocco",
     "continent": "Africa",
@@ -8327,6 +8749,7 @@ module.exports=[
   {
     "key": "Hatcheria macraei",
     "value": 1,
+    "alphaCode": "HTM",
     "taxonomy": "Freshwater fishes",
     "country": "Chad",
     "continent": "Africa",
@@ -8335,6 +8758,7 @@ module.exports=[
   {
     "key": "Cichla spp",
     "value": 1,
+    "alphaCode": "IGX",
     "taxonomy": "Freshwater fishes",
     "country": "Brazil",
     "continent": "Americas",
@@ -8343,6 +8767,7 @@ module.exports=[
   {
     "key": "Pagrus auriga",
     "value": 1,
+    "alphaCode": "REA",
     "taxonomy": "Marine fishes",
     "country": "Turkey",
     "continent": "Asia",
@@ -8351,6 +8776,7 @@ module.exports=[
   {
     "key": "Mactra veneriformis",
     "value": 1,
+    "alphaCode": "MTV",
     "taxonomy": "Molluscs",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -8359,6 +8785,7 @@ module.exports=[
   {
     "key": "Dormitator latifrons",
     "value": 1,
+    "alphaCode": "DOM",
     "taxonomy": "Freshwater fishes",
     "country": "Ecuador",
     "continent": "Americas",
@@ -8367,6 +8794,7 @@ module.exports=[
   {
     "key": "Polymesoda expansa",
     "value": 1,
+    "alphaCode": "YMX",
     "taxonomy": "Molluscs",
     "country": "Malaysia",
     "continent": "Asia",
@@ -8375,6 +8803,7 @@ module.exports=[
   {
     "key": "Gnathanodon speciosus",
     "value": 1,
+    "alphaCode": "GLT",
     "taxonomy": "Marine fishes",
     "country": "Singapore",
     "continent": "Asia",
@@ -8383,6 +8812,7 @@ module.exports=[
   {
     "key": "Labeo dussumieri",
     "value": 1,
+    "alphaCode": "LBM",
     "taxonomy": "Freshwater fishes",
     "country": "Sri Lanka",
     "continent": "Asia",
@@ -8391,6 +8821,7 @@ module.exports=[
   {
     "key": "Barbonymus schwanenfeldii",
     "value": 1,
+    "alphaCode": "BFS",
     "taxonomy": "Freshwater fishes",
     "country": "Malaysia",
     "continent": "Asia",
@@ -8399,6 +8830,7 @@ module.exports=[
   {
     "key": "Acipenser naccarii",
     "value": 1,
+    "alphaCode": "AAA",
     "taxonomy": "Diadromous fishes",
     "country": "Spain",
     "continent": "Europe",
@@ -8407,6 +8839,7 @@ module.exports=[
   {
     "key": "Platax orbicularis",
     "value": 1,
+    "alphaCode": "LXR",
     "taxonomy": "Marine fishes",
     "country": "French Polynesia",
     "continent": "Oceania",
@@ -8415,6 +8848,7 @@ module.exports=[
   {
     "key": "Takifugu spp",
     "value": 1,
+    "alphaCode": "TXV",
     "taxonomy": "Marine fishes",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -8423,6 +8857,7 @@ module.exports=[
   {
     "key": "Prochilodus mariae",
     "value": 1,
+    "alphaCode": "QMR",
     "taxonomy": "Freshwater fishes",
     "country": "Venezuela, Boliv Rep of",
     "continent": "Americas",
@@ -8431,6 +8866,7 @@ module.exports=[
   {
     "key": "Nemacystus decipiens",
     "value": 1,
+    "alphaCode": "NYQ",
     "taxonomy": "Aquatic plants",
     "country": "Tonga",
     "continent": "Oceania",
@@ -8439,6 +8875,7 @@ module.exports=[
   {
     "key": "Caridina denticulata",
     "value": 1,
+    "alphaCode": "CID",
     "taxonomy": "Crustaceans",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -8447,6 +8884,7 @@ module.exports=[
   {
     "key": "Carcinus aestuarii",
     "value": 1,
+    "alphaCode": "CMR",
     "taxonomy": "Crustaceans",
     "country": "Greece",
     "continent": "Europe",
@@ -8455,6 +8893,7 @@ module.exports=[
   {
     "key": "Leporinus obtusidens",
     "value": 1,
+    "alphaCode": "LPB",
     "taxonomy": "Freshwater fishes",
     "country": "Argentina",
     "continent": "Americas",
@@ -8463,6 +8902,7 @@ module.exports=[
   {
     "key": "Brycon orbignyanus",
     "value": 1,
+    "alphaCode": "BNO",
     "taxonomy": "Freshwater fishes",
     "country": "Argentina",
     "continent": "Americas",
@@ -8471,6 +8911,7 @@ module.exports=[
   {
     "key": "Lyropecten subnodosus",
     "value": 1,
+    "alphaCode": "YKD",
     "taxonomy": "Molluscs",
     "country": "Brazil",
     "continent": "Americas",
@@ -8479,6 +8920,7 @@ module.exports=[
   {
     "key": "Protothaca staminea",
     "value": 1,
+    "alphaCode": "PTS",
     "taxonomy": "Molluscs",
     "country": "United States of America",
     "continent": "Americas",
@@ -8487,6 +8929,7 @@ module.exports=[
   {
     "key": "Trichogaster spp",
     "value": 1,
+    "alphaCode": "GOM",
     "taxonomy": "Freshwater fishes",
     "country": "Thailand",
     "continent": "Asia",
@@ -8495,6 +8938,7 @@ module.exports=[
   {
     "key": "Lutjanus sebae",
     "value": 1,
+    "alphaCode": "LUB",
     "taxonomy": "Marine fishes",
     "country": "New Caledonia",
     "continent": "Oceania",
@@ -8503,6 +8947,7 @@ module.exports=[
   {
     "key": "Anadara tuberculosa",
     "value": 1,
+    "alphaCode": "NQT",
     "taxonomy": "Molluscs",
     "country": "El Salvador",
     "continent": "Americas",
@@ -8511,6 +8956,7 @@ module.exports=[
   {
     "key": "Anguilla reinhardtii",
     "value": 1,
+    "alphaCode": "AAR",
     "taxonomy": "Diadromous fishes",
     "country": "Australia",
     "continent": "Oceania",
@@ -8519,6 +8965,7 @@ module.exports=[
   {
     "key": "Panulirus argus",
     "value": 1,
+    "alphaCode": "SLC",
     "taxonomy": "Crustaceans",
     "country": "Bahamas",
     "continent": "Americas",
@@ -8527,6 +8974,7 @@ module.exports=[
   {
     "key": "Notopterus spp",
     "value": 1,
+    "alphaCode": "FKN",
     "taxonomy": "Freshwater fishes",
     "country": "Thailand",
     "continent": "Asia",
@@ -8535,6 +8983,7 @@ module.exports=[
   {
     "key": "Sarotherodon galilaeus",
     "value": 1,
+    "alphaCode": "SAR",
     "taxonomy": "Freshwater fishes",
     "country": "Liberia",
     "continent": "Africa",
@@ -8543,6 +8992,7 @@ module.exports=[
   {
     "key": "Salmo ischchan",
     "value": 1,
+    "alphaCode": "SFI",
     "taxonomy": "Diadromous fishes",
     "country": "Kyrgyzstan",
     "continent": "Asia",
@@ -8551,6 +9001,7 @@ module.exports=[
   {
     "key": "Ensis ensis",
     "value": 1,
+    "alphaCode": "EQE",
     "taxonomy": "Molluscs",
     "country": "Spain",
     "continent": "Europe",
@@ -8559,6 +9010,7 @@ module.exports=[
   {
     "key": "Chlorella vulgaris",
     "value": 1,
+    "alphaCode": "HQW",
     "taxonomy": "Aquatic plants",
     "country": "Bulgaria",
     "continent": "Europe",
@@ -8567,6 +9019,7 @@ module.exports=[
   {
     "key": "Heterobranchus bidorsalis",
     "value": 1,
+    "alphaCode": "HEB",
     "taxonomy": "Freshwater fishes",
     "country": "Liberia",
     "continent": "Africa",
@@ -8575,6 +9028,7 @@ module.exports=[
   {
     "key": "Anadara grandis",
     "value": 1,
+    "alphaCode": "NDN",
     "taxonomy": "Molluscs",
     "country": "El Salvador",
     "continent": "Americas",
@@ -8583,6 +9037,7 @@ module.exports=[
   {
     "key": "Saccostrea cuccullata",
     "value": 1,
+    "alphaCode": "CSC",
     "taxonomy": "Molluscs",
     "country": "Mauritius",
     "continent": "Africa",
@@ -8591,6 +9046,7 @@ module.exports=[
   {
     "key": "Mytilus platensis",
     "value": 1,
+    "alphaCode": "MSR",
     "taxonomy": "Molluscs",
     "country": "Argentina",
     "continent": "Americas",
@@ -8599,6 +9055,7 @@ module.exports=[
   {
     "key": "Cyclina sinensis",
     "value": 1,
+    "alphaCode": "KNJ",
     "taxonomy": "Molluscs",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -8607,6 +9064,7 @@ module.exports=[
   {
     "key": "Turbo setosus",
     "value": 1,
+    "alphaCode": "UOS",
     "taxonomy": "Molluscs",
     "country": "Cook Islands",
     "continent": "Oceania",
@@ -8615,6 +9073,7 @@ module.exports=[
   {
     "key": "Lutjanus russelli",
     "value": 1,
+    "alphaCode": "SNU",
     "taxonomy": "Marine fishes",
     "country": "China, Hong Kong SAR",
     "continent": "Asia",
@@ -8623,6 +9082,7 @@ module.exports=[
   {
     "key": "Tridacna crocea",
     "value": 1,
+    "alphaCode": "DKC",
     "taxonomy": "Molluscs",
     "country": "Palau",
     "continent": "Oceania",
@@ -8631,6 +9091,7 @@ module.exports=[
   {
     "key": "Caranx ignobilis",
     "value": 1,
+    "alphaCode": "NXI",
     "taxonomy": "Marine fishes",
     "country": "Singapore",
     "continent": "Asia",
@@ -8639,6 +9100,7 @@ module.exports=[
   {
     "key": "Epinephelus areolatus",
     "value": 1,
+    "alphaCode": "EPR",
     "taxonomy": "Marine fishes",
     "country": "China, Hong Kong SAR",
     "continent": "Asia",
@@ -8647,6 +9109,7 @@ module.exports=[
   {
     "key": "Dunaliella salina",
     "value": 1,
+    "alphaCode": "UNI",
     "taxonomy": "Aquatic plants",
     "country": "Spain",
     "continent": "Europe",
@@ -8655,6 +9118,7 @@ module.exports=[
   {
     "key": "Asaphis violascens",
     "value": 1,
+    "alphaCode": "FSV",
     "taxonomy": "Molluscs",
     "country": "Cook Islands",
     "continent": "Oceania",
@@ -8663,6 +9127,7 @@ module.exports=[
   {
     "key": "Strombus gigas",
     "value": 1,
+    "alphaCode": "COO",
     "taxonomy": "Molluscs",
     "country": "Turks and Caicos Is.",
     "continent": "Americas",
@@ -8671,6 +9136,7 @@ module.exports=[
   {
     "key": "Epinephelus tukula",
     "value": 1,
+    "alphaCode": "EWL",
     "taxonomy": "Marine fishes",
     "country": "Singapore",
     "continent": "Asia",
@@ -8679,6 +9145,7 @@ module.exports=[
   {
     "key": "Hemichromis fasciatus",
     "value": 1,
+    "alphaCode": "HJF",
     "taxonomy": "Freshwater fishes",
     "country": "Cameroon",
     "continent": "Africa",
@@ -8687,6 +9154,7 @@ module.exports=[
   {
     "key": "Bolbometopon muricatum",
     "value": 1,
+    "alphaCode": "BMK",
     "taxonomy": "Marine fishes",
     "country": "Singapore",
     "continent": "Asia",
@@ -8695,6 +9163,7 @@ module.exports=[
   {
     "key": "Chondrostoma nasus",
     "value": 1,
+    "alphaCode": "HON",
     "taxonomy": "Freshwater fishes",
     "country": "Bulgaria",
     "continent": "Europe",
@@ -8703,6 +9172,7 @@ module.exports=[
   {
     "key": "Carcinus maenas",
     "value": 1,
+    "alphaCode": "CRG",
     "taxonomy": "Crustaceans",
     "country": "Spain",
     "continent": "Europe",
@@ -8711,6 +9181,7 @@ module.exports=[
   {
     "key": "Pecten jacobaeus",
     "value": 1,
+    "alphaCode": "SJA",
     "taxonomy": "Molluscs",
     "country": "Croatia",
     "continent": "Europe",
@@ -8719,6 +9190,7 @@ module.exports=[
   {
     "key": "Cichla ocellaris",
     "value": 1,
+    "alphaCode": "CLO",
     "taxonomy": "Freshwater fishes",
     "country": "Peru",
     "continent": "Americas",
@@ -8727,6 +9199,7 @@ module.exports=[
   {
     "key": "Anostomoides laticeps",
     "value": 1,
+    "alphaCode": "OIA",
     "taxonomy": "Freshwater fishes",
     "country": "Brazil",
     "continent": "Americas",
@@ -8735,6 +9208,7 @@ module.exports=[
   {
     "key": "Brycon hilarii",
     "value": 1,
+    "alphaCode": "BXN",
     "taxonomy": "Freshwater fishes",
     "country": "Brazil",
     "continent": "Americas",
@@ -8743,6 +9217,7 @@ module.exports=[
   {
     "key": "Chondracanthus chamissoi",
     "value": 1,
+    "alphaCode": "KDM",
     "taxonomy": "Aquatic plants",
     "country": "Peru",
     "continent": "Americas",
@@ -8751,6 +9226,7 @@ module.exports=[
   {
     "key": "Ichthyoelephas humeralis",
     "value": 1,
+    "alphaCode": "ICH",
     "taxonomy": "Freshwater fishes",
     "country": "Ecuador",
     "continent": "Americas",
@@ -8759,6 +9235,7 @@ module.exports=[
   {
     "key": "Pimelodus spp",
     "value": 1,
+    "alphaCode": "MXW",
     "taxonomy": "Freshwater fishes",
     "country": "Colombia",
     "continent": "Americas",
@@ -8767,6 +9244,7 @@ module.exports=[
   {
     "key": "Porphyra columbina",
     "value": 1,
+    "alphaCode": "YKN",
     "taxonomy": "Aquatic plants",
     "country": "Chile",
     "continent": "Americas",
@@ -8775,6 +9253,7 @@ module.exports=[
   {
     "key": "Sargassum spp",
     "value": 1,
+    "alphaCode": "QWX",
     "taxonomy": "Aquatic plants",
     "country": "Mexico",
     "continent": "Americas",
@@ -8783,6 +9262,7 @@ module.exports=[
   {
     "key": "Solea spp",
     "value": 1,
+    "alphaCode": "SOO",
     "taxonomy": "Marine fishes",
     "country": "Portugal",
     "continent": "Europe",
@@ -8791,6 +9271,7 @@ module.exports=[
   {
     "key": "Trochita spp",
     "value": 1,
+    "alphaCode": "UDX",
     "taxonomy": "Molluscs",
     "country": "Chile",
     "continent": "Americas",
@@ -8799,6 +9280,7 @@ module.exports=[
   {
     "key": "Wallago spp",
     "value": 1,
+    "alphaCode": "WAX",
     "taxonomy": "Freshwater fishes",
     "country": "Malaysia",
     "continent": "Asia",
@@ -8807,6 +9289,7 @@ module.exports=[
   {
     "key": "Acetes japonicus",
     "value": 1,
+    "alphaCode": "AKS",
     "taxonomy": "Crustaceans",
     "country": "Indonesia",
     "continent": "Asia",
@@ -8815,6 +9298,7 @@ module.exports=[
   {
     "key": "Pterygoplichthys pardalis",
     "value": 1,
+    "alphaCode": "QYP",
     "taxonomy": "Freshwater fishes",
     "country": "Peru",
     "continent": "Americas",
@@ -8823,6 +9307,7 @@ module.exports=[
   {
     "key": "Anguilla rostrata",
     "value": 1,
+    "alphaCode": "ELA",
     "taxonomy": "Diadromous fishes",
     "country": "Dominican Republic",
     "continent": "Americas",
@@ -8831,6 +9316,7 @@ module.exports=[
   {
     "key": "Venerupis rhomboides",
     "value": 1,
+    "alphaCode": "VNR",
     "taxonomy": "Molluscs",
     "country": "Spain",
     "continent": "Europe",
@@ -8839,6 +9325,7 @@ module.exports=[
   {
     "key": "Chaetodipterus faber",
     "value": 1,
+    "alphaCode": "HRF",
     "taxonomy": "Marine fishes",
     "country": "Venezuela, Boliv Rep of",
     "continent": "Americas",
@@ -8847,6 +9334,7 @@ module.exports=[
   {
     "key": "Anarhichas lupus",
     "value": 1,
+    "alphaCode": "CAA",
     "taxonomy": "Marine fishes",
     "country": "Iceland",
     "continent": "Europe",
@@ -8855,6 +9343,7 @@ module.exports=[
   {
     "key": "Palaemon adspersus",
     "value": 1,
+    "alphaCode": "PAA",
     "taxonomy": "Crustaceans",
     "country": "Ukraine",
     "continent": "Europe",
@@ -8863,6 +9352,7 @@ module.exports=[
   {
     "key": "Paralichthys spp",
     "value": 1,
+    "alphaCode": "BAX",
     "taxonomy": "Marine fishes",
     "country": "Mexico",
     "continent": "Americas",
@@ -8871,6 +9361,7 @@ module.exports=[
   {
     "key": "Caranx sexfasciatus",
     "value": 1,
+    "alphaCode": "CXS",
     "taxonomy": "Marine fishes",
     "country": "Singapore",
     "continent": "Asia",
@@ -8879,6 +9370,7 @@ module.exports=[
   {
     "key": "Atherina boyeri",
     "value": 1,
+    "alphaCode": "ATB",
     "taxonomy": "Marine fishes",
     "country": "Spain",
     "continent": "Europe",
@@ -8887,6 +9379,7 @@ module.exports=[
   {
     "key": "Mycteroperca bonaci",
     "value": 1,
+    "alphaCode": "MAB",
     "taxonomy": "Marine fishes",
     "country": "Singapore",
     "continent": "Asia",
@@ -8895,6 +9388,7 @@ module.exports=[
   {
     "key": "Centropristis striata",
     "value": 1,
+    "alphaCode": "BSB",
     "taxonomy": "Marine fishes",
     "country": "United States of America",
     "continent": "Americas",
@@ -8903,6 +9397,7 @@ module.exports=[
   {
     "key": "Cichlasoma maculicauda",
     "value": 1,
+    "alphaCode": "CHK",
     "taxonomy": "Freshwater fishes",
     "country": "Guatemala",
     "continent": "Americas",
@@ -8911,6 +9406,7 @@ module.exports=[
   {
     "key": "Callinectes sapidus",
     "value": 1,
+    "alphaCode": "CRB",
     "taxonomy": "Crustaceans",
     "country": "United States of America",
     "continent": "Americas",
@@ -8919,6 +9415,7 @@ module.exports=[
   {
     "key": "Pomatomus saltatrix",
     "value": 1,
+    "alphaCode": "BLU",
     "taxonomy": "Marine fishes",
     "country": "Tunisia",
     "continent": "Africa",
@@ -8927,6 +9424,7 @@ module.exports=[
   {
     "key": "Valamugil seheli",
     "value": 1,
+    "alphaCode": "VMH",
     "taxonomy": "Marine fishes",
     "country": "Saudi Arabia",
     "continent": "Asia",
@@ -8935,6 +9433,7 @@ module.exports=[
   {
     "key": "Scophthalmus rhombus",
     "value": 1,
+    "alphaCode": "BLL",
     "taxonomy": "Marine fishes",
     "country": "Portugal",
     "continent": "Europe",
@@ -8943,6 +9442,7 @@ module.exports=[
   {
     "key": "Sciaena umbra",
     "value": 1,
+    "alphaCode": "CBM",
     "taxonomy": "Marine fishes",
     "country": "Spain",
     "continent": "Europe",
@@ -8951,6 +9451,7 @@ module.exports=[
   {
     "key": "Callinectes spp",
     "value": 1,
+    "alphaCode": "CAL",
     "taxonomy": "Crustaceans",
     "country": "Mexico",
     "continent": "Americas",
@@ -8959,6 +9460,7 @@ module.exports=[
   {
     "key": "Leuciscus spp",
     "value": 1,
+    "alphaCode": "LEW",
     "taxonomy": "Freshwater fishes",
     "country": "United Kingdom",
     "continent": "Europe",
@@ -8967,6 +9469,7 @@ module.exports=[
   {
     "key": "Oncorhynchus keta",
     "value": 1,
+    "alphaCode": "CHU",
     "taxonomy": "Diadromous fishes",
     "country": "Russian Federation",
     "continent": "Europe",
@@ -8975,6 +9478,7 @@ module.exports=[
   {
     "key": "Caulerpa racemosa",
     "value": 1,
+    "alphaCode": "KQR",
     "taxonomy": "Aquatic plants",
     "country": "Cook Islands",
     "continent": "Oceania",
@@ -8983,6 +9487,7 @@ module.exports=[
   {
     "key": "Cardiidae",
     "value": 1,
+    "alphaCode": "COZ",
     "taxonomy": "Molluscs",
     "country": "United States of America",
     "continent": "Americas",
@@ -8991,6 +9496,7 @@ module.exports=[
   {
     "key": "Caranx hippos",
     "value": 1,
+    "alphaCode": "CVJ",
     "taxonomy": "Marine fishes",
     "country": "Mexico",
     "continent": "Americas",
@@ -8999,6 +9505,7 @@ module.exports=[
   {
     "key": "Evynnis japonica",
     "value": 1,
+    "alphaCode": "ENJ",
     "taxonomy": "Marine fishes",
     "country": "Japan",
     "continent": "Asia",
@@ -9007,6 +9514,7 @@ module.exports=[
   {
     "key": "Muraenesox cinereus",
     "value": 1,
+    "alphaCode": "DPC",
     "taxonomy": "Marine fishes",
     "country": "Taiwan Province of China",
     "continent": "Asia",
@@ -9015,6 +9523,7 @@ module.exports=[
   {
     "key": "Chalcalburnus chalcoides",
     "value": 1,
+    "alphaCode": "NUC",
     "taxonomy": "Freshwater fishes",
     "country": "Bulgaria",
     "continent": "Europe",
@@ -9023,6 +9532,7 @@ module.exports=[
   {
     "key": "Donax spp",
     "value": 1,
+    "alphaCode": "DON",
     "taxonomy": "Molluscs",
     "country": "Spain",
     "continent": "Europe",
@@ -9031,6 +9541,7 @@ module.exports=[
   {
     "key": "Umbrina spp",
     "value": 1,
+    "alphaCode": "UBS",
     "taxonomy": "Marine fishes",
     "country": "R�union",
     "continent": "Africa",
@@ -9039,6 +9550,7 @@ module.exports=[
   {
     "key": "Sorubim lima",
     "value": 1,
+    "alphaCode": "SBM",
     "taxonomy": "Freshwater fishes",
     "country": "Colombia",
     "continent": "Americas",
@@ -9047,6 +9559,7 @@ module.exports=[
   {
     "key": "Palmaria palmata",
     "value": 1,
+    "alphaCode": "RHP",
     "taxonomy": "Aquatic plants",
     "country": "Ireland",
     "continent": "Europe",
@@ -9055,6 +9568,7 @@ module.exports=[
   {
     "key": "Metapenaeus macleayi",
     "value": 1,
+    "alphaCode": "MPM",
     "taxonomy": "Crustaceans",
     "country": "Australia",
     "continent": "Oceania",
@@ -9063,6 +9577,7 @@ module.exports=[
   {
     "key": "Rana ridibunda",
     "value": 1,
+    "alphaCode": "FGI",
     "taxonomy": "Miscellaneous aquatic animals",
     "country": "Bulgaria",
     "continent": "Europe",
@@ -9071,6 +9586,7 @@ module.exports=[
   {
     "key": "Concholepas concholepas",
     "value": 1,
+    "alphaCode": "SNE",
     "taxonomy": "Molluscs",
     "country": "Peru",
     "continent": "Americas",
@@ -9079,6 +9595,7 @@ module.exports=[
   {
     "key": "Cantherhines (=Navodon) spp",
     "value": 1,
+    "alphaCode": "FLF",
     "taxonomy": "Marine fishes",
     "country": "Japan",
     "continent": "Asia",
@@ -9087,6 +9604,7 @@ module.exports=[
   {
     "key": "Thenus orientalis",
     "value": 1,
+    "alphaCode": "THQ",
     "taxonomy": "Crustaceans",
     "country": "Philippines",
     "continent": "Asia",
@@ -9095,6 +9613,7 @@ module.exports=[
   {
     "key": "Abramis spp",
     "value": 1,
+    "alphaCode": "FBR",
     "taxonomy": "Freshwater fishes",
     "country": "Ukraine",
     "continent": "Europe",
@@ -9103,6 +9622,7 @@ module.exports=[
   {
     "key": "Aplodinotus grunniens",
     "value": 1,
+    "alphaCode": "AGR",
     "taxonomy": "Freshwater fishes",
     "country": "Mexico",
     "continent": "Americas",
@@ -9111,6 +9631,7 @@ module.exports=[
   {
     "key": "Portunus trituberculatus",
     "value": 1,
+    "alphaCode": "GAZ",
     "taxonomy": "Crustaceans",
     "country": "Japan",
     "continent": "Asia",
@@ -9119,6 +9640,7 @@ module.exports=[
   {
     "key": "Gelidium spp",
     "value": 1,
+    "alphaCode": "GEL",
     "taxonomy": "Aquatic plants",
     "country": "Korea, Dem. People's Rep",
     "continent": "Asia",
@@ -9127,6 +9649,7 @@ module.exports=[
   {
     "key": "Venerupis aurea",
     "value": 1,
+    "alphaCode": "VNA",
     "taxonomy": "Molluscs",
     "country": "Portugal",
     "continent": "Europe",
@@ -9135,6 +9658,7 @@ module.exports=[
   {
     "key": "Macquaria ambigua",
     "value": 1,
+    "alphaCode": "MCA",
     "taxonomy": "Freshwater fishes",
     "country": "Australia",
     "continent": "Oceania",
@@ -9143,6 +9667,7 @@ module.exports=[
   {
     "key": "Oncorhynchus aguabonita",
     "value": 1,
+    "alphaCode": "ONA",
     "taxonomy": "Diadromous fishes",
     "country": "Denmark",
     "continent": "Europe",
@@ -9151,6 +9676,7 @@ module.exports=[
   {
     "key": "Acanthopagrus berda",
     "value": 1,
+    "alphaCode": "MLB",
     "taxonomy": "Marine fishes",
     "country": "Kuwait",
     "continent": "Asia",
@@ -9159,6 +9685,7 @@ module.exports=[
   {
     "key": "Aequidens rivulatus",
     "value": 1,
+    "alphaCode": "AER",
     "taxonomy": "Freshwater fishes",
     "country": "Ecuador",
     "continent": "Americas",
@@ -9167,6 +9694,7 @@ module.exports=[
   {
     "key": "Chelonia mydas",
     "value": 1,
+    "alphaCode": "TUG",
     "taxonomy": "Miscellaneous aquatic animals",
     "country": "R�union",
     "continent": "Africa",
@@ -9175,6 +9703,7 @@ module.exports=[
   {
     "key": "Asparagopsis spp",
     "value": 1,
+    "alphaCode": "ASR",
     "taxonomy": "Aquatic plants",
     "country": "France",
     "continent": "Europe",
@@ -9183,6 +9712,7 @@ module.exports=[
   {
     "key": "Clarias fuscus",
     "value": 1,
+    "alphaCode": "CFS",
     "taxonomy": "Freshwater fishes",
     "country": "China, Hong Kong SAR",
     "continent": "Asia",
@@ -9191,6 +9721,7 @@ module.exports=[
   {
     "key": "Epinephelus akaara",
     "value": 1,
+    "alphaCode": "EPA",
     "taxonomy": "Marine fishes",
     "country": "China, Hong Kong SAR",
     "continent": "Asia",
@@ -9199,6 +9730,7 @@ module.exports=[
   {
     "key": "Turbo cornutus",
     "value": 1,
+    "alphaCode": "TOS",
     "taxonomy": "Molluscs",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -9207,6 +9739,7 @@ module.exports=[
   {
     "key": "Modiolus spp",
     "value": 1,
+    "alphaCode": "MOD",
     "taxonomy": "Molluscs",
     "country": "Thailand",
     "continent": "Asia",
@@ -9215,6 +9748,7 @@ module.exports=[
   {
     "key": "Trachurus spp",
     "value": 1,
+    "alphaCode": "JAX",
     "taxonomy": "Marine fishes",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -9223,6 +9757,7 @@ module.exports=[
   {
     "key": "Gelidium amansii",
     "value": 1,
+    "alphaCode": "GDY",
     "taxonomy": "Aquatic plants",
     "country": "China",
     "continent": "Asia",
@@ -9231,6 +9766,7 @@ module.exports=[
   {
     "key": "Rutilus frisii",
     "value": 1,
+    "alphaCode": "RFR",
     "taxonomy": "Freshwater fishes",
     "country": "Azerbaijan",
     "continent": "Asia",
@@ -9239,6 +9775,7 @@ module.exports=[
   {
     "key": "Mugil liza",
     "value": 1,
+    "alphaCode": "MUB",
     "taxonomy": "Marine fishes",
     "country": "Guyana",
     "continent": "Americas",
@@ -9247,6 +9784,7 @@ module.exports=[
   {
     "key": "Coryphaenoides subserrulatus",
     "value": 1,
+    "alphaCode": "MCS",
     "taxonomy": "Marine fishes",
     "country": "Argentina",
     "continent": "Americas",
@@ -9255,6 +9793,7 @@ module.exports=[
   {
     "key": "Scombridae",
     "value": 1,
+    "alphaCode": "MAX",
     "taxonomy": "Marine fishes",
     "country": "Spain",
     "continent": "Europe",
@@ -9263,6 +9802,7 @@ module.exports=[
   {
     "key": "Lutjanus malabaricus",
     "value": 1,
+    "alphaCode": "MAL",
     "taxonomy": "Marine fishes",
     "country": "Kuwait",
     "continent": "Asia",
@@ -9271,6 +9811,7 @@ module.exports=[
   {
     "key": "Carangoides malabaricus",
     "value": 1,
+    "alphaCode": "NGS",
     "taxonomy": "Marine fishes",
     "country": "Taiwan Province of China",
     "continent": "Asia",
@@ -9279,6 +9820,7 @@ module.exports=[
   {
     "key": "Siganus rivulatus",
     "value": 1,
+    "alphaCode": "SRI",
     "taxonomy": "Marine fishes",
     "country": "Cyprus",
     "continent": "Asia",
@@ -9287,6 +9829,7 @@ module.exports=[
   {
     "key": "Polyodon spathula",
     "value": 1,
+    "alphaCode": "PAM",
     "taxonomy": "Diadromous fishes",
     "country": "Romania",
     "continent": "Europe",
@@ -9295,6 +9838,7 @@ module.exports=[
   {
     "key": "Gerres spp",
     "value": 1,
+    "alphaCode": "MOJ",
     "taxonomy": "Marine fishes",
     "country": "Mexico",
     "continent": "Americas",
@@ -9303,6 +9847,7 @@ module.exports=[
   {
     "key": "Macrobrachium lar",
     "value": 1,
+    "alphaCode": "BKR",
     "taxonomy": "Crustaceans",
     "country": "Vanuatu",
     "continent": "Oceania",
@@ -9311,6 +9856,7 @@ module.exports=[
   {
     "key": "Clarias anguillaris",
     "value": 1,
+    "alphaCode": "CLN",
     "taxonomy": "Freshwater fishes",
     "country": "Burkina Faso",
     "continent": "Africa",
@@ -9319,6 +9865,7 @@ module.exports=[
   {
     "key": "Maccullochella peelii",
     "value": 1,
+    "alphaCode": "MCP",
     "taxonomy": "Freshwater fishes",
     "country": "Australia",
     "continent": "Oceania",
@@ -9327,6 +9874,7 @@ module.exports=[
   {
     "key": "Bagrus spp",
     "value": 1,
+    "alphaCode": "CAN",
     "taxonomy": "Freshwater fishes",
     "country": "Nigeria",
     "continent": "Africa",
@@ -9335,6 +9883,7 @@ module.exports=[
   {
     "key": "Labeo victorianus",
     "value": 1,
+    "alphaCode": "LOC",
     "taxonomy": "Freshwater fishes",
     "country": "Uganda",
     "continent": "Africa",
@@ -9343,6 +9892,7 @@ module.exports=[
   {
     "key": "Penaeus setiferus",
     "value": 1,
+    "alphaCode": "PST",
     "taxonomy": "Crustaceans",
     "country": "United States of America",
     "continent": "Americas",
@@ -9351,6 +9901,7 @@ module.exports=[
   {
     "key": "Pleurogrammus azonus",
     "value": 1,
+    "alphaCode": "ATK",
     "taxonomy": "Marine fishes",
     "country": "Korea, Republic of",
     "continent": "Asia",
@@ -9359,6 +9910,7 @@ module.exports=[
   {
     "key": "Ostreola conchaphila",
     "value": 1,
+    "alphaCode": "OYH",
     "taxonomy": "Molluscs",
     "country": "United States of America",
     "continent": "Americas",
@@ -9367,6 +9919,7 @@ module.exports=[
   {
     "key": "Argopecten ventricosus",
     "value": 1,
+    "alphaCode": "SCH",
     "taxonomy": "Molluscs",
     "country": "Mexico",
     "continent": "Americas",
@@ -9375,6 +9928,7 @@ module.exports=[
   {
     "key": "Tresus nuttallii",
     "value": 1,
+    "alphaCode": "TQU",
     "taxonomy": "Molluscs",
     "country": "United States of America",
     "continent": "Americas",
@@ -9383,6 +9937,7 @@ module.exports=[
   {
     "key": "Oncorhynchus spp",
     "value": 1,
+    "alphaCode": "ORC",
     "taxonomy": "Diadromous fishes",
     "country": "Spain",
     "continent": "Europe",
@@ -9391,6 +9946,7 @@ module.exports=[
   {
     "key": "Lutjanus goldiei",
     "value": 1,
+    "alphaCode": "LVG",
     "taxonomy": "Marine fishes",
     "country": "Singapore",
     "continent": "Asia",
@@ -9399,6 +9955,7 @@ module.exports=[
   {
     "key": "Coregonus peled",
     "value": 1,
+    "alphaCode": "CIJ",
     "taxonomy": "Diadromous fishes",
     "country": "Lithuania",
     "continent": "Europe",
@@ -9407,6 +9964,7 @@ module.exports=[
   {
     "key": "Scrobicularia plana",
     "value": 1,
+    "alphaCode": "OBN",
     "taxonomy": "Molluscs",
     "country": "Portugal",
     "continent": "Europe",
@@ -9415,6 +9973,7 @@ module.exports=[
   {
     "key": "Percoidei",
     "value": 1,
+    "alphaCode": "PRC",
     "taxonomy": "Marine fishes",
     "country": "Philippines",
     "continent": "Asia",
@@ -9423,6 +9982,7 @@ module.exports=[
   {
     "key": "Littorina spp",
     "value": 1,
+    "alphaCode": "PER",
     "taxonomy": "Molluscs",
     "country": "France",
     "continent": "Europe",
@@ -9431,6 +9991,7 @@ module.exports=[
   {
     "key": "Pollachius pollachius",
     "value": 1,
+    "alphaCode": "POL",
     "taxonomy": "Marine fishes",
     "country": "Spain",
     "continent": "Europe",
@@ -9439,6 +10000,7 @@ module.exports=[
   {
     "key": "Pyura stolonifera",
     "value": 1,
+    "alphaCode": "SSR",
     "taxonomy": "Miscellaneous aquatic animals",
     "country": "South Africa",
     "continent": "Africa",
@@ -9447,6 +10009,7 @@ module.exports=[
   {
     "key": "Penaeus penicillatus",
     "value": 1,
+    "alphaCode": "REP",
     "taxonomy": "Crustaceans",
     "country": "Taiwan Province of China",
     "continent": "Asia",
@@ -9455,6 +10018,7 @@ module.exports=[
   {
     "key": "Barbus altianalis",
     "value": 1,
+    "alphaCode": "BBU",
     "taxonomy": "Freshwater fishes",
     "country": "Uganda",
     "continent": "Africa",
@@ -9463,6 +10027,7 @@ module.exports=[
   {
     "key": "Paphia gallus",
     "value": 1,
+    "alphaCode": "FAG",
     "taxonomy": "Molluscs",
     "country": "India",
     "continent": "Asia",
@@ -9471,6 +10036,7 @@ module.exports=[
   {
     "key": "Scatophagus spp",
     "value": 1,
+    "alphaCode": "SCT",
     "taxonomy": "Marine fishes",
     "country": "Philippines",
     "continent": "Asia",
@@ -9479,6 +10045,7 @@ module.exports=[
   {
     "key": "Anguilla australis",
     "value": 1,
+    "alphaCode": "ELU",
     "taxonomy": "Diadromous fishes",
     "country": "Australia",
     "continent": "Oceania",
@@ -9487,6 +10054,7 @@ module.exports=[
   {
     "key": "Pelecus cultratus",
     "value": 1,
+    "alphaCode": "FSC",
     "taxonomy": "Freshwater fishes",
     "country": "Ukraine",
     "continent": "Europe",
@@ -9495,6 +10063,7 @@ module.exports=[
   {
     "key": "Mactra glabrata",
     "value": 1,
+    "alphaCode": "MAG",
     "taxonomy": "Molluscs",
     "country": "South Africa",
     "continent": "Africa",
@@ -9503,6 +10072,7 @@ module.exports=[
   {
     "key": "Mugil soiuy",
     "value": 1,
+    "alphaCode": "MYZ",
     "taxonomy": "Marine fishes",
     "country": "Ukraine",
     "continent": "Europe",
@@ -9511,6 +10081,7 @@ module.exports=[
   {
     "key": "Pecten fumatus",
     "value": 1,
+    "alphaCode": "SSC",
     "taxonomy": "Molluscs",
     "country": "Australia",
     "continent": "Oceania",
@@ -9519,6 +10090,7 @@ module.exports=[
   {
     "key": "Penaeus schmitti",
     "value": 1,
+    "alphaCode": "PNT",
     "taxonomy": "Crustaceans",
     "country": "Cuba",
     "continent": "Americas",
@@ -9527,6 +10099,7 @@ module.exports=[
   {
     "key": "Maja squinado",
     "value": 1,
+    "alphaCode": "SCR",
     "taxonomy": "Crustaceans",
     "country": "Spain",
     "continent": "Europe",
@@ -9535,6 +10108,7 @@ module.exports=[
   {
     "key": "Palinuridae",
     "value": 1,
+    "alphaCode": "VLO",
     "taxonomy": "Crustaceans",
     "country": "Japan",
     "continent": "Asia",
@@ -9543,6 +10117,7 @@ module.exports=[
   {
     "key": "Anarhichas minor",
     "value": 1,
+    "alphaCode": "CAS",
     "taxonomy": "Marine fishes",
     "country": "Iceland",
     "continent": "Europe",
@@ -9551,6 +10126,7 @@ module.exports=[
   {
     "key": "Liza vaigiensis",
     "value": 1,
+    "alphaCode": "LZV",
     "taxonomy": "Marine fishes",
     "country": "Thailand",
     "continent": "Asia",
@@ -9559,6 +10135,7 @@ module.exports=[
   {
     "key": "Paracentrotus lividus",
     "value": 1,
+    "alphaCode": "URM",
     "taxonomy": "Miscellaneous aquatic animals",
     "country": "Ireland",
     "continent": "Europe",
@@ -9567,6 +10144,7 @@ module.exports=[
   {
     "key": "Siganus javus",
     "value": 1,
+    "alphaCode": "IGV",
     "taxonomy": "Marine fishes",
     "country": "Singapore",
     "continent": "Asia",
@@ -9575,6 +10153,7 @@ module.exports=[
   {
     "key": "Chamelea gallina",
     "value": 1,
+    "alphaCode": "SVE",
     "taxonomy": "Molluscs",
     "country": "Spain",
     "continent": "Europe",
@@ -9583,6 +10162,7 @@ module.exports=[
   {
     "key": "Strombus spp",
     "value": 1,
+    "alphaCode": "CON",
     "taxonomy": "Molluscs",
     "country": "Netherlands Antilles",
     "continent": "Americas",
@@ -9591,6 +10171,7 @@ module.exports=[
   {
     "key": "Hypostomus plecostomus",
     "value": 1,
+    "alphaCode": "HSL",
     "taxonomy": "Freshwater fishes",
     "country": "Brazil",
     "continent": "Americas",
@@ -9599,6 +10180,7 @@ module.exports=[
   {
     "key": "Portunidae",
     "value": 1,
+    "alphaCode": "SWM",
     "taxonomy": "Crustaceans",
     "country": "China",
     "continent": "Asia",
@@ -9607,6 +10189,7 @@ module.exports=[
   {
     "key": "Saccostrea commercialis",
     "value": 1,
+    "alphaCode": "OYS",
     "taxonomy": "Molluscs",
     "country": "Australia",
     "continent": "Oceania",
@@ -9615,6 +10198,7 @@ module.exports=[
   {
     "key": "Laminaria digitata",
     "value": 1,
+    "alphaCode": "LQD",
     "taxonomy": "Aquatic plants",
     "country": "Ireland",
     "continent": "Europe",
@@ -9623,6 +10207,7 @@ module.exports=[
   {
     "key": "Megalops atlanticus",
     "value": 1,
+    "alphaCode": "TAR",
     "taxonomy": "Marine fishes",
     "country": "Colombia",
     "continent": "Americas",
@@ -9631,6 +10216,7 @@ module.exports=[
   {
     "key": "Liza ramada",
     "value": 1,
+    "alphaCode": "MGC",
     "taxonomy": "Marine fishes",
     "country": "Tunisia",
     "continent": "Africa",
@@ -9639,6 +10225,7 @@ module.exports=[
   {
     "key": "Gasterosteus aculeatus",
     "value": 1,
+    "alphaCode": "GTA",
     "taxonomy": "Diadromous fishes",
     "country": "Russian Federation",
     "continent": "Europe",
@@ -9647,6 +10234,7 @@ module.exports=[
   {
     "key": "Hoplias malabaricus",
     "value": 1,
+    "alphaCode": "HWU",
     "taxonomy": "Freshwater fishes",
     "country": "Brazil",
     "continent": "Americas",
@@ -9655,6 +10243,7 @@ module.exports=[
   {
     "key": "Lethrinus miniatus",
     "value": 1,
+    "alphaCode": "LHI",
     "taxonomy": "Marine fishes",
     "country": "Taiwan Province of China",
     "continent": "Asia",
@@ -9663,6 +10252,7 @@ module.exports=[
   {
     "key": "Lutjanus bohar",
     "value": 1,
+    "alphaCode": "LJB",
     "taxonomy": "Marine fishes",
     "country": "Taiwan Province of China",
     "continent": "Asia",
@@ -9671,6 +10261,7 @@ module.exports=[
   {
     "key": "Rohtee ogilbii",
     "value": 1,
+    "alphaCode": "ROG",
     "taxonomy": "Freshwater fishes",
     "country": "Myanmar",
     "continent": "Asia",
@@ -9679,6 +10270,7 @@ module.exports=[
   {
     "key": "Astronotus spp",
     "value": 1,
+    "alphaCode": "AST",
     "taxonomy": "Freshwater fishes",
     "country": "Peru",
     "continent": "Americas",
@@ -9687,6 +10279,7 @@ module.exports=[
   {
     "key": "Vimba vimba",
     "value": 1,
+    "alphaCode": "VIV",
     "taxonomy": "Freshwater fishes",
     "country": "Bulgaria",
     "continent": "Europe",
@@ -9695,6 +10288,7 @@ module.exports=[
   {
     "key": "Undaria spp",
     "value": 1,
+    "alphaCode": "UDS",
     "taxonomy": "Aquatic plants",
     "country": "France",
     "continent": "Europe",
@@ -9703,6 +10297,7 @@ module.exports=[
   {
     "key": "Blicca bjoerkna",
     "value": 1,
+    "alphaCode": "ABK",
     "taxonomy": "Freshwater fishes",
     "country": "Ukraine",
     "continent": "Europe",
@@ -9711,6 +10306,7 @@ module.exports=[
   {
     "key": "Pomoxis annularis",
     "value": 1,
+    "alphaCode": "PXR",
     "taxonomy": "Freshwater fishes",
     "country": "Mexico",
     "continent": "Americas",
@@ -9719,6 +10315,7 @@ module.exports=[
   {
     "key": "Acipenser transmontanus",
     "value": 1,
+    "alphaCode": "APN",
     "taxonomy": "Diadromous fishes",
     "country": "Italy",
     "continent": "Europe",
@@ -9727,6 +10324,7 @@ module.exports=[
   {
     "key": "Micropogonias furnieri",
     "value": 1,
+    "alphaCode": "CKM",
     "taxonomy": "Marine fishes",
     "country": "Guyana",
     "continent": "Americas",
@@ -9735,6 +10333,7 @@ module.exports=[
   {
     "key": "Dentex tumifrons",
     "value": 1,
+    "alphaCode": "DTT",
     "taxonomy": "Marine fishes",
     "country": "Taiwan Province of China",
     "continent": "Asia",
@@ -9743,6 +10342,7 @@ module.exports=[
   {
     "key": "Serranochromis robustus",
     "value": 1,
+    "alphaCode": "YBB",
     "taxonomy": "Freshwater fishes",
     "country": "Eswatini",
     "continent": "Africa",

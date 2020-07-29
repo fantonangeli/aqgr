@@ -68,6 +68,7 @@ import { NgxScrollTopModule } from 'ngx-scrolltop';
 import { SpcecieChart01Component } from './components/charts/spcecie-chart01/spcecie-chart01.component';
 import { SpecieChart02Component } from './components/charts/specie-chart02/specie-chart02.component';
 import { SpecieChart03Component } from './components/charts/specie-chart03/specie-chart03.component';
+import { SpecieSelectionComponent } from './pages/specie-selection/specie-selection.component';
 
 @NgModule({
   declarations: [
@@ -126,6 +127,7 @@ import { SpecieChart03Component } from './components/charts/specie-chart03/speci
     SpcecieChart01Component,
     SpecieChart02Component,
     SpecieChart03Component,
+    SpecieSelectionComponent,
   ],
   imports: [
     BrowserModule,
@@ -136,7 +138,7 @@ import { SpecieChart03Component } from './components/charts/specie-chart03/speci
       components: [
       ]
     }),
-    NgSelectModule, 
+    NgSelectModule,
     FormsModule,
     SearchModule,
     BrowserAnimationsModule,
