@@ -28,7 +28,7 @@ import { CommonChart02Component } from './components/charts/common-chart02/commo
 import { CountriesChart03Component } from './components/charts/countries-chart03/countries-chart03.component';
 import { FiltersComponent } from './components/home/filters/filters.component';
 // import { TreeTableComponent } from './components/tree-table/tree-table.component';
-import { TreeTableComponent } from 'aqgr-lib';
+import { AqgrLibModule } from 'aqgr-lib';
 import { UseComponent } from './pages/use/use.component';
 import { WorldComponent } from './pages/world/world.component';
 import { CommonChart05Component } from './components/charts/common-chart05/common-chart05.component';
@@ -88,7 +88,7 @@ import { SpecieSelectionComponent } from './pages/specie-selection/specie-select
     CommonChart13Component,
     CountriesChart03Component,
     FiltersComponent,
-    TreeTableComponent,
+    // TreeTableComponent,
     UseComponent,
     WorldComponent,
     CommonChart05Component,
@@ -145,6 +145,7 @@ import { SpecieSelectionComponent } from './pages/specie-selection/specie-select
     BrowserAnimationsModule,
     CollapseModule.forRoot(),
     NgxScrollTopModule,
+    AqgrLibModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
