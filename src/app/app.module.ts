@@ -7,7 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import {SearchModule} from './components/search/search.module';
 
-//ngx-bootstrap
+// ngx-bootstrap
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 
@@ -27,7 +27,8 @@ import { StackedBars01Component } from './components/charts/stacked-bars01/stack
 import { CommonChart02Component } from './components/charts/common-chart02/common-chart02.component';
 import { CountriesChart03Component } from './components/charts/countries-chart03/countries-chart03.component';
 import { FiltersComponent } from './components/home/filters/filters.component';
-import { TreeTableComponent } from './components/tree-table/tree-table.component';
+// import { TreeTableComponent } from './components/tree-table/tree-table.component';
+import { TreeTableComponent } from 'aqgr-lib';
 import { UseComponent } from './pages/use/use.component';
 import { WorldComponent } from './pages/world/world.component';
 import { CommonChart05Component } from './components/charts/common-chart05/common-chart05.component';
