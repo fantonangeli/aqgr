@@ -123,6 +123,8 @@ to represent the company, product, or service to which they refer.**
 @ng-select/ng-select
 MIT
 
+aqgr-lib
+
 bootstrap
 MIT
 The MIT License (MIT)
