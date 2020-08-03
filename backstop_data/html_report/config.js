@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Homepage_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200728-151327/backstop_default_Homepage_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200803-154259/backstop_default_Homepage_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Homepage_0_document_0_tablet.png",
         "label": "Homepage",
@@ -28,7 +28,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_World_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200728-151327/backstop_default_World_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200803-154259/backstop_default_World_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_World_0_document_0_tablet.png",
         "label": "World",
@@ -52,7 +52,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Country_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200728-151327/backstop_default_Country_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200803-154259/backstop_default_Country_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Country_0_document_0_tablet.png",
         "label": "Country",
@@ -63,21 +63,22 @@ report({
         "expect": 0,
         "viewportLabel": "tablet",
         "diff": {
-          "isSameDimensions": true,
+          "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": 0
+            "height": -3165
           },
-          "misMatchPercentage": "0.04",
-          "analysisTime": 200
-        }
+          "misMatchPercentage": "11.61",
+          "analysisTime": 488
+        },
+        "diffImage": "../bitmaps_test/20200803-154259/failed_diff_backstop_default_Country_0_document_0_tablet.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Specie_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200728-151327/backstop_default_Specie_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200803-154259/backstop_default_Specie_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Specie_0_document_0_tablet.png",
         "label": "Specie",
@@ -91,19 +92,19 @@ report({
           "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": -43
+            "height": -1899
           },
-          "misMatchPercentage": "12.02",
-          "analysisTime": 224
+          "misMatchPercentage": "15.17",
+          "analysisTime": 420
         },
-        "diffImage": "../bitmaps_test/20200728-151327/failed_diff_backstop_default_Specie_0_document_0_tablet.png"
+        "diffImage": "../bitmaps_test/20200803-154259/failed_diff_backstop_default_Specie_0_document_0_tablet.png"
       },
       "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Use_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200728-151327/backstop_default_Use_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200803-154259/backstop_default_Use_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Use_0_document_0_tablet.png",
         "label": "Use",
@@ -114,20 +115,22 @@ report({
         "expect": 0,
         "viewportLabel": "tablet",
         "diff": {
-          "isSameDimensions": true,
+          "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": 0
+            "height": -2743
           },
-          "misMatchPercentage": "0.00"
-        }
+          "misMatchPercentage": "11.81",
+          "analysisTime": 391
+        },
+        "diffImage": "../bitmaps_test/20200803-154259/failed_diff_backstop_default_Use_0_document_0_tablet.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Policies_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200728-151327/backstop_default_Policies_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200803-154259/backstop_default_Policies_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Policies_0_document_0_tablet.png",
         "label": "Policies",
@@ -138,15 +141,17 @@ report({
         "expect": 0,
         "viewportLabel": "tablet",
         "diff": {
-          "isSameDimensions": true,
+          "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": 0
+            "height": -1266
           },
-          "misMatchPercentage": "0.00"
-        }
+          "misMatchPercentage": "11.12",
+          "analysisTime": 266
+        },
+        "diffImage": "../bitmaps_test/20200803-154259/failed_diff_backstop_default_Policies_0_document_0_tablet.png"
       },
-      "status": "pass"
+      "status": "fail"
     }
   ],
   "id": "backstop_default"
