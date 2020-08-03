@@ -62,11 +62,11 @@
 
     <app-accordion01 [(isOpen)]="accordionsProps[1].isOpen">
         <div header>Proportions of Secondary farmed types of <i>{{specieName}}</i></div>
-        <div body> <app-common-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[1].isOpen" exportTitle="Proportions of Secondary farmed types of <i>{{specieName}}</i>"></app-common-chart01> </div>
+        <div body> <app-common-chart02 [filterValues]="filterValues" *ngIf="accordionsProps[1].isOpen" exportTitle="Proportions of Secondary farmed types of <i>{{specieName}}</i>"></app-common-chart02> </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[2].isOpen">
-        <div header>Production of Primary FTs of <i>{{specieName}}</i></div>
+        <div header>Production of Primary farmed types of <i>{{specieName}}</i></div>
         <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[2].isOpen" exportTitle="Production of primary FTs of <i>{{specieName}}</i>"></app-common-chart06> </div>
     </app-accordion01>
 
