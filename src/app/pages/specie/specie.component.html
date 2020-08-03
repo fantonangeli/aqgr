@@ -1,7 +1,7 @@
 <div class="container mw-100" *ngIf="filterValues.length">
     <div class="row">
         <div class="col-10">
-            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Species Fact Sheet <i>{{specieName}}</i>:</h1></div></div>
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Species Fact Sheet: <i>{{specieName}}</i></h1></div></div>
         </div>
         <div class="col-2 pl-0 text-right">
             <a [routerLink]="['/specie']" routerLinkActive="router-link-active">Select another specie</a>
@@ -9,6 +9,12 @@
     </div>
 
     <div class="row">
+        <div class="col-12">
+            Development of farmed types.
+        </div>
+    </div>
+
+    <div class="row pt-3">
         <div class="col-12">
             This fact sheet presents a summary of the current status of conservation, sustainable use and development of <i>{{specieName}}</i> based on the data entered into the Registry. 
         </div>
@@ -21,7 +27,7 @@
         </div>
 
         <div class="col-5">
-                <div class="bg-white border border-dark float-right mb-3 mr-0 p-3 rounded shadow">
+                <div class="bg-white border border-dark float-right font-weight-bold mb-3 mr-0 px-3 py-4 rounded shadow">
                     Global aquaculture production = {{totalProduction}} tonnes
                 </div>
         </div>
