@@ -148,7 +148,6 @@ import { environment } from '../environments/environment';
     CollapseModule.forRoot(),
     NgxScrollTopModule,
     AqgrLibModule,
-      // LoggerService
   ],
   providers: [
         {provide: 'LoggingEnabled', useValue: environment.logging}
