@@ -71,8 +71,13 @@
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[3].isOpen">
-        <div header>Proportions of countries where <i>{{specieName}}</i> is native and those where it is non native</div>
-        <div body> <app-common-chart05 [filterValues]="filterValues" *ngIf="accordionsProps[3].isOpen" exportTitle="Proportions of countries where <i>{{specieName}}</i> is native and those where it is non native"></app-common-chart05> </div>
+        <div header>Proportions of Countries where <i>{{specieName}}</i> is native and those where it is non native</div>
+        <div body> 
+            <div class="mb-3">
+                Conservation and Sustainable Use.
+            </div>
+            <app-common-chart05 [filterValues]="filterValues" *ngIf="accordionsProps[3].isOpen" exportTitle="Proportions of countries where <i>{{specieName}}</i> is native and those where it is non native"></app-common-chart05> 
+        </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[4].isOpen">
