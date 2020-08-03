@@ -4,7 +4,7 @@ import * as Highcharts from 'highcharts';
 import {SpecieInfoService} from '../../services/specie/specie-info.service';
 import { SpeciesListComponent } from '../../components/country/species-list/species-list.component';
 import { Filter} from '../../components/search/namespace';
-import {LoggerService} from '../../services/logger.service';
+import { LoggerService } from 'aqgr-lib';
 import { environment } from '../../../environments/environment';
 import {BasePage01Component} from '../base-page01/base-page01.component';
 import {UtilsService} from '../../services/utils.service';

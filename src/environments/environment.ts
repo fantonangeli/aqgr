@@ -15,7 +15,7 @@ export const environment = {
     lastTimeseriesYear:"2017",
 
     /**
-     * default date format used to format dates 
+     * default date format used to format dates
      */
     defaultDateFormat:"dd/MM/yyyy",
 

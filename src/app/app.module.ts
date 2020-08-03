@@ -29,6 +29,7 @@ import { CountriesChart03Component } from './components/charts/countries-chart03
 import { FiltersComponent } from './components/home/filters/filters.component';
 // import { TreeTableComponent } from './components/tree-table/tree-table.component';
 import { AqgrLibModule } from 'aqgr-lib';
+// import { LoggerService } from 'aqgr-lib';
 import { UseComponent } from './pages/use/use.component';
 import { WorldComponent } from './pages/world/world.component';
 import { CommonChart05Component } from './components/charts/common-chart05/common-chart05.component';
@@ -70,6 +71,7 @@ import { SpcecieChart01Component } from './components/charts/spcecie-chart01/spc
 import { SpecieChart02Component } from './components/charts/specie-chart02/specie-chart02.component';
 import { SpecieChart03Component } from './components/charts/specie-chart03/specie-chart03.component';
 import { SpecieSelectionComponent } from './pages/specie-selection/specie-selection.component';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -146,8 +148,11 @@ import { SpecieSelectionComponent } from './pages/specie-selection/specie-select
     CollapseModule.forRoot(),
     NgxScrollTopModule,
     AqgrLibModule,
+      // LoggerService
   ],
-  providers: [],
+  providers: [
+        {provide: 'LoggingEnabled', useValue: environment.logging}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

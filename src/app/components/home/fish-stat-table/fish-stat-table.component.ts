@@ -4,7 +4,7 @@ import {FishStatCultSpecCountriesService} from '../../../services/home/fish-stat
 import { Filter} from '../../search/namespace';
 import {UtilsService} from '../../../services/utils.service'
 import {SearchServiceParams} from '../../../namespace';
-import {LoggerService} from '../../../services/logger.service';
+import { LoggerService } from 'aqgr-lib';
 import { environment } from '../../../../environments/environment';
 import { faChartPie } from '@fortawesome/free-solid-svg-icons';
 

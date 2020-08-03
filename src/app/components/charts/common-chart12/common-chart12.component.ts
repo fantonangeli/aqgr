@@ -4,7 +4,7 @@ import {CommonChart12Service} from '../../../services/common/common-chart12.serv
 import {StackedBars01Component} from '../stacked-bars01/stacked-bars01.component';
 import { Filter} from '../../../components/search/namespace';
 import {SearchServiceParams} from '../../../namespace';
-import {LoggerService} from '../../../services/logger.service';
+import { LoggerService } from 'aqgr-lib';
 import {BaseChart01Component} from '../base-chart01/base-chart01.component';
 import {UtilsService} from '../../../services/utils.service'
 

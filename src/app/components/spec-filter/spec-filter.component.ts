@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import {SpeciesService} from '../../services/species.service';
-import {LoggerService} from '../../services/logger.service';
+import { LoggerService } from 'aqgr-lib';
 
 @Component({
   selector: 'app-spec-filter',

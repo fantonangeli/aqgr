@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { shareReplay, map } from 'rxjs/operators';
 import { environment } from '../../../environments/environment';
-import { LoggerService } from '../logger.service';
+import { LoggerService } from 'aqgr-lib';
 import {SearchServiceParams} from '../../namespace';
 import {UtilsService} from '../utils.service';
 import {BaseService} from '../base.service';
