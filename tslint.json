@@ -85,6 +85,12 @@
     "use-lifecycle-interface": true,
     "use-pipe-transform-interface": true,
     "whitespace": false,
+    "one-line": [
+        false, 
+        "check-catch", 
+        "check-finally", 
+        "check-else"
+    ],
     "max-line-length": false
   },
   "rulesDirectory": [

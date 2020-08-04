@@ -73,6 +73,11 @@ export class BasePage01Component implements OnInit {
     }
 
 
+    /**
+     * function called on pills click
+     *
+     * @param filterParam the filter to remove
+     */
     removeFilter(filterParam: Filter) {
         this.filterValues=this.removeFilterByKeyVal(this.filterValues, filterParam.key, filterParam.value);
 

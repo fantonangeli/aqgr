@@ -19,6 +19,7 @@ export class SpecieComponent extends BasePage01Component implements OnInit {
     initialAccordionsIsOpen:boolean=environment.defaultAccordionIsOpenValue;
     alphaCode:string;
     filterValues: Filter[]=[];
+    initialFilterValues: Filter[]=[];
 
     specieName:string="";
     lastModifiedDate:string="";
@@ -47,7 +48,8 @@ export class SpecieComponent extends BasePage01Component implements OnInit {
                 filter.key="species";
                 filter.value=this.specieName;
 
-                this.filterValues.push(filter);
+                this.filterValues=[filter];
+                this.initialFilterValues=[filter];
             },
             (error)=>{
                 this._logger.error("Network error: ", error);
@@ -55,6 +57,34 @@ export class SpecieComponent extends BasePage01Component implements OnInit {
         );
 
     }
+
+    /**
+     * action on facet click
+     *
+     * @param {object} type the type
+     */
+    searchAggregation(event: Filter[]) {
+
+        if (!event.length) {
+            event=this.initialFilterValues;
+        }
+
+        super.searchAggregation(event);
+    }
+
+    /**
+     * function called on pills click
+     *
+     * @param filterParam the filter to remove
+     */
+    removeFilter(filterParam: Filter) {
+        if(filterParam.key==="species") {
+            return;
+        }
+
+        super.removeFilter(filterParam);
+    }
+
 
     ngOnInit(){
         this.alphaCode = this.route.snapshot.paramMap.get("alphaCode");
