@@ -123,8 +123,8 @@
     </app-accordion01>
 
     <app-accordion01 *ngIf="accordionsProps[5].isVisible" [(isOpen)]="accordionsProps[5].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-        <div header>Risk status of species reported as cultured by countries</div>
-        <div body> <app-common-chart09 [filterValues]="filterValues" *ngIf="accordionsProps[5].isOpen" exportTitle="Risk status of species reported as cultured by countries"></app-common-chart09> </div>
+        <div header>Risk status of <i>{{specieName}}</i> as reported by Countries</div>
+        <div body> <app-common-chart09 [filterValues]="filterValues" *ngIf="accordionsProps[5].isOpen" exportTitle="Risk status of <i>{{specieName}}</i> as reported by Countries"></app-common-chart09> </div>
     </app-accordion01>
 
     <app-accordion01 *ngIf="accordionsProps[6].isVisible" [(isOpen)]="accordionsProps[6].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
