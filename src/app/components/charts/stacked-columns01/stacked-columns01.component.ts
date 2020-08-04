@@ -69,7 +69,7 @@ export class StackedColumns01Component extends BaseChartRender01Component {
       `<b>${this.series.name}: ${this.y}</b><br />` +
       shortData.map((e) => {
         return `<br /><span class='bullet'>•</span> ${e.key}: ${e.value}`;
-      });
+      }).join("");
 
     if (fullDataLength > 10) {
         ttext += "<br/>...";
