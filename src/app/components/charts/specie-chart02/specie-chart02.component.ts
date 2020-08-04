@@ -15,6 +15,7 @@ import { ChartDataFormat } from "../../../namespace";
       [height]="300"
       [exportTitle]="exportTitle"
       [showChildrenInTooltip]="true"
+      yAxisTitle="Number of <i>in vitro</i> gene banks"
     ></app-stacked-columns01>
   `,
   styles: [],

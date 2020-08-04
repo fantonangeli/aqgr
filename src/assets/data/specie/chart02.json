@@ -1,6 +1,6 @@
 [
   {
-    "key": "gametes",
+    "key": "Gametes",
     "values": [
       {
         "key": "Europe",
@@ -48,7 +48,7 @@
     ]
   },
   {
-    "key": "embryos",
+    "key": "Embryos",
     "values": [
       {
         "key": "Europe",
@@ -81,7 +81,7 @@
     ]
   },
   {
-    "key": "tissues",
+    "key": "Tissues",
     "values": [
       {
         "key": "Europe",
@@ -145,7 +145,7 @@
     ]
   },
   {
-    "key": "other",
+    "key": "Other",
     "values": [
       {
         "key": "Europe",
