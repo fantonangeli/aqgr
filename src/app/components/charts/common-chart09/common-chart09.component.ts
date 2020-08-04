@@ -11,7 +11,7 @@ import { ChartDataFormat } from "../../../namespace";
   template: `
     <app-stacked-columns01
       [series]="series"
-      yAxisTitle="Number of species recorded"
+      yAxisTitle="Number of countries recorded"
       [pointFormatter]="pointFormatter"
       [legendEnabled]="false"
       *ngIf="series.length"
@@ -38,10 +38,10 @@ export class CommonChart09Component extends BaseChart01Component implements OnCh
         const unit = "species";
 
         if (this.series.name === "No risk") {
-            seriesName = "No risk - no risk have been identified for this species";
+            seriesName = "No risk - no risk has been identified for this species";
         } else if (this.series.name === "Potential risk") {
             seriesName =
-                "Potential risk - risks have been identified but no impacts recorded";
+                "Potential risk - risks has been identified but no impacts recorded";
         } else if (this.series.name === "Risk") {
             seriesName = "Risk - there are recorded impacts of this species";
         }
