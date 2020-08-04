@@ -92,4 +92,7 @@ export class SpecieComponent extends BasePage01Component implements OnInit {
         this.fetchInfo(this.alphaCode);
     }
 
+    onFilterValuesChange() {
+        this.accordionsProps[3].isVisible=this.accordionsProps[4].isVisible=this.accordionsProps[5].isVisible=this.accordionsProps[6].isVisible=this.accordionsProps[7].isVisible=this.accordionsProps[8].isVisible=(!this.selectedContinent && !this.selectedRegion && !this.selectedCountry);
+    }
 }
