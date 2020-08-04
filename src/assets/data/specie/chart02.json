@@ -26,7 +26,7 @@
         ]
       },
       {
-        "key": "Asia Pacific",
+        "key": "Asia",
         "value": 23,
         "data":[
             {"key":"China", "value":6},
@@ -63,7 +63,7 @@
     ]
       },
       {
-        "key": "Asia Pacific",
+        "key": "Asia",
         "value": 2,
         "data":[
             {"key":"China", "value":1},
@@ -95,7 +95,7 @@
     ]
       },
       {
-        "key": "Asia Pacific",
+        "key": "Asia",
         "value": 3,
         "data":[
             {"key":"China", "value":2},
@@ -126,7 +126,7 @@
         ]
       },
       {
-        "key": "Asia Pacific",
+        "key": "Asia",
         "value": 5,
         "data":[
             {"key":"Philippines", "value":3},
@@ -160,7 +160,7 @@
         ]
       },
       {
-        "key": "Asia Pacific",
+        "key": "Asia",
         "value": 1,
         "data":[
             {"key":"Korea, Republic of", "value":1}
