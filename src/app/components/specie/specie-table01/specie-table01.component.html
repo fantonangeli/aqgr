@@ -1,5 +1,2 @@
 <app-tree-table [data]="fishTableData" [columns]="['Geographic area', 'Total production in tonnes '+lastTimeseriesYear, 'Primary farmed types', 'Secondary farmed types']" [enableTotal]="true" [ngClass]="{'disable-tonnes':disableTonnes}">
-    <ng-template #firstFieldAppendTpl let-element>
-        <a [routerLink]="['/country',element.Ccode]" *ngIf="element.Ccode" routerLinkActive="router-link-active"><fa-icon *ngIf="!element.children" [icon]="faChartPie"></fa-icon></a>
-    </ng-template>
 </app-tree-table>

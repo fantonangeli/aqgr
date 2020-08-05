@@ -4,7 +4,7 @@ import { Filter, ResultSearchEvent} from '../../components/search/namespace';
 import {UtilsService} from '../../services/utils.service';
 import {BasePage01Component} from '../base-page01/base-page01.component';
 import { GlobalInfoService } from '../../services/home/global-info.service';
-import {LoggerService} from '../../services/logger.service';
+import { LoggerService } from 'aqgr-lib';
 
 @Component({
   selector: 'app-world',

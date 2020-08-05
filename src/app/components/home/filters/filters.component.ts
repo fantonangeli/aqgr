@@ -10,7 +10,7 @@ import {FtypesService} from '../../../services/ftypes.service';
 import {SFtypesService} from '../../../services/sftypes.service';
 import {SearchServiceParams} from '../../../namespace';
 import {UtilsService} from '../../../services/utils.service';
-import {LoggerService} from '../../../services/logger.service';
+import {LoggerService} from 'aqgr-lib';
 
 
 @Component({

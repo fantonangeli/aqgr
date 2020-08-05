@@ -10,12 +10,12 @@ const speciePath=dataPath+"specie/";
 
 export const environment = {
     production: true,
-    logging:true,
+    logging:false,
     defaultAccordionIsOpenValue:false,
     lastTimeseriesYear:"2017",
 
     /**
-     * default date format used to format dates 
+     * default date format used to format dates
      */
     defaultDateFormat:"dd/MM/yyyy",
 

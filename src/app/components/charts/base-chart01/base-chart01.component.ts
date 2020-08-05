@@ -1,7 +1,7 @@
 import { Component, Input, OnChanges } from '@angular/core';
 import { Filter } from '../../../components/search/namespace';
 import {SearchServiceParams, ChartDataFormat} from '../../../namespace';
-import {LoggerService} from '../../../services/logger.service';
+import { LoggerService } from 'aqgr-lib';
 import {UtilsService} from '../../../services/utils.service'
 
 export class BaseChart01Component {

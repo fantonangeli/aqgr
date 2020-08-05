@@ -1,6 +1,6 @@
 [
   {
-    "key": "gametes",
+    "key": "Gametes",
     "values": [
       {
         "key": "Misc. animals",
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "key": "embryos",
+    "key": "Embryos",
     "values": [
       {
         "key": "Misc. animals",
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "key": "tissues",
+    "key": "Tissues",
     "values": [
       {
         "key": "Misc. animals",
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "key": "other",
+    "key": "Other",
     "values": [
       {
         "key": "Misc. animals",

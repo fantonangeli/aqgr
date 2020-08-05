@@ -125,7 +125,7 @@ export class BaseChartRender01Component implements AfterViewInit, OnChanges {
       `<b>${this.name}: ${this.y}</b><br />` +
       shortData.map((e) => {
         return `<br /><span class='bullet'>•</span> ${e.key}: ${e.value}`;
-      });
+      }).join("");
 
     if (fullDataLength > 10) {
         ttext += "<br/>...";

@@ -1,5 +1,5 @@
 import { Component, Input, OnChanges } from '@angular/core';
-import {LoggerService} from '../../../services/logger.service';
+import { LoggerService } from 'aqgr-lib';
 import {UtilsService} from '../../../services/utils.service'
 import {BaseChart01Component} from '../base-chart01/base-chart01.component';
 import { Columns01Component } from '../columns01/columns01.component';
@@ -9,7 +9,7 @@ import {ChartDataFormat} from '../../../namespace';
 @Component({
   selector: 'app-specie-chart01',
   template: `
-    <app-columns01 [series]="series" *ngIf="series.length" [showChildrenInTooltip]="true" [legendEnabled]="false" [height]="300" [exportTitle]="exportTitle" ></app-columns01>
+    <app-columns01 [series]="series" *ngIf="series.length" [showChildrenInTooltip]="true" [legendEnabled]="false" [height]="300" [exportTitle]="exportTitle" yAxisTitle="Number of <i>in vivo</i> gene banks" ></app-columns01>
   `,
   styles: []
 })

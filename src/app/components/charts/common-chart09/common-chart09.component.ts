@@ -1,5 +1,5 @@
 import { Component, Input, OnChanges } from "@angular/core";
-import { LoggerService } from "../../../services/logger.service";
+import { LoggerService } from 'aqgr-lib';
 import { UtilsService } from "../../../services/utils.service";
 import { BaseChart01Component } from "../base-chart01/base-chart01.component";
 import { StackedColumns01Component } from "../stacked-columns01/stacked-columns01.component";
@@ -11,7 +11,7 @@ import { ChartDataFormat } from "../../../namespace";
   template: `
     <app-stacked-columns01
       [series]="series"
-      yAxisTitle="Number of species recorded"
+      yAxisTitle="Number of countries recorded"
       [pointFormatter]="pointFormatter"
       [legendEnabled]="false"
       *ngIf="series.length"
@@ -38,7 +38,7 @@ export class CommonChart09Component extends BaseChart01Component implements OnCh
         const unit = "species";
 
         if (this.series.name === "No risk") {
-            seriesName = "No risk - no risk have been identified for this species";
+            seriesName = "No risk - no risk has been identified for this species";
         } else if (this.series.name === "Potential risk") {
             seriesName =
                 "Potential risk - risks have been identified but no impacts recorded";

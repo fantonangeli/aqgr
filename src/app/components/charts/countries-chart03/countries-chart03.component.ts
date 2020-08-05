@@ -1,5 +1,5 @@
 import { Component, Input, OnChanges } from '@angular/core';
-import {LoggerService} from '../../../services/logger.service';
+import { LoggerService } from 'aqgr-lib';
 import {UtilsService} from '../../../services/utils.service'
 import {BaseChart01Component} from '../base-chart01/base-chart01.component';
 import {StackedBars01Component} from '../stacked-bars01/stacked-bars01.component';

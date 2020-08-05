@@ -1,24 +1,70 @@
 <div class="container mw-100" *ngIf="filterValues.length">
     <div class="row">
-        <div class="col-sm-12 col-md-12">
-            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Species Fact Sheet {{specieName}}:</h1></div></div>
+        <div class="col-10">
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Species Fact Sheet: <i>{{specieName}}</i></h1></div></div>
         </div>
-        <div class="col-12">
-            This fact sheet presents a summary of the current status of conservation, sustainable use and development of {{specieName}} based on the data entered into the Registry. 
-            <br>
-            <br>
+        <div class="col-2 pl-0 text-right">
             <a [routerLink]="['/specie']" routerLinkActive="router-link-active">Select another specie</a>
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-12">
+            Development of farmed types.
+        </div>
+    </div>
+
+    <div class="row pt-3">
+        <div class="col-12">
+            This fact sheet presents a summary of the current status of conservation, sustainable use and development of <i>{{specieName}}</i> based on the data entered into the Registry. 
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+
+
+    <div class="row">
+        <div class="col-sm-12 col-md-3">
+            <div class="sticky-top">
+                <app-filters [(filterValues)]="filterValues" [aggregationsTypes]="['continents', 'regions', 'countries']" (search)="searchAggregation($event)"></app-filters>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-9">
+
+
+            <div class="container mw-100 p-0" *ngIf="reloadCharts">
+
+                <div class="row">
+                    <div class="col-12">
+                        <app-search-pill *ngIf="isAllVisibleAccordionCollapsed(accordionsProps)" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)"> </app-search-pill>                
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 pb-4 text-right">
+                        <a href="javascript:" class="font-weight-bold text-left pr-3" (click)="expandAllAccordionOnClick()">
+                            <i class="material-icons md-18 align-bottom">unfold_more</i>
+                            Expand all
+                        </a>
+                        <a href="javascript:" class="font-weight-bold text-left" (click)="collapseAllAccordionOnClick()">
+                            <i class="material-icons md-18 align-bottom">unfold_less</i>
+                            Collapse all
+                        </a>
+                    </div>
+                </div>
+
+               
     <div class="row pt-5">
 
         <div class="col-7 font-weight-bold h6 text-left">
-            List of farmed types, primary and secondary, of {{specieName}}
+            List of farmed types, primary and secondary, of <i>{{specieName}}</i>
         </div>
 
         <div class="col-5">
-                <div class="bg-white border border-dark float-right mb-3 mr-0 p-3 rounded shadow">
+                <div class="bg-white border border-dark float-right font-weight-bold mb-3 mr-0 px-3 py-4 rounded shadow">
                     Global aquaculture production = {{totalProduction}} tonnes
                 </div>
         </div>
@@ -46,57 +92,74 @@
         </div>
     </div>
 
-    <app-accordion01 [(isOpen)]="accordionsProps[0].isOpen">
-        <div header>Proportion of primary farmed types of {{specieName}}</div>
-        <div body> <app-common-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[0].isOpen" exportTitle="Proportion of primary farmed types of {{specieName}}"></app-common-chart01> </div>
+    <app-accordion01 *ngIf="accordionsProps[0].isVisible" [(isOpen)]="accordionsProps[0].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)" (resetFilterCriteriaEvent)="removeFilter($event)">
+        <div header>Proportions of Primary farmed types of <i>{{specieName}}</i></div>
+        <div body> <app-common-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[0].isOpen" exportTitle="Proportions of Primary farmed types of <i>{{specieName}}</i>"></app-common-chart01> </div>
     </app-accordion01>
 
-    <app-accordion01 [(isOpen)]="accordionsProps[1].isOpen">
-        <div header>Proportion of secondary farmed types of {{specieName}}</div>
-        <div body> <app-common-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[1].isOpen" exportTitle="Proportion of secondary farmed types of {{specieName}}"></app-common-chart01> </div>
+    <app-accordion01 *ngIf="accordionsProps[1].isVisible" [(isOpen)]="accordionsProps[1].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+        <div header>Proportions of Secondary farmed types of <i>{{specieName}}</i></div>
+        <div body> <app-common-chart02 [filterValues]="filterValues" *ngIf="accordionsProps[1].isOpen" exportTitle="Proportions of Secondary farmed types of <i>{{specieName}}</i>"></app-common-chart02> </div>
     </app-accordion01>
 
-    <app-accordion01 [(isOpen)]="accordionsProps[2].isOpen">
-        <div header>Production of primary FTs of {{specieName}}</div>
-        <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[2].isOpen" exportTitle="Production of primary FTs of {{specieName}}"></app-common-chart06> </div>
+    <app-accordion01 *ngIf="accordionsProps[2].isVisible" [(isOpen)]="accordionsProps[2].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+        <div header>Production of Primary farmed types of <i>{{specieName}}</i></div>
+        <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[2].isOpen" exportTitle="Production of primary FTs of <i>{{specieName}}</i>"></app-common-chart06> </div>
     </app-accordion01>
 
-    <app-accordion01 [(isOpen)]="accordionsProps[3].isOpen">
-        <div header>Proportion of countries where {{specieName}} is native and those where it is non native</div>
-        <div body> <app-common-chart05 [filterValues]="filterValues" *ngIf="accordionsProps[3].isOpen" exportTitle="Proportion of countries where {{specieName}} is native and those where it is non native"></app-common-chart05> </div>
+    <app-accordion01 *ngIf="accordionsProps[3].isVisible" [(isOpen)]="accordionsProps[3].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+        <div header>Proportions of Countries where <i>{{specieName}}</i> is native and those where it is non native</div>
+        <div body> 
+            <div class="mb-3">
+                Conservation and Sustainable Use.
+            </div>
+            <app-common-chart05 [filterValues]="filterValues" *ngIf="accordionsProps[3].isOpen" exportTitle="Proportions of Countries where <i>{{specieName}}</i> is native and those where it is non native"></app-common-chart05> 
+        </div>
     </app-accordion01>
 
-    <app-accordion01 [(isOpen)]="accordionsProps[4].isOpen">
-        <div header>Proportion of countries by region where {{specieName}} is native and those where it is non native</div>
-        <div body> <app-common-chart08 [filterValues]="filterValues" *ngIf="accordionsProps[4].isOpen" exportTitle="Proportion of countries by region where {{specieName}} is native and those where it is non native"></app-common-chart08> </div>
+    <app-accordion01 *ngIf="accordionsProps[4].isVisible" [(isOpen)]="accordionsProps[4].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+        <div header>Proportions of Countries by region where <i>{{specieName}}</i> is native and those where it is non native</div>
+        <div body> <app-common-chart08 [filterValues]="filterValues" *ngIf="accordionsProps[4].isOpen" exportTitle="Proportions of Countries by region where <i>{{specieName}}</i> is native and those where it is non native"></app-common-chart08> </div>
     </app-accordion01>
 
-    <app-accordion01 [(isOpen)]="accordionsProps[5].isOpen">
-        <div header>Risk status of species reported as cultured by countries</div>
-        <div body> <app-common-chart09 [filterValues]="filterValues" *ngIf="accordionsProps[5].isOpen" exportTitle="Risk status of species reported as cultured by countries"></app-common-chart09> </div>
+    <app-accordion01 *ngIf="accordionsProps[5].isVisible" [(isOpen)]="accordionsProps[5].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+        <div header>Risk status of <i>{{specieName}}</i> as reported by Countries</div>
+        <div body> <app-common-chart09 [filterValues]="filterValues" *ngIf="accordionsProps[5].isOpen" exportTitle="Risk status of <i>{{specieName}}</i> as reported by Countries"></app-common-chart09> </div>
     </app-accordion01>
 
-    <app-accordion01 [(isOpen)]="accordionsProps[6].isOpen">
-        <div header>Number of in vivo gene banks of {{specieName}} reported by country in each region</div>
-        <div body> <app-specie-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[6].isOpen" exportTitle="Number of in vivo gene banks of {{specieName}} reported by country in each region"></app-specie-chart01> </div>
+    <app-accordion01 *ngIf="accordionsProps[6].isVisible" [(isOpen)]="accordionsProps[6].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+        <div header>Number of <i>in vivo</i> gene banks of <i>{{specieName}}</i> reported by country in each region</div>
+        <div body> <app-specie-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[6].isOpen" exportTitle="Number of <i>in vivo</i> gene banks of <i>{{specieName}}</i> reported by country in each region"></app-specie-chart01> </div>
     </app-accordion01>
 
-    <app-accordion01 [(isOpen)]="accordionsProps[7].isOpen">
-        <div header>Number of in vitro gene banks of {{specieName}} reported by country in each region</div>
-        <div body> <app-specie-chart02 [filterValues]="filterValues" *ngIf="accordionsProps[7].isOpen" exportTitle="Number of in vitro gene banks of {{specieName}} reported by country in each region"></app-specie-chart02> </div>
+    <app-accordion01 *ngIf="accordionsProps[7].isVisible" [(isOpen)]="accordionsProps[7].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+        <div header>Number of <i>in vitro</i> gene banks of <i>{{specieName}}</i> reported by country in each region</div>
+        <div body> <app-specie-chart02 [filterValues]="filterValues" *ngIf="accordionsProps[7].isOpen" exportTitle="Number of <i>in vitro</i> gene banks of <i>{{specieName}}</i> reported by country in each region"></app-specie-chart02> </div>
     </app-accordion01>
 
-    <app-accordion01 [(isOpen)]="accordionsProps[8].isOpen">
-        <div header>Number of recordings for {{specieName}} under control measures</div>
-        <div body> <app-specie-chart03 [filterValues]="filterValues" *ngIf="accordionsProps[8].isOpen" exportTitle="Number of recordings for {{specieName}} under control measures"></app-specie-chart03> </div>
+    <app-accordion01 *ngIf="accordionsProps[8].isVisible" [(isOpen)]="accordionsProps[8].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
+        <div header>Number of records for <i>{{specieName}}</i> under control measures</div>
+        <div body> <app-specie-chart03 [filterValues]="filterValues" *ngIf="accordionsProps[8].isOpen" exportTitle="Number of records for <i>{{specieName}}</i> under control measures"></app-specie-chart03> </div>
     </app-accordion01>
 
+
+
+
+
+            </div>
+        </div>
+    </div>
 
     <div class="row">
         <div class="col-1 offset-11">
             <ngx-scrolltop backgroundColor="#0d6cac"></ngx-scrolltop>
         </div>
     </div>
+
+
+
+
+
 
 
 </div>
