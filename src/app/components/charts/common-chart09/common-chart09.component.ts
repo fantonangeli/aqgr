@@ -41,7 +41,7 @@ export class CommonChart09Component extends BaseChart01Component implements OnCh
             seriesName = "No risk - no risk has been identified for this species";
         } else if (this.series.name === "Potential risk") {
             seriesName =
-                "Potential risk - risks has been identified but no impacts recorded";
+                "Potential risk - risks have been identified but no impacts recorded";
         } else if (this.series.name === "Risk") {
             seriesName = "Risk - there are recorded impacts of this species";
         }
