@@ -87,6 +87,25 @@
       "requireSameDimensions": true
     },
     {
+      "label": "Specie selection",
+      "cookiePath": "backstop_data/engine_scripts/cookies.json",
+      "url": "http://localhost:4200/specie",
+      "referenceUrl": "",
+      "readyEvent": "",
+      "readySelector": "",
+      "delay": 1000,
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "hoverSelector": "",
+      "clickSelector": "",
+      "postInteractionWait": 0,
+      "selectors": [],
+      "selectorExpansion": true,
+      "expect": 0,
+      "misMatchThreshold" : 0.1,
+      "requireSameDimensions": true
+    },
+    {
       "label": "Use",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "http://localhost:4200/use",
