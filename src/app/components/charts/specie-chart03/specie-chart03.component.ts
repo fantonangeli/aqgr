@@ -15,6 +15,7 @@ import { ChartDataFormat } from "../../../namespace";
       [height]="300"
       [exportTitle]="exportTitle"
       [showChildrenInTooltip]="true"
+      yAxisTitle="Number of records"
     ></app-stacked-columns01>
   `,
   styles: [],
