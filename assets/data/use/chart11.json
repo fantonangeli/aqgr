@@ -1,17 +1,17 @@
 [
   {
-    "key": "gametes",
+    "key": "Gametes",
     "values": [
       {
         "key": "Europe",
         "value": 34
       },
       {
-        "key": "Latin America",
+        "key": "Latin America and the Caribbean",
         "value": 32
       },
       {
-        "key": "Asia Pacific",
+        "key": "Asia",
         "value": 23
       },
       {
@@ -25,18 +25,18 @@
     ]
   },
   {
-    "key": "embryos",
+    "key": "Embryos",
     "values": [
       {
         "key": "Europe",
         "value": 2
       },
       {
-        "key": "Latin America",
+        "key": "Latin America and the Caribbean",
         "value": 4
       },
       {
-        "key": "Asia Pacific",
+        "key": "Asia",
         "value": 2
       },
       {
@@ -50,18 +50,18 @@
     ]
   },
   {
-    "key": "tissues",
+    "key": "Tissues",
     "values": [
       {
         "key": "Europe",
         "value": 3
       },
       {
-        "key": "Latin America",
+        "key": "Latin America and the Caribbean",
         "value": 2
       },
       {
-        "key": "Asia Pacific",
+        "key": "Asia",
         "value": 3
       },
       {
@@ -82,11 +82,11 @@
         "value": 1
       },
       {
-        "key": "Latin America",
+        "key": "Latin America and the Caribbean",
         "value": 0
       },
       {
-        "key": "Asia Pacific",
+        "key": "Asia",
         "value": 5
       },
       {
@@ -100,18 +100,18 @@
     ]
   },
   {
-    "key": "other",
+    "key": "Other",
     "values": [
       {
         "key": "Europe",
         "value": 5
       },
       {
-        "key": "Latin America",
+        "key": "Latin America and the Caribbean",
         "value": 2
       },
       {
-        "key": "Asia Pacific",
+        "key": "Asia",
         "value": 1
       },
       {

@@ -8,7 +8,7 @@
         "value": 32
       },
       {
-        "key": "Latin America",
+        "key": "Latin America and the Caribbean",
         "value": 15,
         "data":[
             {"key":"Argentina", "value":4},
@@ -20,7 +20,7 @@
         ]
       },
       {
-        "key": "Asia Pacific",
+        "key": "Asia",
         "value": 17,
         "data":[
             {"key":"China", "value":6},
@@ -48,7 +48,7 @@
         "value": 6
       },
       {
-        "key": "Latin America",
+        "key": "Latin America and the Caribbean",
         "value": 13,
         "data":[
             {"key":"Chile", "value":2},
@@ -62,7 +62,7 @@
         ]
       },
       {
-        "key": "Asia Pacific",
+        "key": "Asia",
         "value": 15,
         "data":[
             {"key":"Indonesia", "value":5},
@@ -89,7 +89,7 @@
         "value": 3
       },
       {
-        "key": "Latin America",
+        "key": "Latin America and the Caribbean",
         "value": 2,
         "data":[
             {"key":"Guadeloupe", "value":1},
@@ -97,7 +97,7 @@
         ]
       },
       {
-        "key": "Asia Pacific",
+        "key": "Asia",
         "value": 3,
         "data":[
             {"key":"Myanmar", "value":2},

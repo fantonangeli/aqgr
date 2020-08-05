@@ -1,13 +1,13 @@
 [
   {
-    "key": "gametes",
+    "key": "Gametes",
     "values": [
       {
         "key": "Europe",
         "value": 34
       },
       {
-        "key": "Latin America",
+        "key": "Latin America and the Caribbean",
         "value": 32,
         "data":[
             {"key":"Argentina", "value":8},
@@ -26,7 +26,7 @@
         ]
       },
       {
-        "key": "Asia Pacific",
+        "key": "Asia",
         "value": 23,
         "data":[
             {"key":"China", "value":6},
@@ -48,14 +48,14 @@
     ]
   },
   {
-    "key": "embryos",
+    "key": "Embryos",
     "values": [
       {
         "key": "Europe",
         "value": 2
       },
       {
-        "key": "Latin America",
+        "key": "Latin America and the Caribbean",
         "value": 4,
     "data":[
         {"key":"Argentina", "value":3},
@@ -63,7 +63,7 @@
     ]
       },
       {
-        "key": "Asia Pacific",
+        "key": "Asia",
         "value": 2,
         "data":[
             {"key":"China", "value":1},
@@ -81,21 +81,21 @@
     ]
   },
   {
-    "key": "tissues",
+    "key": "Tissues",
     "values": [
       {
         "key": "Europe",
         "value": 3
       },
       {
-        "key": "Latin America",
+        "key": "Latin America and the Caribbean",
         "value": 2,
     "data":[
         {"key":"Argentina", "value":2}
     ]
       },
       {
-        "key": "Asia Pacific",
+        "key": "Asia",
         "value": 3,
         "data":[
             {"key":"China", "value":2},
@@ -120,13 +120,13 @@
         "value": 1
       },
       {
-        "key": "Latin America",
+        "key": "Latin America and the Caribbean",
         "value": 0,
         "data":[
         ]
       },
       {
-        "key": "Asia Pacific",
+        "key": "Asia",
         "value": 5,
         "data":[
             {"key":"Philippines", "value":3},
@@ -145,14 +145,14 @@
     ]
   },
   {
-    "key": "other",
+    "key": "Other",
     "values": [
       {
         "key": "Europe",
         "value": 5
       },
       {
-        "key": "Latin America",
+        "key": "Latin America and the Caribbean",
         "value": 2,
         "data":[
             {"key":"Guadeloupe", "value":1},
@@ -160,7 +160,7 @@
         ]
       },
       {
-        "key": "Asia Pacific",
+        "key": "Asia",
         "value": 1,
         "data":[
             {"key":"Korea, Republic of", "value":1}

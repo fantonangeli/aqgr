@@ -1,6 +1,6 @@
 [
   {
-    "key": "gametes",
+    "key": "Gametes",
     "values": [
       {
         "key": "Eucheuma denticulatum",
@@ -37,7 +37,7 @@
     ]
   },
   {
-    "key": "embryos",
+    "key": "Embryos",
     "values": [
       {
         "key": "Eucheuma denticulatum",
@@ -74,7 +74,7 @@
     ]
   },
   {
-    "key": "tissues",
+    "key": "Tissues",
     "values": [
       {
         "key": "Eucheuma denticulatum",
@@ -148,7 +148,7 @@
     ]
   },
   {
-    "key": "other",
+    "key": "Other",
     "values": [
       {
         "key": "Eucheuma denticulatum",
