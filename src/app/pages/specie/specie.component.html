@@ -138,8 +138,8 @@
     </app-accordion01>
 
     <app-accordion01 *ngIf="accordionsProps[8].isVisible" [(isOpen)]="accordionsProps[8].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-        <div header>Number of recordings for <i>{{specieName}}</i> under control measures</div>
-        <div body> <app-specie-chart03 [filterValues]="filterValues" *ngIf="accordionsProps[8].isOpen" exportTitle="Number of recordings for <i>{{specieName}}</i> under control measures"></app-specie-chart03> </div>
+        <div header>Number of records for <i>{{specieName}}</i> under control measures</div>
+        <div body> <app-specie-chart03 [filterValues]="filterValues" *ngIf="accordionsProps[8].isOpen" exportTitle="Number of records for <i>{{specieName}}</i> under control measures"></app-specie-chart03> </div>
     </app-accordion01>
 
 
