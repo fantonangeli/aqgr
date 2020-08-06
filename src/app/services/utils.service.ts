@@ -59,20 +59,21 @@ export class UtilsService {
      *
      * @param {SearchServiceParams} params the params to send to the service
      * @returns {Object}
+     * @deprecated use it from aqgr-lib
      */
-    public getRestParams(ssp:SearchServiceParams=new SearchServiceParams()):Object{
-        let params={};
-
-        if(ssp.name) params[environment.services.params.search]=ssp.name;
-        if(ssp.continent) params[environment.services.params.continent]=ssp.continent;
-        if(ssp.region) params[environment.services.params.region]=ssp.region;
-        if(ssp.country) params[environment.services.params.country]=ssp.country;
-        if(ssp.taxonomy) params[environment.services.params.taxonomy]=ssp.taxonomy;
-        if(ssp.specie) params[environment.services.params.specie]=ssp.specie;
-        if(ssp.ftype) params[environment.services.params.ftype]=ssp.ftype;
-        if(ssp.sftype) params[environment.services.params.sftype]=ssp.sftype;
-        if(ssp.limit) params[environment.services.params.limit]=ssp.limit;
-
-        return params;
-    }
+    // public getRestParams(ssp:SearchServiceParams=new SearchServiceParams()):Object{
+    //     let params={};
+    //
+    //     if(ssp.name) params[environment.services.params.search]=ssp.name;
+    //     if(ssp.continent) params[environment.services.params.continent]=ssp.continent;
+    //     if(ssp.region) params[environment.services.params.region]=ssp.region;
+    //     if(ssp.country) params[environment.services.params.country]=ssp.country;
+    //     if(ssp.taxonomy) params[environment.services.params.taxonomy]=ssp.taxonomy;
+    //     if(ssp.specie) params[environment.services.params.specie]=ssp.specie;
+    //     if(ssp.ftype) params[environment.services.params.ftype]=ssp.ftype;
+    //     if(ssp.sftype) params[environment.services.params.sftype]=ssp.sftype;
+    //     if(ssp.limit) params[environment.services.params.limit]=ssp.limit;
+    //
+    //     return params;
+    // }
 }
