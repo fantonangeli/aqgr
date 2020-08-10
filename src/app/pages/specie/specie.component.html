@@ -50,6 +50,12 @@
                     </div>
                 </div>
 
+
+        <div class="row">
+            <div class="col-12 pb-3 pt-5">
+                <h2 clss="">Development of AqGR in {{countryName}}</h2>
+            </div>
+        </div>
                
     <div class="row pt-5">
 
@@ -65,13 +71,18 @@
 
     </div>
 
-    <div class="row pt-2 pb-5">
+    <div class="row pt-2">
 
         <div class="col-12">
             <app-specie-table01 [filterValues]="filterValues"> </app-specie-table01>
-            <!-- TODO: put space under the table (same as charts) -->
         </div>
 
+    </div>
+
+    <div class="row" >
+        <div class="col-12 py-5 my-5">
+            &nbsp; 
+        </div>
     </div>
 
     <div class="row">
@@ -87,12 +98,6 @@
         </div>
     </div>
 
-
-    <div class="row">
-        <div class="col-12 pb-3 pt-5">
-            <h2 clss="">Development of AqGR in {{countryName}}</h2>
-        </div>
-    </div>
 
     <app-accordion01 *ngIf="accordionsProps[0].isVisible" [(isOpen)]="accordionsProps[0].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)" (resetFilterCriteriaEvent)="removeFilter($event)">
         <div header>Primary farmed types of <i>{{specieName}}</i></div>
