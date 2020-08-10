@@ -1,5 +1,4 @@
 <!-- TODO: country not uppercase in titles -->
-<!-- TODO: remove proportion from titles -->
 <div class="container mw-100" *ngIf="filterValues.length">
     <div class="row">
         <div class="col-10">
@@ -98,13 +97,13 @@
     </div>
 
     <app-accordion01 *ngIf="accordionsProps[0].isVisible" [(isOpen)]="accordionsProps[0].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)" (resetFilterCriteriaEvent)="removeFilter($event)">
-        <div header>Proportions of Primary farmed types of <i>{{specieName}}</i></div>
-        <div body> <app-common-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[0].isOpen" exportTitle="Proportions of Primary farmed types of <i>{{specieName}}</i>"></app-common-chart01> </div>
+        <div header>Primary farmed types of <i>{{specieName}}</i></div>
+        <div body> <app-common-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[0].isOpen" exportTitle="Primary farmed types of <i>{{specieName}}</i>"></app-common-chart01> </div>
     </app-accordion01>
 
     <app-accordion01 *ngIf="accordionsProps[1].isVisible" [(isOpen)]="accordionsProps[1].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-        <div header>Proportions of Secondary farmed types of <i>{{specieName}}</i></div>
-        <div body> <app-common-chart02 [filterValues]="filterValues" *ngIf="accordionsProps[1].isOpen" exportTitle="Proportions of Secondary farmed types of <i>{{specieName}}</i>"></app-common-chart02> </div>
+        <div header>Secondary farmed types of <i>{{specieName}}</i></div>
+        <div body> <app-common-chart02 [filterValues]="filterValues" *ngIf="accordionsProps[1].isOpen" exportTitle="Secondary farmed types of <i>{{specieName}}</i>"></app-common-chart02> </div>
     </app-accordion01>
 
     <app-accordion01 *ngIf="accordionsProps[2].isVisible" [(isOpen)]="accordionsProps[2].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
@@ -113,18 +112,18 @@
     </app-accordion01>
 
     <app-accordion01 *ngIf="accordionsProps[3].isVisible" [(isOpen)]="accordionsProps[3].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-        <div header>Proportions of Countries where <i>{{specieName}}</i> is native and those where it is non native</div>
+        <div header>Countries where <i>{{specieName}}</i> is native and those where it is non native</div>
         <div body> 
             <div class="mb-3">
                 Conservation and Sustainable Use.
             </div>
-            <app-common-chart05 [filterValues]="filterValues" *ngIf="accordionsProps[3].isOpen" exportTitle="Proportions of Countries where <i>{{specieName}}</i> is native and those where it is non native"></app-common-chart05> 
+            <app-common-chart05 [filterValues]="filterValues" *ngIf="accordionsProps[3].isOpen" exportTitle="Countries where <i>{{specieName}}</i> is native and those where it is non native"></app-common-chart05> 
         </div>
     </app-accordion01>
 
     <app-accordion01 *ngIf="accordionsProps[4].isVisible" [(isOpen)]="accordionsProps[4].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-        <div header>Proportions of Countries by region where <i>{{specieName}}</i> is native and those where it is non native</div>
-        <div body> <app-common-chart08 [filterValues]="filterValues" *ngIf="accordionsProps[4].isOpen" exportTitle="Proportions of Countries by region where <i>{{specieName}}</i> is native and those where it is non native"></app-common-chart08> </div>
+        <div header>Countries by region where <i>{{specieName}}</i> is native and those where it is non native</div>
+        <div body> <app-common-chart08 [filterValues]="filterValues" *ngIf="accordionsProps[4].isOpen" exportTitle="Countries by region where <i>{{specieName}}</i> is native and those where it is non native"></app-common-chart08> </div>
     </app-accordion01>
 
     <app-accordion01 *ngIf="accordionsProps[5].isVisible" [(isOpen)]="accordionsProps[5].isOpen" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
