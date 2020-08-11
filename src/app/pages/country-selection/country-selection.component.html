@@ -1,0 +1,33 @@
+<div class="container mw-100">
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Countries Fact Sheet:</h1></div></div>
+        </div>
+        <div class="col-12">
+            Search a country to see the Country Fact Sheet:
+        </div>
+    </div>
+
+    <div class="row pt-3">
+        <div class="col-2">
+            <label for="country">Country:</label>
+        </div>
+        <div class="col-8">
+            <ng-select [items]="country$ | async"
+             id="country"
+             bindLabel="key"
+             bindValue="key"
+             [hideSelected]="true"
+             [minTermLength]="2"
+             [loading]="countryLoading"
+             typeToSearchText="Please type here"
+             [typeahead]="countryInput$"
+             (change)="onChangeCountry($event)"
+             [(ngModel)]="selectedCountry">
+            </ng-select>
+        </div>
+    </div>
+
+</div>
+
+
