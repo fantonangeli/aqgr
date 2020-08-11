@@ -6,7 +6,7 @@ import { environment } from '../../environments/environment';
 import { LoggerService } from 'aqgr-lib';
 import {SearchServiceParams} from '../namespace';
 import {UtilsService} from './utils.service';
-import {BaseService} from './base.service';
+import { BaseService } from 'aqgr-lib';
 import { AggregationItem} from '../components/search/namespace';
 
 @Injectable({
@@ -14,7 +14,7 @@ import { AggregationItem} from '../components/search/namespace';
 })
 export class CountriesService extends BaseService{
     constructor(http: HttpClient, logger: LoggerService, utilsService:UtilsService) {
-        super(http, logger, utilsService);
+        super(http, environment.services.params);
     }
 
     /**
@@ -22,14 +22,15 @@ export class CountriesService extends BaseService{
      *
      * @param {SearchServiceParams} params the params to send to the service
      */
-    getAll(ssp:SearchServiceParams):Observable<AggregationItem[]>{
-        let {name, continent, region, country, taxonomy, specie, ftype, sftype} = ssp;
+    getAll(ssp:SearchServiceParams=new SearchServiceParams()):Observable<AggregationItem[]>{
+        let {name, continent, region, country, taxonomy, specie, ftype, sftype, limit} = ssp;
 
         return this._getAll(
             "CountriesService",
             environment.services.countries.all, 
             <SearchServiceParams>{name, continent, region},
-            environment.services.countries.limit
+            limit || environment.services.countries.limit,
+            "key"
         );
     }
 

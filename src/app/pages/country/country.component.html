@@ -1,15 +1,20 @@
 <div class="container mw-100" *ngIf="filterValues.length">
     <div class="row">
-        <div class="col-sm-12 col-md-12">
+        <div class="col-10">
             <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Country fact sheet on Farmed Types of Aquatic Genetic Resources: {{countryName}}</h1></div></div>
         </div>
+        <div class="col-2 pl-0 text-right">
+            <a [routerLink]="['/country']" routerLinkActive="router-link-active">Select another country</a>
+        </div>
+    </div>
+
+    <div class="row">
         <div class="col-12">
             This fact sheet presents a summary of the data entered into the Registry of Farmed Types of AqGR in {{countryName}} relating to the conservation, sustainable used and management of AqGR in the country.  Data for {{countryName}} was last updated on {{ lastModifiedDate | date:defaultDateFormat}}.
         </div>
     </div>
 
     <app-species-list [filterValues]="filterValues" (onTaxonomyClickEvent)="speciesList_onTaxonomyClick($event)"></app-species-list>
-
 
     <div class="row">
         <div class="col-12 pb-4 text-right">

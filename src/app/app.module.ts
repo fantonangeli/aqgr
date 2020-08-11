@@ -72,6 +72,7 @@ import { SpecieChart02Component } from './components/charts/specie-chart02/speci
 import { SpecieChart03Component } from './components/charts/specie-chart03/specie-chart03.component';
 import { SpecieSelectionComponent } from './pages/specie-selection/specie-selection.component';
 import { environment } from '../environments/environment';
+import { CountrySelectionComponent } from './pages/country-selection/country-selection.component';
 
 @NgModule({
   declarations: [
@@ -131,6 +132,7 @@ import { environment } from '../environments/environment';
     SpecieChart02Component,
     SpecieChart03Component,
     SpecieSelectionComponent,
+    CountrySelectionComponent,
   ],
   imports: [
     BrowserModule,

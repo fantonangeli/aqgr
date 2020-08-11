@@ -37,7 +37,8 @@ export const environment = {
             ftype:"ftype_like", 
             sftype:"sftype_like", 
             search:"key_like", 
-            limit:"_limit"
+            limit:"_limit",
+            sortBy:"_sort"
         },
         sftypes:{
             all:baseUrl+"sftypes",
