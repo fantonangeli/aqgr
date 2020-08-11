@@ -24,9 +24,7 @@ export const environment = {
             globalInfo:homePath+"globalInfo.json"
         },
         fishStatCultSpecCountries: {
-            all:homePath+"FishStatSpecCountries.json",
-            bySpecies:dataPath+"FishStatSpecCountries.ASFISCode-MSM.json?species=",
-            byFtype:dataPath+"FishStatSpecCountries.ASFISCode-MSM.json?species="
+            all:homePath+"FishStatSpecCountries.json"
         },
         params: {
             continent:"continent_like", 
