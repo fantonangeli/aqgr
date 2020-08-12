@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Homepage_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200810-124536/backstop_default_Homepage_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200812-122645/backstop_default_Homepage_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Homepage_0_document_0_tablet.png",
         "label": "Homepage",
@@ -28,7 +28,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_World_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200810-124536/backstop_default_World_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200812-122645/backstop_default_World_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_World_0_document_0_tablet.png",
         "label": "World",
@@ -52,7 +52,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Country_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200810-124536/backstop_default_Country_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200812-122645/backstop_default_Country_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Country_0_document_0_tablet.png",
         "label": "Country",
@@ -75,14 +75,14 @@ report({
     },
     {
       "pair": {
-        "reference": "../bitmaps_reference/backstop_default_Specie_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200810-124536/backstop_default_Specie_0_document_0_tablet.png",
+        "reference": "../bitmaps_reference/backstop_default_Country_selection_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200812-122645/backstop_default_Country_selection_0_document_0_tablet.png",
         "selector": "document",
-        "fileName": "backstop_default_Specie_0_document_0_tablet.png",
-        "label": "Specie",
+        "fileName": "backstop_default_Country_selection_0_document_0_tablet.png",
+        "label": "Country selection",
         "requireSameDimensions": true,
         "misMatchThreshold": 0.1,
-        "url": "http://localhost:4200/specie/OYC",
+        "url": "http://localhost:4200/country",
         "referenceUrl": "",
         "expect": 0,
         "viewportLabel": "tablet",
@@ -99,8 +99,33 @@ report({
     },
     {
       "pair": {
+        "reference": "../bitmaps_reference/backstop_default_Specie_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200812-122645/backstop_default_Specie_0_document_0_tablet.png",
+        "selector": "document",
+        "fileName": "backstop_default_Specie_0_document_0_tablet.png",
+        "label": "Specie",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:4200/specie/OYC",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.03",
+          "analysisTime": 253
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
         "reference": "../bitmaps_reference/backstop_default_Specie_selection_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200810-124536/backstop_default_Specie_selection_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200812-122645/backstop_default_Specie_selection_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Specie_selection_0_document_0_tablet.png",
         "label": "Specie selection",
@@ -124,7 +149,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Use_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200810-124536/backstop_default_Use_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200812-122645/backstop_default_Use_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Use_0_document_0_tablet.png",
         "label": "Use",
@@ -148,7 +173,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Policies_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200810-124536/backstop_default_Policies_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200812-122645/backstop_default_Policies_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Policies_0_document_0_tablet.png",
         "label": "Policies",

@@ -24,9 +24,7 @@ export const environment = {
             globalInfo:homePath+"globalInfo.json"
         },
         fishStatCultSpecCountries: {
-            all:homePath+"FishStatSpecCountries.json",
-            bySpecies:dataPath+"FishStatSpecCountries.ASFISCode-MSM.json?species=",
-            byFtype:dataPath+"FishStatSpecCountries.ASFISCode-MSM.json?species="
+            all:homePath+"FishStatSpecCountries.json"
         },
         params: {
             continent:"continent_like", 
@@ -81,11 +79,6 @@ export const environment = {
         countries:{
             all:baseUrl+"countries",
             limit: 10,
-            ftype: countriesPath+"ftype.json",
-            ftypeBySpecies: countriesPath+"ftype-filtered.json?specie=",
-            sFtype: countriesPath+"sftype.json",
-            sFtypeBySpecies: countriesPath+"sftype-filtered.json?ftype=",
-            species: countriesPath+"species.json",
         },
         use:{
             chart03:usePath+"chart03.json",
