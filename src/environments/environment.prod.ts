@@ -79,11 +79,6 @@ export const environment = {
         countries:{
             all:baseUrl+"countries",
             limit: 10,
-            ftype: countriesPath+"ftype.json",
-            ftypeBySpecies: countriesPath+"ftype-filtered.json?specie=",
-            sFtype: countriesPath+"sftype.json",
-            sFtypeBySpecies: countriesPath+"sftype-filtered.json?ftype=",
-            species: countriesPath+"species.json",
         },
         use:{
             chart03:usePath+"chart03.json",
