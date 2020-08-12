@@ -255,7 +255,7 @@ CountryInfoService:
 This is not a defined format and is used mainly in dynamic text. 
 Below some example:
 
-SpecieInfoService:
+FishStatCultSpecCountriesService:
 ```json
 {
   "Continents": [
