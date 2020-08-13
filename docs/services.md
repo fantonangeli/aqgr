@@ -35,9 +35,9 @@ This services are used to get data in Species Fact Sheet page
 | Environment key | Url | Description | Format | Angular Service |
 | --- | --- | --- | --- | --- |
 | specie.info | http://localhost:3000/specieInfo?alphaCode=OYC | Gives data of a specie: Eg.scientificName, prodution | data | SpecieInfoService |
-| specie.chart01 | http://localhost:4200/assets/data/specie/chart01.json | Number of <i>in vivo</i> gene banks of <i>specieName</i> reported by country in each region | keyval | SpecieChart01Service |
-| specie.chart02 | http://localhost:4200/assets/data/specie/chart02.json | Number of <i>in vitro</i> gene banks of <i>specieName</i> reported by country in each region | stackedKeyval | SpecieChart02Service |
-| specie.chart03 | http://localhost:4200/assets/data/specie/chart03.json | Number of records for <i>specieName</i> under control measures | stackedKeyval | SpecieChart03Service |
+| specie.chart01 | http://localhost:4200/assets/data/specie/chart01.json | Number of <i>in vivo</i> gene banks of <i>specieName</i> reported by country in each region | keyval+data | SpecieChart01Service |
+| specie.chart02 | http://localhost:4200/assets/data/specie/chart02.json | Number of <i>in vitro</i> gene banks of <i>specieName</i> reported by country in each region | stackedKeyval+data | SpecieChart02Service |
+| specie.chart03 | http://localhost:4200/assets/data/specie/chart03.json | Number of records for <i>specieName</i> under control measures | stackedKeyval+data | SpecieChart03Service |
 
 
 ## Country Fact Sheet services 
@@ -96,7 +96,7 @@ This services are used to get data used by charts that are in shown in multiple 
 <br>
 <br>
 
-# AqGR Services Parameters
+# Services Parameters
 
 These parameters are accepted by all services of this project under the SearchServiceParams class and the parameter names sent to the REST services are configured in environment.services.params
 
@@ -112,6 +112,38 @@ These parameters are accepted by all services of this project under the SearchSe
 | search | key_like | string | Free text to search by name |
 | limit | _limit | number | Used to limit the number of results |
 | sortBy | _sort | string | The field as string to sort by |
+
+<br>
+<br>
+
+# JSON properties list
+
+To avoid different property names and use always the same style here is a sort the list of all the properties of all the JSONs.   
+Note: Only properties from the services used for tables are not written here.
+
+```json
+{
+    "name": "Algae",
+    "nameEn": "Afghanistan",
+    "key":"Algae",
+    "value": 23,
+    "data":[] || {},
+    "timeseries": {
+        "2017": 664530
+    },
+    "ftypes": 9,
+    "sftypes": 0,
+    "native": true,
+    "alphaCode": "SWX",
+    "iso3": "AFG",
+    "totalSpecies":1500,
+    "totalCountries":241,
+    "totalFtypes":4,
+    "totalSftypes":7,
+    "lastModifiedDate":"2020-05-15",
+    "scientificName": "Laminaria japonica",
+}
+```
 
 <br>
 <br>
@@ -152,6 +184,38 @@ UseChart09Service:
     "value": 17
   },
   ...
+]
+```
+
+### Keyval+data:
+There are few charts with a tooltip with a list of element inside. For this purpose an optional data array with a keyval format is used inside each element:
+SpecieChart01Service:
+```json
+[
+  {
+    "key": "Europe",
+    "value": 45
+  },
+  {
+    "key": "Latin America and the Caribbean",
+    "value": 34,
+    "data":[
+        {"key":"Argentina", "value":10},
+        {"key":"Bolivia", "value":5},
+        {"key":"Brazil", "value":4},
+        {"key":"Chile", "value":2},
+        {"key":"Colombia", "value":2},
+        {"key":"Costa Rica", "value":2},
+        {"key":"Cuba", "value":2},
+        {"key":"Dominican Republic", "value":2},
+        {"key":"Ecuador", "value":1},
+        {"key":"El Salvador", "value":1},
+        {"key":"French Guiana", "value":1},
+        {"key":"Guadeloupe", "value":1},
+        {"key":"Guatemala", "value":1}
+    ]
+  },
+    ...
 ]
 ```
 
@@ -217,6 +281,43 @@ UseChart07Service:
   ...
 ]
 ```
+
+### StackedKeyval+data:
+There are few charts with a tooltip with a list of element inside. For this purpose an optional data array with a keyval format is used inside each element:
+SpecieChart02Service:
+```json
+[
+  {
+    "key": "Gametes",
+    "values": [
+      {
+        "key": "Europe",
+        "value": 34
+      },
+      {
+        "key": "Latin America and the Caribbean",
+        "value": 32,
+        "data":[
+            {"key":"Argentina", "value":8},
+            {"key":"Bolivia", "value":5},
+            {"key":"Brazil", "value":4},
+            {"key":"Chile", "value":2},
+            {"key":"Colombia", "value":2},
+            {"key":"Costa Rica", "value":2},
+            {"key":"Cuba", "value":2},
+            {"key":"Dominican Republic", "value":2},
+            {"key":"Ecuador", "value":1},
+            {"key":"El Salvador", "value":1},
+            {"key":"French Guiana", "value":1},
+            {"key":"Guadeloupe", "value":1},
+            {"key":"Guatemala", "value":1}
+        ]
+      },
+    ...
+]
+```
+
+
 
 
 ## Data format
