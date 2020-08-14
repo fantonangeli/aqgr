@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Homepage_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200812-122645/backstop_default_Homepage_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200814-145337/backstop_default_Homepage_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Homepage_0_document_0_tablet.png",
         "label": "Homepage",
@@ -28,7 +28,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_World_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200812-122645/backstop_default_World_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200814-145337/backstop_default_World_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_World_0_document_0_tablet.png",
         "label": "World",
@@ -52,7 +52,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Country_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200812-122645/backstop_default_Country_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200814-145337/backstop_default_Country_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Country_0_document_0_tablet.png",
         "label": "Country",
@@ -76,7 +76,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Country_selection_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200812-122645/backstop_default_Country_selection_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200814-145337/backstop_default_Country_selection_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Country_selection_0_document_0_tablet.png",
         "label": "Country selection",
@@ -100,7 +100,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Specie_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200812-122645/backstop_default_Specie_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200814-145337/backstop_default_Specie_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Specie_0_document_0_tablet.png",
         "label": "Specie",
@@ -117,7 +117,7 @@ report({
             "height": 0
           },
           "misMatchPercentage": "0.03",
-          "analysisTime": 253
+          "analysisTime": 239
         }
       },
       "status": "pass"
@@ -125,7 +125,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Specie_selection_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200812-122645/backstop_default_Specie_selection_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200814-145337/backstop_default_Specie_selection_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Specie_selection_0_document_0_tablet.png",
         "label": "Specie selection",
@@ -149,7 +149,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Use_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200812-122645/backstop_default_Use_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200814-145337/backstop_default_Use_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Use_0_document_0_tablet.png",
         "label": "Use",
@@ -173,7 +173,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Policies_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200812-122645/backstop_default_Policies_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200814-145337/backstop_default_Policies_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Policies_0_document_0_tablet.png",
         "label": "Policies",
