@@ -142,6 +142,9 @@ Note: Only properties from the services used for tables are not written here.
     "totalSftypes":7,
     "lastModifiedDate":"2020-05-15",
     "scientificName": "Laminaria japonica",
+    "continents": [],
+    "regions":[],
+    "countries":[]
 }
 ```
 
@@ -359,63 +362,61 @@ Below some example:
 FishStatCultSpecCountriesService:
 ```json
 {
-  "Continents": [
+  "continents": [
     {
-      "Name": "Asia",
-      "Species": 88,
-      "FTypes": 894,
-      "SFTypes": 808,
-      "Timeseries": {
-        "2013": 78795067.5,
-        "2014": 82439267.64,
-        "2015": 86710022.07,
-        "2016": 90411470.48,
-        "2017": 93342628.58
+      "nameEn": "Asia",
+      "species": 235,
+      "ftypes": 1070,
+      "sftypes": 1139,
+      "timeseries": {
+        "2013": 57001620.51,
+        "2014": 59422834.6,
+        "2015": 61602751.29,
+        "2016": 64726044.54,
+        "2017": 66933546.72
       },
-      "Regions": [
+      "regions": [
         {
-          "Name": "Southern Asia",
-          "Species": 13,
-          "FTypes": 152,
-          "SFTypes": 146,
-          "Timeseries": {
-            "2013": 5608861,
-            "2014": 6004916,
-            "2015": 6440158,
-            "2016": 6990149,
-            "2017": 7535274
+          "nameEn": "Southern Asia",
+          "species": 41,
+          "ftypes": 158,
+          "sftypes": 173,
+          "timeseries": {
+            "2013": 1863987.8,
+            "2014": 1961824,
+            "2015": 2066007,
+            "2016": 2209889,
+            "2017": 2340574
           },
-          "Countries": [
+          "countries": [
             {
-              "Name": "Bangladesh",
-              "Ccode": "BGD",
-              "Species": 6,
-              "FTypes": 57,
-              "SFTypes": 90,
-              "Timeseries": {
-                "2013": 1364701,
-                "2014": 1418284,
-                "2015": 1503078,
-                "2016": 1607878,
-                "2017": 1686841
+              "nameEn": "Afghanistan",
+              "iso3": "AFG",
+              "species": 2,
+              "ftypes": 5,
+              "sftypes": 0,
+              "timeseries": {
+                "2013": 4110,
+                "2014": 4760,
+                "2015": 5450,
+                "2016": 6150,
+                "2017": 7000
               }
             },
             {
-              "Name": "India",
-              "Ccode": "IND",
-              "Species": 7,
-              "FTypes": 95,
-              "SFTypes": 56,
-              "Timeseries": {
-                "2013": 4244160,
-                "2014": 4586632,
-                "2015": 4937080,
-                "2016": 5382271,
-                "2017": 5848433
+              "nameEn": "Bangladesh",
+              "iso3": "BGD",
+              "species": 31,
+              "ftypes": 153,
+              "sftypes": 173,
+              "timeseries": {
+                "2013": 1859808,
+                "2014": 1956925,
+                "2015": 2060408,
+                "2016": 2203554,
+                "2017": 2333352
               }
-            }
-          ]
-        },
+            },
 ...
 }
 ```  
