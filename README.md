@@ -14,6 +14,15 @@ Install project dependencies
 npm install
 ```
 
+## Dependencies
+
+Build and install AqGR-lib.  
+Clone aqgr-lib and follow the instructions in the README.md.
+From this folder run:
+```
+npm link aqgr-lib 
+```
+
 ## Development server
 
 Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -53,6 +62,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Generate screenshots
 
 Run `npm run screenshots` to generate screenshots of the app in the screenshots folder.
+
+## Known issues
+
+* Error: ENOSPC: System limit for number of file watchers reached, watch '  
+This is caused by the size of the json db. Solution (tested on Linux):  
+`export CHOKIDAR_USEPOLLING=1`
 
 ## Further help
 
