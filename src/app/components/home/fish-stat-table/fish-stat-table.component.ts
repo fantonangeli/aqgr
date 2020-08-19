@@ -15,8 +15,6 @@ import { faChartPie } from '@fortawesome/free-solid-svg-icons';
     encapsulation: ViewEncapsulation.None
 })
 export class FishStatTableComponent implements OnChanges {
-    fishdata:Object={};
-    fishTableData=[];
     data=[];
     disableTonnes=false;
     @Input() filterValues: Filter[]=[];
@@ -27,44 +25,65 @@ export class FishStatTableComponent implements OnChanges {
     constructor(private _fishstatService: FishStatCultSpecCountriesService, private _utilsService:UtilsService, private _logger:LoggerService){
     }
 
+    // /**
+    //  * load data for the table and set it to fishTableData
+    //  *
+    //  * @param {Object[]} data the data from the service
+    //  */
+    // loadTableData(data){
+    //     let newdata;
+    //
+    //     if(!data || !data.Continents) return;
+    //
+    //     newdata=JSON.parse(JSON.stringify(data.Continents));
+    //
+    //     return newdata.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(e=>[
+    //         e.Name,
+    //         Number(e.Timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
+    //         e.Species,
+    //         e.FTypes,
+    //         e.SFTypes,
+    //         e.Regions.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(r=>[
+    //             r.Name,
+    //             Number(e.Timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
+    //             r.Species,
+    //             r.FTypes,
+    //             r.SFTypes,
+    //             r.Countries.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(c=>{
+    //                 let rv=[
+    //                     c.Name,
+    //                     Number(e.Timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
+    //                     c.Species,
+    //                     c.FTypes,
+    //                     c.SFTypes,
+    //                 ];
+    //                 rv["Ccode"]=c.Ccode;
+    //                 return rv;
+    //             })
+    //
+    //         ])
+    //     ]);
+    // }
+
     /**
-     * load data for the table and set it to fishTableData
+     * load data for the table and set it to tableData
      *
      * @param {Object[]} data the data from the service
      */
     loadTableData(data){
         let newdata;
 
-        if(!data || !data.Continents) return;
+        if(!data || !data.continents) return;
 
-        newdata=JSON.parse(JSON.stringify(data.Continents));
+        newdata=JSON.parse(JSON.stringify(data.continents));
 
-        return newdata.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(e=>[
-            e.Name,
-            Number(e.Timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
-            e.Species,
-            e.FTypes,
-            e.SFTypes,
-            e.Regions.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(r=>[
-                r.Name,
-                Number(e.Timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
-                r.Species,
-                r.FTypes,
-                r.SFTypes,
-                r.Countries.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(c=>{
-                    let rv=[
-                        c.Name,
-                        Number(e.Timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
-                        c.Species,
-                        c.FTypes,
-                        c.SFTypes,
-                    ];
-                    rv["Ccode"]=c.Ccode;
-                    return rv;
-                })
-
-            ])
-        ]);
+        return newdata.map(e=>({
+            ...e,
+            "_children": e.regions.map(r=>({
+                ...r,
+                "_children":r.countries
+            }))
+        }));
     }
 
     /**
@@ -75,8 +94,7 @@ export class FishStatTableComponent implements OnChanges {
     fetchStats(params:SearchServiceParams=new SearchServiceParams()) {
         this._fishstatService.getAll(params).subscribe(
             (data)=>{
-                this.fishdata=data;
-                this.fishTableData=this.loadTableData(data);
+                this.data=this.loadTableData(data);
             },
             (error)=>{
                 this._logger.error("Network error: ", error);

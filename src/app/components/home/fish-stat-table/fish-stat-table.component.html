@@ -1,5 +1,39 @@
-<app-tree-table [data]="fishTableData" [columns]="['Geographic area', 'Total production in tonnes '+lastTimeseriesYear, 'Species', 'Primary farmed types', 'Secondary farmed types']" [enableTotal]="true" [ngClass]="{'disable-tonnes':disableTonnes}">
-    <ng-template #firstFieldAppendTpl let-element>
-        <a [routerLink]="['/country',element.Ccode]" *ngIf="element.Ccode" routerLinkActive="router-link-active"><fa-icon *ngIf="!element.children" [icon]="faChartPie"></fa-icon></a>
-    </ng-template>
-</app-tree-table>
+<!-- <app&#45;tree&#45;table [data]="fishTableData" [columns]="['', ', '', '', '']" [enableTotal]="true" [ngClass]="{'disable&#45;tonnes':disableTonnes}"> -->
+<!--     <ng&#45;template #firstFieldAppendTpl let&#45;element> -->
+<!--         <a [routerLink]="['/country',element.Ccode]" *ngIf="element.Ccode" routerLinkActive="router&#45;link&#45;active"><fa&#45;icon *ngIf="!element.children" [icon]="faChartPie"></fa&#45;icon></a> -->
+<!--     </ng&#45;template> -->
+<!-- </app&#45;tree&#45;table> -->
+
+<aqgrlib-tree-table [data]="data" [ngClass]="{'disable-tonnes':disableTonnes}">
+
+    <aqgrlib-tree-table-column prop="nameEn">
+        <ng-template aqgrlibTreeTableColumnHeader>Geographic area</ng-template>
+        <ng-template let-value="value" let-row="row" let-level="level" aqgrlibTreeTableColumnCell>
+            {{value}}
+            <a [routerLink]="['/country',row.iso3]" *ngIf="level===2" routerLinkActive="router-link-active"><fa-icon [icon]="faChartPie"></fa-icon></a>
+        </ng-template>
+    </aqgrlib-tree-table-column>
+
+    <aqgrlib-tree-table-column prop="timeseries">
+        <ng-template aqgrlibTreeTableColumnHeader>Total production in tonnes {{lastTimeseriesYear}}</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value[lastTimeseriesYear] | number:'1.2-2'}}</ng-template>
+    </aqgrlib-tree-table-column>
+
+
+    <aqgrlib-tree-table-column prop="species">
+        {{value}}
+        <ng-template aqgrlibTreeTableColumnHeader>Species</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value}}</ng-template>
+    </aqgrlib-tree-table-column>
+
+    <aqgrlib-tree-table-column prop="ftypes" aqgrlibTreeTableColumn>
+        <ng-template aqgrlibTreeTableColumnHeader>Primary farmed types</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value}}</ng-template>
+    </aqgrlib-tree-table-column>
+
+    <aqgrlib-tree-table-column prop="sftypes" cellClass="status" aqgrlibTreeTableColumn>
+        <ng-template aqgrlibTreeTableColumnHeader>Secondary farmed types</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value}}</ng-template>
+    </aqgrlib-tree-table-column>
+
+</aqgrlib-tree-table>
