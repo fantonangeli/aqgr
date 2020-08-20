@@ -1,213 +1,72 @@
 {
-  "Continents": [
+  "continents": [
     {
-      "Name": "Asia",
-      "Species": 88,
-      "FTypes": 894,
-      "SFTypes": 808,
-      "Timeseries": {
-        "2013": 78795067.5,
-        "2014": 82439267.64,
-        "2015": 86710022.07,
-        "2016": 90411470.48,
-        "2017": 93342628.58
+      "nameEn": "Africa",
+      "species": 23,
+      "ftypes": 4,
+      "sftypes": 0,
+      "timeseries": {
+        "2013": 2249.88,
+        "2014": 2715.99,
+        "2015": 2204.99,
+        "2016": 2031,
+        "2017": 2755
       },
-      "Regions": [
+      "regions": [
         {
-          "Name": "Southern Asia",
-          "Species": 13,
-          "FTypes": 152,
-          "SFTypes": 146,
-          "Timeseries": {
-            "2013": 5608861,
-            "2014": 6004916,
-            "2015": 6440158,
-            "2016": 6990149,
-            "2017": 7535274
+          "nameEn": "Middle Africa",
+          "species": 2,
+          "ftypes": 0,
+          "sftypes": 0,
+          "timeseries": {
+            "2013": 57,
+            "2014": 305,
+            "2015": 872,
+            "2016": 655,
+            "2017": 1339
           },
-          "Countries": [
+          "countries": [
             {
-              "Name": "Bangladesh",
-              "Ccode": "BGD",
-              "Species": 6,
-              "FTypes": 57,
-              "SFTypes": 90,
-              "Timeseries": {
-                "2013": 1364701,
-                "2014": 1418284,
-                "2015": 1503078,
-                "2016": 1607878,
-                "2017": 1686841
-              }
-            },
-            {
-              "Name": "India",
-              "Ccode": "IND",
-              "Species": 7,
-              "FTypes": 95,
-              "SFTypes": 56,
-              "Timeseries": {
-                "2013": 4244160,
-                "2014": 4586632,
-                "2015": 4937080,
-                "2016": 5382271,
-                "2017": 5848433
+              "nameEn": "Angola",
+              "iso3": "AGO",
+              "species": 2,
+              "ftypes": 0,
+              "sftypes": 0,
+              "timeseries": {
+                "2013": 57,
+                "2014": 305,
+                "2015": 872,
+                "2016": 655,
+                "2017": 1339
               }
             }
           ]
         },
         {
-          "Name": "Eastern Asia",
-          "Species": 49,
-          "FTypes": 506,
-          "SFTypes": 437,
-          "Timeseries": {
-            "2013": 54577332,
-            "2014": 56661130,
-            "2015": 58975709,
-            "2016": 61987217,
-            "2017": 64368540
+          "nameEn": "Northern Africa",
+          "species": 21,
+          "ftypes": 4,
+          "sftypes": 0,
+          "timeseries": {
+            "2013": 2192.88,
+            "2014": 2410.99,
+            "2015": 1332.99,
+            "2016": 1376,
+            "2017": 1416
           },
-          "Countries": [
+          "countries": [
             {
-              "Name": "China",
-              "Ccode": "CHN",
-              "Species": 43,
-              "FTypes": 445,
-              "SFTypes": 368,
-              "Timeseries": {
-                "2013": 52751022,
-                "2014": 54864225,
-                "2015": 57094065,
-                "2016": 59954770,
-                "2017": 61887839
-              }
-            },
-            {
-              "Name": "Japan",
-              "Ccode": "JPN",
-              "Species": 2,
-              "FTypes": 12,
-              "SFTypes": 15,
-              "Timeseries": {
-                "2013": 480367,
-                "2014": 459814,
-                "2015": 461750,
-                "2016": 459608,
-                "2017": 476900
-              }
-            },
-            {
-              "Name": "Korea, Republic of",
-              "Ccode": "KOR",
-              "Species": 4,
-              "FTypes": 49,
-              "SFTypes": 54,
-              "Timeseries": {
-                "2013": 1345943,
-                "2014": 1337091,
-                "2015": 1419894,
-                "2016": 1572839,
-                "2017": 2003801
-              }
-            }
-          ]
-        },
-        {
-          "Name": "South-Eastern Asia",
-          "Species": 26,
-          "FTypes": 236,
-          "SFTypes": 225,
-          "Timeseries": {
-            "2013": 18608874.5,
-            "2014": 19773221.64,
-            "2015": 21294155.07,
-            "2016": 21434104.48,
-            "2017": 21438814.58
-          },
-          "Countries": [
-            {
-              "Name": "Indonesia",
-              "Ccode": "IDN",
-              "Species": 10,
-              "FTypes": 130,
-              "SFTypes": 78,
-              "Timeseries": {
-                "2013": 12482321.3,
-                "2014": 13644995.12,
-                "2015": 14899285,
-                "2016": 15125145.1,
-                "2017": 14805600
-              }
-            },
-            {
-              "Name": "Malaysia",
-              "Ccode": "MYS",
-              "Species": 1,
-              "FTypes": 10,
-              "SFTypes": 0,
-              "Timeseries": {
-                "2013": 269431.2,
-                "2014": 245332,
-                "2015": 260760.3,
-                "2016": 205989,
-                "2017": 202965.58
-              }
-            },
-            {
-              "Name": "Myanmar",
-              "Ccode": "MMR",
-              "Species": 1,
-              "FTypes": 10,
-              "SFTypes": 0,
-              "Timeseries": {
-                "2013": 610400,
-                "2014": 586241,
-                "2015": 619511.94,
-                "2016": 615352.5,
-                "2017": 647973.9
-              }
-            },
-            {
-              "Name": "Philippines",
-              "Ccode": "PHL",
-              "Species": 3,
-              "FTypes": 21,
-              "SFTypes": 37,
-              "Timeseries": {
-                "2013": 1829786,
-                "2014": 1828619,
-                "2015": 1851300,
-                "2016": 1702098,
-                "2017": 1740089
-              }
-            },
-            {
-              "Name": "Thailand",
-              "Ccode": "THA",
-              "Species": 3,
-              "FTypes": 15,
-              "SFTypes": 16,
-              "Timeseries": {
-                "2013": 450192,
-                "2014": 423515.52,
-                "2015": 453741,
-                "2016": 479122,
-                "2017": 486082
-              }
-            },
-            {
-              "Name": "Viet Nam",
-              "Ccode": "VNM",
-              "Species": 8,
-              "FTypes": 50,
-              "SFTypes": 94,
-              "Timeseries": {
-                "2013": 2966744,
-                "2014": 3044519,
-                "2015": 3209556.83,
-                "2016": 3306397.88,
-                "2017": 3556104.1
+              "nameEn": "Algeria",
+              "iso3": "DZA",
+              "species": 21,
+              "ftypes": 4,
+              "sftypes": 0,
+              "timeseries": {
+                "2013": 2192.88,
+                "2014": 2410.99,
+                "2015": 1332.99,
+                "2016": 1376,
+                "2017": 1416
               }
             }
           ]
@@ -215,193 +74,295 @@
       ]
     },
     {
-      "Name": "Americas",
-      "Species": 5,
-      "FTypes": 62,
-      "SFTypes": 57,
-      "Timeseries": {
-        "2013": 1318475,
-        "2014": 1546208,
-        "2015": 1566130,
-        "2016": 1606349,
-        "2017": 1841501.9
+      "nameEn": "Americas",
+      "species": 25,
+      "ftypes": 0,
+      "sftypes": 0,
+      "timeseries": {
+        "2013": 3836.12,
+        "2014": 4015.71,
+        "2015": 3672.65,
+        "2016": 3683.48,
+        "2017": 3577.76
       },
-      "Regions": [
+      "regions": [
         {
-          "Name": "South America",
-          "Species": 5,
-          "FTypes": 62,
-          "SFTypes": 57,
-          "Timeseries": {
-            "2013": 1318475,
-            "2014": 1546208,
-            "2015": 1566130,
-            "2016": 1606349,
-            "2017": 1841501.9
+          "nameEn": "Caribbean",
+          "species": 2,
+          "ftypes": 0,
+          "sftypes": 0,
+          "timeseries": {
+            "2013": 11,
+            "2014": 13,
+            "2015": 10,
+            "2016": 10,
+            "2017": 10
           },
-          "Countries": [
+          "countries": [
             {
-              "Name": "Brazil",
-              "Ccode": "BRA",
-              "Species": 1,
-              "FTypes": 12,
-              "SFTypes": 0,
-              "Timeseries": {
-                "2013": 169306,
-                "2014": 200000,
-                "2015": 219300,
-                "2016": 241000,
-                "2017": 290000
+              "nameEn": "Antigua and Barbuda",
+              "iso3": "ATG",
+              "species": 1,
+              "ftypes": 0,
+              "sftypes": 0,
+              "timeseries": {
+                "2013": 11,
+                "2014": 13,
+                "2015": 10,
+                "2016": 10,
+                "2017": 10
               }
             },
             {
-              "Name": "Chile",
-              "Ccode": "CHL",
-              "Species": 3,
-              "FTypes": 32,
-              "SFTypes": 43,
-              "Timeseries": {
-                "2013": 845169,
-                "2014": 1006208,
-                "2015": 943830,
-                "2016": 943349,
-                "2017": 1116501.9
-              }
-            },
-            {
-              "Name": "Ecuador",
-              "Ccode": "ECU",
-              "Species": 1,
-              "FTypes": 18,
-              "SFTypes": 14,
-              "Timeseries": {
-                "2013": 304000,
-                "2014": 340000,
-                "2015": 403000,
-                "2016": 422000,
-                "2017": 435000
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Name": "Africa",
-      "Species": 2,
-      "FTypes": 25,
-      "SFTypes": 37,
-      "Timeseries": {
-        "2013": 690994,
-        "2014": 807246,
-        "2015": 915000,
-        "2016": 955000,
-        "2017": 1037102
-      },
-      "Regions": [
-        {
-          "Name": "Northern Africa",
-          "Species": 2,
-          "FTypes": 25,
-          "SFTypes": 37,
-          "Timeseries": {
-            "2013": 690994,
-            "2014": 807246,
-            "2015": 915000,
-            "2016": 955000,
-            "2017": 1037102
-          },
-          "Countries": [
-            {
-              "Name": "Egypt",
-              "Ccode": "EGY",
-              "Species": 2,
-              "FTypes": 25,
-              "SFTypes": 37,
-              "Timeseries": {
-                "2013": 690994,
-                "2014": 807246,
-                "2015": 915000,
-                "2016": 955000,
-                "2017": 1037102
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Name": "Europe",
-      "Species": 2,
-      "FTypes": 21,
-      "SFTypes": 21,
-      "Timeseries": {
-        "2013": 1325805,
-        "2014": 1473561.96,
-        "2015": 1521345.8,
-        "2016": 1443724.64,
-        "2017": 1471698.19
-      },
-      "Regions": [
-        {
-          "Name": "Northern Europe",
-          "Species": 1,
-          "FTypes": 12,
-          "SFTypes": 21,
-          "Timeseries": {
-            "2013": 1168324,
-            "2014": 1258355.9,
-            "2015": 1303345.8,
-            "2016": 1233619.2,
-            "2017": 1236353
-          },
-          "Countries": [
-            {
-              "Name": "Norway",
-              "Ccode": "NOR",
-              "Species": 1,
-              "FTypes": 12,
-              "SFTypes": 21,
-              "Timeseries": {
-                "2013": 1168324,
-                "2014": 1258355.9,
-                "2015": 1303345.8,
-                "2016": 1233619.2,
-                "2017": 1236353
+              "nameEn": "Aruba",
+              "iso3": "ABW",
+              "species": 1,
+              "ftypes": 0,
+              "sftypes": 0,
+              "timeseries": {
+                "2013": 0,
+                "2014": 0,
+                "2015": 0,
+                "2016": 0,
+                "2017": 0
               }
             }
           ]
         },
         {
-          "Name": "Southern Europe",
-          "Species": 1,
-          "FTypes": 9,
-          "SFTypes": 0,
-          "Timeseries": {
-            "2013": 157481,
-            "2014": 215206.06,
-            "2015": 218000,
-            "2016": 210105.44,
-            "2017": 235345.19
+          "nameEn": "South America",
+          "species": 23,
+          "ftypes": 0,
+          "sftypes": 0,
+          "timeseries": {
+            "2013": 3825.12,
+            "2014": 4002.71,
+            "2015": 3662.65,
+            "2016": 3673.48,
+            "2017": 3567.76
           },
-          "Countries": [
+          "countries": [
             {
-              "Name": "Spain",
-              "Ccode": "ESP",
-              "Species": 1,
-              "FTypes": 9,
-              "SFTypes": 0,
-              "Timeseries": {
-                "2013": 157481,
-                "2014": 215206.06,
-                "2015": 218000,
-                "2016": 210105.44,
-                "2017": 235345.19
+              "nameEn": "Argentina",
+              "iso3": "ARG",
+              "species": 23,
+              "ftypes": 0,
+              "sftypes": 0,
+              "timeseries": {
+                "2013": 3825.12,
+                "2014": 4002.71,
+                "2015": 3662.65,
+                "2016": 3673.48,
+                "2017": 3567.76
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nameEn": "Asia",
+      "species": 10,
+      "ftypes": 29,
+      "sftypes": 0,
+      "timeseries": {
+        "2013": 15810,
+        "2014": 18685,
+        "2015": 20580,
+        "2016": 22531,
+        "2017": 23690
+      },
+      "regions": [
+        {
+          "nameEn": "Southern Asia",
+          "species": 2,
+          "ftypes": 5,
+          "sftypes": 0,
+          "timeseries": {
+            "2013": 4110,
+            "2014": 4760,
+            "2015": 5450,
+            "2016": 6150,
+            "2017": 7000
+          },
+          "countries": [
+            {
+              "nameEn": "Afghanistan",
+              "iso3": "AFG",
+              "species": 2,
+              "ftypes": 5,
+              "sftypes": 0,
+              "timeseries": {
+                "2013": 4110,
+                "2014": 4760,
+                "2015": 5450,
+                "2016": 6150,
+                "2017": 7000
+              }
+            }
+          ]
+        },
+        {
+          "nameEn": "Western Asia",
+          "species": 8,
+          "ftypes": 24,
+          "sftypes": 0,
+          "timeseries": {
+            "2013": 11700,
+            "2014": 13925,
+            "2015": 15130,
+            "2016": 16381,
+            "2017": 16690
+          },
+          "countries": [
+            {
+              "nameEn": "Armenia",
+              "iso3": "ARM",
+              "species": 8,
+              "ftypes": 24,
+              "sftypes": 0,
+              "timeseries": {
+                "2013": 11700,
+                "2014": 13925,
+                "2015": 15130,
+                "2016": 16381,
+                "2017": 16690
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nameEn": "Europe",
+      "species": 14,
+      "ftypes": 0,
+      "sftypes": 0,
+      "timeseries": {
+        "2013": 3700,
+        "2014": 4000,
+        "2015": 3495,
+        "2016": 4750,
+        "2017": 4430
+      },
+      "regions": [
+        {
+          "nameEn": "Southern Europe",
+          "species": 14,
+          "ftypes": 0,
+          "sftypes": 0,
+          "timeseries": {
+            "2013": 3700,
+            "2014": 4000,
+            "2015": 3495,
+            "2016": 4750,
+            "2017": 4430
+          },
+          "countries": [
+            {
+              "nameEn": "Albania",
+              "iso3": "ALB",
+              "species": 14,
+              "ftypes": 0,
+              "sftypes": 0,
+              "timeseries": {
+                "2013": 3700,
+                "2014": 4000,
+                "2015": 3495,
+                "2016": 4750,
+                "2017": 4430
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nameEn": "Oceania",
+      "species": 29,
+      "ftypes": 7,
+      "sftypes": 15,
+      "timeseries": {
+        "2013": 79843.92,
+        "2014": 73927.61,
+        "2015": 87905.24,
+        "2016": 96792.29,
+        "2017": 93984.8
+      },
+      "regions": [
+        {
+          "nameEn": "Australia and New Zealand",
+          "species": 28,
+          "ftypes": 7,
+          "sftypes": 15,
+          "timeseries": {
+            "2013": 79823.92,
+            "2014": 73907.61,
+            "2015": 87885.24,
+            "2016": 96772.29,
+            "2017": 93964.8
+          },
+          "countries": [
+            {
+              "nameEn": "Australia",
+              "iso3": "AUS",
+              "species": 28,
+              "ftypes": 7,
+              "sftypes": 15,
+              "timeseries": {
+                "2013": 79823.92,
+                "2014": 73907.61,
+                "2015": 87885.24,
+                "2016": 96772.29,
+                "2017": 93964.8
+              }
+            }
+          ]
+        },
+        {
+          "nameEn": "Polynesia",
+          "species": 1,
+          "ftypes": 0,
+          "sftypes": 0,
+          "timeseries": {
+            "2013": 20,
+            "2014": 20,
+            "2015": 20,
+            "2016": 20,
+            "2017": 20
+          },
+          "countries": [
+            {
+              "nameEn": "American Samoa",
+              "iso3": "ASM",
+              "species": 1,
+              "ftypes": 0,
+              "sftypes": 0,
+              "timeseries": {
+                "2013": 20,
+                "2014": 20,
+                "2015": 20,
+                "2016": 20,
+                "2017": 20
               }
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "total": {
+    "nameEn": "Total",
+    "iso3": "AFG",
+    "species": 101,
+    "ftypes": 40,
+    "sftypes": 15,
+    "timeseries": {
+      "2013": 105439.92,
+      "2014": 103344.31,
+      "2015": 117857.88,
+      "2016": 129787.77,
+      "2017": 128437.56
+    }
+  }
 }

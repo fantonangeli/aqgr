@@ -1,974 +1,975 @@
-[
-  {
-    "name": "Aquatic plants",
-    "timeseries": {
-      "2017": 17533590
+{
+  "taxonomies": [
+    {
+      "name": "Aquatic plants",
+      "timeseries": {
+        "2017": 17533590
+      },
+      "ftypes": 102,
+      "sftypes": 0,
+      "native": "",
+      "species": [
+        {
+          "name": "Algae",
+          "timeseries": {
+            "2017": 664530
+          },
+          "ftypes": 9,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "SWX"
+        },
+        {
+          "name": "Enteromorpha clathrata",
+          "timeseries": {
+            "2017": 3400
+          },
+          "ftypes": 8,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "EOW"
+        },
+        {
+          "name": "Eucheuma spp",
+          "timeseries": {
+            "2017": 56290
+          },
+          "ftypes": 12,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "EMX"
+        },
+        {
+          "name": "Gelidium amansii",
+          "timeseries": {
+            "2017": 0
+          },
+          "ftypes": 0,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "GDY"
+        },
+        {
+          "name": "Gracilaria spp",
+          "timeseries": {
+            "2017": 3086740
+          },
+          "ftypes": 9,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "GLS"
+        },
+        {
+          "name": "Haematococcus pluvialis",
+          "timeseries": {
+            "2017": 200
+          },
+          "ftypes": 10,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "HZP"
+        },
+        {
+          "name": "Laminaria japonica",
+          "timeseries": {
+            "2017": 10049720
+          },
+          "ftypes": 14,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "LNJ"
+        },
+        {
+          "name": "Porphyra spp",
+          "timeseries": {
+            "2017": 1733050
+          },
+          "ftypes": 10,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "FYS"
+        },
+        {
+          "name": "Sargassum fusiforme",
+          "timeseries": {
+            "2017": 199970
+          },
+          "ftypes": 16,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "GQB"
+        },
+        {
+          "name": "Spirulina spp",
+          "timeseries": {
+            "2017": 71740
+          },
+          "ftypes": 11,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "SIZ"
+        },
+        {
+          "name": "Undaria pinnatifida",
+          "timeseries": {
+            "2017": 1667950
+          },
+          "ftypes": 3,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "UDP"
+        }
+      ]
     },
-    "ftypes": 102,
-    "sftypes": 0,
-    "native": "",
-    "species": [
-      {
-        "name": "Algae",
-        "timeseries": {
-          "2017": 664530
-        },
-        "ftypes": 9,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "SWX"
+    {
+      "name": "Crustaceans",
+      "timeseries": {
+        "2017": 4549725
       },
-      {
-        "name": "Enteromorpha clathrata",
-        "timeseries": {
-          "2017": 3400
+      "ftypes": 107,
+      "sftypes": 0,
+      "native": "",
+      "species": [
+        {
+          "name": "Brachyura",
+          "timeseries": {
+            "2017": 14278
+          },
+          "ftypes": 4,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "CRA"
         },
-        "ftypes": 8,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "EOW"
-      },
-      {
-        "name": "Eucheuma spp",
-        "timeseries": {
-          "2017": 56290
+        {
+          "name": "Eriocheir sinensis",
+          "timeseries": {
+            "2017": 750945
+          },
+          "ftypes": 11,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "ERS"
         },
-        "ftypes": 12,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "EMX"
-      },
-      {
-        "name": "Gelidium amansii",
-        "timeseries": {
-          "2017": 0
+        {
+          "name": "Macrobrachium nipponense",
+          "timeseries": {
+            "2017": 240739
+          },
+          "ftypes": 5,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "MNX"
         },
-        "ftypes": 0,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "GDY"
-      },
-      {
-        "name": "Gracilaria spp",
-        "timeseries": {
-          "2017": 3086740
+        {
+          "name": "Macrobrachium rosenbergii",
+          "timeseries": {
+            "2017": 137360
+          },
+          "ftypes": 5,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "PRF"
         },
-        "ftypes": 9,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "GLS"
-      },
-      {
-        "name": "Haematococcus pluvialis",
-        "timeseries": {
-          "2017": 200
+        {
+          "name": "Palaemonidae",
+          "timeseries": {
+            "2017": 68292
+          },
+          "ftypes": 7,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "PPZ"
         },
-        "ftypes": 10,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "HZP"
-      },
-      {
-        "name": "Laminaria japonica",
-        "timeseries": {
-          "2017": 10049720
+        {
+          "name": "Penaeus chinensis",
+          "timeseries": {
+            "2017": 37458
+          },
+          "ftypes": 6,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "FLP"
         },
-        "ftypes": 14,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "LNJ"
-      },
-      {
-        "name": "Porphyra spp",
-        "timeseries": {
-          "2017": 1733050
+        {
+          "name": "Penaeus japonicus",
+          "timeseries": {
+            "2017": 52466
+          },
+          "ftypes": 9,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "KUP"
         },
-        "ftypes": 10,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "FYS"
-      },
-      {
-        "name": "Sargassum fusiforme",
-        "timeseries": {
-          "2017": 199970
+        {
+          "name": "Penaeus monodon",
+          "timeseries": {
+            "2017": 75227
+          },
+          "ftypes": 7,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "GIT"
         },
-        "ftypes": 16,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "GQB"
-      },
-      {
-        "name": "Spirulina spp",
-        "timeseries": {
-          "2017": 71740
+        {
+          "name": "Penaeus spp",
+          "timeseries": {
+            "2017": 99212
+          },
+          "ftypes": 7,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "PEN"
         },
-        "ftypes": 11,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "SIZ"
-      },
-      {
-        "name": "Undaria pinnatifida",
-        "timeseries": {
-          "2017": 1667950
+        {
+          "name": "Penaeus vannamei",
+          "timeseries": {
+            "2017": 1672287
+          },
+          "ftypes": 24,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "PNV"
         },
-        "ftypes": 3,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "UDP"
-      }
-    ]
-  },
-  {
-    "name": "Crustaceans",
-    "timeseries": {
-      "2017": 4549725
+        {
+          "name": "Portunidae",
+          "timeseries": {
+            "2017": 0
+          },
+          "ftypes": 0,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "SWM"
+        },
+        {
+          "name": "Portunus spp",
+          "timeseries": {
+            "2017": 119777
+          },
+          "ftypes": 11,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "CRS"
+        },
+        {
+          "name": "Procambarus clarkii",
+          "timeseries": {
+            "2017": 1129708
+          },
+          "ftypes": 6,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "RCW"
+        },
+        {
+          "name": "Scylla paramamosain",
+          "timeseries": {
+            "2017": 151976
+          },
+          "ftypes": 5,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "YAR"
+        }
+      ]
     },
-    "ftypes": 107,
-    "sftypes": 0,
-    "native": "",
-    "species": [
-      {
-        "name": "Brachyura",
-        "timeseries": {
-          "2017": 14278
-        },
-        "ftypes": 4,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "CRA"
+    {
+      "name": "Diadromous fishes",
+      "timeseries": {
+        "2017": 377636
       },
-      {
-        "name": "Eriocheir sinensis",
-        "timeseries": {
-          "2017": 750945
+      "ftypes": 35,
+      "sftypes": 0,
+      "native": "",
+      "species": [
+        {
+          "name": "Acipenseridae",
+          "timeseries": {
+            "2017": 83058
+          },
+          "ftypes": 7,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "STU"
         },
-        "ftypes": 11,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "ERS"
-      },
-      {
-        "name": "Macrobrachium nipponense",
-        "timeseries": {
-          "2017": 240739
+        {
+          "name": "Anguilla japonica",
+          "timeseries": {
+            "2017": 217263
+          },
+          "ftypes": 9,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "ELJ"
         },
-        "ftypes": 5,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "MNX"
-      },
-      {
-        "name": "Macrobrachium rosenbergii",
-        "timeseries": {
-          "2017": 137360
+        {
+          "name": "Hypomesus olidus",
+          "timeseries": {
+            "2017": 12067
+          },
+          "ftypes": 5,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "PSM"
         },
-        "ftypes": 5,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "PRF"
-      },
-      {
-        "name": "Palaemonidae",
-        "timeseries": {
-          "2017": 68292
+        {
+          "name": "Oncorhynchus mykiss",
+          "timeseries": {
+            "2017": 41460
+          },
+          "ftypes": 8,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "TRR"
         },
-        "ftypes": 7,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "PPZ"
-      },
-      {
-        "name": "Penaeus chinensis",
-        "timeseries": {
-          "2017": 37458
+        {
+          "name": "Protosalanx hyalocranius",
+          "timeseries": {
+            "2017": 20699
+          },
+          "ftypes": 6,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "PRS"
         },
-        "ftypes": 6,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "FLP"
-      },
-      {
-        "name": "Penaeus japonicus",
-        "timeseries": {
-          "2017": 52466
-        },
-        "ftypes": 9,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "KUP"
-      },
-      {
-        "name": "Penaeus monodon",
-        "timeseries": {
-          "2017": 75227
-        },
-        "ftypes": 7,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "GIT"
-      },
-      {
-        "name": "Penaeus spp",
-        "timeseries": {
-          "2017": 99212
-        },
-        "ftypes": 7,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "PEN"
-      },
-      {
-        "name": "Penaeus vannamei",
-        "timeseries": {
-          "2017": 1672287
-        },
-        "ftypes": 24,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "PNV"
-      },
-      {
-        "name": "Portunidae",
-        "timeseries": {
-          "2017": 0
-        },
-        "ftypes": 0,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "SWM"
-      },
-      {
-        "name": "Portunus spp",
-        "timeseries": {
-          "2017": 119777
-        },
-        "ftypes": 11,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "CRS"
-      },
-      {
-        "name": "Procambarus clarkii",
-        "timeseries": {
-          "2017": 1129708
-        },
-        "ftypes": 6,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "RCW"
-      },
-      {
-        "name": "Scylla paramamosain",
-        "timeseries": {
-          "2017": 151976
-        },
-        "ftypes": 5,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "YAR"
-      }
-    ]
-  },
-  {
-    "name": "Diadromous fishes",
-    "timeseries": {
-      "2017": 377636
+        {
+          "name": "Salmonoidei",
+          "timeseries": {
+            "2017": 3089
+          },
+          "ftypes": 0,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "SLX"
+        }
+      ]
     },
-    "ftypes": 35,
-    "sftypes": 0,
-    "native": "",
-    "species": [
-      {
-        "name": "Acipenseridae",
-        "timeseries": {
-          "2017": 83058
-        },
-        "ftypes": 7,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "STU"
+    {
+      "name": "Freshwater fishes",
+      "timeseries": {
+        "2017": 25025844
       },
-      {
-        "name": "Anguilla japonica",
-        "timeseries": {
-          "2017": 217263
+      "ftypes": 209,
+      "sftypes": 0,
+      "native": "",
+      "species": [
+        {
+          "name": "Carassius spp",
+          "timeseries": {
+            "2017": 2817989
+          },
+          "ftypes": 15,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "WDX"
         },
-        "ftypes": 9,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "ELJ"
-      },
-      {
-        "name": "Hypomesus olidus",
-        "timeseries": {
-          "2017": 12067
+        {
+          "name": "Channa argus",
+          "timeseries": {
+            "2017": 483141
+          },
+          "ftypes": 8,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "CNA"
         },
-        "ftypes": 5,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "PSM"
-      },
-      {
-        "name": "Oncorhynchus mykiss",
-        "timeseries": {
-          "2017": 41460
+        {
+          "name": "Cirrhinus molitorella",
+          "timeseries": {
+            "2017": 0
+          },
+          "ftypes": 0,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "MUC"
         },
-        "ftypes": 8,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "TRR"
-      },
-      {
-        "name": "Protosalanx hyalocranius",
-        "timeseries": {
-          "2017": 20699
+        {
+          "name": "Ctenopharyngodon idellus",
+          "timeseries": {
+            "2017": 5345641
+          },
+          "ftypes": 12,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "FCG"
         },
-        "ftypes": 6,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "PRS"
-      },
-      {
-        "name": "Salmonoidei",
-        "timeseries": {
-          "2017": 3089
+        {
+          "name": "Cyprinus carpio",
+          "timeseries": {
+            "2017": 3004345
+          },
+          "ftypes": 11,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "FCP"
         },
-        "ftypes": 0,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "SLX"
-      }
-    ]
-  },
-  {
-    "name": "Freshwater fishes",
-    "timeseries": {
-      "2017": 25025844
+        {
+          "name": "Hypophthalmichthys molitrix",
+          "timeseries": {
+            "2017": 3852813
+          },
+          "ftypes": 14,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "SVC"
+        },
+        {
+          "name": "Hypophthalmichthys nobilis",
+          "timeseries": {
+            "2017": 3097952
+          },
+          "ftypes": 11,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "BIC"
+        },
+        {
+          "name": "Ictalurus punctatus",
+          "timeseries": {
+            "2017": 227454
+          },
+          "ftypes": 9,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "ITP"
+        },
+        {
+          "name": "Leiocassis longirostris",
+          "timeseries": {
+            "2017": 21331
+          },
+          "ftypes": 4,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "LLZ"
+        },
+        {
+          "name": "Megalobrama amblycephala",
+          "timeseries": {
+            "2017": 833393
+          },
+          "ftypes": 12,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "WUB"
+        },
+        {
+          "name": "Micropterus salmoides",
+          "timeseries": {
+            "2017": 456888
+          },
+          "ftypes": 7,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "MPS"
+        },
+        {
+          "name": "Misgurnus anguillicaudatus",
+          "timeseries": {
+            "2017": 394691
+          },
+          "ftypes": 14,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "KUR"
+        },
+        {
+          "name": "Monopterus albus",
+          "timeseries": {
+            "2017": 358295
+          },
+          "ftypes": 10,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "FLT"
+        },
+        {
+          "name": "Mylopharyngodon piceus",
+          "timeseries": {
+            "2017": 684502
+          },
+          "ftypes": 10,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "BKC"
+        },
+        {
+          "name": "Oreochromis aureus x O. niloticus",
+          "timeseries": {
+            "2017": 396200
+          },
+          "ftypes": 13,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "OXW"
+        },
+        {
+          "name": "Oreochromis niloticus",
+          "timeseries": {
+            "2017": 1188480
+          },
+          "ftypes": 10,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "TLN"
+        },
+        {
+          "name": "Osteichthyes",
+          "timeseries": {
+            "2017": 582689
+          },
+          "ftypes": 11,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "FRF"
+        },
+        {
+          "name": "Pelteobagrus fulvidraco",
+          "timeseries": {
+            "2017": 480032
+          },
+          "ftypes": 10,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "YCH"
+        },
+        {
+          "name": "Piaractus brachypomus",
+          "timeseries": {
+            "2017": 82119
+          },
+          "ftypes": 8,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "CSD"
+        },
+        {
+          "name": "Silurus asotus",
+          "timeseries": {
+            "2017": 382306
+          },
+          "ftypes": 11,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "SRO"
+        },
+        {
+          "name": "Siniperca chuatsi",
+          "timeseries": {
+            "2017": 335583
+          },
+          "ftypes": 9,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "SIN"
+        }
+      ]
     },
-    "ftypes": 209,
-    "sftypes": 0,
-    "native": "",
-    "species": [
-      {
-        "name": "Carassius spp",
-        "timeseries": {
-          "2017": 2817989
-        },
-        "ftypes": 15,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "WDX"
+    {
+      "name": "Marine fishes",
+      "timeseries": {
+        "2017": 1425672
       },
-      {
-        "name": "Channa argus",
-        "timeseries": {
-          "2017": 483141
+      "ftypes": 109,
+      "sftypes": 0,
+      "native": "",
+      "species": [
+        {
+          "name": "Bothidae",
+          "timeseries": {
+            "2017": 60737
+          },
+          "ftypes": 6,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "LEF"
         },
-        "ftypes": 8,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "CNA"
-      },
-      {
-        "name": "Cirrhinus molitorella",
-        "timeseries": {
-          "2017": 0
+        {
+          "name": "Epinephelus spp",
+          "timeseries": {
+            "2017": 131536
+          },
+          "ftypes": 8,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "GPX"
         },
-        "ftypes": 0,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "MUC"
-      },
-      {
-        "name": "Ctenopharyngodon idellus",
-        "timeseries": {
-          "2017": 5345641
+        {
+          "name": "Larimichthys croceus",
+          "timeseries": {
+            "2017": 177640
+          },
+          "ftypes": 8,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "LYC"
         },
-        "ftypes": 12,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "FCG"
-      },
-      {
-        "name": "Cyprinus carpio",
-        "timeseries": {
-          "2017": 3004345
+        {
+          "name": "Lateolabrax japonicus",
+          "timeseries": {
+            "2017": 156595
+          },
+          "ftypes": 8,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "BAJ"
         },
-        "ftypes": 11,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "FCP"
-      },
-      {
-        "name": "Hypophthalmichthys molitrix",
-        "timeseries": {
-          "2017": 3852813
+        {
+          "name": "Osteichthyes",
+          "timeseries": {
+            "2017": 470067
+          },
+          "ftypes": 13,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "MZZ"
         },
-        "ftypes": 14,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "SVC"
-      },
-      {
-        "name": "Hypophthalmichthys nobilis",
-        "timeseries": {
-          "2017": 3097952
+        {
+          "name": "Pleuronectidae",
+          "timeseries": {
+            "2017": 13655
+          },
+          "ftypes": 4,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "PLZ"
         },
-        "ftypes": 11,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "BIC"
-      },
-      {
-        "name": "Ictalurus punctatus",
-        "timeseries": {
-          "2017": 227454
+        {
+          "name": "Psetta maxima",
+          "timeseries": {
+            "2017": 45500
+          },
+          "ftypes": 10,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "TUR"
         },
-        "ftypes": 9,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "ITP"
-      },
-      {
-        "name": "Leiocassis longirostris",
-        "timeseries": {
-          "2017": 21331
+        {
+          "name": "Rachycentron canadum",
+          "timeseries": {
+            "2017": 43657
+          },
+          "ftypes": 10,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "CBA"
         },
-        "ftypes": 4,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "LLZ"
-      },
-      {
-        "name": "Megalobrama amblycephala",
-        "timeseries": {
-          "2017": 833393
+        {
+          "name": "Sciaenops ocellatus",
+          "timeseries": {
+            "2017": 68559
+          },
+          "ftypes": 7,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "RDM"
         },
-        "ftypes": 12,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "WUB"
-      },
-      {
-        "name": "Micropterus salmoides",
-        "timeseries": {
-          "2017": 456888
+        {
+          "name": "Seriola spp",
+          "timeseries": {
+            "2017": 25933
+          },
+          "ftypes": 7,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "AMX"
         },
-        "ftypes": 7,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "MPS"
-      },
-      {
-        "name": "Misgurnus anguillicaudatus",
-        "timeseries": {
-          "2017": 394691
+        {
+          "name": "Sparidae",
+          "timeseries": {
+            "2017": 81107
+          },
+          "ftypes": 9,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "SBX"
         },
-        "ftypes": 14,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "KUR"
-      },
-      {
-        "name": "Monopterus albus",
-        "timeseries": {
-          "2017": 358295
+        {
+          "name": "Takifugu obscurus",
+          "timeseries": {
+            "2017": 6283
+          },
+          "ftypes": 2,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "TZO"
         },
-        "ftypes": 10,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "FLT"
-      },
-      {
-        "name": "Mylopharyngodon piceus",
-        "timeseries": {
-          "2017": 684502
+        {
+          "name": "Takifugu rubripes",
+          "timeseries": {
+            "2017": 24403
+          },
+          "ftypes": 8,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "TXK"
         },
-        "ftypes": 10,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "BKC"
-      },
-      {
-        "name": "Oreochromis aureus x O. niloticus",
-        "timeseries": {
-          "2017": 396200
-        },
-        "ftypes": 13,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "OXW"
-      },
-      {
-        "name": "Oreochromis niloticus",
-        "timeseries": {
-          "2017": 1188480
-        },
-        "ftypes": 10,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "TLN"
-      },
-      {
-        "name": "Osteichthyes",
-        "timeseries": {
-          "2017": 582689
-        },
-        "ftypes": 11,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "FRF"
-      },
-      {
-        "name": "Pelteobagrus fulvidraco",
-        "timeseries": {
-          "2017": 480032
-        },
-        "ftypes": 10,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "YCH"
-      },
-      {
-        "name": "Piaractus brachypomus",
-        "timeseries": {
-          "2017": 82119
-        },
-        "ftypes": 8,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "CSD"
-      },
-      {
-        "name": "Silurus asotus",
-        "timeseries": {
-          "2017": 382306
-        },
-        "ftypes": 11,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "SRO"
-      },
-      {
-        "name": "Siniperca chuatsi",
-        "timeseries": {
-          "2017": 335583
-        },
-        "ftypes": 9,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "SIN"
-      }
-    ]
-  },
-  {
-    "name": "Marine fishes",
-    "timeseries": {
-      "2017": 1425672
+        {
+          "name": "Trachinotus blochii",
+          "timeseries": {
+            "2017": 120000
+          },
+          "ftypes": 9,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "POO"
+        }
+      ]
     },
-    "ftypes": 109,
-    "sftypes": 0,
-    "native": "",
-    "species": [
-      {
-        "name": "Bothidae",
-        "timeseries": {
-          "2017": 60737
-        },
-        "ftypes": 6,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "LEF"
+    {
+      "name": "Miscellaneous aquatic animal products",
+      "timeseries": {
+        "2017": 941.45
       },
-      {
-        "name": "Epinephelus spp",
-        "timeseries": {
-          "2017": 131536
+      "ftypes": 0,
+      "sftypes": 0,
+      "native": "",
+      "species": [
+        {
+          "name": "Ex Pinctada spp",
+          "timeseries": {
+            "2017": 2.27
+          },
+          "ftypes": 0,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "OSH"
         },
-        "ftypes": 8,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "GPX"
-      },
-      {
-        "name": "Larimichthys croceus",
-        "timeseries": {
-          "2017": 177640
-        },
-        "ftypes": 8,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "LYC"
-      },
-      {
-        "name": "Lateolabrax japonicus",
-        "timeseries": {
-          "2017": 156595
-        },
-        "ftypes": 8,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "BAJ"
-      },
-      {
-        "name": "Osteichthyes",
-        "timeseries": {
-          "2017": 470067
-        },
-        "ftypes": 13,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "MZZ"
-      },
-      {
-        "name": "Pleuronectidae",
-        "timeseries": {
-          "2017": 13655
-        },
-        "ftypes": 4,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "PLZ"
-      },
-      {
-        "name": "Psetta maxima",
-        "timeseries": {
-          "2017": 45500
-        },
-        "ftypes": 10,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "TUR"
-      },
-      {
-        "name": "Rachycentron canadum",
-        "timeseries": {
-          "2017": 43657
-        },
-        "ftypes": 10,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "CBA"
-      },
-      {
-        "name": "Sciaenops ocellatus",
-        "timeseries": {
-          "2017": 68559
-        },
-        "ftypes": 7,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "RDM"
-      },
-      {
-        "name": "Seriola spp",
-        "timeseries": {
-          "2017": 25933
-        },
-        "ftypes": 7,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "AMX"
-      },
-      {
-        "name": "Sparidae",
-        "timeseries": {
-          "2017": 81107
-        },
-        "ftypes": 9,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "SBX"
-      },
-      {
-        "name": "Takifugu obscurus",
-        "timeseries": {
-          "2017": 6283
-        },
-        "ftypes": 2,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "TZO"
-      },
-      {
-        "name": "Takifugu rubripes",
-        "timeseries": {
-          "2017": 24403
-        },
-        "ftypes": 8,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "TXK"
-      },
-      {
-        "name": "Trachinotus blochii",
-        "timeseries": {
-          "2017": 120000
-        },
-        "ftypes": 9,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "POO"
-      }
-    ]
-  },
-  {
-    "name": "Miscellaneous aquatic animal products",
-    "timeseries": {
-      "2017": 941.45
+        {
+          "name": "Ex Unionidae",
+          "timeseries": {
+            "2017": 939.18
+          },
+          "ftypes": 0,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "FSH"
+        }
+      ]
     },
-    "ftypes": 0,
-    "sftypes": 0,
-    "native": "",
-    "species": [
-      {
-        "name": "Ex Pinctada spp",
-        "timeseries": {
-          "2017": 2.27
-        },
-        "ftypes": 0,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "OSH"
+    {
+      "name": "Miscellaneous aquatic animals",
+      "timeseries": {
+        "2017": 858940.16
       },
-      {
-        "name": "Ex Unionidae",
-        "timeseries": {
-          "2017": 939.18
+      "ftypes": 56,
+      "sftypes": 0,
+      "native": "",
+      "species": [
+        {
+          "name": "Apostichopus japonicus",
+          "timeseries": {
+            "2017": 219907
+          },
+          "ftypes": 5,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "CUJ"
         },
-        "ftypes": 0,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "FSH"
-      }
-    ]
-  },
-  {
-    "name": "Miscellaneous aquatic animals",
-    "timeseries": {
-      "2017": 858940.16
+        {
+          "name": "Invertebrata",
+          "timeseries": {
+            "2017": 87492
+          },
+          "ftypes": 15,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "INV"
+        },
+        {
+          "name": "Rana spp",
+          "timeseries": {
+            "2017": 91653
+          },
+          "ftypes": 7,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "FRG"
+        },
+        {
+          "name": "Rhopilema spp",
+          "timeseries": {
+            "2017": 82280
+          },
+          "ftypes": 10,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "JEL"
+        },
+        {
+          "name": "Strongylocentrotus spp",
+          "timeseries": {
+            "2017": 9708.16
+          },
+          "ftypes": 3,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "URC"
+        },
+        {
+          "name": "Testudinata",
+          "timeseries": {
+            "2017": 45798
+          },
+          "ftypes": 6,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "TUL"
+        },
+        {
+          "name": "Trionyx sinensis",
+          "timeseries": {
+            "2017": 322102
+          },
+          "ftypes": 10,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "TTS"
+        }
+      ]
     },
-    "ftypes": 56,
-    "sftypes": 0,
-    "native": "",
-    "species": [
-      {
-        "name": "Apostichopus japonicus",
-        "timeseries": {
-          "2017": 219907
-        },
-        "ftypes": 5,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "CUJ"
+    {
+      "name": "Molluscs",
+      "timeseries": {
+        "2017": 14586132
       },
-      {
-        "name": "Invertebrata",
-        "timeseries": {
-          "2017": 87492
+      "ftypes": 147,
+      "sftypes": 0,
+      "native": "",
+      "species": [
+        {
+          "name": "Anadara granosa",
+          "timeseries": {
+            "2017": 352619
+          },
+          "ftypes": 15,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "BLC"
         },
-        "ftypes": 15,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "INV"
-      },
-      {
-        "name": "Rana spp",
-        "timeseries": {
-          "2017": 91653
+        {
+          "name": "Anodonta cygnea",
+          "timeseries": {
+            "2017": 69436
+          },
+          "ftypes": 10,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "SWT"
         },
-        "ftypes": 7,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "FRG"
-      },
-      {
-        "name": "Rhopilema spp",
-        "timeseries": {
-          "2017": 82280
+        {
+          "name": "Atrina spp",
+          "timeseries": {
+            "2017": 16503
+          },
+          "ftypes": 5,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "TQY"
         },
-        "ftypes": 10,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "JEL"
-      },
-      {
-        "name": "Strongylocentrotus spp",
-        "timeseries": {
-          "2017": 9708.16
+        {
+          "name": "Cipangopaludina chinensis",
+          "timeseries": {
+            "2017": 98894
+          },
+          "ftypes": 7,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "GFZ"
         },
-        "ftypes": 3,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "URC"
-      },
-      {
-        "name": "Testudinata",
-        "timeseries": {
-          "2017": 45798
+        {
+          "name": "Corbicula fluminea",
+          "timeseries": {
+            "2017": 21746
+          },
+          "ftypes": 4,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "CMA"
         },
-        "ftypes": 6,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "TUL"
-      },
-      {
-        "name": "Trionyx sinensis",
-        "timeseries": {
-          "2017": 322102
+        {
+          "name": "Crassostrea spp",
+          "timeseries": {
+            "2017": 4879422
+          },
+          "ftypes": 21,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "OYC"
         },
-        "ftypes": 10,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "TTS"
-      }
-    ]
-  },
-  {
-    "name": "Molluscs",
-    "timeseries": {
-      "2017": 14586132
-    },
-    "ftypes": 147,
-    "sftypes": 0,
-    "native": "",
-    "species": [
-      {
-        "name": "Anadara granosa",
-        "timeseries": {
-          "2017": 352619
+        {
+          "name": "Haliotis spp",
+          "timeseries": {
+            "2017": 148539
+          },
+          "ftypes": 11,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "ABX"
         },
-        "ftypes": 15,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "BLC"
-      },
-      {
-        "name": "Anodonta cygnea",
-        "timeseries": {
-          "2017": 69436
+        {
+          "name": "Mollusca",
+          "timeseries": {
+            "2017": 768645
+          },
+          "ftypes": 14,
+          "sftypes": 0,
+          "native": false,
+          "alphaCode": "MOL"
         },
-        "ftypes": 10,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "SWT"
-      },
-      {
-        "name": "Atrina spp",
-        "timeseries": {
-          "2017": 16503
+        {
+          "name": "Mytilidae",
+          "timeseries": {
+            "2017": 927609
+          },
+          "ftypes": 8,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "MSX"
         },
-        "ftypes": 5,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "TQY"
-      },
-      {
-        "name": "Cipangopaludina chinensis",
-        "timeseries": {
-          "2017": 98894
+        {
+          "name": "Pectinidae",
+          "timeseries": {
+            "2017": 2007529
+          },
+          "ftypes": 11,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "SCX"
         },
-        "ftypes": 7,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "GFZ"
-      },
-      {
-        "name": "Corbicula fluminea",
-        "timeseries": {
-          "2017": 21746
+        {
+          "name": "Rapana spp",
+          "timeseries": {
+            "2017": 254736
+          },
+          "ftypes": 14,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "RPN"
         },
-        "ftypes": 4,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "CMA"
-      },
-      {
-        "name": "Crassostrea spp",
-        "timeseries": {
-          "2017": 4879422
+        {
+          "name": "Ruditapes philippinarum",
+          "timeseries": {
+            "2017": 4177913
+          },
+          "ftypes": 13,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "CLJ"
         },
-        "ftypes": 21,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "OYC"
-      },
-      {
-        "name": "Haliotis spp",
-        "timeseries": {
-          "2017": 148539
-        },
-        "ftypes": 11,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "ABX"
-      },
-      {
-        "name": "Mollusca",
-        "timeseries": {
-          "2017": 768645
-        },
-        "ftypes": 14,
-        "sftypes": 0,
-        "native": false,
-        "alphaCode": "MOL"
-      },
-      {
-        "name": "Mytilidae",
-        "timeseries": {
-          "2017": 927609
-        },
-        "ftypes": 8,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "MSX"
-      },
-      {
-        "name": "Pectinidae",
-        "timeseries": {
-          "2017": 2007529
-        },
-        "ftypes": 11,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "SCX"
-      },
-      {
-        "name": "Rapana spp",
-        "timeseries": {
-          "2017": 254736
-        },
-        "ftypes": 14,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "RPN"
-      },
-      {
-        "name": "Ruditapes philippinarum",
-        "timeseries": {
-          "2017": 4177913
-        },
-        "ftypes": 13,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "CLJ"
-      },
-      {
-        "name": "Sinonovacula constricta",
-        "timeseries": {
-          "2017": 862541
-        },
-        "ftypes": 14,
-        "sftypes": 0,
-        "native": true,
-        "alphaCode": "SVT"
-      }
-    ]
-  },
-  {
-    "name": "Total",
+        {
+          "name": "Sinonovacula constricta",
+          "timeseries": {
+            "2017": 862541
+          },
+          "ftypes": 14,
+          "sftypes": 0,
+          "native": true,
+          "alphaCode": "SVT"
+        }
+      ]
+    }
+  ],
+  "total": {
     "timeseries": {
       "2017": 64358480.61
     },
@@ -977,4 +978,4 @@
     "native": null,
     "species": null
   }
-]
+}
