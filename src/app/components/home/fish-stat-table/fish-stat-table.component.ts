@@ -16,6 +16,7 @@ import { faChartPie } from '@fortawesome/free-solid-svg-icons';
 })
 export class FishStatTableComponent implements OnChanges {
     data=[];
+    totalData={};
     disableTonnes=false;
     @Input() filterValues: Filter[]=[];
     lastTimeseriesYear=environment.lastTimeseriesYear;
@@ -25,45 +26,6 @@ export class FishStatTableComponent implements OnChanges {
     constructor(private _fishstatService: FishStatCultSpecCountriesService, private _utilsService:UtilsService, private _logger:LoggerService){
     }
 
-    // /**
-    //  * load data for the table and set it to fishTableData
-    //  *
-    //  * @param {Object[]} data the data from the service
-    //  */
-    // loadTableData(data){
-    //     let newdata;
-    //
-    //     if(!data || !data.Continents) return;
-    //
-    //     newdata=JSON.parse(JSON.stringify(data.Continents));
-    //
-    //     return newdata.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(e=>[
-    //         e.Name,
-    //         Number(e.Timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
-    //         e.Species,
-    //         e.FTypes,
-    //         e.SFTypes,
-    //         e.Regions.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(r=>[
-    //             r.Name,
-    //             Number(e.Timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
-    //             r.Species,
-    //             r.FTypes,
-    //             r.SFTypes,
-    //             r.Countries.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(c=>{
-    //                 let rv=[
-    //                     c.Name,
-    //                     Number(e.Timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
-    //                     c.Species,
-    //                     c.FTypes,
-    //                     c.SFTypes,
-    //                 ];
-    //                 rv["Ccode"]=c.Ccode;
-    //                 return rv;
-    //             })
-    //
-    //         ])
-    //     ]);
-    // }
 
     /**
      * load data for the table and set it to tableData
@@ -95,6 +57,7 @@ export class FishStatTableComponent implements OnChanges {
         this._fishstatService.getAll(params).subscribe(
             (data)=>{
                 this.data=this.loadTableData(data);
+                this.totalData=data.total;
             },
             (error)=>{
                 this._logger.error("Network error: ", error);

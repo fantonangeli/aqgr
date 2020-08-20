@@ -12,9 +12,8 @@ import { faChartPie } from '@fortawesome/free-solid-svg-icons';
     templateUrl:'specie-table01.component.html',
 })
 export class SpecieTable01Component implements OnChanges {
-    fishdata:Object={};
-    fishTableData=[];
     data=[];
+    totalData={};
     disableTonnes=false;
     @Input() filterValues: Filter[]=[];
     lastTimeseriesYear=environment.lastTimeseriesYear;
@@ -25,40 +24,24 @@ export class SpecieTable01Component implements OnChanges {
     }
 
     /**
-     * load data for the table and set it to fishTableData
+     * load data for the table and set it to tableData
      *
      * @param {Object[]} data the data from the service
      */
     loadTableData(data){
         let newdata;
 
-        if(!data || !data.Continents) return;
+        if(!data || !data.continents) return;
 
-        newdata=JSON.parse(JSON.stringify(data.Continents));
+        newdata=JSON.parse(JSON.stringify(data.continents));
 
-        return newdata.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(e=>[
-            e.Name,
-            Number(e.Timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
-            e.FTypes,
-            e.SFTypes,
-            e.Regions.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(r=>[
-                r.Name,
-                Number(r.Timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
-                r.FTypes,
-                r.SFTypes,
-                r.Countries.sort((a, b) => (a.Name > b.Name) ? 1 : -1).map(c=>{
-                    let rv=[
-                        c.Name,
-                        Number(c.Timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
-                        c.FTypes,
-                        c.SFTypes,
-                    ];
-                    rv["Ccode"]=c.Ccode;
-                    return rv;
-                })
-
-            ])
-        ]);
+        return newdata.map(e=>({
+            ...e,
+            "_children": e.regions.map(r=>({
+                ...r,
+                "_children":r.countries
+            }))
+        }));
     }
 
     /**
@@ -69,8 +52,8 @@ export class SpecieTable01Component implements OnChanges {
     fetchStats(params:SearchServiceParams=new SearchServiceParams()) {
         this._fishstatService.getAll(params).subscribe(
             (data)=>{
-                this.fishdata=data;
-                this.fishTableData=this.loadTableData(data);
+                this.data=this.loadTableData(data);
+                this.totalData=data.total;
             },
             (error)=>{
                 this._logger.error("Network error: ", error);

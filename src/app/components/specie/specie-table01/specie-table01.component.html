@@ -1,2 +1,28 @@
-<!-- <app&#45;tree&#45;table [data]="fishTableData" [columns]="['Geographic area', 'Total production in tonnes '+lastTimeseriesYear, 'Primary farmed types', 'Secondary farmed types']" [enableTotal]="true" [ngClass]="{'disable&#45;tonnes':disableTonnes}"> -->
-<!-- </app&#45;tree&#45;table> -->
+<aqgrlib-tree-table [data]="data" summaryRow="true">
+
+    <aqgrlib-tree-table-column prop="nameEn">
+        <ng-template aqgrlibTreeTableColumnHeader>Geographic area</ng-template>
+        <ng-template let-value="value" let-row="row" let-level="level" aqgrlibTreeTableColumnCell> {{value}} </ng-template>
+        <ng-template aqgrlibTreeTableColumnSummary>TOTAL</ng-template>
+    </aqgrlib-tree-table-column>
+
+    <aqgrlib-tree-table-column prop="timeseries">
+        <ng-template aqgrlibTreeTableColumnHeader>Total production in tonnes {{lastTimeseriesYear}}</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value[lastTimeseriesYear] | number:'1.2-2'}}</ng-template>
+        <ng-template aqgrlibTreeTableColumnSummary>{{(totalData.timeseries || [])[lastTimeseriesYear] | number:'1.2-2'}}</ng-template>
+    </aqgrlib-tree-table-column>
+
+
+    <aqgrlib-tree-table-column prop="ftypes" >
+        <ng-template aqgrlibTreeTableColumnHeader>Primary farmed types</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value}}</ng-template>
+        <ng-template aqgrlibTreeTableColumnSummary>{{totalData.ftypes}}</ng-template>
+    </aqgrlib-tree-table-column>
+
+    <aqgrlib-tree-table-column prop="sftypes" >
+        <ng-template aqgrlibTreeTableColumnHeader>Secondary farmed types</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value}}</ng-template>
+        <ng-template aqgrlibTreeTableColumnSummary>{{totalData.sftypes}}</ng-template>
+    </aqgrlib-tree-table-column>
+
+</aqgrlib-tree-table>

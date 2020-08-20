@@ -144,7 +144,10 @@ Note: Only properties from the services used for tables are not written here.
     "scientificName": "Laminaria japonica",
     "continents": [],
     "regions":[],
-    "countries":[]
+    "countries":[],
+    "taxonomies":[],
+    "species":[],
+    "total":{},
 }
 ```
 

@@ -22,7 +22,7 @@ export class FishStatCultSpecCountriesService extends BaseService{
      *
      * @param {SearchServiceParams} params the params to send to the service
      */
-    getAll(ssp:SearchServiceParams):Observable<AggregationItem[]>{
+    getAll(ssp:SearchServiceParams):Observable<any>{
         return this._getAll(
             "FishStatCultSpecCountriesService",
             environment.services.fishStatCultSpecCountries.all, 

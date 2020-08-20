@@ -24,36 +24,21 @@ export class CountryTable01Component implements OnChanges {
     }
 
     /**
-     * load data for the table and set it to fishTableData
+     * load data for the table and set it to tableData
      *
      * @param {Object[]} data the data from the service
      */
     loadTableData(data){
         let newdata;
 
-        if(!data) return;
+        if(!data || !data.taxonomies) return;
 
-        newdata=JSON.parse(JSON.stringify(data));
+        newdata=JSON.parse(JSON.stringify(data.taxonomies));
 
-        return newdata.map(e=>[
-            e.name,
-            Number(e.timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
-            e.ftypes,
-            e.sFtypes,
-            null,
-            e.species=e.species.map(r=>{
-                let rv=[
-                    r.name,
-                    Number(r.timeseries[this.lastTimeseriesYear]).toLocaleString('en-US'),
-                    r.ftypes,
-                    r.sFtypes,
-                    (r.native)?"Yes":"No",
-                    []
-                ];
-                rv["alphaCode"]=r.alphaCode;
-                return rv;
-            })
-        ]);
+        return newdata.map(e=>({
+            ...e,
+            "_children": e.species
+        }));
     }
 
     /**
@@ -66,7 +51,7 @@ export class CountryTable01Component implements OnChanges {
             (data)=>{
                 if(!data) return;
 
-                this.data=this.loadTableData(data.slice(0,-1));
+                this.data=this.loadTableData(data);
 
             },
             (error)=>{

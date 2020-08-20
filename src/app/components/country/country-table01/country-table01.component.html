@@ -1,11 +1,35 @@
-<!-- <div class="row"> -->
-<!--  -->
-<!--     <div class="col&#45;12"> -->
-<!--         <app&#45;tree&#45;table [data]="data" [columns]="['Species', 'Total production in tonnes '+lastTimeseriesYear, 'Primary farmed types', 'Secondary farmed types', 'Native']" [enableTotal]="false" > -->
-<!--             <ng&#45;template #firstFieldAppendTpl let&#45;element> -->
-<!--                 <a [routerLink]="['/specie',element['alphaCode']]" *ngIf="element['alphaCode']" routerLinkActive="router&#45;link&#45;active"><fa&#45;icon [icon]="faChartPie"></fa&#45;icon></a> -->
-<!--             </ng&#45;template> -->
-<!--         </app&#45;tree&#45;table> -->
-<!--     </div> -->
-<!--      -->
-<!-- </div> -->
+<aqgrlib-tree-table [data]="data">
+
+    <aqgrlib-tree-table-column prop="name">
+        <ng-template aqgrlibTreeTableColumnHeader>Species</ng-template>
+        <ng-template let-value="value" let-row="row" let-level="level" aqgrlibTreeTableColumnCell>
+            {{value}}
+            <a [routerLink]="['/specie',row['alphaCode']]" *ngIf="level===1" routerLinkActive="router-link-active"><fa-icon [icon]="faChartPie"></fa-icon></a>
+        </ng-template>
+    </aqgrlib-tree-table-column>
+
+    <aqgrlib-tree-table-column prop="timeseries">
+        <ng-template aqgrlibTreeTableColumnHeader>Total production in tonnes {{lastTimeseriesYear}}</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value[lastTimeseriesYear] | number:'1.2-2'}}</ng-template>
+    </aqgrlib-tree-table-column>
+
+
+    <aqgrlib-tree-table-column prop="ftypes" >
+        <ng-template aqgrlibTreeTableColumnHeader>Primary farmed types</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value}}</ng-template>
+    </aqgrlib-tree-table-column>
+
+    <aqgrlib-tree-table-column prop="sftypes" >
+        <ng-template aqgrlibTreeTableColumnHeader>Secondary farmed types</ng-template>
+        <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value}}</ng-template>
+    </aqgrlib-tree-table-column>
+
+    <aqgrlib-tree-table-column prop="native">
+        {{value}}
+        <ng-template aqgrlibTreeTableColumnHeader>Native</ng-template>
+        <ng-template let-value="value" let-level="level" aqgrlibTreeTableColumnCell>
+            <span *ngIf="level===1">{{value?"Yes":"No"}}</span>
+        </ng-template>
+    </aqgrlib-tree-table-column>
+
+</aqgrlib-tree-table>
