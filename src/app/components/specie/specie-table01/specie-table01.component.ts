@@ -13,7 +13,7 @@ import { faChartPie } from '@fortawesome/free-solid-svg-icons';
 })
 export class SpecieTable01Component implements OnChanges {
     data=[];
-    totalData={};
+    totalData:any={};
     disableTonnes=false;
     @Input() filterValues: Filter[]=[];
     lastTimeseriesYear=environment.lastTimeseriesYear;

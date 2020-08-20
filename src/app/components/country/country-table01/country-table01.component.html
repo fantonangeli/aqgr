@@ -25,7 +25,6 @@
     </aqgrlib-tree-table-column>
 
     <aqgrlib-tree-table-column prop="native">
-        {{value}}
         <ng-template aqgrlibTreeTableColumnHeader>Native</ng-template>
         <ng-template let-value="value" let-level="level" aqgrlibTreeTableColumnCell>
             <span *ngIf="level===1">{{value?"Yes":"No"}}</span>

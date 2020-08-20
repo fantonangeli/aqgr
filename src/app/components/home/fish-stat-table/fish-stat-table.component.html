@@ -12,12 +12,11 @@
     <aqgrlib-tree-table-column prop="timeseries">
         <ng-template aqgrlibTreeTableColumnHeader>Total production in tonnes {{lastTimeseriesYear}}</ng-template>
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value[lastTimeseriesYear] | number:'1.2-2'}}</ng-template>
-        <ng-template aqgrlibTreeTableColumnSummary>{{(totalData.timeseries || [])[lastTimeseriesYear] | number:'1.2-2'}}</ng-template>
+        <ng-template aqgrlibTreeTableColumnSummary>{{(totalData.timeseries || {})[lastTimeseriesYear]}}</ng-template>
     </aqgrlib-tree-table-column>
 
 
     <aqgrlib-tree-table-column prop="species">
-        {{value}}
         <ng-template aqgrlibTreeTableColumnHeader>Species</ng-template>
         <ng-template let-value="value" aqgrlibTreeTableColumnCell>{{value}}</ng-template>
         <ng-template aqgrlibTreeTableColumnSummary>{{totalData.species}}</ng-template>
