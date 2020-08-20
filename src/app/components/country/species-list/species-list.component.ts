@@ -31,12 +31,12 @@ export class SpeciesListComponent implements OnChanges {
     fetchStats(params:SearchServiceParams=new SearchServiceParams()) {
         this._service.getAll(params).subscribe(
             (data)=>{
-                if(!data) return;
+                if(!data || !data.taxonomies) return;
 
-                this.totalProduction=Number(data.slice(-1)[0].timeseries[environment.lastTimeseriesYear]).toLocaleString('en-US');
+                this.totalProduction=Number(data.total.timeseries[environment.lastTimeseriesYear]).toLocaleString('en-US');
             
 
-                this.speciesData=data.slice(0,-1);
+                this.speciesData=data.taxonomies;
 
             },
             (error)=>{

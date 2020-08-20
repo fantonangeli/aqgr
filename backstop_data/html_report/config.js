@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Homepage_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200812-122645/backstop_default_Homepage_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200820-130258/backstop_default_Homepage_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Homepage_0_document_0_tablet.png",
         "label": "Homepage",
@@ -15,20 +15,22 @@ report({
         "expect": 0,
         "viewportLabel": "tablet",
         "diff": {
-          "isSameDimensions": true,
+          "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": 0
+            "height": -45
           },
-          "misMatchPercentage": "0.00"
-        }
+          "misMatchPercentage": "8.66",
+          "analysisTime": 195
+        },
+        "diffImage": "../bitmaps_test/20200820-130258/failed_diff_backstop_default_Homepage_0_document_0_tablet.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_World_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200812-122645/backstop_default_World_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200820-130258/backstop_default_World_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_World_0_document_0_tablet.png",
         "label": "World",
@@ -52,7 +54,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Country_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200812-122645/backstop_default_Country_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200820-130258/backstop_default_Country_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Country_0_document_0_tablet.png",
         "label": "Country",
@@ -63,20 +65,22 @@ report({
         "expect": 0,
         "viewportLabel": "tablet",
         "diff": {
-          "isSameDimensions": true,
+          "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": 0
+            "height": -19
           },
-          "misMatchPercentage": "0.00"
-        }
+          "misMatchPercentage": "0.65",
+          "analysisTime": 299
+        },
+        "diffImage": "../bitmaps_test/20200820-130258/failed_diff_backstop_default_Country_0_document_0_tablet.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Country_selection_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200812-122645/backstop_default_Country_selection_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200820-130258/backstop_default_Country_selection_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Country_selection_0_document_0_tablet.png",
         "label": "Country selection",
@@ -100,7 +104,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Specie_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200812-122645/backstop_default_Specie_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200820-130258/backstop_default_Specie_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Specie_0_document_0_tablet.png",
         "label": "Specie",
@@ -111,21 +115,22 @@ report({
         "expect": 0,
         "viewportLabel": "tablet",
         "diff": {
-          "isSameDimensions": true,
+          "isSameDimensions": false,
           "dimensionDifference": {
             "width": 0,
-            "height": 0
+            "height": -45
           },
-          "misMatchPercentage": "0.03",
-          "analysisTime": 253
-        }
+          "misMatchPercentage": "6.83",
+          "analysisTime": 390
+        },
+        "diffImage": "../bitmaps_test/20200820-130258/failed_diff_backstop_default_Specie_0_document_0_tablet.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Specie_selection_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200812-122645/backstop_default_Specie_selection_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200820-130258/backstop_default_Specie_selection_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Specie_selection_0_document_0_tablet.png",
         "label": "Specie selection",
@@ -149,7 +154,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Use_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200812-122645/backstop_default_Use_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200820-130258/backstop_default_Use_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Use_0_document_0_tablet.png",
         "label": "Use",
@@ -173,7 +178,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Policies_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20200812-122645/backstop_default_Policies_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20200820-130258/backstop_default_Policies_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Policies_0_document_0_tablet.png",
         "label": "Policies",
