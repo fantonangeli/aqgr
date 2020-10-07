@@ -1,6 +1,7 @@
 import { Component, Input, AfterViewInit, OnChanges } from "@angular/core";
 import * as Highcharts from "highcharts";
 import Exporting from "highcharts/modules/exporting";
+import chroma from "chroma-js";
 
 declare var require: any;
 const Boost = require("highcharts/modules/boost");
@@ -60,6 +61,7 @@ export class BaseChartRender01Component implements AfterViewInit, OnChanges {
    */
   showChart() {
     let options: any = {
+      colors:chroma.scale(['#00426e', '#7ebdff']).colors(5),
       title: {
         text: null,
       },
