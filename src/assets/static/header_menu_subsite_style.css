@@ -20,7 +20,7 @@ h1.logo {
 }
 
 h1#logo-ltr {
-  text-indent:-9999px;
+  /* text-indent:-9999px; */
   font-size:1px;
   margin-top:0;
   padding-top:10px;
@@ -33,7 +33,7 @@ h1#logo-ar {
 }
 
 h1#logo-ltr img {
-  margin:0 0 0 9999px;
+  /* margin:0 0 0 9999px; */
   padding-left:10px;
 }
 
