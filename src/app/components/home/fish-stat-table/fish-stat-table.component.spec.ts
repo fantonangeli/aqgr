@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { FaIconComponent } from "@fortawesome/angular-fontawesome";
 import { RouterTestingModule } from '@angular/router/testing';
 
@@ -8,7 +8,7 @@ describe('FishStatTableComponent', () => {
   let component: FishStatTableComponent;
   let fixture: ComponentFixture<FishStatTableComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
         imports: [RouterTestingModule],
       declarations: [ FishStatTableComponent, FaIconComponent ]

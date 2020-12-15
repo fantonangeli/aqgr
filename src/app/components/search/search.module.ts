@@ -7,7 +7,7 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
 import { SearchPillComponent } from './search-pill/search-pill.component';
 import { ResultsDirective } from './results.directive';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { PaginationModule } from 'ngx-bootstrap';
+import { PaginationModule } from 'ngx-bootstrap/pagination';
 
 
 @NgModule({

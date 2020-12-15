@@ -1,4 +1,4 @@
-import { Component, Input, AfterViewInit, OnChanges } from "@angular/core";
+import { Component, Input, AfterViewInit, OnChanges, Directive } from "@angular/core";
 import * as Highcharts from "highcharts";
 import Exporting from "highcharts/modules/exporting";
 import chroma from "chroma-js";
@@ -14,6 +14,7 @@ More(Highcharts);
 noData(Highcharts);
 Exporting(Highcharts);
 
+@Directive()
 export class BaseChartRender01Component implements AfterViewInit, OnChanges {
   wrapperId = `chart${Math.floor(Math.random() * 1000)}Container`;
   options: any;
