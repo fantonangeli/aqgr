@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { CommonChart14Component } from './common-chart14.component';
 
@@ -6,7 +6,7 @@ describe('CommonChart14Component', () => {
   let component: CommonChart14Component;
   let fixture: ComponentFixture<CommonChart14Component>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ CommonChart14Component ]
     })

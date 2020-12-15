@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { StackedColumns01Component } from './stacked-columns01.component';
 
@@ -6,7 +6,7 @@ describe('StackedColumns01Component', () => {
   let component: StackedColumns01Component;
   let fixture: ComponentFixture<StackedColumns01Component>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ StackedColumns01Component ]
     })

@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { HttpClientModule } from '@angular/common/http';
 
 import { CountryComponent } from './country.component';
@@ -12,7 +12,7 @@ describe('CountryComponent', () => {
   let component: CountryComponent;
   let fixture: ComponentFixture<CountryComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
         imports:[HttpClientModule],
       declarations: [ CountryComponent, CountryChart01Component, CountryChart02Component, CountryChart03Component, Pie01Component, Bars01Component ]
