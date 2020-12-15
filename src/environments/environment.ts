@@ -8,6 +8,8 @@ const usePath=dataPath+"use/";
 const homePath=dataPath+"home/";
 const speciePath=dataPath+"specie/";
 
+/* TODO: put labels in a config */
+
 export const environment = {
     production: false,
     logging:true,
