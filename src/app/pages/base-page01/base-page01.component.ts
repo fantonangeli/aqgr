@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Directive } from '@angular/core';
 import { DynamicHTMLModule, DynamicHTMLComponent } from '../../core/components/dynamic-html';
 import { Filter, ResultSearchEvent} from '../../components/search/namespace';
 import {UtilsService} from '../../services/utils.service';
 import { AccordionProps } from '../../namespace';
 
+@Directive()
 export class BasePage01Component implements OnInit {
     filterValues: Filter[]=[];
     reloadCharts=true;
