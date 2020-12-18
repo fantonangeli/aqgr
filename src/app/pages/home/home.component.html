@@ -1,23 +1,10 @@
 <div class="container mw-100">
     <div class="row">
         <div class="col-sm-12">
-            <div class="bg-white border border-dark col-sm-4 float-right mb-3 ml-3 p-3 rounded shadow">
-                A <b>farmed type</b> is a cultured aquatic organism that could be a strain, variety, hybrid, triploid, monosex group, other genetically altered form, or wild type
-            </div>
-
-
-            Welcome to the Registry of Farmed Types of Aquatic Genetic Resource.  This is a prototype version of the Registry developed and maintained by FAO. It provides you with access to searchable databases of initial information on primary and secondary farmed types of the more than 600 farmed aquatic species across ten taxonomic groups.  The prototype includes some information from over 90 countries. 
-
-            <br>
-            <br>
-            The information is compiled through country contact persons on aquatic genetic resources (AqGR) and Member Country National Focal Points (NFPs). It allows users to analyse the diversity of farmed types of AqGR at national, regional and global levels including the characteristics and status of these farmed types from both development and conservation perspectives.
-            <br><br>
-            The current registry includes information on {{globalInfoData.totalSpecies}} species, from {{globalInfoData.totalCountries}} countries including {{globalInfoData.totalFtypes}} primary and {{globalInfoData.totalSftypes}} secondary farmed types.
-            <br>
-            This page summarises the data currently contained within the Registry. Data can also be viewed in separate pages focusing on <a [routerLink]="['/world']" routerLinkActive="router-link-active">Development of AqGR</a>, <a [routerLink]="['/use']" routerLinkActive="router-link-active">Conservation & Sustainable Use</a> and <a [routerLink]="['/policies']" routerLinkActive="router-link-active">Policies, Institutions and Capacity</a> for the management of AqGR. 
-            <br>
-            <br>
-            Data can also be viewed in <a [routerLink]="['/country']" routerLinkActive="router-link-active">Country Fact Sheets</a> or <a [routerLink]="['/specie']" routerLinkActive="router-link-active">Species Fact Sheets</a>
+            <div class="bg-white border border-dark col-sm-4 float-right mb-3 ml-3 p-3 rounded shadow" [innerHTML]="'homePage.infoBox' | translate"></div>
+            <span [innerHTML]="'homePage.intro.0' | translate:globalInfoData"></span>
+            <a [routerLink]="['/world']" routerLinkActive="router-link-active">{{"homePage.developmentLink" | translate}}</a>, <a [routerLink]="['/use']" routerLinkActive="router-link-active">{{"homePage.useLink" | translate}}</a> and <a [routerLink]="['/policies']" routerLinkActive="router-link-active">{{"homePage.policiesLink" | translate}}</a><span [innerHTML]="'homePage.intro.1' | translate:globalInfoData"></span>
+            <span [innerHTML]="'homePage.intro.2' | translate:globalInfoData"></span><a [routerLink]="['/country']" routerLinkActive="router-link-active">{{"homePage.countryFactSheetLink" | translate}}</a> or <a [routerLink]="['/specie']" routerLinkActive="router-link-active">{{"homePage.speciesFactSheetLink" | translate}}</a>
         </div>
     </div>
         
@@ -25,7 +12,7 @@
     <br>
     <div class="row">
         <div class="col-sm-12 col-md-9">
-            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Summary of records currently contained in the Registry</h1></div></div>
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader" [innerHTML]="'homePage.pageTitle' | translate"></h1></div></div>
         </div>
     </div>
     <div class="row">
@@ -57,25 +44,19 @@
                 <div class="row text-center">
                     <div class="col-sm-12 p-0" [ngClass]="{'col-md-6':!selectedSftype}">
                         <div *ngIf="!selectedFtype">
-                            <h6 class="">
-                                Proportion of primary farmed types entered
-                            </h6>
+                            <h6 class="" [innerHTML]="'homePage.chart01' | translate"></h6>
                             <app-common-chart01 [filterValues]="filterValues" height="200" exportTitle="Proportion of primary farmed types entered"></app-common-chart01>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 p-0" [ngClass]="{'col-md-6':!selectedFtype}">
                         <div *ngIf="!selectedSftype">
-                            <h6 class="">
-                                Proportion of secondary farmed types entered
-                            </h6>
+                            <h6 class="" [innerHTML]="'homePage.chart02' | translate"></h6>
                             <app-common-chart02 [filterValues]="filterValues" height="200" exportTitle="Proportion of secondary farmed types entered"></app-common-chart02>
                         </div>
                     </div>
                 </div>
                 <div class="row" *ngIf="!selectedTaxonomy && !selectedSpecie">
-                    <h6 class="mt-5">
-                        Number of species (based on reports by country) contained in the Registry
-                    </h6>
+                    <h6 class="mt-5" [innerHTML]="'homePage.chart03' | translate"></h6>
                     <div class="col-sm-12 col-md-12 p-0">
                         <app-countries-chart03 [filterValues]="filterValues" exportTitle="Number of species (based on reports by country) contained in the Registry"></app-countries-chart03>
                     </div>
@@ -89,23 +70,7 @@
     <br>
     <br>
                 <div class="row">
-                    <div class="col-sm-12">
-                        The Registry provides a collection of records on farmed types used in aquaculture and information on use, conservation and development of these resources. The information collected includes data from country reports prepared by NFPs for The State of the World’s Aquatic Genetic Resources, surveys compiled by species expert and NFPs, other FAO information systems on fishery and aquaculture resources.
-    <br>
-    <br>
-                        The Registry has been developed with the support of the Government of Germany.
-    <br>
-    <br>
-                        The information held within this database will be checked and updated on a six-monthly basis. FAO welcomes any advice on information that is out-of-date or incorrect or suggestions on adaptations that can improve the utility of the information. Advice on possible amendments can be emailed to the attention of Dr Graham Mair (FI-Inquiries@fao.org).
-
-    <br>
-    <br>
-                        <b>Citing the database:</b> FAO. 2020. Database of Farmed types in Aquaculture. In: Food and Agriculture Organization of the United Nation [online]. Rome. Database version 1-2020. www.fao.org/name/database-of-farmed-types/en 
-
-    <br>
-    <br>
-                        <b>Disclaimer:</b> The designations employed and the presentation of material in this database do not imply the expression of any opinion whatsoever on the part of the Food and Agriculture Organization of the United Nations (FAO) concerning the legal or development status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.
-                    </div>
+                    <div class="col-sm-12" [innerHTML]="'homePage.footer' | translate"></div>
                 </div>
 </div>
 

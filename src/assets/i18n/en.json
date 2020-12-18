@@ -1,0 +1,24 @@
+{
+    "none": {
+        "eof": ""
+    },
+    "homePage": {
+        "infoBox": " A <b>farmed type</b> is a cultured aquatic organism that could be a strain, variety, hybrid, triploid, monosex group, other genetically altered form, or wild type ",
+        "intro": {
+            "0": "Welcome to the Registry of Farmed Types of Aquatic Genetic Resource.  This is a prototype version of the Registry developed and maintained by FAO. It provides you with access to searchable databases of initial information on primary and secondary farmed types of the more than 600 farmed aquatic species across ten taxonomic groups.  The prototype includes some information from over 90 countries. \r\n\r\n            <br>\r\n            <br>\r\n            The information is compiled through country contact persons on aquatic genetic resources (AqGR) and Member Country National Focal Points (NFPs). It allows users to analyse the diversity of farmed types of AqGR at national, regional and global levels including the characteristics and status of these farmed types from both development and conservation perspectives.\r\n            <br><br>\r\n            The current registry includes information on {{totalSpecies}} species, from {{totalCountries}} countries including {{totalFtypes}} primary and {{totalSftypes}} secondary farmed types.\r\n            <br>\r\n            This page summarises the data currently contained within the Registry. Data can also be viewed in separate pages focusing on ",
+            "1": " for the management of AqGR.",
+            "2":"<br> <br> Data can also be viewed in "
+        },
+        "countryFactSheetLink": "Country Fact Sheets",
+        "speciesFactSheetLink": "Species Fact Sheets",
+        "developmentLink": "Development of AqGR",
+        "useLink": "Conservation & Sustainable Use",
+        "policiesLink": "Policies, Institutions and Capacity",
+        "pageTitle":"Summary of records currently contained in the Registry",
+        "chart01":" Proportion of primary farmed types entered ",
+        "chart02":" Proportion of secondary farmed types entered ",
+        "chart03":" Number of species (based on reports by country) contained in the Registry ",
+        "footer":" The Registry provides a collection of records on farmed types used in aquaculture and information on use, conservation and development of these resources. The information collected includes data from country reports prepared by NFPs for The State of the World’s Aquatic Genetic Resources, surveys compiled by species expert and NFPs, other FAO information systems on fishery and aquaculture resources.  <br> <br> The Registry has been developed with the support of the Government of Germany.  <br> <br> The information held within this database will be checked and updated on a six-monthly basis. FAO welcomes any advice on information that is out-of-date or incorrect or suggestions on adaptations that can improve the utility of the information. Advice on possible amendments can be emailed to the attention of Dr Graham Mair (FI-Inquiries@fao.org). <br> <br> <b>Citing the database:</b> FAO. 2020. Database of Farmed types in Aquaculture. In: Food and Agriculture Organization of the United Nation [online]. Rome. Database version 1-2020. www.fao.org/name/database-of-farmed-types/en  <br> <br> <b>Disclaimer:</b> The designations employed and the presentation of material in this database do not imply the expression of any opinion whatsoever on the part of the Food and Agriculture Organization of the United Nations (FAO) concerning the legal or development status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.  ",
+        "eof": ""
+    }
+}

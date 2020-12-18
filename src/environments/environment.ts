@@ -1,5 +1,6 @@
 const baseUrl="http://localhost:3000/";
-const dataPath="assets/data/";
+const assetsPath="assets/";
+const dataPath=assetsPath+"data/";
 const commonPath=dataPath+"common/";
 const countryPath=dataPath+"country/";
 const countriesPath=dataPath+"countries/";
@@ -110,6 +111,10 @@ export const environment = {
             chart14:commonPath+"chart14.json",
             chart15:commonPath+"chart15.json",
         }
+    },
+
+    paths:{
+        i18n:assetsPath+"i18n",
     }
 
 };
