@@ -44,21 +44,21 @@
                 <div class="row text-center">
                     <div class="col-sm-12 p-0" [ngClass]="{'col-md-6':!selectedSftype}">
                         <div *ngIf="!selectedFtype">
-                            <h6 class="" [innerHTML]="'homePage.chart01' | translate"></h6>
-                            <app-common-chart01 [filterValues]="filterValues" height="200" exportTitle="Proportion of primary farmed types entered"></app-common-chart01>
+                            <h6 class="" [innerHTML]="'homePage.common-chart01' | translate"></h6>
+                            <app-common-chart01 [filterValues]="filterValues" height="200" [exportTitle]="'homePage.common-chart01' | translate"></app-common-chart01>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 p-0" [ngClass]="{'col-md-6':!selectedFtype}">
                         <div *ngIf="!selectedSftype">
-                            <h6 class="" [innerHTML]="'homePage.chart02' | translate"></h6>
-                            <app-common-chart02 [filterValues]="filterValues" height="200" exportTitle="Proportion of secondary farmed types entered"></app-common-chart02>
+                            <h6 class="" [innerHTML]="'homePage.common-chart02' | translate"></h6>
+                            <app-common-chart02 [filterValues]="filterValues" height="200" [exportTitle]="'homePage.common-chart02' | translate"></app-common-chart02>
                         </div>
                     </div>
                 </div>
                 <div class="row" *ngIf="!selectedTaxonomy && !selectedSpecie">
-                    <h6 class="mt-5" [innerHTML]="'homePage.chart03' | translate"></h6>
+                    <h6 class="mt-5" [innerHTML]="'homePage.countries-chart03' | translate"></h6>
                     <div class="col-sm-12 col-md-12 p-0">
-                        <app-countries-chart03 [filterValues]="filterValues" exportTitle="Number of species (based on reports by country) contained in the Registry"></app-countries-chart03>
+                        <app-countries-chart03 [filterValues]="filterValues" [exportTitle]="'homePage.countries-chart03' | translate"></app-countries-chart03>
                     </div>
                 </div>
             </div>
