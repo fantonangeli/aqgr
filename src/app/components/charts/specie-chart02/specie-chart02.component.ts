@@ -7,7 +7,7 @@ import { SpecieChart02Service } from "../../../services/specie/specie-chart02.se
 import { ChartDataFormat } from "../../../namespace";
 
 @Component({
-  selector: "app-specie-chart02",
+  selector: 'app-specie-chart02',
   template: `
     <app-stacked-columns01 [series]="series"
       [legendEnabled]="false"
@@ -15,7 +15,7 @@ import { ChartDataFormat } from "../../../namespace";
       [height]="300"
       [exportTitle]="exportTitle"
       [showChildrenInTooltip]="true"
-      yAxisTitle="Number of <i>in vitro</i> gene banks"
+      [yAxisTitle]="'chartsLabels.specie-chart02-yAxisTitle' | translate"
     ></app-stacked-columns01>
   `,
   styles: [],

@@ -12,7 +12,7 @@ import {ChartDataFormat} from '../../../namespace';
     <app-stacked-columns01 
         [series]="series" 
         [pointFormatter]="pointFormatter"
-        yAxisTitle="Number of species" 
+        [yAxisTitle]="'chartsLabels.use-chart06-yAxisTitle' | translate" 
         [legendEnabled]="false" 
         *ngIf="series.length" 
         [height]="300" 

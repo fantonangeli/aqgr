@@ -9,7 +9,7 @@ import {ChartDataFormat} from '../../../namespace';
 @Component({
   selector: 'app-use-chart07',
   template: `
-    <app-stacked-columns01 yAxisTitle="Number of protected areas" [series]="series" [legendEnabled]="false" *ngIf="series.length" [height]="300" [exportTitle]="exportTitle"></app-stacked-columns01>
+    <app-stacked-columns01 [yAxisTitle]="'chartsLabels.use-chart07-yAxisTitle' | translate" [series]="series" [legendEnabled]="false" *ngIf="series.length" [height]="300" [exportTitle]="exportTitle"></app-stacked-columns01>
   `,
   styles: []
 })

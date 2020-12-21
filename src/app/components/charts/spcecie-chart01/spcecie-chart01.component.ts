@@ -9,7 +9,7 @@ import {ChartDataFormat} from '../../../namespace';
 @Component({
   selector: 'app-specie-chart01',
   template: `
-    <app-columns01 [series]="series" *ngIf="series.length" [showChildrenInTooltip]="true" [legendEnabled]="false" [height]="300" [exportTitle]="exportTitle" yAxisTitle="Number of <i>in vivo</i> gene banks" ></app-columns01>
+    <app-columns01 [series]="series" *ngIf="series.length" [showChildrenInTooltip]="true" [legendEnabled]="false" [height]="300" [exportTitle]="exportTitle" [yAxisTitle]="'chartsLabels.specie-chart01-yAxisTitle' | translate" ></app-columns01>
   `,
   styles: []
 })

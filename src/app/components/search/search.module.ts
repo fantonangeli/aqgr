@@ -9,6 +9,10 @@ import { ResultsDirective } from './results.directive';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
 
+import { environment } from '../../../environments/environment';
+import {HttpClient} from '@angular/common/http';
+import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
 @NgModule({
   declarations: [
@@ -24,6 +28,13 @@ import { PaginationModule } from 'ngx-bootstrap/pagination';
     ReactiveFormsModule,
     CommonModule,
     PaginationModule.forRoot(),
+    TranslateModule.forRoot({
+        loader: {
+            provide: TranslateLoader,
+            useFactory: HttpLoaderFactory,
+            deps: [HttpClient]
+        }
+    })
   ],
   exports: [FilterTermsComponent,
     LetterSearchComponent,
@@ -33,3 +44,7 @@ import { PaginationModule } from 'ngx-bootstrap/pagination';
     ResultsDirective]
 })
 export class SearchModule { }
+
+export function HttpLoaderFactory(http: HttpClient) {
+    return new TranslateHttpLoader(http, environment.paths.i18n+"/", ".json");
+}

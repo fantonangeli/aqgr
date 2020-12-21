@@ -43,7 +43,127 @@
         "use-chart12":"No of species with reported <i>in vitro</i> gene banks by taxonomy categories",
         "use-chart13":"Top 10 species conserved <i>in vitro</i> gene banks"
     },
-    "none": {
-        "eof": ""
+    "policiesPage": {
+        "pageTitle":"Data on Farmed Types",
+        "expandBtn":"Expand all",
+        "collapseBtn":"Collapse all",
+        "intro":" At this stage of its development the prototype Registry questionnaire does not include questions related to national policy, institutions or capacity with the exception of one question related to controls on access to AqGR. The data related to this question is covered in the first two graphic items. The remaining graphic items presented on this page are based on data collected from Country Reports as part of the preparation of the Report on the State of the World’s Aquatic Genetic Resources for Food and Agriculture published in August 2019. This information refers to legislation and policy that relates to or impacts upon AqGR including controls on their use and exchange. Information is also provided on the numbers and focus of institutions involved in Research and Education related to AqGR.  ",
+        "policies-chart01":" Number of species under control measures by continent ",
+        "policies-chart02":" Number of species under control measures by taxonomic category",
+        "policies-chart03":"Proportion of policy areas addressed by national policy",
+        "policies-chart04":"Research institutions and the issues addressed by them",
+        "common-chart14":"Educational institutions and the issues addressed by them",
+        "common-chart15":"Educational institutions and the levels of education delivered by them"
+    },
+    "countryPage": {
+        "pageTitle":"Country fact sheet on Farmed Types of Aquatic Genetic Resources: {{countryName}}",
+        "selectCountryLink":"Select another country",
+        "intro":" This fact sheet presents a summary of the data entered into the Registry of Farmed Types of AqGR in {{countryName}} relating to the conservation, sustainable used and management of AqGR in the country.  Data for {{countryName}} was last updated on {{ lastModifiedDate }}.  ",
+        "developmentTitle":"Development of AqGR in {{countryName}}",
+        "expandBtn":"Expand all",
+        "collapseBtn":"Collapse all",
+        "species-list":{
+            "title":" List of species farmed by the country ",
+            "infoBox":" Total aquaculture production = {{totalProduction}} tonnes "
+        },
+        "common-chart12":"Number of primary farmed types by taxonomic category",
+        "common-chart13":"Top 10 species for which farmed types are developed",
+        "common-chart01":"Total number of primary farmed types",
+        "common-chart02":"Total number of secondary farmed types",
+        "common-chart06":"Production of primary farmed types",
+        "useTitle":"Conservation and sustainble use of AqGR in  {{countryName}}",
+        "common-chart05":"Prevalence of non-native species",
+        "common-chart04":"Top 10 non-native species by production volume",
+        "country-chart01":"Number and effectiveness of Aquatic Protected Areas",
+        "country-chart02":"Number of <i>in vivo</i> and <i>in vitro</i> gene banks by taxonomic category",
+        "country-chart03":"Number of species under control measures by taxonmic category",
+        "country-chart03-note":"Note: The Registry questionnaire asks, for each country, if there are any species-specific controls on conservation, management and use of this species and where controls exist, to identify whether these controls apply to trade (export/import), the environment and biodiversity conservation and/or legislation on the use of wild relatives in fisheries and aquaculture?",
+        "policiesTitle":"Policies, institutions and capacity for AqGR management in {{countryName}}",
+        "country-chart04":"Number of policies affecting AqGR",
+        "country-chart05":"Number of institutions supporting R&D on aquatic genetic resources",
+        "common-chart14":"Educational institutions and the issues addressed by them",
+        "common-chart14-note":"Note: The chart shows the total number of education and training institutions for the geographic area and a breakdown of the issues they cover.",
+        "common-chart15":"Educational institutions and the levels of education delivered by them",
+        "common-chart15-note":"Note: The chart shows the total number of education and training institutions for the geographic area and a breakdown of the levels of education they deliver.",
+        "country-Table01":"Monitoring, characterising and developing AqGR"
+    },
+    "speciesPage": {
+        "pageTitle":"Species Fact Sheet: <i>{{specieName}}</i>",
+        "selectSpeciesLink":"Select another specie",
+        "intro":" This fact sheet presents a summary of the current status of conservation, sustainable use and development of <i>{{specieName}}</i> based on the data entered into the Registry.  ",
+        "expandBtn":"Expand all",
+        "collapseBtn":"Collapse all",
+        "developmentTitle":"Development of AqGR in {{specieName}}",
+        "specieTable01Title":" List of farmed types, primary and secondary, of <i>{{specieName}}</i> ",
+        "specieTable01InfoBox":" Global aquaculture production = {{totalProduction}} tonnes ",
+        "common-chart01":"Primary farmed types of <i>{{specieName}}</i>",
+        "common-chart02":"Secondary farmed types of <i>{{specieName}}</i>",
+        "common-chart06":"Production of Primary farmed types of <i>{{specieName}}</i>",
+        "useTitle":"Conservation and sustainble use of AqGR in {{specieName}}",
+        "common-chart05":"Countries where <i>{{specieName}}</i> is native and those where it is non native",
+        "common-chart08":"Countries by region where <i>{{specieName}}</i> is native and those where it is non native",
+        "common-chart09":"Risk status of <i>{{specieName}}</i> as reported by countries",
+        "specie-chart01":"Number of <i>in vivo</i> gene banks of <i>{{specieName}}</i> reported by country in each region",
+        "specie-chart02":"Number of <i>in vitro</i> gene banks of <i>{{specieName}}</i> reported by country in each region",
+        "specie-chart03":"Number of records for <i>{{specieName}}</i> under control measures"
+    },
+    "chartsLabels":{
+        "use-chart06-yAxisTitle":"Number of species",
+        "use-chart09-yAxisTitle":"No. of gene banks reported by all countries",
+        "specie-chart01-yAxisTitle":"Number of <i>in vivo</i> gene banks",
+        "use-chart10-xAxisTitle":"No of live gene banks reported",
+        "common-chart09-yAxisTitle":"Number of countries recorded",
+        "common-chart09-tooltipLabels":{
+            "No risk":"No risk - no risk has been identified for this species",
+            "Potential risk":"Potential risk - risks have been identified but no impacts recorded",
+            "Risk":"Risk - there are recorded impacts of this species"
+        },
+        "common-chart04-xAxisTitle":"Production in tonnes",
+        "common-chart13-xAxisTitle":"Total number of farmed types reported by species",
+        "countries-chart03-xAxisTitle":"Total number of species reported by countries",
+        "use-chart07-yAxisTitle":"Number of protected areas",
+        "use-chart08-yAxisTitle":"Number of species reported by countries",
+        "use-chart13-yAxisTitle":"Number of gene banks reported",
+        "use-chart12-yAxisTitle":"Number of species reported",
+        "policies-chart01-yAxisTitle":"Number of species reported",
+        "policies-chart02-yAxisTitle":"Number of species with measures reported",
+        "specie-chart02-yAxisTitle":"Number of <i>in vitro</i> gene banks",
+        "specie-chart03-yAxisTitle":"Number of records"
+    },
+    "filters":{
+        "titles":{
+          "continents":"Continents",
+          "regions": "Regions",
+          "countries": "Countries",
+          "taxonomies": "Taxonomic categories",
+          "species": "Species",
+          "ftypes": "Primary farmed type",
+          "sftypes": "Secondary farmed type"
+        },
+        "search":{
+            "empty":"Type here"
+        },
+        "removeAll":"Remove all filters"
+    },
+    "country-table01":{
+        "speciesCol":"Species",
+        "totProdCol":"Total production in tonnes {{lastTimeseriesYear}}",
+        "ftypesCol":"Primary farmed types",
+        "sftypesCol":"Secondary farmed types",
+        "nativeCol":"Native"
+    },
+    "specie-table01":{
+        "areaCol":"Geographic area",
+        "totalRow":"TOTAL",
+        "totalProdCol":"Total production in tonnes {{lastTimeseriesYear}}",
+        "ftypesCol":"Primary farmed types"
+    },
+    "fishStatTable":{
+        "areaCol":"Geographic area",
+        "totalRow":"TOTAL",
+        "totalProdCol":"Total production in tonnes {{lastTimeseriesYear}}",
+        "speciesCol":"Species",
+        "ftypesCol":"Primary farmed types",
+        "sftypesCol":"Secondary farmed types"
     }
 }

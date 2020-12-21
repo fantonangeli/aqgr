@@ -7,7 +7,7 @@ import { SpecieChart03Service } from "../../../services/specie/specie-chart03.se
 import { ChartDataFormat } from "../../../namespace";
 
 @Component({
-  selector: "app-specie-chart03",
+  selector: 'app-specie-chart03',
   template: `
     <app-stacked-columns01 [series]="series"
       [legendEnabled]="false"
@@ -15,7 +15,7 @@ import { ChartDataFormat } from "../../../namespace";
       [height]="300"
       [exportTitle]="exportTitle"
       [showChildrenInTooltip]="true"
-      yAxisTitle="Number of records"
+      [yAxisTitle]="'chartsLabels.specie-chart03-yAxisTitle' | translate"
     ></app-stacked-columns01>
   `,
   styles: [],
