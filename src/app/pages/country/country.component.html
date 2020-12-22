@@ -1,17 +1,15 @@
 <div class="container mw-100" *ngIf="filterValues.length">
     <div class="row">
         <div class="col-10">
-            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Country fact sheet on Farmed Types of Aquatic Genetic Resources: {{countryName}}</h1></div></div>
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader" [innerHTML]="'countryPage.pageTitle' | translate:{countryName:countryName}"></h1></div></div>
         </div>
         <div class="col-2 pl-0 text-right">
-            <a [routerLink]="['/country']" routerLinkActive="router-link-active">Select another country</a>
+            <a [routerLink]="['/country']" routerLinkActive="router-link-active" [innerHTML]="'countryPage.selectCountryLink' | translate"></a>
         </div>
     </div>
-
+    
     <div class="row">
-        <div class="col-12">
-            This fact sheet presents a summary of the data entered into the Registry of Farmed Types of AqGR in {{countryName}} relating to the conservation, sustainable used and management of AqGR in the country.  Data for {{countryName}} was last updated on {{ lastModifiedDate | date:defaultDateFormat}}.
-        </div>
+        <div class="col-12" [innerHTML]="'countryPage.intro' | translate:{countryName:countryName, lastModifiedDate:lastModifiedDate | date:defaultDateFormat}"></div>
     </div>
 
     <app-species-list [filterValues]="filterValues" (onTaxonomyClickEvent)="speciesList_onTaxonomyClick($event)"></app-species-list>
@@ -20,114 +18,114 @@
         <div class="col-12 pb-4 text-right">
             <a href="javascript:" class="font-weight-bold text-left pr-3" (click)="expandAllAccordionOnClick()">
                 <i class="material-icons md-18 align-bottom">unfold_more</i>
-                Expand all
+                {{'countryPage.expandBtn' | translate}}
             </a>
             <a href="javascript:" class="font-weight-bold text-left" (click)="collapseAllAccordionOnClick()">
                 <i class="material-icons md-18 align-bottom">unfold_less</i>
-                Collapse all
+                {{'countryPage.collapseBtn' | translate}}
             </a>
         </div>
     </div>
 
     <div class="row">
         <div class="col-12 pb-3 pt-5">
-            <h2 clss="">Development of AqGR in {{countryName}}</h2>
+            <h2 clss="" [innerHTML]="'countryPage.developmentTitle' | translate:{countryName:countryName}"></h2>
         </div>
     </div>
 
     <app-accordion01 [(isOpen)]="accordionsProps[0].isOpen">
-        <div header>Number of primary farmed types by taxonomic category</div>
-        <div body><app-common-chart12 *ngIf="accordionsProps[0].isOpen" [filterValues]="filterValues" exportTitle="Number of primary farmed types by taxonomic category"></app-common-chart12></div>
+        <div header [innerHTML]="'countryPage.common-chart12' | translate:{countryName:countryName}"></div>
+        <div body><app-common-chart12 *ngIf="accordionsProps[0].isOpen" [filterValues]="filterValues" [exportTitle]="'countryPage.common-chart12' | translate:{countryName:countryName}"></app-common-chart12></div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[1].isOpen">
-        <div header>Top 10 species for which farmed types are developed</div>
-        <div body><app-common-chart13 *ngIf="accordionsProps[1].isOpen" [filterValues]="filterValues" exportTitle="Top 10 species for which farmed types are developed"></app-common-chart13></div>
+        <div header [innerHTML]="'countryPage.common-chart13' | translate:{countryName:countryName}"></div>
+        <div body><app-common-chart13 *ngIf="accordionsProps[1].isOpen" [filterValues]="filterValues" [exportTitle]="'countryPage.common-chart13' | translate:{countryName:countryName}"></app-common-chart13></div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[3].isOpen">
-        <div header>Total number of primary farmed types</div>
-        <div body> <app-common-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[3].isOpen" exportTitle="Total number of primary farmed types"></app-common-chart01> </div>
+        <div header [innerHTML]="'countryPage.common-chart01' | translate:{countryName:countryName}"></div>
+        <div body> <app-common-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[3].isOpen" [exportTitle]="'countryPage.common-chart01' | translate:{countryName:countryName}"></app-common-chart01> </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[4].isOpen">
-        <div header>Total number of secondary farmed types</div>
-        <div body> <app-common-chart02 [filterValues]="filterValues" *ngIf="accordionsProps[4].isOpen" exportTitle="Total number of secondary farmed types"></app-common-chart02> </div>
+        <div header [innerHTML]="'countryPage.common-chart02' | translate:{countryName:countryName}"></div>
+        <div body> <app-common-chart02 [filterValues]="filterValues" *ngIf="accordionsProps[4].isOpen" [exportTitle]="'countryPage.common-chart02' | translate:{countryName:countryName}"></app-common-chart02> </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[5].isOpen">
-        <div header>Production of primary farmed types</div>
-        <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[5].isOpen" exportTitle="Production of primary farmed types"></app-common-chart06> </div>
+        <div header [innerHTML]="'countryPage.common-chart06' | translate:{countryName:countryName}"></div>
+        <div body> <app-common-chart06 [filterValues]="filterValues" *ngIf="accordionsProps[5].isOpen" [exportTitle]="'countryPage.common-chart06' | translate:{countryName:countryName}"></app-common-chart06> </div>
     </app-accordion01>
 
     <div class="row">
         <div class="col-12 pb-3 pt-5">
-            <h2 clss="">Conservation and sustainble use of AqGR in  {{countryName}}</h2>
+            <h2 clss="" [innerHTML]="'countryPage.useTitle' | translate:{countryName:countryName}"></h2>
         </div>
     </div>
 
     <app-accordion01 [(isOpen)]="accordionsProps[6].isOpen">
-        <div header>Prevalence of non-native species</div>
-        <div body> <app-common-chart05 [filterValues]="filterValues" *ngIf="accordionsProps[6].isOpen" exportTitle="Prevalence of non-native species"></app-common-chart05> </div>
+        <div header [innerHTML]="'countryPage.common-chart05' | translate:{countryName:countryName}"></div>
+        <div body> <app-common-chart05 [filterValues]="filterValues" *ngIf="accordionsProps[6].isOpen" [exportTitle]="'countryPage.common-chart05' | translate:{countryName:countryName}"></app-common-chart05> </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[7].isOpen">
-        <div header>Top 10 non-native species by production volume</div>
-        <div body> <app-common-chart04 [filterValues]="filterValues" *ngIf="accordionsProps[7].isOpen" exportTitle="Top 10 non-native species"></app-common-chart04> </div>
+        <div header [innerHTML]="'countryPage.common-chart04' | translate:{countryName:countryName}"></div>
+        <div body> <app-common-chart04 [filterValues]="filterValues" *ngIf="accordionsProps[7].isOpen" [exportTitle]="'countryPage.common-chart04' | translate:{countryName:countryName}"></app-common-chart04> </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[8].isOpen">
-        <div header>Number and effectiveness of Aquatic Protected Areas</div>
-        <div body> <app-country-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[8].isOpen" exportTitle="Number and effectiveness of Aquatic Protected Areas"></app-country-chart01> </div>
+        <div header [innerHTML]="'countryPage.country-chart01' | translate:{countryName:countryName}"></div>
+        <div body> <app-country-chart01 [filterValues]="filterValues" *ngIf="accordionsProps[8].isOpen" [exportTitle]="'countryPage.country-chart01' | translate:{countryName:countryName}"></app-country-chart01> </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[9].isOpen">
-        <div header>Number of <i>in vivo</i> and <i>in vitro</i> gene banks by taxonomic category</div>
-        <div body> <app-country-chart02 [filterValues]="filterValues" *ngIf="accordionsProps[9].isOpen" exportTitle="Number of <i>in vivo</i> and <i>in vitro</i> gene banks by taxonomic category"></app-country-chart02> </div>
+        <div header [innerHTML]="'countryPage.country-chart02' | translate:{countryName:countryName}"></div>
+        <div body> <app-country-chart02 [filterValues]="filterValues" *ngIf="accordionsProps[9].isOpen" [exportTitle]="'countryPage.country-chart02' | translate:{countryName:countryName}"></app-country-chart02> </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[10].isOpen">
-        <div header>Number of species under control measures by taxonmic category</div>
+        <div header [innerHTML]="'countryPage.country-chart03' | translate:{countryName:countryName}"></div>
         <div body>
-            <app-country-chart03 [filterValues]="filterValues" *ngIf="accordionsProps[10].isOpen" exportTitle="Number of control measures applied"></app-country-chart03>
-            <div class="mb-3">Note: The Registry questionnaire asks, for each country, if there are any species-specific controls on conservation, management and use of this species and where controls exist, to identify whether these controls apply to trade (export/import), the environment and biodiversity conservation and/or legislation on the use of wild relatives in fisheries and aquaculture?</div>
+            <app-country-chart03 [filterValues]="filterValues" *ngIf="accordionsProps[10].isOpen" [exportTitle]="'countryPage.country-chart03' | translate:{countryName:countryName}"></app-country-chart03>
+            <div class="mb-3" [innerHTML]="'countryPage.country-chart03-note' | translate"></div>
         </div>
     </app-accordion01>
 
     <div class="row">
         <div class="col-12 pb-3 pt-5">
-            <h2 clss="">Policies, institutions and capacity for AqGR management in {{countryName}}</h2>
+            <h2 clss="" [innerHTML]="'countryPage.policiesTitle' | translate:{countryName:countryName}"></h2>
         </div>
     </div>
 
     <app-accordion01 [(isOpen)]="accordionsProps[11].isOpen">
-        <div header>Number of policies affecting AqGR</div>
-        <div body><app-country-chart04 [filterValues]="filterValues" *ngIf="accordionsProps[11].isOpen" exportTitle="Number of policies affecting AqGR"></app-country-chart04></div>
+        <div header [innerHTML]="'countryPage.country-chart04' | translate:{countryName:countryName}"></div>
+        <div body><app-country-chart04 [filterValues]="filterValues" *ngIf="accordionsProps[11].isOpen" [exportTitle]="'countryPage.country-chart04' | translate:{countryName:countryName}"></app-country-chart04></div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[12].isOpen">
-        <div header>Number of institutions supporting R&D on aquatic genetic resources</div>
-        <div body><app-country-chart05 [filterValues]="filterValues" *ngIf="accordionsProps[12].isOpen" exportTitle="Number of institutions supporting R&D on aquatic genetic resources"></app-country-chart05></div>
+        <div header [innerHTML]="'countryPage.country-chart05' | translate:{countryName:countryName}"></div>
+        <div body><app-country-chart05 [filterValues]="filterValues" *ngIf="accordionsProps[12].isOpen" [exportTitle]="'countryPage.country-chart05' | translate:{countryName:countryName}"></app-country-chart05></div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[13].isOpen">
-        <div header>Educational institutions and the issues addressed by them</div>
+        <div header [innerHTML]="'countryPage.common-chart14' | translate:{countryName:countryName}"></div>
         <div body>
-            <app-common-chart14 *ngIf="accordionsProps[13].isOpen" [filterValues]="filterValues" exportTitle="Educational institutions and the issues addressed by them"></app-common-chart14>
-            <div class="mb-3">Note: The chart shows the total number of education and training institutions for the geographic area and a breakdown of the issues they cover.</div>
+            <app-common-chart14 *ngIf="accordionsProps[13].isOpen" [filterValues]="filterValues" [exportTitle]="'countryPage.common-chart14' | translate:{countryName:countryName}"></app-common-chart14>
+            <div class="mb-3" [innerHTML]="'countryPage.common-chart14-note' | translate"></div>
         </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[14].isOpen">
-        <div header>Educational institutions and the levels of education delivered by them</div>
+        <div header [innerHTML]="'countryPage.common-chart15' | translate:{countryName:countryName}"></div>
         <div body>
-            <app-common-chart15 *ngIf="accordionsProps[14].isOpen" [filterValues]="filterValues" exportTitle="Educational institutions and the levels of education delivered by them"></app-common-chart15>
-            <div class="mb-3">Note: The chart shows the total number of education and training institutions for the geographic area and a breakdown of the levels of education they deliver.</div>
+            <app-common-chart15 *ngIf="accordionsProps[14].isOpen" [filterValues]="filterValues" [exportTitle]="'countryPage.common-chart15' | translate:{countryName:countryName}"></app-common-chart15>
+            <div class="mb-3" [innerHTML]="'countryPage.common-chart15-note' | translate"></div>
         </div>
     </app-accordion01>
 
     <app-accordion01 [(isOpen)]="accordionsProps[15].isOpen">
-        <div header>Monitoring, characterising and developing AqGR</div>
+        <div header [innerHTML]="'countryPage.country-Table01' | translate:{countryName:countryName}"></div>
         <div body> <app-country-table01 [filterValues]="filterValues" *ngIf="accordionsProps[15].isOpen"></app-country-table01> </div>
     </app-accordion01>
 

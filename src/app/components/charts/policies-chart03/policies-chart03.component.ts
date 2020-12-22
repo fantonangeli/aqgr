@@ -8,7 +8,7 @@ import {ChartDataFormat} from '../../../namespace';
 @Component({
   selector: 'app-policies-chart03',
   template: `
-    <app-donut01 [series]="series" totalTemplate="Total number of<br>policies reported<br>{total}" unit="areas" [legendEnabled]="false" [enableDataLabels]="true" *ngIf="series.length" [height]="300" [exportTitle]="exportTitle"></app-donut01>
+    <app-donut01 [series]="series" [totalTemplate]="'chartsLabels.policies-chart03-total' | translate" unit="areas" [legendEnabled]="false" [enableDataLabels]="true" *ngIf="series.length" [height]="300" [exportTitle]="exportTitle"></app-donut01>
   `,
   styles: []
 })

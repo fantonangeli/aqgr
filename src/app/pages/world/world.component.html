@@ -1,7 +1,7 @@
 <div class="container mw-100">
     <div class="row">
         <div class="col-sm-12 col-md-9">
-            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Date on farmed types reported</h1></div></div>
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader" [innerHTML]="'worldPage.pageTitle' | translate"></h1></div></div>
         </div>
     </div>
     <div class="row">
@@ -15,18 +15,18 @@
 
             <div class="container mw-100 p-0" *ngIf="reloadCharts">
                 <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-                    <div header>Number of primary farmed types entered into the Registry</div>
-                    <div body><app-common-chart12 [filterValues]="filterValues" exportTitle="Number of primary farmed types entered into the Registry"></app-common-chart12></div>
+                    <div header [innerHTML]="'worldPage.common-chart12' | translate"></div>
+                    <div body><app-common-chart12 [filterValues]="filterValues" [exportTitle]="'worldPage.common-chart12' | translate"></app-common-chart12></div>
                 </app-chart-wrapper01>
 
                 <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-                    <div header>Top 10 developed species (by number of farmed types)</div>
-                    <div body><app-common-chart13 [filterValues]="filterValues" exportTitle="Top 10 developed species (by number of farmed types)"></app-common-chart13></div>
+                    <div header [innerHTML]="'worldPage.common-chart13' | translate"></div>
+                    <div body><app-common-chart13 [filterValues]="filterValues" [exportTitle]="'worldPage.common-chart13' | translate"></app-common-chart13></div>
                 </app-chart-wrapper01>
 
                 <app-chart-wrapper01 [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
-                    <div header>Recorded production by primary farmed type</div>
-                    <div body><app-common-chart06 [filterValues]="filterValues" exportTitle="Recorded production by primary farmed type"></app-common-chart06></div>
+                    <div header [innerHTML]="'worldPage.common-chart06' | translate"></div>
+                    <div body><app-common-chart06 [filterValues]="filterValues" [exportTitle]="'worldPage.common-chart06' | translate"></app-common-chart06></div>
                 </app-chart-wrapper01>
 
             </div>

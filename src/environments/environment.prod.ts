@@ -1,5 +1,6 @@
 const baseUrl="https://aqgr-demo-rest.herokuapp.com/";
-const dataPath="assets/data/";
+const assetsPath="assets/";
+const dataPath=assetsPath+"data/";
 const commonPath=dataPath+"common/";
 const countryPath=dataPath+"country/";
 const countriesPath=dataPath+"countries/";
@@ -108,15 +109,10 @@ export const environment = {
             chart14:commonPath+"chart14.json",
             chart15:commonPath+"chart15.json",
         }
+    },
+
+    paths:{
+        i18n:assetsPath+"i18n",
     }
 
 };
-
-/*
- * For easier debugging in development mode, you can import the following file
- * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
- *
- * This import should be commented out in production mode because it will have a negative impact
- * on performance if an error is thrown.
- */
-import 'zone.js/dist/zone-error';  // Included with Angular CLI.
