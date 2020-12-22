@@ -9,7 +9,7 @@ import {ChartDataFormat} from '../../../namespace';
 @Component({
   selector: 'app-use-chart13',
   template: `
-    <app-stacked-columns01 [series]="series" yAxisTitle="Number of gene banks reported" [legendEnabled]="false" *ngIf="series.length" [height]="300" fontStyleItalic="true" [exportTitle]="exportTitle"></app-stacked-columns01>
+    <app-stacked-columns01 [series]="series" [yAxisTitle]="'chartsLabels.use-chart13-yAxisTitle' | translate" [legendEnabled]="false" *ngIf="series.length" [height]="300" fontStyleItalic="true" [exportTitle]="exportTitle"></app-stacked-columns01>
   `,
   styles: []
 })

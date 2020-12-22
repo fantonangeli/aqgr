@@ -8,7 +8,7 @@ import {ChartDataFormat} from '../../../namespace';
 
 @Component({
   selector: 'app-countries-chart03',
-  template: ` <app-bars01 [series]="series" *ngIf="series.length" xAxisTitle="Total number of species reported by countries" [exportTitle]="exportTitle" [exportTitle]="exportTitle"></app-bars01> `,
+  template: ` <app-bars01 [series]="series" *ngIf="series.length" [xAxisTitle]="'chartsLabels.countries-chart03-xAxisTitle' | translate" [exportTitle]="exportTitle" [exportTitle]="exportTitle"></app-bars01> `,
   styles: []
 })
 export class CountriesChart03Component extends BaseChart01Component implements OnChanges {

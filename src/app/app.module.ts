@@ -1,11 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {HttpClientModule} from '@angular/common/http';
+import {HttpClientModule, HttpClient} from '@angular/common/http';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import {SearchModule} from './components/search/search.module';
+import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
 // ngx-bootstrap
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -150,6 +152,13 @@ import { CountrySelectionComponent } from './pages/country-selection/country-sel
     CollapseModule.forRoot(),
     NgxScrollTopModule,
     AqgrLibModule,
+    TranslateModule.forRoot({
+        loader: {
+            provide: TranslateLoader,
+            useFactory: HttpLoaderFactory,
+            deps: [HttpClient]
+        }
+    })
   ],
   providers: [
         {provide: 'LoggingEnabled', useValue: environment.logging}
@@ -157,3 +166,7 @@ import { CountrySelectionComponent } from './pages/country-selection/country-sel
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+export function HttpLoaderFactory(http: HttpClient) {
+    return new TranslateHttpLoader(http, environment.paths.i18n+"/", ".json");
+}

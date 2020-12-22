@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Homepage_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20201007-113110/backstop_default_Homepage_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20201222-134604/backstop_default_Homepage_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Homepage_0_document_0_tablet.png",
         "label": "Homepage",
@@ -20,17 +20,15 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "1.27",
-          "analysisTime": 179
-        },
-        "diffImage": "../bitmaps_test/20201007-113110/failed_diff_backstop_default_Homepage_0_document_0_tablet.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_World_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20201007-113110/backstop_default_World_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20201222-134604/backstop_default_World_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_World_0_document_0_tablet.png",
         "label": "World",
@@ -46,17 +44,15 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "5.98",
-          "analysisTime": 236
-        },
-        "diffImage": "../bitmaps_test/20201007-113110/failed_diff_backstop_default_World_0_document_0_tablet.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Country_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20201007-113110/backstop_default_Country_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20201222-134604/backstop_default_Country_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Country_0_document_0_tablet.png",
         "label": "Country",
@@ -72,17 +68,15 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "5.03",
-          "analysisTime": 494
-        },
-        "diffImage": "../bitmaps_test/20201007-113110/failed_diff_backstop_default_Country_0_document_0_tablet.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Country_selection_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20201007-113110/backstop_default_Country_selection_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20201222-134604/backstop_default_Country_selection_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Country_selection_0_document_0_tablet.png",
         "label": "Country selection",
@@ -106,7 +100,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Specie_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20201007-113110/backstop_default_Specie_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20201222-134604/backstop_default_Specie_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Specie_0_document_0_tablet.png",
         "label": "Specie",
@@ -122,17 +116,15 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "4.81",
-          "analysisTime": 385
-        },
-        "diffImage": "../bitmaps_test/20201007-113110/failed_diff_backstop_default_Specie_0_document_0_tablet.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Specie_selection_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20201007-113110/backstop_default_Specie_selection_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20201222-134604/backstop_default_Specie_selection_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Specie_selection_0_document_0_tablet.png",
         "label": "Specie selection",
@@ -156,7 +148,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Use_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20201007-113110/backstop_default_Use_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20201222-134604/backstop_default_Use_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Use_0_document_0_tablet.png",
         "label": "Use",
@@ -172,17 +164,15 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "5.06",
-          "analysisTime": 471
-        },
-        "diffImage": "../bitmaps_test/20201007-113110/failed_diff_backstop_default_Use_0_document_0_tablet.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Policies_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20201007-113110/backstop_default_Policies_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20201222-134604/backstop_default_Policies_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Policies_0_document_0_tablet.png",
         "label": "Policies",
@@ -198,12 +188,10 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "3.17",
-          "analysisTime": 289
-        },
-        "diffImage": "../bitmaps_test/20201007-113110/failed_diff_backstop_default_Policies_0_document_0_tablet.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     }
   ],
   "id": "backstop_default"

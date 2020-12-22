@@ -24,7 +24,9 @@ export const environment = {
             globalInfo:homePath+"globalInfo.json"
         },
         fishStatCultSpecCountries: {
-            all:homePath+"FishStatSpecCountries.json"
+            all:homePath+"FishStatSpecCountries.json",
+            bySpecies:dataPath+"FishStatSpecCountries.ASFISCode-MSM.json?species=",
+            byFtype:dataPath+"FishStatSpecCountries.ASFISCode-MSM.json?species="
         },
         params: {
             continent:"continent_like", 
@@ -79,6 +81,11 @@ export const environment = {
         countries:{
             all:baseUrl+"countries",
             limit: 10,
+            ftype: countriesPath+"ftype.json",
+            ftypeBySpecies: countriesPath+"ftype-filtered.json?specie=",
+            sFtype: countriesPath+"sftype.json",
+            sFtypeBySpecies: countriesPath+"sftype-filtered.json?ftype=",
+            species: countriesPath+"species.json",
         },
         use:{
             chart03:usePath+"chart03.json",
@@ -111,12 +118,3 @@ export const environment = {
     }
 
 };
-
-/*
- * For easier debugging in development mode, you can import the following file
- * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
- *
- * This import should be commented out in production mode because it will have a negative impact
- * on performance if an error is thrown.
- */
-import 'zone.js/dist/zone-error';  // Included with Angular CLI.

@@ -13,7 +13,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "screenshots": "node generateScreenshots.js",
-    "ghpages-deploy": "ng deploy --repo=https://github.com/fantonangeli/aqgr.git --base-href=/aqgr/"
+    "ghpages-deploy": "ng deploy --repo=https://github.com/fantonangeli/aqgr.git --base-href=/aqgr/",
+    "i18n:extract": "ngx-translate-extract --input ./src --output ./src/assets/i18n/en.json --clean --format json"
   },
   "private": true,
   "dependencies": {
@@ -26,10 +27,13 @@
     "@angular/platform-browser": "~11.0.4",
     "@angular/platform-browser-dynamic": "~11.0.4",
     "@angular/router": "~11.0.4",
+    "@biesbjerg/ngx-translate-extract": "^7.0.3",
     "@fortawesome/angular-fontawesome": "^0.8.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@ng-select/ng-select": "^5.0.9",
+    "@ngx-translate/core": "^13.0.0",
+    "@ngx-translate/http-loader": "^6.0.0",
     "angular-cli-ghpages": "^1.0.0-rc.1",
     "bootstrap": "^4.5.3",
     "chroma-js": "^2.1.0",

@@ -8,7 +8,7 @@ import {ChartDataFormat} from '../../../namespace';
 @Component({
   selector: 'app-common-chart15',
   template: `
-    <app-donut01 [series]="series" totalTemplate="Total number of<br>institutions<br>{total}" unit="institutions" [legendEnabled]="false" [enableDataLabels]="true" *ngIf="series.length" [height]="300" [exportTitle]="exportTitle"></app-donut01>
+    <app-donut01 [series]="series" [totalTemplate]="'chartsLabels.common-chart15-total' | translate" unit="institutions" [legendEnabled]="false" [enableDataLabels]="true" *ngIf="series.length" [height]="300" [exportTitle]="exportTitle"></app-donut01>
   `,
   styles: []
 })
