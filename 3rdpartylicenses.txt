@@ -171,6 +171,12 @@ to represent the company, product, or service to which they refer.**
 @ng-select/ng-select
 MIT
 
+@ngx-translate/core
+MIT
+
+@ngx-translate/http-loader
+MIT
+
 aqgr-lib
 
 bootstrap
