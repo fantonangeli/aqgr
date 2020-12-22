@@ -44,7 +44,7 @@
                 <app-accordion01 [(isOpen)]="accordionsProps[0].isOpen" *ngIf="accordionsProps[0].isVisible" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header [innerHTML]="'policiesPage.policies-chart01' | translate"></div>
                     <div body>
-                        <div class="mb-3"> The Registry questionnaire asks, for each country, if there are any species-specific controls on conservation, management and use of this species and where controls exist, to identify whether these controls apply to trade (export/import), the environment and biodiversity conservation and/or legislation on the use of wild relatives in fisheries and aquaculture?  </div>
+                        <div class="mb-3" [innerHTML]="'policiesPage.policies-chart01-description' | translate"></div>
                         <app-policies-chart01 *ngIf="accordionsProps[0].isOpen && accordionsProps[0].isVisible" [filterValues]="filterValues" [exportTitle]="'policiesPage.policies-chart01' | translate"></app-policies-chart01>
                     </div>
                 </app-accordion01>
@@ -52,7 +52,7 @@
                 <app-accordion01 [(isOpen)]="accordionsProps[1].isOpen" *ngIf="accordionsProps[1].isVisible" [filterValues]="filterValues" (resetFilterCriteriaEvent)="removeFilter($event)">
                     <div header [innerHTML]="'policiesPage.policies-chart02' | translate"></div>
                     <div body>
-                        <div class="mb-3"> The Registry questionnaire asks, for each country, if there are any species-specific controls on conservation, management and use of this species and where controls exist, to identify whether these controls apply to trade (export/import), the environment and biodiversity conservation and/or legislation on the use of wild relatives in fisheries and aquaculture?  </div>
+                        <div class="mb-3" [innerHTML]="'policiesPage.policies-chart02-description' | translate"></div>
                         <app-policies-chart02 *ngIf="accordionsProps[1].isOpen && accordionsProps[1].isVisible" [filterValues]="filterValues" [exportTitle]="'policiesPage.policies-chart02' | translate"></app-policies-chart02>
                     </div>
                 </app-accordion01>
@@ -61,7 +61,7 @@
                     <div header [innerHTML]="'policiesPage.policies-chart03' | translate"></div>
                     <div body>
                     <app-policies-chart03 *ngIf="accordionsProps[2].isOpen" [filterValues]="filterValues" [exportTitle]="'policiesPage.policies-chart03' | translate"></app-policies-chart03>
-                        <div class="mb-3"> Note: The graphic item is based on country responses in their Country Reports identifying national polices that address one or more of these AqGR related policy areas and represents the proportion of the reported policies which address each area.  </div>
+                        <div class="mb-3" [innerHTML]="'policiesPage.policies-chart03-notes' | translate"></div>
                     </div>
                 </app-accordion01>
 
@@ -69,7 +69,7 @@
                     <div header [innerHTML]="'policiesPage.policies-chart04' | translate"></div>
                     <div body>
                         <app-policies-chart04 *ngIf="accordionsProps[3].isOpen" [filterValues]="filterValues" [exportTitle]="'policiesPage.policies-chart04' | translate"></app-policies-chart04>
-                        <div class="mb-3">Note: The chart shows the total number of research institutions for the geographic area and a breakdown of the research issues they cover.</div>
+                        <div class="mb-3" [innerHTML]="'policiesPage.policies-chart04-notes' | translate"></div>
                     </div>
                 </app-accordion01>
 
@@ -77,7 +77,7 @@
                     <div header [innerHTML]="'policiesPage.common-chart14' | translate"></div>
                     <div body>
                         <app-common-chart14 *ngIf="accordionsProps[4].isOpen" [filterValues]="filterValues" [exportTitle]="'policiesPage.common-chart14' | translate"></app-common-chart14>
-                        <div class="mb-3">Note: The chart shows the total number of education and training institutions for the geographic area and a breakdown of the issues they cover.</div>
+                        <div class="mb-3" [innerHTML]="'policiesPage.common-chart14-notes' | translate"></div>
                     </div>
                 </app-accordion01>
 
@@ -85,7 +85,7 @@
                     <div header [innerHTML]="'policiesPage.common-chart15' | translate"></div>
                     <div body>
                         <app-common-chart15 *ngIf="accordionsProps[5].isOpen" [filterValues]="filterValues" [exportTitle]="'policiesPage.common-chart15' | translate"></app-common-chart15>
-                        <div class="mb-3">Note: The chart shows the total number of education and training institutions for the geographic area and a breakdown of the levels of education they deliver.</div>
+                        <div class="mb-3" [innerHTML]="'policiesPage.common-chart15-notes' | translate"></div>
                     </div>
                 </app-accordion01>
 

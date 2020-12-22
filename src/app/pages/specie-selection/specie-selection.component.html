@@ -1,16 +1,14 @@
 <div class="container mw-100">
     <div class="row">
         <div class="col-sm-12 col-md-12">
-            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Species Fact Sheet:</h1></div></div>
+            <div class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader"><span [innerHTML]="'SpeciesSelectionPage.pageTitle' | translate"></span></h1></div></div>
         </div>
-        <div class="col-12">
-            Search a specie to see the Specie Fact Sheet:
-        </div>
+        <div class="col-12"><span [innerHTML]="'SpeciesSelectionPage.intro' | translate"></span></div>
     </div>
 
     <div class="row pt-3">
         <div class="col-2">
-            <label for="taxonomy">Taxonomy:</label>
+            <label for="taxonomy" [innerHTML]="'SpeciesSelectionPage.taxonomyInputLabel' | translate"></label>
         </div>
         <div class="col-8">
             <ng-select [items]="taxonomy$ | async"
@@ -30,7 +28,7 @@
 
     <div class="row pt-3">
         <div class="col-2">
-            <label for="specie">Specie:</label>
+            <label for="specie" [innerHTML]="'SpeciesSelectionPage.specieInputLabel' | translate"></label>
         </div>
         <div class="col-8">
             <ng-select [items]="specie$ | async"
