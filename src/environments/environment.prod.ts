@@ -1,5 +1,6 @@
 const baseUrl="https://aqgr-demo-rest.herokuapp.com/";
-const dataPath="assets/data/";
+const assetsPath="assets/";
+const dataPath=assetsPath+"data/";
 const commonPath=dataPath+"common/";
 const countryPath=dataPath+"country/";
 const countriesPath=dataPath+"countries/";
@@ -24,9 +25,7 @@ export const environment = {
             globalInfo:homePath+"globalInfo.json"
         },
         fishStatCultSpecCountries: {
-            all:homePath+"FishStatSpecCountries.json",
-            bySpecies:dataPath+"FishStatSpecCountries.ASFISCode-MSM.json?species=",
-            byFtype:dataPath+"FishStatSpecCountries.ASFISCode-MSM.json?species="
+            all:homePath+"FishStatSpecCountries.json"
         },
         params: {
             continent:"continent_like", 
@@ -81,11 +80,6 @@ export const environment = {
         countries:{
             all:baseUrl+"countries",
             limit: 10,
-            ftype: countriesPath+"ftype.json",
-            ftypeBySpecies: countriesPath+"ftype-filtered.json?specie=",
-            sFtype: countriesPath+"sftype.json",
-            sFtypeBySpecies: countriesPath+"sftype-filtered.json?ftype=",
-            species: countriesPath+"species.json",
         },
         use:{
             chart03:usePath+"chart03.json",
@@ -115,6 +109,10 @@ export const environment = {
             chart14:commonPath+"chart14.json",
             chart15:commonPath+"chart15.json",
         }
+    },
+
+    paths:{
+        i18n:assetsPath+"i18n",
     }
 
 };
