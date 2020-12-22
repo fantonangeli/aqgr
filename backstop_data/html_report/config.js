@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Homepage_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20201222-134153/backstop_default_Homepage_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20201222-134604/backstop_default_Homepage_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Homepage_0_document_0_tablet.png",
         "label": "Homepage",
@@ -20,17 +20,15 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "3.89",
-          "analysisTime": 242
-        },
-        "diffImage": "../bitmaps_test/20201222-134153/failed_diff_backstop_default_Homepage_0_document_0_tablet.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_World_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20201222-134153/backstop_default_World_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20201222-134604/backstop_default_World_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_World_0_document_0_tablet.png",
         "label": "World",
@@ -46,17 +44,15 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "3.98",
-          "analysisTime": 178
-        },
-        "diffImage": "../bitmaps_test/20201222-134153/failed_diff_backstop_default_World_0_document_0_tablet.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Country_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20201222-134153/backstop_default_Country_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20201222-134604/backstop_default_Country_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Country_0_document_0_tablet.png",
         "label": "Country",
@@ -72,17 +68,15 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "2.46",
-          "analysisTime": 544
-        },
-        "diffImage": "../bitmaps_test/20201222-134153/failed_diff_backstop_default_Country_0_document_0_tablet.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Country_selection_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20201222-134153/backstop_default_Country_selection_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20201222-134604/backstop_default_Country_selection_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Country_selection_0_document_0_tablet.png",
         "label": "Country selection",
@@ -98,17 +92,15 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "1.87",
-          "analysisTime": 148
-        },
-        "diffImage": "../bitmaps_test/20201222-134153/failed_diff_backstop_default_Country_selection_0_document_0_tablet.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Specie_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20201222-134153/backstop_default_Specie_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20201222-134604/backstop_default_Specie_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Specie_0_document_0_tablet.png",
         "label": "Specie",
@@ -124,17 +116,15 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "2.15",
-          "analysisTime": 480
-        },
-        "diffImage": "../bitmaps_test/20201222-134153/failed_diff_backstop_default_Specie_0_document_0_tablet.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Specie_selection_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20201222-134153/backstop_default_Specie_selection_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20201222-134604/backstop_default_Specie_selection_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Specie_selection_0_document_0_tablet.png",
         "label": "Specie selection",
@@ -150,17 +140,15 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "1.88",
-          "analysisTime": 112
-        },
-        "diffImage": "../bitmaps_test/20201222-134153/failed_diff_backstop_default_Specie_selection_0_document_0_tablet.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Use_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20201222-134153/backstop_default_Use_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20201222-134604/backstop_default_Use_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Use_0_document_0_tablet.png",
         "label": "Use",
@@ -176,17 +164,15 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "2.98",
-          "analysisTime": 504
-        },
-        "diffImage": "../bitmaps_test/20201222-134153/failed_diff_backstop_default_Use_0_document_0_tablet.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/backstop_default_Policies_0_document_0_tablet.png",
-        "test": "../bitmaps_test/20201222-134153/backstop_default_Policies_0_document_0_tablet.png",
+        "test": "../bitmaps_test/20201222-134604/backstop_default_Policies_0_document_0_tablet.png",
         "selector": "document",
         "fileName": "backstop_default_Policies_0_document_0_tablet.png",
         "label": "Policies",
@@ -202,12 +188,10 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "2.45",
-          "analysisTime": 254
-        },
-        "diffImage": "../bitmaps_test/20201222-134153/failed_diff_backstop_default_Policies_0_document_0_tablet.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     }
   ],
   "id": "backstop_default"
