@@ -9,6 +9,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { UseComponent } from './pages/use/use.component';
 import { WorldComponent } from './pages/world/world.component';
 import { PoliciesComponent } from './pages/policies/policies.component';
+import { ErrorComponent } from 'src/app/pages/error/error.component';
 
 
 const routes: Routes = [
@@ -21,6 +22,8 @@ const routes: Routes = [
   { path: 'specie/:alphaCode', component: SpecieComponent },
   { path: 'use', component: UseComponent },
   { path: 'policies', component: PoliciesComponent },
+  { path: 'error', component: ErrorComponent },
+  { path: '**', pathMatch: 'full', redirectTo: 'error' },
 ];
 
 @NgModule({

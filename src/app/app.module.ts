@@ -75,6 +75,7 @@ import { SpecieChart03Component } from './components/charts/specie-chart03/speci
 import { SpecieSelectionComponent } from './pages/specie-selection/specie-selection.component';
 import { environment } from '../environments/environment';
 import { CountrySelectionComponent } from './pages/country-selection/country-selection.component';
+import { ErrorComponent } from './pages/error/error.component';
 
 @NgModule({
   declarations: [
@@ -135,6 +136,7 @@ import { CountrySelectionComponent } from './pages/country-selection/country-sel
     SpecieChart03Component,
     SpecieSelectionComponent,
     CountrySelectionComponent,
+    ErrorComponent,
   ],
   imports: [
     BrowserModule,
