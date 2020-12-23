@@ -124,6 +124,11 @@
         "taxonomyInputLabel":"Taxonomy:",
         "specieInputLabel":"Specie:"
     },
+    "errorPage":{
+        "pageTitle":"Oops!",
+        "errorMessage":"There was an error with the server",
+        "backToHomeLink":"Back to Home"
+    },
     "chartsLabels": {
         "common-chart04-xAxisTitle": "Production in tonnes",
         "common-chart09-tooltipLabels": {
