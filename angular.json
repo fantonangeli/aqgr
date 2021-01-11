@@ -35,6 +35,11 @@
             "allowedCommonJsDependencies": [
                "highcharts"
             ],
+            "sourceMap": {
+              "styles": true,
+              "scripts": true,
+              "vendor": true
+            },
             "scripts": []
           },
           "configurations": {
@@ -70,11 +75,6 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "sourceMap": {
-              "styles": true,
-              "scripts": true,
-              "vendor": true
-            },
             "browserTarget": "aqgr-information-system:build"
           },
           "configurations": {
