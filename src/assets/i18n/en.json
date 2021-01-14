@@ -1,8 +1,8 @@
 {
     "homePage": {
-        "infoBox": " A <b>farmed type</b> is a cultured aquatic organism that could be a strain, variety, hybrid, triploid, monosex group, other genetically altered form, or wild type ",
+        "infoBox": " A <b>farmed type</b> is a cultured aquatic organism that could be a strain, variety, hybrid, triploid, monosex group, other genetically altered form, or wild type. ",
         "intro": {
-            "0": "Welcome to the Registry of Farmed Types of Aquatic Genetic Resource.  This is a prototype version of the Registry developed and maintained by FAO. It provides you with access to searchable databases of initial information on primary and secondary farmed types of the more than 600 farmed aquatic species across ten taxonomic groups.  The prototype includes some information from over 90 countries. \r\n\r\n            <br>\r\n            <br>\r\n            The information is compiled through country contact persons on aquatic genetic resources (AqGR) and Member Country National Focal Points (NFPs). It allows users to analyse the diversity of farmed types of AqGR at national, regional and global levels including the characteristics and status of these farmed types from both development and conservation perspectives.\r\n            <br><br>\r\n            The current registry includes information on {{totalSpecies}} species, from {{totalCountries}} countries including {{totalFtypes}} primary and {{totalSftypes}} secondary farmed types.\r\n            <br>\r\n            This page summarises the data currently contained within the Registry. Data can also be viewed in separate pages focusing on ",
+            "0": "Welcome to the Registry of Farmed Types of Aquatic Genetic Resource.  This is a prototype version of the Registry developed and maintained by FAO. It provides you with access to searchable databases on primary and secondary farmed types for more than 600 farmed aquatic species across 10 taxonomic groups.  The prototype includes information from over 90 countries. \r\n\r\n            <br>\r\n            <br>\r\n            The information is compiled through country contact persons on aquatic genetic resources (AqGR) and Member Country National Focal Points (NFPs). It allows users to analyse the diversity of farmed types of AqGR at national, regional and global levels including the characteristics and status of these farmed types from both development and conservation perspectives.\r\n            <br><br>\r\n            The current registry includes information on {{totalSpecies}} species, from {{totalCountries}} countries including {{totalFtypes}} primary and {{totalSftypes}} secondary farmed types.\r\n            <br>\r\n            This page summarises the data currently contained within the Registry. Data can also be viewed in separate pages focusing on ",
             "1": " for the management of AqGR.",
             "2": "<br> <br> Data can also be viewed in "
         },
@@ -12,42 +12,42 @@
         "useLink": "Conservation & Sustainable Use",
         "policiesLink": "Policies, Institutions and Capacity",
         "pageTitle": "Summary of records currently contained in the Registry",
-        "common-chart01": " Proportion of primary farmed types entered ",
-        "common-chart02": " Proportion of secondary farmed types entered ",
+        "common-chart01": " Proportion of primary farmed types ",
+        "common-chart02": " Proportion of secondary farmed types ",
         "countries-chart03": " Number of species (based on reports by country) contained in the Registry ",
-        "footer": " The Registry provides a collection of records on farmed types used in aquaculture and information on use, conservation and development of these resources. The information collected includes data from country reports prepared by NFPs for The State of the World’s Aquatic Genetic Resources, surveys compiled by species expert and NFPs, other FAO information systems on fishery and aquaculture resources.  <br> <br> The Registry has been developed with the support of the Government of Germany.  <br> <br> The information held within this database will be checked and updated on a six-monthly basis. FAO welcomes any advice on information that is out-of-date or incorrect or suggestions on adaptations that can improve the utility of the information. Advice on possible amendments can be emailed to the attention of Dr Graham Mair (FI-Inquiries@fao.org). <br> <br> <b>Citing the database:</b> FAO. 2020. Database of Farmed types in Aquaculture. In: Food and Agriculture Organization of the United Nation [online]. Rome. Database version 1-2020. www.fao.org/name/database-of-farmed-types/en  <br> <br> <b>Disclaimer:</b> The designations employed and the presentation of material in this database do not imply the expression of any opinion whatsoever on the part of the Food and Agriculture Organization of the United Nations (FAO) concerning the legal or development status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.  "
+        "footer": " The Registry provides a collection of records on farmed types used in aquaculture and information on the conservation, sustainable use and development of these resources. The information collected includes data from country reports prepared by NFPs for The State of the World’s Aquatic Genetic Resources for Food and Agriculture, surveys compiled by species experts and NFPs, and other FAO information systems on fishery and aquaculture resources.  <br> <br> The Registry has been developed with the support of the Government of Germany.  <br> <br> The information held within this database will be checked and updated on a six-monthly basis. FAO welcomes any advice on information that is out-of-date or incorrect, or suggestions on adaptations that can improve the utility of the information. Advice on possible amendments can be emailed for the attention of Dr Graham Mair (FI-Inquiries@fao.org).  <br> <br> <b>subsCiting the database:</b> FAO. 2020. Database of Farmed types in Aquaculture. In: Food and Agriculture Organization of the United Nation [online]. Rome. Database version 1-2020. www.fao.org/name/database-of-farmed-types/en  <br> <br> <b>Disclaimer:</b> The designations employed and the presentation of material in this database do not imply the expression of any opinion whatsoever on the part of the Food and Agriculture Organization of the United Nations (FAO) concerning the legal or development status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries.  "
     },
     "worldPage": {
-        "pageTitle": "Date on farmed types reported",
-        "common-chart12": "Number of primary farmed types entered into the Registry",
+        "pageTitle": "Data on farmed types reported",
+        "common-chart12": "Number of primary farmed types",
         "common-chart13": "Top 10 developed species (by number of farmed types)",
         "common-chart06": "Recorded production by primary farmed type"
     },
     "usePage": {
         "pageTitle": " Conservation and sustainable use of AqGR",
         "pageTitleWithCountry": " Conservation and sustainable use of AqGR for: {{selectedCountry.value}}",
-        "introText": "Whilst currently all farmed AqGR still exist as wild relatives, some AqGR are considered under threat. Both wild relatives and farmed types of AqGR represent a key resource for the future development of aquaculture and need to be conserved. At the same time, aquaculture and farmed AqGR, particularly where they are non-native, can represent a risk to biodiversity. Disruption to biodiversity can occur through habitat disruption brought about by aquaculture, by disease introduced from cultured species and through genetic contamination from escapes or deliberate introductions of farmed AqGR into the wild.<br /><br />This page summarizes information contained in the Registry relating to the risks and controls associated with farmed AqGRand alsosummarizes the <em>in situ</em> and <em>ex situ</em> conservation resources (protected areas, live and <em>in vitro</em> gene banks) for AqGR which exist in member countries. Graphic items on native and none native species and the risk status of species are based on data entered into the Registry by countries. Graphic items relating to conservation programmes (protected areas and gene banks) are based on data collected from country reports as part of the preparation of the Report on the State of the World&rsquo;s Aquatic Genetic Resources for Food and Agriculture published in August 2019.",
+        "introText": "Whilst currently all farmed AqGR still exist as wild relatives, some AqGR are considered under threat. Both wild relatives and farmed types of AqGR represent a key resource for the future development of aquaculture and need to be conserved. At the same time, aquaculture and farmed AqGR, particularly where they are non-native, can represent a risk to biodiversity. Disruption to biodiversity can occur through habitat disruption brought about by aquaculture, by disease introduced from cultured species and through genetic contamination from escapes or deliberate introductions of farmed AqGR into the wild.<br /><br />TThis page summarizes information contained in the Registry relating to the risks and controls associated with farmed AqGR and also summarizes the <em>in situ</em> and <em>ex situ</em> conservation resources (protected areas, live and <em>in vitro</em> gene banks) for AqGR which exist in Member Countries. Graphic items on native and non-native species and the risk status of species are based on data entered into the Registry by countries. Graphic items relating to conservation programmes (protected areas and gene banks) are based on data collected from country reports as part of the preparation of the Report on the State of the World&rsquo;s Aquatic Genetic Resources for Food and Agriculture, published in August 2019.",
         "expandBtn": "Expand all",
         "collapseBtn": "Collapse all",
         "common-chart05": "Proportion of farmed native and non-native species reported by countries",
         "common-chart08": "Proportion of farmed native and non-native species reported by continent",
-        "use-chart03": "The proportion (%) of aquaculture production that comes from non-native species by continent",
+        "use-chart03": "Proportion of aquaculture production of non-native species by continent",
         "common-chart04": "Top 10 non-native species by production volume",
         "common-chart09": "Risk status of species reported as cultured by continent",
         "use-chart06": "Number of species whose introduction represents a risk by taxonomic category",
-        "use-chart07": "Numbers and effectiveness of aquatic projected areas by continent",
+        "use-chart07": "Number and effectiveness of aquatic protected areas by continent",
         "use-chart08": "Number of species with live gene banks by continent",
         "use-chart09": "Number of species with live gene banks by taxonomic category",
         "use-chart10": "Top 10 species conserved in live gene banks",
-        "use-chart11": "No of species with <i>in vitro</i> gene banks by continent",
+        "use-chart11": "Number of species with <i>in vitro</i> gene banks by continent",
         "use-chart12": "No of species with reported <i>in vitro</i> gene banks by taxonomy categories",
-        "use-chart13": "Top 10 species conserved <i>in vitro</i> gene banks"
+        "use-chart13": "Top 10 species conserved in <i>in vitro</i> gene banks"
     },
     "policiesPage": {
         "pageTitle": "Data on Farmed Types",
         "expandBtn": "Expand all",
         "collapseBtn": "Collapse all",
-        "intro": " At this stage of its development the prototype Registry questionnaire does not include questions related to national policy, institutions or capacity with the exception of one question related to controls on access to AqGR. The data related to this question is covered in the first two graphic items. The remaining graphic items presented on this page are based on data collected from Country Reports as part of the preparation of the Report on the State of the World’s Aquatic Genetic Resources for Food and Agriculture published in August 2019. This information refers to legislation and policy that relates to or impacts upon AqGR including controls on their use and exchange. Information is also provided on the numbers and focus of institutions involved in Research and Education related to AqGR.  ",
+        "intro": " At this stage of its development the prototype Registry questionnaire does not include questions related to national policy, institutions or capacity with the exception of one question related to controls on access to AqGR. The data related to this question are covered in the first two graphic items. The remaining graphic items presented on this page are based on data collected from Country Reports as part of the preparation of the Report on the State of the World’s Aquatic Genetic Resources for Food and Agriculture published in August 2019. This information refers to legislation and policy that relates to or impacts upon AqGR including controls on their use and exchange. Information is also provided on the numbers and focus of institutions involved in research and education related to AqGR.  ",
         "policies-chart01": " Number of species under control measures by continent ",
         "policies-chart01-description":" The Registry questionnaire asks, for each country, if there are any species-specific controls on conservation, management and use of this species and where controls exist, to identify whether these controls apply to trade (export/import), the environment and biodiversity conservation and/or legislation on the use of wild relatives in fisheries and aquaculture?  ",
         "policies-chart02": " Number of species under control measures by taxonomic category",
@@ -64,7 +64,7 @@
     "countryPage": {
         "pageTitle": "Country fact sheet on Farmed Types of Aquatic Genetic Resources: {{countryName}}",
         "selectCountryLink": "Select another country",
-        "intro": " This fact sheet presents a summary of the data entered into the Registry of Farmed Types of AqGR in {{countryName}} relating to the conservation, sustainable used and management of AqGR in the country.  Data for {{countryName}} was last updated on {{ lastModifiedDate }}.  ",
+        "intro": " This fact sheet presents a summary of the data entered into the Registry of Farmed Types of AqGR in {{countryName}} relating to the conservation, sustainable use and development of AqGR in the country.  Data for {{countryName}} were last updated on {{ lastModifiedDate }}.  ",
         "developmentTitle": "Development of AqGR in {{countryName}}",
         "expandBtn": "Expand all",
         "collapseBtn": "Collapse all",
@@ -114,15 +114,15 @@
         "specie-chart03": "Number of records for <i>{{specieName}}</i> under control measures"
     },
     "countrySelectionPage":{
-        "pageTitle":"Countries Fact Sheet:",
+        "pageTitle":"Country Fact Sheets:",
         "intro":" Search a country to see the Country Fact Sheet: ",
         "countryInputLabel":"Country:"
     },
     "SpeciesSelectionPage":{
         "pageTitle":"Species Fact Sheet:",
-        "intro":" Search a specie to see the Specie Fact Sheet: ",
-        "taxonomyInputLabel":"Taxonomy:",
-        "specieInputLabel":"Specie:"
+        "intro":" Search a species to see the Species Fact Sheet: ",
+        "taxonomyInputLabel":"Taxonomic Category:",
+        "specieInputLabel":"Species:"
     },
     "errorPage":{
         "pageTitle":"Oops!",

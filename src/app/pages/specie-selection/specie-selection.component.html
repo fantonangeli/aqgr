@@ -30,7 +30,7 @@
         <div class="col-2">
             <label for="specie" [innerHTML]="'SpeciesSelectionPage.specieInputLabel' | translate"></label>
         </div>
-        <div class="col-8">
+        <div class="col-8 font-italic">
             <ng-select [items]="specie$ | async"
              id="specie"
              bindLabel="key"
