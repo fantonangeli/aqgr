@@ -2,7 +2,7 @@
     <h6 class="text-muted">{{'filters.titles.'+title | translate}}</h6>
     <input type="text" class="form-control mb-2" [(ngModel)]="searchText" [placeholder]="'filters.search.empty' | translate" *ngIf="searchEnabled" (input)="onSearchChange($event.target.value)" [disabled]="selectedFilter">
     <p *ngFor="let item of aggregation.values; let i = index" [ngClass]="'index-'+i">
-        <a (click)="search(item)">{{item.key}} <span *ngIf="item.value">({{item.value}})</span></a>
+    <a [ngClass]="{'font-italic':(aggregation.name==='species')}" (click)="search(item)">{{item.key}} <span *ngIf="item.value">({{item.value}})</span></a>
     </p> 
     <p *ngIf="aggregation.values.length>=10">
         <a>...</a>

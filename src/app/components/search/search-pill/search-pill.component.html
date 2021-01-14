@@ -6,7 +6,7 @@
             *ngIf="groupPills(filterCondition.key, filterValues)"
         >
             <i
-                class="material-icons md-18 align-bottom mr-1">filter_list</i>{{filterCondition.value}}
+                class="material-icons md-18 align-bottom mr-1">filter_list</i><span [ngClass]="{'font-italic':(filterCondition.key==='species')}">{{filterCondition.value}}</span>
             <span class="ml-2 text-muted pointer">×</span>
         </button>
     </div>
