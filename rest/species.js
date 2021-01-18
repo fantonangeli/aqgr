@@ -149,7 +149,7 @@ module.exports=[
       "Western Asia",
       "Central America",
       "Eastern Africa",
-      "Middle Africa",
+      "Central Africa",
       "Southern Africa",
       "Micronesia",
       "Polynesia"
@@ -399,7 +399,7 @@ module.exports=[
       "Caribbean",
       "South America",
       "Melanesia",
-      "Middle Africa",
+      "Central Africa",
       "Southern Africa",
       "Micronesia",
       "Northern America"
@@ -520,7 +520,7 @@ module.exports=[
       "Western Asia",
       "Caribbean",
       "Melanesia",
-      "Middle Africa",
+      "Central Africa",
       "Southern Asia",
       "Southern Africa",
       "Eastern Europe",
@@ -626,7 +626,7 @@ module.exports=[
       "Eastern Africa",
       "Northern America",
       "Western Asia",
-      "Middle Africa",
+      "Central Africa",
       "Caribbean",
       "Western Europe",
       "Eastern Europe",
@@ -1040,7 +1040,7 @@ module.exports=[
       "Eastern Europe",
       "Western Europe",
       "Southern Asia",
-      "Middle Africa",
+      "Central Africa",
       "Western Asia",
       "Northern Europe",
       "Southern Africa",
@@ -1120,7 +1120,7 @@ module.exports=[
       "Northern America",
       "Western Europe",
       "Western Asia",
-      "Middle Africa",
+      "Central Africa",
       "Southern Europe",
       "Caribbean",
       "Northern Europe",
@@ -1931,7 +1931,7 @@ module.exports=[
       "Western Asia",
       "Melanesia",
       "Caribbean",
-      "Middle Africa",
+      "Central Africa",
       "Micronesia",
       "Central America",
       "South America",
@@ -2495,7 +2495,7 @@ module.exports=[
       "South-Eastern Asia",
       "Western Africa",
       "Northern Africa",
-      "Middle Africa"
+      "Central Africa"
     ]
   },
   {
@@ -3672,7 +3672,7 @@ module.exports=[
       "Eastern Asia",
       "Southern Europe",
       "Northern Africa",
-      "Middle Africa",
+      "Central Africa",
       "Western Africa",
       "Central America"
     ]
@@ -4080,7 +4080,7 @@ module.exports=[
     "continent": "Africa",
     "region": [
       "Western Africa",
-      "Middle Africa"
+      "Central Africa"
     ]
   },
   {
@@ -6207,7 +6207,7 @@ module.exports=[
     "continent": "Africa",
     "region": [
       "Western Africa",
-      "Middle Africa",
+      "Central Africa",
       "Eastern Africa"
     ]
   },
@@ -6838,7 +6838,7 @@ module.exports=[
     "continent": "Africa",
     "region": [
       "Western Africa",
-      "Middle Africa"
+      "Central Africa"
     ]
   },
   {
@@ -7341,7 +7341,7 @@ module.exports=[
     ],
     "continent": "Africa",
     "region": [
-      "Middle Africa",
+      "Central Africa",
       "Western Africa"
     ]
   },
@@ -7512,7 +7512,7 @@ module.exports=[
     ],
     "continent": "Africa",
     "region": [
-      "Middle Africa",
+      "Central Africa",
       "Northern Africa"
     ]
   },
@@ -8753,7 +8753,7 @@ module.exports=[
     "taxonomy": "Freshwater fishes",
     "country": "Chad",
     "continent": "Africa",
-    "region": "Middle Africa"
+    "region": "Central Africa"
   },
   {
     "key": "Cichla spp",
@@ -9149,7 +9149,7 @@ module.exports=[
     "taxonomy": "Freshwater fishes",
     "country": "Cameroon",
     "continent": "Africa",
-    "region": "Middle Africa"
+    "region": "Central Africa"
   },
   {
     "key": "Bolbometopon muricatum",
