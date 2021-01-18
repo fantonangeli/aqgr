@@ -215,7 +215,7 @@ module.exports=[
       "Caribbean",
       "Western Europe",
       "Southern Europe",
-      "Middle Africa",
+      "Central Africa",
       "Northern Europe",
       "Melanesia",
       "Australia and New Zealand",
@@ -861,7 +861,7 @@ module.exports=[
       "Northern Africa",
       "Central America",
       "Polynesia",
-      "Middle Africa",
+      "Central Africa",
       "Caribbean",
       "Western Africa",
       "Western Europe"

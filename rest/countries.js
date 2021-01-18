@@ -31,7 +31,7 @@ module.exports=[
     "key": "Angola",
     "value": 2,
     "continent": "Africa",
-    "region": "Middle Africa",
+    "region": "Central Africa",
     "iso3": "AGO"
   },
   {
@@ -206,7 +206,7 @@ module.exports=[
     "key": "Cameroon",
     "value": 8,
     "continent": "Africa",
-    "region": "Middle Africa",
+    "region": "Central Africa",
     "iso3": "CMR"
   },
   {
@@ -220,14 +220,14 @@ module.exports=[
     "key": "Central African Republic",
     "value": 5,
     "continent": "Africa",
-    "region": "Middle Africa",
+    "region": "Central Africa",
     "iso3": "CAF"
   },
   {
     "key": "Chad",
     "value": 6,
     "continent": "Africa",
-    "region": "Middle Africa",
+    "region": "Central Africa",
     "iso3": "TCD"
   },
   {
@@ -255,7 +255,7 @@ module.exports=[
     "key": "Congo",
     "value": 2,
     "continent": "Africa",
-    "region": "Middle Africa",
+    "region": "Central Africa",
     "iso3": "COG"
   },
   {
@@ -346,7 +346,7 @@ module.exports=[
     "key": "Equatorial Guinea",
     "value": 4,
     "continent": "Africa",
-    "region": "Middle Africa",
+    "region": "Central Africa",
     "iso3": "GNQ"
   },
   {
@@ -423,7 +423,7 @@ module.exports=[
     "key": "Gabon",
     "value": 3,
     "continent": "Africa",
-    "region": "Middle Africa",
+    "region": "Central Africa",
     "iso3": "GAB"
   },
   {

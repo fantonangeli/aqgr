@@ -336,7 +336,7 @@ module.exports = [
       "Eastern Africa",
       "Central Asia",
       "Caribbean",
-      "Middle Africa",
+      "Central Africa",
       "Southern Africa",
       "Polynesia"
     ]
@@ -769,7 +769,7 @@ module.exports = [
       "Caribbean",
       "Melanesia",
       "Micronesia",
-      "Middle Africa",
+      "Central Africa",
       "Southern Africa",
       "Polynesia"
     ]
@@ -1138,7 +1138,7 @@ module.exports = [
       "Caribbean",
       "Melanesia",
       "Micronesia",
-      "Middle Africa",
+      "Central Africa",
       "Southern Africa",
       "Polynesia"
     ]

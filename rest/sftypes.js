@@ -117,7 +117,7 @@ module.exports = [
       "Melanesia",
       "Central Asia",
       "Micronesia",
-      "Middle Africa"
+      "Central Africa"
     ],
     "specie": [
       "Laminaria japonica",
@@ -361,7 +361,7 @@ module.exports = [
       "Melanesia",
       "Central Asia",
       "Micronesia",
-      "Middle Africa"
+      "Central Africa"
     ],
     "specie": [
       "Laminaria japonica",
@@ -605,7 +605,7 @@ module.exports = [
       "Melanesia",
       "Central Asia",
       "Micronesia",
-      "Middle Africa"
+      "Central Africa"
     ],
     "specie": [
       "Laminaria japonica",
@@ -849,7 +849,7 @@ module.exports = [
       "Melanesia",
       "Central Asia",
       "Micronesia",
-      "Middle Africa"
+      "Central Africa"
     ],
     "specie": [
       "Laminaria japonica",
@@ -1093,7 +1093,7 @@ module.exports = [
       "Melanesia",
       "Central Asia",
       "Micronesia",
-      "Middle Africa"
+      "Central Africa"
     ],
     "specie": [
       "Eucheuma spp",
@@ -1337,7 +1337,7 @@ module.exports = [
       "Melanesia",
       "Central Asia",
       "Micronesia",
-      "Middle Africa"
+      "Central Africa"
     ],
     "specie": [
       "Eucheuma spp",
@@ -1581,7 +1581,7 @@ module.exports = [
       "Melanesia",
       "Central Asia",
       "Micronesia",
-      "Middle Africa"
+      "Central Africa"
     ],
     "specie": [
       "Ruditapes philippinarum",

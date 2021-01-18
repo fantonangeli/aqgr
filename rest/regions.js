@@ -95,7 +95,7 @@ module.exports=[
     "continent": "Oceania"
   },
   {
-    "key": "Middle Africa",
+    "key": "Central Africa",
     "value": 32,
     "continent": "Africa"
   },
