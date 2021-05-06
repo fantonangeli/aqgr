@@ -38,7 +38,7 @@
     "bootstrap": "^4.5.3",
     "chroma-js": "^2.1.0",
     "concurrently": "^5.3.0",
-    "highcharts": "^8.2.2",
+    "highcharts": "^9.0.0",
     "jsonata": "^1.8.4",
     "jsonpath": "^1.0.2",
     "material-design-icons": "^3.0.1",
